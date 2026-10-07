@@ -1,0 +1,13 @@
+{
+  "id": "curated-telescope",
+  "repository": "https://github.com/joffreysp/telescope-zoom",
+  "commit": "8a0e22d16bae84271a646e45e1a5e29a5f9c1328",
+  "archiveSha256": "6477b0a1fba991ac72fdd653c63b6952a0b07805fffed30be23cadd9f1311145",
+  "capturedAt": "2026-10-06T09:55:55.228Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 22,
+  "bytes": 1647273
+}

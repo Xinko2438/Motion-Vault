@@ -1,0 +1,5 @@
+{
+  "id": "curated-glass-torus",
+  "implementation": "independent",
+  "reason": "原作者公布的源码仓库现返回404；独立实现透明圆环、折射与环形排字，保留原文章作为设计依据。"
+}

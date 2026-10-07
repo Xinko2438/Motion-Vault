@@ -1,0 +1,52 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-particles",
+  "directory": "online-particles",
+  "title": "粒子散开与重新聚字",
+  "version": "2d9a15d737473c4e",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "55d371d35e29640b08213c89a12eb68030daf135b060a063e8889d851b23f5ef",
+    "demo.mjs": "6f86e04684f2d83f46346efd8070b40b5be78637319c5eb2659910d09e354bb2",
+    "index.html": "213caaca0da52b9b92657eb3621e4f1ef4de463b6d5eac5ef6238d6ceebee722",
+    "DESIGN.md": "1776a11230863558a69d8dee83f9748bd68a03249f200812281c323e2f6963de",
+    "IMPLEMENTATION.md": "b3ef488e20b1efdd34344bcbe4510e1cf0eee2b619090779a46c0dd3145566a1",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "164100fbc1c8db336716c450b57c1b949c67c966691c7571233f516b5a6de239",
+    "source-map.json": "e3bd8a845efb379217b5822f389478a6571336464f81f5fbebd7ddf62ff50948"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "implementationVersion": "2d9a15d737473c4e",
+    "captured": true,
+    "posterSha256": "e0d41bb274925e4604790c508f879a4d36525b3758fa8bb2442fd03948791014",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:04.849Z",
+    "videoSha256": "9ecf28f3785f7b980fe18479b7d11c0c24656ab07d1b489f679879ae8878a45f",
+    "videoBytes": 81637,
+    "frameCount": 96,
+    "distinctFrames": 46,
+    "durationSeconds": 4.8,
+    "fps": 20,
+    "captureMethod": "Deterministic local DOM timeline sampled and encoded; not original-site recording"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

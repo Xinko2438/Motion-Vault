@@ -1,0 +1,18 @@
+{
+  "implementation_kind": "adapted_author_source",
+  "author": "David Faure",
+  "source": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+  "repository": "https://github.com/davidfaure/3d-text-animation-codrops",
+  "commit": "7a93ccea1ac1783f57acaeab978844ecee3e261d",
+  "version": "b5b3f948e71c4896",
+  "differences": [
+    "保留原作者核心实现；移除广告、第三方字体和无关外链加载。",
+    "构建使用本地打包的锁定依赖，预览页面不依赖源站在线运行。",
+    "系统字体替代会改变原作字形，不宣称原作逐像素一致。",
+    "完整交互保持不透明沙箱；只将当前清单允许的本地公开素材通过只读通道传入。独立运行保留原生加载方式，效果核心与录屏一致。"
+  ],
+  "rights": "代码按仓库许可证或Codrops可下载示例许可保留署名。演示照片、模型及商标须按其各自条款检查，生产替换素材，不把代码许可当作素材商用许可。未发布字体文件。",
+  "upstream_visual_verified": false,
+  "reference_author": "David Faure",
+  "reference_title": "柱面排字与三维阅读节奏"
+}

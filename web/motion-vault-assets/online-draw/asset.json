@@ -1,0 +1,52 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-draw",
+  "directory": "online-draw",
+  "title": "线稿路径渐进绘制",
+  "version": "86ecdac74a61f9ec",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "7a15e4477052d08e4c701e11395ce1d6812d07ad3e1fd57cf53358e3ff81458e",
+    "demo.mjs": "448bef4b3f3e8e65375164c0e860635886d26ef0dd1ad3da35bab30ae3cc8c88",
+    "index.html": "17d972ff2b8d58259829f146669b6d54f776111516e8fbdff36f8f3742af0b0b",
+    "DESIGN.md": "fcb5bea5c313c9aa660c399eb1c314ce1b9bfcbfa99c9d32eae2877145fe9dfa",
+    "IMPLEMENTATION.md": "c3b9348f7fa7820f01e3dd86becdbda01b4df180dd25a5e3cb3fce9e89d6246c",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "3271c85a211dc99514baccf21bcb0d158a61023d7f2769cd1593331b39dcff9b",
+    "source-map.json": "050e88c7739d2201397df20d6b1d0098a0e81856b58e7a7e45ff52e6ce96e513"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "implementationVersion": "86ecdac74a61f9ec",
+    "captured": true,
+    "posterSha256": "5a03306acf814692f17e081a702fa650db5dd98071c6cafadd17fc2a17100d63",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:59.529Z",
+    "videoSha256": "c9b6b20935822d41fd3af51cbf100ee46075a9da1e40570daeb969f858a69f22",
+    "videoBytes": 18419,
+    "frameCount": 96,
+    "distinctFrames": 34,
+    "durationSeconds": 4.8,
+    "fps": 20,
+    "captureMethod": "Deterministic local DOM timeline sampled and encoded; not original-site recording"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

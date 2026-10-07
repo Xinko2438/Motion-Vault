@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "22",
+  "directory": "local-22",
+  "title": "3D 悬浮视差与表面反光",
+  "version": "5da0da8fa720b23e",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "734cd7a1e07ec18f848fe8e8a7cf8130141fa4304f79ec74d411b5e1ae7dafce",
+    "demo.mjs": "22ad75b7bead49094802a8023710292056644d90d87353eeadfcf01b5ebdcac5",
+    "index.html": "e2a6de21b04068157c9f539304db93b4d7f449677d9569e645bf0a5fd940c8c0",
+    "DESIGN.md": "c0906097be946ddb6a064ff8daa2f7feb8f78aa2082a2cc47d7a05532a358ba5",
+    "IMPLEMENTATION.md": "c4339b7296472111f449b3f855e50d6aa2190ba05775e416df24d3c63a82d33d",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "bd9299677ce5d051e07d7dab42a6c7f527abbd019f466d97e5beee57a35b7fdd",
+    "source-map.json": "9d85aa8fd651184b829194190d6d2a68c470aeaf790b9155fe61ae54ef95c8ea"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "5da0da8fa720b23e",
+    "captured": true,
+    "posterSha256": "058d5ad5460986c9e4f4b3a259da76e6fe0324847650707904f3211b556d2502",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:51.048Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

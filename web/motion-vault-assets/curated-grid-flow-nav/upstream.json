@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/codrops/GridFlowEffect",
+  "commit": "70ad0ca5dc6920e5fd5c6fa51aab1706c0001fa3",
+  "archiveSha256": "b9611a6e10bec92265289adbba7e52854aaf4dc95db610aa1bcccd669b10ae4c",
+  "capturedAt": "2026-10-06T04:12:21.571Z",
+  "fontFilesExcluded": true,
+  "networkUse": "Source capture only. Runtime external requests must be removed and tested separately.",
+  "status": "source_pinned_not_yet_adapted"
+}

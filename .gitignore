@@ -1,0 +1,27 @@
+# Runtime, dependencies and generated build output
+.runtime/
+**/node_modules/
+**/dist/
+**/build/
+**/coverage/
+**/.cache/
+**/.venv/
+**/venv/
+
+# Secrets and credentials
+.env
+.env.*
+**/.env
+**/.env.*
+**/credentials.json
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.key
+
+# Logs and local editor/OS state
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db

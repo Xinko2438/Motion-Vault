@@ -1,0 +1,90 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-metal-name",
+  "title": "字形截面的金属空间结构",
+  "kind": "independent_code",
+  "status": "local_source_verified",
+  "version": "bd731e31ddc9ebc1",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "local_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "e0c89eb4605bb674c1ca67afb2f0dcc92f422cdc3f810c5fff58d95ad9df0aa9",
+    "videoSha256": "215c40a38002c0c75ee8b991e4b9db1ae22bb768e506e6b22333bc3aaf7dc1f3",
+    "videoBytes": 1020178,
+    "implementationVersion": "bd731e31ddc9ebc1",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-independent-20261006-two",
+      "at": "2026-10-06T16:26:38.118Z",
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 6.4638,
+      "frameCount": 393,
+      "visualChanges": 352,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 142,
+        "contentFPS": 59.16666666666667,
+        "longestHoldSeconds": 0.06619999999999981
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "35e6b65da8e66cb3335a36a4661b22efba36d7cd1fe6a00b58b177b6b4ed7d43",
+    "IMPLEMENTATION.md": "9cd64a6394a1fa617e357c2b473bf72bd1bb8a32107a4b11e5c9d9e0af1e0eeb",
+    "THREE-LICENSE.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "environment-license.json": "15f3c1d9044d08ff433dfed7c5b31037f18e5b5d2e2084d3acc0ff2f616ca9dd",
+    "parameters.json": "a58366dcdd33eb31e08f0a41450c2de0435009593579ca96455f95cd9cea53c6",
+    "provenance.json": "a65dacf1791448e45a8e4f82c28351162d11189da3f325a50f1a1e2639a3cee5",
+    "run/effect.js": "d0d78602ef5ff0bccf2d23bf92e743f4f6255e9ecfde08698373b78d247e9983",
+    "run/environment.hdr": "30933d55e45f0795daf49f3cbefbe0e5ebcb821ee04fb0a2818c02ffc3938817",
+    "run/index.html": "83f312a9e4fa6b3456eed4c8e059aec7bf5e908cc5e976f983931611b159cdc5",
+    "run/style.css": "d41d1fd56696d7ccbe83a8c110ce701269f25ae10fb7335265c166a868226648",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "6b8d0f51d819d8d05fe7a32444cd956ccd433e281068d890f61ffe2ec35e74f0",
+    "source/scene.js": "fb6c15a79880b7243942f0b1dc5b9e5fc24b3cde07234073ae9c12a76dffb559",
+    "source/study.json": "c71cb01e53a4aa625f14d359ce2ac8477405747fb71b7c9048efd12f2ad7d75c"
+  },
+  "verification": {
+    "at": "2026-10-06T16:26:38.118Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_move_cycle",
+        "durationMs": 6501,
+        "steps": 296,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          260,
+          145
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 353,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "bd731e31ddc9ebc1",
+    "standaloneBehaviorChanged": false
+  }
+}

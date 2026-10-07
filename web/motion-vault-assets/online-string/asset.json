@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-string",
+  "directory": "online-string",
+  "title": "弹性曲线回弹",
+  "version": "721c9ddbde74c993",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "bb6f33225921c1e804e638908b5b478fe6ceed22bad792833cc890fe6a9e312c",
+    "demo.mjs": "8fe284bad643b0ac8dc8ea43ad0c1228ac8807d2d014179ae3e269ff670add76",
+    "index.html": "239a12dae2ef3963f1b0c479a0a891e612895697bd9671fb4e1d0aa5e714e981",
+    "DESIGN.md": "6c37b957f2fb256af90dcea36a16d1a34c0009022f0fc6195bb62a72941033b8",
+    "IMPLEMENTATION.md": "49c63203411fd9eeed8d6b561c645c2a9e81fe6351b588d6bee8579a96db8732",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "66723e108eb1da0c912125bcead30f2143f3d306879fc2733eeca99f23d0e7c8",
+    "source-map.json": "355418995d1ebeaa63da5de9402185a4f9b78b6d54d678b3d1929060207c67c5"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "721c9ddbde74c993",
+    "captured": true,
+    "posterSha256": "d43547f024cfd9b3f824477c1e9293b5ddee5e58ae162c0e8e16a63112ab5370",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:06.957Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

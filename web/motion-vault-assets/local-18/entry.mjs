@@ -1,0 +1,5 @@
+// 画中画迷你吸附窗
+// Runnable entry backed by the shared local engine; see IMPLEMENTATION.md for the exact core locations.
+import {createRuntime} from '../shared/runtime.31fd3f9a83f9.mjs';
+export const reference={"id":18,"title":"画中画迷你吸附窗","desc":"正在看视频时向下滚动网页，视频平滑缩小为小窗，吸附在右下角继续播。","design_value":"满足“一边看视频一边翻阅下面文字评论/代码”的并行消费需求。","avoid":"不能遮挡右下角原有的浮动返回或核心操作按钮。","tech":"position: fixed; bottom: 24px; right: 24px; transition: 0.3s;","demo":"\u003cdiv style=\"width:180px; height:80px; border:1px solid var(--card-border); position:relative; border-radius:6px;\">\u003cdiv style=\"position:absolute; bottom:6px; right:6px; width:55px; height:32px; background:#2563eb; border-radius:4px; display:grid; place-items:center; font-size:8px; color:#fff;\">迷你小窗\u003c/div>\u003c/div>","scene":"media","uses":[{"scene":"editorial","task":"media","placement":"图文混排文章","goal":"让视频在阅读过程中保持连续"}],"preview_mode":"scroll","source_kind":"independent_code","source_name":"既有本地代码演示","source_url":null};
+export function mount(host,options={}){return createRuntime(host,reference,options);}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "11",
+  "directory": "local-11",
+  "title": "数据滚动轮盘跳动",
+  "version": "f20b6de5f804c18c",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "60c9065cfb59e288a6f8c5b05051b20896d322bc50be24d8cbd62e55bcde459b",
+    "demo.mjs": "c886c6718a05810d4a3cef72193fbb48c27692bacb316b2b2e130dc1f8456ec7",
+    "index.html": "9a5e4c25c05e06c6bcb98df96e3182edecc4563298145e57ee908727c523b413",
+    "DESIGN.md": "5c15a4868cd37fdd03dd93e5e7c417bac202ff0d38664b00324f2ad3a65660ba",
+    "IMPLEMENTATION.md": "fae3d35e29dbfd94bcf0d0518e2a04612ed651d74466669a7c8b86db35940f00",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "09eccf5964433b09933784d2d7e2c7488f7c45b1dda15d0c285ab3fdb2a0fd8f",
+    "source-map.json": "1829981f6e5262eeedf5312d650070c12e5dec3e4c6d8343f49eb470bd1ee425"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "f20b6de5f804c18c",
+    "captured": true,
+    "posterSha256": "903869cac86a43ddb2fb79f7ee3e7dff9ab4bf8f2c8c4dee33c36d17dcde364c",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:49.410Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

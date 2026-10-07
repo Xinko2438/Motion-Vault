@@ -1,0 +1,17 @@
+[
+  {
+    "path": "source/src/main.js",
+    "role": "original_source",
+    "sha256": "e904ca259dbb53b47a04d4b4e216d571848f204a03367a2640677a63bcef4273"
+  },
+  {
+    "path": "source/src/utils.js",
+    "role": "original_source",
+    "sha256": "991f2889057a78e1e058ac51cc96ebd2a3b51af8e30dbb46f602e4a51b0b694f"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "e68814e2f59943b8bb4f2f105d36c14fb9905bf250999a6746c2ce932a4b3cd6"
+  }
+]

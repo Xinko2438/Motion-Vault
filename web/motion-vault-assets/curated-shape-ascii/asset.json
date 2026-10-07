@@ -1,0 +1,132 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-shape-ascii",
+  "title": "沿真实轮廓选字的 ASCII 实体",
+  "kind": "adapted_author_source",
+  "status": "local_source_verified",
+  "version": "051454d34b6f999c",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "08afb2446401ccec21462e772a966d1a07fb1ca7e7863b137d97f6ce7c8e55c5",
+    "videoSha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f",
+    "videoBytes": 594714,
+    "implementationVersion": "051454d34b6f999c",
+    "captureMethod": "Original native browser AV1 MP4 recording delivered byte-for-byte; initialization metadata precedes media fragments, and all recorded timestamps are preserved.",
+    "capture": {
+      "runId": "native-scenes-b-20261006-one",
+      "at": "2026-10-06T16:49:25.373Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "av1",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 5.5127,
+      "frameCount": 331,
+      "visualChanges": 138,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 67,
+        "contentFPS": 27.916666666666668,
+        "longestHoldSeconds": 0.5335999999999999
+      },
+      "encoding": {
+        "codec": "av1",
+        "method": "native_exact_bytes",
+        "profile": "Main",
+        "pixelFormat": "yuv420p",
+        "colorRange": "pc",
+        "timing": "original_vfr"
+      },
+      "nativeDirect": {
+        "runId": "native-direct-compat-20261006-one",
+        "receipt": "lineage/current/preview-playback/native-direct-compat-20261006-one.json",
+        "nativeSha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f",
+        "originalCaptureSha256": "e06fcc87899d943b8a3fe3c28c05422fc2f195dc698e9e23413ca2a76a8909ea",
+        "allNativeFramesPreserved": true,
+        "originalPTSPreserved": true
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "ac82e069dfce0ea8da42311225cd1ab61711dfc8851651765b674e4c3793032f",
+    "IMPLEMENTATION.md": "05a02751403a6b9406d77ea782f016777712af2616cb05e7b3f32a45c8569052",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "dependencies.json": "0c1b09863803c884aeebd09e34be5928fb2bb49e5aa6e8dbe98ad1f76984d39f",
+    "dependency-lock.json": "22093aceed32f5efa5706704389467a273ac5257b5dd63afc71efd4948d5cbfb",
+    "parameters.json": "b478fc2210eb3c33d3e045031cecac19f9bf8a55dc4f6d72db70f51c3d5d999a",
+    "provenance.json": "5d87ac78a5ca0aaa5bfffb6ae2495fa4bdb4cbb976e8fcfd019a31ae690c09ef",
+    "run/effect.js": "b3c5f3aa71c4d277375a313ef10d9a188715317bda6d2d859177ea52c6ab956f",
+    "run/index.html": "84232f8328863bb12dd3d53fe0af4a59527347ec3e1bf8948a174ab7b6e2533a",
+    "run/reference-icon.svg": "b56c007bad3bd0dc7cda249ea2444f58633792285bde15f883442c34573f77bd",
+    "run/src/styles.css": "586976cdf5307cfe430a39722eae380347d5c83b58d20d3993df7d4058b50cf5",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "a4902a1e078605974124767fe3d13935edd0ab8285b264b5a1d4a5b6f7be717e",
+    "source/.gitignore": "0c8ffec909112534ceb83e58deed2259459181ed99c39e22cf3ddb6b2efd7351",
+    "source/LICENSE": "3b56d635b76cb0c0fc8ffd303bce06bd44365cf4b99e77e889fc6b259141ec1b",
+    "source/README.md": "4c4db26fc8ec83ec9ecedc2b2f66dadc4eb3f3c3404e641ca0b7fb5123407c95",
+    "source/eslint.config.js": "a57eddd2b036d88eed1dee625baaddafe9515143d971131feeedb089bd32ad9c",
+    "source/index.html": "9d59f3829d89ca627a422771908319d21a7de87e86fb29acee4320ff8cb694bc",
+    "source/package-lock.json": "8796ff5cf2fa18c7f79935374c500332be83865052c2f71bf56cdfce112572b1",
+    "source/package.json": "6104e1934c8ca1d4a576b87d0c99dddc0ec80143118c5f7db3b587ef602ef6df",
+    "source/prettier.config.js": "99beed4b60fd8f4cab001f491606e8c5a65c1c98cded93ac395ff2b591e9df93",
+    "source/src/ascii-logo/element.js": "fb8d78e4c7d35f68165984e63bd5cf6bbb18c90f65dd0a51356d3601b90bb332",
+    "source/src/ascii-logo/glyph-atlas.js": "d0f32cb2400a5d2165b75c3385d83c8971f32fc7c54a5fbdb477e34526b667b0",
+    "source/src/ascii-logo/mark.js": "8c06f1840b76617ab87d550aa337465c2b9550b4da94b911ddb2af2e24d88240",
+    "source/src/ascii-logo/renderer.js": "e581bd71d2cf98b72d40fd9e87a21cc9c1e09be889509bc62c26887f5ccbbfeb",
+    "source/src/ascii-logo/samples.js": "cfd942d334ac7226ac69d034afca39b12a9d277280f7899bdb4322230cec1fdd",
+    "source/src/ascii-logo/shaders/cell.frag.glsl": "7a5a92a8abd8daf697837dd1690fb72bba3d0747584aec037c9c7e447eb7b42d",
+    "source/src/ascii-logo/shaders/post.frag.glsl": "ef84d8d353bd81265af86891aa5ff1b95be5f9b30d553feeb3e9baaad0e2d361",
+    "source/src/ascii-logo/shaders/quad.vert.glsl": "d02dc73f3ce3587e9c88bfdb4d7dab972c7c3e1f5750a4836b02b78a48a2c57c",
+    "source/src/ascii-logo/shaders/scene.frag.glsl": "b63fd7777619f28979676c8a529d7d3b932a25050ede3fc39e778ce8b99aa306",
+    "source/src/ascii-logo/shaders/scene.vert.glsl": "748c741b96b39e3b86ef901b8a1f256fbe682e6dfe177246f7adc6679ce4e61c",
+    "source/src/main.js": "ad51175c326a12a045a7bcf0f38538d6293894d75f657c252c3605ec98f80809",
+    "source/src/styles.css": "586976cdf5307cfe430a39722eae380347d5c83b58d20d3993df7d4058b50cf5",
+    "source/vite.config.js": "0478a927edfebbacaac196e2573654f91858da7eeb9a70151c173b73563e20e9",
+    "upstream.json": "7e8c896c555a6ee6219641d24c1ce0d8b323a055936a846dfea469c55d2807f3"
+  },
+  "verification": {
+    "at": "2026-10-06T16:49:25.373Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_drag_cycle",
+        "durationMs": 5506,
+        "steps": 330,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          200,
+          110
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 139,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "051454d34b6f999c",
+    "standaloneBehaviorChanged": false
+  }
+}

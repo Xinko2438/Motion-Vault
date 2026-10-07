@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ASCII Logo | Codrops</title>
+    <meta
+      name="description"
+      content="The Codrops mark as a draggable 3D solid, printed in ASCII characters on the GPU with three.js."
+    />
+    <meta name="keywords" content="ascii, webgl, three.js, shaders, custom element, glyph atlas, codrops" />
+    <meta name="author" content="Codrops" />
+    
+    
+
+    <!-- Regular only, which is the weight the atlas is baked at and the only one the page uses.
+         The print is rasterized from this face, so if it fails to arrive the mark is drawn in
+         whatever `ui-monospace` resolves to instead. -->
+    
+    
+    
+
+    <link rel="stylesheet" href="./src/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="./reference-icon.svg"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' data: blob:; worker-src 'self' blob:; font-src 'none'; base-uri 'self'; form-action 'none'"><meta name="referrer" content="no-referrer"><style>html{font-family:Arial,sans-serif}.frame__back,.frame__archive,.frame__github,.frame__tags,.frame__prev,.cdawrap,.credits{display:none!important}body{margin:0}.frame{position:absolute;z-index:2}button,a{-webkit-tap-highlight-color:transparent}img{-webkit-user-drag:none}.vault-source-status{position:fixed;bottom:8px;left:10px;font:10px Arial;z-index:999;pointer-events:none;opacity:.5}*{--font-primary:Arial,sans-serif}</style></head>
+  <body>
+    <!-- The demo frame: the links Codrops demos carry, plus the page's one control. It sits in the
+         margins the mark never reaches and prints in the same ink, so both themes style it for
+         free. -->
+    <header class="frame">
+      <h1 class="frame__title">ASCII Logo</h1>
+      <a class="frame__back" href="https://tympanus.net/codrops/?p=TODO">Article</a>
+      <a class="frame__archive" href="https://tympanus.net/codrops/hub/">All demos</a>
+      <a class="frame__github" href="https://github.com/edoardolunardi/ascii-logo">GitHub</a>
+      <div class="frame__credits">
+        <span>By </span>
+        <a href="https://www.edoardolunardi.dev/" target="_blank">Edoardo Lunardi</a>
+      </div>
+      <nav class="frame__tags">
+        <a href="https://tympanus.net/codrops/demos/?tag=ascii">#ascii</a>
+        <a href="https://tympanus.net/codrops/demos/?tag=shaders">#shaders</a>
+        <a href="https://tympanus.net/codrops/demos/?tag=draggable">#draggable</a>
+        <a href="https://tympanus.net/codrops/demos/?tag=three-js">#three.js</a>
+        <a href="https://tympanus.net/codrops/demos/?tag=webgl">#webgl</a>
+      </nav>
+      <!-- Both themes rendered, the active one filled: the control reads as a state, not an action. -->
+      <div class="theme-switch" role="group" aria-label="Theme">
+        <button type="button" data-theme-choice="dark" aria-pressed="true">dark</button>
+        <button type="button" data-theme-choice="light" aria-pressed="false">light</button>
+      </div>
+    </header>
+
+    <main class="stage">
+      <!-- The mark is the whole page now, so it is labelled rather than hidden: `aria-hidden` here
+           would leave a screen reader with nothing at all to read. -->
+      <ascii-logo dark role="img" aria-label="The Codrops mark, drawn as a rotating solid in ASCII characters">
+        <!-- Served hidden and faded in once the first frame is on it. Nothing stands in for it
+             while it waits, and nothing stands in for it if the print never arrives. -->
+        <canvas data-logo-canvas class="is-hidden"></canvas>
+      </ascii-logo>
+    </main>
+
+    <!-- Vite resolves the bare `three` imports behind this entry and serves the page, so there is
+         nothing to configure here and nothing to open off disk. Run `npm run dev`. -->
+    
+  <script data-vault-isolation src="./vault-isolation.js"></script><script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');window.sourceErrors=[];addEventListener('error',e=>sourceErrors.push(e.message));addEventListener('unhandledrejection',e=>sourceErrors.push(String(e.reason)));window.SourceDemo={ready:false,scroll:(p)=>{const s=window.ScrollSmoother?.get();const y=p*Math.max(0,document.documentElement.scrollHeight-innerHeight);if(s)s.scrollTo(y,false);else scrollTo(0,y);window.ScrollTrigger?.update();},stop:()=>window.gsap?.globalTimeline.pause(),resume:()=>window.gsap?.globalTimeline.resume()};addEventListener('load',()=>{setTimeout(()=>{window.ScrollTrigger?.refresh();SourceDemo.ready=true;},400)});</script><script src="./effect.js"></script></body>
+</html>

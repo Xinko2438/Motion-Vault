@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 197,
+    "endLine": 197,
+    "code": " case'orbit':label='文字环流 / 中心保持安静';figure=`<svg class=\"x-svg x-orbit\" viewBox=\"0 0 400 280\" aria-label=\"圆形排版旋转\"><defs><path id=\"${uid}-outer\" d=\"M200 140m-105 0a105 105 0 1 1 210 0a105 105 0 1 1-210 0\"/><path id=\"${uid}-inner\" d=\"M200 140m-76 0a76 76 0 1 0 152 0a76 76 0 1 0-152 0\"/></defs><g class=\"x-orbit-outer\"><text textLength=\"659\" lengthAdjust=\"spacing\"><textPath href=\"#${uid}-outer\">灵感 · 发现 · 创作 · 留白 · 灵感 · 发现 · 创作 · 留白 · </textPath></text></g><g class=\"x-orbit-inner\"><text textLength=\"477\" lengthAdjust=\"spacing\"><textPath href=\"#${uid}-inner\">让日常，慢慢成为作品。 · 让日常，慢慢成为作品。 · </textPath></text></g><circle cx=\"200\" cy=\"140\" r=\"48\" fill=\"#f9f6e8\"/><text class=\"x-orbit-core\" x=\"200\" y=\"148\" text-anchor=\"middle\">留白</text></svg>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

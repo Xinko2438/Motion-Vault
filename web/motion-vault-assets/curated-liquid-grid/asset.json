@@ -1,0 +1,97 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-liquid-grid",
+  "title": "玻璃球面图像陈列",
+  "kind": "independent_code",
+  "status": "local_source_verified",
+  "version": "c815ebacdb5e56b7",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "local_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "1780a08f42c1295228bd93f800cf2786d483135f2af4bffbce1717556583225e",
+    "videoSha256": "ec68e11bc70e65a2f76c5832bc5055cdb89da301a855a7c6f736773e90a5dd4b",
+    "videoBytes": 277300,
+    "implementationVersion": "c815ebacdb5e56b7",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-independent-20261006-two",
+      "at": "2026-10-06T16:26:49.828Z",
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 5.4021,
+      "frameCount": 328,
+      "visualChanges": 245,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 101,
+        "contentFPS": 42.083333333333336,
+        "longestHoldSeconds": 0.18318299999999998
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "3040b929a873e8471272955d5f47819a54aab5fec98c985f2bb41b133f0c69b9",
+    "IMPLEMENTATION.md": "60178190fe0fe5082881c1b2655c48e58455c9468a82285a926b644c424cfb07",
+    "THREE-LICENSE.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "environment-license.json": "15f3c1d9044d08ff433dfed7c5b31037f18e5b5d2e2084d3acc0ff2f616ca9dd",
+    "image-provenance.json": "2e4d0499d92a01119c45256637bab61f44d673f56e52c765c80d83eaf3d0c5a7",
+    "parameters.json": "5f6a3d35ddd70ef0862651e4b480c72c2fc6c30578f4491e4497885c07599ff5",
+    "provenance.json": "cbe4e8b4f99bcdfce5f31d8c52c3684e71ab6018156f0110d5940b04ad07dd0e",
+    "run/effect.js": "23bd71365f245f901ed1fe18f98bb7589af77de9672a5d7bf7c5036d1be0b1f4",
+    "run/environment.hdr": "30933d55e45f0795daf49f3cbefbe0e5ebcb821ee04fb0a2818c02ffc3938817",
+    "run/images/1.jpg": "4c7bfcaa4724f03e29e773d8559ca169c80651357831614680250a8c7d6444fb",
+    "run/images/2.jpg": "ced2c8adb1185c08b6255e60fe4a5e201731f4e23ca3eb70022445fbb90a6b4e",
+    "run/images/3.jpg": "35cc3843814d23c73f0ca69a8048a5e6c3956d9b0de05548d3602988013e82a1",
+    "run/images/4.jpg": "c7dbc6070dc35690efb41f9758a1ebb2ae7deec5bd2390f008744182c5b4ee66",
+    "run/images/5.jpg": "e22ec2de3781baa3e70cde9331870f494e04c217bbfdc040472d37b0f860f925",
+    "run/images/6.jpg": "72eeeb6496ea071fc8641a7cbe14e582c3d14844a40bbd7338529e366dbf83e2",
+    "run/index.html": "4af244052d2ecf1236d113e613e729858f67cdebb239c1421fee76d6e4c9eee9",
+    "run/style.css": "d41d1fd56696d7ccbe83a8c110ce701269f25ae10fb7335265c166a868226648",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "fc6606f7f3b049f2faae19179294dd8e2d199192e66051047af094febd69c6e6",
+    "source/scene.js": "fb6c15a79880b7243942f0b1dc5b9e5fc24b3cde07234073ae9c12a76dffb559",
+    "source/study.json": "82ff3dac98d84ca05d498a3fcbec8ef27dbb271a7139dd18007d0d52807f8f47"
+  },
+  "verification": {
+    "at": "2026-10-06T16:26:49.828Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_drag_cycle",
+        "durationMs": 5506,
+        "steps": 292,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          200,
+          110
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 246,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "c815ebacdb5e56b7",
+    "standaloneBehaviorChanged": false
+  }
+}

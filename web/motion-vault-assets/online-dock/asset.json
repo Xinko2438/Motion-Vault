@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-dock",
+  "directory": "online-dock",
+  "title": "邻近放大导航",
+  "version": "9856deea913c2c0a",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "11d4ab692d3984071e84e7c595df700deb3ae577e19527e7ac93c879f08c2394",
+    "demo.mjs": "5de8eed22f9f788388ba2e430735a0b4bbfaa2f2abf1af4beb5c578adc6bb154",
+    "index.html": "46bae99d3df0dbeac9f9efc642b270b5c83b1c6b8f1e6a79f7b2468cd1b72251",
+    "DESIGN.md": "51ab7369f8901e390a80c4739fc7d38560bf9fe096d938c6c47b490afb28ed95",
+    "IMPLEMENTATION.md": "8c0db9e0772d0b0ec18ca877412db82c4dec2142015ce008b160efe529d784d9",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "5e47539fdd86b59b2a4a1778828f0c6b37400dcbf57146d034b0da56a6ea3640",
+    "source-map.json": "77417b18b0d7d2bdb477f97d637f62a3f3e1d11d76ebdb1132973395fa2a43d4"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "9856deea913c2c0a",
+    "captured": true,
+    "posterSha256": "fc212d0d62fedcaeaa9af560660e2652a4623d84e6b74d73201988e12e7b1c9c",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:59.048Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

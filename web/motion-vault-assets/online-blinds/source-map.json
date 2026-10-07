@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 284,
+    "endLine": 284,
+    "code": " case'blinds':h=`<span class=\"e-kicker\">ANOTHER VIEW / 逐片翻面</span><div class=\"e-blinds-strip\">${Array.from({length:8},(_,i)=>`<div class=\"e-blind\" style=\"left:${i*50}px\"><div class=\"e-blind-front\">${art(1)}</div><div class=\"e-blind-back\">${art(2)}</div></div>`).join('')}</div>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-book",
+  "directory": "online-book",
+  "title": "书页双面翻阅",
+  "version": "3fba0c1c477005eb",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "e65947cfb60acd5ca304bd8869f0ebc00f66b8744d04a5124e44747a0c9ead0f",
+    "demo.mjs": "fe75b8c744bafafb9b0cc88823e9222a9bed2549092d34f87c6f4ee4495c386f",
+    "index.html": "f92c903fcf68c043558979b2df1e10f27640f3661a88c9ac2efa7a8477f934ea",
+    "DESIGN.md": "b61d05cc5ea0a09f7f74110ce4c52f7f5f144cfc4d92540a04c0a523c1fbb557",
+    "IMPLEMENTATION.md": "d3230341ba6bf2a99a3e972577a0d13e29533af00375c4562520f1519871e873",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "986fa05eade23c4a44f7fea569681c587f59fccc28feb437566e85686e0c6548",
+    "source-map.json": "c8139c4e053aed6b3736a77c4e4db3050f1e98fbd6fae4d64f55c5e72091d73e"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "3fba0c1c477005eb",
+    "captured": true,
+    "posterSha256": "4e8bb2d34d205dcee92fcdb198a5a53f2fd6ebe01dad3eb60e251c7b42f17be2",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:05.620Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

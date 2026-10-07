@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-peel",
+  "directory": "online-peel",
+  "title": "贴纸边角拖拽剥离",
+  "version": "ccd5d2f9bb8fe01c",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "fd094276424475a4f14352fdf96958c99a7dbeea7d326b40f1af96aa4865aecb",
+    "demo.mjs": "ed93b4133f8b5cfd0ed9ef8d8e44b779a1c6289fc3a1e5af537097f1e6a44122",
+    "index.html": "61eb364517c3fb3b5b9a0eff420227221cfdce35a76788efd7c67ecc9a085709",
+    "DESIGN.md": "5146d1bdd087b57b697b13bd96db0dd095fb26552758de5a41eaaeb9e7539c3c",
+    "IMPLEMENTATION.md": "6256402740f83d17e70126858c7679e2988dcae0e7dbf48e9d8fc05cf2a0dd51",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "9475edfc33e1c0baecbe02875a70f360d5fe09938ff4a32819fb954d6776e329",
+    "source-map.json": "e3b9a535e720976b37e4295f0fe943e3e96ac92c05eaafc1800934cc1777cf8c"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "ccd5d2f9bb8fe01c",
+    "captured": true,
+    "posterSha256": "e0bd17871ee024ca2c08ebffea115b3689df02308dd8ee0d9c179593fc50215d",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:10.252Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

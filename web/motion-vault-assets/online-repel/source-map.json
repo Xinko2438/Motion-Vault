@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 277,
+    "endLine": 277,
+    "code": " case'repel':h=eSvg(eDots.map((p,i)=>`<circle class=\"e-repel-dot\" cx=\"${p.x}\" cy=\"${p.y}\" r=\"${i%9===0?3.6:2.5}\" fill=\"${i%9===0?'#bd8960':'#719698'}\"/>`).join('')+eText('MAKE ROOM',39,39,'e-eyebrow')+eText('让开，然后回到原处。',39,320,'e-small'));break;",
+    "role": "authoritative_editable_source"
+  }
+]

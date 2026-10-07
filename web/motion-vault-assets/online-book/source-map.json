@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 202,
+    "endLine": 202,
+    "code": " case'book':label='翻过一页 / 另一段风景';figure=`<div class=\"x-book\"><div class=\"x-book-page x-book-left\">${art(5)}<span>沿途 / 01</span></div><div class=\"x-book-page x-book-right\">${art(2)}<span>远处 / 04</span></div><div class=\"x-book-turn\"><div class=\"x-book-face x-book-front\">${art(0)}<span>山的轮廓 / 02</span></div><div class=\"x-book-face x-book-back\">${art(3)}<span>暮色 / 03</span></div></div></div>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

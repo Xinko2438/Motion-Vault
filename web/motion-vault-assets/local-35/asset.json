@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "35",
+  "directory": "local-35",
+  "title": "字符乱码对焦解析",
+  "version": "c230183a78614487",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "feee537419fabe8c9d5685b613c347d14990a945c50b254520daf3b2ad6e52ba",
+    "demo.mjs": "fdf693d0bb1ff3122dd065217b6d6d3af293501c44b6cece00ff269b4eabf245",
+    "index.html": "94443b66fda29a591e3134c8a43ca72e777cf21e12c440b00354e1543e84da2f",
+    "DESIGN.md": "b891ac925d82bc1d75928d1d7e62f51965d5e2e3a1dbd93234ad69bc3ced1b25",
+    "IMPLEMENTATION.md": "e97aed6017cc620f822ee6aa3b9795331253a4ef82999b75ef6a389f477f477f",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "f215fdbca66374089cf7919e7595f34874e311f8fdf7d2ae3baa61e4e5442c9f",
+    "source-map.json": "bfc61253a41648106d1a396bdd306447b554036bfc5beac1e782b150e0e5b00b"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "c230183a78614487",
+    "captured": true,
+    "posterSha256": "9fd2c4bf0c6396f19503d46d07efe0bc66ff46a3096e903dc2ad93e93af449f8",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:56.413Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

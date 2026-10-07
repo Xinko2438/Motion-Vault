@@ -1,0 +1,137 @@
+[
+  {
+    "path": "adapter/local-entry.jsx",
+    "role": "local_adapter",
+    "sha256": "12072d515cea2458749208e2a20e27e90ea4d5548b729a3af7bc0b026a38d9f1"
+  },
+  {
+    "path": "adapter/SystemText.jsx",
+    "role": "local_adapter",
+    "sha256": "dafc3b7864b7209fd4fce980348816a6be3091875a238359247e3417a2fac0a5"
+  },
+  {
+    "path": "adapter/src/components/grid/ShoeTile.jsx",
+    "role": "local_adapter",
+    "sha256": "5469b2c6a2c760e42ba7042c9a6b864212b49e773164415f3f800f336d016d10"
+  },
+  {
+    "path": "source/eslint.config.mjs",
+    "role": "original_source",
+    "sha256": "d1257bff0b0aa0cb73034a730f33405d4de7d440678564d0183c5ca1244bb639"
+  },
+  {
+    "path": "source/next.config.mjs",
+    "role": "original_source",
+    "sha256": "b781badd0d56ac984ba024554c8b64ad3b9d153ae1bfe09d7ec8a49fa3c8c03c"
+  },
+  {
+    "path": "source/postcss.config.mjs",
+    "role": "original_source",
+    "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+  },
+  {
+    "path": "source/src/components/CloseButton.jsx",
+    "role": "original_source",
+    "sha256": "0ed51f6008cf6350f6c2f1b64fb6a2126cba72ffa2f15f182203060df3352514"
+  },
+  {
+    "path": "source/src/components/GridUI.jsx",
+    "role": "original_source",
+    "sha256": "4d1224b3a6467c3d17c4a2184620864f46e828460cc3f0eb11c21602c970734f"
+  },
+  {
+    "path": "source/src/components/Header.jsx",
+    "role": "original_source",
+    "sha256": "7798d7b9b937460ab41be079fdee5ea0e2a4e27f7e158ce4a21c514d8abeff6e"
+  },
+  {
+    "path": "source/src/components/HoloCardMaterial.js",
+    "role": "original_source",
+    "sha256": "da61d4ada5024a0804af60ff183bbdafb8e31ae761ca68b87597a5c1e97da67c"
+  },
+  {
+    "path": "source/src/components/MiniMap.jsx",
+    "role": "original_source",
+    "sha256": "c3e3ce119982b0f01e7c40dd0fd733189322b0c1ff41b1e11373fb0a3c87729b"
+  },
+  {
+    "path": "source/src/components/TopologyBackground.jsx",
+    "role": "original_source",
+    "sha256": "f702e43fbbfdb6c5d54ea1d92e26d01fe9a6817b9937d284826dccc215d15efc"
+  },
+  {
+    "path": "source/src/components/grid/GridCanvas.jsx",
+    "role": "original_source",
+    "sha256": "497a495f5f155e960b53d6a32c9f4ed755f8d2f26fc15fcad5c9fafa0a866dfc"
+  },
+  {
+    "path": "source/src/components/grid/Rig.jsx",
+    "role": "original_source",
+    "sha256": "f636f1bba2df2b7f95bd71c61fbcadfbb5b57d414024872aa75306f2d902e850"
+  },
+  {
+    "path": "source/src/components/grid/ShoeGrid.jsx",
+    "role": "original_source",
+    "sha256": "1887b197a5e77bb9d3611e06f866647d512a66bdb01fae14730b954f6ffdedc6"
+  },
+  {
+    "path": "source/src/components/grid/ShoeTile.jsx",
+    "role": "original_source",
+    "sha256": "4e071e6fc4f4ce045ab596bcf1043754f4577049a8bd9896bbcb16343795fba7"
+  },
+  {
+    "path": "source/src/components/grid/gridConfig.js",
+    "role": "original_source",
+    "sha256": "aeda96857e5eaf9c36e7a0b26880370d9d928fa3a7a7a0907b50092cd73fc1d2"
+  },
+  {
+    "path": "source/src/components/grid/gridState.js",
+    "role": "original_source",
+    "sha256": "42e1f3b7e698646b3bd7f3f2e8c130ea3a2eaeca4c38ed70277c105903704df7"
+  },
+  {
+    "path": "source/src/components/grid/useGridConfig.js",
+    "role": "original_source",
+    "sha256": "1c8e4bd4171978e1293b98f888643c25a57676923c65d4dfb81835ddcfeb03e8"
+  },
+  {
+    "path": "source/src/pages/_app.js",
+    "role": "original_source",
+    "sha256": "84d00e2f9d2c1512c52141e7fe90f21b00ec5c2a97e159a4c27375c3406f9606"
+  },
+  {
+    "path": "source/src/pages/_document.js",
+    "role": "original_source",
+    "sha256": "7a1c264423bd3f5cadb3b1d831af81a989a54d9bc6b659e87dc646cadd98017e"
+  },
+  {
+    "path": "source/src/pages/index.js",
+    "role": "original_source",
+    "sha256": "8b8b4eea1a27d467dcea44b9214043e21dcaf85d950509c407dc909491d703d4"
+  },
+  {
+    "path": "source/src/shaders/holocard.frag",
+    "role": "original_source",
+    "sha256": "083ea191d12b23bbbd91e397d7ca5f8861753db062897a43a8e7148f633132b3"
+  },
+  {
+    "path": "source/src/shaders/holocard.vert",
+    "role": "original_source",
+    "sha256": "1999b2394f4b3bcb10b5a1c3ea9a37144c402ba2b9921135736f31ed2e4a3901"
+  },
+  {
+    "path": "source/src/shaders/topography.frag",
+    "role": "original_source",
+    "sha256": "35f3ed483078c20e76ee76b2c92b48bd4a605e9de1799dcf3baaae75da795c07"
+  },
+  {
+    "path": "source/src/shaders/topography.vert",
+    "role": "original_source",
+    "sha256": "acc7cea70488e5b211a194eaf9602007a7f98d72a75a57fc2094cf6671a75f68"
+  },
+  {
+    "path": "adapter/index.html",
+    "role": "local_adapter",
+    "sha256": "22fef0f86a21d60e87c509d9ac4b55904c8a0cc6297d9e1baf68d55023aca666"
+  }
+]

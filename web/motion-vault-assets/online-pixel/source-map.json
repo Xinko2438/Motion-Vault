@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 40,
+    "endLine": 40,
+    "code": " case'pixel':html=`<div class=\"pixel-art\">${art(0)}</div><span class=\"pixel-title\">静观 / 01</span><div class=\"pixel-screen\" aria-hidden=\"true\">${Array.from({length:96},(_,i)=>`<i style=\"--covered:${mini&&(i%12>8||i%12>6&&Math.floor(i/12)<3)?1:0}\"></i>`).join('')}</div><div class=\"pixel-controls\"><button data-action=\"switch\">切换画面</button><select aria-label=\"转场次序\"><option value=\"diagonal\">对角错峰</option><option value=\"random\">分散错峰</option></select></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 141,
+    "endLine": 150,
+    "code": " if(key==='pixel'){\n  const cells=all('.pixel-screen i'),button=q('[data-action=switch]');let current=0,busy=false,run=0;\n  async function transition(){if(busy)return;busy=true;button.disabled=true;const token=++run;const random=q('select').value==='random';const delays=cells.map((_,i)=>random?((i*37+19)%97)*3:(i%12+Math.floor(i/12))*24);const phase=cover=>Promise.all(cells.map((c,i)=>L.anim(c,[{transform:`scaleY(${cover?0:1})`},{transform:`scaleY(${cover?1:0})`}],{duration:310,delay:delays[i],easing:'cubic-bezier(.3,0,.2,1)',fill:'forwards'}).finished.catch(()=>{})));\n   await phase(true);if(L.disposed||run!==token)return;current=(current+1)%3;q('.pixel-art').innerHTML=art(current*2);q('.pixel-title').textContent=['静观 / 01','构成 / 02','停留 / 03'][current];root.dataset.index=String(current);await phase(false);if(L.disposed||run!==token)return;cells.forEach(c=>{c.getAnimations().forEach(a=>a.cancel());c.style.transform='scaleY(0)';});busy=false;button.disabled=false;\n  }on(button,'click',transition);root.dataset.index='0';\n }\n if(key==='sheet'){\n  const panel=q('.sheet-panel'),handle=q('.sheet-handle');const stops=[.27,.57,.9];let snap=1,height=root.clientHeight*.57,drag=null;\n  function set(i){snap=clamp(i,0,2);height=root.clientHeight*stops[snap];panel.style.transition='';panel.style.height=height+'px';root.dataset.snap=String(snap);all('[data-snap]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.snap)===snap)));}\n  all('[data-snap]').forEach(b=>on(b,'click',()=>set(Number(b.dataset.snap))));on(handle,'pointerdown',e=>{if(e.button!==0)return;handle.setPointerCapture(e.pointerId);height=panel.getBoundingClientRect().height*logicalScale(root);drag={id:e.pointerId,y:e.clientY,h:height};panel.style.transition='none';});on(handle,'pointermove',e=>{if(drag&&e.pointerId===drag.id){height=clamp(drag.h+(drag.y-e.clientY)*logicalScale(root),root.clientHeight*.22,root.clientHeight*.94);panel.style.height=height+'px';}});function release(e){if(!drag||e.pointerId!==drag.id)return;drag=null;let closest=stops.reduce((best,p,i)=>Math.abs(height/root.clientHeight-p)<Math.abs(height/root.clientHeight-stops[best])?i:best,0);set(closest);}on(handle,'pointerup',release);on(handle,'pointercancel',release);on(handle,'lostpointercapture',release);on(handle,'keydown',e=>{if(['ArrowUp','ArrowDown','Home','End'].includes(e.key)){e.preventDefault();set(e.key==='Home'?0:e.key==='End'?2:snap+(e.key==='ArrowUp'?1:-1));}});const ro=new ResizeObserver(()=>set(snap));ro.observe(root);L.cleaners.push(()=>ro.disconnect());set(1);",
+    "role": "authoritative_editable_source"
+  }
+]

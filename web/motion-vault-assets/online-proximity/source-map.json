@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 275,
+    "endLine": 275,
+    "code": " case'proximity':h=eSvg(`${eText('DISTANCE / WEIGHT',55,66,'e-eyebrow')}${[...'NEAR'].map((c,i)=>`<text class=\"e-letter\" x=\"${80+i*99}\" y=\"219\">${c}</text>`).join('')}${eText('靠近一点，笔画就会回应。',55,285,'e-small')}`);break;",
+    "role": "authoritative_editable_source"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-network",
+  "directory": "online-network",
+  "title": "链路信号分支流动",
+  "version": "65e78359e9618138",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "d0f746de6b87138ab283864a4710fbefc748bd36cae0541ea7ba1b6332eb9414",
+    "demo.mjs": "86a9f57b9853acd41b56f950b41b2b6c716daecf2a1b8b90c92cd34d1af990f8",
+    "index.html": "350b034b689656add4e6edb9d6a4569c22c386ba2c4521a583e53117c60dd6e5",
+    "DESIGN.md": "1f763c0c5bc54c43b512f537aa5f499a580b27991bbfbc8971791e1968b5de34",
+    "IMPLEMENTATION.md": "895ba911acc5ca109d93a9894194ee85cec8e8559f70937f55f0da4e446a3771",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "3aed4b323b858c37e5b64eb3ab77561d813c5f19a921bbd0b0782d6e038a35a6",
+    "source-map.json": "f6015d334c3470d16dbde558516984002613fa9f422d03ff014f0a21ca64d420"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "implementationVersion": "65e78359e9618138",
+    "captured": true,
+    "posterSha256": "bde5fd5aa070e1041cd3eceefbd12a02eab5c1bac421c7c306e98d456421e2c1",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:12.633Z",
+    "videoSha256": "7be734f93a192941ef40c8d50e221b916f7796c5ba03ec3e7f19282d03be6710",
+    "videoBytes": 52394,
+    "frameCount": 140,
+    "distinctFrames": 122,
+    "durationSeconds": 7,
+    "fps": 20,
+    "captureMethod": "Deterministic local DOM timeline sampled and encoded; not original-site recording"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

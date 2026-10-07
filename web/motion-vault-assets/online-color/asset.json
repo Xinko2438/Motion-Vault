@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-color",
+  "directory": "online-color",
+  "title": "二维色域实时拾色",
+  "version": "824f2b56b8369d48",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "f09b0867b488dfe84607c353da9908a169b2ebf88b8ab44c73974ff67eb8c7f9",
+    "demo.mjs": "e9df98743f509c57c32f3ed2c4c8100dfd910d7a0c5c016a625865dc280e7b77",
+    "index.html": "be6663109c8b0604bfbc782b74c33cd8757ccc356714b82ddd800b16d675e45a",
+    "DESIGN.md": "796e145cac2a7f1a5b4ddd3f82299b300abc801b6eae655c997554dbf5d3353b",
+    "IMPLEMENTATION.md": "40fadfb12898bbf548e320f2aa820ef809fce92e7352f82ff2a96a1024b5070f",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "c2b11f3136951c8c55f60d743991ae9a0a566cb8c7bcbfa84d00642b0844b03a",
+    "source-map.json": "cae030f01c7843e16b211a794e6f988d85e680e974db61719e62bebf9cfa5c8d"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "824f2b56b8369d48",
+    "captured": true,
+    "posterSha256": "e6ff2b8c5f549f23816468f09b5fe33b06111bcb25b0d785c7e67d00e9717920",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:13.630Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

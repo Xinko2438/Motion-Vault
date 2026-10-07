@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 287,
+    "endLine": 287,
+    "code": " case'network':h=eSvg(`${graphLinks.map((d,i)=>`<path class=\"e-net-path\" d=\"${d}\" fill=\"none\" stroke=\"#acbfc0\" stroke-width=\"1.5\"/>${Array.from({length:3},(_,j)=>`<circle class=\"e-net-dot\" data-edge=\"${i}\" data-offset=\"${j/3}\" r=\"${3.8-j*.5}\" fill=\"#507d8c\"/>`).join('')}`).join('')}${[[80,170,'输入'],[235,81,'整理'],[235,259,'提取'],[430,170,'成果']].map(([x,y,label])=>`<circle cx=\"${x}\" cy=\"${y}\" r=\"23\" fill=\"#f4f7f4\" stroke=\"#b4c7c5\"/><text x=\"${x}\" y=\"${y+4}\" text-anchor=\"middle\" class=\"e-small\">${label}</text>`).join('')}${eText('SIGNAL / 非实时系统数据',40,37,'e-eyebrow')}`);break;",
+    "role": "authoritative_editable_source"
+  }
+]

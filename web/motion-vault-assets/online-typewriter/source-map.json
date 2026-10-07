@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 286,
+    "endLine": 286,
+    "code": " case'typewriter':h=`<span class=\"e-kicker\">A NOTE IN PROGRESS</span><div class=\"e-type\"><span class=\"e-type-count\">01 / 03</span><div><span class=\"e-type-text\">收集一点灵感。</span><i class=\"e-caret\" aria-hidden=\"true\"></i></div><small>写下、停顿、再试一次。</small></div><span class=\"sr-only\">收集一点灵感。留下一段空白。把想法变成作品。</span>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

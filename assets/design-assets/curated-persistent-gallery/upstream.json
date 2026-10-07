@@ -1,0 +1,13 @@
+{
+  "id": "curated-persistent-gallery",
+  "repository": "https://github.com/J0SUKE/gsap-threejs-codrops",
+  "commit": "f236f2a7805e15600a59aeba0ad70ac25ef69b1f",
+  "archiveSha256": "cc0c293f3e6bceec80f25506f95bd9e6812477b0d7957e86d6ef831a39df14ba",
+  "capturedAt": "2026-10-06T09:56:21.519Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 31,
+  "bytes": 1102579
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 292,
+    "endLine": 292,
+    "code": " case'color':h=`<span class=\"e-kicker\">COLOR / 两个方向，两条通道</span><div class=\"e-color-area\" tabindex=\"0\" role=\"group\" aria-label=\"二维色域，左右键调节饱和度，上下键调节亮度\"><i class=\"e-color-knob\"></i></div><div class=\"e-color-read\"><div class=\"e-color-swatch\"></div><output>#698CBF</output><small>H 215°</small><small class=\"e-color-values\">S 45 · B 75</small></div><span class=\"e-caption\">拖动选点，或用方向键微调。</span>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 360,
+    "endLine": 369,
+    "code": " if(key==='color'){\n  const area=q('.e-color-area');let sat=.45,val=.75,drag=null;\n  function hsv(){const h=215/60,c=val*sat,x=c*(1-Math.abs(h%2-1)),m=val-c;return[0,x,c].map(v=>Math.round((v+m)*255));}\n  function draw(){const hex='#'+hsv().map(v=>v.toString(16).padStart(2,'0')).join('').toUpperCase();q('.e-color-knob').style.left=(sat*100)+'%';q('.e-color-knob').style.top=((1-val)*100)+'%';q('.e-color-swatch').style.background=hex;q('.e-color-read output').textContent=hex;q('.e-color-values').textContent=`S ${Math.round(sat*100)} · B ${Math.round(val*100)}`;root.dataset.color=hex;area.setAttribute('aria-label',`二维色域，饱和度${Math.round(sat*100)}，亮度${Math.round(val*100)}，方向键可调节`);}\n  function pos(e){let p=localPoint(e,area,1,1);sat=p.x;val=1-p.y;draw();}on(area,'pointerdown',e=>{if(e.button!==0)return;drag=e.pointerId;area.focus({preventScroll:true});area.setPointerCapture(e.pointerId);pos(e);});on(area,'pointermove',e=>{if(drag===e.pointerId)pos(e);});for(const e of ['pointerup','pointercancel','lostpointercapture'])on(area,e,()=>drag=null);on(area,'keydown',e=>{if(e.key.startsWith('Arrow')){e.preventDefault();sat=clamp(sat+(e.key==='ArrowLeft'?-.01:e.key==='ArrowRight'?.01:0),0,1);val=clamp(val+(e.key==='ArrowDown'?-.01:e.key==='ArrowUp'?.01:0),0,1);draw();}});draw();return;\n }\n if(key==='tree'){\n  const buttons=all('[data-tree-branch]'),labels=[['观察','提问'],['原型','验证'],['记录','发布']];let targets=[1,1,1],values=[1,1,1],raf=0;\n  function draw(){let paths='',leaves='';for(let i=0;i<3;i++){const y=87+i*88,v=values[i];paths+=`<path d=\"M129 168C162 168 163 ${y} 201 ${y}\"/>`;for(let j=0;j<2;j++){const x=269+v*173,ly=y+(j?23:-23)*v;paths+=`<path d=\"M269 ${y}C${269+v*55} ${y} ${x-v*44} ${ly} ${x} ${ly}\" opacity=\"${v}\"/>`;leaves+=`<g opacity=\"${v}\"><circle cx=\"${x}\" cy=\"${ly}\" r=\"4\" fill=\"#74949c\"/><text x=\"${x+11}\" y=\"${ly+4}\" class=\"e-small\">${labels[i][j]}</text></g>`;}}q('.e-tree-paths').innerHTML=paths;q('.e-tree-leaves').innerHTML=leaves;root.dataset.branches=targets.join(',');}\n  function tick(){let more=false;values=values.map((v,i)=>{let n=reduce.matches?targets[i]:v+(targets[i]-v)*.2;if(Math.abs(n-targets[i])>.002)more=true;else n=targets[i];return n;});draw();if(more)raf=L.frame(tick);else raf=0;}",
+    "role": "authoritative_editable_source"
+  }
+]

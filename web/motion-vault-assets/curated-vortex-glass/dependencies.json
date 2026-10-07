@@ -1,0 +1,18 @@
+{
+  "direct": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "min-signal": "1.0.2",
+    "normalize-wheel": "1.0.1",
+    "postprocessing": "6.36.7",
+    "simplex-noise": "4.0.3",
+    "stats.js": "0.17.0",
+    "three": "0.173.0",
+    "tsl-textures": "1.10.0",
+    "tweakpane": "4.0.5"
+  },
+  "lockSha256": "b48f24de7aaa87eeea563149615bf606a7b55485b97eb85fe7b2077a177b8a70",
+  "lifecycleScriptsExecuted": false
+}

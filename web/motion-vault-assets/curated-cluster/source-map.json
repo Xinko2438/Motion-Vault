@@ -1,0 +1,32 @@
+[
+  {
+    "path": "source/src/main.js",
+    "role": "original_source",
+    "sha256": "ff27fd077eba0ae7e376c1e3eb69cd1c2c09f544afcc4964977da93aad608155"
+  },
+  {
+    "path": "adapter/src/main.js",
+    "role": "local_adapter",
+    "sha256": "a2bb169faf88f01421dfb4008db4c5598b76d1a069e6a38215eb5fc014adaa32"
+  },
+  {
+    "path": "source/src/behaviors/HoverEffect.js",
+    "role": "original_source",
+    "sha256": "05f9cd423efd437039646769cd3e7e50b0d50cc65416de6ffb72896f3cac1082"
+  },
+  {
+    "path": "source/src/behaviors/Spin.js",
+    "role": "original_source",
+    "sha256": "059ff0bb3e1127d665cd72cbcf206362d0da614764afb6e6990a15bf5d5f3f90"
+  },
+  {
+    "path": "source/src/materials/Cluster.js",
+    "role": "original_source",
+    "sha256": "ae899c9fd7dfaed4224be9e0e55cbd52f21949eb35ec4dac05d856bf0a30e7b2"
+  },
+  {
+    "path": "source/src/materials/Inner.js",
+    "role": "original_source",
+    "sha256": "a90496b3af7118b76e743676af599b2d724dd36edf0b3ef2e29a7827775f85af"
+  }
+]

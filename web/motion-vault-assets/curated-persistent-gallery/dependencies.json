@@ -1,0 +1,14 @@
+{
+  "direct": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "@barba/core": "2.10.3",
+    "fontfaceobserver": "2.3.0",
+    "three": "0.182.0",
+    "vite-plugin-glsl": "1.5.5"
+  },
+  "lockSha256": "a9dfb157edd893639f01cec32aa415ce13649bada5a92220fbd0c3ba28c11797",
+  "lifecycleScriptsExecuted": false
+}

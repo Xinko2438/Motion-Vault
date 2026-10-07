@@ -1,0 +1,1300 @@
+{
+  "schema": "motion-vault.candidate-catalog.v2",
+  "count": 30,
+  "localReady": 30,
+  "taxonomy": [
+    {
+      "id": "brand",
+      "label": "品牌首页与发布",
+      "question": "怎样建立第一眼的品牌气质？",
+      "tasks": {
+        "hero": "首屏主视觉",
+        "identity": "动态标识与标题",
+        "atmosphere": "背景材质与氛围",
+        "entrance": "开场与揭幕"
+      }
+    },
+    {
+      "id": "product",
+      "label": "产品展示与讲解",
+      "question": "怎样让产品特点更容易被理解？",
+      "tasks": {
+        "showroom": "产品陈列与选型",
+        "detail": "材质与局部细节",
+        "feature": "功能原理与卖点",
+        "configuration": "参数调节与配置"
+      }
+    },
+    {
+      "id": "portfolio",
+      "label": "作品集与案例",
+      "question": "怎样浏览作品并顺畅进入案例？",
+      "tasks": {
+        "overview": "作品总览与空间排列",
+        "discovery": "图片探索与预览",
+        "handoff": "缩略图到案例的衔接",
+        "sequence": "系列作品连续浏览"
+      }
+    },
+    {
+      "id": "editorial",
+      "label": "阅读与内容叙事",
+      "question": "怎样让文字、图像和数据共同讲述？",
+      "tasks": {
+        "chapter": "章节推进与阅读定位",
+        "typesetting": "标题与图文编排",
+        "data": "数据解释与对比",
+        "media": "音视频与连续阅读"
+      }
+    },
+    {
+      "id": "workspace",
+      "label": "应用与创作工作台",
+      "question": "怎样让高频操作既清楚又有质感？",
+      "tasks": {
+        "navigation": "全局导航与空间切换",
+        "context": "上下文工具与辅助操作",
+        "panels": "面板层级与工作区",
+        "precision": "精细编辑与直接操控"
+      }
+    },
+    {
+      "id": "journey",
+      "label": "关键流程与反馈",
+      "question": "怎样清楚表达等待、变化与完成？",
+      "tasks": {
+        "onboarding": "分步引导与连续任务",
+        "waiting": "加载与等待",
+        "status": "状态确认与通知",
+        "recovery": "错误解释与可逆操作"
+      }
+    }
+  ],
+  "taskSelectionRequired": true,
+  "items": [
+    {
+      "id": "curated-telescope",
+      "title": "镜筒式层叠缩放叙事",
+      "desc": "多层图像的尺度关系和滚动节奏共同形成纵深；借鉴的是完整场景推进，不是普通放大。",
+      "design_value": "多层图像的尺度关系和滚动节奏共同形成纵深；借鉴的是完整场景推进，不是普通放大。",
+      "avoid": "长距离缩放可能造成眩晕；正文需另保留清晰阅读通道。",
+      "tech": "GSAP / ScrollTrigger / ScrollSmoother",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "entrance",
+          "placement": "品牌首页首屏进入第二幕",
+          "goal": "让用户沿同一视觉中心进入故事，而不是上下切换孤立区块"
+        },
+        {
+          "scene": "editorial",
+          "task": "chapter",
+          "placement": "专题开篇",
+          "goal": "用视觉纵深引出章节"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Joffrey Spitzer",
+      "source_url": "https://tympanus.net/codrops/2025/10/29/building-a-layered-zoom-scroll-effect-with-gsap-scrollsmoother-and-scrolltrigger/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-telescope",
+        "version": "5e790586dc35495c",
+        "manifest": "motion-vault-assets/curated-telescope/asset.json",
+        "entry": "motion-vault-assets/curated-telescope/run/effect.js",
+        "run": "motion-vault-assets/curated-telescope/run/index.html",
+        "design": "motion-vault-assets/curated-telescope/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-telescope/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-telescope/parameters.json",
+        "poster": "motion-vault-assets/curated-telescope/poster.jpg",
+        "posterRevision": "3a94be548393f412",
+        "video": "motion-vault-assets/curated-telescope/preview.mp4",
+        "videoRevision": "34f838736cd35e5f",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-glass-torus",
+      "title": "玻璃圆环与折射字带",
+      "desc": "透明圆环、内部字带与背景文字形成折射层次；本地为独立光学设计研究，不冒称原作源码。",
+      "design_value": "透明圆环、内部字带与背景文字形成折射层次；本地为独立光学设计研究，不冒称原作源码。",
+      "avoid": "透明材质存在多次渲染成本；原作模型和文字不可直接当成自有品牌资产。",
+      "tech": "Three.js / WebGL2 / 物理透射材质",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "活动主视觉与动态标识",
+          "goal": "让文字与实体材质形成一个完整视觉对象"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Matt Park",
+      "source_url": "https://tympanus.net/codrops/2025/03/13/warping-3d-text-inside-a-glass-torus/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-glass-torus",
+        "version": "34d07324a3894dd3",
+        "manifest": "motion-vault-assets/curated-glass-torus/asset.json",
+        "entry": "motion-vault-assets/curated-glass-torus/run/effect.js",
+        "run": "motion-vault-assets/curated-glass-torus/run/index.html",
+        "design": "motion-vault-assets/curated-glass-torus/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-glass-torus/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-glass-torus/parameters.json",
+        "poster": "motion-vault-assets/curated-glass-torus/poster.jpg",
+        "posterRevision": "da058a09f7cf1a07",
+        "video": "motion-vault-assets/curated-glass-torus/preview.mp4",
+        "videoRevision": "9f93b731e0858622",
+        "preview_kind": "local_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "independent_code"
+      }
+    },
+    {
+      "id": "curated-metal-name",
+      "title": "字形截面的金属空间结构",
+      "desc": "根据输入字形构造连续截面，结合负空间、扭转和金属高光；本地为独立实现。",
+      "design_value": "根据输入字形构造连续截面，结合负空间、扭转和金属高光；本地为独立实现。",
+      "avoid": "不把生成结果的分享功能当作已授权发布；反光是作者的实时近似实现，不是光线追踪。",
+      "tech": "Three.js / 字形轮廓 / 截面叠放",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "活动个性化入口与签名页",
+          "goal": "将用户输入变成有材质、有空间秩序的品牌记忆"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "BL/S® / Serhii Polyvanyi",
+      "source_url": "https://tympanus.net/codrops/2026/09/09/turning-names-into-digital-architecture-with-three-js/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-metal-name",
+        "version": "bd731e31ddc9ebc1",
+        "manifest": "motion-vault-assets/curated-metal-name/asset.json",
+        "entry": "motion-vault-assets/curated-metal-name/run/effect.js",
+        "run": "motion-vault-assets/curated-metal-name/run/index.html",
+        "design": "motion-vault-assets/curated-metal-name/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-metal-name/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-metal-name/parameters.json",
+        "poster": "motion-vault-assets/curated-metal-name/poster.jpg",
+        "posterRevision": "e0c89eb4605bb674",
+        "video": "motion-vault-assets/curated-metal-name/preview.mp4",
+        "videoRevision": "215c40a38002c0c7",
+        "preview_kind": "local_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "independent_code"
+      }
+    },
+    {
+      "id": "curated-liquid-grid",
+      "title": "玻璃球面图像陈列",
+      "desc": "静态图像、玻璃外壳与球面深度形成可旋转陈列；不是原作无限视频网格或XPBD模拟。",
+      "design_value": "静态图像、玻璃外壳与球面深度形成可旋转陈列；不是原作无限视频网格或XPBD模拟。",
+      "avoid": "原作依赖 WebGPU 和视频资源；低性能设备需要普通目录替代。",
+      "tech": "Three.js / WebGL2 / 图像阵列与惯性",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "overview",
+          "placement": "影像工作室作品总览",
+          "goal": "让大量视觉作品处于一个连续、可探索的空间"
+        },
+        {
+          "scene": "product",
+          "task": "showroom",
+          "placement": "系列产品陈列",
+          "goal": "以空间与材质组织一组展示对象"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Shader / Filip Kantedal",
+      "source_url": "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-liquid-grid",
+        "version": "c815ebacdb5e56b7",
+        "manifest": "motion-vault-assets/curated-liquid-grid/asset.json",
+        "entry": "motion-vault-assets/curated-liquid-grid/run/effect.js",
+        "run": "motion-vault-assets/curated-liquid-grid/run/index.html",
+        "design": "motion-vault-assets/curated-liquid-grid/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-liquid-grid/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-liquid-grid/parameters.json",
+        "poster": "motion-vault-assets/curated-liquid-grid/poster.jpg",
+        "posterRevision": "1780a08f42c12952",
+        "video": "motion-vault-assets/curated-liquid-grid/preview.mp4",
+        "videoRevision": "ec68e11bc70e65a2",
+        "preview_kind": "local_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "independent_code"
+      }
+    },
+    {
+      "id": "curated-depth",
+      "title": "同一物体的形态、材质与光照叙事",
+      "desc": "以同一实时几何对象贯穿形态、表面和光照三阶段；独立实现，区别于原作首屏图像序列。",
+      "design_value": "以同一实时几何对象贯穿形态、表面和光照三阶段；独立实现，区别于原作首屏图像序列。",
+      "avoid": "作者明确首屏含生成图像序列，不应标成全部实时物理渲染；音乐默认不启用。",
+      "tech": "Three.js / 几何插值 / 材质进度",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "feature",
+          "placement": "设计工具或材质产品的功能说明",
+          "goal": "通过同一对象的持续变化解释产品能力"
+        },
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "材质与工艺对比",
+          "goal": "在一致视角下阅读表面差异"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Aleksei Kipin",
+      "source_url": "https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-depth",
+        "version": "1f33dcbef8594b4d",
+        "manifest": "motion-vault-assets/curated-depth/asset.json",
+        "entry": "motion-vault-assets/curated-depth/run/effect.js",
+        "run": "motion-vault-assets/curated-depth/run/index.html",
+        "design": "motion-vault-assets/curated-depth/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-depth/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-depth/parameters.json",
+        "poster": "motion-vault-assets/curated-depth/poster.jpg",
+        "posterRevision": "4c56188e76a7ad8b",
+        "video": "motion-vault-assets/curated-depth/preview.mp4",
+        "videoRevision": "518b8a916b497281",
+        "preview_kind": "local_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "independent_code"
+      }
+    },
+    {
+      "id": "curated-spatial-product",
+      "title": "曲面产品墙与聚焦选型",
+      "desc": "曲面排列、全息选中表面和阻尼相机形成完整浏览体验，而不是通用吸附轮播。",
+      "design_value": "曲面排列、全息选中表面和阻尼相机形成完整浏览体验，而不是通用吸附轮播。",
+      "avoid": "产品照片、商标属于原素材权利方；大目录必须验证加载和可访问列表。",
+      "tech": "R3F / GLSL / 阻尼相机",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "showroom",
+          "placement": "设计品牌系列产品选择页",
+          "goal": "从产品总览自然聚焦到单个对象"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Matt Greenberg",
+      "source_url": "https://tympanus.net/codrops/2026/02/24/from-flat-to-spatial-creating-a-3d-product-grid-with-react-three-fiber/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-spatial-product",
+        "version": "29f76553ecba4e43",
+        "manifest": "motion-vault-assets/curated-spatial-product/asset.json",
+        "entry": "motion-vault-assets/curated-spatial-product/run/effect.js",
+        "run": "motion-vault-assets/curated-spatial-product/run/index.html",
+        "design": "motion-vault-assets/curated-spatial-product/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-spatial-product/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-spatial-product/parameters.json",
+        "poster": "motion-vault-assets/curated-spatial-product/poster.jpg",
+        "posterRevision": "34ea2e037f04e18e",
+        "video": "motion-vault-assets/curated-spatial-product/preview.mp4",
+        "videoRevision": "2056fe2cb3f22df5",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-fluid-xray",
+      "title": "实体与透视结构的流体显露",
+      "desc": "流动遮罩连接实体和透视两套场景，移动后的痕迹有扩散和消退，不是硬边圆形放大镜。",
+      "design_value": "流动遮罩连接实体和透视两套场景，移动后的痕迹有扩散和消退，不是硬边圆形放大镜。",
+      "avoid": "需维护两套场景与额外渲染；不能用于会被误认为真实医学影像的展示。",
+      "tech": "Three.js / TSL / 流体反馈",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "产品内部结构与外壳对照",
+          "goal": "把表面与内部结构保持在同一空间坐标中展示"
+        },
+        {
+          "scene": "product",
+          "task": "feature",
+          "placement": "结构原理讲解",
+          "goal": "在原位展示被遮挡的组成部分"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Cullen Webber",
+      "source_url": "https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-fluid-xray",
+        "version": "32120f3862e59169",
+        "manifest": "motion-vault-assets/curated-fluid-xray/asset.json",
+        "entry": "motion-vault-assets/curated-fluid-xray/run/effect.js",
+        "run": "motion-vault-assets/curated-fluid-xray/run/index.html",
+        "design": "motion-vault-assets/curated-fluid-xray/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-fluid-xray/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-fluid-xray/parameters.json",
+        "poster": "motion-vault-assets/curated-fluid-xray/poster.jpg",
+        "posterRevision": "86c725372727b52a",
+        "video": "motion-vault-assets/curated-fluid-xray/preview.mp4",
+        "videoRevision": "4daa9a4c87ec84e7",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-camera-route",
+      "title": "沿场景路线推进的镜头叙事",
+      "desc": "镜头运动与场景构图一起编排，重点是镜头路径、停留和观察方向，不是让图标沿线跑。",
+      "design_value": "镜头运动与场景构图一起编排，重点是镜头路径、停留和观察方向，不是让图标沿线跑。",
+      "avoid": "不是所有页面都适合强镜头移动；移动端与减少动态效果需要降级。",
+      "tech": "Theatre.js / React Three Fiber",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "空间品牌与沉浸式开场",
+          "goal": "让用户通过镜头路线而非按钮切换探索场景"
+        },
+        {
+          "scene": "product",
+          "task": "showroom",
+          "placement": "空间和展厅展示",
+          "goal": "通过路线安排产品被看见的顺序"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Andrew Prifer",
+      "source_url": "https://tympanus.net/codrops/2023/02/14/animate-a-camera-fly-through-on-scroll-using-theatre-js-and-react-three-fiber/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-camera-route",
+        "version": "c13b04d58ff390e8",
+        "manifest": "motion-vault-assets/curated-camera-route/asset.json",
+        "entry": "motion-vault-assets/curated-camera-route/run/effect.js",
+        "run": "motion-vault-assets/curated-camera-route/run/index.html",
+        "design": "motion-vault-assets/curated-camera-route/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-camera-route/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-camera-route/parameters.json",
+        "poster": "motion-vault-assets/curated-camera-route/poster.jpg",
+        "posterRevision": "602945ee4f755336",
+        "video": "motion-vault-assets/curated-camera-route/preview.mp4",
+        "videoRevision": "8255e2947a03ebb3",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-cloth-object",
+      "title": "柔性实体落下与压缩回弹",
+      "desc": "价值在布料体积变化、接触阴影和落地节奏，不在按钮功能本身。",
+      "design_value": "价值在布料体积变化、接触阴影和落地节奏，不在按钮功能本身。",
+      "avoid": "作者采用烘焙模拟后在浏览器重播，不是任意实时物理；不宜作为普通表单按钮。",
+      "tech": "Blender / 形态键 / Three.js",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "柔性材料或触感产品的微型展示",
+          "goal": "让压缩、褶皱和落地表现真实的柔软感"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Joshua Guo",
+      "source_url": "https://tympanus.net/codrops/2025/08/20/exporting-a-cloth-simulation-from-blender-to-an-interactive-three-js-scene/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-cloth-object",
+        "version": "d6fa10001d30108c",
+        "manifest": "motion-vault-assets/curated-cloth-object/asset.json",
+        "entry": "motion-vault-assets/curated-cloth-object/run/effect.js",
+        "run": "motion-vault-assets/curated-cloth-object/run/index.html",
+        "design": "motion-vault-assets/curated-cloth-object/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-cloth-object/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-cloth-object/parameters.json",
+        "poster": "motion-vault-assets/curated-cloth-object/poster.jpg",
+        "posterRevision": "6f5119b4e8508a76",
+        "video": "motion-vault-assets/curated-cloth-object/preview.mp4",
+        "videoRevision": "b05a5f1135f43d79",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-emissive-dissolve",
+      "title": "带发光边缘的实体溶解",
+      "desc": "溶解边缘、发光和粒子释放有同一进度关系，不是随意堆放粒子特效。",
+      "design_value": "溶解边缘、发光和粒子释放有同一进度关系，不是随意堆放粒子特效。",
+      "avoid": "高对比发光不能抢过核心信息；需要测试低端设备的后处理开销。",
+      "tech": "Three.js / GLSL / 粒子",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "entrance",
+          "placement": "发布视觉的出现与消退",
+          "goal": "让一个完整物体逐步转换成能量或粒子"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Jatin Chopra",
+      "source_url": "https://tympanus.net/codrops/2025/02/17/implementing-a-dissolve-effect-with-shaders-and-particles-in-three-js/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-emissive-dissolve",
+        "version": "2bc09bcef2eb8770",
+        "manifest": "motion-vault-assets/curated-emissive-dissolve/asset.json",
+        "entry": "motion-vault-assets/curated-emissive-dissolve/run/effect.js",
+        "run": "motion-vault-assets/curated-emissive-dissolve/run/index.html",
+        "design": "motion-vault-assets/curated-emissive-dissolve/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-emissive-dissolve/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-emissive-dissolve/parameters.json",
+        "poster": "motion-vault-assets/curated-emissive-dissolve/poster.jpg",
+        "posterRevision": "fbd04e6eb53b7df8",
+        "video": "motion-vault-assets/curated-emissive-dissolve/preview.mp4",
+        "videoRevision": "11f2c67cd3b33b5a",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-dual-wave",
+      "title": "双向文字波的滚动编排",
+      "desc": "两组相反或错开的运动围绕排版组织，不是常规逐字淡入。",
+      "design_value": "两组相反或错开的运动围绕排版组织，不是常规逐字淡入。",
+      "avoid": "仅适合短标题；长正文不要继承持续变形。",
+      "tech": "GSAP / 文字分组 / 滚动进度",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "typesetting",
+          "placement": "专题章节开头与短标题",
+          "goal": "在可读的文字顺序中建立富有张力的入场节奏"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Valentin Descombes",
+      "source_url": "https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-dual-wave",
+        "version": "d2b499f36a6c4f0c",
+        "manifest": "motion-vault-assets/curated-dual-wave/asset.json",
+        "entry": "motion-vault-assets/curated-dual-wave/run/effect.js",
+        "run": "motion-vault-assets/curated-dual-wave/run/index.html",
+        "design": "motion-vault-assets/curated-dual-wave/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-dual-wave/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-dual-wave/parameters.json",
+        "poster": "motion-vault-assets/curated-dual-wave/poster.jpg",
+        "posterRevision": "2fe117e72a5e0db7",
+        "video": "motion-vault-assets/curated-dual-wave/preview.mp4",
+        "videoRevision": "0d0ff4ca2508b998",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-image-in-type",
+      "title": "文字之间展开的图像叙事",
+      "desc": "图像展开和字间空间一起变化，排版参与转场而非做静态字幕。",
+      "design_value": "图像展开和字间空间一起变化，排版参与转场而非做静态字幕。",
+      "avoid": "需要为中文分词、换行和不同屏宽单独调整，不能直接照搬拉丁排版。",
+      "tech": "GSAP / 图文布局",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "typesetting",
+          "placement": "编辑型首页与图文专题标题",
+          "goal": "让图像在文字结构内部生长，而不是插入独立图片区块"
+        },
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "文化或艺术品牌首屏",
+          "goal": "让图像与品牌语句形成整体"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic",
+      "source_url": "https://tympanus.net/Development/ImageExpansionTypography/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-image-in-type",
+        "version": "ce1e54030c2531a7",
+        "manifest": "motion-vault-assets/curated-image-in-type/asset.json",
+        "entry": "motion-vault-assets/curated-image-in-type/run/effect.js",
+        "run": "motion-vault-assets/curated-image-in-type/run/index.html",
+        "design": "motion-vault-assets/curated-image-in-type/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-image-in-type/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-image-in-type/parameters.json",
+        "poster": "motion-vault-assets/curated-image-in-type/poster.jpg",
+        "posterRevision": "77b5bd6f37a7b668",
+        "video": "motion-vault-assets/curated-image-in-type/preview.mp4",
+        "videoRevision": "01f8a5643dcba25b",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-cylinder-type",
+      "title": "柱面排字与三维阅读节奏",
+      "desc": "文字构成三维表面并随滚动改变可见顺序；重点是透视、节奏与前景可读性。",
+      "design_value": "文字构成三维表面并随滚动改变可见顺序；重点是透视、节奏与前景可读性。",
+      "avoid": "不替代长名单的普通列表；移动端字体尺寸和可访问文本需保留。",
+      "tech": "CSS 3D / GSAP",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "typesetting",
+          "placement": "人物名单、栏目或演出阵容",
+          "goal": "将纵向列表转成可旋转的文字空间"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "David Faure",
+      "source_url": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-cylinder-type",
+        "version": "b5b3f948e71c4896",
+        "manifest": "motion-vault-assets/curated-cylinder-type/asset.json",
+        "entry": "motion-vault-assets/curated-cylinder-type/run/effect.js",
+        "run": "motion-vault-assets/curated-cylinder-type/run/index.html",
+        "design": "motion-vault-assets/curated-cylinder-type/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-cylinder-type/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-cylinder-type/parameters.json",
+        "poster": "motion-vault-assets/curated-cylinder-type/poster.jpg",
+        "posterRevision": "2956c180278e827e",
+        "video": "motion-vault-assets/curated-cylinder-type/preview.mp4",
+        "videoRevision": "7665394220740bb8",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-stylized-water",
+      "title": "风格化水面与场景光感",
+      "desc": "研究的是水面与三维场景的综合色彩和光感，不是对整张图片施加任意波纹。",
+      "design_value": "研究的是水面与三维场景的综合色彩和光感，不是对整张图片施加任意波纹。",
+      "avoid": "需在真实浏览器中判断 GPU 负担；不得让背景持续干扰正文。",
+      "tech": "React Three Fiber / 水面着色",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "atmosphere",
+          "placement": "自然、海岸或空间主题背景",
+          "goal": "让水的风格与画面整体气质一致"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Thalles Lopes",
+      "source_url": "https://tympanus.net/Tutorials/StylizedWater/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-stylized-water",
+        "version": "95b6aed8a71b31d1",
+        "manifest": "motion-vault-assets/curated-stylized-water/asset.json",
+        "entry": "motion-vault-assets/curated-stylized-water/run/effect.js",
+        "run": "motion-vault-assets/curated-stylized-water/run/index.html",
+        "design": "motion-vault-assets/curated-stylized-water/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-stylized-water/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-stylized-water/parameters.json",
+        "poster": "motion-vault-assets/curated-stylized-water/poster.jpg",
+        "posterRevision": "520a8af66bec66ce",
+        "video": "motion-vault-assets/curated-stylized-water/preview.mp4",
+        "videoRevision": "f3a0901ff4c43818",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-shape-ascii",
+      "title": "沿真实轮廓选字的 ASCII 实体",
+      "desc": "字符选择考虑形状而不仅是亮度，因此倾斜边缘也有结构；区别于普通乱码文字。",
+      "design_value": "字符选择考虑形状而不仅是亮度，因此倾斜边缘也有结构；区别于普通乱码文字。",
+      "avoid": "高密度字符不适合正文；品牌图形与字库的实际许可另查。",
+      "tech": "Three.js / GPU 字形匹配",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "技术品牌的标识实验",
+          "goal": "在字符媒介里保住标识轮廓和空间感"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Edoardo Lunardi",
+      "source_url": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-shape-ascii",
+        "version": "051454d34b6f999c",
+        "manifest": "motion-vault-assets/curated-shape-ascii/asset.json",
+        "entry": "motion-vault-assets/curated-shape-ascii/run/effect.js",
+        "run": "motion-vault-assets/curated-shape-ascii/run/index.html",
+        "design": "motion-vault-assets/curated-shape-ascii/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-shape-ascii/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-shape-ascii/parameters.json",
+        "poster": "motion-vault-assets/curated-shape-ascii/poster.jpg",
+        "posterRevision": "08afb2446401ccec",
+        "video": "motion-vault-assets/curated-shape-ascii/preview.mp4",
+        "videoRevision": "1e1e6abad487962d",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "title": "反应扩散的生长型材质",
+      "desc": "纹理形态在模拟中演化，适合借鉴生长节奏、局部结构和留白的关系。",
+      "design_value": "纹理形态在模拟中演化，适合借鉴生长节奏、局部结构和留白的关系。",
+      "avoid": "原作要求 WebGPU；正式产品需静态或视频替代，不强迫用户更改浏览器安全设置。",
+      "tech": "WebGPU / Compute shader",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "atmosphere",
+          "placement": "研究、自然与生成设计主题视觉",
+          "goal": "以持续生长而非循环平移的纹理表达过程"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Robert Leitl / atuin.media",
+      "source_url": "https://tympanus.net/codrops/2024/05/01/reaction-diffusion-compute-shader-in-webgpu/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-reaction-diffusion",
+        "version": "2e1abf071b3aa30b",
+        "manifest": "motion-vault-assets/curated-reaction-diffusion/asset.json",
+        "entry": "motion-vault-assets/curated-reaction-diffusion/run/effect.js",
+        "run": "motion-vault-assets/curated-reaction-diffusion/run/index.html",
+        "design": "motion-vault-assets/curated-reaction-diffusion/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-reaction-diffusion/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-reaction-diffusion/parameters.json",
+        "poster": "motion-vault-assets/curated-reaction-diffusion/poster.jpg",
+        "posterRevision": "286a03cc787105c3",
+        "video": "motion-vault-assets/curated-reaction-diffusion/preview.mp4",
+        "videoRevision": "434046066abe0b58",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-vortex-glass",
+      "title": "玻璃球中的体积漩涡",
+      "desc": "外壳与内部流动相互衬托，体积、折射和中心构图同时成立。",
+      "design_value": "外壳与内部流动相互衬托，体积、折射和中心构图同时成立。",
+      "avoid": "原作依赖较重的图形能力；适合一个主视觉，不建议整页重复堆叠。",
+      "tech": "Three.js / TSL / 体积效果",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "高识别度的发布主视觉",
+          "goal": "把复杂运动约束在一个清晰的中心物体内"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "MisterPrada",
+      "source_url": "https://tympanus.net/codrops/2025/03/10/rendering-a-procedural-vortex-inside-a-glass-sphere-with-three-js-and-tsl/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-vortex-glass",
+        "version": "d5c74e6bd34a1883",
+        "manifest": "motion-vault-assets/curated-vortex-glass/asset.json",
+        "entry": "motion-vault-assets/curated-vortex-glass/run/effect.js",
+        "run": "motion-vault-assets/curated-vortex-glass/run/index.html",
+        "design": "motion-vault-assets/curated-vortex-glass/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-vortex-glass/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-vortex-glass/parameters.json",
+        "poster": "motion-vault-assets/curated-vortex-glass/poster.jpg",
+        "posterRevision": "d41666130d83fb62",
+        "video": "motion-vault-assets/curated-vortex-glass/preview.mp4",
+        "videoRevision": "b3c2a36dc8e2dc93",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-webgl-reveal",
+      "title": "滚动中连续显露的 WebGL 图像",
+      "desc": "借鉴图像进入视野时的遮罩、变形和内容阅读关系，不把整张卡片淡入当作设计。",
+      "design_value": "借鉴图像进入视野时的遮罩、变形和内容阅读关系，不把整张卡片淡入当作设计。",
+      "avoid": "图像加载失败必须有替代；变形不应损伤需要审查的作品信息。",
+      "tech": "React Three Fiber / WebGL",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "discovery",
+          "placement": "摄影、艺术作品目录",
+          "goal": "让图像显露过程与浏览节奏形成联系"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Yuri Artiukh",
+      "source_url": "https://tympanus.net/Development/RevealingWebGLImages/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-webgl-reveal",
+        "version": "3cffea68504ddd1a",
+        "manifest": "motion-vault-assets/curated-webgl-reveal/asset.json",
+        "entry": "motion-vault-assets/curated-webgl-reveal/run/effect.js",
+        "run": "motion-vault-assets/curated-webgl-reveal/run/index.html",
+        "design": "motion-vault-assets/curated-webgl-reveal/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-webgl-reveal/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-webgl-reveal/parameters.json",
+        "poster": "motion-vault-assets/curated-webgl-reveal/poster.jpg",
+        "posterRevision": "2e09f325592673f4",
+        "video": "motion-vault-assets/curated-webgl-reveal/preview.mp4",
+        "videoRevision": "c78f4da90a64164f",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "title": "滚动显露与跨页连续的作品集",
+      "desc": "把滚动显露、WebGL 画面和路由转场组织成同一套体验，不是独立像素遮罩。",
+      "design_value": "把滚动显露、WebGL 画面和路由转场组织成同一套体验，不是独立像素遮罩。",
+      "avoid": "导航机制需接入实际路由、返回行为与资源清理；原作不是通用组件包。",
+      "tech": "Astro / Barba.js / Three.js / GSAP",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "handoff",
+          "placement": "从作品总览进入项目详情",
+          "goal": "让跨页导航继承当前图像的视觉关系"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Chakib Mazouni",
+      "source_url": "https://tympanus.net/codrops/2026/02/02/building-a-scroll-revealed-webgl-gallery-with-gsap-three-js-astro-and-barba-js/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-persistent-gallery",
+        "version": "54ff3fdc942fa76d",
+        "manifest": "motion-vault-assets/curated-persistent-gallery/asset.json",
+        "entry": "motion-vault-assets/curated-persistent-gallery/run/effect.js",
+        "run": "motion-vault-assets/curated-persistent-gallery/run/index.html",
+        "design": "motion-vault-assets/curated-persistent-gallery/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-persistent-gallery/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-persistent-gallery/parameters.json",
+        "poster": "motion-vault-assets/curated-persistent-gallery/poster.jpg",
+        "posterRevision": "76bc40795882391f",
+        "video": "motion-vault-assets/curated-persistent-gallery/preview.mp4",
+        "videoRevision": "50ca5dc49f832bbb",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "title": "保持画布连续的 WebGPU 跨页转场",
+      "desc": "重点是跨页持续存在的画布与页面内容交接，不把页面切换拆成互不相关的动画。",
+      "design_value": "重点是跨页持续存在的画布与页面内容交接，不把页面切换拆成互不相关的动画。",
+      "avoid": "需独立验证历史记录、取消、加载失败和 WebGPU 降级。",
+      "tech": "WebGPU / Vanilla JavaScript / 路由衔接",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "handoff",
+          "placement": "视觉导向网站的页面切换",
+          "goal": "在路由切换时保留连续的图形场景"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Ben Paine",
+      "source_url": "https://tympanus.net/codrops/2026/06/30/building-persistent-page-transitions-with-webgpu-and-vanilla-javascript/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-webgpu-route",
+        "version": "9b3023082fcdff90",
+        "manifest": "motion-vault-assets/curated-webgpu-route/asset.json",
+        "entry": "motion-vault-assets/curated-webgpu-route/run/effect.js",
+        "run": "motion-vault-assets/curated-webgpu-route/run/index.html",
+        "design": "motion-vault-assets/curated-webgpu-route/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-webgpu-route/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-webgpu-route/parameters.json",
+        "poster": "motion-vault-assets/curated-webgpu-route/poster.jpg",
+        "posterRevision": "dab2cf8226732d10",
+        "video": "motion-vault-assets/curated-webgpu-route/preview.mp4",
+        "videoRevision": "a201467854e72e3d",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-grid-full",
+      "title": "网格图像到完整案例的形态接续",
+      "desc": "原位图像与周边网格共同退让，建立明确的前后层级，而不是普通弹窗。",
+      "design_value": "原位图像与周边网格共同退让，建立明确的前后层级，而不是普通弹窗。",
+      "avoid": "此条以图像进入案例的整体转场为参考，不等同于通用布局组件；实际接入需验证焦点与返回位置。",
+      "tech": "GSAP / Grid-to-detail",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "产品目录中的原位放大预览",
+          "goal": "在保留系列产品关系的同时查看单个对象细节"
+        },
+        {
+          "scene": "portfolio",
+          "task": "handoff",
+          "placement": "图像网格到作品预览",
+          "goal": "由原位置建立下一层的视觉锚点"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Gwen Bogaert",
+      "source_url": "https://tympanus.net/Tutorials/GridToFullPreview/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-grid-full",
+        "version": "dcb9dea4d9f73cd3",
+        "manifest": "motion-vault-assets/curated-grid-full/asset.json",
+        "entry": "motion-vault-assets/curated-grid-full/run/effect.js",
+        "run": "motion-vault-assets/curated-grid-full/run/index.html",
+        "design": "motion-vault-assets/curated-grid-full/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-grid-full/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-grid-full/parameters.json",
+        "poster": "motion-vault-assets/curated-grid-full/poster.jpg",
+        "posterRevision": "b127c100715f4bea",
+        "video": "motion-vault-assets/curated-grid-full/preview.mp4",
+        "videoRevision": "2b442ea6fcd3e211",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-editorial-layout",
+      "title": "随阅读推进重组的编辑版式",
+      "desc": "不同图片组和文字关系随滚动重组，适合学习留白、密度变化和章节分界。",
+      "design_value": "不同图片组和文字关系随滚动重组，适合学习留白、密度变化和章节分界。",
+      "avoid": "需要完整内容才能调节节奏；不要让核心文字只在短暂动画区间出现。",
+      "tech": "GSAP / Scroll-based layout",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "chapter",
+          "placement": "长专题的图文段落交接",
+          "goal": "让页面版式本身成为叙事节奏的一部分"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic",
+      "source_url": "https://tympanus.net/Development/ScrollBasedLayoutAnimations/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-editorial-layout",
+        "version": "e6f8e18b6e38482c",
+        "manifest": "motion-vault-assets/curated-editorial-layout/asset.json",
+        "entry": "motion-vault-assets/curated-editorial-layout/run/effect.js",
+        "run": "motion-vault-assets/curated-editorial-layout/run/index.html",
+        "design": "motion-vault-assets/curated-editorial-layout/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-editorial-layout/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-editorial-layout/parameters.json",
+        "poster": "motion-vault-assets/curated-editorial-layout/poster.jpg",
+        "posterRevision": "ac90543a75f37bfd",
+        "video": "motion-vault-assets/curated-editorial-layout/preview.mp4",
+        "videoRevision": "0c1f8dd225df4cee",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-thumbnail-flow",
+      "title": "缩略卡组沿弧线流向主画面",
+      "desc": "弯曲轨迹与错峰次序组织整体动势，强调图像集合在不同布局之间的连续迁移。",
+      "design_value": "弯曲轨迹与错峰次序组织整体动势，强调图像集合在不同布局之间的连续迁移。",
+      "avoid": "作者明确这是动作研究，画廊功能不完整；不得当成已经完成的生产轮播。",
+      "tech": "GSAP / MotionPath",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "sequence",
+          "placement": "从叠放图像进入一组精选作品",
+          "goal": "让卡组、图带和主图之间有明确连续关系"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Iqbal Muthahhary",
+      "source_url": "https://tympanus.net/codrops/2026/06/04/creating-a-thumbnail-flow-animation-with-gsap-motionpath/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-thumbnail-flow",
+        "version": "6f5cec0e4b516921",
+        "manifest": "motion-vault-assets/curated-thumbnail-flow/asset.json",
+        "entry": "motion-vault-assets/curated-thumbnail-flow/run/effect.js",
+        "run": "motion-vault-assets/curated-thumbnail-flow/run/index.html",
+        "design": "motion-vault-assets/curated-thumbnail-flow/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-thumbnail-flow/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-thumbnail-flow/parameters.json",
+        "poster": "motion-vault-assets/curated-thumbnail-flow/poster.jpg",
+        "posterRevision": "846781d7c4017700",
+        "video": "motion-vault-assets/curated-thumbnail-flow/preview.mp4",
+        "videoRevision": "a8bfd52d9d34efab",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-elastic-editorial",
+      "title": "带延迟弹性的图像网格编排",
+      "desc": "作品的相互关系与不同滞后量形成弹性结构，不是普通列表逐项浮动。",
+      "design_value": "作品的相互关系与不同滞后量形成弹性结构，不是普通列表逐项浮动。",
+      "avoid": "图片内容必须保持可识别；高频生产列表不适合这种持续跟随。",
+      "tech": "GSAP / ScrollSmoother / Lag",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "overview",
+          "placement": "节奏鲜明的视觉作品集",
+          "goal": "通过有控制的滞后让网格具有整体弹性"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic",
+      "source_url": "https://tympanus.net/codrops/2025/06/03/elastic-grid-scroll-creating-lag-based-layout-animations-with-gsap-scrollsmoother/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-elastic-editorial",
+        "version": "7d9552c2cef9774b",
+        "manifest": "motion-vault-assets/curated-elastic-editorial/asset.json",
+        "entry": "motion-vault-assets/curated-elastic-editorial/run/effect.js",
+        "run": "motion-vault-assets/curated-elastic-editorial/run/index.html",
+        "design": "motion-vault-assets/curated-elastic-editorial/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-elastic-editorial/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-elastic-editorial/parameters.json",
+        "poster": "motion-vault-assets/curated-elastic-editorial/poster.jpg",
+        "posterRevision": "a8495da042490044",
+        "video": "motion-vault-assets/curated-elastic-editorial/preview.mp4",
+        "videoRevision": "4f21e9d72ad94928",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-cluster",
+      "title": "可探索的三维簇状物体",
+      "desc": "三维簇状结构提供体积、遮挡与局部响应，适合研究整体结构而不是复制常见图标。",
+      "design_value": "三维簇状结构提供体积、遮挡与局部响应，适合研究整体结构而不是复制常见图标。",
+      "avoid": "不是信息图或数据事实的替代；低性能设备应降级展示。",
+      "tech": "Three.js / TSL",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "强调聚合或模块关系的交互主视觉",
+          "goal": "通过一个聚合体表现复杂部分如何形成整体"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Francesco Michelini",
+      "source_url": "https://tympanus.net/Tutorials/3DCluster/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-cluster",
+        "version": "72a34f23d3effd4a",
+        "manifest": "motion-vault-assets/curated-cluster/asset.json",
+        "entry": "motion-vault-assets/curated-cluster/run/effect.js",
+        "run": "motion-vault-assets/curated-cluster/run/index.html",
+        "design": "motion-vault-assets/curated-cluster/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-cluster/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-cluster/parameters.json",
+        "poster": "motion-vault-assets/curated-cluster/poster.jpg",
+        "posterRevision": "a3452ca6135d16e3",
+        "video": "motion-vault-assets/curated-cluster/preview.mp4",
+        "videoRevision": "e3fb99c7f2a9d895",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-layer-cut",
+      "title": "分层图像的几何剪裁转场",
+      "desc": "借鉴多层图像的空间关系、遮罩方向与时间差；六个示例作为同一组研究，不重复计数。",
+      "design_value": "借鉴多层图像的空间关系、遮罩方向与时间差；六个示例作为同一组研究，不重复计数。",
+      "avoid": "原作各版本不是六个独立收录项；需检查图像内容不被无意义裁掉。",
+      "tech": "Clip-path / 分层编排",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "sequence",
+          "placement": "摄影系列或视觉方案切换",
+          "goal": "让整幅画面以有序层次进入和退出"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic",
+      "source_url": "https://tympanus.net/Development/LayersAnimation/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-layer-cut",
+        "version": "1c7c7d9678d65125",
+        "manifest": "motion-vault-assets/curated-layer-cut/asset.json",
+        "entry": "motion-vault-assets/curated-layer-cut/run/effect.js",
+        "run": "motion-vault-assets/curated-layer-cut/run/index.html",
+        "design": "motion-vault-assets/curated-layer-cut/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-layer-cut/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-layer-cut/parameters.json",
+        "poster": "motion-vault-assets/curated-layer-cut/poster.jpg",
+        "posterRevision": "2c0b550368fcb5a1",
+        "video": "motion-vault-assets/curated-layer-cut/preview.mp4",
+        "videoRevision": "67197ce868e9246c",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-rounded-menu",
+      "title": "圆角导航与背景揭幕的联动",
+      "desc": "菜单容器扩张与背景反向揭示共同构成转场，重点是两者的协调。",
+      "design_value": "菜单容器扩张与背景反向揭示共同构成转场，重点是两者的协调。",
+      "avoid": "这是导航转场研究，不是普通菜单收录；生产需补齐键盘焦点与实际链接。",
+      "tech": "GSAP / CSS / 圆角空间过渡",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "navigation",
+          "placement": "品牌型应用或内容站主导航",
+          "goal": "让导航展开成为空间切换而非盖一块面板"
+        },
+        {
+          "scene": "brand",
+          "task": "entrance",
+          "placement": "编辑型品牌入口",
+          "goal": "以导航动作揭示品牌画面"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Codrops / Manoela Ilic",
+      "source_url": "https://github.com/codrops/ExpandingRoundedMenu/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-rounded-menu",
+        "version": "ecb280e1c8cd2b35",
+        "manifest": "motion-vault-assets/curated-rounded-menu/asset.json",
+        "entry": "motion-vault-assets/curated-rounded-menu/run/effect.js",
+        "run": "motion-vault-assets/curated-rounded-menu/run/index.html",
+        "design": "motion-vault-assets/curated-rounded-menu/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-rounded-menu/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-rounded-menu/parameters.json",
+        "poster": "motion-vault-assets/curated-rounded-menu/poster.jpg",
+        "posterRevision": "8460153fb60202a1",
+        "video": "motion-vault-assets/curated-rounded-menu/preview.mp4",
+        "videoRevision": "96d9c6987fe80f23",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-inline-menu",
+      "title": "正文词语迁移成图像导航",
+      "desc": "被点中的词语保留身份并进入菜单结构，其他文字有方向地退出。",
+      "design_value": "被点中的词语保留身份并进入菜单结构，其他文字有方向地退出。",
+      "avoid": "需要为中文换行与词组边界重做；本条不是普通链接悬停图片。",
+      "tech": "GSAP / 排版重组",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "typesetting",
+          "placement": "词语导向的专题索引",
+          "goal": "从阅读正文自然切换到一个相关图像集合"
+        },
+        {
+          "scene": "portfolio",
+          "task": "discovery",
+          "placement": "文本作品目录",
+          "goal": "由描述词进入视觉作品"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic；概念参考 Matthew Hall",
+      "source_url": "https://tympanus.net/codrops/2021/06/23/inline-to-menu-link-animation/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-inline-menu",
+        "version": "fd4cfcead22ecc3d",
+        "manifest": "motion-vault-assets/curated-inline-menu/asset.json",
+        "entry": "motion-vault-assets/curated-inline-menu/run/effect.js",
+        "run": "motion-vault-assets/curated-inline-menu/run/index.html",
+        "design": "motion-vault-assets/curated-inline-menu/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-inline-menu/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-inline-menu/parameters.json",
+        "poster": "motion-vault-assets/curated-inline-menu/poster.jpg",
+        "posterRevision": "f2ac24a79e473572",
+        "video": "motion-vault-assets/curated-inline-menu/preview.mp4",
+        "videoRevision": "b7c8eda3378c0d70",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-tooltip-gallery",
+      "title": "小预览到画廊再到全屏的连续过渡",
+      "desc": "同一张缩略图依次承担提示、画廊主图和全屏图的角色，边线也参与迁移。",
+      "design_value": "同一张缩略图依次承担提示、画廊主图和全屏图的角色，边线也参与迁移。",
+      "avoid": "作者明确画廊导航未完整实现；价值在三层过渡，不是通用 tooltip 功能。",
+      "tech": "GSAP Flip / 共享元素",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "handoff",
+          "placement": "文字目录的渐进式作品查看",
+          "goal": "在不突然切换上下文的前提下逐层放大信息"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic",
+      "source_url": "https://tympanus.net/codrops/2022/12/07/tooltip-to-gallery-page-transition/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-tooltip-gallery",
+        "version": "b355cb24d1186dde",
+        "manifest": "motion-vault-assets/curated-tooltip-gallery/asset.json",
+        "entry": "motion-vault-assets/curated-tooltip-gallery/run/effect.js",
+        "run": "motion-vault-assets/curated-tooltip-gallery/run/index.html",
+        "design": "motion-vault-assets/curated-tooltip-gallery/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-tooltip-gallery/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-tooltip-gallery/parameters.json",
+        "poster": "motion-vault-assets/curated-tooltip-gallery/poster.jpg",
+        "posterRevision": "f6de105d7bbf6732",
+        "video": "motion-vault-assets/curated-tooltip-gallery/preview.mp4",
+        "videoRevision": "6c8468bdf2cc8dfd",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    },
+    {
+      "id": "curated-grid-flow-nav",
+      "title": "图像网格流动构成导航节奏",
+      "desc": "导航、图像网格与载入编排共同构成节奏，不是普通网格显示。",
+      "design_value": "导航、图像网格与载入编排共同构成节奏，不是普通网格显示。",
+      "avoid": "不应让用户为高频功能等待完整演出；必须有可取消或缩短的路径。",
+      "tech": "GSAP / Grid navigation",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "navigation",
+          "placement": "视觉栏目或作品频道入口",
+          "goal": "把导航选择与新一组图像的到来组织成整体"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "adapted_author_source",
+      "source_name": "Manoela Ilic",
+      "source_url": "https://tympanus.net/codrops/2023/07/27/grid-flow-animation/",
+      "status": "local_source_ready_for_review",
+      "asset": {
+        "id": "curated-grid-flow-nav",
+        "version": "322ddb112513aa6c",
+        "manifest": "motion-vault-assets/curated-grid-flow-nav/asset.json",
+        "entry": "motion-vault-assets/curated-grid-flow-nav/run/effect.js",
+        "run": "motion-vault-assets/curated-grid-flow-nav/run/index.html",
+        "design": "motion-vault-assets/curated-grid-flow-nav/DESIGN.md",
+        "implementation": "motion-vault-assets/curated-grid-flow-nav/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/curated-grid-flow-nav/parameters.json",
+        "poster": "motion-vault-assets/curated-grid-flow-nav/poster.jpg",
+        "posterRevision": "29b1c2bf75ade8ef",
+        "video": "motion-vault-assets/curated-grid-flow-nav/preview.mp4",
+        "videoRevision": "1388d1d3c98ae355",
+        "preview_kind": "adapted_source_render",
+        "state": "local_source_verified",
+        "source_verified": false,
+        "implementation_kind": "adapted_author_source"
+      }
+    }
+  ]
+}

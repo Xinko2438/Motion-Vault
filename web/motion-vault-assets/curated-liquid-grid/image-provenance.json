@@ -1,0 +1,13 @@
+{
+  "source": "https://tympanus.net/Development/LayersAnimation/",
+  "repository": "https://github.com/codrops/LayersAnimation",
+  "files": [
+    "1.jpg",
+    "10.jpg",
+    "11.jpg",
+    "2.jpg",
+    "3.jpg",
+    "4.jpg"
+  ],
+  "usage": "existing demo photographs for local visual reference; replace for production"
+}

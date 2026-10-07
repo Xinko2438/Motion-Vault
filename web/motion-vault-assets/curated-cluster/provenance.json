@@ -1,0 +1,18 @@
+{
+  "implementation_kind": "adapted_author_source",
+  "author": "Francesco Michelini",
+  "source": "https://tympanus.net/Tutorials/3DCluster/",
+  "repository": "https://github.com/kekkorider/codrops-tutorial-dark-cluster",
+  "commit": "f39816bd6c82884c706a0bd82ca6ebade4ec367a",
+  "version": "72a34f23d3effd4a",
+  "differences": [
+    "保留原作者核心实现；移除广告、第三方字体和无关外链加载。",
+    "构建使用本地打包的锁定依赖，预览页面不依赖源站在线运行。",
+    "系统字体替代会改变原作字形，不宣称原作逐像素一致。",
+    "完整交互保持不透明沙箱；只将当前清单允许的本地公开素材通过只读通道传入。独立运行保留原生加载方式，效果核心与录屏一致。"
+  ],
+  "rights": "代码按仓库许可证或Codrops可下载示例许可保留署名。演示照片、模型及商标须按其各自条款检查，生产替换素材，不把代码许可当作素材商用许可。未发布字体文件。",
+  "upstream_visual_verified": false,
+  "reference_author": "Francesco Michelini",
+  "reference_title": "可探索的三维簇状物体"
+}

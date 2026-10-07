@@ -1,0 +1,12 @@
+{
+  "webglRequired": true,
+  "inputs": {
+    "ior": {
+      "min": 1.1,
+      "max": 2,
+      "default": 1.46
+    }
+  },
+  "runtime": "Three.js0.182.0",
+  "systemFontsOnly": true
+}

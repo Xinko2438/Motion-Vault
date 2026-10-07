@@ -1,0 +1,102 @@
+[
+  {
+    "path": "source/js/main.js",
+    "role": "original_source",
+    "sha256": "4cc731a15d130ab7c10e3d390384026b92aa87e2df830720efe64dc16cc97e1c"
+  },
+  {
+    "path": "adapter/css/demo.css",
+    "role": "local_adapter",
+    "sha256": "84ac9d5d8da4e9384568cfd85954e0552c1b9647751d1fef74e61ed8d0fa9297"
+  },
+  {
+    "path": "adapter/js/main.js",
+    "role": "local_adapter",
+    "sha256": "88025dc9b45422e727c231d33445045969dfbf3fd64b23fe0079795a224c689d"
+  },
+  {
+    "path": "source/js/composite.js",
+    "role": "original_source",
+    "sha256": "6900fd9271f1d352249290b8589b49f72fabf5fd1db24e0327b6553cb1a6cf9e"
+  },
+  {
+    "path": "source/js/libs/float16.js",
+    "role": "original_source",
+    "sha256": "6b55907edfbb5cd6ddb7f720b71134f57b810ddd6b1b64c6189f20929c2c626d"
+  },
+  {
+    "path": "source/js/libs/webgpu-utils.module.js",
+    "role": "original_source",
+    "sha256": "1ce24244cd8e6ef73152c90c392647e9529899c20e2d81fed794c6c212643439"
+  },
+  {
+    "path": "source/js/rd-compute.js",
+    "role": "original_source",
+    "sha256": "7a3e028ef3ef81c7655e5c0db7ad6265842a507767f7b3607b595dd87b95453b"
+  },
+  {
+    "path": "source/js/shader/composite-shader.js",
+    "role": "original_source",
+    "sha256": "24149f8b9326ab2a3b134cd5acd23319eef5044fba690880a9cc9f01c77849d7"
+  },
+  {
+    "path": "source/js/shader/rd-compute-shader.js",
+    "role": "original_source",
+    "sha256": "5c290cb6f405fb1876ea17f6e4efb0d4c5a2821d4c55d609282517a353a210c9"
+  },
+  {
+    "path": "source/performance-comparison/js/composite.js",
+    "role": "original_source",
+    "sha256": "751ffba8cbad027601545663f428f456d3978cb95136682d46ac5589c37fea81"
+  },
+  {
+    "path": "source/performance-comparison/js/libs/float16.js",
+    "role": "original_source",
+    "sha256": "6b55907edfbb5cd6ddb7f720b71134f57b810ddd6b1b64c6189f20929c2c626d"
+  },
+  {
+    "path": "source/performance-comparison/js/libs/webgpu-utils.module.js",
+    "role": "original_source",
+    "sha256": "1ce24244cd8e6ef73152c90c392647e9529899c20e2d81fed794c6c212643439"
+  },
+  {
+    "path": "source/performance-comparison/js/main.js",
+    "role": "original_source",
+    "sha256": "c306a48c4c27c18efd6c95e1917be9df3ba79e5824c24a19c530d090240179cc"
+  },
+  {
+    "path": "source/performance-comparison/js/rd-compute.js",
+    "role": "original_source",
+    "sha256": "9c93a7cdcc4079ba023afa31c96a82887b915a58081bb4c1a9f93b01bdc4d659"
+  },
+  {
+    "path": "source/performance-comparison/js/rd-fragment.js",
+    "role": "original_source",
+    "sha256": "ca1036e27c6f93f65ca20c8f40c8b6adfcce76d0a01be51ed231fe9e42fe1c8d"
+  },
+  {
+    "path": "source/performance-comparison/js/shader/composite-shader.js",
+    "role": "original_source",
+    "sha256": "90fbe6d6962cc951cda10ba57e076a1f02d97240215a88339b5a970e0282f7a0"
+  },
+  {
+    "path": "source/performance-comparison/js/shader/rd-compute-shader.js",
+    "role": "original_source",
+    "sha256": "b5a7721a50be7d489d2c4e3a49ff9bb8c2e103ae0d70e95164ed3cad729b3c95"
+  },
+  {
+    "path": "source/performance-comparison/js/shader/rd-fragment-shader.js",
+    "role": "original_source",
+    "sha256": "be1f492e3ae8e37286162eb172a80ab5f9ad915add9a3edb92e7fe0a5d4ccbfe"
+  },
+  {
+    "path": "source/performance-comparison/js/utils/rolling-average.js",
+    "role": "original_source",
+    "sha256": "b723bb73be291281501f48ce2f1f34a623735bd1ed5b6ed60e4c23093e00ed47"
+  },
+  {
+    "path": "source/performance-comparison/js/utils/timing-helper.js",
+    "role": "original_source",
+    "sha256": "6c35543fea3d2e7ed45909a2ab0a60ecd2bca1fb93c43fe634ad999312e8ec1a"
+  }
+]

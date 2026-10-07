@@ -1,0 +1,5 @@
+// 折叠面板手风琴平滑伸缩
+// Runnable entry backed by the shared local engine; see IMPLEMENTATION.md for the exact core locations.
+import {createRuntime} from '../shared/runtime.31fd3f9a83f9.mjs';
+export const reference={"id":33,"title":"折叠面板手风琴平滑伸缩","desc":"点击展开常见问题，高度平滑自 0 展开到自适应高度，文字不闪烁。","design_value":"收纳次要补充规则，用户想深究时能丝滑调出，保持整洁度。","avoid":"绝对不要写死高度例如 height: 500px，必须自动计算实际内容高度。","tech":"grid-template-rows: 0fr -> 1fr; transition: 0.25s;","demo":"\u003cdiv style=\"width:170px; border:1px solid var(--card-border); border-radius:6px; padding:8px; font-size:11px;\">\u003cdiv style=\"display:flex; justify-content:space-between; font-weight:600;\">\u003cspan>支持退款吗？\u003c/span>\u003cspan>+\u003c/span>\u003c/div>\u003cdiv style=\"font-size:10px; color:var(--text-muted); margin-top:4px;\">30天内保障\u003c/div>\u003c/div>","scene":"flow","uses":[{"scene":"editorial","task":"chapter","placement":"补充说明与问答","goal":"按需展开内容且不发生高度突跳"}],"preview_mode":"click","source_kind":"independent_code","source_name":"既有本地代码演示","source_url":null};
+export function mount(host,options={}){return createRuntime(host,reference,options);}

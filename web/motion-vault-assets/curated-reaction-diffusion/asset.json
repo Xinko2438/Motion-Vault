@@ -1,0 +1,126 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-reaction-diffusion",
+  "title": "反应扩散的生长型材质",
+  "kind": "adapted_author_source",
+  "status": "local_source_verified",
+  "version": "2e1abf071b3aa30b",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "286a03cc787105c3f36b3694a324d2bdb93dc8b6aa37ae0b791c45151b8c38ca",
+    "videoSha256": "434046066abe0b582fcc895a9bc226e03a5c4040c4a95c8594ba2e3f266f6d81",
+    "videoBytes": 1251138,
+    "implementationVersion": "2e1abf071b3aa30b",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-scenes-b-20261006-one",
+      "at": "2026-10-06T16:49:44.273Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 5.4764,
+      "frameCount": 332,
+      "visualChanges": 331,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 143,
+        "contentFPS": 59.583333333333336,
+        "longestHoldSeconds": 0.027833000000000004
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "4cebf1a98fa69b48abf39d990957c8e37375362b5ecc0b3c875959803c3f3e95",
+    "IMPLEMENTATION.md": "177458ce5c6eb930fa702fdecef7e719d973e5ea4cfe72297816d3244270a4b4",
+    "adapter/css/demo.css": "84ac9d5d8da4e9384568cfd85954e0552c1b9647751d1fef74e61ed8d0fa9297",
+    "adapter/js/main.js": "88025dc9b45422e727c231d33445045969dfbf3fd64b23fe0079795a224c689d",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "dependencies.json": "ae88fa5d11f0525e8807477645bc0d1d45b8710df2d444fb0ccafa1e4dda2f8e",
+    "dependency-lock.json": "79cf6fc9d0086dac41a2ab2cf7846bc2f881815f1d9821d7773c9a0c3f73c6fd",
+    "parameters.json": "4ba5b3ce41c624897c570667f4f4c2122011121b4747d3352a50616de65b98d3",
+    "provenance.json": "ac9bee5208dd8e26f6fbe66c27f84e324c63d515fd5fab8518f6fbeedec35506",
+    "run/css/base.css": "88e02fbb0bf83fa1d2f552f0349bd30cc43463aadbfda446b3b7ee31d740a453",
+    "run/css/demo.css": "84ac9d5d8da4e9384568cfd85954e0552c1b9647751d1fef74e61ed8d0fa9297",
+    "run/effect.js": "2af8ac9d3d22da5b13f0324886c541ba961c23373eba60eb3a65f1bd2109aaac",
+    "run/index.html": "b4380d60ccad4237c73ebb8d464a276771006ef9344f5507bcda24d311e0d424",
+    "run/reference-icon.svg": "b56c007bad3bd0dc7cda249ea2444f58633792285bde15f883442c34573f77bd",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "c795a92a0ca9694642bcb5c2d19b1e86491dca552e48b6353b010849c3a833bf",
+    "source/.gitignore": "9b8074b26a037dc7c1178b1d36da7a276f683fabc5a29ace1440dd0b6038d7b4",
+    "source/LICENSE": "a5ad4d98a7970bd09ba775c7e237fb93c60139f8e0e261ebb470e580b213c226",
+    "source/README.md": "c91355ee837b7eb469075460690a4438b158aa013b543ae999323981e1377b8b",
+    "source/cover.jpg": "c1f50c9d293175affb464ffe4396c4abbe3835ae7cc936c6e8ee2eda012b0d8c",
+    "source/css/base.css": "88e02fbb0bf83fa1d2f552f0349bd30cc43463aadbfda446b3b7ee31d740a453",
+    "source/css/demo.css": "d0ff52f4af11a5e87544a022adee14fedf2da6c857f4830d33300563610d26cb",
+    "source/favicon.ico": "273be61c4d44052fdc120100b460b8ca063f41a5688b1298adf80ba125488392",
+    "source/index.html": "ea917bc528638235535a0d6d589544626b4a7b9867077dfe44cf550df4bee60e",
+    "source/js/composite.js": "6900fd9271f1d352249290b8589b49f72fabf5fd1db24e0327b6553cb1a6cf9e",
+    "source/js/libs/float16.js": "6b55907edfbb5cd6ddb7f720b71134f57b810ddd6b1b64c6189f20929c2c626d",
+    "source/js/libs/webgpu-utils.module.js": "1ce24244cd8e6ef73152c90c392647e9529899c20e2d81fed794c6c212643439",
+    "source/js/main.js": "4cc731a15d130ab7c10e3d390384026b92aa87e2df830720efe64dc16cc97e1c",
+    "source/js/rd-compute.js": "7a3e028ef3ef81c7655e5c0db7ad6265842a507767f7b3607b595dd87b95453b",
+    "source/js/shader/composite-shader.js": "24149f8b9326ab2a3b134cd5acd23319eef5044fba690880a9cc9f01c77849d7",
+    "source/js/shader/rd-compute-shader.js": "5c290cb6f405fb1876ea17f6e4efb0d4c5a2821d4c55d609282517a353a210c9",
+    "source/performance-comparison/css/demo.css": "d8e29fac4241d77f23145033c84896fd1b70e4800a277df2a4b677b8c1548ac8",
+    "source/performance-comparison/index.html": "2ea55fb90eae640cb001b15aca51427fc92b037ef6399d233f296d9e7575cce6",
+    "source/performance-comparison/js/composite.js": "751ffba8cbad027601545663f428f456d3978cb95136682d46ac5589c37fea81",
+    "source/performance-comparison/js/libs/float16.js": "6b55907edfbb5cd6ddb7f720b71134f57b810ddd6b1b64c6189f20929c2c626d",
+    "source/performance-comparison/js/libs/webgpu-utils.module.js": "1ce24244cd8e6ef73152c90c392647e9529899c20e2d81fed794c6c212643439",
+    "source/performance-comparison/js/main.js": "c306a48c4c27c18efd6c95e1917be9df3ba79e5824c24a19c530d090240179cc",
+    "source/performance-comparison/js/rd-compute.js": "9c93a7cdcc4079ba023afa31c96a82887b915a58081bb4c1a9f93b01bdc4d659",
+    "source/performance-comparison/js/rd-fragment.js": "ca1036e27c6f93f65ca20c8f40c8b6adfcce76d0a01be51ed231fe9e42fe1c8d",
+    "source/performance-comparison/js/shader/composite-shader.js": "90fbe6d6962cc951cda10ba57e076a1f02d97240215a88339b5a970e0282f7a0",
+    "source/performance-comparison/js/shader/rd-compute-shader.js": "b5a7721a50be7d489d2c4e3a49ff9bb8c2e103ae0d70e95164ed3cad729b3c95",
+    "source/performance-comparison/js/shader/rd-fragment-shader.js": "be1f492e3ae8e37286162eb172a80ab5f9ad915add9a3edb92e7fe0a5d4ccbfe",
+    "source/performance-comparison/js/utils/rolling-average.js": "b723bb73be291281501f48ce2f1f34a623735bd1ed5b6ed60e4c23093e00ed47",
+    "source/performance-comparison/js/utils/timing-helper.js": "6c35543fea3d2e7ed45909a2ab0a60ecd2bca1fb93c43fe634ad999312e8ec1a",
+    "upstream.json": "faf255c38fa44c12951356d8f16c72e5dae936159350ab75f3ec6b2424c6e5f9"
+  },
+  "verification": {
+    "at": "2026-10-06T16:49:44.273Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_drag_cycle",
+        "durationMs": 5507,
+        "steps": 304,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          200,
+          110
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 332,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "2e1abf071b3aa30b",
+    "standaloneBehaviorChanged": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "18",
+  "directory": "local-18",
+  "title": "画中画迷你吸附窗",
+  "version": "043a5f3b678aa3e7",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "a1c772601683ccdf59b916f1bdaba74d4c4e2bdeb40fdea796fb670ff64acb89",
+    "demo.mjs": "51e031da6405dcf791aabb92fcd1eaa50e2c216e432fdf927cc22ecee151b144",
+    "index.html": "4f1a475e3ed9799b50c3b7a3b2a7d5e585ce89974b801b588fd34d55f94f0a26",
+    "DESIGN.md": "b8c5dc1310b6419d785371dc644f5280c8bc48702eabfc6b104617f6d1dd4835",
+    "IMPLEMENTATION.md": "dc4c16afa6dde32baf20c40f6cf986c0412dfe79c500e30996c72ff46a2103fb",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "e4df6581abba9ad617e925164c3797f33a6191b7281e19f3668a3ffafb4bd242",
+    "source-map.json": "f3031c103b0badec85e3317ce355fb98b7fb3d47ca5db4666c48fdb88b7d3e5a"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "043a5f3b678aa3e7",
+    "captured": true,
+    "posterSha256": "8440c66e7117162a9a713f6f4c18ffde6afc318513cfc172e7f10840145618db",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:50.562Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

@@ -1,0 +1,14 @@
+{
+  "direct": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "three": "0.172.0",
+    "tweakpane": "4.0.5",
+    "tailwindcss": "4.1.18",
+    "@tailwindcss/node": "4.1.18"
+  },
+  "lockSha256": "47ed951609928e75c61ebc820d4a04f7c6742011a4d4d0ec7fb8b55ae6a795ea",
+  "lifecycleScriptsExecuted": false
+}

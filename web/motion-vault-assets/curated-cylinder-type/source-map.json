@@ -1,0 +1,27 @@
+[
+  {
+    "path": "source/src/main.ts",
+    "role": "original_source",
+    "sha256": "4628d056263309dd72e8a69d1ee359b2620fe7e167b6d86d3d54ba6ce40e9d20"
+  },
+  {
+    "path": "source/src/circle/circle.ts",
+    "role": "original_source",
+    "sha256": "493ffdf73b047835c353c514aea86fd47a6275fef81d576c34f8d720b6944359"
+  },
+  {
+    "path": "source/src/cylinder/cylinder.ts",
+    "role": "original_source",
+    "sha256": "278535bc5d4990c20851655b43ca568ebc86eb007642117fd46505569916c17f"
+  },
+  {
+    "path": "source/src/tube/tube.ts",
+    "role": "original_source",
+    "sha256": "7b84cec00253fb14f0d176badb38ec1faaf6661eacea4d8532d6b177255079fb"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "4a2ebfbc7737b718121e8a882c2cd8f15cce6f5bcb09e48b467f9852c314b70c"
+  }
+]

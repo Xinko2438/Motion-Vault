@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-lens",
+  "directory": "online-lens",
+  "title": "跟随式局部放大镜",
+  "version": "a2c7db6ca60e5cc9",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "075b34e8c18279b6b9b96f3d1d39a21188f1e126b986134ddc2f29ebff958f4a",
+    "demo.mjs": "540ea4b39c2969cf562d129d80831ebc18e2dc6ad70537e0a8e3ae1a668e962d",
+    "index.html": "8d73a1b902e9dc4c84f673c6d2012842bd2527f3213ac354e9bbed8dde59351c",
+    "DESIGN.md": "7162983ba76fd4e3f6472a696cf8df301c930f8eb87ca14023306f7e9a55eee8",
+    "IMPLEMENTATION.md": "588b653e92413498031d1545fe5be83f3777ae6bc9e03626e726d16dd9d11902",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "a50549d89079de7b37e4dfae0ac0c400a058d8ab464a45c82a38302bc18f2e6f",
+    "source-map.json": "97ddf07bf2355dfd6525ce814a139f44d516d40f7c313dded636acad89c5bf06"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "a2c7db6ca60e5cc9",
+    "captured": true,
+    "posterSha256": "084bb2a118088f0170c58a420db9ac40b0fb0d1f5b2fd874c6e7acd13d75e9ee",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:02.429Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

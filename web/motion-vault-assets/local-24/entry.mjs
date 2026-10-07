@@ -1,0 +1,5 @@
+// 大漫射环境色彩呼吸
+// Runnable entry backed by the shared local engine; see IMPLEMENTATION.md for the exact core locations.
+import {createRuntime} from '../shared/runtime.31fd3f9a83f9.mjs';
+export const reference={"id":24,"title":"大漫射环境色彩呼吸","desc":"60px 高斯模糊的大色团在暗夜背景中极其缓慢地流动交融，带来深空景深。","design_value":"提供高格调的视觉底色，烘托前景的文字与设备模型。","avoid":"必须开启 GPU 加速，模糊半径过大容易导致掉帧。","tech":"filter: blur(40px); animation: drift 8s infinite alternate;","demo":"\u003cdiv style=\"width:60px; height:60px; border-radius:50%; background:#8b5cf6; filter:blur(20px); animation:pOrb 3s infinite alternate;\">\u003c/div>\u003cstyle>@keyframes pOrb{from{background:#8b5cf6;transform:scale(0.8)}to{background:#2563eb;transform:scale(1.2)}}\u003c/style>","scene":"brand","uses":[{"scene":"brand","task":"atmosphere","placement":"首屏背景","goal":"用缓慢色彩层次支撑主内容"}],"preview_mode":"auto","source_kind":"independent_code","source_name":"既有本地代码演示","source_url":null};
+export function mount(host,options={}){return createRuntime(host,reference,options);}

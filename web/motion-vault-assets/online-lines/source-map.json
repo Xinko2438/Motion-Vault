@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 285,
+    "endLine": 285,
+    "code": " case'lines':h=`<span class=\"e-kicker\">EDITORIAL / 阅读的节奏</span><div class=\"e-lines-copy\"><div><span>留下一点空白。</span></div><div><span>让想法发生。</span></div><small>Space is part of the story.</small></div>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

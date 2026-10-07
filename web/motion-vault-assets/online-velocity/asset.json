@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-velocity",
+  "directory": "online-velocity",
+  "title": "速度感应弹性光标",
+  "version": "8560a3d75e1006c8",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "653043e6868fe2c912025736949ac880bbed19d1c2432c93f69dfea5cf738e50",
+    "demo.mjs": "7aeed1297eb79d727d9f2e42800e460144e7b5ec774f6c9da8284303d034c9a2",
+    "index.html": "946c287f87bdfa5c8e7bdfee4590214d3a5158c9361cfaacd159840f9c9ff295",
+    "DESIGN.md": "f9b576515d2c3f090e103eaec0d9ebb37b3c8a333bee25571c592b12dba94ac0",
+    "IMPLEMENTATION.md": "38d707aea249b79dac427ae91307bfb84da43c02984a16721866898062d329d9",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "12aab5a455737276de101904ab4caba1b1dc934bf6ab7bec500a51ba46f8f358",
+    "source-map.json": "1f36bd4798fabec4d8b198071a5b0aae547c5ad04760cc53de9922125fa34f82"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "8560a3d75e1006c8",
+    "captured": true,
+    "posterSha256": "598d550782e429c9b8ca2ff0a85480efad32b990f2ad3795e30692de3e7e6dad",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:08.881Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "source/src/main.jsx",
+    "role": "original_source",
+    "sha256": "acb24feb3540b5ee687f5a65bdbb81fe3644aa19da89256bc24b18d8ee010410"
+  },
+  {
+    "path": "adapter/src/App.jsx",
+    "role": "local_adapter",
+    "sha256": "441a2f34b061bf707e431aa853ec61e928a302767343b7b25631fa96b5f7d7d3"
+  },
+  {
+    "path": "source/src/App.jsx",
+    "role": "original_source",
+    "sha256": "0c0a87485b131a2ebb303f3d7485900b38224bcc8667f8e65cc925b520d0ce6e"
+  },
+  {
+    "path": "source/src/Scene.jsx",
+    "role": "original_source",
+    "sha256": "d91296dabae7d95d1fa942e5b1eb2485c92014298628b830353aecc063e95478"
+  },
+  {
+    "path": "source/src/components/EmergingImage.jsx",
+    "role": "original_source",
+    "sha256": "1cd6b499eb98938cc908bfc93364a82ba6b1ad40c6ed781b439efb7d32d2b1f6"
+  },
+  {
+    "path": "source/src/stuff/EmergeMaterial.js",
+    "role": "original_source",
+    "sha256": "d9643aadf8ed3fda26c3f1f02f8ba7e9cc635f3ff6b63a46825506abbaa80142"
+  },
+  {
+    "path": "source/src/stuff/useScreenSize.js",
+    "role": "original_source",
+    "sha256": "835f04447977900cfac40cc7a1cb61b030c4bf4a02ff19a4b5797d3b4e2803df"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "0148695122838d53e06e51027ba883ce99512d04658c746cc7e1150c08a1f1c2"
+  }
+]

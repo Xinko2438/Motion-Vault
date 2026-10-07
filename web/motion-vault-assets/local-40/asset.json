@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "40",
+  "directory": "local-40",
+  "title": "全景重力视差空间",
+  "version": "2b5fce8c050a2643",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "0818ac1157344251d673eb5167fa4b5daf98acc03e09c33f4093f21a4a2b0278",
+    "demo.mjs": "8fdb9a7dfdf187e8830d44df542965a0b14aa714794dd394849dbd290c4a748b",
+    "index.html": "bb7a4e9e0e7066cbb85e1175000a7c8421aaca3fe275e6a469a738db976f758f",
+    "DESIGN.md": "b017f5c05174f884ef823b79d12eaf1a38d7160ad5d9897183cc210fe99134f3",
+    "IMPLEMENTATION.md": "0faa6c8c91117f5b125c959c976a302ae27ee2c360c613897063fe3fcf0a6af0",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "d72b65ec70dee9b924ca0d59ab13320612bfa2df874b6aa8fd9ef5da5a7dffbe",
+    "source-map.json": "64f0998305c44bef3ad770900fc9ceed690d49152f677a2d4e505a671fd8c358"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "2b5fce8c050a2643",
+    "captured": true,
+    "posterSha256": "2c236dcfa58a83f0999a9a7b4cff600f655c7ad071581c6b6c5bab22da9e942d",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:58.273Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

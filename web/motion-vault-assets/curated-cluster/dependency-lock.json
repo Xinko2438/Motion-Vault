@@ -1,0 +1,78 @@
+{
+  "name": "motion-vault-local-reference",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "motion-vault-local-reference",
+      "dependencies": {
+        "eventemitter3": "5.0.1",
+        "gsap": "3.13.0",
+        "imagesloaded": "5.0.0",
+        "split-type": "0.3.4",
+        "splitting": "1.0.6",
+        "three": "0.185.1",
+        "three-start": "0.1.2"
+      }
+    },
+    "node_modules/ev-emitter": {
+      "version": "2.1.2",
+      "resolved": "https://registry.npmjs.org/ev-emitter/-/ev-emitter-2.1.2.tgz",
+      "integrity": "sha512-jQ5Ql18hdCQ4qS+RCrbLfz1n+Pags27q5TwMKvZyhp5hh2UULUYZUy1keqj6k6SYsdqIYjnmz7xyyEY0V67B8Q==",
+      "license": "MIT"
+    },
+    "node_modules/eventemitter3": {
+      "version": "5.0.1",
+      "resolved": "https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.1.tgz",
+      "integrity": "sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==",
+      "license": "MIT"
+    },
+    "node_modules/gsap": {
+      "version": "3.13.0",
+      "resolved": "https://registry.npmjs.org/gsap/-/gsap-3.13.0.tgz",
+      "integrity": "sha512-QL7MJ2WMjm1PHWsoFrAQH/J8wUeqZvMtHO58qdekHpCfhvhSL4gSiz6vJf5EeMP0LOn3ZCprL2ki/gjED8ghVw==",
+      "license": "Standard 'no charge' license: https://gsap.com/standard-license."
+    },
+    "node_modules/imagesloaded": {
+      "version": "5.0.0",
+      "resolved": "https://registry.npmjs.org/imagesloaded/-/imagesloaded-5.0.0.tgz",
+      "integrity": "sha512-/0JGSubc1MTCoDKVmonLHgbifBWHdyLkun+R/151E1c5n79hiSxcd7cB7mPXFgojYu8xnRZv7GYxzKoxW8BetQ==",
+      "license": "MIT",
+      "dependencies": {
+        "ev-emitter": "^2.1.2"
+      }
+    },
+    "node_modules/split-type": {
+      "version": "0.3.4",
+      "resolved": "https://registry.npmjs.org/split-type/-/split-type-0.3.4.tgz",
+      "integrity": "sha512-otEk9vnD8qwfLsk3Lx0gz+qRkNIJCx0mlyL47ImP/DjMuV39d75Lpfwjn9fHteDRz0aoOblSzQjSNT9+Sswxcg==",
+      "license": "ISC"
+    },
+    "node_modules/splitting": {
+      "version": "1.0.6",
+      "resolved": "https://registry.npmjs.org/splitting/-/splitting-1.0.6.tgz",
+      "integrity": "sha512-2hYicS/hTy1MgjTi4ST6B298uoLSx854VfTf0FeMmCeE6OiZjEixTOGPLqnNzSaM/y3jwoEYj5pmDzYFwRInPw==",
+      "license": "MIT"
+    },
+    "node_modules/three": {
+      "version": "0.185.1",
+      "resolved": "https://registry.npmjs.org/three/-/three-0.185.1.tgz",
+      "integrity": "sha512-5aojFCXKwnjBRZvUnt3WFfEcvUJgkN5LlijRFN95hMy8WVkG4I0QNcJE+OuWvuJ0bOdStrbfXn0pkd6/QyiAlg==",
+      "license": "MIT"
+    },
+    "node_modules/three-start": {
+      "version": "0.1.2",
+      "resolved": "https://registry.npmjs.org/three-start/-/three-start-0.1.2.tgz",
+      "integrity": "sha512-9Mv8QHQiWQDZCTXtu/epARiOEujfuqrXW2ELethQcbiAihEy02hXsMnDJynGiH6kNAuUANuXJfaDcPnG6mDfwA==",
+      "license": "MIT",
+      "engines": {
+        "node": ">=20"
+      },
+      "peerDependencies": {
+        "@types/three": ">=0.183.0",
+        "eventemitter3": ">=5.0.4",
+        "three": ">=0.183.0"
+      }
+    }
+  }
+}

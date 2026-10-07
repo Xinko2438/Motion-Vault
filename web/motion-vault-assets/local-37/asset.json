@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "37",
+  "directory": "local-37",
+  "title": "双向分割错落拉幕",
+  "version": "d897a871e122e530",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "4322b90c9f7fda5a1fcd7b695b7b2178597ab2f635f817aa676c46378f1b5e35",
+    "demo.mjs": "f9ad3cb9c164c8a539067670b0d5b6a4f76d4d34b5ba7c3a17c2316559871e02",
+    "index.html": "59f0b810f5f9ad3a1852dd4a0a25f48c733cb14c225de30f16ef6b1064385030",
+    "DESIGN.md": "96a1182978a2ee4741bced5dd870e6065c60a3aaee634e1094dca7b9ddfd52c5",
+    "IMPLEMENTATION.md": "70afb944eb1f852a131b3547af12f7ddca21f8985204f71ca7c72284959d88a2",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "928480d9b97a823cdfb7fbfc428dc50bbc905a62a5680dd219db1c7476a39393",
+    "source-map.json": "342498486c1c69f29cd0dd5a19c099cc03c1b111030c6fef9f91df0b6b6487a4"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "d897a871e122e530",
+    "captured": true,
+    "posterSha256": "c854d884f037ced7b5b6f81ae9d15220ff239b38a0c9ef0b845a1b4d53db7a8f",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:56.878Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

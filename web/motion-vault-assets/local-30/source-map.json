@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/formal-items.json",
+    "startLine": null,
+    "endLine": null,
+    "code": "<div style=\"width:160px; padding:7px 10px; border:1px solid #dc2626; border-radius:6px; font-size:11px; color:#dc2626; animation:shk 2s infinite;\">请补充必填内容...</div><style>@keyframes shk{0%,100%,30%{transform:translateX(0)}5%,15%,25%{transform:translateX(-4px)}10%,20%{transform:translateX(4px)}}</style>",
+    "kind": "inline CSS/HTML source"
+  }
+]

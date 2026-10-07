@@ -1,0 +1,150 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-tooltip-gallery",
+  "directory": "curated-tooltip-gallery",
+  "title": "小预览到画廊再到全屏的连续过渡",
+  "version": "b355cb24d1186dde",
+  "status": "local_source_verified",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "source": "source/",
+  "hashes": {
+    "DESIGN.md": "b6621fe53f69dcd06677e5a1c6c06befb0d888244a9720660cc691d1964390c4",
+    "IMPLEMENTATION.md": "f7065087a12c69faf5e7afd954d7348ce7d2446c827ad340c33395589d585537",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "parameters.json": "1a99c6a318fdaf0798a5bc98f4710b685dc770a5d43b54906e120fa4419f0336",
+    "provenance.json": "2fe4071731d9437cda0e490a72557b461fbd485f6b48eeb71df5176c0633a9ca",
+    "run/LICENSE.txt": "1f6db3d0b162eaa534ff5585db684f00c41f776325f7fd11ebf9373650099ce1",
+    "run/css/base.css": "c0ebe42c98946e4e667ff105e872ed0aa4fe632e14980dbb6472833a9be07cec",
+    "run/effect.js": "39a727cf47d9b7f2b3fa943d368ea3b6d9b6fb6b7a2c482e46259d56d6df4e22",
+    "run/favicon.ico": "273be61c4d44052fdc120100b460b8ca063f41a5688b1298adf80ba125488392",
+    "run/img/1.webp": "e65598c3a58f0651e3568568141f16463799cd4706419148bf27c8b7c0cd0817",
+    "run/img/2.webp": "4ce742bc41135f3e1a3d4e64a2f762d2a8ffcebf006b4942eb2357af2ab00cda",
+    "run/img/3.webp": "408fa04ce1c15346e79f8396d91dfad87ac2270d1ed662a7ef99f07b57cff5b9",
+    "run/img/4.webp": "3015ab9c412317a8337e5e7ec1895d118527699e84e9342a7832a96f154824ae",
+    "run/img/5.webp": "93e4d5d523e5ea2ae9c366b5aa70fbeea5eeaa8fd7146fb48614b3e3a2045ec1",
+    "run/img/6.webp": "a4ba5ab870c6db9135fb9e4b8c7776d0136a17b8f72843e0f4c414092e386941",
+    "run/index.html": "9914e2f9daac44b573832c3ff2606a3827bbe022870f2e1964cd1d35e44e0095",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "ada8bb8c246218db4e7c62e176214dac35e2e4f4f92ed58a4a0306df5020b25d",
+    "source/.gitattributes": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+    "source/.gitignore": "4cd6f5010fa94ffd4dac8d692358c9dfae0e99e7526e7360040150e8f3339c89",
+    "source/LICENSE": "1f6db3d0b162eaa534ff5585db684f00c41f776325f7fd11ebf9373650099ce1",
+    "source/README.md": "f82a5ae5a37a948746bada8352105fd79211d8463d7e6ff10cda66c81aa82ac8",
+    "source/package.json": "b853e4e07a23e3b5c4517a60d0edac536f6ba102fe67f04afe548bc3ccf56a2c",
+    "source/src/css/base.css": "c0ebe42c98946e4e667ff105e872ed0aa4fe632e14980dbb6472833a9be07cec",
+    "source/src/favicon.ico": "273be61c4d44052fdc120100b460b8ca063f41a5688b1298adf80ba125488392",
+    "source/src/img/1.webp": "e65598c3a58f0651e3568568141f16463799cd4706419148bf27c8b7c0cd0817",
+    "source/src/img/2.webp": "4ce742bc41135f3e1a3d4e64a2f762d2a8ffcebf006b4942eb2357af2ab00cda",
+    "source/src/img/3.webp": "408fa04ce1c15346e79f8396d91dfad87ac2270d1ed662a7ef99f07b57cff5b9",
+    "source/src/img/4.webp": "3015ab9c412317a8337e5e7ec1895d118527699e84e9342a7832a96f154824ae",
+    "source/src/img/5.webp": "93e4d5d523e5ea2ae9c366b5aa70fbeea5eeaa8fd7146fb48614b3e3a2045ec1",
+    "source/src/img/6.webp": "a4ba5ab870c6db9135fb9e4b8c7776d0136a17b8f72843e0f4c414092e386941",
+    "source/src/index.html": "56db9234a4247d1cd34ed5d7a5220908522b531a273f36257ddfebee7c8a98a7",
+    "source/src/js/index.js": "5baf9c289185524ef589a3a201038c9d20d7ba8af072b21ee5736d034c8bf3b5",
+    "source/src/js/linesController.js": "b9d8b73060fc6fc1f6c1d9615a0b914dedf21f02264a8a5c9675bbfdbf9b9dcf",
+    "source/src/js/tooltip.js": "73fd0020f6e164c2d07d9d51fd62883148e0f80052aa5e5c6ef7e6f558cd8d94",
+    "source/src/js/utils.js": "a38324228fad05310fbdaba5e8644582777cfe22b152017e76ccea669cfcf557",
+    "upstream.json": "4dd4eb41d1456ecb1bdaef2d6d4b7ab5c75d4d2c8525be32bfed83a5648cf92d"
+  },
+  "shared_hashes": {
+    "../vendor/gsap.min.js": "e5118140a15e5dbb471f19c06816bcfa44170878bd8fe0ade80c24b7a988d8ba",
+    "../vendor/Flip.min.js": "d3a3b0f9addaed77324c52875b83ea9a4387b4c6fdbdb6a198f8e847f6ede2c6",
+    "../vendor/imagesloaded.pkgd.min.js": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "../vendor/splitting.min.js": "400c74b4104691379456188af0147d7c42863e4dd71dbdd734f4e0a6c1c2674b",
+    "../vendor/splitting.css": "18aad67beae0833d77ea19de4be394240925825344e2ec9a0a325d39ae3d1396",
+    "../vendor/splitting-cells.css": "bb184decc84625a3ee861becce95ad31f84dd7da35d649385261bf42898f40b5"
+  },
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "f6de105d7bbf6732fea9c732948c633c3403ac37fed9540dd81a601c42a51d32",
+    "videoSha256": "6c8468bdf2cc8dfd7adc29895c34f5018f07a7dfbe95d420cc3cf6b017316d0c",
+    "videoBytes": 393501,
+    "implementationVersion": "b355cb24d1186dde",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-scenes-d-20261006-one",
+      "at": "2026-10-06T17:02:26.137Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 3.6777,
+      "frameCount": 193,
+      "visualChanges": 117,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 60,
+        "contentFPS": 25,
+        "longestHoldSeconds": 0.5004
+      }
+    }
+  },
+  "productionComponent": false,
+  "taskSelectionRequired": true,
+  "verification": {
+    "at": "2026-10-06T17:02:26.137Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_tooltip_hover",
+        "durationMs": 1450
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": "a[data-tooltip]",
+        "x": 669.2109375,
+        "y": 295.109375,
+        "proof": {
+          "selector": "a[data-tooltip]",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": ".content__pretitle > .back > .oh__inner",
+        "x": 79.8125,
+        "y": 131.6171875,
+        "proof": {
+          "selector": ".content__pretitle > .back > .oh__inner",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 118,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "kind": "adapted_author_source",
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "b355cb24d1186dde",
+    "standaloneBehaviorChanged": false
+  }
+}

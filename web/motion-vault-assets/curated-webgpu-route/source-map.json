@@ -1,0 +1,102 @@
+[
+  {
+    "path": "source/src/index.js",
+    "role": "original_source",
+    "sha256": "2d5651e6125f2f8d4798bb873e73e3b181e422887430a8a06886f7c8dbcc352e"
+  },
+  {
+    "path": "adapter/src/controller.js",
+    "role": "local_adapter",
+    "sha256": "8cc5363e4560a72ab8f24a156050a09c0d5652c688f219202aacdeb4e0f89668"
+  },
+  {
+    "path": "adapter/src/gpu.js",
+    "role": "local_adapter",
+    "sha256": "47428ef25fdddcaadb81968b53c6be8309916ea7d9ed77894dc861b14f0157a3"
+  },
+  {
+    "path": "adapter/src/pages/home.js",
+    "role": "local_adapter",
+    "sha256": "8385a834d8317f55637dbb7e1013fc3041993a81b0160fb96d9bd4ae394ac624"
+  },
+  {
+    "path": "source/src/carousel.js",
+    "role": "original_source",
+    "sha256": "88eed03092498437d0634360786063298ac4da7facdc5c5e1504db896bfbc6a7"
+  },
+  {
+    "path": "source/src/controller.js",
+    "role": "original_source",
+    "sha256": "559cd0b11cfaf8d887366e295dc546b8a64bd07d5aacade3e60f69444152187c"
+  },
+  {
+    "path": "source/src/cursor.js",
+    "role": "original_source",
+    "sha256": "4fbeb3701eba342008e70244ff8a13cb047fd6cb9b6ac08393d54269083e9219"
+  },
+  {
+    "path": "source/src/gpu.js",
+    "role": "original_source",
+    "sha256": "de60723c1e219315b6a18fe6deb2d96fcdc0d34be12b525b48facec464d27503"
+  },
+  {
+    "path": "source/src/pages/home.js",
+    "role": "original_source",
+    "sha256": "fd451263e99dbe5844be188f2ff65edb56c1eabf3f5bb2d76f4efe35cf6b523e"
+  },
+  {
+    "path": "source/src/pages/index-page.js",
+    "role": "original_source",
+    "sha256": "4ce60ee91f5870adff96589e2ae46ae4c3e85e57dbc66530679cae0ae09b8c24"
+  },
+  {
+    "path": "source/src/pages/inner.js",
+    "role": "original_source",
+    "sha256": "75ed95c86fd67ffb74fa468f141f0f08379a73c288c09feb5899b0153da97591"
+  },
+  {
+    "path": "source/src/preloader.js",
+    "role": "original_source",
+    "sha256": "299364d7f2aa0cfa917a786add54b81a2ab853305226f11ab034838ac2a090f3"
+  },
+  {
+    "path": "source/src/transitions/constants.js",
+    "role": "original_source",
+    "sha256": "3c18134923106f04c6d150b510f4a80aa38de20c8c22d47b35361272ba47e056"
+  },
+  {
+    "path": "source/src/transitions/indexToInner.js",
+    "role": "original_source",
+    "sha256": "b4ae0dd63d72c65d7766bbe586ca79f679cb19ec72ac5aee0b2b44933d470ee1"
+  },
+  {
+    "path": "source/src/transitions/indexToMain.js",
+    "role": "original_source",
+    "sha256": "85d5c0d7b33a23d02fb8dab11795324b74d3e12c5c23257bcef671614d20693f"
+  },
+  {
+    "path": "source/src/transitions/innerToIndex.js",
+    "role": "original_source",
+    "sha256": "871c9a6ca5aa8d3f9864aab53bc0c9ee7d22406addfb801c327dd1a7bb7f270f"
+  },
+  {
+    "path": "source/src/transitions/innerToMain.js",
+    "role": "original_source",
+    "sha256": "403454f25a987ea9a75758ae2fd32145b4d00be13d1f015c4d7bc2854b676c4f"
+  },
+  {
+    "path": "source/src/transitions/mainToIndex.js",
+    "role": "original_source",
+    "sha256": "3a4066d8fc5c411e5caa340e3ac7ff6e7f5d003be43c73c62a0db0736e5d215a"
+  },
+  {
+    "path": "source/src/transitions/mainToInner.js",
+    "role": "original_source",
+    "sha256": "59182c7145294812ca18784528deca8cdf682d712a53028d715f3342bd370bb8"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "38e44b86a4d29038997a324b9cd1a31961beb36c4666a63606472462e92f4fba"
+  }
+]

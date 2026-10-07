@@ -1,0 +1,32 @@
+[
+  {
+    "path": "source/src/main.tsx",
+    "role": "original_source",
+    "sha256": "6e9e5807fcbd48b75a96db5cbef36c996262196be42e6d4760dc86babbe61ad2"
+  },
+  {
+    "path": "adapter/src/App.tsx",
+    "role": "local_adapter",
+    "sha256": "6b7616c2e9d76d323dc6760cd1c32bd2be8e26ad96b3ceff7426e6a59306470d"
+  },
+  {
+    "path": "source/eslint.config.js",
+    "role": "original_source",
+    "sha256": "7a39f6bf29b2b84a243df3330c218b9688114594081bd1280a32ffaa4766d023"
+  },
+  {
+    "path": "source/src/App.tsx",
+    "role": "original_source",
+    "sha256": "526b867d482d9e3619ed8005c1b36be8948d995e1ce70ad20a6275a14caa4e93"
+  },
+  {
+    "path": "source/src/vite-env.d.ts",
+    "role": "original_source",
+    "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  {
+    "path": "source/vite.config.ts",
+    "role": "original_source",
+    "sha256": "aa80fd8524cff9846b81da4a89305658be2dc8d660cd841b69ec745d04c7f80c"
+  }
+]

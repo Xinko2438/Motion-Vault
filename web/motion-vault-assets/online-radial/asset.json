@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-radial",
+  "directory": "online-radial",
+  "title": "扇形快捷操作菜单",
+  "version": "3356ca8c3c1ad534",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "e4455304b5ba2e5fb1b39d9725c2986b273643ff95ab4239ab0c43cb84f24fc7",
+    "demo.mjs": "802c413f136f00e6e9e04967b873b5137b3d27ac27ca7478dce0f002c9784976",
+    "index.html": "9d49c200634cd244b78139a061d01f3aa8e4706931e7f980ea9ae76e03ef9f90",
+    "DESIGN.md": "79148b4cd5b142d502142b97e5d6d1767de0bc11eba92234f0ef52968642123a",
+    "IMPLEMENTATION.md": "4aaa2bfb850ad24452e9971e52a392a786e0e5d5e4f9bf0376e4e188c02f734b",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "d90501c852fa2c6bf49e1d1e0b09ac2de4a0027cda8fd3fad553af41a70f897c",
+    "source-map.json": "5cdc3601fd47a436c3ff39aa8199d8dbe4d192d14ef13ec9c7f952b281ab4693"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "3356ca8c3c1ad534",
+    "captured": true,
+    "posterSha256": "09b832a806deed41109ec21b9da9f82efc56e5bb557b60a98733eca128b877b5",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:59.280Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

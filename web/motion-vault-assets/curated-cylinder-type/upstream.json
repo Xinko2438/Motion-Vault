@@ -1,0 +1,18 @@
+{
+  "id": "curated-cylinder-type",
+  "repository": "https://github.com/davidfaure/3d-text-animation-codrops",
+  "commit": "7a93ccea1ac1783f57acaeab978844ecee3e261d",
+  "archiveSha256": "f5809a7b40c3597b3110c78d46aeba5070ddb31f9e956ea69b56080a736912b0",
+  "capturedAt": "2026-10-06T09:56:15.994Z",
+  "fontFilesExcluded": true,
+  "licenses": [
+    {
+      "file": "LICENSE",
+      "text": "MIT License\n\nCopyright (c) 2009 - 2024 [Codrops](https://tympanus.net/codrops)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    }
+  ],
+  "licenseBasis": "repository-file",
+  "status": "source_pinned_pending_adaptation",
+  "files": 17,
+  "bytes": 28465
+}

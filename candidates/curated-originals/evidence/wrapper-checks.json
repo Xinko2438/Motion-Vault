@@ -1,0 +1,445 @@
+{
+  "environment": "Isolated installed Chrome, own local profile, original iframes replaced by local inert test fixture. Not original-site graphics, network or embedded compatibility validation.",
+  "html_sha256": "4c5e7e902f16bee9cdf3c3facb44640327836ad5213197421aaf97e7c2ddc939",
+  "passed": 109,
+  "total": 109,
+  "checks": [
+    {
+      "name": "30 original candidates rendered",
+      "passed": true
+    },
+    {
+      "name": "Scenario taxonomy retained",
+      "passed": true
+    },
+    {
+      "name": "Originals not loaded before hover",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Complete details curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Source and sandbox curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Frame cleanup curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Physical hover activates exactly one original frame",
+      "passed": true
+    },
+    {
+      "name": "Physical mouse leave unloads frame",
+      "passed": true
+    },
+    {
+      "name": "Specific purpose filter includes secondary uses",
+      "passed": true
+    },
+    {
+      "name": "Purpose/title search narrows result",
+      "passed": true
+    },
+    {
+      "name": "Consecutive note edits coalesced",
+      "passed": true
+    },
+    {
+      "name": "Hide removes candidate from current gallery",
+      "passed": true
+    },
+    {
+      "name": "Private hide and note survive isolated reload",
+      "passed": true
+    },
+    {
+      "name": "Hidden gallery shows only hidden item",
+      "passed": true
+    },
+    {
+      "name": "Restore returns to30 candidates",
+      "passed": true
+    },
+    {
+      "name": "Private export is clearly scoped and not production approval",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 390",
+      "passed": true
+    },
+    {
+      "name": "Single column 390",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow 320",
+      "passed": true
+    },
+    {
+      "name": "Single column 320",
+      "passed": true
+    },
+    {
+      "name": "Reduced motion blocks automatic frame activation",
+      "passed": true
+    },
+    {
+      "name": "No wrapper JavaScript exceptions",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 201,
+    "endLine": 201,
+    "code": " case'dial':label='细微调节 / 清楚反馈';figure=`<svg class=\"x-svg x-dial\" viewBox=\"0 0 400 280\" aria-label=\"参数旋钮\" role=\"slider\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"50\" tabindex=\"0\"><circle cx=\"200\" cy=\"140\" r=\"84\" fill=\"#d7ddd0\"/><circle cx=\"200\" cy=\"140\" r=\"72\" fill=\"#f9f8ed\" stroke=\"#fffef7\" stroke-width=\"3\"/>${Array.from({length:51},(_,i)=>{let a=(-225+i*5.4)*Math.PI/180;return`<line class=\"x-dial-tick\" x1=\"${200+Math.cos(a)*95}\" y1=\"${140+Math.sin(a)*95}\" x2=\"${200+Math.cos(a)*(i%5?101:106)}\" y2=\"${140+Math.sin(a)*(i%5?101:106)}\" stroke=\"#8f9d87\" stroke-width=\"${i%5?1:2}\"/>`;}).join('')}<g class=\"x-dial-needle\"><circle cx=\"200\" cy=\"84\" r=\"4\" fill=\"#55745a\"/></g><text class=\"x-dial-value\" x=\"200\" y=\"149\" text-anchor=\"middle\">50</text><text x=\"200\" y=\"175\" text-anchor=\"middle\">强度 / %</text></svg>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 252,
+    "endLine": 261,
+    "code": "  function move(e){if(!drag||drag.id!==e.pointerId)return;const r=surface.getBoundingClientRect();if(key==='dial'){let a=Math.atan2(e.clientY-r.top-r.height/2,e.clientX-r.left-r.width/2)*180/Math.PI+90;if(a>180)a-=360;let value=clamp((a+135)/270*100,0,100);point={value};t=Math.acos(1-2*value/100)/(2*Math.PI);}else if(key==='string'){point={force:clamp((e.clientY-r.top)/r.height*260-125,-85,85)*2};}else{point=null;const delta=(e.clientX-drag.x)/r.width;t=key==='ring'?((drag.start+delta)%1+1)%1:clamp(drag.start-delta,0,.5);}draw();}\n  L.on(surface,'pointerdown',e=>{if(e.button!==0||e.target.closest('button'))return;stop();surface.focus({preventScroll:true});surface.setPointerCapture(e.pointerId);drag={id:e.pointerId,x:e.clientX,start:t};move(e);});L.on(surface,'pointermove',move);\n  function end(e){if(!drag||drag.id!==e.pointerId)return;drag=null;if(key==='dial'){point.value=Math.round(point.value);draw();}if(key==='string'){const force=point?.force||0,start=performance.now();function recover(now){if(L.disposed)return;let s=(now-start)/1000;point={force:reduce.matches?0:force*Math.exp(-s*5)*Math.cos(s*16)};draw();if(!reduce.matches&&s<1.5)raf=L.frame(recover);}raf=L.frame(recover);}}\n  L.on(surface,'pointerup',end);L.on(surface,'pointercancel',end);L.on(surface,'lostpointercapture',end);\n  L.on(surface,'keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key))return;e.preventDefault();stop();point=null;t=e.key==='Home'?0:e.key==='End'?.5:clamp(t+(['ArrowLeft','ArrowDown'].includes(e.key)?-.02:.02),0,1);draw();});\n }\n L.on(document,'visibilitychange',()=>{if(document.hidden)stop();});L.on(reduce,'change',()=>{if(reduce.matches){stop();point=null;t=.5;draw();}});\n draw();\n}\n",
+    "role": "authoritative_editable_source"
+  }
+]

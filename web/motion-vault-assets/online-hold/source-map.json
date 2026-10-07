@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 291,
+    "endLine": 291,
+    "code": " case'hold':h=`<span class=\"e-kicker\">INTENT / 不急着确认</span><div class=\"e-hold-wrap\"><p>确定，要留一点时间。</p><button class=\"e-hold-button\"><span class=\"e-hold-fill\"></span><span class=\"e-hold-label\">按住确认</span></button><div class=\"e-hold-progress\" role=\"progressbar\" aria-label=\"按住进度\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\"></div><small class=\"e-hold-status\" role=\"status\">中途松开即可取消 · 仅操作演示</small></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 352,
+    "endLine": 361,
+    "code": " if(key==='hold'){\n  const b=q('.e-hold-button');let started=0,raf=0,held=false,done=false;\n  function draw(v){q('.e-hold-fill').style.transform=`scaleX(${v})`;q('.e-hold-progress').setAttribute('aria-valuenow',Math.round(v*100));root.dataset.progress=v.toFixed(3);}\n  function tick(now){if(!held)return;const p=clamp((now-started)/1000,0,1);draw(p);if(p<1)raf=L.frame(tick);else{done=true;held=false;b.dataset.done='true';q('.e-hold-label').textContent='已确认';q('.e-hold-status').textContent='已完成演示，没有执行实际操作。';}}\n  function start(){if(held)return;L.cancel(raf);held=true;done=false;started=performance.now();b.dataset.done='false';q('.e-hold-label').textContent='保持按住';q('.e-hold-status').textContent='松开即可取消';raf=L.frame(tick);}\n  function end(){if(!held)return;held=false;L.cancel(raf);if(!done){draw(0);q('.e-hold-label').textContent='按住确认';q('.e-hold-status').textContent='已取消，没有执行实际操作。';}}\n  on(b,'pointerdown',e=>{if(e.button!==0)return;b.focus({preventScroll:true});b.setPointerCapture(e.pointerId);start();});for(const e of ['pointerup','pointercancel','lostpointercapture','blur'])on(b,e,end);on(b,'keydown',e=>{if([' ','Enter'].includes(e.key)){e.preventDefault();if(!e.repeat)start();}});on(b,'keyup',e=>{if([' ','Enter'].includes(e.key)){e.preventDefault();end();}});draw(0);return;\n }\n if(key==='color'){\n  const area=q('.e-color-area');let sat=.45,val=.75,drag=null;",
+    "role": "authoritative_editable_source"
+  }
+]

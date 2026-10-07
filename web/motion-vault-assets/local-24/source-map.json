@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/formal-items.json",
+    "startLine": null,
+    "endLine": null,
+    "code": "<div style=\"width:60px; height:60px; border-radius:50%; background:#8b5cf6; filter:blur(20px); animation:pOrb 3s infinite alternate;\"></div><style>@keyframes pOrb{from{background:#8b5cf6;transform:scale(0.8)}to{background:#2563eb;transform:scale(1.2)}}</style>",
+    "kind": "inline CSS/HTML source"
+  }
+]

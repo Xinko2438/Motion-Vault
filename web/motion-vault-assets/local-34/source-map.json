@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/formal-items.json",
+    "startLine": null,
+    "endLine": null,
+    "code": "<div id=\"magBtn\" style=\"width:60px; height:60px; border-radius:50%; background:#2563eb; display:grid; place-items:center; color:#fff; font-size:12px; font-weight:700; box-shadow:0 0 20px rgba(37,99,235,0.4); cursor:pointer; transition:transform 0.2s cubic-bezier(0.16,1,0.3,1);\" onmousemove=\"const r=this.getBoundingClientRect(); this.style.transform='translate('+(event.clientX-r.left-30)*0.4+'px,'+(event.clientY-r.top-30)*0.4+'px)'\" onmouseleave=\"this.style.transform='translate(0,0)'\">磁吸</div>",
+    "kind": "inline CSS/HTML source"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "curated-emissive-dissolve",
+  "repository": "https://github.com/JatinChopra/emissive-dissolve-effect",
+  "commit": "9a913c840beb6b9e979f43ed07f35ec44cb95f2e",
+  "archiveSha256": "09d1dc333b8cdfb460055a5a49a2881d9be4d928da4fcf256cafd57a84a82767",
+  "capturedAt": "2026-10-06T10:00:28.116Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 26,
+  "bytes": 17694415
+}

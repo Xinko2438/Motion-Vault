@@ -1,0 +1,37 @@
+[
+  {
+    "file": "src/css/base.css",
+    "sha256": "c0ebe42c98946e4e667ff105e872ed0aa4fe632e14980dbb6472833a9be07cec",
+    "bytes": 9126,
+    "path": "source/src/css/base.css",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/index.js",
+    "sha256": "5baf9c289185524ef589a3a201038c9d20d7ba8af072b21ee5736d034c8bf3b5",
+    "bytes": 13762,
+    "path": "source/src/js/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/linesController.js",
+    "sha256": "b9d8b73060fc6fc1f6c1d9615a0b914dedf21f02264a8a5c9675bbfdbf9b9dcf",
+    "bytes": 526,
+    "path": "source/src/js/linesController.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/tooltip.js",
+    "sha256": "73fd0020f6e164c2d07d9d51fd62883148e0f80052aa5e5c6ef7e6f558cd8d94",
+    "bytes": 2319,
+    "path": "source/src/js/tooltip.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/utils.js",
+    "sha256": "a38324228fad05310fbdaba5e8644582777cfe22b152017e76ccea669cfcf557",
+    "bytes": 388,
+    "path": "source/src/js/utils.js",
+    "role": "original_source"
+  }
+]

@@ -1,0 +1,1 @@
+import React from 'react';import{createRoot}from'react-dom/client';import ShoeGrid from './src/components/grid/ShoeGrid.jsx';import './src/styles/globals.css';createRoot(document.getElementById('root')).render(<ShoeGrid/>);

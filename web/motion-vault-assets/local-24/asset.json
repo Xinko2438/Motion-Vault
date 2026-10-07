@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "24",
+  "directory": "local-24",
+  "title": "大漫射环境色彩呼吸",
+  "version": "d4d40861a80ae016",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "9cafc6bda713600bc1dfe6cce131fc5f8250b2ebc0a6378f580736a5b4be01e0",
+    "demo.mjs": "ac3be164400cbe212657a70bfdc227991150f11f47210f63b67ade9aeeedbe23",
+    "index.html": "7bb2c5d02f36642b54782c000d9abce2c7e5d514bbbaa3f98b5b02a8b32b99f0",
+    "DESIGN.md": "7127c7b8f54ad37cfe1a6100da5efc4e9889dc658673e7e0dfedf2a23991710a",
+    "IMPLEMENTATION.md": "96dc4f18c93865065e6d87d3ddb83988732077f183247f26e18eee34dcfde5a6",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "fb2f8e09665ca9eb501992d71418ebd32048a3696e149cd2d7cf7ad818e72c66",
+    "source-map.json": "aa5abc545ef95b9b181e17e3ceaf10a1b11872a451cb524b36eab6625c79ecd9"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "d4d40861a80ae016",
+    "captured": true,
+    "posterSha256": "70493dcfc918cdd08e4e9173d2a2d186f5fe5d4586128bfe48f7513b7acc0af7",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:51.280Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

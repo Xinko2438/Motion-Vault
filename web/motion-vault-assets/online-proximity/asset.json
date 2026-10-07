@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-proximity",
+  "directory": "online-proximity",
+  "title": "文字笔画邻近响应",
+  "version": "53807ef30ba923fe",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "d22a382942424ca6f19e83bf021c42f3b3896f5e206a3fecd65a755ddfa8c8cc",
+    "demo.mjs": "7f078c0544fb33fd4a50e247d77d6a8a7b9282763e075f5bca811db89f42fbea",
+    "index.html": "f44219e238584b980f591449da4c0d907fd08821dfdb4c10fa6a56ea990a38b7",
+    "DESIGN.md": "bdec376e0da023af24f1af8dc034d6993116bcf03d5012e35a356a2d15622b53",
+    "IMPLEMENTATION.md": "9feea2089fd9ea0af2cef665f0125e1f40b7cf3a11433412bfe29a3daaa63b2b",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "01c1ce3c25611cf7389f467494c71e62e2fb7051ed99e3beb796cc90fac464b6",
+    "source-map.json": "ba8fd4b6e2fa5288734e42b00bcdf22acb04a55506de910114b12c8e9ffa52df"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "53807ef30ba923fe",
+    "captured": true,
+    "posterSha256": "a6444c2c85612c03fb1c3eade8e52db2a9696632df1541ab1b84b88f04941089",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:08.030Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

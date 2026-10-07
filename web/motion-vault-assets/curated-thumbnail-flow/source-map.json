@@ -1,0 +1,32 @@
+[
+  {
+    "path": "source/js/imagesloaded.pkgd.min.js",
+    "role": "original_source",
+    "sha256": "0b0af52144bc973908979df6cfcd506c6097e191f030141e62935d73fd20d28a"
+  },
+  {
+    "path": "source/js/MotionPathPlugin.js",
+    "role": "original_source",
+    "sha256": "f0c66a3896deb5043aae14f263257030ac4596cd3264f1d7a370be31dbe5b7a0"
+  },
+  {
+    "path": "source/js/script3.js",
+    "role": "original_source",
+    "sha256": "608bc9ab49731d725cbd14a70baef8e87a8f513d76a8a0af13b312dbec3f7102"
+  },
+  {
+    "path": "source/js/script.js",
+    "role": "original_source",
+    "sha256": "2d775463ba0b39c31436ea948c90ef635e18223420e49aea1864c0879708c4a6"
+  },
+  {
+    "path": "source/js/script2.js",
+    "role": "original_source",
+    "sha256": "cf462d67fc6317d476a098cffbb70911d00b62c7e2f8168162c78e388dad5752"
+  },
+  {
+    "path": "source/js/script4.js",
+    "role": "original_source",
+    "sha256": "9b188e631a4940a4c1ddbcb5a689863269ca0298149d6a30e6b27afb532b9824"
+  }
+]

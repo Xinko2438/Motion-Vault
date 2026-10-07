@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "12",
+  "directory": "local-12",
+  "title": "段尾下一章隐喻浮现",
+  "version": "5c0e7012316b2ae7",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "52306c4fdcd2ba54726a20740ef6d90204c76e57b44bbc258836f3655118a470",
+    "demo.mjs": "add3a36306b8f8f12a154bb82c1a39648dfcf15e3e528bd8cf9123021f24745d",
+    "index.html": "4656bbbeaa820fb1a7b1816cb840e55ed744b195034610833d83ed08ab8a1083",
+    "DESIGN.md": "4681e3c9017640aa1f459d553edbd66b137532a66de8505baacaf25ebf9f6c32",
+    "IMPLEMENTATION.md": "2a8a73d7992b32eb5d34ab2df8e29cdd52a2134af2eb8367b0215332cc8fcf6f",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "042df251fde0046f9626b97a096086b9558cfcd3551b3df68052601cbb76844a",
+    "source-map.json": "221ec8817f9f0550ddeed55d8212b20ae25fa05ffaab287945c12f3feaff5077"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "5c0e7012316b2ae7",
+    "captured": true,
+    "posterSha256": "a1205d77a1ae8ab33516ab234ea9558c8f486fa1e09f4959cff577a6a4e42098",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:49.858Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

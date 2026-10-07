@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "16",
+  "directory": "local-16",
+  "title": "鼠标悬停静音动效预览",
+  "version": "7f4d91b258031b38",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "557ed04ca8f0307f850e6f6bc2a18f4ce971bc43eee1d00c882ba6c6c43f205a",
+    "demo.mjs": "474584fb2f333df13f206961a23eea8c28e26007bce230052fae5c399822641d",
+    "index.html": "b93ab365526fa5367508e1cafc7e4b8653b94c9ec8be385516614ebd3a4661f8",
+    "DESIGN.md": "760d71b64a222b05d6c0ed0a946b064081be3aa22a7dc758801471dd285d4b0f",
+    "IMPLEMENTATION.md": "14b605f97b76e5fff3c55dae6b1d67fa1eb191a6aae1546dd489ec289f86be20",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "83cc4d1a1abbc37fc465af1c64ddeac5ebb536d690564de876b0c395f418baf7",
+    "source-map.json": "593266df6cbb285a25370c43e082b8419e7d6cf6694809134e40fa5242aad445"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "7f4d91b258031b38",
+    "captured": true,
+    "posterSha256": "64d260e080bedae66bf5e5247f0745f436076ae8c37168c6dca1d1b116c6d38b",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:50.328Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

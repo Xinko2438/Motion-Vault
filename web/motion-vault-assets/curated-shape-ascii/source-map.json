@@ -1,0 +1,72 @@
+[
+  {
+    "path": "source/src/main.js",
+    "role": "original_source",
+    "sha256": "ad51175c326a12a045a7bcf0f38538d6293894d75f657c252c3605ec98f80809"
+  },
+  {
+    "path": "source/eslint.config.js",
+    "role": "original_source",
+    "sha256": "a57eddd2b036d88eed1dee625baaddafe9515143d971131feeedb089bd32ad9c"
+  },
+  {
+    "path": "source/prettier.config.js",
+    "role": "original_source",
+    "sha256": "99beed4b60fd8f4cab001f491606e8c5a65c1c98cded93ac395ff2b591e9df93"
+  },
+  {
+    "path": "source/src/ascii-logo/element.js",
+    "role": "original_source",
+    "sha256": "fb8d78e4c7d35f68165984e63bd5cf6bbb18c90f65dd0a51356d3601b90bb332"
+  },
+  {
+    "path": "source/src/ascii-logo/glyph-atlas.js",
+    "role": "original_source",
+    "sha256": "d0f32cb2400a5d2165b75c3385d83c8971f32fc7c54a5fbdb477e34526b667b0"
+  },
+  {
+    "path": "source/src/ascii-logo/mark.js",
+    "role": "original_source",
+    "sha256": "8c06f1840b76617ab87d550aa337465c2b9550b4da94b911ddb2af2e24d88240"
+  },
+  {
+    "path": "source/src/ascii-logo/renderer.js",
+    "role": "original_source",
+    "sha256": "e581bd71d2cf98b72d40fd9e87a21cc9c1e09be889509bc62c26887f5ccbbfeb"
+  },
+  {
+    "path": "source/src/ascii-logo/samples.js",
+    "role": "original_source",
+    "sha256": "cfd942d334ac7226ac69d034afca39b12a9d277280f7899bdb4322230cec1fdd"
+  },
+  {
+    "path": "source/src/ascii-logo/shaders/cell.frag.glsl",
+    "role": "original_source",
+    "sha256": "7a5a92a8abd8daf697837dd1690fb72bba3d0747584aec037c9c7e447eb7b42d"
+  },
+  {
+    "path": "source/src/ascii-logo/shaders/post.frag.glsl",
+    "role": "original_source",
+    "sha256": "ef84d8d353bd81265af86891aa5ff1b95be5f9b30d553feeb3e9baaad0e2d361"
+  },
+  {
+    "path": "source/src/ascii-logo/shaders/quad.vert.glsl",
+    "role": "original_source",
+    "sha256": "d02dc73f3ce3587e9c88bfdb4d7dab972c7c3e1f5750a4836b02b78a48a2c57c"
+  },
+  {
+    "path": "source/src/ascii-logo/shaders/scene.frag.glsl",
+    "role": "original_source",
+    "sha256": "b63fd7777619f28979676c8a529d7d3b932a25050ede3fc39e778ce8b99aa306"
+  },
+  {
+    "path": "source/src/ascii-logo/shaders/scene.vert.glsl",
+    "role": "original_source",
+    "sha256": "748c741b96b39e3b86ef901b8a1f256fbe682e6dfe177246f7adc6679ce4e61c"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "0478a927edfebbacaac196e2573654f91858da7eeb9a70151c173b73563e20e9"
+  }
+]

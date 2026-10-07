@@ -1,0 +1,97 @@
+[
+  {
+    "path": "source/src/main.js",
+    "role": "original_source",
+    "sha256": "5b432c4f9a0a96b523fab8931976b7c630b6ad914f38236cce73a29ff76a01ee"
+  },
+  {
+    "path": "adapter/src/scenes/Scene.js",
+    "role": "local_adapter",
+    "sha256": "451e3cd33dd05a685eb7ca172193e5a95f5c46575fb0366e58a1df238389c242"
+  },
+  {
+    "path": "source/src/core/Three.js",
+    "role": "original_source",
+    "sha256": "cea680c7a68f6150cfcb3a3ca51bb82fb147c69f6bb79f8d94f6d3dfd76f1b7c"
+  },
+  {
+    "path": "source/src/core/WebGLContext.js",
+    "role": "original_source",
+    "sha256": "3318c64541de8144d8e6a40bfb9a4de0e82c24ac9fbb906e9b75fe4922fe60cf"
+  },
+  {
+    "path": "source/src/materials/fresnelMaterial.js",
+    "role": "original_source",
+    "sha256": "313748d779935938e6d4fc0ddf25ba7531da48369a4320b405f32e20860688d2"
+  },
+  {
+    "path": "source/src/postprocessing/FluidSim.js",
+    "role": "original_source",
+    "sha256": "8e94af486bc5e2d72d01cfa0229db144d663bed08fe01ced90d9f768df853f89"
+  },
+  {
+    "path": "source/src/postprocessing/PostProcessing.js",
+    "role": "original_source",
+    "sha256": "861e771e5cd512251f881aa1225a65587b753a43a2c2de491e404acef9790d33"
+  },
+  {
+    "path": "source/src/scenes/Scene.js",
+    "role": "original_source",
+    "sha256": "c907832a8e28d7042bcabd3ebdec3a3fdc82ed886302dd5cd314369a75c2ecfb"
+  },
+  {
+    "path": "source/src/shaders/compositePass.frag.glsl",
+    "role": "original_source",
+    "sha256": "d1a982fa443f90ea8a4ce49f14b561ab1b2fddb5490acecc0c7936b29cf4637f"
+  },
+  {
+    "path": "source/src/shaders/crt.frag.glsl",
+    "role": "original_source",
+    "sha256": "c7b7b4385816d2c8fc1593a18edc6029a9f6b4e74aded0f683529a3dfb8ec640"
+  },
+  {
+    "path": "source/src/shaders/effectPass.vert.glsl",
+    "role": "original_source",
+    "sha256": "633310880aaf5e862bac1f2c170366a52da9e2dd818fdd90125a938df098a4ca"
+  },
+  {
+    "path": "source/src/shaders/fluid.frag.glsl",
+    "role": "original_source",
+    "sha256": "e7d56217ed184151c8b8aa72f60ed5d650ce3b14217af6d3a7157af878bd84a9"
+  },
+  {
+    "path": "source/src/shaders/passthrough.vert.glsl",
+    "role": "original_source",
+    "sha256": "fc75d2f6e3212f1638194ffb69e7cc32469064c361d34b594cafabb2dd584e27"
+  },
+  {
+    "path": "source/src/utils/CameraRig.js",
+    "role": "original_source",
+    "sha256": "12a852d5bf95dca2cf0fdc176038453a699befdd1241e7678b04ef05d9ec9c43"
+  },
+  {
+    "path": "source/src/utils/FullscreenQuad.js",
+    "role": "original_source",
+    "sha256": "37ffae4fbae28d3946c7b3ea6f7847400c872440763957a962ff2c70c2c72613"
+  },
+  {
+    "path": "source/src/utils/ImportGltf.js",
+    "role": "original_source",
+    "sha256": "ea09481a6f8c245bdeac10d5d72a3b1774fe3e494d1573d8b61ae5c4cbce3c5a"
+  },
+  {
+    "path": "source/src/utils/InstancedModel.js",
+    "role": "original_source",
+    "sha256": "34742d00a7d331b025531b8cbcbbf25fa997345ad6f5c4cd363f3134d7f5b0ec"
+  },
+  {
+    "path": "source/src/utils/MouseTrail.js",
+    "role": "original_source",
+    "sha256": "8d8096ee01fb4c7d0bbd760dd708667b92825585d0078c63841766e31713917e"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "0f3c22f954e44821c267bdad5766a44b75673205297bf45347c27ec2ea4f5c8d"
+  }
+]

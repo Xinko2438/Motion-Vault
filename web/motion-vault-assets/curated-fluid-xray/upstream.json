@@ -1,0 +1,13 @@
+{
+  "id": "curated-fluid-xray",
+  "repository": "https://github.com/cullenwebber/three-skull",
+  "commit": "985eb741ecff1d0a0c575a1df92d464b44c3c26d",
+  "archiveSha256": "bd5cd230f188ddc98c9f52ed3ea1f900ee562bcf0f6b4f3c6ee022069f3615b2",
+  "capturedAt": "2026-10-06T09:55:55.528Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 25,
+  "bytes": 397536
+}

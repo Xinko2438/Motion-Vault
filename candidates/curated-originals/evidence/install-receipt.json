@@ -1,0 +1,18 @@
+{
+  "installedAt": "2026-10-05T16:24:47.583Z",
+  "newOriginalCandidates": 30,
+  "formalCount": 60,
+  "formalUnchanged": true,
+  "htmlSha256": "4c5e7e902f16bee9cdf3c3facb44640327836ad5213197421aaf97e7c2ddc939",
+  "liveUrl": "http://127.0.0.1:4380/app/assets/motion-vault-candidates.html",
+  "httpVerified": true,
+  "wrapperTests": 109,
+  "originalGraphicsValidated": false,
+  "externalEmbeddingValidated": false,
+  "sourceMode": "live_original_pages_with_explicit_unverified_fallback",
+  "privateFeedbackEmbedded": false,
+  "productionSelectionGranted": false,
+  "backups": "candidates/curated-originals/versions/fifty-reviewed",
+  "oldReviewStorageChanged": false,
+  "gitCommitCreated": false
+}

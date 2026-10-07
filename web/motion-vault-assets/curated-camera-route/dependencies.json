@@ -1,0 +1,18 @@
+{
+  "direct": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "@react-three/drei": "9.56.20",
+    "@react-three/fiber": "8.11.0",
+    "@theatre/core": "0.6.0",
+    "@theatre/r3f": "0.6.0",
+    "@theatre/studio": "0.6.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.149.0"
+  },
+  "lockSha256": "cb5f5640116b5734de4f5b868aeedbf8d39178f8984e57f04ca0f3c54621639f",
+  "lifecycleScriptsExecuted": false
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-grid",
+  "directory": "online-grid",
+  "title": "二维拖拽画廊",
+  "version": "58d0dded0054f26d",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "6236beafd5c98758dde18e1947164f4f9a7ae7dcf57344eaa67504259aaed7ed",
+    "demo.mjs": "2fa6426cdefd57d352892979195a155995548ec71d5d195dec237f6dcc3ffd75",
+    "index.html": "65cb4d0a8969f1902b1585c80ea94028f9cb0e4b4b7a52acdcfdced24e573391",
+    "DESIGN.md": "7147511765fa8f86f2290dd35cf4da2d91d9c8d0a2c4e025b9a9d347e80fa410",
+    "IMPLEMENTATION.md": "3b2d793cab4759b9b79103d3da03e46561f742857522aa5bfc0013c9c537cd58",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "63766ec57edae3c49e801afb8f34b53dab5ec892dbc28f2f25fc493f71d78efe",
+    "source-map.json": "2bbc4f1b43a0fa0ba344a0d7c4c52162522b42c1fd0dd07719670539897c0952"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "58d0dded0054f26d",
+    "captured": true,
+    "posterSha256": "ab2b284be81f284a5dec108d7a5e70ed1f3c4316e7761c3d72b23ec0e7d7b066",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:58.787Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

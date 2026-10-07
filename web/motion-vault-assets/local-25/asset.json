@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "25",
+  "directory": "local-25",
+  "title": "磁性文字光晕横扫",
+  "version": "bd126eb837806e43",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "98fba1da83843a331dd016035be056d589409fb3288aed70d3215a2333bdcd07",
+    "demo.mjs": "6961a0b1b9cdd11b00fec90441dd223ce6505f779f28055dcbef1a81b54ab1de",
+    "index.html": "5b2f98c74cc4431992283fcd87436c973e966eb602531c7dca739a9fa1acea4e",
+    "DESIGN.md": "5fecbfbbd5891187089c214cad05051ade1d870e5960dfbd59319aaaabcee0b5",
+    "IMPLEMENTATION.md": "826af3727ca0bd61c57752f20f793b5de7b58e0d7bac700d6f88ba483b1961ce",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "a65da2228f956a955ca2cd87b12305b6a1aa5ed90a09dd5d4d59fe0e199b8072",
+    "source-map.json": "4fbcef5030989f015d9505605c7806e546725f3d29ea51060c471dc3b7745781"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "bd126eb837806e43",
+    "captured": true,
+    "posterSha256": "a9c61fd0f6de5574722e061c91343e690c22d40989607b4584d89c2b8f0db476",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:51.682Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "39",
+  "directory": "local-39",
+  "title": "字符三维错落翻转",
+  "version": "7be0012fee62e53f",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "34dea1447a2b7f91f7df38058acbd8cfd117d90eb2c27011a78ca8250759e828",
+    "demo.mjs": "b70b684d19b284d366c8353d140e3dcc439a4a237f0c87708c1bb03869967f09",
+    "index.html": "f59dd460cfed498c75f0b086f658f28104449b26363d7d45f8f896faab24912c",
+    "DESIGN.md": "38d8f003c809c2109e729f7b0aeccb1d6aba347403178f5be25006b488ea86d3",
+    "IMPLEMENTATION.md": "9f19a81b3eb5cfa1adcc588875c35a271c54219c081b885a126edaf11aa34ef2",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "084b65ccc66d3f016cead28a95708f6bab7c73bec74700dd9dccdd62d112dd72",
+    "source-map.json": "11ef7da4b0e04ea74f19f098a05cb7fd2ec399071ede8788907dd5e365a69e2f"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "7be0012fee62e53f",
+    "captured": true,
+    "posterSha256": "2af47a3f5c74c13c2f58756c5a6ca5db8c2cf27ee10fac648032688ec8cf619a",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:57.366Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "30",
+  "directory": "local-30",
+  "title": "校验错误微震颤警示",
+  "version": "9d635cd3c960dcba",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "ae02c29b1e2c524e7a101d43f249b97b77b0f75c71d33ace2efc8cab15cc749b",
+    "demo.mjs": "1fd23aaefd13ce91c662a05f417b57315200af95b1bb9fc105ba05bf1d168d6f",
+    "index.html": "23448aa4a85f88ff175e23990f91785cf21393cabafe34355ff525b641e9af5e",
+    "DESIGN.md": "63d8992702441f68cff4125f4e80d636796aacc89726b2f323cd4e1126637b95",
+    "IMPLEMENTATION.md": "4f880461c8bbb1473fa5fce0cbb7157e1953d02a9e2071427f3cd58cae2af57c",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "0c5ca86f3d59acbe446c59049f0ed7912dc820a71c1de96078504f08f12289f9",
+    "source-map.json": "8bc0167057a1dbdaf960c3dec6b92abb9e9b71346289ddbb3443cec7e6c5f16a"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "9d635cd3c960dcba",
+    "captured": true,
+    "posterSha256": "9e6296bc6fc4a7f599a7ea59015993bc9180e91a76673fd047acacfc86080faa",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:54.303Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

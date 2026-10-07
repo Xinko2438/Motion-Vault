@@ -1,0 +1,5 @@
+// 步骤滑竿空间位移
+// Runnable entry backed by the shared local engine; see IMPLEMENTATION.md for the exact core locations.
+import {createRuntime} from '../shared/runtime.31fd3f9a83f9.mjs';
+export const reference={"id":28,"title":"步骤滑竿空间位移","desc":"点击“下一步”时，前一步向左滑出，新一步从右侧滑入，保持严密的物理方位感。","design_value":"建立清晰的前后步骤空间逻辑，让用户明确知道自己处于第几阶段。","avoid":"绝对不能原地硬切或上下跳动，空间感混乱会增加放弃率。","tech":"transform: translateX(-100%); transition: 0.3s ease;","demo":"\u003cdiv style=\"width:180px; height:70px; border:1px solid var(--card-border); border-radius:8px; overflow:hidden; position:relative; display:flex;\">\u003cdiv style=\"flex:0 0 180px; display:grid; place-items:center; font-size:11px; background:var(--input-bg);\">步骤 1：填写信息 →\u003c/div>\u003c/div>","scene":"flow","uses":[{"scene":"journey","task":"onboarding","placement":"多步配置","goal":"通过方向一致的位移解释前后步骤"}],"preview_mode":"click","source_kind":"independent_code","source_name":"既有本地代码演示","source_url":null};
+export function mount(host,options={}){return createRuntime(host,reference,options);}

@@ -1,0 +1,2363 @@
+{
+  "schema": "motion-vault.formal-catalog.v2",
+  "count": 60,
+  "taskSelectionRequired": true,
+  "taxonomy": [
+    {
+      "id": "brand",
+      "label": "品牌首页与发布",
+      "question": "怎样建立第一眼的品牌气质？",
+      "tasks": {
+        "hero": "首屏主视觉",
+        "identity": "动态标识与标题",
+        "atmosphere": "背景材质与氛围",
+        "entrance": "开场与揭幕"
+      }
+    },
+    {
+      "id": "product",
+      "label": "产品展示与讲解",
+      "question": "怎样让产品特点更容易被理解？",
+      "tasks": {
+        "showroom": "产品陈列与选型",
+        "detail": "材质与局部细节",
+        "feature": "功能原理与卖点",
+        "configuration": "参数调节与配置"
+      }
+    },
+    {
+      "id": "portfolio",
+      "label": "作品集与案例",
+      "question": "怎样浏览作品并顺畅进入案例？",
+      "tasks": {
+        "overview": "作品总览与空间排列",
+        "discovery": "图片探索与预览",
+        "handoff": "缩略图到案例的衔接",
+        "sequence": "系列作品连续浏览"
+      }
+    },
+    {
+      "id": "editorial",
+      "label": "阅读与内容叙事",
+      "question": "怎样让文字、图像和数据共同讲述？",
+      "tasks": {
+        "chapter": "章节推进与阅读定位",
+        "typesetting": "标题与图文编排",
+        "data": "数据解释与对比",
+        "media": "音视频与连续阅读"
+      }
+    },
+    {
+      "id": "workspace",
+      "label": "应用与创作工作台",
+      "question": "怎样让高频操作既清楚又有质感？",
+      "tasks": {
+        "navigation": "全局导航与空间切换",
+        "context": "上下文工具与辅助操作",
+        "panels": "面板层级与工作区",
+        "precision": "精细编辑与直接操控"
+      }
+    },
+    {
+      "id": "journey",
+      "label": "关键流程与反馈",
+      "question": "怎样清楚表达等待、变化与完成？",
+      "tasks": {
+        "onboarding": "分步引导与连续任务",
+        "waiting": "加载与等待",
+        "status": "状态确认与通知",
+        "recovery": "错误解释与可逆操作"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": 2,
+      "title": "骨架屏环境呼吸脉冲",
+      "desc": "内容加载期间，占位块带有柔和半透明流光匀速掠过。",
+      "design_value": "填补接口等待空白，安抚数据丢失焦虑，明确表示系统在运转。",
+      "avoid": "光芒切忌过亮，背景对比度要低，避免视觉噪点。",
+      "tech": "background: linear-gradient(90deg, rgba(125,125,125,0.1) 25%, rgba(125,125,125,0.25) 50%, rgba(125,125,125,0.1) 75%); animation: pulse 1.5s infinite;",
+      "uses": [
+        {
+          "scene": "journey",
+          "task": "waiting",
+          "placement": "接口加载期间",
+          "goal": "用低对比度占位维持布局稳定"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-2",
+        "version": "1869e8639501b44e",
+        "manifest": "motion-vault-assets/local-2/asset.json",
+        "entry": "motion-vault-assets/local-2/entry.mjs",
+        "run": "motion-vault-assets/local-2/index.html",
+        "design": "motion-vault-assets/local-2/DESIGN.md",
+        "implementation": "motion-vault-assets/local-2/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-2/parameters.json",
+        "poster": "motion-vault-assets/local-2/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 4,
+      "title": "高阻尼抽屉秒开合",
+      "desc": "侧边详情栏滑出时带有高摩擦阻尼，瞬间停驻在视口边缘，绝不拖泥带水。",
+      "design_value": "在狭窄工作区内即时调出辅助配置，用完即收，不打断主心流。",
+      "avoid": "严禁在抽屉滑动过程中加入慢速弹性晃动（Bouncing）。",
+      "tech": "transform: translateX(0); transition: transform 0.2s cubic-bezier(0.16,1,0.3,1);",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "panels",
+          "placement": "编辑区域侧栏",
+          "goal": "在不离开当前任务的前提下展开辅助配置"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-4",
+        "version": "599de2b33235f950",
+        "manifest": "motion-vault-assets/local-4/asset.json",
+        "entry": "motion-vault-assets/local-4/entry.mjs",
+        "run": "motion-vault-assets/local-4/index.html",
+        "design": "motion-vault-assets/local-4/DESIGN.md",
+        "implementation": "motion-vault-assets/local-4/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-4/parameters.json",
+        "poster": "motion-vault-assets/local-4/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 7,
+      "title": "快捷键组合触发确认",
+      "desc": "敲下快捷键时，角落亮起微型徽章并在 0.5s 内淡出。",
+      "design_value": "专为键盘操作设计，无需移开视线找鼠标按钮即可确信已生效。",
+      "avoid": "严禁在屏幕中心遮挡大面积输入光标。",
+      "tech": "transform: scale(0.9)->scale(1); opacity: 1->0; transition: 0.4s;",
+      "uses": [
+        {
+          "scene": "journey",
+          "task": "status",
+          "placement": "键盘操作反馈",
+          "goal": "在视线附近确认动作而不遮挡内容"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-7",
+        "version": "e55e5aea03230160",
+        "manifest": "motion-vault-assets/local-7/asset.json",
+        "entry": "motion-vault-assets/local-7/entry.mjs",
+        "run": "motion-vault-assets/local-7/index.html",
+        "design": "motion-vault-assets/local-7/DESIGN.md",
+        "implementation": "motion-vault-assets/local-7/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-7/parameters.json",
+        "poster": "motion-vault-assets/local-7/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 10,
+      "title": "阅读进度细线与节点刻度",
+      "desc": "侧边伴随一条极细的发光线，经过每个核心论点时节点泛出微光。",
+      "design_value": "解决“不知道报告还有多长”的心理悬疑，建立阅读确定感。",
+      "avoid": "进度条不能太粗，不能用高饱和度荧光色抢占主视线。",
+      "tech": "height: calc(100% * progress); stroke-dashoffset 控制刻度",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "chapter",
+          "placement": "长报告阅读栏",
+          "goal": "呈现阅读位置与章节刻度"
+        }
+      ],
+      "preview_mode": "scroll",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-10",
+        "version": "3e4c1a0e25aff0d8",
+        "manifest": "motion-vault-assets/local-10/asset.json",
+        "entry": "motion-vault-assets/local-10/entry.mjs",
+        "run": "motion-vault-assets/local-10/index.html",
+        "design": "motion-vault-assets/local-10/DESIGN.md",
+        "implementation": "motion-vault-assets/local-10/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-10/parameters.json",
+        "poster": "motion-vault-assets/local-10/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 11,
+      "title": "数据滚动轮盘跳动",
+      "desc": "汇报统计结果时（如群消息数 2,328 条），数字位像轮盘转动平稳停在终点。",
+      "design_value": "强化量化数据的权威感与出炉真实感，让枯燥数字成为视觉焦点。",
+      "avoid": "数字必须使用等宽字体（tabular-nums），否则跳动时会引起整行抖动。",
+      "tech": "font-variant-numeric: tabular-nums; translateY 序列位移",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "data",
+          "placement": "统计摘要",
+          "goal": "用数位变化强调数据到达终值"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-11",
+        "version": "f20b6de5f804c18c",
+        "manifest": "motion-vault-assets/local-11/asset.json",
+        "entry": "motion-vault-assets/local-11/entry.mjs",
+        "run": "motion-vault-assets/local-11/index.html",
+        "design": "motion-vault-assets/local-11/DESIGN.md",
+        "implementation": "motion-vault-assets/local-11/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-11/parameters.json",
+        "poster": "motion-vault-assets/local-11/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 12,
+      "title": "段尾下一章隐喻浮现",
+      "desc": "读完当前长段末尾时，底部边缘露出下一章的一小角标题并带有向下微指示。",
+      "design_value": "给读者明确的“顺畅继续”提示，让翻页变成一件自然而然的动作。",
+      "avoid": "不能把下一章正文一下子全堆出来，只露标题。",
+      "tech": "opacity: clamp(0, scrollProgress, 1); transform: translateY(0);",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "chapter",
+          "placement": "文章结尾",
+          "goal": "提供自然衔接下一章的提示"
+        }
+      ],
+      "preview_mode": "scroll",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-12",
+        "version": "5c0e7012316b2ae7",
+        "manifest": "motion-vault-assets/local-12/asset.json",
+        "entry": "motion-vault-assets/local-12/entry.mjs",
+        "run": "motion-vault-assets/local-12/index.html",
+        "design": "motion-vault-assets/local-12/DESIGN.md",
+        "implementation": "motion-vault-assets/local-12/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-12/parameters.json",
+        "poster": "motion-vault-assets/local-12/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 16,
+      "title": "鼠标悬停静音动效预览",
+      "desc": "鼠标划过卡片缩略图，静态封面立刻无缝溶解为静音循环切片，移开即停。",
+      "design_value": "不点进页面也能在 2 秒内摸清动效的手感与全貌，极大提高浏览效率。",
+      "avoid": "严禁发出任何声音！默认必须全静音（muted）。",
+      "tech": "hover video { opacity: 1; } hover img { opacity: 0; }",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "media",
+          "placement": "视频资料网格",
+          "goal": "不离开目录即可判断片段内容"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-16",
+        "version": "7f4d91b258031b38",
+        "manifest": "motion-vault-assets/local-16/asset.json",
+        "entry": "motion-vault-assets/local-16/entry.mjs",
+        "run": "motion-vault-assets/local-16/index.html",
+        "design": "motion-vault-assets/local-16/DESIGN.md",
+        "implementation": "motion-vault-assets/local-16/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-16/parameters.json",
+        "poster": "motion-vault-assets/local-16/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 18,
+      "title": "画中画迷你吸附窗",
+      "desc": "正在看视频时向下滚动网页，视频平滑缩小为小窗，吸附在右下角继续播。",
+      "design_value": "满足“一边看视频一边翻阅下面文字评论/代码”的并行消费需求。",
+      "avoid": "不能遮挡右下角原有的浮动返回或核心操作按钮。",
+      "tech": "position: fixed; bottom: 24px; right: 24px; transition: 0.3s;",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "media",
+          "placement": "图文混排文章",
+          "goal": "让视频在阅读过程中保持连续"
+        }
+      ],
+      "preview_mode": "scroll",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-18",
+        "version": "043a5f3b678aa3e7",
+        "manifest": "motion-vault-assets/local-18/asset.json",
+        "entry": "motion-vault-assets/local-18/entry.mjs",
+        "run": "motion-vault-assets/local-18/index.html",
+        "design": "motion-vault-assets/local-18/DESIGN.md",
+        "implementation": "motion-vault-assets/local-18/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-18/parameters.json",
+        "poster": "motion-vault-assets/local-18/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 19,
+      "title": "音频波形动态跳动柱",
+      "desc": "包含声音播放或 BGM 时，三到四根细圆柱随着频率轻重错落起伏。",
+      "design_value": "为声音提供直观的视觉在场感，确认音频正在正常输出。",
+      "avoid": "高度变化要柔和，严禁生硬的高频闪烁引起眼花。",
+      "tech": "transform: scaleY(calc(var(--freq))); transform-origin: bottom;",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "media",
+          "placement": "音频播放区",
+          "goal": "提供播放状态与节奏线索"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-19",
+        "version": "1a8ee7363461c994",
+        "manifest": "motion-vault-assets/local-19/asset.json",
+        "entry": "motion-vault-assets/local-19/entry.mjs",
+        "run": "motion-vault-assets/local-19/index.html",
+        "design": "motion-vault-assets/local-19/DESIGN.md",
+        "implementation": "motion-vault-assets/local-19/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-19/parameters.json",
+        "poster": "motion-vault-assets/local-19/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 22,
+      "title": "3D 悬浮视差与表面反光",
+      "desc": "卡片根据鼠标光标产生立体微倾斜，表面滑过一道极柔和的环境高光。",
+      "design_value": "打造如拿在手里的高端物理实体晶片般的交互溢价。",
+      "avoid": "倾斜角度严格控制在 ±8° 以内，过大角度会导致文字模糊变形。",
+      "tech": "transform: perspective(800px) rotateX(...) rotateY(...);",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "产品重点展示卡",
+          "goal": "以深度与反光建立表面质感"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-22",
+        "version": "5da0da8fa720b23e",
+        "manifest": "motion-vault-assets/local-22/asset.json",
+        "entry": "motion-vault-assets/local-22/entry.mjs",
+        "run": "motion-vault-assets/local-22/index.html",
+        "design": "motion-vault-assets/local-22/DESIGN.md",
+        "implementation": "motion-vault-assets/local-22/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-22/parameters.json",
+        "poster": "motion-vault-assets/local-22/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 24,
+      "title": "大漫射环境色彩呼吸",
+      "desc": "60px 高斯模糊的大色团在暗夜背景中极其缓慢地流动交融，带来深空景深。",
+      "design_value": "提供高格调的视觉底色，烘托前景的文字与设备模型。",
+      "avoid": "必须开启 GPU 加速，模糊半径过大容易导致掉帧。",
+      "tech": "filter: blur(40px); animation: drift 8s infinite alternate;",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "atmosphere",
+          "placement": "首屏背景",
+          "goal": "用缓慢色彩层次支撑主内容"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-24",
+        "version": "d4d40861a80ae016",
+        "manifest": "motion-vault-assets/local-24/asset.json",
+        "entry": "motion-vault-assets/local-24/entry.mjs",
+        "run": "motion-vault-assets/local-24/index.html",
+        "design": "motion-vault-assets/local-24/DESIGN.md",
+        "implementation": "motion-vault-assets/local-24/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-24/parameters.json",
+        "poster": "motion-vault-assets/local-24/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 25,
+      "title": "磁性文字光晕横扫",
+      "desc": "大标题文字本体为低饱和度冷灰，一道柔和的纯白流光如水波一般缓缓横扫而过。",
+      "design_value": "用纯粹的光影美感替代一切廉价插图装饰，突出品牌宣言。",
+      "avoid": "扫描周期控制在 4~6 秒一次，太快会让人眩晕。",
+      "tech": "background: linear-gradient(110deg, #64748b 35%, #fff 50%, #64748b 65%); -webkit-background-clip: text;",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "品牌标题",
+          "goal": "用一次受控扫光强调文字材质"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-25",
+        "version": "bd126eb837806e43",
+        "manifest": "motion-vault-assets/local-25/asset.json",
+        "entry": "motion-vault-assets/local-25/entry.mjs",
+        "run": "motion-vault-assets/local-25/index.html",
+        "design": "motion-vault-assets/local-25/DESIGN.md",
+        "implementation": "motion-vault-assets/local-25/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-25/parameters.json",
+        "poster": "motion-vault-assets/local-25/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 28,
+      "title": "步骤滑竿空间位移",
+      "desc": "点击“下一步”时，前一步向左滑出，新一步从右侧滑入，保持严密的物理方位感。",
+      "design_value": "建立清晰的前后步骤空间逻辑，让用户明确知道自己处于第几阶段。",
+      "avoid": "绝对不能原地硬切或上下跳动，空间感混乱会增加放弃率。",
+      "tech": "transform: translateX(-100%); transition: 0.3s ease;",
+      "uses": [
+        {
+          "scene": "journey",
+          "task": "onboarding",
+          "placement": "多步配置",
+          "goal": "通过方向一致的位移解释前后步骤"
+        }
+      ],
+      "preview_mode": "click",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-28",
+        "version": "6b184912916dd1dc",
+        "manifest": "motion-vault-assets/local-28/asset.json",
+        "entry": "motion-vault-assets/local-28/entry.mjs",
+        "run": "motion-vault-assets/local-28/index.html",
+        "design": "motion-vault-assets/local-28/DESIGN.md",
+        "implementation": "motion-vault-assets/local-28/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-28/parameters.json",
+        "poster": "motion-vault-assets/local-28/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 30,
+      "title": "校验错误微震颤警示",
+      "desc": "当必填项遗漏时，输入框轻轻左右摆动 3 次，边框短时泛红后恢复正常。",
+      "design_value": "以人类身体本能的否定信号提醒填写错误，比冷冰冰的红字报错更亲切。",
+      "avoid": "幅度严禁超过 6px，只能微摆，过大晃动会显得粗糙滑稽。",
+      "tech": "animation: shake 0.3s ease-in-out;",
+      "uses": [
+        {
+          "scene": "journey",
+          "task": "recovery",
+          "placement": "校验失败的输入项",
+          "goal": "将错误定位到具体操作而非整屏警告"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-30",
+        "version": "9d635cd3c960dcba",
+        "manifest": "motion-vault-assets/local-30/asset.json",
+        "entry": "motion-vault-assets/local-30/entry.mjs",
+        "run": "motion-vault-assets/local-30/index.html",
+        "design": "motion-vault-assets/local-30/DESIGN.md",
+        "implementation": "motion-vault-assets/local-30/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-30/parameters.json",
+        "poster": "motion-vault-assets/local-30/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 31,
+      "title": "浮动提示精准锚定",
+      "desc": "鼠标悬停问号图标，解释小气泡伴随极其轻微的 4px 向上浮动淡入。",
+      "design_value": "在复杂表单中解释专业术语，按需索取，不占原本页面版面。",
+      "avoid": "光标移走时必须立即淡出，不能留下阻挡下方输入的残留。",
+      "tech": "opacity: 0->1; transform: translateY(4px)->translateY(0);",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "context",
+          "placement": "精细工具的说明入口",
+          "goal": "让帮助信息靠近当前操作对象"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-31",
+        "version": "dbaa80732daa7246",
+        "manifest": "motion-vault-assets/local-31/asset.json",
+        "entry": "motion-vault-assets/local-31/entry.mjs",
+        "run": "motion-vault-assets/local-31/index.html",
+        "design": "motion-vault-assets/local-31/DESIGN.md",
+        "implementation": "motion-vault-assets/local-31/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-31/parameters.json",
+        "poster": "motion-vault-assets/local-31/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 33,
+      "title": "折叠面板手风琴平滑伸缩",
+      "desc": "点击展开常见问题，高度平滑自 0 展开到自适应高度，文字不闪烁。",
+      "design_value": "收纳次要补充规则，用户想深究时能丝滑调出，保持整洁度。",
+      "avoid": "绝对不要写死高度例如 height: 500px，必须自动计算实际内容高度。",
+      "tech": "grid-template-rows: 0fr -> 1fr; transition: 0.25s;",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "chapter",
+          "placement": "补充说明与问答",
+          "goal": "按需展开内容且不发生高度突跳"
+        }
+      ],
+      "preview_mode": "click",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-33",
+        "version": "25ae7dc2e0258d6c",
+        "manifest": "motion-vault-assets/local-33/asset.json",
+        "entry": "motion-vault-assets/local-33/entry.mjs",
+        "run": "motion-vault-assets/local-33/index.html",
+        "design": "motion-vault-assets/local-33/DESIGN.md",
+        "implementation": "motion-vault-assets/local-33/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-33/parameters.json",
+        "poster": "motion-vault-assets/local-33/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 34,
+      "title": "磁吸光标物理拉扯",
+      "desc": "鼠标靠近圆形按钮时，按钮像有磁力一般主动朝鼠标位置偏移 15px，移开弹回。",
+      "design_value": "打破传统网页刻板界限，带来高度愉悦的游乐场级趣味交互。",
+      "avoid": "只能用于大尺寸独立按钮，严禁给密集小链接加磁吸导致打架。",
+      "tech": "translate(deltaX * 0.35, deltaY * 0.35);",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "少量关键链接",
+          "goal": "通过局部吸附突出可操作目标"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-34",
+        "version": "ac1a4ff94e6e8f4c",
+        "manifest": "motion-vault-assets/local-34/asset.json",
+        "entry": "motion-vault-assets/local-34/entry.mjs",
+        "run": "motion-vault-assets/local-34/index.html",
+        "design": "motion-vault-assets/local-34/DESIGN.md",
+        "implementation": "motion-vault-assets/local-34/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-34/parameters.json",
+        "poster": "motion-vault-assets/local-34/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 35,
+      "title": "字符乱码对焦解析",
+      "desc": "初看时文字呈现随机字符跳动，1秒内像解密雷达一样迅速收敛为真实文字。",
+      "design_value": "科技感、极客感与未来感主题的必杀技，强化代码与算法氛围。",
+      "avoid": "不能对大段说明文字使用，仅限 10 字以内的大标题。",
+      "tech": "随机字符轮换逐步收敛到 target text",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "技术主题标题",
+          "goal": "让字符从不确定逐步收敛到信息"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-35",
+        "version": "c230183a78614487",
+        "manifest": "motion-vault-assets/local-35/asset.json",
+        "entry": "motion-vault-assets/local-35/entry.mjs",
+        "run": "motion-vault-assets/local-35/index.html",
+        "design": "motion-vault-assets/local-35/DESIGN.md",
+        "implementation": "motion-vault-assets/local-35/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-35/parameters.json",
+        "poster": "motion-vault-assets/local-35/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 36,
+      "title": "快门遮罩圆形扩散",
+      "desc": "点击后从鼠标点击处向外炸开一个圆形遮罩，完全展露下一层场景。",
+      "design_value": "以强烈的几何仪式感切入新作品或大案例，视觉冲击力极高。",
+      "avoid": "扩散时间不要超过 0.6 秒，否则会产生拖沓感。",
+      "tech": "clip-path: circle(0% at x y) -> circle(150%);",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "entrance",
+          "placement": "开场进入下一幕",
+          "goal": "从明确的视觉起点揭示新场景"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-36",
+        "version": "5904a308fe87faa4",
+        "manifest": "motion-vault-assets/local-36/asset.json",
+        "entry": "motion-vault-assets/local-36/entry.mjs",
+        "run": "motion-vault-assets/local-36/index.html",
+        "design": "motion-vault-assets/local-36/DESIGN.md",
+        "implementation": "motion-vault-assets/local-36/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-36/parameters.json",
+        "poster": "motion-vault-assets/local-36/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 37,
+      "title": "双向分割错落拉幕",
+      "desc": "左半屏向上滑走、右半屏向下滑走，两边内容以相反方向错开拼接。",
+      "design_value": "时尚、建筑与先锋艺术类网站的经典转场，极具版面张力。",
+      "avoid": "不能在移动端竖屏使用，左右错位在手机上会导致排版混乱。",
+      "tech": "leftCol { -100% } rightCol { 100% };",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "handoff",
+          "placement": "作品之间的转场",
+          "goal": "通过相反方向退出建立场景边界"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-37",
+        "version": "d897a871e122e530",
+        "manifest": "motion-vault-assets/local-37/asset.json",
+        "entry": "motion-vault-assets/local-37/entry.mjs",
+        "run": "motion-vault-assets/local-37/index.html",
+        "design": "motion-vault-assets/local-37/DESIGN.md",
+        "implementation": "motion-vault-assets/local-37/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-37/parameters.json",
+        "poster": "motion-vault-assets/local-37/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 38,
+      "title": "流体胶囊弹性拉伸",
+      "desc": "药丸形状在状态变更时带有真实的表面张力拉长变形，犹如一滴水银。",
+      "design_value": "营造有生命力的有机交互（Organic UI），让控件具有生物弹性手感。",
+      "avoid": "变形幅度不能失控变形成怪异多边形。",
+      "tech": "SVG feGaussianBlur + feColorMatrix 粘滞融合滤镜",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "动态图形标识",
+          "goal": "用连接和分离表现组成关系"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-38",
+        "version": "255e83f6ee1ca8a1",
+        "manifest": "motion-vault-assets/local-38/asset.json",
+        "entry": "motion-vault-assets/local-38/entry.mjs",
+        "run": "motion-vault-assets/local-38/index.html",
+        "design": "motion-vault-assets/local-38/DESIGN.md",
+        "implementation": "motion-vault-assets/local-38/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-38/parameters.json",
+        "poster": "motion-vault-assets/local-38/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 39,
+      "title": "字符三维错落翻转",
+      "desc": "进入视口时每个字母独立拆开，带有 0.03s 微弱时延从三维下方翻转归位。",
+      "design_value": "诗意、优雅的排版进场，为重要引言或产品名称注入灵魂。",
+      "avoid": "严禁在大段长句使用，只适用于 2~4 个单词的超大展示字。",
+      "tech": "transform: rotateX(90deg) -> rotateX(0deg); stagger: 0.03s;",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "首屏标题入场",
+          "goal": "通过字符错峰建立文字出现的节奏"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-39",
+        "version": "7be0012fee62e53f",
+        "manifest": "motion-vault-assets/local-39/asset.json",
+        "entry": "motion-vault-assets/local-39/entry.mjs",
+        "run": "motion-vault-assets/local-39/index.html",
+        "design": "motion-vault-assets/local-39/DESIGN.md",
+        "implementation": "motion-vault-assets/local-39/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-39/parameters.json",
+        "poster": "motion-vault-assets/local-39/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": 40,
+      "title": "全景重力视差空间",
+      "desc": "鼠标在全景空间游走时，周围散落的卡片根据距离中心远近产生多维倾角漂浮。",
+      "design_value": "展示海量素材库、作品集或品牌宇宙的全景探索体验。",
+      "avoid": "必须限制移动边界，不能让卡片漂出屏幕可见范围之外。",
+      "tech": "requestAnimationFrame + 惯性插值 lerp",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "交互主视觉",
+          "goal": "用不同深度层的响应建立空间层次"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "既有本地代码演示",
+      "source_url": null,
+      "asset": {
+        "id": "local-40",
+        "version": "2b5fce8c050a2643",
+        "manifest": "motion-vault-assets/local-40/asset.json",
+        "entry": "motion-vault-assets/local-40/entry.mjs",
+        "run": "motion-vault-assets/local-40/index.html",
+        "design": "motion-vault-assets/local-40/DESIGN.md",
+        "implementation": "motion-vault-assets/local-40/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/local-40/parameters.json",
+        "poster": "motion-vault-assets/local-40/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-grid",
+      "key": "grid",
+      "title": "二维拖拽画廊",
+      "desc": "整个浏览空间可以二维移动，松手后逐渐停下。不同于小范围的鼠标视差。",
+      "design_value": "作品集、视觉资料探索、情绪板。",
+      "avoid": "必须保留搜索和线性列表入口；触屏拖动区域不要覆盖整个页面。",
+      "tech": "Pointer Events、循环坐标、速度衰减；原创矢量图。 原文描述无缝平铺、拖拽与视差。本演示实现二维循环和惯性，不复刻原站视差与入场。",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "overview",
+          "placement": "作品集总览",
+          "goal": "在二维空间探索一组视觉作品"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Jorge Toloza",
+      "source_url": "https://tympanus.net/codrops/2025/06/11/building-an-infinite-parallax-grid-with-gsap-and-seamless-tiling/",
+      "tags": [
+        "拖拽",
+        "惯性",
+        "循环"
+      ],
+      "asset": {
+        "id": "online-grid",
+        "version": "58d0dded0054f26d",
+        "manifest": "motion-vault-assets/online-grid/asset.json",
+        "entry": "motion-vault-assets/online-grid/entry.mjs",
+        "run": "motion-vault-assets/online-grid/index.html",
+        "design": "motion-vault-assets/online-grid/DESIGN.md",
+        "implementation": "motion-vault-assets/online-grid/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-grid/parameters.json",
+        "poster": "motion-vault-assets/online-grid/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-dock",
+      "key": "dock",
+      "title": "邻近放大导航",
+      "desc": "鼠标靠近一个图标时，相邻图标一起按距离响应，保持连续的空间关系。",
+      "design_value": "功能入口较少的创作工具与个人工作台。",
+      "avoid": "不适合大量菜单；触屏保持直接点击；减少动态模式不放大。",
+      "tech": "距离衰减和阻尼插值；原创线性图标；支持方向键。 已核实作者仓库文档的放大倍率、距离与弹簧参数；官网本轮返回403。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "navigation",
+          "placement": "少量常驻工具入口",
+          "goal": "以相邻放大反馈清楚标识当前目标"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "Motion-Primitives · Dock",
+      "source_url": "https://github.com/ibelick/motion-primitives/blob/main/app/docs/dock/page.mdx",
+      "tags": [
+        "距离感应",
+        "阻尼"
+      ],
+      "asset": {
+        "id": "online-dock",
+        "version": "9856deea913c2c0a",
+        "manifest": "motion-vault-assets/online-dock/asset.json",
+        "entry": "motion-vault-assets/online-dock/entry.mjs",
+        "run": "motion-vault-assets/online-dock/index.html",
+        "design": "motion-vault-assets/online-dock/DESIGN.md",
+        "implementation": "motion-vault-assets/online-dock/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-dock/parameters.json",
+        "poster": "motion-vault-assets/online-dock/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-radial",
+      "key": "radial",
+      "title": "扇形快捷操作菜单",
+      "desc": "从中心按钮沿扇形依次展开少量操作，选中后收拢并给出反馈。",
+      "design_value": "画布工具、标注工具、少量常用操作。",
+      "avoid": "不替代大量或层级很深的菜单；名称要可见，键盘可遍历。",
+      "tech": "极坐标定位、错峰过渡、焦点与隐藏项管理。 官方页面公开描述扇形布局和错峰弹簧。付费示例源码未读取、未复制。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "context",
+          "placement": "画布附近的快捷工具",
+          "goal": "悬停展开局部操作，缩短视线与指针移动"
+        }
+      ],
+      "preview_mode": "click",
+      "source_kind": "independent_code",
+      "source_name": "Motion · Radial Menu",
+      "source_url": "https://motion.dev/examples/react-radial-menu",
+      "tags": [
+        "展开",
+        "扇形布局",
+        "键盘"
+      ],
+      "asset": {
+        "id": "online-radial",
+        "version": "3356ca8c3c1ad534",
+        "manifest": "motion-vault-assets/online-radial/asset.json",
+        "entry": "motion-vault-assets/online-radial/entry.mjs",
+        "run": "motion-vault-assets/online-radial/index.html",
+        "design": "motion-vault-assets/online-radial/DESIGN.md",
+        "implementation": "motion-vault-assets/online-radial/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-radial/parameters.json",
+        "poster": "motion-vault-assets/online-radial/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-draw",
+      "key": "draw",
+      "title": "线稿路径渐进绘制",
+      "desc": "让一条完整线稿按路径逐段出现，支持暂停和手动拖动进度，观察节奏。",
+      "design_value": "品牌图形入场、结构解释、简洁插图。",
+      "avoid": "线稿需要顺畅路径；不是文字书写识别，不用于伪造签名。",
+      "tech": "SVG stroke-dashoffset、路径归一化、可暂停时间轴；原创线稿。 官方文档解释描边长度的绘制控制。本页不用GSAP插件，以原生SVG实现。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "品牌线稿或签名出现",
+          "goal": "保留线条书写的先后节奏"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "GSAP · DrawSVG",
+      "source_url": "https://gsap.com/docs/v3/Plugins/DrawSVGPlugin/",
+      "tags": [
+        "描边",
+        "播放",
+        "进度"
+      ],
+      "asset": {
+        "id": "online-draw",
+        "version": "86ecdac74a61f9ec",
+        "manifest": "motion-vault-assets/online-draw/asset.json",
+        "entry": "motion-vault-assets/online-draw/entry.mjs",
+        "run": "motion-vault-assets/online-draw/index.html",
+        "design": "motion-vault-assets/online-draw/DESIGN.md",
+        "implementation": "motion-vault-assets/online-draw/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-draw/parameters.json",
+        "poster": "motion-vault-assets/online-draw/poster.jpg",
+        "video": "motion-vault-assets/online-draw/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-morph",
+      "key": "morph",
+      "title": "连续轮廓形变",
+      "desc": "一个轮廓连续变成另一个轮廓，而不是淡出一张图后再淡入另一张。",
+      "design_value": "品牌符号、形态研究、轻量的状态表达。",
+      "avoid": "只演示三种同采样轮廓的转换，不声称支持任意复杂SVG形变。",
+      "tech": "等角采样、顶点插值、平滑封闭曲线；动画可中断。 来源说明SVG形状转换。本页使用自写采样与插值，不加载或复制插件。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "响应式动态图形",
+          "goal": "在不同轮廓之间保持形态连续"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "GSAP · MorphSVG",
+      "source_url": "https://gsap.com/docs/v3/Plugins/MorphSVGPlugin/",
+      "tags": [
+        "路径插值",
+        "连续形态"
+      ],
+      "asset": {
+        "id": "online-morph",
+        "version": "d0949409414a5f8d",
+        "manifest": "motion-vault-assets/online-morph/asset.json",
+        "entry": "motion-vault-assets/online-morph/entry.mjs",
+        "run": "motion-vault-assets/online-morph/index.html",
+        "design": "motion-vault-assets/online-morph/DESIGN.md",
+        "implementation": "motion-vault-assets/online-morph/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-morph/parameters.json",
+        "poster": "motion-vault-assets/online-morph/poster.jpg",
+        "video": "motion-vault-assets/online-morph/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-pixel",
+      "key": "pixel",
+      "title": "像素网格错峰转场",
+      "desc": "像素格按不同延迟覆盖画面，在完全遮住后切换内容，再依次揭开。",
+      "design_value": "创意作品切换、章节开场、风格化媒体页。",
+      "avoid": "不应用于高频操作；格子数量和动画层数受控；避免闪烁。",
+      "tech": "12×8单元、确定性延迟、两阶段遮罩；允许连续操作但不堆积动画。 原文说明像素网格与不同出入场时序。本页使用原创场景和独立遮罩实现。",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "handoff",
+          "placement": "项目封面切换",
+          "goal": "以错峰遮罩完成有秩序的视觉交接"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Pixel Transitions",
+      "source_url": "https://tympanus.net/codrops/2023/04/05/ideas-for-pixel-page-transitions/",
+      "tags": [
+        "网格",
+        "覆盖",
+        "揭示"
+      ],
+      "asset": {
+        "id": "online-pixel",
+        "version": "c6dc9328d2609eff",
+        "manifest": "motion-vault-assets/online-pixel/asset.json",
+        "entry": "motion-vault-assets/online-pixel/entry.mjs",
+        "run": "motion-vault-assets/online-pixel/index.html",
+        "design": "motion-vault-assets/online-pixel/DESIGN.md",
+        "implementation": "motion-vault-assets/online-pixel/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-pixel/parameters.json",
+        "poster": "motion-vault-assets/online-pixel/poster.jpg",
+        "video": "motion-vault-assets/online-pixel/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-sheet",
+      "key": "sheet",
+      "title": "多档停靠手势面板",
+      "desc": "拖动把手可停在摘要、半屏和展开三档；正文滚动与把手拖动分开。",
+      "design_value": "地图信息、移动端详情、列表辅助面板。",
+      "avoid": "把手拖拽有按钮替代；不要让内容滚动误触关闭。此处是组件内模拟。",
+      "tech": "指针位移映射高度、最近停靠点、独立内容滚动。 作者文档提供停靠点和活动停靠点。本页是独立手势模型，不包含系统手势或原生键盘适配。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "panels",
+          "placement": "移动端地图或资料详情",
+          "goal": "以停靠档位保持底层上下文可见"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "Vaul · Snap Points",
+      "source_url": "https://vaul.emilkowal.ski/snap-points",
+      "tags": [
+        "拖拽",
+        "停靠",
+        "滚动"
+      ],
+      "asset": {
+        "id": "online-sheet",
+        "version": "6ed12341e64433dc",
+        "manifest": "motion-vault-assets/online-sheet/asset.json",
+        "entry": "motion-vault-assets/online-sheet/entry.mjs",
+        "run": "motion-vault-assets/online-sheet/index.html",
+        "design": "motion-vault-assets/online-sheet/DESIGN.md",
+        "implementation": "motion-vault-assets/online-sheet/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-sheet/parameters.json",
+        "poster": "motion-vault-assets/online-sheet/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-toast",
+      "key": "toast",
+      "title": "可展开通知堆叠",
+      "desc": "几条反馈默认叠放，悬停或点击可展开；每条都能独立撤销而不是刷屏。",
+      "design_value": "批量保存、导出队列、非阻断式操作反馈。",
+      "avoid": "重要错误不能只靠短暂通知；此示例不会后台上传或处理真实文件。",
+      "tech": "堆叠层级、展开布局、独立撤销状态；只保留最多三条。 官网提供通知类型、展开和可见数量控制。本例不用Sonner，不自动消失以便评审。",
+      "uses": [
+        {
+          "scene": "journey",
+          "task": "status",
+          "placement": "后台任务反馈",
+          "goal": "压缩次要通知并按需展开"
+        }
+      ],
+      "preview_mode": "click",
+      "source_kind": "independent_code",
+      "source_name": "Sonner",
+      "source_url": "https://sonner.emilkowal.ski/",
+      "tags": [
+        "堆叠",
+        "展开",
+        "撤销"
+      ],
+      "asset": {
+        "id": "online-toast",
+        "version": "40be2c83bf9edd68",
+        "manifest": "motion-vault-assets/online-toast/asset.json",
+        "entry": "motion-vault-assets/online-toast/entry.mjs",
+        "run": "motion-vault-assets/online-toast/index.html",
+        "design": "motion-vault-assets/online-toast/DESIGN.md",
+        "implementation": "motion-vault-assets/online-toast/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-toast/parameters.json",
+        "poster": "motion-vault-assets/online-toast/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-nav",
+      "key": "nav",
+      "title": "共享容器导航面板",
+      "desc": "切换导航项时，内容在同一个容器内过渡，容器随内容调整宽高，不重复弹出窗口。",
+      "design_value": "产品官网、功能较多的桌面导航。",
+      "avoid": "同时支持点击与键盘；移出后稍作等待，避免跨越间隙时误关。",
+      "tech": "共享容器、不同内容尺寸、进入/退出意图和键盘返回。 官方文档公开子菜单、键盘导航与动画CSS变量。本例只模拟组件机制，不运行Radix。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "navigation",
+          "placement": "产品与资源主导航",
+          "goal": "用共享容器消除栏目切换的突变"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "Radix · Navigation Menu",
+      "source_url": "https://www.radix-ui.com/primitives/docs/components/navigation-menu",
+      "tags": [
+        "面板换页",
+        "尺寸过渡"
+      ],
+      "asset": {
+        "id": "online-nav",
+        "version": "0e2f05fe82d30236",
+        "manifest": "motion-vault-assets/online-nav/asset.json",
+        "entry": "motion-vault-assets/online-nav/entry.mjs",
+        "run": "motion-vault-assets/online-nav/index.html",
+        "design": "motion-vault-assets/online-nav/DESIGN.md",
+        "implementation": "motion-vault-assets/online-nav/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-nav/parameters.json",
+        "poster": "motion-vault-assets/online-nav/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-ring",
+      "key": "ring",
+      "title": "三维环形画廊",
+      "desc": "卡片沿同一圆环排列，旋转时前后层次和遮挡持续变化。",
+      "design_value": "精选作品、实体产品系列、展览浏览。",
+      "avoid": "不能代替普通列表；六张以内更清楚。",
+      "tech": "CSS perspective / preserve-3d；六张原创矢量卡片。 原文是滚动驱动的三维轮播；这里改为水平旋转和可控时间轴，不复刻页面滚动编排。",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "showroom",
+          "placement": "系列产品陈列",
+          "goal": "围绕同一观察中心展示不同对象"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Manoela Ilic",
+      "source_url": "https://tympanus.net/codrops/2025/05/07/on-scroll-3d-carousel/",
+      "tags": [
+        "环绕",
+        "景深",
+        "旋转"
+      ],
+      "asset": {
+        "id": "online-ring",
+        "version": "71167da9e1e51c46",
+        "manifest": "motion-vault-assets/online-ring/asset.json",
+        "entry": "motion-vault-assets/online-ring/entry.mjs",
+        "run": "motion-vault-assets/online-ring/index.html",
+        "design": "motion-vault-assets/online-ring/DESIGN.md",
+        "implementation": "motion-vault-assets/online-ring/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-ring/parameters.json",
+        "poster": "motion-vault-assets/online-ring/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-lens",
+      "key": "lens",
+      "title": "跟随式局部放大镜",
+      "desc": "整体图像保持不动，圆形镜片跟随指针，只放大所指细节。",
+      "design_value": "产品材质、图稿校对、地图细节浏览。",
+      "avoid": "保留完整图像与缩放替代入口；触屏支持拖动。",
+      "tech": "SVG圆形裁切、坐标映射和2.2倍局部缩放。 作者文档包含引导镜片和局部放大。这里为独立SVG圆形镜片，不运行React组件。",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "工艺与纹理查看",
+          "goal": "保持全貌的同时放大局部信息"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "react-image-magnify",
+      "source_url": "https://github.com/ethanselzer/react-image-magnify",
+      "tags": [
+        "局部",
+        "放大",
+        "跟随"
+      ],
+      "asset": {
+        "id": "online-lens",
+        "version": "a2c7db6ca60e5cc9",
+        "manifest": "motion-vault-assets/online-lens/asset.json",
+        "entry": "motion-vault-assets/online-lens/entry.mjs",
+        "run": "motion-vault-assets/online-lens/index.html",
+        "design": "motion-vault-assets/online-lens/DESIGN.md",
+        "implementation": "motion-vault-assets/online-lens/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-lens/parameters.json",
+        "poster": "motion-vault-assets/online-lens/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-ripple",
+      "key": "ripple",
+      "title": "水波折射切图",
+      "desc": "两幅画面交替时产生短暂水波折射，波纹缓慢消退后恢复清晰。",
+      "design_value": "作品封面、品牌视觉和摄影故事切换。",
+      "avoid": "文字与重要控件放在滤镜外；不要给整页持续加滤镜。",
+      "tech": "SVG turbulence / displacement轻量近似；不是原作WebGL着色器。 原文通过WebGL位移纹理切换图片。本例独立用SVG滤镜近似波动，不宣称物理水波或原作还原。",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "sequence",
+          "placement": "摄影或视觉作品切换",
+          "goal": "利用折射感建立图像之间的过渡"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Robin Delaporte",
+      "source_url": "https://tympanus.net/codrops/2018/04/10/webgl-distortion-hover-effects/",
+      "tags": [
+        "折射",
+        "扭曲",
+        "交融"
+      ],
+      "asset": {
+        "id": "online-ripple",
+        "version": "8a8f6fa5e4e01f94",
+        "manifest": "motion-vault-assets/online-ripple/asset.json",
+        "entry": "motion-vault-assets/online-ripple/entry.mjs",
+        "run": "motion-vault-assets/online-ripple/index.html",
+        "design": "motion-vault-assets/online-ripple/DESIGN.md",
+        "implementation": "motion-vault-assets/online-ripple/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-ripple/parameters.json",
+        "poster": "motion-vault-assets/online-ripple/poster.jpg",
+        "video": "motion-vault-assets/online-ripple/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-wave",
+      "key": "wave",
+      "title": "距离波纹点阵",
+      "desc": "波峰从起点向周围扩散，点阵按距离依次抬升，再回到原来的秩序。",
+      "design_value": "交互背景、品牌开场与触点反馈。",
+      "avoid": "维持低对比；避免在正文后反复运行。",
+      "tech": "按点到起点的距离计算波形、位移与大小。 官方文档提供网格、from与距离分配延迟。本例用解析波形实现点阵响应。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "atmosphere",
+          "placement": "交互式品牌底纹",
+          "goal": "让点阵围绕真实指针形成局部反馈"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "GSAP · Staggers",
+      "source_url": "https://gsap.com/resources/getting-started/Staggers/",
+      "tags": [
+        "距离",
+        "波阵",
+        "延迟"
+      ],
+      "asset": {
+        "id": "online-wave",
+        "version": "0ec664f0821e8a5a",
+        "manifest": "motion-vault-assets/online-wave/asset.json",
+        "entry": "motion-vault-assets/online-wave/entry.mjs",
+        "run": "motion-vault-assets/online-wave/index.html",
+        "design": "motion-vault-assets/online-wave/DESIGN.md",
+        "implementation": "motion-vault-assets/online-wave/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-wave/parameters.json",
+        "poster": "motion-vault-assets/online-wave/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-orbit",
+      "key": "orbit",
+      "title": "圆周文字环流",
+      "desc": "字形沿圆周排列，两层文字以不同速度旋转，中心标题保持稳定。",
+      "design_value": "活动标识、品牌介绍、专辑与海报式入口。",
+      "avoid": "重要句子不能只藏在旋转圆环内。",
+      "tech": "SVG textPath、同心路径与反向旋转。 作者文章探索圆形SVG文字和缩放动画。本例为双环旋转，没有复刻原作入场。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "活动标识与环形排字",
+          "goal": "在环绕运动中保持中心标识稳定"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Manoela Ilic",
+      "source_url": "https://tympanus.net/codrops/2021/03/03/circular-svg-text-animation/",
+      "tags": [
+        "环形排版",
+        "旋转"
+      ],
+      "asset": {
+        "id": "online-orbit",
+        "version": "d514ac1fdd332c38",
+        "manifest": "motion-vault-assets/online-orbit/asset.json",
+        "entry": "motion-vault-assets/online-orbit/entry.mjs",
+        "run": "motion-vault-assets/online-orbit/index.html",
+        "design": "motion-vault-assets/online-orbit/DESIGN.md",
+        "implementation": "motion-vault-assets/online-orbit/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-orbit/parameters.json",
+        "poster": "motion-vault-assets/online-orbit/poster.jpg",
+        "video": "motion-vault-assets/online-orbit/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-blur",
+      "key": "blur",
+      "title": "逐词模糊显影",
+      "desc": "一句话从轻微模糊中逐词清晰出现，行高不变，读者能顺着节奏读完。",
+      "design_value": "欢迎页、介绍文案、章节开场。",
+      "avoid": "不能让主体正文长期模糊；减少动态模式直接显示全文。",
+      "tech": "独立分词、opacity、blur与微小位移。 公开文档提供按词动画与fade-in-blur预设。本例独立实现中文词组分段，不使用组件源码。",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "typesetting",
+          "placement": "短句或章节题词",
+          "goal": "通过清晰度变化建立阅读先后"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Motion-Primitives · Text Effect",
+      "source_url": "https://motion-primitives.com/docs/text-effect",
+      "tags": [
+        "文字",
+        "模糊",
+        "递进"
+      ],
+      "asset": {
+        "id": "online-blur",
+        "version": "2035380bc6133d69",
+        "manifest": "motion-vault-assets/online-blur/asset.json",
+        "entry": "motion-vault-assets/online-blur/entry.mjs",
+        "run": "motion-vault-assets/online-blur/index.html",
+        "design": "motion-vault-assets/online-blur/DESIGN.md",
+        "implementation": "motion-vault-assets/online-blur/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-blur/parameters.json",
+        "poster": "motion-vault-assets/online-blur/poster.jpg",
+        "video": "motion-vault-assets/online-blur/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-particles",
+      "key": "particles",
+      "title": "粒子散开与重新聚字",
+      "desc": "点状字形散成轻微漂移的粒子，再沿可追踪的路径回到同一字形。",
+      "design_value": "主题开场、实验性品牌视觉、短时等待展示。",
+      "avoid": "保留普通文本替代；不代表真实加载进度。",
+      "tech": "确定性点阵与SVG粒子插值；不依赖WebGPU。 作者教程以WebGPU实现文字消散与花瓣粒子。本例只研究字形与粒子的聚散关系，无花瓣、光效或原作着色器。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "entrance",
+          "placement": "开场与品牌揭示",
+          "goal": "用聚散关系将氛围收束到文字"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Thibault Introvigne",
+      "source_url": "https://tympanus.net/codrops/2026/01/28/webgpu-gommage-effect-dissolving-msdf-text-into-dust-and-petals-with-three-js-tsl/",
+      "tags": [
+        "粒子",
+        "聚合",
+        "消散"
+      ],
+      "asset": {
+        "id": "online-particles",
+        "version": "2d9a15d737473c4e",
+        "manifest": "motion-vault-assets/online-particles/asset.json",
+        "entry": "motion-vault-assets/online-particles/entry.mjs",
+        "run": "motion-vault-assets/online-particles/index.html",
+        "design": "motion-vault-assets/online-particles/DESIGN.md",
+        "implementation": "motion-vault-assets/online-particles/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-particles/parameters.json",
+        "poster": "motion-vault-assets/online-particles/poster.jpg",
+        "video": "motion-vault-assets/online-particles/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-chart",
+      "key": "chart",
+      "title": "数据切换连续过渡",
+      "desc": "在两组演示数据间切换，柱体、数值与折线连续变化，类别位置保持稳定。",
+      "design_value": "分析面板、比较报告、数据筛选后的状态更新。",
+      "avoid": "不混淆类别与刻度；演示数据不代表真实业务。",
+      "tech": "固定刻度的SVG柱图、折线与数值插值。 官方文档说明属性过渡和自定义插值。本例为原创固定数据图表，未使用D3代码。",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "data",
+          "placement": "同指标不同时间切换",
+          "goal": "保留图形对象对应关系便于比较"
+        }
+      ],
+      "preview_mode": "click",
+      "source_kind": "independent_code",
+      "source_name": "D3 · Transition / Interpolate",
+      "source_url": "https://d3js.org/d3-transition/modifying",
+      "tags": [
+        "数据",
+        "插值",
+        "比较"
+      ],
+      "asset": {
+        "id": "online-chart",
+        "version": "8501f87bf91e5faf",
+        "manifest": "motion-vault-assets/online-chart/asset.json",
+        "entry": "motion-vault-assets/online-chart/entry.mjs",
+        "run": "motion-vault-assets/online-chart/index.html",
+        "design": "motion-vault-assets/online-chart/DESIGN.md",
+        "implementation": "motion-vault-assets/online-chart/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-chart/parameters.json",
+        "poster": "motion-vault-assets/online-chart/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-dial",
+      "key": "dial",
+      "title": "旋钮刻度吸附",
+      "desc": "旋钮沿弧线转动，数值与刻度同步更新，松手后落在最近的整数刻度。",
+      "design_value": "音量、强度、时间和创作工具参数。",
+      "avoid": "同时提供键盘及滑杆入口；旋转范围不暗示无限取值。",
+      "tech": "Pointer Events、角度映射、边界与整数吸附。 官方文档支持rotation模式、边界与拖拽。本例独立计算角度，不调用插件。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "precision",
+          "placement": "音视频或材质参数",
+          "goal": "在连续调节与明确刻度之间建立手感"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "GSAP · Draggable",
+      "source_url": "https://gsap.com/docs/v3/Plugins/Draggable/",
+      "tags": [
+        "旋转",
+        "刻度",
+        "吸附"
+      ],
+      "asset": {
+        "id": "online-dial",
+        "version": "2a1e46f72d641ca4",
+        "manifest": "motion-vault-assets/online-dial/asset.json",
+        "entry": "motion-vault-assets/online-dial/entry.mjs",
+        "run": "motion-vault-assets/online-dial/index.html",
+        "design": "motion-vault-assets/online-dial/DESIGN.md",
+        "implementation": "motion-vault-assets/online-dial/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-dial/parameters.json",
+        "poster": "motion-vault-assets/online-dial/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-book",
+      "key": "book",
+      "title": "书页双面翻阅",
+      "desc": "书页围绕中缝翻转，正反两面在转动时自然交接，背后页面逐步露出。",
+      "design_value": "作品册、电子画册和小篇幅故事。",
+      "avoid": "保留普通翻页入口；本演示只展示刚性页面，不模拟软纸卷曲。",
+      "tech": "CSS 3D、backface-visibility与独立正反页。 作者库支持软硬页和双面翻阅。本例为独立硬页铰链演示，不使用原库，不声称有软纸物理。",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "chapter",
+          "placement": "电子刊物与出版物",
+          "goal": "用双面纸页解释前后页关系"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "StPageFlip · Nodlik",
+      "source_url": "https://github.com/Nodlik/StPageFlip",
+      "tags": [
+        "翻页",
+        "双面",
+        "书脊"
+      ],
+      "asset": {
+        "id": "online-book",
+        "version": "3fba0c1c477005eb",
+        "manifest": "motion-vault-assets/online-book/asset.json",
+        "entry": "motion-vault-assets/online-book/entry.mjs",
+        "run": "motion-vault-assets/online-book/index.html",
+        "design": "motion-vault-assets/online-book/DESIGN.md",
+        "implementation": "motion-vault-assets/online-book/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-book/parameters.json",
+        "poster": "motion-vault-assets/online-book/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-string",
+      "key": "string",
+      "title": "弹性曲线回弹",
+      "desc": "线条被拖离原位，松手后按阻尼逐渐恢复，附近线条保留更轻的响应。",
+      "design_value": "分区边界、创意导航、触控反馈研究。",
+      "avoid": "高频业务操作应收敛回弹时间；不用于精准数据曲线。",
+      "tech": "二次贝塞尔控制点、阻尼正弦与拖拽释放。 作者文章探索SVG弹性组件。本例单独研究曲线控制点牵引和回弹，不复制菜单或按钮。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "互动线性视觉",
+          "goal": "让张力与回弹回应一次直接操作"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Elastic SVG Elements",
+      "source_url": "https://tympanus.net/codrops/2014/12/15/elastic-svg-elements/",
+      "tags": [
+        "牵引",
+        "弹性",
+        "衰减"
+      ],
+      "asset": {
+        "id": "online-string",
+        "version": "721c9ddbde74c993",
+        "manifest": "motion-vault-assets/online-string/asset.json",
+        "entry": "motion-vault-assets/online-string/entry.mjs",
+        "run": "motion-vault-assets/online-string/index.html",
+        "design": "motion-vault-assets/online-string/DESIGN.md",
+        "implementation": "motion-vault-assets/online-string/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-string/parameters.json",
+        "poster": "motion-vault-assets/online-string/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-stack",
+      "key": "stack",
+      "title": "卡片抽离与归位",
+      "desc": "顶部卡片抽离并转向，后方卡片顺位浮上来，离开的卡片重新落入底部。",
+      "design_value": "一组精选作品、逐项浏览、轻量内容挑选。",
+      "avoid": "不能用动画暗示已经收藏或删除；演示不会修改筛选记录。",
+      "tech": "CSS独立卡片位姿与时间轴；无业务状态变更。 作者演示卡叠的不同移除方式。本例为抽离后回到底部的独立循环，不映射接受/拒绝操作。",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "sequence",
+          "placement": "系列作品卡组",
+          "goal": "抽出当前内容后仍保留集合的空间关系"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Card Stack Effects",
+      "source_url": "https://tympanus.net/Development/CardStackEffects/",
+      "tags": [
+        "卡叠",
+        "抽取",
+        "归位"
+      ],
+      "asset": {
+        "id": "online-stack",
+        "version": "9fac1403f3e7c205",
+        "manifest": "motion-vault-assets/online-stack/asset.json",
+        "entry": "motion-vault-assets/online-stack/entry.mjs",
+        "run": "motion-vault-assets/online-stack/index.html",
+        "design": "motion-vault-assets/online-stack/DESIGN.md",
+        "implementation": "motion-vault-assets/online-stack/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-stack/parameters.json",
+        "poster": "motion-vault-assets/online-stack/poster.jpg",
+        "video": "motion-vault-assets/online-stack/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-spot",
+      "key": "spot",
+      "title": "聚光遮罩双层显露",
+      "desc": "指针移动一个局部遮罩，让两种画面在同一位置衔接。",
+      "design_value": "视觉探索、品牌主视觉。",
+      "avoid": "不能把关键信息只藏在鼠标遮罩内。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 作者教程描述双层内容与跟随指针的CSS遮罩。本示例用原创图案和圆形裁切独立实现，不搬运原作。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "双层主视觉",
+          "goal": "以局部照明引导对比探索"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Michelle Barker",
+      "source_url": "https://tympanus.net/codrops/2021/05/04/dynamic-css-masks-with-custom-properties-and-gsap/",
+      "tags": [
+        "聚光遮罩双层显露"
+      ],
+      "asset": {
+        "id": "online-spot",
+        "version": "4e968a601d8ea127",
+        "manifest": "motion-vault-assets/online-spot/asset.json",
+        "entry": "motion-vault-assets/online-spot/entry.mjs",
+        "run": "motion-vault-assets/online-spot/index.html",
+        "design": "motion-vault-assets/online-spot/DESIGN.md",
+        "implementation": "motion-vault-assets/online-spot/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-spot/parameters.json",
+        "poster": "motion-vault-assets/online-spot/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-proximity",
+      "key": "proximity",
+      "title": "文字笔画邻近响应",
+      "desc": "距离越近的字笔画越饱满，邻字自然过渡。",
+      "design_value": "品牌标题、轻量文字探索。",
+      "avoid": "正文不使用；笔画厚度有上限，避免糊成一团。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 已读取作者VariableProximity源码的距离与轴插值实现。本例使用SVG笔画厚度替代外部可变字体；不是同一字体或源码复刻。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "可交互短标题",
+          "goal": "使邻近笔画随真实指针细微响应"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "React Bits · Variable Proximity",
+      "source_url": "https://reactbits.dev/text-animations/variable-proximity",
+      "tags": [
+        "文字笔画邻近响应"
+      ],
+      "asset": {
+        "id": "online-proximity",
+        "version": "53807ef30ba923fe",
+        "manifest": "motion-vault-assets/online-proximity/asset.json",
+        "entry": "motion-vault-assets/online-proximity/entry.mjs",
+        "run": "motion-vault-assets/online-proximity/index.html",
+        "design": "motion-vault-assets/online-proximity/DESIGN.md",
+        "implementation": "motion-vault-assets/online-proximity/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-proximity/parameters.json",
+        "poster": "motion-vault-assets/online-proximity/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-velocity",
+      "key": "velocity",
+      "title": "速度感应弹性光标",
+      "desc": "光标随速度改变长宽比，并在停下后收回。",
+      "design_value": "轻量创意交互、局部装饰。",
+      "avoid": "不替代系统光标，不覆盖真实可点击区域。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 官方示例公开说明速度映射与弹簧平滑。这里独立编写椭圆伸缩，不使用其付费源码或图片。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "hero",
+          "placement": "鼠标导向的展示页",
+          "goal": "用速度相关形变增加指针的材质感"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "Motion · Cursor velocity",
+      "source_url": "https://motion.dev/examples/react-cursor-hover-follow",
+      "tags": [
+        "速度感应弹性光标"
+      ],
+      "asset": {
+        "id": "online-velocity",
+        "version": "8560a3d75e1006c8",
+        "manifest": "motion-vault-assets/online-velocity/asset.json",
+        "entry": "motion-vault-assets/online-velocity/entry.mjs",
+        "run": "motion-vault-assets/online-velocity/index.html",
+        "design": "motion-vault-assets/online-velocity/DESIGN.md",
+        "implementation": "motion-vault-assets/online-velocity/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-velocity/parameters.json",
+        "poster": "motion-vault-assets/online-velocity/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-repel",
+      "key": "repel",
+      "title": "粒点排斥与归位",
+      "desc": "粒点从指针附近退开，离开后回到原来的位置。",
+      "design_value": "实验背景、交互海报。",
+      "avoid": "限制粒子数量和位移幅度，不妨碍内容阅读。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 已读取作者源码中的磁场半径与指针位置处理。本例为二维规则点阵的独立避让模型，不复刻Three.js三维粒子。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "atmosphere",
+          "placement": "轻量空间粒点背景",
+          "goal": "在局部位移后恢复有序构图"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "React Bits · Antigravity",
+      "source_url": "https://reactbits.dev/animations/antigravity",
+      "tags": [
+        "粒点排斥与归位"
+      ],
+      "asset": {
+        "id": "online-repel",
+        "version": "e2378cc521426695",
+        "manifest": "motion-vault-assets/online-repel/asset.json",
+        "entry": "motion-vault-assets/online-repel/entry.mjs",
+        "run": "motion-vault-assets/online-repel/index.html",
+        "design": "motion-vault-assets/online-repel/DESIGN.md",
+        "implementation": "motion-vault-assets/online-repel/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-repel/parameters.json",
+        "poster": "motion-vault-assets/online-repel/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-linkimage",
+      "key": "linkimage",
+      "title": "链接旁实时图像浮现",
+      "desc": "标题保持固定，相关图像在指针旁出现并跟随。",
+      "design_value": "作品索引、编辑推荐、内容导航。",
+      "avoid": "移动端提供文字和明确点击入口，图像不能挡住目标。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 原文介绍链接悬停时显露缩略图。本例使用原创几何图和单个跟随层，不搬运原作照片。",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "discovery",
+          "placement": "文字作品目录",
+          "goal": "将项目名称与图像预览直接对应"
+        }
+      ],
+      "preview_mode": "pointer",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Image Reveal",
+      "source_url": "https://tympanus.net/codrops/2018/11/27/image-reveal-hover-effects/",
+      "tags": [
+        "链接旁实时图像浮现"
+      ],
+      "asset": {
+        "id": "online-linkimage",
+        "version": "402ac8a6ae70f64e",
+        "manifest": "motion-vault-assets/online-linkimage/asset.json",
+        "entry": "motion-vault-assets/online-linkimage/entry.mjs",
+        "run": "motion-vault-assets/online-linkimage/index.html",
+        "design": "motion-vault-assets/online-linkimage/DESIGN.md",
+        "implementation": "motion-vault-assets/online-linkimage/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-linkimage/parameters.json",
+        "poster": "motion-vault-assets/online-linkimage/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-peel",
+      "key": "peel",
+      "title": "贴纸边角拖拽剥离",
+      "desc": "沿拖拽方向剥开贴纸，反面和阴影随揭开幅度变化。",
+      "design_value": "卡片揭晓、印刷与包装展示。",
+      "avoid": "需要明显的可拖拽角标及键盘替代。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 已读取作者源码中的拖拽、边界、旋转及剥离配置。本例独立实现二维斜向剥离与背面，不复用GSAP源码和外部贴图。",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "detail",
+          "placement": "标签、包装或贴纸细节",
+          "goal": "通过翻起边缘展示表层与背面的关系"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "React Bits · Sticker Peel",
+      "source_url": "https://reactbits.dev/animations/sticker-peel",
+      "tags": [
+        "贴纸边角拖拽剥离"
+      ],
+      "asset": {
+        "id": "online-peel",
+        "version": "ccd5d2f9bb8fe01c",
+        "manifest": "motion-vault-assets/online-peel/asset.json",
+        "entry": "motion-vault-assets/online-peel/entry.mjs",
+        "run": "motion-vault-assets/online-peel/index.html",
+        "design": "motion-vault-assets/online-peel/DESIGN.md",
+        "implementation": "motion-vault-assets/online-peel/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-peel/parameters.json",
+        "poster": "motion-vault-assets/online-peel/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-bezier",
+      "key": "bezier",
+      "title": "贝塞尔控制柄编辑",
+      "desc": "拖动控制点时，曲线切线与弯曲关系同步改变。",
+      "design_value": "矢量编辑、动效曲线理解。",
+      "avoid": "必须保留控制柄、端点与连线的区别。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 MDN说明三次贝塞尔的两个控制点与端点。本例是围绕该规范独立设计的可操作曲线编辑示意。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "precision",
+          "placement": "曲线与运动路径编辑",
+          "goal": "在拖拽控制点时给出连续几何反馈"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "MDN · SVG Paths",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/d",
+      "tags": [
+        "贝塞尔控制柄编辑"
+      ],
+      "asset": {
+        "id": "online-bezier",
+        "version": "7d7ca6f4c4ee6e5e",
+        "manifest": "motion-vault-assets/online-bezier/asset.json",
+        "entry": "motion-vault-assets/online-bezier/entry.mjs",
+        "run": "motion-vault-assets/online-bezier/index.html",
+        "design": "motion-vault-assets/online-bezier/DESIGN.md",
+        "implementation": "motion-vault-assets/online-bezier/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-bezier/parameters.json",
+        "poster": "motion-vault-assets/online-bezier/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-swipe",
+      "key": "swipe",
+      "title": "侧滑显露上下文操作",
+      "desc": "侧滑进度决定隐藏操作区的显露，松开后吸附到开或关。",
+      "design_value": "消息列表、任务列表。",
+      "avoid": "不执行真实删除；动作需要明确标签与可点击替代。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 已核实官方公开的侧滑进度说明。本例独立实现一条演示记录的侧滑吸附，不使用付费源码。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "context",
+          "placement": "移动端列表辅助操作",
+          "goal": "按需显露操作而不占满行内空间"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "Motion · Swipe Actions",
+      "source_url": "https://motion.dev/examples/react-swipe-actions",
+      "tags": [
+        "侧滑显露上下文操作"
+      ],
+      "asset": {
+        "id": "online-swipe",
+        "version": "71bfdf11071a2053",
+        "manifest": "motion-vault-assets/online-swipe/asset.json",
+        "entry": "motion-vault-assets/online-swipe/entry.mjs",
+        "run": "motion-vault-assets/online-swipe/index.html",
+        "design": "motion-vault-assets/online-swipe/DESIGN.md",
+        "implementation": "motion-vault-assets/online-swipe/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-swipe/parameters.json",
+        "poster": "motion-vault-assets/online-swipe/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-blinds",
+      "key": "blinds",
+      "title": "百叶切片逐片翻面",
+      "desc": "画面分成竖向切片，逐片翻面完成一整幅画面的切换。",
+      "design_value": "作品展示、主题图过渡。",
+      "avoid": "片数适中，避免高频闪烁与破碎感。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 作者原文说明两套切片的轮换显隐。本例用3D翻面与原创图形现代化重写；非原jQuery宽度动画复制。",
+      "uses": [
+        {
+          "scene": "portfolio",
+          "task": "sequence",
+          "placement": "系列图像展示",
+          "goal": "通过切片转动完成整幅画面交接"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Codrops · Rotating Billboard",
+      "source_url": "https://tympanus.net/codrops/2009/12/16/creating-a-rotating-billboard-system-with-jquery-and-css/comment-page-2/",
+      "tags": [
+        "百叶切片逐片翻面"
+      ],
+      "asset": {
+        "id": "online-blinds",
+        "version": "cd8abfab000bce6a",
+        "manifest": "motion-vault-assets/online-blinds/asset.json",
+        "entry": "motion-vault-assets/online-blinds/entry.mjs",
+        "run": "motion-vault-assets/online-blinds/index.html",
+        "design": "motion-vault-assets/online-blinds/DESIGN.md",
+        "implementation": "motion-vault-assets/online-blinds/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-blinds/parameters.json",
+        "poster": "motion-vault-assets/online-blinds/poster.jpg",
+        "video": "motion-vault-assets/online-blinds/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-lines",
+      "key": "lines",
+      "title": "逐行遮罩文字入场",
+      "desc": "整行文字从裁切窗口中滑入，保留每行的完整阅读节奏。",
+      "design_value": "编辑型标题、品牌开场。",
+      "avoid": "不对长正文循环播放，不让用户读到一半被切走。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 官方文档说明分组错峰延迟。本例独立组合逐行裁切和平移，不引用外部文本或字体。",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "typesetting",
+          "placement": "大标题与章节开头",
+          "goal": "用行级遮罩保持排版边界与阅读顺序"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "Motion · Stagger",
+      "source_url": "https://motion.dev/docs/stagger",
+      "tags": [
+        "逐行遮罩文字入场"
+      ],
+      "asset": {
+        "id": "online-lines",
+        "version": "71fe24f664cf3408",
+        "manifest": "motion-vault-assets/online-lines/asset.json",
+        "entry": "motion-vault-assets/online-lines/entry.mjs",
+        "run": "motion-vault-assets/online-lines/index.html",
+        "design": "motion-vault-assets/online-lines/DESIGN.md",
+        "implementation": "motion-vault-assets/online-lines/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-lines/parameters.json",
+        "poster": "motion-vault-assets/online-lines/poster.jpg",
+        "video": "motion-vault-assets/online-lines/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-typewriter",
+      "key": "typewriter",
+      "title": "打字停顿与回删",
+      "desc": "以短句为单位输入、停留和回删，光标位置始终跟随文本末尾。",
+      "design_value": "短提示、输入示例。",
+      "avoid": "不使用长段落和过快闪烁，完整文本有静态替代。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 作者组件入口已核实；输入、删除与光标的示例在官方目录列出。本预览为独立的短句状态机，不复制实现。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "identity",
+          "placement": "短循环品牌语句",
+          "goal": "用停顿与回删划清词组之间的节奏"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "React Bits · Text Type",
+      "source_url": "https://reactbits.dev/text-animations/text-type",
+      "tags": [
+        "打字停顿与回删"
+      ],
+      "asset": {
+        "id": "online-typewriter",
+        "version": "d9b969b6dc6d6202",
+        "manifest": "motion-vault-assets/online-typewriter/asset.json",
+        "entry": "motion-vault-assets/online-typewriter/entry.mjs",
+        "run": "motion-vault-assets/online-typewriter/index.html",
+        "design": "motion-vault-assets/online-typewriter/DESIGN.md",
+        "implementation": "motion-vault-assets/online-typewriter/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-typewriter/parameters.json",
+        "poster": "motion-vault-assets/online-typewriter/poster.jpg",
+        "video": "motion-vault-assets/online-typewriter/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-network",
+      "key": "network",
+      "title": "链路信号分支流动",
+      "desc": "多个信号沿固定链路前进，在节点处分支、汇合。",
+      "design_value": "数据流程、服务链路、信息流说明。",
+      "avoid": "仅示意传输，不伪装实时系统数据。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 规范提供沿路径距离取点方法。本例围绕多分支拓扑独立设计，没有声称采集某个生产系统。",
+      "uses": [
+        {
+          "scene": "product",
+          "task": "feature",
+          "placement": "协作与数据流讲解",
+          "goal": "通过线路传播解释输入到输出的关系"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "MDN · SVG Path Geometry",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getPointAtLength",
+      "tags": [
+        "链路信号分支流动"
+      ],
+      "asset": {
+        "id": "online-network",
+        "version": "65e78359e9618138",
+        "manifest": "motion-vault-assets/online-network/asset.json",
+        "entry": "motion-vault-assets/online-network/entry.mjs",
+        "run": "motion-vault-assets/online-network/index.html",
+        "design": "motion-vault-assets/online-network/DESIGN.md",
+        "implementation": "motion-vault-assets/online-network/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-network/parameters.json",
+        "poster": "motion-vault-assets/online-network/poster.jpg",
+        "video": "motion-vault-assets/online-network/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-contours",
+      "key": "contours",
+      "title": "等高线柔波演化",
+      "desc": "密度一致的曲线群逐渐变形，产生有层次的地形感。",
+      "design_value": "品牌背景、空间和材质研究。",
+      "avoid": "避开正文主阅读区，保持线条低对比和低速。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 已读取作者源码中的多层线距、时间与波形设置。本例为原创SVG曲线群，不复用Three.js着色器。",
+      "uses": [
+        {
+          "scene": "brand",
+          "task": "atmosphere",
+          "placement": "空间或科技主题底纹",
+          "goal": "用连续等高线维持流动感但不抢主视觉"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "React Bits · Floating Lines",
+      "source_url": "https://reactbits.dev/backgrounds/floating-lines",
+      "tags": [
+        "等高线柔波演化"
+      ],
+      "asset": {
+        "id": "online-contours",
+        "version": "517165a17c5b4a5e",
+        "manifest": "motion-vault-assets/online-contours/asset.json",
+        "entry": "motion-vault-assets/online-contours/entry.mjs",
+        "run": "motion-vault-assets/online-contours/index.html",
+        "design": "motion-vault-assets/online-contours/DESIGN.md",
+        "implementation": "motion-vault-assets/online-contours/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-contours/parameters.json",
+        "poster": "motion-vault-assets/online-contours/poster.jpg",
+        "video": "motion-vault-assets/online-contours/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-donut",
+      "key": "donut",
+      "title": "环形分区依次展开",
+      "desc": "各扇区按固定顺序生长，角度与总占比保持一致。",
+      "design_value": "占比图、统计概览。",
+      "avoid": "演示数据明确标注，不把过渡中间值当作新统计。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 官方弧生成器文档说明起止角和内外半径。本例独立计算SVG环形扇区，不打包D3。",
+      "uses": [
+        {
+          "scene": "editorial",
+          "task": "data",
+          "placement": "组成比例的解释",
+          "goal": "按分区次序建立比例整体"
+        }
+      ],
+      "preview_mode": "auto",
+      "source_kind": "independent_code",
+      "source_name": "D3 · Arc",
+      "source_url": "https://d3js.org/d3-shape/arc",
+      "tags": [
+        "环形分区依次展开"
+      ],
+      "asset": {
+        "id": "online-donut",
+        "version": "0327581b1a75a7e9",
+        "manifest": "motion-vault-assets/online-donut/asset.json",
+        "entry": "motion-vault-assets/online-donut/entry.mjs",
+        "run": "motion-vault-assets/online-donut/index.html",
+        "design": "motion-vault-assets/online-donut/DESIGN.md",
+        "implementation": "motion-vault-assets/online-donut/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-donut/parameters.json",
+        "poster": "motion-vault-assets/online-donut/poster.jpg",
+        "video": "motion-vault-assets/online-donut/preview.mp4",
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-hold",
+      "key": "hold",
+      "title": "按住蓄力与取消",
+      "desc": "按住时积累进度，松开立即停止；完成后明确反馈。",
+      "design_value": "需要有意确认的轻量操作。",
+      "avoid": "不能作为付款或危险操作的唯一保护。此处不执行真实动作。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 规范说明按压期间事件捕获。本例独立设计长按进度与取消状态机，仅改变演示反馈。",
+      "uses": [
+        {
+          "scene": "journey",
+          "task": "recovery",
+          "placement": "需要明确意图的操作",
+          "goal": "通过持续按压进度给出可取消的确认过程"
+        }
+      ],
+      "preview_mode": "click",
+      "source_kind": "independent_code",
+      "source_name": "MDN · Pointer Capture",
+      "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture",
+      "tags": [
+        "按住蓄力与取消"
+      ],
+      "asset": {
+        "id": "online-hold",
+        "version": "eee95bc6af0aed01",
+        "manifest": "motion-vault-assets/online-hold/asset.json",
+        "entry": "motion-vault-assets/online-hold/entry.mjs",
+        "run": "motion-vault-assets/online-hold/index.html",
+        "design": "motion-vault-assets/online-hold/DESIGN.md",
+        "implementation": "motion-vault-assets/online-hold/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-hold/parameters.json",
+        "poster": "motion-vault-assets/online-hold/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    },
+    {
+      "id": "online-color",
+      "key": "color",
+      "title": "二维色域实时拾色",
+      "desc": "横纵两个轴分别控制饱和度和亮度，选点与色值联动。",
+      "design_value": "设计工具、主题编辑。",
+      "avoid": "键盘必须能调节两个通道；不只靠颜色表达状态。",
+      "tech": "原生 HTML / CSS / SVG / Pointer Events；独立实现。 官方文档说明二维色域与两个通道的调节。本例独立实现HSB色域和可读色值，不使用React Spectrum。",
+      "uses": [
+        {
+          "scene": "workspace",
+          "task": "precision",
+          "placement": "色彩与材质编辑",
+          "goal": "将二维位置和实际颜色一一对应"
+        }
+      ],
+      "preview_mode": "drag",
+      "source_kind": "independent_code",
+      "source_name": "Adobe · ColorArea",
+      "source_url": "https://react-spectrum.adobe.com/ColorArea",
+      "tags": [
+        "二维色域实时拾色"
+      ],
+      "asset": {
+        "id": "online-color",
+        "version": "824f2b56b8369d48",
+        "manifest": "motion-vault-assets/online-color/asset.json",
+        "entry": "motion-vault-assets/online-color/entry.mjs",
+        "run": "motion-vault-assets/online-color/index.html",
+        "design": "motion-vault-assets/online-color/DESIGN.md",
+        "implementation": "motion-vault-assets/online-color/IMPLEMENTATION.md",
+        "parameters": "motion-vault-assets/online-color/parameters.json",
+        "poster": "motion-vault-assets/online-color/poster.jpg",
+        "video": null,
+        "preview_kind": "local_render",
+        "state": "local_implementation",
+        "source_verified": false
+      }
+    }
+  ],
+  "assetSchema": "motion-vault.design-asset.v1",
+  "runtimeRevision": "608b4f20416cbc12"
+}

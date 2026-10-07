@@ -1,0 +1,25 @@
+{
+  "schema": "motion-vault.parameters.v1",
+  "playbackRate": {
+    "type": "number",
+    "default": 1,
+    "min": 0.25,
+    "max": 2,
+    "description": "本地自动时间线播放速度，不伪装成原作参数。"
+  },
+  "preview": {
+    "type": "boolean",
+    "default": false,
+    "description": "画廊悬停演示；真实鼠标或拖拽可接管。"
+  },
+  "motionIntent": {
+    "type": "string",
+    "default": "system",
+    "description": "仅用户主动预览时传hover；不修改系统偏好，不用于页面环境动画。"
+  },
+  "snapshot": {
+    "type": "boolean",
+    "default": false,
+    "description": "静止展示，用于同版本封面生成。"
+  }
+}

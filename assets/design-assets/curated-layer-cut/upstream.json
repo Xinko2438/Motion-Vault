@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/codrops/LayersAnimation",
+  "commit": "fec671735be6aa68949a5fabcda1967658afc717",
+  "archiveSha256": "8886a2146e2b36809da3403ba4a314ae3d8189be77b8fa9e44d07b6a25599bf0",
+  "capturedAt": "2026-10-06T04:12:23.072Z",
+  "fontFilesExcluded": true,
+  "networkUse": "Source capture only. Runtime external requests must be removed and tested separately.",
+  "status": "source_pinned_not_yet_adapted"
+}

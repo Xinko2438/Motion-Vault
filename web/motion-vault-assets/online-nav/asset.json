@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-nav",
+  "directory": "online-nav",
+  "title": "共享容器导航面板",
+  "version": "0e2f05fe82d30236",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "15b36c3ea01ac3df119a731ac447f0cafed09c2eab895898461a819e3f4e1f7d",
+    "demo.mjs": "28041eaee847b147337f9584f5747f876a2605b47d633307930c37400ea88806",
+    "index.html": "d8e29319b30ea2e998e80f4a7aa324d303cfb3d7109a13438024f18c4f7849ae",
+    "DESIGN.md": "0645d9871de6c3743b9373b7bcb18814e26223f60b551a2420a3170b58720c5e",
+    "IMPLEMENTATION.md": "2138095bb1e42406b5e2fb1fa9802a5e03bcb58c69d3fb2678d5139d2fb9ccbf",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "1f14be8f9340ac6bd98c835681a53d44090d08fbfbec787d2f9a4fceb5563386",
+    "source-map.json": "06ab46b19ccb38e43854b0a74051dff6c1e9064837e6100a38b99461df4d86c0"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "0e2f05fe82d30236",
+    "captured": true,
+    "posterSha256": "7f57c9370c1690c24a234da10f83320e4c0d5462941999026f36bb66937bc8f6",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:01.933Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

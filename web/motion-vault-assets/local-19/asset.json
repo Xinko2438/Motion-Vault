@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "19",
+  "directory": "local-19",
+  "title": "音频波形动态跳动柱",
+  "version": "1a8ee7363461c994",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "b0ace55c65a57b2d8a1a069e13b98459276c0671654d683e165d0cb449c0b196",
+    "demo.mjs": "cdbd8610658b49260e59310f5a0a32d0ae01e70f0eaf80880d0822e5a7405c91",
+    "index.html": "4b5d1202930310c81820938403acdca2dc6de6b25d94a0f3b305b505ed7cc9db",
+    "DESIGN.md": "923689c6d49f62956265794e3b2eaa18f7f484a9e554d1832a7ecb9ff29a6442",
+    "IMPLEMENTATION.md": "b21a37c7a9f9fc10e5e0d08cdfe6415935028e6cd04d7c2e14cf33b3e93f35a3",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "43e14b002c50cb0f7350b6e31995aa55129673acf1cc24dedb8ff937005b1c55",
+    "source-map.json": "ead1f3e4afd184c13133da7aa05997ca5becb2f425ecb2bcc54bb5c0ed448e08"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "1a8ee7363461c994",
+    "captured": true,
+    "posterSha256": "d3f6cb7c99d5656724fca9e04c7b8399f633ba4a26f80068a17364b85c507a72",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:50.802Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

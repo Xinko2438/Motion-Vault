@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "10",
+  "directory": "local-10",
+  "title": "阅读进度细线与节点刻度",
+  "version": "3e4c1a0e25aff0d8",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "8323bfcd628b625e2b064d5b3047182c2966ad7d1b24dac7fc9304de10787da9",
+    "demo.mjs": "be8f93d0fa1ed511cc0e19d88f5f24b4c5770d1ebb7d27a9ebf997a3ccc0fa8d",
+    "index.html": "118a2590f1ff81ec1d29c740bbc9fd5a9e86c0a3e50d9dbe9c260bc6a3735649",
+    "DESIGN.md": "65fb032af60ddcb8a528e759d199bc7b5f83010f0f74429c0c54d518fbd31640",
+    "IMPLEMENTATION.md": "1d35da508ac185d255a6fb4145c78c01d29737abaa2cea4e159352d78ee1fa28",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "fef25453efbdda9bfd4ef4b77fabbbefe8624c2fc219bc050023dc9ec069a5b4",
+    "source-map.json": "221ec8817f9f0550ddeed55d8212b20ae25fa05ffaab287945c12f3feaff5077"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "3e4c1a0e25aff0d8",
+    "captured": true,
+    "posterSha256": "da5a5c6ee5beb8a40e0d8d5e5217e299d238c5c16f31cf7bfbb8976583957c5e",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:49.195Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

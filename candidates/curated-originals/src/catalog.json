@@ -1,0 +1,926 @@
+[
+  {
+    "id": "curated-telescope",
+    "number": 1,
+    "title": "镜筒式层叠缩放叙事",
+    "author": "Joffrey Spitzer",
+    "demo_url": "https://tympanus.net/Tutorials/TelescopeZoom/",
+    "source_url": "https://tympanus.net/codrops/2025/10/29/building-a-layered-zoom-scroll-effect-with-gsap-scrollsmoother-and-scrolltrigger/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "entrance",
+        "placement": "品牌首页首屏进入第二幕",
+        "goal": "让用户沿同一视觉中心进入故事，而不是上下切换孤立区块"
+      },
+      {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "专题开篇",
+        "goal": "用视觉纵深引出章节"
+      }
+    ],
+    "design_value": "多层图像的尺度关系和滚动节奏共同形成纵深；借鉴的是完整场景推进，不是普通放大。",
+    "inspect": "观察中心锚点是否稳定、不同层何时交接，以及反向滚动的连贯性。",
+    "limit": "长距离缩放可能造成眩晕；正文需另保留清晰阅读通道。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / ScrollTrigger / ScrollSmoother",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "镜筒式层叠缩放叙事",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-glass-torus",
+    "number": 2,
+    "title": "玻璃圆环与折射字带",
+    "author": "Matt Park",
+    "demo_url": "https://tympanus.net/Tutorials/TransmissionMaterial/",
+    "source_url": "https://tympanus.net/codrops/2025/03/13/warping-3d-text-inside-a-glass-torus/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "活动主视觉与动态标识",
+        "goal": "让文字与实体材质形成一个完整视觉对象"
+      }
+    ],
+    "design_value": "透明圆环、内部字带与背景文字形成折射层次；本地为独立光学设计研究，不冒称原作源码。",
+    "inspect": "观察折射变化时文字是否仍有辨识度，及静止阶段的反光层次。",
+    "limit": "透明材质存在多次渲染成本；原作模型和文字不可直接当成自有品牌资产。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / WebGL2 / 物理透射材质",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "玻璃圆环里的折射字形",
+    "local_implementation_kind": "independent_code"
+  },
+  {
+    "id": "curated-metal-name",
+    "number": 3,
+    "title": "字形截面的金属空间结构",
+    "author": "BL/S® / Serhii Polyvanyi",
+    "demo_url": "https://blacklead-studio.webflow.io/three-js-conf",
+    "source_url": "https://tympanus.net/codrops/2026/09/09/turning-names-into-digital-architecture-with-three-js/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "活动个性化入口与签名页",
+        "goal": "将用户输入变成有材质、有空间秩序的品牌记忆"
+      }
+    ],
+    "design_value": "根据输入字形构造连续截面，结合负空间、扭转和金属高光；本地为独立实现。",
+    "inspect": "输入不同名字，观察轮廓连接、负空间与金属饰面的整体关系。",
+    "limit": "不把生成结果的分享功能当作已授权发布；反光是作者的实时近似实现，不是光线追踪。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / 字形轮廓 / 截面叠放",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "名字生成金属建筑结构",
+    "local_implementation_kind": "independent_code"
+  },
+  {
+    "id": "curated-liquid-grid",
+    "number": 4,
+    "title": "玻璃球面图像陈列",
+    "author": "Shader / Filip Kantedal",
+    "demo_url": "https://infinite-jelly-glass.shader.se/",
+    "source_url": "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "overview",
+        "placement": "影像工作室作品总览",
+        "goal": "让大量视觉作品处于一个连续、可探索的空间"
+      },
+      {
+        "scene": "product",
+        "task": "showroom",
+        "placement": "系列产品陈列",
+        "goal": "以空间与材质组织一组展示对象"
+      }
+    ],
+    "design_value": "静态图像、玻璃外壳与球面深度形成可旋转陈列；不是原作无限视频网格或XPBD模拟。",
+    "inspect": "拖动时观察边缘弯曲、中心与外围的比例，以及停止后的收束。",
+    "limit": "原作依赖 WebGPU 和视频资源；低性能设备需要普通目录替代。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / WebGL2 / 图像阵列与惯性",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "液态玻璃球面视频陈列",
+    "local_implementation_kind": "independent_code"
+  },
+  {
+    "id": "curated-depth",
+    "number": 5,
+    "title": "同一物体的形态、材质与光照叙事",
+    "author": "Aleksei Kipin",
+    "demo_url": "https://depth.fyi/",
+    "source_url": "https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "feature",
+        "placement": "设计工具或材质产品的功能说明",
+        "goal": "通过同一对象的持续变化解释产品能力"
+      },
+      {
+        "scene": "product",
+        "task": "detail",
+        "placement": "材质与工艺对比",
+        "goal": "在一致视角下阅读表面差异"
+      }
+    ],
+    "design_value": "以同一实时几何对象贯穿形态、表面和光照三阶段；独立实现，区别于原作首屏图像序列。",
+    "inspect": "比较各章节对象位置是否连续、材质变化是否易读，以及指针如何控制首屏。",
+    "limit": "作者明确首屏含生成图像序列，不应标成全部实时物理渲染；音乐默认不启用。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / 几何插值 / 材质进度",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "同一物体的形态、材质与光照叙事",
+    "local_implementation_kind": "independent_code"
+  },
+  {
+    "id": "curated-spatial-product",
+    "number": 6,
+    "title": "曲面产品墙与聚焦选型",
+    "author": "Matt Greenberg",
+    "demo_url": "https://shoe-finder-wine.vercel.app/",
+    "source_url": "https://tympanus.net/codrops/2026/02/24/from-flat-to-spatial-creating-a-3d-product-grid-with-react-three-fiber/",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "showroom",
+        "placement": "设计品牌系列产品选择页",
+        "goal": "从产品总览自然聚焦到单个对象"
+      }
+    ],
+    "design_value": "曲面排列、全息选中表面和阻尼相机形成完整浏览体验，而不是通用吸附轮播。",
+    "inspect": "观察选中与退出时相机、图像和文字的配合，以及快速切换的中断处理。",
+    "limit": "产品照片、商标属于原素材权利方；大目录必须验证加载和可访问列表。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "R3F / GLSL / 阻尼相机",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "曲面产品墙与聚焦选型",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-fluid-xray",
+    "number": 7,
+    "title": "实体与透视结构的流体显露",
+    "author": "Cullen Webber",
+    "demo_url": "https://tympanus.net/Tutorials/SkeletonFluidReveal/",
+    "source_url": "https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "detail",
+        "placement": "产品内部结构与外壳对照",
+        "goal": "把表面与内部结构保持在同一空间坐标中展示"
+      },
+      {
+        "scene": "product",
+        "task": "feature",
+        "placement": "结构原理讲解",
+        "goal": "在原位展示被遮挡的组成部分"
+      }
+    ],
+    "design_value": "流动遮罩连接实体和透视两套场景，移动后的痕迹有扩散和消退，不是硬边圆形放大镜。",
+    "inspect": "移动后停下，观察显露边界、内部结构对齐和自然恢复。",
+    "limit": "需维护两套场景与额外渲染；不能用于会被误认为真实医学影像的展示。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / TSL / 流体反馈",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "实体与透视结构的流体显露",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-camera-route",
+    "number": 8,
+    "title": "沿场景路线推进的镜头叙事",
+    "author": "Andrew Prifer",
+    "demo_url": "https://tympanus.net/Development/CameraFlyThrough/",
+    "source_url": "https://tympanus.net/codrops/2023/02/14/animate-a-camera-fly-through-on-scroll-using-theatre-js-and-react-three-fiber/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "空间品牌与沉浸式开场",
+        "goal": "让用户通过镜头路线而非按钮切换探索场景"
+      },
+      {
+        "scene": "product",
+        "task": "showroom",
+        "placement": "空间和展厅展示",
+        "goal": "通过路线安排产品被看见的顺序"
+      }
+    ],
+    "design_value": "镜头运动与场景构图一起编排，重点是镜头路径、停留和观察方向，不是让图标沿线跑。",
+    "inspect": "检查滚动正反向时视角转向，重要物体出现的位置与停留时间。",
+    "limit": "不是所有页面都适合强镜头移动；移动端与减少动态效果需要降级。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Theatre.js / React Three Fiber",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "沿场景路线推进的镜头叙事",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-cloth-object",
+    "number": 9,
+    "title": "柔性实体落下与压缩回弹",
+    "author": "Joshua Guo",
+    "demo_url": "https://tympanus.net/Tutorials/BalloonButton/",
+    "source_url": "https://tympanus.net/codrops/2025/08/20/exporting-a-cloth-simulation-from-blender-to-an-interactive-three-js-scene/",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "detail",
+        "placement": "柔性材料或触感产品的微型展示",
+        "goal": "让压缩、褶皱和落地表现真实的柔软感"
+      }
+    ],
+    "design_value": "价值在布料体积变化、接触阴影和落地节奏，不在按钮功能本身。",
+    "inspect": "重播时观察体积是否保持、表面褶皱与落地阴影是否相互解释。",
+    "limit": "作者采用烘焙模拟后在浏览器重播，不是任意实时物理；不宜作为普通表单按钮。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Blender / 形态键 / Three.js",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "柔性实体落下与压缩回弹",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-emissive-dissolve",
+    "number": 10,
+    "title": "带发光边缘的实体溶解",
+    "author": "Jatin Chopra",
+    "demo_url": "https://tympanus.net/Tutorials/EmissiveDissolveEffect/",
+    "source_url": "https://tympanus.net/codrops/2025/02/17/implementing-a-dissolve-effect-with-shaders-and-particles-in-three-js/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "entrance",
+        "placement": "发布视觉的出现与消退",
+        "goal": "让一个完整物体逐步转换成能量或粒子"
+      }
+    ],
+    "design_value": "溶解边缘、发光和粒子释放有同一进度关系，不是随意堆放粒子特效。",
+    "inspect": "关注边缘厚度、粒子出现的时机，以及最终消退的干净程度。",
+    "limit": "高对比发光不能抢过核心信息；需要测试低端设备的后处理开销。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / GLSL / 粒子",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "带发光边缘的实体溶解",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-dual-wave",
+    "number": 11,
+    "title": "双向文字波的滚动编排",
+    "author": "Valentin Descombes",
+    "demo_url": "https://tympanus.net/Tutorials/DualWaveTextAnimation/",
+    "source_url": "https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "专题章节开头与短标题",
+        "goal": "在可读的文字顺序中建立富有张力的入场节奏"
+      }
+    ],
+    "design_value": "两组相反或错开的运动围绕排版组织，不是常规逐字淡入。",
+    "inspect": "慢速和反向滚动，检查文字何时读得清、两条波如何交接。",
+    "limit": "仅适合短标题；长正文不要继承持续变形。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / 文字分组 / 滚动进度",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "双向文字波的滚动编排",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-image-in-type",
+    "number": 12,
+    "title": "文字之间展开的图像叙事",
+    "author": "Manoela Ilic",
+    "demo_url": "https://tympanus.net/Development/ImageExpansionTypography/",
+    "source_url": "https://tympanus.net/Development/ImageExpansionTypography/",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "编辑型首页与图文专题标题",
+        "goal": "让图像在文字结构内部生长，而不是插入独立图片区块"
+      },
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "文化或艺术品牌首屏",
+        "goal": "让图像与品牌语句形成整体"
+      }
+    ],
+    "design_value": "图像展开和字间空间一起变化，排版参与转场而非做静态字幕。",
+    "inspect": "关注展开前后的行长、图像比例，以及文字被挤开后是否仍成句。",
+    "limit": "需要为中文分词、换行和不同屏宽单独调整，不能直接照搬拉丁排版。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / 图文布局",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "文字之间展开的图像叙事",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-cylinder-type",
+    "number": 13,
+    "title": "柱面排字与三维阅读节奏",
+    "author": "David Faure",
+    "demo_url": "https://tympanus.net/Tutorials/3DTextScroll/",
+    "source_url": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "人物名单、栏目或演出阵容",
+        "goal": "将纵向列表转成可旋转的文字空间"
+      }
+    ],
+    "design_value": "文字构成三维表面并随滚动改变可见顺序；重点是透视、节奏与前景可读性。",
+    "inspect": "观察正面焦点是否明确、背面文字是否造成重影、反向滚动能否定位。",
+    "limit": "不替代长名单的普通列表；移动端字体尺寸和可访问文本需保留。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "CSS 3D / GSAP",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "柱面排字与三维阅读节奏",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-stylized-water",
+    "number": 14,
+    "title": "风格化水面与场景光感",
+    "author": "Thalles Lopes",
+    "demo_url": "https://tympanus.net/Tutorials/StylizedWater/",
+    "source_url": "https://tympanus.net/Tutorials/StylizedWater/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "atmosphere",
+        "placement": "自然、海岸或空间主题背景",
+        "goal": "让水的风格与画面整体气质一致"
+      }
+    ],
+    "design_value": "研究的是水面与三维场景的综合色彩和光感，不是对整张图片施加任意波纹。",
+    "inspect": "观察水面细节、远近层次和主物体之间的明暗关系。",
+    "limit": "需在真实浏览器中判断 GPU 负担；不得让背景持续干扰正文。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "React Three Fiber / 水面着色",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "风格化水面与场景光感",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-shape-ascii",
+    "number": 15,
+    "title": "沿真实轮廓选字的 ASCII 实体",
+    "author": "Edoardo Lunardi",
+    "demo_url": "https://tympanus.net/Tutorials/ASCIILogo/",
+    "source_url": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "技术品牌的标识实验",
+        "goal": "在字符媒介里保住标识轮廓和空间感"
+      }
+    ],
+    "design_value": "字符选择考虑形状而不仅是亮度，因此倾斜边缘也有结构；区别于普通乱码文字。",
+    "inspect": "拖动对象并对比斜边、明暗层次和小尺寸的标识辨认。",
+    "limit": "高密度字符不适合正文；品牌图形与字库的实际许可另查。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / GPU 字形匹配",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "沿真实轮廓选字的 ASCII 实体",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-reaction-diffusion",
+    "number": 16,
+    "title": "反应扩散的生长型材质",
+    "author": "Robert Leitl / atuin.media",
+    "demo_url": "https://tympanus.net/Tutorials/WebGPUReactionDiffusion/",
+    "source_url": "https://tympanus.net/codrops/2024/05/01/reaction-diffusion-compute-shader-in-webgpu/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "atmosphere",
+        "placement": "研究、自然与生成设计主题视觉",
+        "goal": "以持续生长而非循环平移的纹理表达过程"
+      }
+    ],
+    "design_value": "纹理形态在模拟中演化，适合借鉴生长节奏、局部结构和留白的关系。",
+    "inspect": "观察图案密度是否有层级、局部变化如何传到整体。",
+    "limit": "原作要求 WebGPU；正式产品需静态或视频替代，不强迫用户更改浏览器安全设置。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "WebGPU / Compute shader",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "反应扩散的生长型材质",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-vortex-glass",
+    "number": 17,
+    "title": "玻璃球中的体积漩涡",
+    "author": "MisterPrada",
+    "demo_url": "https://tympanus.net/Tutorials/VortexGlassSphere/",
+    "source_url": "https://tympanus.net/codrops/2025/03/10/rendering-a-procedural-vortex-inside-a-glass-sphere-with-three-js-and-tsl/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "高识别度的发布主视觉",
+        "goal": "把复杂运动约束在一个清晰的中心物体内"
+      }
+    ],
+    "design_value": "外壳与内部流动相互衬托，体积、折射和中心构图同时成立。",
+    "inspect": "检查球体轮廓、内部旋转深度，以及背景能否保持安静。",
+    "limit": "原作依赖较重的图形能力；适合一个主视觉，不建议整页重复堆叠。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / TSL / 体积效果",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "玻璃球中的体积漩涡",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-webgl-reveal",
+    "number": 18,
+    "title": "滚动中连续显露的 WebGL 图像",
+    "author": "Yuri Artiukh",
+    "demo_url": "https://tympanus.net/Development/RevealingWebGLImages/",
+    "source_url": "https://tympanus.net/Development/RevealingWebGLImages/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "discovery",
+        "placement": "摄影、艺术作品目录",
+        "goal": "让图像显露过程与浏览节奏形成联系"
+      }
+    ],
+    "design_value": "借鉴图像进入视野时的遮罩、变形和内容阅读关系，不把整张卡片淡入当作设计。",
+    "inspect": "在不同滚动速度下观察图像形态、边界和最终稳定状态。",
+    "limit": "图像加载失败必须有替代；变形不应损伤需要审查的作品信息。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "React Three Fiber / WebGL",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "滚动中连续显露的 WebGL 图像",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-persistent-gallery",
+    "number": 19,
+    "title": "滚动显露与跨页连续的作品集",
+    "author": "Chakib Mazouni",
+    "demo_url": "https://pixelimageeffect.pages.dev/",
+    "source_url": "https://tympanus.net/codrops/2026/02/02/building-a-scroll-revealed-webgl-gallery-with-gsap-three-js-astro-and-barba-js/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "从作品总览进入项目详情",
+        "goal": "让跨页导航继承当前图像的视觉关系"
+      }
+    ],
+    "design_value": "把滚动显露、WebGL 画面和路由转场组织成同一套体验，不是独立像素遮罩。",
+    "inspect": "选择作品、返回列表，观察图像位置和滚动上下文是否连续。",
+    "limit": "导航机制需接入实际路由、返回行为与资源清理；原作不是通用组件包。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Astro / Barba.js / Three.js / GSAP",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "滚动显露与跨页连续的作品集",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-webgpu-route",
+    "number": 20,
+    "title": "保持画布连续的 WebGPU 跨页转场",
+    "author": "Ben Paine",
+    "demo_url": "https://page-transitions-with-webgpu-vanilla-js.crnacura.workers.dev/",
+    "source_url": "https://tympanus.net/codrops/2026/06/30/building-persistent-page-transitions-with-webgpu-and-vanilla-javascript/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "视觉导向网站的页面切换",
+        "goal": "在路由切换时保留连续的图形场景"
+      }
+    ],
+    "design_value": "重点是跨页持续存在的画布与页面内容交接，不把页面切换拆成互不相关的动画。",
+    "inspect": "在多次往返与中途再次点击时观察转场状态是否收敛。",
+    "limit": "需独立验证历史记录、取消、加载失败和 WebGPU 降级。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "WebGPU / Vanilla JavaScript / 路由衔接",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "保持画布连续的 WebGPU 跨页转场",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-grid-full",
+    "number": 21,
+    "title": "网格图像到完整案例的形态接续",
+    "author": "Gwen Bogaert",
+    "demo_url": "https://tympanus.net/Tutorials/GridToFullPreview/",
+    "source_url": "https://tympanus.net/Tutorials/GridToFullPreview/",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "detail",
+        "placement": "产品目录中的原位放大预览",
+        "goal": "在保留系列产品关系的同时查看单个对象细节"
+      },
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "图像网格到作品预览",
+        "goal": "由原位置建立下一层的视觉锚点"
+      }
+    ],
+    "design_value": "原位图像与周边网格共同退让，建立明确的前后层级，而不是普通弹窗。",
+    "inspect": "关注展开起点、剩余作品的退出方向和关闭后的回位。",
+    "limit": "此条以图像进入案例的整体转场为参考，不等同于通用布局组件；实际接入需验证焦点与返回位置。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / Grid-to-detail",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "网格图像到完整案例的形态接续",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-editorial-layout",
+    "number": 22,
+    "title": "随阅读推进重组的编辑版式",
+    "author": "Manoela Ilic",
+    "demo_url": "https://tympanus.net/Development/ScrollBasedLayoutAnimations/",
+    "source_url": "https://tympanus.net/Development/ScrollBasedLayoutAnimations/",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "长专题的图文段落交接",
+        "goal": "让页面版式本身成为叙事节奏的一部分"
+      }
+    ],
+    "design_value": "不同图片组和文字关系随滚动重组，适合学习留白、密度变化和章节分界。",
+    "inspect": "比较各阶段的主次内容、图片比例和停留长度。",
+    "limit": "需要完整内容才能调节节奏；不要让核心文字只在短暂动画区间出现。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / Scroll-based layout",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "随阅读推进重组的编辑版式",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-thumbnail-flow",
+    "number": 23,
+    "title": "缩略卡组沿弧线流向主画面",
+    "author": "Iqbal Muthahhary",
+    "demo_url": "https://tympanus.net/Tutorials/MotionPathTransition/index3.html",
+    "source_url": "https://tympanus.net/codrops/2026/06/04/creating-a-thumbnail-flow-animation-with-gsap-motionpath/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "sequence",
+        "placement": "从叠放图像进入一组精选作品",
+        "goal": "让卡组、图带和主图之间有明确连续关系"
+      }
+    ],
+    "design_value": "弯曲轨迹与错峰次序组织整体动势，强调图像集合在不同布局之间的连续迁移。",
+    "inspect": "观察各卡片的相对间隔、转向和主图建立焦点的时间。",
+    "limit": "作者明确这是动作研究，画廊功能不完整；不得当成已经完成的生产轮播。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / MotionPath",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "缩略卡组沿弧线流向主画面",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-elastic-editorial",
+    "number": 24,
+    "title": "带延迟弹性的图像网格编排",
+    "author": "Manoela Ilic",
+    "demo_url": "https://tympanus.net/Tutorials/ElasticGridScroll/",
+    "source_url": "https://tympanus.net/codrops/2025/06/03/elastic-grid-scroll-creating-lag-based-layout-animations-with-gsap-scrollsmoother/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "overview",
+        "placement": "节奏鲜明的视觉作品集",
+        "goal": "通过有控制的滞后让网格具有整体弹性"
+      }
+    ],
+    "design_value": "作品的相互关系与不同滞后量形成弹性结构，不是普通列表逐项浮动。",
+    "inspect": "快速滚动后停住，观察各行怎样回到清晰有序的位置。",
+    "limit": "图片内容必须保持可识别；高频生产列表不适合这种持续跟随。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / ScrollSmoother / Lag",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "带延迟弹性的图像网格编排",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-cluster",
+    "number": 25,
+    "title": "可探索的三维簇状物体",
+    "author": "Francesco Michelini",
+    "demo_url": "https://tympanus.net/Tutorials/3DCluster/",
+    "source_url": "https://tympanus.net/Tutorials/3DCluster/",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "强调聚合或模块关系的交互主视觉",
+        "goal": "通过一个聚合体表现复杂部分如何形成整体"
+      }
+    ],
+    "design_value": "三维簇状结构提供体积、遮挡与局部响应，适合研究整体结构而不是复制常见图标。",
+    "inspect": "观察局部操作对整体秩序的影响，以及旋转时的遮挡层次。",
+    "limit": "不是信息图或数据事实的替代；低性能设备应降级展示。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Three.js / TSL",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "可探索的三维簇状物体",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-layer-cut",
+    "number": 26,
+    "title": "分层图像的几何剪裁转场",
+    "author": "Manoela Ilic",
+    "demo_url": "https://tympanus.net/Development/LayersAnimation/",
+    "source_url": "https://tympanus.net/Development/LayersAnimation/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "sequence",
+        "placement": "摄影系列或视觉方案切换",
+        "goal": "让整幅画面以有序层次进入和退出"
+      }
+    ],
+    "design_value": "借鉴多层图像的空间关系、遮罩方向与时间差；六个示例作为同一组研究，不重复计数。",
+    "inspect": "选择不同版本，比较层与层的时间关系，而不是只看遮罩形状。",
+    "limit": "原作各版本不是六个独立收录项；需检查图像内容不被无意义裁掉。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "Clip-path / 分层编排",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "分层图像的几何剪裁转场",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-rounded-menu",
+    "number": 27,
+    "title": "圆角导航与背景揭幕的联动",
+    "author": "Codrops / Manoela Ilic",
+    "demo_url": "https://tympanus.net/Development/ExpandingRoundedMenu/",
+    "source_url": "https://github.com/codrops/ExpandingRoundedMenu/",
+    "uses": [
+      {
+        "scene": "workspace",
+        "task": "navigation",
+        "placement": "品牌型应用或内容站主导航",
+        "goal": "让导航展开成为空间切换而非盖一块面板"
+      },
+      {
+        "scene": "brand",
+        "task": "entrance",
+        "placement": "编辑型品牌入口",
+        "goal": "以导航动作揭示品牌画面"
+      }
+    ],
+    "design_value": "菜单容器扩张与背景反向揭示共同构成转场，重点是两者的协调。",
+    "inspect": "观察菜单开始与结束时的背景关系、焦点位置和退出路径。",
+    "limit": "这是导航转场研究，不是普通菜单收录；生产需补齐键盘焦点与实际链接。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / CSS / 圆角空间过渡",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "圆角导航与背景揭幕的联动",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-inline-menu",
+    "number": 28,
+    "title": "正文词语迁移成图像导航",
+    "author": "Manoela Ilic；概念参考 Matthew Hall",
+    "demo_url": "https://tympanus.net/Development/InlineToMenuLink/",
+    "source_url": "https://tympanus.net/codrops/2021/06/23/inline-to-menu-link-animation/",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "词语导向的专题索引",
+        "goal": "从阅读正文自然切换到一个相关图像集合"
+      },
+      {
+        "scene": "portfolio",
+        "task": "discovery",
+        "placement": "文本作品目录",
+        "goal": "由描述词进入视觉作品"
+      }
+    ],
+    "design_value": "被点中的词语保留身份并进入菜单结构，其他文字有方向地退出。",
+    "inspect": "点击正文链接，检查词语迁移与图像进入是否构成同一个动作。",
+    "limit": "需要为中文换行与词组边界重做；本条不是普通链接悬停图片。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / 排版重组",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "正文词语迁移成图像导航",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-tooltip-gallery",
+    "number": 29,
+    "title": "小预览到画廊再到全屏的连续过渡",
+    "author": "Manoela Ilic",
+    "demo_url": "https://tympanus.net/Development/TooltipTransition/",
+    "source_url": "https://tympanus.net/codrops/2022/12/07/tooltip-to-gallery-page-transition/",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "文字目录的渐进式作品查看",
+        "goal": "在不突然切换上下文的前提下逐层放大信息"
+      }
+    ],
+    "design_value": "同一张缩略图依次承担提示、画廊主图和全屏图的角色，边线也参与迁移。",
+    "inspect": "连续完成悬停、点击、再次放大，观察图像身份与导航位置。",
+    "limit": "作者明确画廊导航未完整实现；价值在三层过渡，不是通用 tooltip 功能。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP Flip / 共享元素",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "小预览到画廊再到全屏的连续过渡",
+    "local_implementation_kind": "adapted_author_source"
+  },
+  {
+    "id": "curated-grid-flow-nav",
+    "number": 30,
+    "title": "图像网格流动构成导航节奏",
+    "author": "Manoela Ilic",
+    "demo_url": "https://tympanus.net/Development/GridFlowEffect/",
+    "source_url": "https://tympanus.net/codrops/2023/07/27/grid-flow-animation/",
+    "uses": [
+      {
+        "scene": "workspace",
+        "task": "navigation",
+        "placement": "视觉栏目或作品频道入口",
+        "goal": "把导航选择与新一组图像的到来组织成整体"
+      }
+    ],
+    "design_value": "导航、图像网格与载入编排共同构成节奏，不是普通网格显示。",
+    "inspect": "观察频道切换时图像的进入方向、密度和最终落位。",
+    "limit": "不应让用户为高频功能等待完整演出；必须有可取消或缩短的路径。",
+    "preview_behavior": "悬停播放同实现片段，详情可打开本地交互；不依赖源站在线加载。",
+    "tech": "GSAP / Grid navigation",
+    "status": "local_ready_for_review",
+    "user_approval": null,
+    "production_selection": null,
+    "source_evidence": "来源、作者和上游提交见本地provenance.json；用途与借鉴判断为策展分析。",
+    "visual_evidence": "已取得同一本地实现的真实封面和动效片段；不宣称原作逐像素一致。",
+    "rights": "保留代码许可与必要署名；演示图像、模型和品牌仅作为参考，生产需分别核实或替换；不分发字体。",
+    "original_title": "图像网格流动构成导航节奏",
+    "local_implementation_kind": "adapted_author_source"
+  }
+]

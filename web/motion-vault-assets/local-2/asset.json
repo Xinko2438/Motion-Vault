@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "2",
+  "directory": "local-2",
+  "title": "骨架屏环境呼吸脉冲",
+  "version": "1869e8639501b44e",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "2424f5fc69d0e4f670e01cf772e1db72e44b6cee2229b3daca87a89f3dd3ed55",
+    "demo.mjs": "d17c99fa2164b2a4f83a8719ec6f58f6807618445fce1fffd06670e160d153fa",
+    "index.html": "2e6e61c99d3b29d9e80729c099d32754cb87971c10bc06e8c9110103d30ad465",
+    "DESIGN.md": "59d0edb86b617047b0457a3851344d5b2fba52f5ea8f5965e589393bf946efd1",
+    "IMPLEMENTATION.md": "4a5ae6184c8a26795f06c160902e3caa061272f5f3a4c29b3658a448a3a0d547",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "a83bac7d60618c2d8d236e0cd0c610727e1ad941a6e7e268df7ee50a78fd0cf0",
+    "source-map.json": "ef2ba83eddf003334829ee0f1ffc0dca434dec45a30b9a884001e29c86c8c380"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "1869e8639501b44e",
+    "captured": true,
+    "posterSha256": "a7d5740e43f339ea56fa75689d22b3af104bcffd22a3029622d2b9d3cbe53cd6",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:48.544Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

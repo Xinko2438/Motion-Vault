@@ -1,0 +1,32 @@
+[
+  {
+    "path": "source/src/main.ts",
+    "role": "original_source",
+    "sha256": "745a754fd066693da1e6fe16a3291518ab1e9477e79cfe019e2a6bbb0473424e"
+  },
+  {
+    "path": "adapter/src/main.ts",
+    "role": "local_adapter",
+    "sha256": "efef646d4b668404c73ae53ffe0955e36137cdccf31a17ddefbefabe3cc329b9"
+  },
+  {
+    "path": "source/src/lib/noise/cnoise.glsl",
+    "role": "original_source",
+    "sha256": "f181b44576287a9693a9fa17b27d2b5f689d1f814766fb7ac4783b0c5408f031"
+  },
+  {
+    "path": "source/src/lib/noise/snoise.glsl",
+    "role": "original_source",
+    "sha256": "9519962e7f8f733b16659e561529adc829226c515eba8f274d19c512cb13ede5"
+  },
+  {
+    "path": "source/src/vite-env.d.ts",
+    "role": "original_source",
+    "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  {
+    "path": "source/vite.config.ts",
+    "role": "original_source",
+    "sha256": "9f80b3f13d937ede8679f5621463f61460dc9ffceed9e270a08361fd7c3d0f82"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "brand",
+    "label": "品牌首页与发布",
+    "question": "怎样建立第一眼的品牌气质？",
+    "tasks": {
+      "hero": "首屏主视觉",
+      "identity": "动态标识与标题",
+      "atmosphere": "背景材质与氛围",
+      "entrance": "开场与揭幕"
+    }
+  },
+  {
+    "id": "product",
+    "label": "产品展示与讲解",
+    "question": "怎样让产品特点更容易被理解？",
+    "tasks": {
+      "showroom": "产品陈列与选型",
+      "detail": "材质与局部细节",
+      "feature": "功能原理与卖点",
+      "configuration": "参数调节与配置"
+    }
+  },
+  {
+    "id": "portfolio",
+    "label": "作品集与案例",
+    "question": "怎样浏览作品并顺畅进入案例？",
+    "tasks": {
+      "overview": "作品总览与空间排列",
+      "discovery": "图片探索与预览",
+      "handoff": "缩略图到案例的衔接",
+      "sequence": "系列作品连续浏览"
+    }
+  },
+  {
+    "id": "editorial",
+    "label": "阅读与内容叙事",
+    "question": "怎样让文字、图像和数据共同讲述？",
+    "tasks": {
+      "chapter": "章节推进与阅读定位",
+      "typesetting": "标题与图文编排",
+      "data": "数据解释与对比",
+      "media": "音视频与连续阅读"
+    }
+  },
+  {
+    "id": "workspace",
+    "label": "应用与创作工作台",
+    "question": "怎样让高频操作既清楚又有质感？",
+    "tasks": {
+      "navigation": "全局导航与空间切换",
+      "context": "上下文工具与辅助操作",
+      "panels": "面板层级与工作区",
+      "precision": "精细编辑与直接操控"
+    }
+  },
+  {
+    "id": "journey",
+    "label": "关键流程与反馈",
+    "question": "怎样清楚表达等待、变化与完成？",
+    "tasks": {
+      "onboarding": "分步引导与连续任务",
+      "waiting": "加载与等待",
+      "status": "状态确认与通知",
+      "recovery": "错误解释与可逆操作"
+    }
+  }
+]

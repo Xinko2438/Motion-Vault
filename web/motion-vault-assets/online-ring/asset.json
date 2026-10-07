@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-ring",
+  "directory": "online-ring",
+  "title": "三维环形画廊",
+  "version": "71167da9e1e51c46",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "eeab319a01b7ac32a72cc881f0002eabaaa3d2886c369d4cca55542d0f73c614",
+    "demo.mjs": "3f13d0b643496eddbc570ca8912cc236c981d4307e62f9de56e89f5460da4986",
+    "index.html": "41947f3fb6e964545879a8425c6b86c5a1bf7a2c3bc2980e2bf239fce7fbd4a8",
+    "DESIGN.md": "afe62cd6500ec6888b74128237b62c1a7c62276959c78f675385775a2da3bba8",
+    "IMPLEMENTATION.md": "4ad7549dfaf1310e4dc4364d26b42297732c00f985e095caecdeb85e9e6f0593",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "510a72c6aee7073148f2b041e60d3e5de167e768f6c813d8224b2033260709ae",
+    "source-map.json": "c068de508800d30578f2cca56ed182bc57c7b8b38fe169702b447abd5bf7ae84"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "71167da9e1e51c46",
+    "captured": true,
+    "posterSha256": "b81acf9d3d1e1e50aac3f4c0cfc8432721efcc76a12feaa3c837b2713e68ff08",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:02.180Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

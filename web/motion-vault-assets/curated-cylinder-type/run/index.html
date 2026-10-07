@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>3D Text Animation on Scroll | Cylinder | Codrops</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Codrops" />
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    
+  <link rel="icon" type="image/svg+xml" href="./reference-icon.svg"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' data: blob:; worker-src 'self' blob:; font-src 'none'; base-uri 'self'; form-action 'none'"><meta name="referrer" content="no-referrer"><style>html{font-family:Arial,sans-serif}.frame__back,.frame__archive,.frame__github,.frame__tags,.frame__prev,.cdawrap,.credits{display:none!important}body{margin:0}.frame{position:absolute;z-index:2}button,a{-webkit-tap-highlight-color:transparent}img{-webkit-user-drag:none}.vault-source-status{position:fixed;bottom:8px;left:10px;font:10px Arial;z-index:999;pointer-events:none;opacity:.5}*{--font-primary:Arial,sans-serif}</style><link rel="stylesheet" href="./effect.css"></head>
+
+  <body class="demo-1">
+    <main id="smooth-wrapper">
+      <header class="frame">
+        <h1 class="frame__title">3D Text Animation on Scroll</h1>
+        <a class="frame__back" href="https://tympanus.net/codrops/?p=102598">Article</a>
+        <a class="frame__archive" href="https://tympanus.net/codrops/hub/">All demos</a>
+        <a class="frame__github" href="https://github.com/davidfaure/3d-text-animation-codrops/">GitHub</a>
+        <nav class="frame__tags">
+          <a href="https://tympanus.net/codrops/demos/?tag=scroll">#scroll</a>
+          <a href="https://tympanus.net/codrops/demos/?tag=3d">#3D</a>
+          <a href="https://tympanus.net/codrops/demos/?tag=gsap">#gsap</a>
+        </nav>
+        <nav class="frame__demos">
+          <span class="active">Demo 1</span>
+          <a href="./index2.html">Demo 2</a>
+          <a href="./index3.html">Demo 3</a>
+        </nav>
+      </header>
+      <div id="smooth-content" class="content">
+        <section class="section">
+          <h1>
+            Cylinder Text
+            <br />
+            Scroll Animation
+          </h1>
+          <p>Scroll down</p>
+        </section>
+        <section class="cylinder__wrapper">
+          <p class="cylinder__title">Keep scrolling to see the animation</p>
+          <ul class="cylinder__text__wrapper">
+            <li class="cylinder__text__item">Vinny Blaze</li>
+            <li class="cylinder__text__item">Lola Vance</li>
+            <li class="cylinder__text__item">Rex Delgado</li>
+            <li class="cylinder__text__item">Ruby Knox</li>
+            <li class="cylinder__text__item">Mickey Torque</li>
+            <li class="cylinder__text__item">Joey Marlowe</li>
+            <li class="cylinder__text__item">Scarlet Dune</li>
+            <li class="cylinder__text__item">Bobby Vega</li>
+            <li class="cylinder__text__item">Cass Nova</li>
+            <li class="cylinder__text__item">Lance Fury</li>
+            <li class="cylinder__text__item">Frankie Valence</li>
+            <li class="cylinder__text__item">Nina Rocco</li>
+          </ul>
+        </section>
+        <section class="section">
+          <a href="./index2.html"><h1>Next Effect: Double Circular</h1></a>
+        </section>
+      </div>
+    </main>
+    
+  <script data-vault-isolation src="./vault-isolation.js"></script><script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');window.sourceErrors=[];addEventListener('error',e=>sourceErrors.push(e.message));addEventListener('unhandledrejection',e=>sourceErrors.push(String(e.reason)));window.SourceDemo={ready:false,scroll:(p)=>{const s=window.ScrollSmoother?.get();const y=p*Math.max(0,document.documentElement.scrollHeight-innerHeight);if(s)s.scrollTo(y,false);else scrollTo(0,y);window.ScrollTrigger?.update();},stop:()=>window.gsap?.globalTimeline.pause(),resume:()=>window.gsap?.globalTimeline.resume()};addEventListener('load',()=>{setTimeout(()=>{window.ScrollTrigger?.refresh();SourceDemo.ready=true;},400)});</script><script src="./effect.js"></script></body>
+</html>

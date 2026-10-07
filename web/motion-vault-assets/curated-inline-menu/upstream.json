@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/codrops/InlineToMenuLink",
+  "commit": "0e047cefafbe240234c878544122986cc3dcb95a",
+  "archiveSha256": "75a54889c7e3e9fd922066963513b37c50339eed7e6e3d5e8c1595faf8259311",
+  "capturedAt": "2026-10-06T04:12:19.269Z",
+  "fontFilesExcluded": true,
+  "networkUse": "Source capture only. Runtime external requests must be removed and tested separately.",
+  "status": "source_pinned_not_yet_adapted"
+}

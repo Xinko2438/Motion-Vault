@@ -1,0 +1,96 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-glass-torus",
+  "title": "玻璃圆环与折射字带",
+  "kind": "independent_code",
+  "status": "local_source_verified",
+  "version": "34d07324a3894dd3",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "local_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "da058a09f7cf1a07f06cd8b466062795ad90215b4d49234040a6ff505f8f493d",
+    "videoSha256": "9f93b731e085862259844b7c9827634f2f1041ace8db7c532288e56e12236dae",
+    "videoBytes": 206784,
+    "implementationVersion": "34d07324a3894dd3",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-refinements-20261006-one",
+      "at": "2026-10-06T16:39:50.257Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 6.3887,
+      "frameCount": 386,
+      "visualChanges": 312,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 143,
+        "contentFPS": 59.583333333333336,
+        "longestHoldSeconds": 0.03326699999999999
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "44f354f42c12e2247ba0eebfa0bed6b953a0a8b2d9009709253c2763c09d2cb5",
+    "IMPLEMENTATION.md": "40e24eba18665bf7170074ec98576d20d25de9a1d4b1b8d49c82e082162fb940",
+    "THREE-LICENSE.txt": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "environment-license.json": "15f3c1d9044d08ff433dfed7c5b31037f18e5b5d2e2084d3acc0ff2f616ca9dd",
+    "parameters.json": "aa228080520497af7ece66c52cc78ea763649ab87117be9437b107c8bc649959",
+    "provenance.json": "d82aad4cfab18ce2e6dc5d117ac9a4a14ba516aa14a1035c5ea89c991f56729f",
+    "run/effect.js": "37228ceabdd6f7e063ffdc36d102b6bc951decee9b029a7656c52c2ffbd6bc8c",
+    "run/environment.hdr": "30933d55e45f0795daf49f3cbefbe0e5ebcb821ee04fb0a2818c02ffc3938817",
+    "run/index.html": "70bd99a0c26f8f7fc5f2281926f807011e6d93ca4c3cf731850f009cc67c33ac",
+    "run/style.css": "d41d1fd56696d7ccbe83a8c110ce701269f25ae10fb7335265c166a868226648",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "577014aa1e05e92d4c7441b0f0cc928ca81131f00cb9c7209f3c058f554bd856",
+    "source/scene.js": "fb6c15a79880b7243942f0b1dc5b9e5fc24b3cde07234073ae9c12a76dffb559",
+    "source/study.json": "b54ed0f27c4469cc3b452e95a5acbf7301be31471cfb16e51dd5ddad264f5ef5"
+  },
+  "verification": {
+    "at": "2026-10-06T16:39:50.257Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_move_cycle",
+        "durationMs": 6502,
+        "steps": 370,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          260,
+          145
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 313,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "34d07324a3894dd3",
+    "standaloneBehaviorChanged": false
+  }
+}

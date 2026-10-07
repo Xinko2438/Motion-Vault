@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 37,
+    "endLine": 37,
+    "code": " case'radial':html=`<div class=\"center\"><span class=\"eyebrow\">围绕当前任务</span><div class=\"radial-menu\" data-open=\"${mini?'true':'false'}\">${['笔记','标记','片段','链接','工具'].map((t,i)=>{const a=(190+i*40)*Math.PI/180;return`<button class=\"radial-item\" aria-label=\"${t}\" style=\"--i:${i};--x:${Math.cos(a)*102}px;--y:${Math.sin(a)*102}px\" ${mini?'':'inert'}>${icon(['note','spark','play','link','sliders'][i])}<span>${t}</span></button>`;}).join('')}<button class=\"radial-main\" data-action=\"toggle\" aria-label=\"展开快捷菜单\" aria-expanded=\"${mini?'true':'false'}\">＋</button></div><p data-role=\"result\" class=\"demo-status\">展开后选择一个操作</p></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 124,
+    "endLine": 133,
+    "code": " if(key==='radial'){\n  const menu=q('.radial-menu'),main=q('.radial-main'),buttons=all('.radial-item');let open=false;\n  function set(next){open=next;menu.dataset.open=String(open);main.setAttribute('aria-expanded',String(open));main.setAttribute('aria-label',open?'收拢快捷菜单':'展开快捷菜单');buttons.forEach(b=>b.inert=!open);root.dataset.open=String(open);}\n  root.__openRadial=()=>set(true);on(menu,'pointerenter',e=>{if(e.pointerType==='mouse')set(true)});on(menu,'pointerleave',()=>set(false));on(main,'focus',()=>set(true));on(main,'click',()=>set(!open));buttons.forEach((b,i)=>{on(b,'click',()=>{q('[data-role=result]').textContent='已选择“'+b.getAttribute('aria-label')+'”，仅演示';set(false);main.focus();});on(b,'keydown',e=>{if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();buttons[(i+(e.key==='ArrowRight'?1:-1)+5)%5].focus();}});});on(root,'keydown',e=>{if(e.key==='Escape'&&open){e.preventDefault();e.stopPropagation();set(false);main.focus();}else if(e.target===main&&e.key==='ArrowUp'){e.preventDefault();set(true);buttons[2].focus();}});set(false);\n }\n if(key==='draw'){\n  const trace=q('.trace'),input=q('input'),play=q('[data-action=play]');let progress=0,raf=0,last=0,playing=false;\n  function draw(){trace.style.strokeDashoffset=String(1-progress/100);input.value=String(progress);q('output').textContent=Math.round(progress)+'%';root.dataset.progress=progress.toFixed(2);}\n  function pause(){playing=false;L.cancel(raf);raf=0;last=0;play.textContent='播放绘制';}\n  function tick(t){let dt=t-last||0;last=t;progress=clamp(progress+dt/26,0,100);draw();if(progress<100&&playing&&!document.hidden)raf=L.frame(tick);else pause();}",
+    "role": "authoritative_editable_source"
+  }
+]

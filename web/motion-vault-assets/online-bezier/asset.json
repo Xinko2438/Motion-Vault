@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-bezier",
+  "directory": "online-bezier",
+  "title": "贝塞尔控制柄编辑",
+  "version": "7d7ca6f4c4ee6e5e",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "825cfbe18e0087b11c1646cb9100bcc0035ef636cb10173e714d1724d580a67c",
+    "demo.mjs": "179cfe4cd23f66c511a540c14e44c4a493e120a402db2c000393060e5de10cde",
+    "index.html": "2873f6c097c2c1e5968a750e04b47e11d2eac8eec4bdaad69be868ab4ba2da9a",
+    "DESIGN.md": "0f4737e1ebf6f6e90b49283c9aa676f85a6327c841c43ff8461a9741877953ae",
+    "IMPLEMENTATION.md": "c34d58d090b40d50763d7bcd45a4118c6bf01762e41719ed4970f8aec2cdd4ce",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "5329c3774384cf5c5788005e3db054a3fe27a04ad88a2477b118253775ac0726",
+    "source-map.json": "2d35761212391f19b037360695c9a9fcacdd0b3d767613ae82ab6ea3e09c9088"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "7d7ca6f4c4ee6e5e",
+    "captured": true,
+    "posterSha256": "50b37a55323ec3f30f2f5f0bf3d7d4673ea2f129a0f8faf42a894bf56e6f148c",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:10.513Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

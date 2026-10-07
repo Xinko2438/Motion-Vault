@@ -1,0 +1,13 @@
+{
+  "id": "curated-cluster",
+  "repository": "https://github.com/kekkorider/codrops-tutorial-dark-cluster",
+  "commit": "f39816bd6c82884c706a0bd82ca6ebade4ec367a",
+  "archiveSha256": "a817eea1e06ec3d6933cddc88efbc401632e5136ace5eebbbd2f3cbe41a7edca",
+  "capturedAt": "2026-10-06T10:00:25.448Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 12,
+  "bytes": 143992
+}

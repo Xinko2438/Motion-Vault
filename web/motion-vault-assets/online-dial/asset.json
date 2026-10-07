@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-dial",
+  "directory": "online-dial",
+  "title": "旋钮刻度吸附",
+  "version": "2a1e46f72d641ca4",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "9a605d91700ba22c026b9bec8c832e0ba04c52864f86271ab038999868d98aa0",
+    "demo.mjs": "82c3eae037e7b80d7b968c3d9afdbe480140786c51059e65b13295402331855d",
+    "index.html": "5d84af9259160aa8d954a09866c6a36d27814e65c823c312564cb1dcf636aae3",
+    "DESIGN.md": "ce8c108af04e8fc1383403b505e0312c738584fefd3d1f338fe351dd36bb4bf0",
+    "IMPLEMENTATION.md": "898fb3c6b35ca4a2b2ab3ebaf1b556ec4d9abef4d0bd953e3f169d719f39b095",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "4e32249e5c1dc45b0fe2018c0738106f53d2205bbb4faaa2f3bf4410df368f4a",
+    "source-map.json": "5673976ee4fbdff74edbe6a72ed3ba7bfaa9f6e68038a70818a0b031e5355cbf"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "2a1e46f72d641ca4",
+    "captured": true,
+    "posterSha256": "e6f2f673807aba91be0b87bb7adc14abe33de7680a5de0f3967a8f9e0d227334",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:05.347Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

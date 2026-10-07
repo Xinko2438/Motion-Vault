@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/formal-items.json",
+    "startLine": null,
+    "endLine": null,
+    "code": "<div class=\"shimmer-text\">LIGHT SHIMMER</div>",
+    "kind": "inline CSS/HTML source"
+  }
+]

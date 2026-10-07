@@ -1,0 +1,22 @@
+[
+  {
+    "path": "source/js/lenis.min.js",
+    "role": "original_source",
+    "sha256": "803334a7588211245a127660d3e381645408e23744c65f73255f17cda0b6b97a"
+  },
+  {
+    "path": "source/js/imagesloaded.pkgd.min.js",
+    "role": "original_source",
+    "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027"
+  },
+  {
+    "path": "source/js/index.js",
+    "role": "original_source",
+    "sha256": "2f82bff5244225239a1e029b965d3dcd829903899adbf151cf48d63ca4604f6e"
+  },
+  {
+    "path": "source/js/utils.js",
+    "role": "original_source",
+    "sha256": "ee46fcca19c51ec2bca0024acfa794311b3411b5a6ba605dde8fb5a20706618e"
+  }
+]

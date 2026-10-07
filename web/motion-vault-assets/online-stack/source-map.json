@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 204,
+    "endLine": 204,
+    "code": " case'stack':label='一次一张 / 保留上下文';figure=`<div class=\"x-stack\">${[0,1,2,3].map(i=>`<div class=\"x-stack-card\" style=\"z-index:${4-i}\">${art(i+1)}<div><span>${['空间练习','形态收集','光的层次','安静片刻'][i]}</span><small>0${i+1}</small></div></div>`).join('')}</div>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

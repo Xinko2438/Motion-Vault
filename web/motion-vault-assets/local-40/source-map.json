@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/legacy-engine.js",
+    "startLine": 68,
+    "endLine": 77,
+    "code": " }else if(id===40){\r\n  setScene('<div class=\"lab-space\" tabindex=\"0\" aria-label=\"移动鼠标查看三层视差\"><div class=\"lab-space-layer\">近景</div><div class=\"lab-space-layer\">中景</div><div class=\"lab-space-layer\">远景</div></div><div class=\"lab-space-controls\"><label>水平<input type=\"range\" min=\"-100\" max=\"100\" value=\"0\" aria-label=\"水平视差\"></label><label>垂直<input type=\"range\" min=\"-100\" max=\"100\" value=\"0\" aria-label=\"垂直视差\"></label></div>');const space=q('.lab-space');const ranges=scene.querySelectorAll('input');const move=(x,y)=>{scene.querySelectorAll('.lab-space-layer').forEach((el,i)=>{const z=[18,10,5][i];el.style.transform='translate3d('+x*z+'px,'+y*z+'px,0) rotateX('+(-y*5)+'deg) rotateY('+(x*6)+'deg)'})};space.addEventListener('pointermove',e=>{const r=space.getBoundingClientRect();move(Math.max(-1,Math.min(1,(e.clientX-r.left)/Math.max(1,r.width)*2-1)),Math.max(-1,Math.min(1,(e.clientY-r.top)/Math.max(1,r.height)*2-1)))});space.addEventListener('pointerleave',()=>move(0,0));ranges.forEach(input=>input.addEventListener('input',()=>move(Number(ranges[0].value)/100,Number(ranges[1].value)/100)));move(0,0);\r\n }\r\n if(!detail){root.setAttribute('aria-hidden','true');root.querySelectorAll('button,input,[tabindex]').forEach(el=>el.tabIndex=-1)}\r\n return root;\r\n}\r\n\r\n\nwindow.VaultLegacy={make:(it,detail)=>{if(LIVE_DEMOS[it.id])return makeLiveDemo(it.id,detail);const el=document.createElement('div');el.className='demo-art';el.innerHTML=it.demo||'';return el;}};})();\n",
+    "role": "authoritative_editable_source"
+  }
+]

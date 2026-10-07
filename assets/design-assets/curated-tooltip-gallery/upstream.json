@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/codrops/TooltipTransition",
+  "commit": "689dfac88af4c81f4ba11d62cacc25d268c5d789",
+  "archiveSha256": "b8c962b2bd2d335da11d2971289dbbb2d81c2141adb94c75f01552f283bd64ce",
+  "capturedAt": "2026-10-06T04:12:20.381Z",
+  "fontFilesExcluded": true,
+  "networkUse": "Source capture only. Runtime external requests must be removed and tested separately.",
+  "status": "source_pinned_not_yet_adapted"
+}

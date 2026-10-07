@@ -1,0 +1,19 @@
+{
+  "direct": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "@gsap/react": "2.1.0",
+    "@react-three/drei": "9.96.4",
+    "@react-three/fiber": "8.15.15",
+    "@studio-freight/lenis": "1.0.34",
+    "leva": "0.9.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "usehooks-ts": "2.10.0",
+    "three": "0.160.1"
+  },
+  "lockSha256": "a2b2ac130cb5f98b801751e444dc6412fb88913f3946ce5aa690065e4a16444e",
+  "lifecycleScriptsExecuted": false
+}

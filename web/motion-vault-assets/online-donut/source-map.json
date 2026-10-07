@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 290,
+    "endLine": 290,
+    "code": " case'donut':h=eSvg(`${Array.from({length:4},(_,i)=>`<path class=\"e-donut-sector\" fill=\"${['#5a7e89','#93aeb0','#d3b38e','#a5b696'][i]}\"/>`).join('')}<text class=\"e-donut-total\" x=\"224\" y=\"183\" text-anchor=\"middle\">100%</text>${[[0,'研究',40],[1,'设计',28],[2,'验证',20],[3,'归档',12]].map(([i,l,n])=>`<rect x=\"386\" y=\"${94+i*43}\" width=\"8\" height=\"8\" rx=\"2\" fill=\"${['#5a7e89','#93aeb0','#d3b38e','#a5b696'][i]}\"/><text x=\"405\" y=\"${102+i*43}\" class=\"e-small\">${l} ${n}%</text>`).join('')}${eText('PROPORTION / 演示数据',39,37,'e-eyebrow')}`);break;",
+    "role": "authoritative_editable_source"
+  }
+]

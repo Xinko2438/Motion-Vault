@@ -1,0 +1,57 @@
+[
+  {
+    "path": "source/js/imagesloaded.pkgd.min.js",
+    "role": "original_source",
+    "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027"
+  },
+  {
+    "path": "source/js/lenis.js",
+    "role": "original_source",
+    "sha256": "2793e5cab9c5d518769f13bdbdf35a3512d7ae811d3515e2efd7d3a93e9a1e42"
+  },
+  {
+    "path": "source/js/smoothscroll.js",
+    "role": "original_source",
+    "sha256": "a07b23e22a62d3628bd8a1980aa57fe64343ddb04af8b0fbcff5c7fc4829a4ca"
+  },
+  {
+    "path": "source/js/index.js",
+    "role": "original_source",
+    "sha256": "3bc839501c85664a060c4539df80da5dbcc523be9b0e0d7e98cd90d590223bf4"
+  },
+  {
+    "path": "adapter/css/base.css",
+    "role": "local_adapter",
+    "sha256": "31fdc4e0e8cd49946b5c2103d7ca21334a7cd6c37059958c07a25ce464a9a2a0"
+  },
+  {
+    "path": "source/js/effect-1/expandImageEffect.js",
+    "role": "original_source",
+    "sha256": "704c2fdae166e3467f1f37cca99e3e934e8e70fc837f70504debc20fdc5c8dc2"
+  },
+  {
+    "path": "source/js/effect-2/expandImageEffect.js",
+    "role": "original_source",
+    "sha256": "f2526f3dc5f82e397d1559311d62f843684a9de72611b39945470b325ab9d206"
+  },
+  {
+    "path": "source/js/effect-3/expandImageEffect.js",
+    "role": "original_source",
+    "sha256": "912d4765d7d3234b6601820bb10e07b955bc6e1a38b961ffe854097cba0028c8"
+  },
+  {
+    "path": "source/js/effect-4/expandImageEffect.js",
+    "role": "original_source",
+    "sha256": "aac7d68e893348905e2e46ee05b0f577f051511e07f074b7191cad7d28dbef39"
+  },
+  {
+    "path": "source/js/effect-5/expandImageEffect.js",
+    "role": "original_source",
+    "sha256": "337f640a5a3c39920e0cf6757becb951e44abb282250048c48b479b80ae78a01"
+  },
+  {
+    "path": "source/js/utils.js",
+    "role": "original_source",
+    "sha256": "d4a2c6578523215cdc7db221ef164234134d0c0b2a67ea8b1f32a2a89de5bbae"
+  }
+]

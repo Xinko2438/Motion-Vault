@@ -1,0 +1,111 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-cluster",
+  "title": "可探索的三维簇状物体",
+  "kind": "adapted_author_source",
+  "status": "local_source_verified",
+  "version": "72a34f23d3effd4a",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "a3452ca6135d16e3d3425bdbac5040a43ad8fbf9d2ac4ee302b6f79131d290b5",
+    "videoSha256": "e3fb99c7f2a9d895ad75d821c0a35aa40b99ea779ca171797be73454af4a52ec",
+    "videoBytes": 1820464,
+    "implementationVersion": "72a34f23d3effd4a",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-scenes-c-20261006-one",
+      "at": "2026-10-06T16:56:32.462Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 5.506,
+      "frameCount": 332,
+      "visualChanges": 330,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 144,
+        "contentFPS": 60,
+        "longestHoldSeconds": 0.02096700000000007
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "ac6c6d19c3fd50a910bff0fd3d28fbdfbb8aa000bd74db9f62b6e57d35ca691b",
+    "IMPLEMENTATION.md": "6df290bc6183cd5e05df6d0a26cd658fd9e34f03d7613beb2aa27647ac8fe903",
+    "adapter/src/main.js": "a2bb169faf88f01421dfb4008db4c5598b76d1a069e6a38215eb5fc014adaa32",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "dependencies.json": "22647dcb2c19e91616599936f6fac053c9669db7db5afc0f74081d04680b8910",
+    "dependency-lock.json": "660fc9d7b7119c2ac0aa2481065829e3cabca074cac40f3bd0192661a4b5a976",
+    "parameters.json": "23a948ef0e991da4a41f952fc97d03965456ad7c1f4842cf6b3b2ba731b82e48",
+    "provenance.json": "23a0f80523600da3c572ebd73911dc0b2fbcccc2b8eb3997f7c69a204f6a9210",
+    "run/effect.css": "3d0ce1f56fb6cb1f4b92a0b9d887c1aec710966787b501cd3b29af3083b79093",
+    "run/effect.js": "e5b7e7b84467293ff4c7d7f3d5731ba8e0813ee36cecc0e56d19203482070735",
+    "run/favicon.svg": "ceeac38434be7a3b4d0f68b8cd8aa2b9ae78c260d6343087c6e095f8031ce4ff",
+    "run/index.html": "b496c46122d97f248dc91fb9e4a69d9d3bfa9e0147f25bf101884c82398c19da",
+    "run/reference-icon.svg": "b56c007bad3bd0dc7cda249ea2444f58633792285bde15f883442c34573f77bd",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "run/yellow-18.png": "2760ba8339232cc27eb9600711d128ffb3e3c3876adb3f3370d35569ebbdbff5",
+    "source-map.json": "29ffd4feee94e0ba520a573bfee9a6b3eefcebf8a42126da15275ae2f9f58524",
+    "source/.gitignore": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+    "source/CODROPS-LICENSE.txt": "79cedde9705a0e1c29abf7dc5956db042fcf64481c9916fee88ef839c52abf57",
+    "source/index.html": "366a2917cdc7a0d3657c1c4aa1515fb6b7f10eb890e2f5003468f484a66b2de5",
+    "source/package.json": "8ccff88bb4c47698f569e58fad1b163e4dcb6c595af5ff230b5ccc2a85f50698",
+    "source/pnpm-lock.yaml": "5421846d9267f7ab26a32ccad60f1691cd91b5284fd5693c1d1f480d2e590cc2",
+    "source/public/favicon.svg": "ceeac38434be7a3b4d0f68b8cd8aa2b9ae78c260d6343087c6e095f8031ce4ff",
+    "source/public/yellow-18.png": "2760ba8339232cc27eb9600711d128ffb3e3c3876adb3f3370d35569ebbdbff5",
+    "source/src/behaviors/HoverEffect.js": "05f9cd423efd437039646769cd3e7e50b0d50cc65416de6ffb72896f3cac1082",
+    "source/src/behaviors/Spin.js": "059ff0bb3e1127d665cd72cbcf206362d0da614764afb6e6990a15bf5d5f3f90",
+    "source/src/main.js": "ff27fd077eba0ae7e376c1e3eb69cd1c2c09f544afcc4964977da93aad608155",
+    "source/src/materials/Cluster.js": "ae899c9fd7dfaed4224be9e0e55cbd52f21949eb35ec4dac05d856bf0a30e7b2",
+    "source/src/materials/Inner.js": "a90496b3af7118b76e743676af599b2d724dd36edf0b3ef2e29a7827775f85af",
+    "source/src/style.css": "35eaffe876f61f54e7b836616447cf594397d6e0b3ebfae46892f76a36f2f0c4",
+    "upstream.json": "01adf5765fc7dd7199776409e9e8b356148885c41a527526af97f204fe3e7b24"
+  },
+  "verification": {
+    "at": "2026-10-06T16:56:32.463Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_drag_cycle",
+        "durationMs": 5511,
+        "steps": 330,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          200,
+          110
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 331,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "72a34f23d3effd4a",
+    "standaloneBehaviorChanged": false
+  }
+}

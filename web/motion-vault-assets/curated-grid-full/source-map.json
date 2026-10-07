@@ -1,0 +1,27 @@
+[
+  {
+    "path": "source/src/js/main.js",
+    "role": "original_source",
+    "sha256": "4bc9cbf9800c132ad2512c567204c08fd9d589856772d3108aabaa25dad8aa9b"
+  },
+  {
+    "path": "source/src/js/product-grid.js",
+    "role": "original_source",
+    "sha256": "a9c6a5fe35979713f63eee5a454aa077d1833a8ed7d6c198567c7bea340d3b1a"
+  },
+  {
+    "path": "source/src/js/product-preview.js",
+    "role": "original_source",
+    "sha256": "63a16618069df8c18870f34b28e13beace4657b98c84d2160f04bde6046f220f"
+  },
+  {
+    "path": "source/src/js/utils.js",
+    "role": "original_source",
+    "sha256": "4a550665b1e9c8eed6385f5433579ff7a0e9137d4178dcbe745d38b6194aa0bb"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "216b2617f85faf7628ff689dd1dcdb2d4625212fefdafe7ab4dfc638822a5888"
+  }
+]

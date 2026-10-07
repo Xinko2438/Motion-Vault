@@ -1,0 +1,52 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-blinds",
+  "directory": "online-blinds",
+  "title": "百叶切片逐片翻面",
+  "version": "cd8abfab000bce6a",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "80eb50ce905bee6c15da1f8ebeab47e88494c7608245e5b3b888cd486cea507b",
+    "demo.mjs": "185deec49f0681c7b240252936453bee95c8368b8a6ba301d7705e0de62d0592",
+    "index.html": "a3f873657aa1ce9f753abf56f99c1627418c687f5772e403fe59604fcb96caba",
+    "DESIGN.md": "cc37dffe98c6ffb9d63d9b05e8d88ed5bc91b2c627bbf01d5a24e919897d7338",
+    "IMPLEMENTATION.md": "a184c072df4212ac63fa996acea6113e16e7c1a780a386b6af7b050ac55efb7d",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "99f0ba128d6700627ea7bac3c6e79f5b0a093f6ae0aee7410ee5eecb7950b21a",
+    "source-map.json": "636c967c47cd5247ee178a6885cfa934d9b4345e2cc772c8c244b269f78c6a2a"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "implementationVersion": "cd8abfab000bce6a",
+    "captured": true,
+    "posterSha256": "8d4d06a6ab304dacf925795aea710298060063a3315e05d3d7b33ca4e5611f0d",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:10.997Z",
+    "videoSha256": "218cb59645b60447576ea3d6a67f605c81d201e8a8c64feb61531eb812268ad5",
+    "videoBytes": 116817,
+    "frameCount": 140,
+    "distinctFrames": 106,
+    "durationSeconds": 7,
+    "fps": 20,
+    "captureMethod": "Deterministic local DOM timeline sampled and encoded; not original-site recording"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

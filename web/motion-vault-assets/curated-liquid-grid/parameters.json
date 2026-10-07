@@ -1,0 +1,11 @@
+{
+  "webglRequired": true,
+  "inputs": {
+    "progress": {
+      "min": 0,
+      "max": 1
+    }
+  },
+  "runtime": "Three.js0.182.0",
+  "systemFontsOnly": true
+}

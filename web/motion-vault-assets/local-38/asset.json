@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "38",
+  "directory": "local-38",
+  "title": "流体胶囊弹性拉伸",
+  "version": "255e83f6ee1ca8a1",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "ef0b8616df2cc3fdaa41e822e5a7e696886f745b61f35c73b923673f8f5d1dfa",
+    "demo.mjs": "0047739563990fd12c6aacfbc7d27be14d2613bd87112ff6410e54ed77333108",
+    "index.html": "3145e78e6cc14b2ee2a26c628ca70d8fd568964a421bbcfdec409544c4b9b7b8",
+    "DESIGN.md": "d6610f9e16cc44852d3c502138ee0c7edc93940229a7758645c1e4a54ed6fba4",
+    "IMPLEMENTATION.md": "64a17522ae3ba8530a86fcd5750bf44be1667d8e3ad31b4ff49d3a8b7ade92cf",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "54c31dbcf685face0b2f0afd4e9781568df24b0261a6d848598607086e11822b",
+    "source-map.json": "aba56fcfd2aacc245ebad614fceb431e01ec83f0e836465badaee921441bd4c3"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "255e83f6ee1ca8a1",
+    "captured": true,
+    "posterSha256": "345b0b742698f498c166e647f528092224a84770d85009872cad66e37bd48e21",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:57.119Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

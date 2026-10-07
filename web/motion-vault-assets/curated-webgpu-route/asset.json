@@ -1,0 +1,222 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-webgpu-route",
+  "title": "保持画布连续的 WebGPU 跨页转场",
+  "kind": "adapted_author_source",
+  "status": "local_source_verified",
+  "version": "9b3023082fcdff90",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "captured": true,
+    "kind": "adapted_source_render",
+    "implementationVersion": "9b3023082fcdff90",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "dab2cf8226732d10fd22848621896bc933271e34c67e4b4fb37ab27274997e68",
+    "videoSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+    "videoBytes": 574727,
+    "captureMethod": "Original native browser AV1 MP4 recording delivered byte-for-byte; initialization metadata precedes media fragments, and all recorded timestamps are preserved.",
+    "capture": {
+      "runId": "native-journeys-20261006-one",
+      "at": "2026-10-06T16:44:55.708Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "av1",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 5.8333,
+      "frameCount": 352,
+      "visualChanges": 244,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 115,
+        "contentFPS": 47.91666666666667,
+        "longestHoldSeconds": 0.1830670000000003
+      },
+      "encoding": {
+        "codec": "av1",
+        "method": "native_exact_bytes",
+        "profile": "Main",
+        "pixelFormat": "yuv420p",
+        "colorRange": "pc",
+        "timing": "original_vfr"
+      },
+      "nativeDirect": {
+        "runId": "native-direct-compat-20261006-one",
+        "receipt": "lineage/current/preview-playback/native-direct-compat-20261006-one.json",
+        "nativeSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+        "originalCaptureSha256": "2f5bd2aa631e0fece19f3648bdbb4f06ab74ebb853f439343780af76da1bb30d",
+        "allNativeFramesPreserved": true,
+        "originalPTSPreserved": true
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "9c962562d6ef56bf28f706cbead2fb345973a95d96f99541669b665957d97818",
+    "IMPLEMENTATION.md": "99fc796e80badf2860b30d704fefc737e84f1fec4352e151c42533b8d620b407",
+    "adapter/src/controller.js": "8cc5363e4560a72ab8f24a156050a09c0d5652c688f219202aacdeb4e0f89668",
+    "adapter/src/gpu.js": "47428ef25fdddcaadb81968b53c6be8309916ea7d9ed77894dc861b14f0157a3",
+    "adapter/src/pages/home.js": "8385a834d8317f55637dbb7e1013fc3041993a81b0160fb96d9bd4ae394ac624",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "dependencies.json": "dc203d07577300a526b1b94d15304bf4df59a766ef1f105c7a95fd4a66b75389",
+    "dependency-lock.json": "cc2de301907475a75f077bbcc436678e9949f51fadac5306747413cf5e9cf240",
+    "parameters.json": "33b5e2b48ecc6efffa13f6b62f1e800d978ecdac2950d1a82c867c1cb51a8e82",
+    "provenance.json": "12c885322a9b74173042b6fd9e73669d75096c1121fa8da0b80e29faca481f47",
+    "run/effect.js": "c44d07e6cd8b2dd47ce8034b69d46a00985120f55246dea75c89201eabb3c3a0",
+    "run/images/christian-regg-FNaFLvbLFuk-unsplash.webp": "1e11e3f4402ac6be3bdecbc3c95109d7e58ebacb9e1666b682c0fedb80aff653",
+    "run/images/fabrizio-conti-rMWmDMeaoBk-unsplash.webp": "9f304abe58c117811004eb0b9ccf9cc1f875a2d0e47b8c6ace60dd21e5689308",
+    "run/images/johannes-andersson-UCd78vfC8vU-unsplash.webp": "c42ae905bde4eb105d1dbe7af3c6b7e791438d7f9178bc4c0b8c8c0936645fbc",
+    "run/images/mads-schmidt-rasmussen-xfngap_DToE-unsplash.webp": "6c71e0fcfff8389b91572071ee1597cbd746fa0bf2531e86a43790525b08aa48",
+    "run/images/tutorial-still.webp": "f956670c6c6f6cda23e38e1198b43e5e2dc158873be21321fef7ed08ca19f71a",
+    "run/images/weichao-deng-eyn0LjpNWV4-unsplash.webp": "07c27ad07f3403ac4e07563762600bce2ff70849711de45ae6933288879f67b0",
+    "run/index.html": "c2126c30eced6231b5109c197ead861655767a57b4294efcaed154625c58a27c",
+    "run/reference-icon.svg": "b56c007bad3bd0dc7cda249ea2444f58633792285bde15f883442c34573f77bd",
+    "run/src/global.css": "86990c1394875520b371bc65a0ed314ae08f34ec442d3b100dc37457995ba50e",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "9c15ea6d59fde96a45021b49c9929f38fe4e722d5e2466d81c58b3d564b46695",
+    "source/.gitignore": "2834c7c82533d55344a4b6b8f31651976f2f4d943c594c4553f027bb0f20fb9c",
+    "source/LICENSE": "21b9f7ab4e47821cca20bb0b1b6e9aa779acc5b3564afde475ce0bca5cb05f4d",
+    "source/README.md": "ed5cd2d42a4aac47da48b0e9e3d378e0731afc6532dad2f224f77c33e3ef63c7",
+    "source/index.html": "509d32be360762bd5b686d0245935481d4462981aa1b31100dd33d37d3b5d405",
+    "source/package.json": "67f7eff71eb744a90a7b1b4f68750dccc69800a255f4d6d35c93f5a66e301053",
+    "source/public/images/christian-regg-FNaFLvbLFuk-unsplash.webp": "1e11e3f4402ac6be3bdecbc3c95109d7e58ebacb9e1666b682c0fedb80aff653",
+    "source/public/images/fabrizio-conti-rMWmDMeaoBk-unsplash.webp": "9f304abe58c117811004eb0b9ccf9cc1f875a2d0e47b8c6ace60dd21e5689308",
+    "source/public/images/johannes-andersson-UCd78vfC8vU-unsplash.webp": "c42ae905bde4eb105d1dbe7af3c6b7e791438d7f9178bc4c0b8c8c0936645fbc",
+    "source/public/images/mads-schmidt-rasmussen-xfngap_DToE-unsplash.webp": "6c71e0fcfff8389b91572071ee1597cbd746fa0bf2531e86a43790525b08aa48",
+    "source/public/images/tutorial-still.webp": "f956670c6c6f6cda23e38e1198b43e5e2dc158873be21321fef7ed08ca19f71a",
+    "source/public/images/weichao-deng-eyn0LjpNWV4-unsplash.webp": "07c27ad07f3403ac4e07563762600bce2ff70849711de45ae6933288879f67b0",
+    "source/src/carousel.js": "88eed03092498437d0634360786063298ac4da7facdc5c5e1504db896bfbc6a7",
+    "source/src/controller.js": "559cd0b11cfaf8d887366e295dc546b8a64bd07d5aacade3e60f69444152187c",
+    "source/src/cursor.js": "4fbeb3701eba342008e70244ff8a13cb047fd6cb9b6ac08393d54269083e9219",
+    "source/src/global.css": "86990c1394875520b371bc65a0ed314ae08f34ec442d3b100dc37457995ba50e",
+    "source/src/gpu.js": "de60723c1e219315b6a18fe6deb2d96fcdc0d34be12b525b48facec464d27503",
+    "source/src/index.js": "2d5651e6125f2f8d4798bb873e73e3b181e422887430a8a06886f7c8dbcc352e",
+    "source/src/pages/home.js": "fd451263e99dbe5844be188f2ff65edb56c1eabf3f5bb2d76f4efe35cf6b523e",
+    "source/src/pages/index-page.js": "4ce60ee91f5870adff96589e2ae46ae4c3e85e57dbc66530679cae0ae09b8c24",
+    "source/src/pages/inner.js": "75ed95c86fd67ffb74fa468f141f0f08379a73c288c09feb5899b0153da97591",
+    "source/src/preloader.js": "299364d7f2aa0cfa917a786add54b81a2ab853305226f11ab034838ac2a090f3",
+    "source/src/transitions/constants.js": "3c18134923106f04c6d150b510f4a80aa38de20c8c22d47b35361272ba47e056",
+    "source/src/transitions/indexToInner.js": "b4ae0dd63d72c65d7766bbe586ca79f679cb19ec72ac5aee0b2b44933d470ee1",
+    "source/src/transitions/indexToMain.js": "85d5c0d7b33a23d02fb8dab11795324b74d3e12c5c23257bcef671614d20693f",
+    "source/src/transitions/innerToIndex.js": "871c9a6ca5aa8d3f9864aab53bc0c9ee7d22406addfb801c327dd1a7bb7f270f",
+    "source/src/transitions/innerToMain.js": "403454f25a987ea9a75758ae2fd32145b4d00be13d1f015c4d7bc2854b676c4f",
+    "source/src/transitions/mainToIndex.js": "3a4066d8fc5c411e5caa340e3ac7ff6e7f5d003be43c73c62a0db0736e5d215a",
+    "source/src/transitions/mainToInner.js": "59182c7145294812ca18784528deca8cdf682d712a53028d715f3342bd370bb8",
+    "source/vite.config.js": "38e44b86a4d29038997a324b9cd1a31961beb36c4666a63606472462e92f4fba",
+    "upstream.json": "7f2760f923915969554efbc8501e0f4f8759190a6020a723981c7ff5f65c5a84"
+  },
+  "verification": {
+    "at": "2026-10-06T16:44:55.708Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "verified_journey_state",
+        "name": "main_ready"
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": "#nav [data-nav-key=\"index\"]",
+        "x": 112.0703125,
+        "y": 29,
+        "proof": {
+          "selector": "#nav [data-nav-key=\"index\"]",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      },
+      {
+        "action": "verified_journey_state",
+        "name": "index_entered"
+      },
+      {
+        "action": "real_pointer_drag",
+        "from": [
+          700,
+          350
+        ],
+        "to": [
+          508,
+          290
+        ],
+        "steps": 47,
+        "durationMs": 866
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": "#nav [data-nav-key=\"main\"]",
+        "x": 55.703125,
+        "y": 29,
+        "proof": {
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      },
+      {
+        "action": "verified_journey_state",
+        "name": "main_returned"
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": "[data-page=\"main\"] .slot-2[data-link]",
+        "x": 550,
+        "y": 334.7890625,
+        "proof": {
+          "selector": "[data-page=\"main\"] .slot-2[data-link]",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      },
+      {
+        "action": "verified_journey_state",
+        "name": "matching_detail_entered"
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": "#nav [data-nav-key=\"main\"]",
+        "x": 55.703125,
+        "y": 29,
+        "proof": {
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      },
+      {
+        "action": "verified_journey_state",
+        "name": "main_cycle_closed"
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 245,
+    "errors": [],
+    "noExternalRequests": true
+  }
+}

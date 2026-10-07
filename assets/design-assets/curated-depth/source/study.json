@@ -1,0 +1,5 @@
+{
+  "id": "curated-depth",
+  "implementation": "independent",
+  "reason": "原作产品网站未提供开放源码；独立编写同一对象的形态、材质和环境叙事，明确区别于原作图像序列。"
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "7",
+  "directory": "local-7",
+  "title": "快捷键组合触发确认",
+  "version": "e55e5aea03230160",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "de6868ca2d9868c86d246d90b9782a4e807903956ad766ed1e20abcc478cdb75",
+    "demo.mjs": "4071ef5fa3a8d84a5d2e9673e5bb55fa1023bc8ed66a86bd3676b6b252962b39",
+    "index.html": "d290bbd6bb1752b0ccc34dce3af50f313bac4bdaaad445c29c81bb5e7ac55050",
+    "DESIGN.md": "d61d17a4078e0d80881a3018347b2cf6a73e4951e5495a3dd8e356d77f27e0e3",
+    "IMPLEMENTATION.md": "07efa082c0e3641c8294c5e91f8411d5c5e4e8cc8724f21d3731f76c19ff1604",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "8c0964c973aca391b95b5dbd935772a171439de170bc417118c88ed79b51d5f5",
+    "source-map.json": "743b71c61e4470b762eec1098cd2d7ef981428a97aeeb5908206c43de20497b9"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "e55e5aea03230160",
+    "captured": true,
+    "posterSha256": "eacd1c93663015f16d8a36082bdcc1ec1483632570bccaefe21040c1bd75e6c2",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:48.978Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

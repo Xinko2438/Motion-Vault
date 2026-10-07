@@ -1,0 +1,16 @@
+[
+  {
+    "file": "src/css/base.css",
+    "sha256": "2fef4d7406791ddf2028f474863ff45325a28b8898d0c995c62b2edf69ee8a4e",
+    "bytes": 9681,
+    "path": "source/src/css/base.css",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/index.js",
+    "sha256": "debad0afff1aaf7ecdfb131b411b47287a5c3619c548bc02e869eded96a311c8",
+    "bytes": 3216,
+    "path": "source/src/js/index.js",
+    "role": "original_source"
+  }
+]

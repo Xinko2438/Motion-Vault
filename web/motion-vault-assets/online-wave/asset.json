@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-wave",
+  "directory": "online-wave",
+  "title": "距离波纹点阵",
+  "version": "0ec664f0821e8a5a",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "1604634589d6295c8d677b26c9f11def16605c754b9e46a2c474c41eb7b3507b",
+    "demo.mjs": "05e869c9e593ece28ae2167a6c969e1294c1d136b1eaaa4d203e6e268add81a4",
+    "index.html": "7fb199ac3ecd15bdb11292bd0f0670ad8790b3b10150d69f5b48e3cf43964cce",
+    "DESIGN.md": "1df99389517fe24de07fb8bac7f9001096ac1c1a797381dc9d1e18c3170556cf",
+    "IMPLEMENTATION.md": "a23ec1ce1d4aeab35507b67fb847e5b937168024eeb54b5ea35466f9b8117229",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "c212dd6f5fc00b4c65c9bda285b6f7f206f60f19313d2cc4e61fe88bf31641a8",
+    "source-map.json": "75bf89329648b032ca5b0c4eee20ced644f7bd461b7795f744252783d5b4e203"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "0ec664f0821e8a5a",
+    "captured": true,
+    "posterSha256": "0d29f60c0a0ccac5c94342e24cd6997c23600b51dd017d78f3d1353dbd0daafc",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:04.113Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

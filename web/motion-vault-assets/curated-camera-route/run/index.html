@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Camera Fly-through using Theatre.js | Codrops</title>
+    <meta name="description" content="Demo for the tutorial on how to create a camera fly-through effect with Theatre.js" />
+    <meta name="keywords" content="theatre.js, fly-through, 3d, react three fiber" />
+    <meta name="author" content="Andrew Prifer for Codrops" />
+    
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    
+  <link rel="icon" type="image/svg+xml" href="./reference-icon.svg"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'unsafe-inline' 'wasm-unsafe-eval' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' data: blob:; worker-src 'self' blob:; font-src 'none'; base-uri 'self'; form-action 'none'"><meta name="referrer" content="no-referrer"><style>html{font-family:Arial,sans-serif}.frame__back,.frame__archive,.frame__github,.frame__tags,.frame__prev,.cdawrap,.credits{display:none!important}body{margin:0}.frame{position:absolute;z-index:2}button,a{-webkit-tap-highlight-color:transparent}img{-webkit-user-drag:none}.vault-source-status{position:fixed;bottom:8px;left:10px;font:10px Arial;z-index:999;pointer-events:none;opacity:.5}*{--font-primary:Arial,sans-serif}</style><link rel="stylesheet" href="./effect.css"></head>
+  <body class="demo-1">
+    <main>
+      <div class="frame">
+        <div class="frame__title">
+          <h1 class="frame__title-main">Camera Flythrough using Theatre.js</h1>
+          <a
+            aria-label="Back to the article"
+            class="frame__title-back"
+            href="https://tympanus.net/codrops/?p=70449"
+          >
+            <span class="oh__inner">Back to the article</span>
+            <svg width="18px" height="18px" viewBox="0 0 24 24">
+              <path
+                vector-effect="non-scaling-stroke"
+                d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <a class="frame__prev" href="https://tympanus.net/Development/TypeShuffleAnimation/">Previous demo</a>
+      </div>
+      <div id="root"></div>
+    </main>
+    
+  <script data-vault-isolation src="./vault-isolation.js"></script><script>document.documentElement.classList.remove('no-js');document.documentElement.classList.add('js');window.sourceErrors=[];addEventListener('error',e=>sourceErrors.push(e.message));addEventListener('unhandledrejection',e=>sourceErrors.push(String(e.reason)));window.SourceDemo={ready:false,scroll:(p)=>{const s=window.ScrollSmoother?.get();const y=p*Math.max(0,document.documentElement.scrollHeight-innerHeight);if(s)s.scrollTo(y,false);else scrollTo(0,y);window.ScrollTrigger?.update();},stop:()=>window.gsap?.globalTimeline.pause(),resume:()=>window.gsap?.globalTimeline.resume()};addEventListener('load',()=>{setTimeout(()=>{window.ScrollTrigger?.refresh();SourceDemo.ready=true;},400)});</script><script src="./effect.js"></script></body>
+</html>

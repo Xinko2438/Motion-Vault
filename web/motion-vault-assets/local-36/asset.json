@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "36",
+  "directory": "local-36",
+  "title": "快门遮罩圆形扩散",
+  "version": "5904a308fe87faa4",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "6cd9e50890cc8c6cea23fbe85377596c084e4cbcbf484e8fc7756247a0773768",
+    "demo.mjs": "b1b88aef7e0971145f93d92add9df2f95f820c7befae7a33c30447fad3432c08",
+    "index.html": "527a5069ada37b48293f9b46a6b9057df9dc42460b1fb14c13c06fe8d28e7a65",
+    "DESIGN.md": "bdcc59bb88a9875d8f38916351e66727ab776cc1a630fc9d73141ac682f3c933",
+    "IMPLEMENTATION.md": "936629acf3e63a36b4c303eeda7b8c5d59ddc6fea3593a71e0e1950b809f49a8",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "3d362e4842a5e0a4fe876fefed35a443f998e32329c95c8eefc19dccb9feae61",
+    "source-map.json": "ac5d4c086f384d307f91bd90f2b5fb69a4f756b68020b13855c5b674922899aa"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "5904a308fe87faa4",
+    "captured": true,
+    "posterSha256": "12eede31193b3295773d573bdc06cbc43e57078287b3c5af3dfe8aa2c31b2961",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:56.648Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

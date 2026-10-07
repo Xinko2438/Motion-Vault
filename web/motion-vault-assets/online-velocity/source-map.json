@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 276,
+    "endLine": 276,
+    "code": " case'velocity':h=eSvg(`<path d=\"M65 170H475M270 60V280\" stroke=\"#c9c3d5\" stroke-dasharray=\"2 7\" fill=\"none\"/><g class=\"e-velocity-dot\"><ellipse rx=\"29\" ry=\"29\" fill=\"#a096bd\" fill-opacity=\".24\" stroke=\"#6f628d\" stroke-width=\"1.4\"/><circle r=\"3\" fill=\"#6f628d\"/></g>${eText('SLOW / FAST',42,48,'e-eyebrow')}${eText('方向与速度，由你决定。',42,309,'e-small')}`);break;",
+    "role": "authoritative_editable_source"
+  }
+]

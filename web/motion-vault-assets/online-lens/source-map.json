@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 192,
+    "endLine": 192,
+    "code": " case'lens':label='保留全貌 / 发现细节';figure=`<svg class=\"x-svg x-lens\" viewBox=\"0 0 400 300\" aria-label=\"局部放大镜演示\"><defs><clipPath id=\"${uid}-clip\"><circle class=\"x-lens-clip\" cx=\"200\" cy=\"150\" r=\"60\"/></clipPath></defs>${landscapeSized(1)}<g clip-path=\"url(#${uid}-clip)\"><g class=\"x-lens-image\">${landscapeSized(1)}</g></g><circle class=\"x-lens-rim\" cx=\"200\" cy=\"150\" r=\"60\" fill=\"none\" stroke=\"#fffdf3\" stroke-width=\"3\"/><circle class=\"x-lens-edge\" cx=\"200\" cy=\"150\" r=\"62\" fill=\"none\" stroke=\"#526a56\" stroke-width=\"1\"/></svg><span class=\"x-lens-tag\">2.2 ×</span>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 244,
+    "endLine": 253,
+    "code": "  function position(e){let r=surface.getBoundingClientRect();point={x:clamp((e.clientX-r.left)/r.width,.16,.84),y:clamp((e.clientY-r.top)/r.height,.2,.8)};if(key==='lens')stop();draw();}\n  root.__receivePoint=e=>position(e);L.cleaners.push(()=>delete root.__receivePoint);L.on(surface,'pointermove',e=>{if(e.pointerType==='mouse'||drag===e.pointerId)position(e);});\n  L.on(surface,'pointerdown',e=>{if(e.button!==0)return;drag=e.pointerId;surface.setPointerCapture(e.pointerId);position(e);if(key==='wave'&&!reduce.matches){stop();playing=true;button.textContent='暂停';button.setAttribute('aria-pressed','true');raf=L.frame(tick);}});\n  L.on(surface,'pointerup',()=>drag=null);L.on(surface,'pointercancel',()=>drag=null);L.on(surface,'lostpointercapture',()=>drag=null);\n }\n if(['ring','book','dial','string'].includes(key)){\n  const surface=key==='dial'?root.querySelector('.x-dial'):key==='string'?root.querySelector('.x-string'):fig;\n  surface.tabIndex=0;\n  function move(e){if(!drag||drag.id!==e.pointerId)return;const r=surface.getBoundingClientRect();if(key==='dial'){let a=Math.atan2(e.clientY-r.top-r.height/2,e.clientX-r.left-r.width/2)*180/Math.PI+90;if(a>180)a-=360;let value=clamp((a+135)/270*100,0,100);point={value};t=Math.acos(1-2*value/100)/(2*Math.PI);}else if(key==='string'){point={force:clamp((e.clientY-r.top)/r.height*260-125,-85,85)*2};}else{point=null;const delta=(e.clientX-drag.x)/r.width;t=key==='ring'?((drag.start+delta)%1+1)%1:clamp(drag.start-delta,0,.5);}draw();}\n  L.on(surface,'pointerdown',e=>{if(e.button!==0||e.target.closest('button'))return;stop();surface.focus({preventScroll:true});surface.setPointerCapture(e.pointerId);drag={id:e.pointerId,x:e.clientX,start:t};move(e);});L.on(surface,'pointermove',move);",
+    "role": "authoritative_editable_source"
+  }
+]

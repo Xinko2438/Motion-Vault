@@ -1,0 +1,13 @@
+{
+  "id": "curated-cloth-object",
+  "repository": "https://github.com/codrops/BalloonButton",
+  "commit": "db03bdc8ce88cb64446b9366c60f0803f2235506",
+  "archiveSha256": "2ecac756010fa39073533a31ef8b800a55419c2eea25569bcf495f0da0681edc",
+  "capturedAt": "2026-10-06T10:00:31.259Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 17,
+  "bytes": 23103132
+}

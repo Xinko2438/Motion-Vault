@@ -1,0 +1,127 @@
+[
+  {
+    "path": "source/src/main.jsx",
+    "role": "original_source",
+    "sha256": "f36e2593977f0d2042803ff88f70b89ad35bc91fb7e54be9a3107e8f65d98e99"
+  },
+  {
+    "path": "adapter/src/components/Experience.jsx",
+    "role": "local_adapter",
+    "sha256": "77fe1b83cb301097348218be019ff05978f35250ee46c34853b0aa43f89f2154"
+  },
+  {
+    "path": "adapter/src/components/Rocks/index.jsx",
+    "role": "local_adapter",
+    "sha256": "46e079c9ef04d3dd46b241bcd9a7a7b60bab5f77c86d4fda43f142cc9e133664"
+  },
+  {
+    "path": "adapter/src/components/Terrain/index.jsx",
+    "role": "local_adapter",
+    "sha256": "a98cfe2fc2fd05b80da44bbab4a9ebd44698d6566252eca0ef61b0476fb0a84a"
+  },
+  {
+    "path": "adapter/src/styles/index.css",
+    "role": "local_adapter",
+    "sha256": "e9341fdeef007e6f11b542720f7cbfc1846d1889452f8f8e5419d0443b9920ee"
+  },
+  {
+    "path": "source/eslint.config.js",
+    "role": "original_source",
+    "sha256": "b148075c329d6aa264d2029539b2d12706c6df9ea5a2ad2669d450ce490a7792"
+  },
+  {
+    "path": "source/src/App.jsx",
+    "role": "original_source",
+    "sha256": "241a23ddd4cdf79ed0cbe944d19569087b657e4720ee42f3fcaf3296bdce7ba4"
+  },
+  {
+    "path": "source/src/components/Audio.jsx",
+    "role": "original_source",
+    "sha256": "763662c806df9f53155ec12fea69670f23272b738151fb882b2f307ba07f633a"
+  },
+  {
+    "path": "source/src/components/Experience.jsx",
+    "role": "original_source",
+    "sha256": "77129744ddc018c347c4007e768b22771122d56de57b7cdfb2ae9731f1b21935"
+  },
+  {
+    "path": "source/src/components/Rocks/index.jsx",
+    "role": "original_source",
+    "sha256": "7bc4ca45d395773afe99a570ea31a20327f909b456a017413c536e71da2ddfec"
+  },
+  {
+    "path": "source/src/components/Rocks/shaders/fragment.glsl",
+    "role": "original_source",
+    "sha256": "0693a18959e2b40fdcfe16dba52ed191948d7acdf44ab59934e83ba5b1d74c97"
+  },
+  {
+    "path": "source/src/components/Rocks/shaders/vertex.glsl",
+    "role": "original_source",
+    "sha256": "39d3470dfa7f37eb25e2aafe9c6ff72912d0d24e61534c0c6b04a2b55fbe8322"
+  },
+  {
+    "path": "source/src/components/Scene/index.jsx",
+    "role": "original_source",
+    "sha256": "390a25fd749366cbee24c0736f2d3db3e5c9b697f3acd3ecbeab51ff8fa8489e"
+  },
+  {
+    "path": "source/src/components/Terrain/index.jsx",
+    "role": "original_source",
+    "sha256": "4a27f5eec12d7e654b2c3de9cd9dd69a5c1e9be8ecb8e2a9004c9d5e230e5fcf"
+  },
+  {
+    "path": "source/src/components/Terrain/shaders/fragment.glsl",
+    "role": "original_source",
+    "sha256": "656df4fdf6b0a8b6968f7cd861daf77703277dc7348e4b4e33f0803ff834945c"
+  },
+  {
+    "path": "source/src/components/Terrain/shaders/vertex.glsl",
+    "role": "original_source",
+    "sha256": "39d3470dfa7f37eb25e2aafe9c6ff72912d0d24e61534c0c6b04a2b55fbe8322"
+  },
+  {
+    "path": "source/src/components/Water/index.jsx",
+    "role": "original_source",
+    "sha256": "cae99551752b3d0fb0242869cec7fd36603c525ddc7ff56fe1603bad62d5386e"
+  },
+  {
+    "path": "source/src/components/Water/shaders/fragment.glsl",
+    "role": "original_source",
+    "sha256": "cc6d665ca7033cee5b91a3983308c9c4fc207a6172453db4f745daae8cdf5967"
+  },
+  {
+    "path": "source/src/components/Water/shaders/vertex.glsl",
+    "role": "original_source",
+    "sha256": "3b947add65d56080c187ca448945a5c885491389db68c64c5b3fafc1b87b326b"
+  },
+  {
+    "path": "source/src/hooks/useStore.js",
+    "role": "original_source",
+    "sha256": "2fed7fb3c51e4f28213466e737764e7c3f18217232fb574c8cc40744079fc5be"
+  },
+  {
+    "path": "source/src/ui/Loading/index.jsx",
+    "role": "original_source",
+    "sha256": "24ba2ca333b8657f09de68de5d80be108790857622fba503fbb67f9ba813f6f8"
+  },
+  {
+    "path": "source/src/ui/Sound/icons.jsx",
+    "role": "original_source",
+    "sha256": "29d21dfefeb8cbcc0714c935a2a1ccede21d02d0cf0ea560c1da2689b6e731a9"
+  },
+  {
+    "path": "source/src/ui/Sound/index.jsx",
+    "role": "original_source",
+    "sha256": "8eaf24c260b81723c57793618af86e7a5bf7f4f635299fa037c5fda436974dbb"
+  },
+  {
+    "path": "source/src/ui/index.jsx",
+    "role": "original_source",
+    "sha256": "e061e4a57995adb2fa061f5cabef2af3f7a8b6fb19e7754aaa9d5cf471b4becc"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "795f75b57856009c27d3189dffc41622868aa6f7c9462d0f8ef5c2e6f0ab844c"
+  }
+]

@@ -1,0 +1,175 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-inline-menu",
+  "directory": "curated-inline-menu",
+  "title": "正文词语迁移成图像导航",
+  "version": "fd4cfcead22ecc3d",
+  "status": "local_source_verified",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "source": "source/",
+  "hashes": {
+    "DESIGN.md": "149bba84bb7128bf1b53ced9797c4e5a19ef79af90daf5ffa87676d04d0235f0",
+    "IMPLEMENTATION.md": "d0931ba007d8aa01f961936778aadc48b266a4b0581c1218b53adf541d2eb5c7",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "parameters.json": "1a99c6a318fdaf0798a5bc98f4710b685dc770a5d43b54906e120fa4419f0336",
+    "provenance.json": "ee0d802c849059ba6c7ce6503daca2dcdd478a4962e5869c4130cdb8970832a5",
+    "run/LICENSE.txt": "1f6db3d0b162eaa534ff5585db684f00c41f776325f7fd11ebf9373650099ce1",
+    "run/css/base.css": "6a8f246a9ae260fa6511ca1ab15287b0ed068ae2d95856b53233039ef5782b2a",
+    "run/effect.js": "9f5de2e556314cd2918cbb13f95db15514fabccedc81984d91687ba8dd23ff07",
+    "run/favicon.ico": "44fadea9ab16494cbd38fe9b31100467848001642166fc351d879af6f121cb68",
+    "run/img/1.jpg": "ed24abfc25c53f5aa24af0480bc58dea315208024cb473d3b6c43e310f1b759a",
+    "run/img/10.jpg": "9de3c76eeba5ba942efa6b7488934d8e6b1f965580782477a0e4298adf9ea66a",
+    "run/img/11.jpg": "4fddf80421653fc7adde7a0d4b4e6573eb3a4b3cdb5bdcd4238b0cbcebc7e7ef",
+    "run/img/12.jpg": "33ad1960f7a54144d39eed6b4cde872fd71375cb3f15f59a26856608e7a64bc9",
+    "run/img/13.jpg": "72bb2607fa4e8e80e70bc32126acc77b8050f05d27a41a336fa9d7aa3c7f6456",
+    "run/img/14.jpg": "3e79f906a7d6810721306ab7c4ee00e5c97c620aa6cfb9c0113210be3613dec6",
+    "run/img/15.jpg": "cf110cb11410ce2d651ac7caa399958c8bb4645bf49cbe81d59fa0d20d16f001",
+    "run/img/16.jpg": "c2d97944e44797f8112cdd9ab5126a2818a870712ecfcd7dc69c5ca94fb36ba5",
+    "run/img/17.jpg": "8574117eff304b2a82ac88458b521b1dc47bce10818e5713cccd9f0eb05de7ab",
+    "run/img/18.jpg": "fd8f58e5e58cb921573948d1013277666b3c1070168ecd691f680e99c4aefac3",
+    "run/img/19.jpg": "4c3f844146355ffbefc7710ee7003dc5005d1a849ca72ed14b5c810c0547950b",
+    "run/img/2.jpg": "d416ef37f801892fe782be7345e777837a57e82fb07fa151a17eea83d0015c58",
+    "run/img/20.jpg": "16e304dbc89596d72cedba716800576c22f3b182ce4700b51505b02f1f1b8ab8",
+    "run/img/3.jpg": "c2ab243afd7ba3e61706fc702a5f5f03eb4de729007974cf4f7c39367c62864b",
+    "run/img/4.jpg": "7dd7f08e8a39e581fd3e4a9f20320f2d0ebb2b941257b3aa9b0b76315224ba21",
+    "run/img/5.jpg": "cd56d31a9869c0b75940362ab8efa48416708db3f064d8b9c4906a949413b389",
+    "run/img/6.jpg": "1c508fbd1c3042412786a6a8e33ffd9554eb7e135a060a9778c074ebef53f02b",
+    "run/img/7.jpg": "fb4bb6e4f560269be88794bb7d46bf4a260f8d607538b1ee85a958603f0a0d0e",
+    "run/img/8.jpg": "6564ce59709073e0464be8d02693f5a0d9ed2c8b2c3308667a0fc610d267e1c4",
+    "run/img/9.jpg": "7ad2b7c7352f700f9751d5ffd97ae3c18ce7ae7673c561086ef12b3dfc8f99ef",
+    "run/index.html": "5d63aad5b3f9f714ae9735cedb259c7c0071fd201afe78f2837a286622b8e6f0",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "da693977579dfbb1378b4ca9fe548b257810701a186a0fa829961dbd70216726",
+    "source/.gitattributes": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+    "source/.gitignore": "bf64be67ab4d9e29bc42bb75afa848eca35958c856ae93b09dd9e3630472a2bc",
+    "source/LICENSE": "1f6db3d0b162eaa534ff5585db684f00c41f776325f7fd11ebf9373650099ce1",
+    "source/README.md": "7082cb59970e7cffbdf97ffb8b84a54cf3d977708190bfff14d7c5119540d2f6",
+    "source/package.json": "e348c60b748f5fdecb9defe9544ebab777b30726f639f50117fc78f2af99b992",
+    "source/src/css/base.css": "6a8f246a9ae260fa6511ca1ab15287b0ed068ae2d95856b53233039ef5782b2a",
+    "source/src/favicon.ico": "44fadea9ab16494cbd38fe9b31100467848001642166fc351d879af6f121cb68",
+    "source/src/img/1.jpg": "ed24abfc25c53f5aa24af0480bc58dea315208024cb473d3b6c43e310f1b759a",
+    "source/src/img/10.jpg": "9de3c76eeba5ba942efa6b7488934d8e6b1f965580782477a0e4298adf9ea66a",
+    "source/src/img/11.jpg": "4fddf80421653fc7adde7a0d4b4e6573eb3a4b3cdb5bdcd4238b0cbcebc7e7ef",
+    "source/src/img/12.jpg": "33ad1960f7a54144d39eed6b4cde872fd71375cb3f15f59a26856608e7a64bc9",
+    "source/src/img/13.jpg": "72bb2607fa4e8e80e70bc32126acc77b8050f05d27a41a336fa9d7aa3c7f6456",
+    "source/src/img/14.jpg": "3e79f906a7d6810721306ab7c4ee00e5c97c620aa6cfb9c0113210be3613dec6",
+    "source/src/img/15.jpg": "cf110cb11410ce2d651ac7caa399958c8bb4645bf49cbe81d59fa0d20d16f001",
+    "source/src/img/16.jpg": "c2d97944e44797f8112cdd9ab5126a2818a870712ecfcd7dc69c5ca94fb36ba5",
+    "source/src/img/17.jpg": "8574117eff304b2a82ac88458b521b1dc47bce10818e5713cccd9f0eb05de7ab",
+    "source/src/img/18.jpg": "fd8f58e5e58cb921573948d1013277666b3c1070168ecd691f680e99c4aefac3",
+    "source/src/img/19.jpg": "4c3f844146355ffbefc7710ee7003dc5005d1a849ca72ed14b5c810c0547950b",
+    "source/src/img/2.jpg": "d416ef37f801892fe782be7345e777837a57e82fb07fa151a17eea83d0015c58",
+    "source/src/img/20.jpg": "16e304dbc89596d72cedba716800576c22f3b182ce4700b51505b02f1f1b8ab8",
+    "source/src/img/3.jpg": "c2ab243afd7ba3e61706fc702a5f5f03eb4de729007974cf4f7c39367c62864b",
+    "source/src/img/4.jpg": "7dd7f08e8a39e581fd3e4a9f20320f2d0ebb2b941257b3aa9b0b76315224ba21",
+    "source/src/img/5.jpg": "cd56d31a9869c0b75940362ab8efa48416708db3f064d8b9c4906a949413b389",
+    "source/src/img/6.jpg": "1c508fbd1c3042412786a6a8e33ffd9554eb7e135a060a9778c074ebef53f02b",
+    "source/src/img/7.jpg": "fb4bb6e4f560269be88794bb7d46bf4a260f8d607538b1ee85a958603f0a0d0e",
+    "source/src/img/8.jpg": "6564ce59709073e0464be8d02693f5a0d9ed2c8b2c3308667a0fc610d267e1c4",
+    "source/src/img/9.jpg": "7ad2b7c7352f700f9751d5ffd97ae3c18ce7ae7673c561086ef12b3dfc8f99ef",
+    "source/src/index.html": "1660b7285ba2ebfc1500e455a6925ea0737b8b6a3a73b98bff4e7c3896ba33e8",
+    "source/src/js/gallery.js": "8449d5fac5bec461532f249a70df8b3fbc0682b6b1f46c73e7bc4e2c18f5f28e",
+    "source/src/js/index.js": "796f0a5b347975725564cddb7c36ae1f0fe7f21ce955c10c2713b56e73174d50",
+    "source/src/js/menu.js": "27f10b2f1db5ddca588b78ea57ef36bef3aa138cb89c81a0712d5ab14143fda8",
+    "source/src/js/menuItem.js": "50bc26e670439604bd5c3332a06563d8645ce4ad7e209bee50cb8ad19202a44a",
+    "source/src/js/utils.js": "6ded73a3560473cb68c4d9336021b0d116d425f959ffd4487d674c8cab98a1e4",
+    "upstream.json": "58a688b790a23bbac7e66efbf7ac9e81d4af0a7a1b28ceb3166da738c93a85b8"
+  },
+  "shared_hashes": {
+    "../vendor/gsap.min.js": "e5118140a15e5dbb471f19c06816bcfa44170878bd8fe0ade80c24b7a988d8ba",
+    "../vendor/Flip.min.js": "d3a3b0f9addaed77324c52875b83ea9a4387b4c6fdbdb6a198f8e847f6ede2c6",
+    "../vendor/imagesloaded.pkgd.min.js": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "../vendor/splitting.min.js": "400c74b4104691379456188af0147d7c42863e4dd71dbdd734f4e0a6c1c2674b",
+    "../vendor/splitting.css": "18aad67beae0833d77ea19de4be394240925825344e2ec9a0a325d39ae3d1396",
+    "../vendor/splitting-cells.css": "bb184decc84625a3ee861becce95ad31f84dd7da35d649385261bf42898f40b5"
+  },
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "f2ac24a79e47357296fde487f43d8c63edef0032b53ae8ab32fa4190ba8e74f8",
+    "videoSha256": "b7c8eda3378c0d70cd49f2608231a69e3db4dc2b0e242109cc588388415fec54",
+    "videoBytes": 297230,
+    "implementationVersion": "fd4cfcead22ecc3d",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-scenes-d-20261006-one",
+      "at": "2026-10-06T17:02:17.683Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 2.3302,
+      "frameCount": 131,
+      "visualChanges": 99,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.3302,
+        "visibleChanges": 99,
+        "contentFPS": 42.48562355162647,
+        "longestHoldSeconds": 0.42121699999999995
+      }
+    }
+  },
+  "productionComponent": false,
+  "taskSelectionRequired": true,
+  "verification": {
+    "at": "2026-10-06T17:02:17.683Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_click",
+        "selector": ".menu-item",
+        "x": 652.5,
+        "y": 144.4453125,
+        "proof": {
+          "selector": ".menu-item",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      },
+      {
+        "action": "real_pointer_click",
+        "selector": ".frame__close",
+        "x": 1027.421875,
+        "y": 44,
+        "proof": {
+          "selector": ".frame__close",
+          "events": [
+            {
+              "trusted": true,
+              "match": true
+            }
+          ]
+        }
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 100,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "kind": "adapted_author_source",
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "fd4cfcead22ecc3d",
+    "standaloneBehaviorChanged": false
+  }
+}

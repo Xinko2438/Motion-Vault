@@ -1,0 +1,107 @@
+[
+  {
+    "path": "source/src/app/main.ts",
+    "role": "original_source",
+    "sha256": "3219735f293fde5d344ee44015ed31a5540444686ea4710b3da4b05f84297b98"
+  },
+  {
+    "path": "adapter/src/app/main.ts",
+    "role": "local_adapter",
+    "sha256": "9fe9a3c9d48035c350bf6af8370bb42a4badae6d2e3dfb607361769a9c4a4152"
+  },
+  {
+    "path": "adapter/src/styles/index.css",
+    "role": "local_adapter",
+    "sha256": "0ea9a83bc07ce60977b495386051ad819ca99aad5cbce5030242874d6949d67c"
+  },
+  {
+    "path": "source/astro.config.mjs",
+    "role": "original_source",
+    "sha256": "93bd0a1105d5cad6ae687d8f37d2c7bf6896111a9d6b06dac1fc0475a5802db8"
+  },
+  {
+    "path": "source/src/app/components/canvas.ts",
+    "role": "original_source",
+    "sha256": "8ec67d1a5272fae554c30fe6288b187a0d3d6f29a9a6d922c25539956a9bafea"
+  },
+  {
+    "path": "source/src/app/components/media.ts",
+    "role": "original_source",
+    "sha256": "39711bf6f31952c7a293a1fcdf86713e8b76cfff3fc6cc6777ee421df142daa8"
+  },
+  {
+    "path": "source/src/app/components/scroll.ts",
+    "role": "original_source",
+    "sha256": "cd760a1eadcbeced6ea4463903b272d3050db835f8bb8953a2540b5e496aa9b4"
+  },
+  {
+    "path": "source/src/app/components/text-animation.ts",
+    "role": "original_source",
+    "sha256": "825434b97c5e539e062ba580719f24f385198a922ffefb60115e2129adc6a33a"
+  },
+  {
+    "path": "source/src/app/shaders/fragment.glsl",
+    "role": "original_source",
+    "sha256": "0869617dbcf577e9ba521aa23741d0b70f0005e8b9fc994f13c4b50f1ef94a3e"
+  },
+  {
+    "path": "source/src/app/shaders/vertex.glsl",
+    "role": "original_source",
+    "sha256": "b5a5d7c546462ddae508dd9bb0a00765bdb26a87d71c3f635b8084f8e6e191c5"
+  },
+  {
+    "path": "source/src/app/types/types.ts",
+    "role": "original_source",
+    "sha256": "36e14310324c5ae0ac956b345a44a473c8f43aa1bc66f5555b7f87e7bbe5a98d"
+  },
+  {
+    "path": "adapter/1.html",
+    "role": "local_adapter",
+    "sha256": "b0bc76155cc491af38fca7cc4bbd9039f1cde7bbf57ece8c45e76c572e99790f"
+  },
+  {
+    "path": "adapter/2.html",
+    "role": "local_adapter",
+    "sha256": "3d4cdb26cbf291679dd429bc1d5c3e5c66f2649b2f49d60dd93e95e88a4a4221"
+  },
+  {
+    "path": "adapter/3.html",
+    "role": "local_adapter",
+    "sha256": "9cd2058d0462f81cecccbd6a70a5193ff79ac0cf2ff907ad97540def11ac4b92"
+  },
+  {
+    "path": "adapter/4.html",
+    "role": "local_adapter",
+    "sha256": "92dbf8dbd3623f164079102fd51e197a3bac2d7c8b2ac651c862dcceba5849b5"
+  },
+  {
+    "path": "adapter/5.html",
+    "role": "local_adapter",
+    "sha256": "68f8337fe0787f14b07fb99a4b98896db1b2a42f5225c14c40680fed5660c2e1"
+  },
+  {
+    "path": "adapter/6.html",
+    "role": "local_adapter",
+    "sha256": "35d556f2ba64c2855c7a455af3d014c4bd194e23c9600a973bc3983366712a45"
+  },
+  {
+    "path": "adapter/7.html",
+    "role": "local_adapter",
+    "sha256": "0109df60710711501efe492e1a132e27c525819b5fec985f2a738bfa38174572"
+  },
+  {
+    "path": "adapter/8.html",
+    "role": "local_adapter",
+    "sha256": "ecc443a94f3ea3988b033dbea414806013a73f65fe2d5102a2b8c55bf08c6397"
+  },
+  {
+    "path": "adapter/9.html",
+    "role": "local_adapter",
+    "sha256": "773d51298335f0ddce9c2b3c8b83dcf77c77cc7f63921c56c2e40aad66278922"
+  },
+  {
+    "path": "adapter/index.html",
+    "role": "local_adapter",
+    "sha256": "a539246b560622ecf8cf3ed0bf109904891ceeb6c5387a4d4448c14eff2256b0"
+  }
+]

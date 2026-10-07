@@ -1,0 +1,13 @@
+{
+  "id": "curated-spatial-product",
+  "repository": "https://github.com/MatthewGreenberg/shoe-finder",
+  "commit": "7c91437d332408e32d40de8de72c347ca72dde82",
+  "archiveSha256": "24f30b9e46d099978c288000a8a997585b0f13952b9961dd65a9ad7696c19fb7",
+  "capturedAt": "2026-10-06T09:55:57.534Z",
+  "fontFilesExcluded": true,
+  "licenses": [],
+  "licenseBasis": "Codrops downloadable demo license; verify overrides",
+  "status": "source_pinned_pending_adaptation",
+  "files": 175,
+  "bytes": 3015856
+}

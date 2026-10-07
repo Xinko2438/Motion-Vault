@@ -1,0 +1,38 @@
+[
+  {
+    "file": "gsap.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/gsap.min.js",
+    "sha256": "e5118140a15e5dbb471f19c06816bcfa44170878bd8fe0ade80c24b7a988d8ba",
+    "bytes": 71373
+  },
+  {
+    "file": "Flip.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/gsap@3.11.5/dist/Flip.min.js",
+    "sha256": "d3a3b0f9addaed77324c52875b83ea9a4387b4c6fdbdb6a198f8e847f6ede2c6",
+    "bytes": 24803
+  },
+  {
+    "file": "imagesloaded.pkgd.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js",
+    "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "bytes": 5485
+  },
+  {
+    "file": "splitting.min.js",
+    "url": "https://cdn.jsdelivr.net/npm/splitting@1.0.6/dist/splitting.min.js",
+    "sha256": "400c74b4104691379456188af0147d7c42863e4dd71dbdd734f4e0a6c1c2674b",
+    "bytes": 3722
+  },
+  {
+    "file": "splitting.css",
+    "url": "https://cdn.jsdelivr.net/npm/splitting@1.0.6/dist/splitting.css",
+    "sha256": "18aad67beae0833d77ea19de4be394240925825344e2ec9a0a325d39ae3d1396",
+    "bytes": 1784
+  },
+  {
+    "file": "splitting-cells.css",
+    "url": "https://cdn.jsdelivr.net/npm/splitting@1.0.6/dist/splitting-cells.css",
+    "sha256": "bb184decc84625a3ee861becce95ad31f84dd7da35d649385261bf42898f40b5",
+    "bytes": 1518
+  }
+]

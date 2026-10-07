@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-sheet",
+  "directory": "online-sheet",
+  "title": "多档停靠手势面板",
+  "version": "6ed12341e64433dc",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "29c335c553b4dcc36e8b6acafd2e0c3b9cd346d98ab1983d999bc0f12e1988c0",
+    "demo.mjs": "bf0589c313a70611cbfebe31123d0816103a02e975bd2f8295647e89b1df7d00",
+    "index.html": "c2c5c11704342c5dd92c6ad5d6692feea6f5ca53f3450336b2d5a2d67b54eb81",
+    "DESIGN.md": "aa075ef15ac8d9cc701650eaf4a14e6e88501dd8d1cccea2e22d229f3dbe7366",
+    "IMPLEMENTATION.md": "7fea2a4d6e66c10548d85f55f62ca4ef9a2b06752a01f4835fadfd512f77680d",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "9ca65fd5a5b21fb56d651b964bc187e4237a11cda00193b624310b830c99f9b7",
+    "source-map.json": "ea98b6b30d8a5f46e8ac80b355ef9df99072d35e7a39fdc16df5c7a98b02849c"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "6ed12341e64433dc",
+    "captured": true,
+    "posterSha256": "7a48615bd6de1cea30046071ac41cf173ec709be32cbffed38d78e9584a67e0b",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:01.379Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

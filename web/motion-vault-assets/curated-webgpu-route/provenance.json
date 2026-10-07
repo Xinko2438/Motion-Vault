@@ -1,0 +1,18 @@
+{
+  "implementation_kind": "adapted_author_source",
+  "author": "Ben Paine",
+  "source": "https://tympanus.net/codrops/2026/06/30/building-persistent-page-transitions-with-webgpu-and-vanilla-javascript/",
+  "repository": "https://github.com/bnpne/page-transitions-with-webgpu-vanilla-js",
+  "commit": "70e5c0eafb14cd1fdf02aef0799ba486dead46dc",
+  "version": "9b3023082fcdff90",
+  "differences": [
+    "保留原作者核心实现；移除广告、第三方字体和无关外链加载。",
+    "构建使用本地打包的锁定依赖，预览页面不依赖源站在线运行。",
+    "系统字体替代会改变原作字形，不宣称原作逐像素一致。",
+    "仅将该SPA路由写入当前run文档的URL片段；保持资源基址、画布生命周期与不透明沙箱。"
+  ],
+  "rights": "代码按仓库许可证或Codrops可下载示例许可保留署名。演示照片、模型及商标须按其各自条款检查，生产替换素材，不把代码许可当作素材商用许可。未发布字体文件。",
+  "upstream_visual_verified": false,
+  "reference_author": "Ben Paine",
+  "reference_title": "保持画布连续的 WebGPU 跨页转场"
+}

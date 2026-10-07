@@ -1,0 +1,52 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-blur",
+  "directory": "online-blur",
+  "title": "逐词模糊显影",
+  "version": "2035380bc6133d69",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "64810dcf61104d5e26a7cc2601cb548b1cc851486300487c8861018a6150402a",
+    "demo.mjs": "ddda0bec3881649de285826b9de071608857eef25da72daf6b23058fda5be427",
+    "index.html": "abf5eba225d61dcb53b3aebf3132ff402a38f813e0894da05537ae0b77476c3a",
+    "DESIGN.md": "79a5261d66d2b0d1d3e381262796944f8cdb771679c8b0b5e79c77da03958341",
+    "IMPLEMENTATION.md": "990e8816b8c56c2e789be8f14c16c03522bde68df6fefccbcd2d3ac76549f88b",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "866a57ba8b39bd3832230cf7a433edfee99a455c87e01524c57e6e3bd5715b30",
+    "source-map.json": "0d8588e927aaa796350655d1048d612bfcf17802c9e44d5363c2a40995849353"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "implementationVersion": "2035380bc6133d69",
+    "captured": true,
+    "posterSha256": "764532ad24cfb1e2d44ab758572a50a8e0fb4a409ca4fc4cd110eb7b03c60f09",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:04.599Z",
+    "videoSha256": "bb7968cf69eca2f86d5e496d784f5898467bc5ce8f63cf8d9681c51cedd4a58a",
+    "videoBytes": 26681,
+    "frameCount": 96,
+    "distinctFrames": 69,
+    "durationSeconds": 4.8,
+    "fps": 20,
+    "captureMethod": "Deterministic local DOM timeline sampled and encoded; not original-site recording"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

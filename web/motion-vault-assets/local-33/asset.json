@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "33",
+  "directory": "local-33",
+  "title": "折叠面板手风琴平滑伸缩",
+  "version": "25ae7dc2e0258d6c",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "2073fffa3845be304cfe20b2d9a15da20eaaed23ce8a8a3c34fbbb722c385d32",
+    "demo.mjs": "382f89a7cc81bbc9cd38bc4563c18fcfa02380e65de83ad1a4808669d6461042",
+    "index.html": "c7c25c763ce7a8c57804b6b2bfd24e1c729b06756021c6109de9882064db77e9",
+    "DESIGN.md": "ed3663900b459c4d624fdeff038b343d80da625b931829baba743d13cb678126",
+    "IMPLEMENTATION.md": "aef9d3204d71023bcd6ff16dc08d6876d066285c086546f4c3e92991dec1c1fd",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "766aa84a01ba43f93bf35b35fd97235ffd41610bfc201704ce2f6d4cd09b7fb5",
+    "source-map.json": "122c0be750ddb3a38ffbeb7bdf3199bf1bc05269baf33c6e0728bde20eb119a6"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "25ae7dc2e0258d6c",
+    "captured": true,
+    "posterSha256": "fcfb442c4927454144ccb0eac6601382efdaf2f0d2095e723c0b0e1d5d19db58",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:55.628Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

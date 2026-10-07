@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 199,
+    "endLine": 199,
+    "code": " case'particles':label='分散的点 / 聚成一个想法';figure=`<svg class=\"x-svg x-particles\" viewBox=\"0 0 400 260\" aria-label=\"IDEA字样由粒子聚合形成\">${particlePositions.map((p,i)=>`<circle class=\"x-particle\" cx=\"${p[0]}\" cy=\"${p[1]}\" r=\"${i%5===0?2.5:2}\" fill=\"${i%7===0?'#b6976b':'#487664'}\"/>`).join('')}<text x=\"200\" y=\"222\" text-anchor=\"middle\">从零散，到成形。</text></svg>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

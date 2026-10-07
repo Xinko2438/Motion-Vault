@@ -1,0 +1,82 @@
+[
+  {
+    "path": "source/js/demo1/index.js",
+    "role": "original_source",
+    "sha256": "89c08c09e94f78b1dbff6048f2b617fd6e7e8c87e8d5cff04d6a782b971c3848"
+  },
+  {
+    "path": "source/js/demo2/index.js",
+    "role": "original_source",
+    "sha256": "c232981754c69120aa7011488b9d9cf64cba7e85d6fe24c5969311137b06341c"
+  },
+  {
+    "path": "source/js/demo3/index.js",
+    "role": "original_source",
+    "sha256": "6325bc715c88c528afd7e5d9ab9e9c6b4662bd606e0338c8390f174a86641b06"
+  },
+  {
+    "path": "source/js/demo4/index.js",
+    "role": "original_source",
+    "sha256": "0563d3fc314c2959da1bbbba1c2e4f846643dccfdcbb542c9591b5e5d3baf6b6"
+  },
+  {
+    "path": "source/js/demo5/index.js",
+    "role": "original_source",
+    "sha256": "a2a18360b2abe15f3198352b5d6cfa32ff7fd25770325af742aca22e09e3814a"
+  },
+  {
+    "path": "source/js/demo6/ElasticColumns.js",
+    "role": "original_source",
+    "sha256": "ac0ce68537d8670d40bda042a7f11bf9384200ee19125453985d324b942fc48c"
+  },
+  {
+    "path": "source/js/demo6/index.js",
+    "role": "original_source",
+    "sha256": "103ba8e68c9de5f5f718757861558fb714df542907ce0f66f572f618ac86f702"
+  },
+  {
+    "path": "source/js/demo7/AccordionFold.js",
+    "role": "original_source",
+    "sha256": "7bbf0731eba21f3bc329a4bcee50c4a51b546740db2b1b9694276094d714bd9a"
+  },
+  {
+    "path": "source/js/demo7/index.js",
+    "role": "original_source",
+    "sha256": "3efd12b0a9ba7c10aad9686b61da741e1c0a78b5474cfa9e3275e3aa0d928ea7"
+  },
+  {
+    "path": "source/js/demo8/ElasticTwist.js",
+    "role": "original_source",
+    "sha256": "a9c654bb17a964984655d859b5a18eed07c1ff85ab2ad10ecf4339b03d8382c2"
+  },
+  {
+    "path": "source/js/demo8/index.js",
+    "role": "original_source",
+    "sha256": "c7b0b26f8e6e2d4fe82e1c4a7705c69de795b5b3b1963fe47c967a023f800b18"
+  },
+  {
+    "path": "source/js/demo9/Whirlpool.js",
+    "role": "original_source",
+    "sha256": "6c4fc5b5c01a613d210e0d2355b6c03a0b60e8c9cd2ca26cceec055b1284f998"
+  },
+  {
+    "path": "source/js/demo9/index.js",
+    "role": "original_source",
+    "sha256": "5467d8ead3df1b8f570889aceb20f86f7d09d65599984f5170c596d5b0a25a6f"
+  },
+  {
+    "path": "source/js/three.core.js",
+    "role": "original_source",
+    "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+  },
+  {
+    "path": "source/js/three.module.js",
+    "role": "original_source",
+    "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+  },
+  {
+    "path": "source/js/utils.js",
+    "role": "original_source",
+    "sha256": "0b82d620c6be3a5fb20393f78922ef2efa930349c570ee52a23b5da35af98f51"
+  }
+]

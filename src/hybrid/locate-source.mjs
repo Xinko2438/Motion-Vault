@@ -1,0 +1,4 @@
+import {readFile,readdir} from 'node:fs/promises';import path from 'node:path';import {project,put} from '../../scripts/build-hybrid.mjs';
+const terms=['StylizedWater','RevealingWebGLImages','3DCluster','what-i-love user:mattverse'];const results=[];
+for(const term of terms){try{const r=await fetch('https://api.github.com/search/repositories?q='+encodeURIComponent(term)+'&per_page=8',{headers:{'User-Agent':'MotionVault-SourceResearch','Accept':'application/vnd.github+json'},signal:AbortSignal.timeout(15000)});if(!r.ok)throw new Error('HTTP '+r.status);const d=await r.json();results.push({term,total:d.total_count,items:d.items.map(i=>({repository:i.html_url,description:i.description,homepage:i.homepage,license:i.license?.spdx_id,branch:i.default_branch}))});}catch(e){results.push({term,error:e.message});}}
+await put(project,'lineage/current/source-lookup.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));

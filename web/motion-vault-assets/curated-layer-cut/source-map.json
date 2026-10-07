@@ -1,0 +1,86 @@
+[
+  {
+    "file": "css/base.css",
+    "sha256": "8d59f1ff3e5a8be96876b621d63df747f475aab8c81abfcd1077f5de1d798901",
+    "bytes": 5850,
+    "path": "source/css/base.css",
+    "role": "original_source"
+  },
+  {
+    "file": "js/content.js",
+    "sha256": "f2be9bf0db7e58a5e4f025eabcafd793a3213499d07ecc6b695861a4724f197f",
+    "bytes": 920,
+    "path": "source/js/content.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/demo1/index.js",
+    "sha256": "c4be35f13557b8fd466d74c8a2d6b8c9548b28f7af4e77332aa1ca3c46b01dfa",
+    "bytes": 5773,
+    "path": "source/js/demo1/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/demo2/index.js",
+    "sha256": "06fd19ca0a94bec8955ca22e7ebc687910b496711a6edcd72d8c196b3bb0a61b",
+    "bytes": 5270,
+    "path": "source/js/demo2/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/demo3/index.js",
+    "sha256": "755cf74983b1be5163cc6abdc9c556489e4f68ed80a462d78131d2fb2db54aa7",
+    "bytes": 6507,
+    "path": "source/js/demo3/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/demo4/index.js",
+    "sha256": "17bf60d9f6bea5b8fd02a21c429f8e0e476234ebad3a461bccb9dbac51560b3c",
+    "bytes": 4447,
+    "path": "source/js/demo4/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/demo5/index.js",
+    "sha256": "8e60bea762ed2158dd011cdf7ba0927e8f717ae49883e16f304705e75584abfa",
+    "bytes": 5904,
+    "path": "source/js/demo5/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/demo6/index.js",
+    "sha256": "48060139bf96231c871b2646c64f2ed4c253d7afc7f5540167dc411cab1bd7cc",
+    "bytes": 4851,
+    "path": "source/js/demo6/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/gsap.min.js",
+    "sha256": "efc85c7eb141819717cda0033484a84b1c890d13b02e355a2fec79d424b20e7a",
+    "bytes": 71520,
+    "path": "source/js/gsap.min.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/imagesloaded.pkgd.min.js",
+    "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "bytes": 5485,
+    "path": "source/js/imagesloaded.pkgd.min.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/item.js",
+    "sha256": "9f85cb2a5e83a6c70795b99610e86e5c662aa3963f82ebefb4e887d19919452f",
+    "bytes": 860,
+    "path": "source/js/item.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/utils.js",
+    "sha256": "73dd43840366e5a2ce0d3e94b8de2383e2c009b27c2eff787e6e73e910e2fba7",
+    "bytes": 591,
+    "path": "source/js/utils.js",
+    "role": "original_source"
+  }
+]

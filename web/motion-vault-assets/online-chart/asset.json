@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-chart",
+  "directory": "online-chart",
+  "title": "数据切换连续过渡",
+  "version": "8501f87bf91e5faf",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "7adc170bc691da133b082aef90844e1c91d49c94e860fd2e8a772a5cbaecb394",
+    "demo.mjs": "2945e9dc1c67bb348cbea92fe3cd8eaf1cd5ceaac18a9f335837161f5269c1d9",
+    "index.html": "eedb9b869faffa0216228f780d4a0ca2ae770fb57f6ffd5b69ab2857cc39dfe5",
+    "DESIGN.md": "70b628092ec1307648c516f3a6b3462d7e2b39edef5a04a644bba313227cfb1f",
+    "IMPLEMENTATION.md": "7362face5e3f35991b35f80eb32d9bba316fc7a35ed78e0f47cc215d57a3f97a",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "33c02ff910fc863967013786e07b5433f557a96c578a4823d39a0c2909d3a4b2",
+    "source-map.json": "688ed54aea817a3208bd6953c01459300b0307ba19e638f05857cb8df53a11a1"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "8501f87bf91e5faf",
+    "captured": true,
+    "posterSha256": "18e6674df7dc23bb739daecac42873993d4463a1171981ef1890404bc7214e37",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:05.100Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

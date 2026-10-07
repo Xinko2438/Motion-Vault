@@ -1,0 +1,116 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-camera-route",
+  "title": "沿场景路线推进的镜头叙事",
+  "kind": "adapted_author_source",
+  "status": "local_source_verified",
+  "version": "c13b04d58ff390e8",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "602945ee4f7553367b925a7d48d1e093356e351b1d81e7583d00cb3d48138c18",
+    "videoSha256": "8255e2947a03ebb33ed0b3fb4020a1102b88e807e7d517c1b192bc5cbd9a3332",
+    "videoBytes": 1560262,
+    "implementationVersion": "c13b04d58ff390e8",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-scenes-a-20261006-one",
+      "at": "2026-10-06T16:46:22.366Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 6.8765,
+      "frameCount": 420,
+      "visualChanges": 392,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 144,
+        "contentFPS": 60,
+        "longestHoldSeconds": 0.036733
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "47526a4ca0b14205e085699d07012f08529c0a59fa3944341c4ed5f49115fcd6",
+    "IMPLEMENTATION.md": "1b9a3d023e5d43760e46640a3b098f576f7d94be8a14fa92896d91cb12a6b447",
+    "adapter/src/App.jsx": "5fa37e6505fa7786c083b0cdb613330605a7948f96ae586ff4c9e53e5217d00e",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "dependencies.json": "58dac89dca9a47a9ac136146b5199c29587f5be653fb250592c5194cbc8e1114",
+    "dependency-lock.json": "cb5f5640116b5734de4f5b868aeedbf8d39178f8984e57f04ca0f3c54621639f",
+    "parameters.json": "516d4da195c5ab7e4d3c30877367a59b1ec1fdf99d328328bcfa2176b2caa79f",
+    "provenance.json": "29a87df981c28d75acf4c209852fcc356efa97283a31bfa8cb7ea717905542bc",
+    "run/css/base.css": "cd1ea40e114f31d3f8fe968d1c3e028ced2585abd43fefb3b9344c5d3ce6f34d",
+    "run/draco/draco_decoder.js": "bafef89650284d70a1c51bce232cbeffb3f3f57394e7b695908406baf816edc4",
+    "run/draco/draco_decoder.wasm": "32b19d590ca48d4478f74788170c7b713e0addf1f8dbab5cb07e3b2ad5f6e32e",
+    "run/draco/draco_encoder.js": "6d4132d7b68d26d20a43a1ed59ff4b4a694fbaad41b339158db050dbd0e68f56",
+    "run/draco/draco_wasm_wrapper.js": "fc724571efc24138ffb7e430fb1c5c59a9760e64c1c3fdb98cc2503d110a3846",
+    "run/effect.css": "b694964db865d6de7a286c078154e845a3f8489d1e1641fb45772c1a2effd69c",
+    "run/effect.js": "4e60b648fffa225242bdf62a9d58aa26fb425700dd09741392884b2e334c52e3",
+    "run/environment.glb": "5afbb2194f47ef1601ee7b6fa2680e52cec5c77862b50eca402b5a12b0bbc2b9",
+    "run/index.html": "e78603430b24db895815d1b0b6419889ecd7188e3a3ad0e696d80fb61a205644",
+    "run/reference-icon.svg": "b56c007bad3bd0dc7cda249ea2444f58633792285bde15f883442c34573f77bd",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "30abaf6caf185704f0e4658259a8bd73b6b43fd2a273e95625674682ca6dbc1a",
+    "source/.gitignore": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+    "source/LICENSE": "85131f2bb7714dc895ff5d7d68db65acc5ad0e5dfd72162869fc8d63dec06056",
+    "source/README.md": "325532be4da1a9dae658f6f93e842d06de7cae055d9a6108fa482ddd89aee2fe",
+    "source/css/base.css": "cd1ea40e114f31d3f8fe968d1c3e028ced2585abd43fefb3b9344c5d3ce6f34d",
+    "source/favicon.ico": "273be61c4d44052fdc120100b460b8ca063f41a5688b1298adf80ba125488392",
+    "source/index.html": "83c6c3f0835334013e9016206f99f399078ae59a1b8986b7fa735783c00f57c3",
+    "source/package.json": "bb692c899e8d6e03bc1f7c80302de672c7dddc9486ff011abfd900e662d95f06",
+    "source/public/environment.glb": "5afbb2194f47ef1601ee7b6fa2680e52cec5c77862b50eca402b5a12b0bbc2b9",
+    "source/src/App.jsx": "48080f07841555e5861de11a5c790158e721643cf3ffe3de9d446ec8591681de",
+    "source/src/index.css": "2d7b2f117f14b497648dbe68561d3fd407bb6004e63b87655eb2885535043081",
+    "source/src/main.jsx": "0c6f50c4ce9aab1e198649089dd8b00b6789fedf893df018b1d6be3f86338c45",
+    "source/src/theatreState.json": "66759a07960229cb44be91d4fb94ebf2f1c66e0b9edd45a9e32046243db6af38",
+    "source/vite.config.ts": "c71685bb335166686e58eb32a44211d6e8f376faaa499f9cd5be4ffd9af01e46",
+    "source/yarn.lock": "68ce70fd1ce4a28749b7243637726c63595688c55952aa21cc1c5fd773b64bd5",
+    "upstream.json": "76fe59e61153a2272f52180fd635f4dd20288ded0ef8af315e04265f279bb9f1"
+  },
+  "verification": {
+    "at": "2026-10-06T16:46:22.366Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_wheel_cycle",
+        "durationMs": 7099,
+        "steps": 248,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          200,
+          110
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 393,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "c13b04d58ff390e8",
+    "standaloneBehaviorChanged": false
+  }
+}

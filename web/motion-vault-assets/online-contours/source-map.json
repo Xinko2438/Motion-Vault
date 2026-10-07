@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 289,
+    "endLine": 289,
+    "code": " case'contours':h=eSvg(`<g class=\"e-contours\">${Array.from({length:22},(_,i)=>`<path fill=\"none\" stroke=\"${i%5===0?'#809da6':'#adc0c0'}\" stroke-width=\"${i%5===0?1.5:.8}\"/>`).join('')}</g>${eText('CONTOUR / 01',39,36,'e-eyebrow')}${eText('A landscape, slowly changing.',39,319,'e-small')}`);break;",
+    "role": "authoritative_editable_source"
+  }
+]

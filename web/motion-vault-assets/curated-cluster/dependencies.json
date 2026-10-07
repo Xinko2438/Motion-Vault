@@ -1,0 +1,13 @@
+{
+  "direct": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "three": "0.185.1",
+    "three-start": "0.1.2",
+    "eventemitter3": "5.0.1"
+  },
+  "lockSha256": "660fc9d7b7119c2ac0aa2481065829e3cabca074cac40f3bd0192661a4b5a976",
+  "lifecycleScriptsExecuted": false
+}

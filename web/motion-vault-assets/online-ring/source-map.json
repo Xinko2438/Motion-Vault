@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 190,
+    "endLine": 190,
+    "code": " case'ring':label='六个片段 / 一段环行';figure=`<div class=\"x-ring-space\"><div class=\"x-ring\">${Array.from({length:6},(_,i)=>`<div class=\"x-ring-card\" style=\"transform:rotateY(${i*60}deg) translateZ(155px)\">${art(i)}<span>形态 / 0${i+1}</span></div>`).join('')}</div></div>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

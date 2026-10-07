@@ -1,0 +1,25 @@
+{
+  "preview": {
+    "type": "boolean",
+    "default": false
+  },
+  "viewport": {
+    "width": 1100,
+    "height": 670
+  },
+  "scrollProgress": {
+    "min": 0,
+    "max": 1,
+    "entry": "SourceDemo.scroll(progress)"
+  },
+  "technicalDependencies": {
+    "gsap": "3.13.0",
+    "imagesloaded": "5.0.0",
+    "splitting": "1.0.6",
+    "split-type": "0.3.4",
+    "@barba/core": "2.10.3",
+    "fontfaceobserver": "2.3.0",
+    "three": "0.182.0",
+    "vite-plugin-glsl": "1.5.5"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "4",
+  "directory": "local-4",
+  "title": "高阻尼抽屉秒开合",
+  "version": "599de2b33235f950",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "627e442cb78f64c098b8721cb91eb68a9ca8c926a03b577fe86b8064b2403693",
+    "demo.mjs": "3df52364ac8d9a1d36a4486159acc1c2b36bf7a5dc8180892abb23502a93c415",
+    "index.html": "cf0ead501b8654908701330917130512b54ca3f4dcec9e27b3913b3645d8a370",
+    "DESIGN.md": "228e31cffa737997fcb9ca296b43964ef13b9c96e89091d2055bfb03a0f640f2",
+    "IMPLEMENTATION.md": "f98918d0ba2448c40b026a874f88aede99882008ec1422e4a596d4e1a57519bd",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "c2dce5f299e4a00c07fb99c478e8b71e06b20c717040eeb079b3394fc930faa7",
+    "source-map.json": "ed48074eb37bbe34acb9f1d0f90f574f79e46ef8974f73edb3fbe0c9670ef52c"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "599de2b33235f950",
+    "captured": true,
+    "posterSha256": "5360b636e2ce545f52426dfcb793810787d4aa0bf9b1a4f440bf9e1a82573c97",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:48.762Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

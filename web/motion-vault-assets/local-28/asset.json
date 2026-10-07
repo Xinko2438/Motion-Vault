@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "28",
+  "directory": "local-28",
+  "title": "步骤滑竿空间位移",
+  "version": "6b184912916dd1dc",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "45c6f0cad8be6d269d5024980d0eef2a61aa0caf7c9bef85e8103270259c4f0e",
+    "demo.mjs": "40eb28a4654cbb5ec9e85f4c9fd69b9abdd6c56d6afd44ebd2bce94a787f55ae",
+    "index.html": "97facf7f3ee9d80339c377d54db5e2f55bfa3f06ff49ed9d1b4e8304ac41673d",
+    "DESIGN.md": "6f54ffe01e49614563f7a412d6aee0d2f154d8a96ee3fff34085cf73ef17c5a8",
+    "IMPLEMENTATION.md": "757e87da6047e83ee67671d47702a1e58486342d7964dc3b387b65aacffb76e4",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "b3f1c02b91aec71483c5985056cf1f1a10a6dc58d2688d0ae99984ee375e191a",
+    "source-map.json": "ef2ba83eddf003334829ee0f1ffc0dca434dec45a30b9a884001e29c86c8c380"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "6b184912916dd1dc",
+    "captured": true,
+    "posterSha256": "514f4f5c3715cd70f32b945558d7b702bf297400db768f038b4474c60a94ab81",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:54.009Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

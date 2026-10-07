@@ -1,0 +1,128 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "curated-fluid-xray",
+  "title": "实体与透视结构的流体显露",
+  "kind": "adapted_author_source",
+  "status": "local_source_verified",
+  "version": "32120f3862e59169",
+  "entry": "run/effect.js",
+  "run": "run/index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "source": "source",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "kind": "adapted_source_render",
+    "captured": true,
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "86c725372727b52a92827d5386865898b228e8143b3b413a765abe345261e9b9",
+    "videoSha256": "4daa9a4c87ec84e71e1006744d7359c33e9ef447eefe8763010a86e9801aab7c",
+    "videoBytes": 319217,
+    "implementationVersion": "32120f3862e59169",
+    "captureMethod": "Native browser MP4 recording with source RAF or actual pointer journeys, converted to H.264 without FPS upsampling; original local implementation, not an original-site recording.",
+    "capture": {
+      "runId": "native-repairs-20261006-one",
+      "at": "2026-10-06T17:06:52.373Z",
+      "viewport": {
+        "width": 1100,
+        "height": 670,
+        "deviceScaleFactor": 1,
+        "mobile": false
+      },
+      "maxFrameRate": 60,
+      "codec": "h264",
+      "timing": "VFR; original recorded frame intervals",
+      "durationSeconds": 5.4433,
+      "frameCount": 332,
+      "visualChanges": 310,
+      "firstWindow": {
+        "startSeconds": 0,
+        "endSeconds": 2.4,
+        "visibleChanges": 131,
+        "contentFPS": 54.583333333333336,
+        "longestHoldSeconds": 0.11559999999999993
+      }
+    }
+  },
+  "hashes": {
+    "DESIGN.md": "923903f664a66bc4e4f35becefe2e4c77c830cdfe5e5dee47a8cc83888304a81",
+    "IMPLEMENTATION.md": "b57e081cd09aaafe4a9f5b3a77c7af20673c47edb5e22983132a3f8290a1b452",
+    "adapter/src/scenes/Scene.js": "451e3cd33dd05a685eb7ca172193e5a95f5c46575fb0366e58a1df238389c242",
+    "adapter/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "dependencies.json": "7c0a205de0c3a1f0dd959847372a770169b4b37f03a5c00d0a26ccc56b7f705f",
+    "dependency-lock.json": "11f70cffad0ea2aabf61aeac096c6e9d6afabf271e51f9408716a8289486369e",
+    "parameters.json": "51d638301cb41543d6dba439798b7b3a34fa5806135a8b2dfe4be4ffc1ecbdde",
+    "provenance.json": "4f77da19216395e1f69f03a79fff9003af063fd64c25fe4ab41550fcf74169b2",
+    "run/draco/draco_decoder.js": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f",
+    "run/draco/draco_decoder.wasm": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+    "run/draco/draco_encoder.js": "6d4132d7b68d26d20a43a1ed59ff4b4a694fbaad41b339158db050dbd0e68f56",
+    "run/draco/draco_wasm_wrapper.js": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+    "run/effect.css": "6ddf96b2f255f9f4d0a68502d2b68b4998ddcfe89c7cc4226879a52296c6b03e",
+    "run/effect.js": "da5c4628ecffcd04ae116382d1b395d3d64dc3d7581601b356735d91f70fb315",
+    "run/index.html": "3cbf99679d86fd85987bd9ca28b9c709201369c338bd443ccfbfad8992b295d6",
+    "run/man_comp-transformed.glb": "574e80420eefccba33603135e4367082f58c397d5bcfe4607d43f7703d3ce0bc",
+    "run/reference-icon.svg": "b56c007bad3bd0dc7cda249ea2444f58633792285bde15f883442c34573f77bd",
+    "run/skeleton_comp-transformed.glb": "febfff3e0fff1bfe9ea5c5c49356f520e1ffddaa6aac2ee4e61881dc564d3893",
+    "run/vault-isolation.js": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "source-map.json": "82455233edc7f4a10170daf378a735ad4dd3ff265bc11be5d30dee20ce540b23",
+    "source/.gitignore": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+    "source/CODROPS-LICENSE.txt": "79cedde9705a0e1c29abf7dc5956db042fcf64481c9916fee88ef839c52abf57",
+    "source/index.html": "61232759a632bb7144c34db2bf0f7bcea3cf4f5bb2669a4c9a02ce2f8ed9c744",
+    "source/package-lock.json": "30d2b5920678f60dd045f974fc62391612497b8af062a9b61972a0f1b937c54d",
+    "source/package.json": "fe95d071a01792ceec8100d4f98de0ac96362f9a5c88c85f25b30ca211ff7618",
+    "source/public/man_comp-transformed.glb": "574e80420eefccba33603135e4367082f58c397d5bcfe4607d43f7703d3ce0bc",
+    "source/public/skeleton_comp-transformed.glb": "febfff3e0fff1bfe9ea5c5c49356f520e1ffddaa6aac2ee4e61881dc564d3893",
+    "source/src/core/Three.js": "cea680c7a68f6150cfcb3a3ca51bb82fb147c69f6bb79f8d94f6d3dfd76f1b7c",
+    "source/src/core/WebGLContext.js": "3318c64541de8144d8e6a40bfb9a4de0e82c24ac9fbb906e9b75fe4922fe60cf",
+    "source/src/main.js": "5b432c4f9a0a96b523fab8931976b7c630b6ad914f38236cce73a29ff76a01ee",
+    "source/src/materials/fresnelMaterial.js": "313748d779935938e6d4fc0ddf25ba7531da48369a4320b405f32e20860688d2",
+    "source/src/postprocessing/FluidSim.js": "8e94af486bc5e2d72d01cfa0229db144d663bed08fe01ced90d9f768df853f89",
+    "source/src/postprocessing/PostProcessing.js": "861e771e5cd512251f881aa1225a65587b753a43a2c2de491e404acef9790d33",
+    "source/src/scenes/Scene.js": "c907832a8e28d7042bcabd3ebdec3a3fdc82ed886302dd5cd314369a75c2ecfb",
+    "source/src/shaders/compositePass.frag.glsl": "d1a982fa443f90ea8a4ce49f14b561ab1b2fddb5490acecc0c7936b29cf4637f",
+    "source/src/shaders/crt.frag.glsl": "c7b7b4385816d2c8fc1593a18edc6029a9f6b4e74aded0f683529a3dfb8ec640",
+    "source/src/shaders/effectPass.vert.glsl": "633310880aaf5e862bac1f2c170366a52da9e2dd818fdd90125a938df098a4ca",
+    "source/src/shaders/fluid.frag.glsl": "e7d56217ed184151c8b8aa72f60ed5d650ce3b14217af6d3a7157af878bd84a9",
+    "source/src/shaders/passthrough.vert.glsl": "fc75d2f6e3212f1638194ffb69e7cc32469064c361d34b594cafabb2dd584e27",
+    "source/src/style.css": "70d69e4d8ea1334eab5433cf391364f2f9dd0f3b36e9baf0205c05aa57858fdd",
+    "source/src/utils/CameraRig.js": "12a852d5bf95dca2cf0fdc176038453a699befdd1241e7678b04ef05d9ec9c43",
+    "source/src/utils/FullscreenQuad.js": "37ffae4fbae28d3946c7b3ea6f7847400c872440763957a962ff2c70c2c72613",
+    "source/src/utils/ImportGltf.js": "ea09481a6f8c245bdeac10d5d72a3b1774fe3e494d1573d8b61ae5c4cbce3c5a",
+    "source/src/utils/InstancedModel.js": "34742d00a7d331b025531b8cbcbbf25fa997345ad6f5c4cd363f3134d7f5b0ec",
+    "source/src/utils/MouseTrail.js": "8d8096ee01fb4c7d0bbd760dd708667b92825585d0078c63841766e31713917e",
+    "source/vite.config.js": "0f3c22f954e44821c267bdad5766a44b75673205297bf45347c27ec2ea4f5c8d",
+    "upstream.json": "76b2ac21aa0531651b1d6a05b2962d9533ae541f41baf62e44ee679ef894097f"
+  },
+  "verification": {
+    "at": "2026-10-06T17:06:52.373Z",
+    "localRuntime": true,
+    "realInput": [
+      {
+        "action": "real_pointer_move_cycle",
+        "durationMs": 5520,
+        "steps": 286,
+        "from": [
+          550,
+          350
+        ],
+        "amplitude": [
+          200,
+          110
+        ]
+      }
+    ],
+    "scrollDrive": null,
+    "distinctFrames": 311,
+    "errors": [],
+    "noExternalRequests": true
+  },
+  "integration": {
+    "transport": "opaque_sandbox_local_assets",
+    "adapter": "run/vault-isolation.js",
+    "sha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "coreImplementationVersion": "32120f3862e59169",
+    "standaloneBehaviorChanged": false
+  }
+}

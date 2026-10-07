@@ -1,0 +1,5 @@
+// 浮动提示精准锚定
+// Runnable entry backed by the shared local engine; see IMPLEMENTATION.md for the exact core locations.
+import {createRuntime} from '../shared/runtime.31fd3f9a83f9.mjs';
+export const reference={"id":31,"title":"浮动提示精准锚定","desc":"鼠标悬停问号图标，解释小气泡伴随极其轻微的 4px 向上浮动淡入。","design_value":"在复杂表单中解释专业术语，按需索取，不占原本页面版面。","avoid":"光标移走时必须立即淡出，不能留下阻挡下方输入的残留。","tech":"opacity: 0->1; transform: translateY(4px)->translateY(0);","demo":"\u003cdiv style=\"display:flex; align-items:center; gap:8px;\">\u003cspan style=\"font-size:12px;\">开票税号\u003c/span>\u003cspan style=\"width:16px; height:16px; border-radius:50%; background:rgba(125,125,125,0.2); display:grid; place-items:center; font-size:10px;\">?\u003c/span>\u003cdiv style=\"background:var(--card-bg); padding:4px 8px; border-radius:4px; font-size:10px; border:1px solid var(--card-border);\">18位税号\u003c/div>\u003c/div>","scene":"flow","uses":[{"scene":"workspace","task":"context","placement":"精细工具的说明入口","goal":"让帮助信息靠近当前操作对象"}],"preview_mode":"pointer","source_kind":"independent_code","source_name":"既有本地代码演示","source_url":null};
+export function mount(host,options={}){return createRuntime(host,reference,options);}

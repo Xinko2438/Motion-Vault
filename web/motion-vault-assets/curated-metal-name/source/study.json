@@ -1,0 +1,5 @@
+{
+  "id": "curated-metal-name",
+  "implementation": "independent",
+  "reason": "原作案例未提供可核实的开放源码；仅研究公开描述，独立编写字形轮廓到空间结构的实现。"
+}

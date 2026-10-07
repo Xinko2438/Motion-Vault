@@ -1,0 +1,52 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "online-contours",
+  "directory": "online-contours",
+  "title": "等高线柔波演化",
+  "version": "517165a17c5b4a5e",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "89854475fddbf1c4a9f4d03c9f09a955d69168293cc1b44671414a66fbd7af05",
+    "demo.mjs": "14c1c536c0c25b2d8215690b5856a75e094ae1e7954f974808769b670221809a",
+    "index.html": "ebd7d6966cfa9cdd0a7784e983303dcfa7b4a990d4bbbc132df621d6a41026c2",
+    "DESIGN.md": "7504aff85083ded5d919e72ca5bd587b1cb62fab8180f247b2986606a8d41610",
+    "IMPLEMENTATION.md": "0c5b3d6a455367ec007e42ee9cbb3db3769257b402d1776db0d4d33b38d39a2a",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "7847182fc1ae8e5960ecdce04259e26ee918716dffe157649bb868340b57f19d",
+    "source-map.json": "814e8609a3043c6aef11e9b5d17627da3351e112252e5eb6f33aba0c4825f932"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "implementationVersion": "517165a17c5b4a5e",
+    "captured": true,
+    "posterSha256": "58fe58b649b9b70dfae2e96731eff39cae740506079deb967b13a2aab6a1f42a",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:17:12.900Z",
+    "videoSha256": "f5b5bc7b7d8e40eb0065b80be65dfadc86404a67e5a537b08701b80cbec62617",
+    "videoBytes": 328158,
+    "frameCount": 140,
+    "distinctFrames": 140,
+    "durationSeconds": 7,
+    "fps": 20,
+    "captureMethod": "Deterministic local DOM timeline sampled and encoded; not original-site recording"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

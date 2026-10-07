@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 196,
+    "endLine": 196,
+    "code": " case'wave':label='由一个点 / 向周围扩散';figure=`<svg class=\"x-svg x-wave\" viewBox=\"0 0 400 260\" aria-label=\"波纹点阵\">${Array.from({length:135},(_,i)=>`<circle class=\"x-wave-dot\" cx=\"${39+i%15*23}\" cy=\"${35+Math.floor(i/15)*23}\" r=\"3\" fill=\"#3e6b59\"/>`).join('')}</svg>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "file": "css/base.css",
+    "sha256": "f0b57bb8d6d2608ad832ca1cd9bafd86d03c2deeb8ccf109dbd366fa1bcb7e5e",
+    "bytes": 5878,
+    "path": "source/css/base.css",
+    "role": "original_source"
+  },
+  {
+    "file": "js/Flip.min.js",
+    "sha256": "d4a08d158eef2b0e01816bf5402ced709cee8e9f1a12a214772a7003a6d2055c",
+    "bytes": 24812,
+    "path": "source/js/Flip.min.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/gallery.js",
+    "sha256": "a68334fe1ddc1ba150d55d9147b4460f2dbb3d28bfc674f39ecd21e74c5e236d",
+    "bytes": 551,
+    "path": "source/js/gallery.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/gsap.min.js",
+    "sha256": "efc85c7eb141819717cda0033484a84b1c890d13b02e355a2fec79d424b20e7a",
+    "bytes": 71520,
+    "path": "source/js/gsap.min.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/imagesloaded.pkgd.min.js",
+    "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "bytes": 5485,
+    "path": "source/js/imagesloaded.pkgd.min.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/index.js",
+    "sha256": "4df65484fb2e4a88d940c192d2303d60a67b2c61ec2161b7e08ca808eb66f578",
+    "bytes": 11956,
+    "path": "source/js/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/loader.js",
+    "sha256": "1352eea403a509f8708b60bf62a5c4b435946c9e74ce37dafc82658996f71c0e",
+    "bytes": 3439,
+    "path": "source/js/loader.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/navigation.js",
+    "sha256": "9e3bf8615a925cffb1f7c070144ddd76637878af20b122c6e50ad08cd4236595",
+    "bytes": 1726,
+    "path": "source/js/navigation.js",
+    "role": "original_source"
+  },
+  {
+    "file": "js/utils.js",
+    "sha256": "d44a787cac5830331b94a85f25dd64370aa8dbe4c2d4197f51f2d166c336430c",
+    "bytes": 191,
+    "path": "source/js/utils.js",
+    "role": "original_source"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "schema": "motion-vault.design-asset.v1",
+  "id": "34",
+  "directory": "local-34",
+  "title": "磁吸光标物理拉扯",
+  "version": "ac1a4ff94e6e8f4c",
+  "status": "local_implementation",
+  "entry": "entry.mjs",
+  "run": "index.html",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "core": "../shared/runtime.mjs",
+  "style": "../shared/runtime.css",
+  "hashes": {
+    "entry.mjs": "6f9d6849fc6328b4017bf23b8e2d0404414edd413583d2f45e5c79f512e3f15c",
+    "demo.mjs": "682a520933594823f3c06213c6263d6fa85c06e000c37f86253a9d77c6e9e36e",
+    "index.html": "c9ab871683f4bbd3c3c0bda352c0fe2e0c25ea6fc351a494a75ec740f19ebb54",
+    "DESIGN.md": "f25f90c8b2a926db31b9195bf7e25dab7a91a372c27a9654a0cad9d27c3f172b",
+    "IMPLEMENTATION.md": "d57adb69e2b1d8efa1dc8fffd8242ad8f1a66d42f794f944acf14615ae40b599",
+    "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+    "provenance.json": "a5b85fbbcf97a13dc0ebbe2c5c578dad75ff1498d3a2a14f8e2bc511f85d5f7b",
+    "source-map.json": "4d9d907162f86072f470db14152ad89a779e804767c7ca9cb8bbd88d30d9dd8b"
+  },
+  "shared_hashes": {
+    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+  },
+  "preview": {
+    "kind": "local_render",
+    "poster": "poster.jpg",
+    "video": null,
+    "implementationVersion": "ac1a4ff94e6e8f4c",
+    "captured": true,
+    "posterSha256": "12849c004a851333bffe48630767c9f54200945656bec805d82f4c5a3c54b0db",
+    "width": 656,
+    "height": 400,
+    "capturedAt": "2026-10-06T08:16:56.122Z"
+  },
+  "upstream_visual_verified": false,
+  "productionComponent": false,
+  "taskSelectionRequired": true
+}

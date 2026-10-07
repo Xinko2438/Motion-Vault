@@ -1,0 +1,18 @@
+{
+  "id": "curated-camera-route",
+  "repository": "https://github.com/AndrewPrifer/CodropsCameraFlyThroughTutorial",
+  "commit": "59ba0f91938ae65315ac58e4dc5cd1ab783372e6",
+  "archiveSha256": "f22d1a26816ad84a68b1a9a7399f7ed4188a875b5ab69f47ae1d87f27b1e06f5",
+  "capturedAt": "2026-10-06T09:56:03.194Z",
+  "fontFilesExcluded": true,
+  "licenses": [
+    {
+      "file": "LICENSE",
+      "text": "MIT License\n\nCopyright (c) 2009 - 2022 [Codrops](https://tympanus.net/codrops)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+    }
+  ],
+  "licenseBasis": "repository-file",
+  "status": "source_pinned_pending_adaptation",
+  "files": 14,
+  "bytes": 524630
+}

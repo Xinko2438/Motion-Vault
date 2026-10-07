@@ -1,0 +1,22 @@
+[
+  {
+    "path": "source/src/main.js",
+    "role": "original_source",
+    "sha256": "7cc8daa7e71fdb981ed6a2492b497645478b33f3d0728cbff35254bebcc7b9c5"
+  },
+  {
+    "path": "source/src/dual-wave/DualWaveAnimation.js",
+    "role": "original_source",
+    "sha256": "e9c4697bd728c3f51e57183a8b277b10b5d6c30977af373d14b1d5c5c4ff32ad"
+  },
+  {
+    "path": "source/src/utils.js",
+    "role": "original_source",
+    "sha256": "bf77cb3259fa5c6d66cfb6b1ed2f15ffa8bc35b78e6c483d7a4b3c12fa7c5d8d"
+  },
+  {
+    "path": "source/vite.config.js",
+    "role": "original_source",
+    "sha256": "0593fc5222bba05e7255d90f11a63938682e742d289bc939ffcafc1f3e709884"
+  }
+]

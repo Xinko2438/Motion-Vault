@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 274,
+    "endLine": 274,
+    "code": " case'spot':h=`<div class=\"e-spot-panel\"><div class=\"e-spot-base\">${art(1)}<strong>OTHER<br>SIDE.</strong></div><div class=\"e-spot-top\">${art(2)}<strong>OTHER<br>SIDE.</strong></div></div><span class=\"e-kicker\">A different layer, at the same point.</span>`;break;",
+    "role": "authoritative_editable_source"
+  }
+]

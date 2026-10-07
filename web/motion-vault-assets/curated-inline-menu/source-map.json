@@ -1,0 +1,44 @@
+[
+  {
+    "file": "src/css/base.css",
+    "sha256": "6a8f246a9ae260fa6511ca1ab15287b0ed068ae2d95856b53233039ef5782b2a",
+    "bytes": 6716,
+    "path": "source/src/css/base.css",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/gallery.js",
+    "sha256": "8449d5fac5bec461532f249a70df8b3fbc0682b6b1f46c73e7bc4e2c18f5f28e",
+    "bytes": 154,
+    "path": "source/src/js/gallery.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/index.js",
+    "sha256": "796f0a5b347975725564cddb7c36ae1f0fe7f21ce955c10c2713b56e73174d50",
+    "bytes": 356,
+    "path": "source/src/js/index.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/menu.js",
+    "sha256": "27f10b2f1db5ddca588b78ea57ef36bef3aa138cb89c81a0712d5ab14143fda8",
+    "bytes": 9280,
+    "path": "source/src/js/menu.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/menuItem.js",
+    "sha256": "50bc26e670439604bd5c3332a06563d8645ce4ad7e209bee50cb8ad19202a44a",
+    "bytes": 294,
+    "path": "source/src/js/menuItem.js",
+    "role": "original_source"
+  },
+  {
+    "file": "src/js/utils.js",
+    "sha256": "6ded73a3560473cb68c4d9336021b0d116d425f959ffd4487d674c8cab98a1e4",
+    "bytes": 503,
+    "path": "source/src/js/utils.js",
+    "role": "original_source"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "source/src/main.jsx",
+    "role": "original_source",
+    "sha256": "0c6f50c4ce9aab1e198649089dd8b00b6789fedf893df018b1d6be3f86338c45"
+  },
+  {
+    "path": "adapter/src/App.jsx",
+    "role": "local_adapter",
+    "sha256": "5fa37e6505fa7786c083b0cdb613330605a7948f96ae586ff4c9e53e5217d00e"
+  },
+  {
+    "path": "source/src/App.jsx",
+    "role": "original_source",
+    "sha256": "48080f07841555e5861de11a5c790158e721643cf3ffe3de9d446ec8591681de"
+  },
+  {
+    "path": "source/vite.config.ts",
+    "role": "original_source",
+    "sha256": "c71685bb335166686e58eb32a44211d6e8f376faaa499f9cd5be4ffd9af01e46"
+  }
+]
