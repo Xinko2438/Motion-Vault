@@ -12,19 +12,19 @@
 <header class="top"><a class="brand" href="motion-vault.html"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span>motion vault</a><div class="actions"><span class="hub-status" id="hubStatus">连接中</span><button class="primary" id="addBtn">＋ 添加参考</button></div></header>
 <main>
 <section class="intro"><div><h1>Motion Library<span>.</span></h1><p>值得停留的交互，留给下一次创作。</p></div><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg><input id="searchInput" type="search" aria-label="搜索名称、用途或设计思路" placeholder="搜索名称、用途或设计思路"></label></section>
-<nav class="view-tabs" id="viewTabs" aria-label="参考状态"><button data-view="library" aria-pressed="true">已收录</button><button data-view="pending" id="pendingToggle" aria-pressed="false">新增待审 <span id="pendingCount">0</span></button><button data-view="hidden" id="hiddenToggle" aria-pressed="false">已下架 <span id="hiddenCount">0</span></button><button class="quiet review-export" id="exportReview" hidden>导出私人审查</button></nav>
+<nav class="view-tabs" id="viewTabs" aria-label="参考状态"><button data-view="library" aria-pressed="true">正式 <span id="formalCount">0</span></button><button data-view="pending" id="pendingToggle" aria-pressed="false">预选 <span id="pendingCount">0</span></button><button data-view="hidden" id="hiddenToggle" aria-pressed="false">已下架 <span id="hiddenCount">0</span></button><button class="quiet review-export" id="exportReview" hidden>导出私人审查</button></nav>
 <div class="toolbar">
 <nav id="sceneTabs" class="tabs" aria-label="按用途浏览"></nav>
 <div class="toolbar-actions">
 <div class="preview-modes" id="previewModes" role="group" aria-label="卡片预览方式"><button type="button" data-preview-mode="preview" aria-pressed="true" title="轻量预览；原有鼠标互动组件仍可跟手">预览</button><button type="button" data-preview-mode="interactive" aria-pressed="false" title="悬停运行本地网页，鼠标移动、点击和拖拽直接作用于效果">实时交互</button></div>
-<button class="quiet" id="savedToggle" aria-pressed="false">书签</button><details class="more"><summary aria-label="更多操作">···</summary><div class="more-panel"><button id="themeBtn">切换明暗</button><button id="exportPublic">导出参考清单</button><a href="motion-vault-catalog.json" target="_blank" rel="noopener">Agent 目录 ↗</a></div></details><span class="count" id="resultCount" aria-live="polite"></span>
+<button class="quiet" id="savedToggle" aria-pressed="false">书签</button><details class="more"><summary aria-label="更多操作">···</summary><div class="more-panel"><button id="themeBtn">切换明暗</button><button id="exportPublic">导出正式清单</button><a href="motion-vault-catalog.json" target="_blank" rel="noopener">Agent 目录 ↗</a></div></details><span class="count" id="resultCount" aria-live="polite"></span>
 </div></div>
 <nav id="taskTabs" class="task-tabs" aria-label="具体设计任务" hidden></nav><p id="notice" role="status"></p><section id="grid" class="motion-grid" aria-label="设计参考"></section>
 </main>
 <footer class="bottom"><span>本地实现 · 设计拆解 · 同版本预览</span><a href="http://127.0.0.1:4380/app#design-references" target="_blank" rel="noopener">采集与媒体管理 ↗</a></footer>
 </div>
 <dialog id="modal" aria-labelledby="modalTitle">
-<header class="dialog-top"><div><span id="modalSource"></span><span class="revision" id="modalRevision"></span></div><button class="quiet" id="modalCollectBtn" hidden>收录</button><button class="quiet" id="modalArchiveBtn">下架</button><button class="close-btn" id="closeBtn" aria-label="关闭详情">×</button></header>
+<header class="dialog-top"><div><span id="modalState" class="collection-state"></span><span id="modalSource"></span><span class="revision" id="modalRevision"></span></div><button class="quiet" id="modalCollectBtn" hidden>提拔为正式</button><button class="quiet" id="modalArchiveBtn">下架</button><button class="close-btn" id="closeBtn" aria-label="关闭详情">×</button></header>
 <div class="detail-layout">
 <section class="preview-column"><div class="detail-stage" id="modalStage"></div><div class="detail-controls">
 <div class="preview-modes" id="detailModes" role="group" aria-label="详情预览方式"><button type="button" id="runPreview" aria-pressed="true" title="查看轻量预览">预览</button><button type="button" id="runLocal" aria-pressed="false" title="运行这条参考的本地代码，保留真实鼠标交互">实时交互</button></div>

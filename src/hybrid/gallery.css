@@ -33,3 +33,9 @@
 .local-source-frame{pointer-events:auto}
 @media(max-width:580px){.toolbar-actions{justify-content:space-between;padding:8px 0}.preview-modes button{padding:5px 9px}.toolbar-actions .count{margin-left:0}}
 @media(max-width:580px){.view-tabs{gap:20px;flex-wrap:wrap}.view-tabs .review-export{font-size:10px}.view-tabs>button{font-size:11px}.private-review label{flex-wrap:wrap;gap:5px}}
+
+/* Collection actions stay on the card; no second management page. */
+.collect-btn{white-space:nowrap}.collect-btn[data-secondary=true]{color:var(--muted)}
+.collection-state{display:inline-block;margin-right:12px;color:var(--text);font-weight:600}
+.meta{flex-wrap:wrap}.meta>span{flex:1 1 70px}.meta .collect-btn,.meta .archive-btn,.meta .bookmark{flex:0 0 auto}
+@media(max-width:580px){.dialog-top{gap:6px;flex-wrap:wrap}.dialog-top .quiet{white-space:nowrap}.dialog-top>div{min-width:100%;font-size:10px}.meta{gap:6px}}
