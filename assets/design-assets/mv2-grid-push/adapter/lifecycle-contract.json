@@ -1,0 +1,44 @@
+{
+  "id": "mv2-grid-push",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "instant-fullscreen-reparent-and-return-without-Flip-or-neighbor-motion",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "source_path_present_runtime_unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/grid-push.mjs",
+  "reducedMotionModuleSha256": "64b8b11bad6d933ecdbe25badf5993553f9f5cc979f7224f05d11ab0f3dabd26",
+  "variants": [
+    {
+      "entry": "source/js/demo1/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo2/index.js",
+      "output": "run/effect-index2.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo3/index.js",
+      "output": "run/effect-index3.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "All three variants share the same selected-image intent for click, Enter, Space, and Escape. No synthetic pointer or click events are dispatched.",
+    "Reduced motion reparents the original selected photo immediately, preserves every photo and its original grid owner, and restores the exact authored grid classes and inline styles on return.",
+    "Normal-mode Flip durations, ease, scale/absolute/prune options, and direction logic remain authored. Input is locked until both animations complete; Escape, interruption, motion-preference changes, and disposal settle ownership deterministically.",
+    "Source/state tests are not browser, visual, focus, assistive-technology, or mobile acceptance. Browser runtime remains unrun."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

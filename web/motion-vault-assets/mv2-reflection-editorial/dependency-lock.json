@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/codrops/ReflectionScroll",
+  "commit": "e89432e83b3be44cb958d7f0d9303d79708f5252",
+  "files": [
+    {
+      "file": "run/js/imagesloaded.pkgd.min.js",
+      "version": "5.0.0",
+      "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    },
+    {
+      "file": "run/js/gsap.min.js",
+      "version": "3.12.2",
+      "sha256": "efc85c7eb141819717cda0033484a84b1c890d13b02e355a2fec79d424b20e7a",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrollTrigger.min.js",
+      "version": "3.12.2",
+      "sha256": "65f6c13748b0c8d8f9eabd0373a130ac293b3f16bf34aaa946d953980372b932",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/lenis.min.js",
+      "version": null,
+      "sha256": "803334a7588211245a127660d3e381645408e23744c65f73255f17cda0b6b97a",
+      "versionEvidence": "unversioned upstream bytes pinned by commit and hash",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    }
+  ],
+  "sourceFileHashes": {
+    "README.md": "b02fe61dbf5122b40b1e7db1c35a4df4d54bc4565ad9ae8d3c307bd1670225e9",
+    "LICENSE": "85131f2bb7714dc895ff5d7d68db65acc5ad0e5dfd72162869fc8d63dec06056",
+    "index.html": "6455020a4af650a589fd3c701457a51291a7f8b65cc845e3a87a1ce5f6dc6483",
+    "index2.html": "61f4996b720a4865daac8056afe95390ff47d12d29b0a25e57d7dcb76c879bf1",
+    "js/imagesloaded.pkgd.min.js": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "js/gsap.min.js": "efc85c7eb141819717cda0033484a84b1c890d13b02e355a2fec79d424b20e7a",
+    "js/ScrollTrigger.min.js": "65f6c13748b0c8d8f9eabd0373a130ac293b3f16bf34aaa946d953980372b932",
+    "js/utils.js": "41c1e9e0b46b0fd75d613a7d5340a1af2283aa024644504aad74cfd62549e647",
+    "js/lenis.min.js": "803334a7588211245a127660d3e381645408e23744c65f73255f17cda0b6b97a",
+    "css/base.css": "bdabbf85dc75971b1971c87c6636bbb902fdd4705bc488b97febe74bff3b31a0",
+    "img/2.jpg": "12914501882eb0ee09cc7c99014db6f41a4e87a5f22a97356e6b48b3b611a125",
+    "img/7.jpg": "50eeaa8703fde6641c861ff48b4e519f9b2d6af9d7eeba9bf585871e3dff9eda",
+    "img/6.jpg": "7413b6dd6ac17928a6f6ad34d9119cd7bb61c5366a0812409a380b41b8e10c40",
+    "img/8.jpg": "e39bfd49100fec7919ea23a27c452e346c765efb670c9b31f3557f4e226bdc25",
+    "img/15.jpg": "691b0a3fc1721ef8fc6e3737991b46ef22511f8a35d72dfb0b84a2a7ec811c85",
+    "img/noise.png": "6b29b62cc05b3e16ef2e2910fa52efe2ea481878035a29cfef90d56150577837",
+    "img/16.jpg": "42eb92e4220999e55ba1a50eba5d7fa1243c01b3a7bb8991b61c5fe98aa256ea",
+    "img/3.jpg": "034e1a4028a39deadbd3ffd22186dbfb67220cc6832d3add3ee72194ab37b054",
+    "img/12.jpg": "04b2c40bcc67f3df6f94a6f79b2870459292ede15e8fd97ae611369d3a2f45a5",
+    "img/9.jpg": "5546f72e710be9608ea836f40e2bbdbec959c8fed825e665535919c2dbed44cd",
+    "img/11.jpg": "e24149d56c8f89747b463e5218442add782749f9ccc5c8df1ed9bc209668ad2c",
+    "img/13.jpg": "84b183cadb36338ac934b79c549aca004b8ae14251793615eb71f03ffd21ef33",
+    "img/shadow.png": "7d756de8bf87d1c3dbd6e34ef20aeaafbcb61bc7e0d5af7651adfbfba1cb9f74",
+    "img/14.jpg": "7cc456b8c57c0fb96554290407aa86d34b9295450ff83c70fe315c2cbef01a6c",
+    "img/4.jpg": "480ec87f013f402686c41d6777252ff81bdaf54718623cfcb6b7f8c9f417f2ec",
+    "img/1.jpg": "4a0e12b1be589e3ba87c08f96544e8d6281fd0edec95d47d7af3c557037c33a1",
+    "img/5.jpg": "0b53e40d3eefc47ed5f9054b17d04aec7891d7be4c143a92fec5dae6f8c84e24",
+    "img/10.jpg": "c5fbe5dd019c5bbd8ffb228a81132f41a325df04453de695165145b3b5452fb1",
+    "js/demo2/index.js": "a119d63dc4dcf19e47cb85fce31145aad03f14e30003d0ff0dbcc087f962e2f0",
+    "js/demo1/index.js": "bfe3bb514c56273f28e33bc9f18f979ca159e8496a3ddfa3f14766e446fddfbb"
+  }
+}

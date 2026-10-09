@@ -1,0 +1,16 @@
+{
+  "schema": "motion-vault.rebuild-review.v2",
+  "runtimeFiles": 6,
+  "byteIdenticalAcrossCWD": true,
+  "sha256": {
+    "run/effect.css": "5383a4a385ab814e6c85f9a1b459e7a92aa27f84138c90f5ab05f3360f571647",
+    "run/effect.js": "60b718d38b4d44f0f00d97557f1d97ff7c02428293b97350402cf22c0e233abf",
+    "run/effect.js.LEGAL.txt": "373b12aaa205aa5bc749aef71f9d69280e4b405d39570ffcd66a385349d76587",
+    "run/effect.js.map": "ed781a269a362078ef782c4677f25d71f503523ab06c5e94723a414b44ba2c29",
+    "run/index.html": "8501363cca1d5693ee1b19c5eb39dda12119b81ec7ed170ebba119d04bcd421b",
+    "run/vault-isolation.js": "b6b2cb92ced9360fe5a4a1d713bc3ad90fbe721001aeab5ea548ebe6b40c0baa"
+  },
+  "browserExecuted": false,
+  "runtime": "not_run",
+  "scope": "Own adapter build only; no upstream build script or runtime executed."
+}

@@ -1,0 +1,127 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-lenticular",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "WORK ONLY; no browser execution, no local integration, no publication",
+  "baselineDefiniteGaps": [
+    "project/assets/design-assets/spatial-lenticular/run/effect.js:3988 col33949 starts a private RAF; 3980 col62702 shows unconditional scheduling.",
+    "project/assets/design-assets/spatial-lenticular/adapter/entry.js:11 only changes R3F frameloop and unmounts React root.",
+    "Pinned node_modules/@react-three/fiber/dist/events-776716bd.esm.js:2082-2105 does not call custom gl.dispose; helper513-518 does not traverse child renderer disposal."
+  ],
+  "sourceFixes": [
+    "Readiness now waits all four PNGs, decoded local HDR, actual renderer initialization, compileAsync completion and first submitted draw; failures reject.",
+    "Pinned Three175 WebGPURenderer private housekeeping RAF is stopped; node-frame bookkeeping is performed on actual demand renders.",
+    "Explicit custom renderer disposal awaits ongoing compilation; native Fiber unmount completion is awaited rather than assuming root.unmount disposes WebGPURenderer.",
+    "Live reduced-motion media changes update native OrbitControls damping. Early useTexture GPU uploads queue behind renderer initialization."
+  ],
+  "loaderAudit": [
+    "Four useTexture TextureLoader images use the image broker. Local Environment HDR uses RGBELoader -> FileLoader -> Request/fetch broker. No active worker, Draco, URL FontFace or external HDR preset."
+  ],
+  "renderer": "Three175 WebGPURenderer with forceWebGL:true uses WebGL2 backend, not WebGPU permission; original TSL LenticularMaterial retained.",
+  "nativeInput": "Native OrbitControls drag and wheel zoom; real native pointer capture remains the library behavior.",
+  "reducedMotion": "No autonomous authored motion; live changes disable/enable damping, while drag/zoom remain.",
+  "sourceEvidence": [
+    "adapter/entry.js",
+    "adapter/renderer.js",
+    "adapter/author/src/App.jsx",
+    "adapter/author/src/components/Experience.jsx",
+    "adapter/lifecycle.js"
+  ],
+  "initializationContract": "ready is a Promise; all required active resource loads plus scene initialization and actual first draw precede succeed; load/draw/GL errors reject; no load-event or timeout readiness",
+  "disposalContract": "idempotent Promise; own RAF/timers/listeners/resources cleaned; host frame destruction remains final isolation boundary",
+  "runtimePending": [
+    "Opaque allow-scripts broker/CSP actual network and decode behavior",
+    "Real WebGL program compilation/framebuffer support/visual result",
+    "Native cold-start drag, cross-boundary release, touch and scroll containment",
+    "Repeated mount/stop/resume/dispose, hidden page and loading-time teardown",
+    "Actual 1100x670 embedded layout and card/modal resize scaling",
+    "Normal/reduced-motion preference and live preference-change behavior"
+  ],
+  "knownHostBoundary": [
+    "Current project gallery marks iframe load as playing, not SourceDemo readiness; parent-owned nonce lifecycle host bridge still required.",
+    "WORK run package does not contain project-generated vault-native-input.js; parent packaging must add native trusted-pointer reporting before host verification.",
+    "All compatibility claims remain source-reviewed, never browser-verified."
+  ],
+  "originalSourceFilesMatchedGitBlobs": 18,
+  "originalSourceMismatches": [],
+  "runtimeBundleSha256": "1ba0c2a292ec02234f5752feb4876921cad9cab24033c9f8a602a50f28b2e331",
+  "runtimeManifestFiles": 9,
+  "externalBuildImports": [],
+  "htmlMissingOrExternalResources": [],
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "rebuildByteIdentical": true,
+  "changesPatchAppliesToOriginalDryRun": true,
+  "sourceEvidenceLines": [
+    {
+      "path": "adapter/entry.js",
+      "line": 18,
+      "text": "dispose(){"
+    },
+    {
+      "path": "adapter/entry.js",
+      "line": 23,
+      "text": "return new Promise(resolve=>unmountComponentAtNode(canvas,()=>{root.unmount();resolve();}));"
+    },
+    {
+      "path": "adapter/renderer.js",
+      "line": 8,
+      "text": "renderer.initTexture=texture=>{"
+    },
+    {
+      "path": "adapter/renderer.js",
+      "line": 14,
+      "text": "renderer.render=(...args)=>{"
+    },
+    {
+      "path": "adapter/renderer.js",
+      "line": 26,
+      "text": "renderer._animation.stop();"
+    },
+    {
+      "path": "adapter/renderer.js",
+      "line": 32,
+      "text": "await rendererState.compiling?.catch(()=>{});"
+    },
+    {
+      "path": "adapter/renderer.js",
+      "line": 33,
+      "text": "renderer._animation.stop();renderer.dispose();rendererState.renderer=null;rendererState.scene=null;"
+    },
+    {
+      "path": "adapter/author/src/components/Experience.jsx",
+      "line": 51,
+      "text": "const environment=useEnvironment({files:\"./environment/venice_sunset_1k.hdr\"});"
+    },
+    {
+      "path": "adapter/author/src/components/Experience.jsx",
+      "line": 65,
+      "text": "rendererState.compiling=renderer.compileAsync(state.scene,state.camera);"
+    },
+    {
+      "path": "adapter/author/src/components/Experience.jsx",
+      "line": 69,
+      "text": "lifecycle.succeed({textures:4,environmentLoaded:true,sceneCompiled:true,firstFrameSubmitted:true});"
+    },
+    {
+      "path": "adapter/author/src/components/Experience.jsx",
+      "line": 77,
+      "text": "environment.dispose();"
+    },
+    {
+      "path": "adapter/author/src/components/Experience.jsx",
+      "line": 83,
+      "text": "<OrbitControls enableDamping={!reduced} minDistance={1.5} maxDistance={10} />"
+    }
+  ]
+}

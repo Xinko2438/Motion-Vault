@@ -1,0 +1,29 @@
+{
+  "schema": "motion-vault.rebuild-review.v2",
+  "runtimeFiles": 19,
+  "byteIdenticalAcrossCWD": true,
+  "sha256": {
+    "run/draco/draco_decoder.js": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f",
+    "run/draco/draco_decoder.wasm": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+    "run/draco/draco_wasm_wrapper.js": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+    "run/effect.css": "71b9aad615c5443091fa6080a00510e9c90c36d8ab5d1a6837d8dbb429eb1425",
+    "run/effect.js": "e0ebb39ca663216aa05022d7d89d9c0994705ddf1d73c8cacc77f28188b15e98",
+    "run/env/empty_warehouse_01_1k.hdr": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451",
+    "run/fonts/PlayfairDisplay-Italic.woff": "44ef21f3734a8fd344563c2738af3fc0f0820bf4dd8b5cd1a51ed78b8687a6e3",
+    "run/fonts/Poppins-Medium.woff": "9ec8c55ca9a20762804eddbda1f3bb327d2d19245d89a7ee6f2076421c60c6c1",
+    "run/fonts/Poppins-Regular.woff": "c68e1edb2e2414da9f1a46a81131ceeb09e082363d20c8605d5edb929a1bf648",
+    "run/fonts/Poppins-SemiBold.woff": "952d2591178ef0c2dea37fb2c14f01e18433c8d59db10f6365c9e1ca9e8efe2a",
+    "run/glb/lens-transformed2.glb": "b453bf1f0739c9e12352a9b7dad997def5093ebe284356e0dd75932cf3084598",
+    "run/images/codrops-bg-tiny.png": "79c0cd10b0be64718a0f53fed60dbe77625a9196a66ab895ca4b7e9dd9efed51",
+    "run/images/maxim-berg-1_U2RcHnSjc-unsplash.jpg": "03d7e09f9ac1c5c41a83ad6d43b5ee76a982bbf02c896f93cb2e046250579ac1",
+    "run/images/maxim-berg-ANuuRuCRRAc-unsplash.jpg": "9e5f6b988787d13068167925ec3b6159a01f83ee4379440e0782e2d74dde1778",
+    "run/images/maxim-berg-TcE45yIzJA0-unsplash.jpg": "883cb2087f7c491d029b737a7eb86c36a4aaf53f459fce7352044c17821fc3e4",
+    "run/images/maxim-berg-qsDfqZyTCAE-unsplash-crop.jpg": "a3613bc430de416836d764b5c7ac993ee88907166da4d6d26265aed7b9f5ba2c",
+    "run/index.html": "dde25d81df154fd4a8cbf9c38b7d7272ad639357e5c85e211d59d10e885fd830",
+    "run/layout.css": "0e46e0e7e7fd7ac0ffca81d1ecf97de058d6d904e3b3e34fea55388ee8abcbbe",
+    "run/vault-isolation.js": "53133d2c7865b4bd624a8f37fc1f288060f543526aa6e729b73b2288c09f5be6"
+  },
+  "browserExecuted": false,
+  "runtime": "not_run",
+  "scope": "Own adapter build only; no upstream build script or runtime executed."
+}

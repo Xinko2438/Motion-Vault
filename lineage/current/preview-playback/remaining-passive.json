@@ -1,0 +1,847 @@
+{
+  "at": "2026-10-07T02:16:12.761Z",
+  "startedAt": "2026-10-07T02:15:25.031Z",
+  "runId": "66039efd-27b1-41fe-a292-e5041074ea37",
+  "label": "remaining-passive",
+  "live": true,
+  "sampleMs": 22000,
+  "requiredLoops": 3,
+  "formalHash": "ffbe67a7e27d9095169c530900cec6de5347bfc43e6cfa8b9eb99822c5968d5f",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "verifierHash": "bf5383f378b3009d5757a9f68407a0a8241c7ec36beb84a5b2a25a32f80a46bf",
+  "sourceUnchanged": true,
+  "environment": {
+    "pixelProbeEnabled": false,
+    "pixelProbeWillReadFrequently": false,
+    "softwareVideoDecodeRequested": false,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/154.0.8037.93",
+      "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "jsVersion": "15.4.80.19"
+    },
+    "gpu": {
+      "devices": [
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "Intel",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 4318,
+          "deviceId": 11545,
+          "subSysId": 1615863045,
+          "revision": 161,
+          "vendorString": "",
+          "deviceString": "NVIDIA GeForce RTX 5060 Laptop GPU",
+          "driverVendor": "",
+          "driverVersion": "32.0.16.1692"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 5140,
+          "deviceId": 140,
+          "subSysId": 0,
+          "revision": 0,
+          "vendorString": "",
+          "deviceString": "Microsoft Basic Render Driver",
+          "driverVendor": "",
+          "driverVersion": "10.0.26100.9278"
+        }
+      ],
+      "features": {
+        "2d_canvas": "enabled",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "enabled",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "enabled_on",
+        "rasterization": "enabled",
+        "raw_draw": "disabled_off_ok",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "enabled",
+        "video_encode": "enabled",
+        "webgl": "enabled",
+        "webgpu": "enabled",
+        "webnn": "disabled_off"
+      }
+    },
+    "gpuDisabledByHarness": false,
+    "mediaPlayers": {
+      "5B27E277BA6BA17E0CE24D2D87BE84DE": {
+        "kVideoDecoderName": "D3D11VideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"av1\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"FULL\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"av1 profile main\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "true",
+        "kFrameUrl": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      },
+      "ACDC32492A9E42766959BB09B5040A39": {
+        "kVideoDecoderName": "D3D11VideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"av1\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"FULL\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"av1 profile main\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "true",
+        "kFrameUrl": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      }
+    },
+    "page": {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+      "visibility": "visible",
+      "dpr": 1,
+      "videoFrameCallback": "function"
+    }
+  },
+  "assets": [
+    {
+      "id": "curated-image-in-type",
+      "version": "ce1e54030c2531a7",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4",
+      "videoRevision": "01f8a5643dcba25b",
+      "sha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e"
+    },
+    {
+      "id": "curated-webgpu-route",
+      "version": "9b3023082fcdff90",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4",
+      "videoRevision": "a201467854e72e3d",
+      "sha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec"
+    }
+  ],
+  "passed": 13,
+  "total": 14,
+  "samples": [
+    {
+      "id": "curated-image-in-type",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "sampleStartPerf": 641.8999999761581,
+      "pixelProbeContext": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "callbackDiagnostics": {
+        "callbackMsP95": 0.1,
+        "callbackMsMax": 0.2,
+        "drawMsP95": 0,
+        "drawMsMax": 0,
+        "readMsP95": 0,
+        "readMsMax": 0,
+        "diffMsP95": 0,
+        "diffMsMax": 0,
+        "slowCount": 0,
+        "slow": [],
+        "gaps": []
+      },
+      "loopBoundaryWaitMs": 0,
+      "firstFrameMs": 116.37,
+      "sampleMs": 22014,
+      "frames": 1310,
+      "presentedFps": 60.08,
+      "callbackFps": 59.81,
+      "contentFps": 0,
+      "windowContentFps": 0,
+      "frameTailMs": 11.8,
+      "contentTailMs": 21897.63,
+      "frameIntervalP95": 27.8,
+      "frameIntervalMax": 34.6,
+      "frameDelayExcessMax": 17.95,
+      "frameDelayExcessP95": 11.15,
+      "contentGapP95": null,
+      "maxVisualHoldMs": 21897.63,
+      "repeatFraction": 1,
+      "framesDecoded": 1322,
+      "framesDropped": 4,
+      "dropRatio": 0.003,
+      "decodeMsP95": 14.3,
+      "videoInstances": 1,
+      "loops": 3,
+      "duration": 6.511633,
+      "currentTime": 2.356601,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 4.16,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 53.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 53.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 94.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 116,
+          "time": 0.0001,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 116,
+          "time": 0.0001,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 116.1,
+          "time": 0.0001,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 117.9,
+          "time": 0.001815,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 118,
+          "time": 0.001879,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 118,
+          "time": 0.001916,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 6628.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 6629,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 6630.7,
+          "time": 0.000115,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 6630.7,
+          "time": 0.000138,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 13142.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 13142.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 13144.9,
+          "time": 0.000153,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 13145,
+          "time": 0.000181,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 19662.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 19662.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 19664.2,
+          "time": 0.000153,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 19664.2,
+          "time": 0.000177,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 116.37,
+          "mediaTime": 0.014267,
+          "dropped": 2,
+          "wallGapMs": 0,
+          "mediaGapMs": 0
+        },
+        {
+          "ms": 8960.6,
+          "mediaTime": 2.3308,
+          "dropped": 3,
+          "wallGapMs": 20.9,
+          "mediaGapMs": 33.4
+        },
+        {
+          "ms": 19710.5,
+          "mediaTime": 0.047583,
+          "dropped": 4,
+          "wallGapMs": 20.8,
+          "mediaGapMs": 16.65
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "ce1e54030c2531a7",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4"
+    },
+    {
+      "id": "curated-webgpu-route",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "sampleStartPerf": 22857.899999976158,
+      "pixelProbeContext": {
+        "alpha": true,
+        "colorSpace": "srgb",
+        "colorType": "unorm8",
+        "desynchronized": false,
+        "toneMapping": {
+          "mode": "standard"
+        },
+        "willReadFrequently": false
+      },
+      "callbackDiagnostics": {
+        "callbackMsP95": 0.1,
+        "callbackMsMax": 0.1,
+        "drawMsP95": 0,
+        "drawMsMax": 0,
+        "readMsP95": 0,
+        "readMsMax": 0,
+        "diffMsP95": 0,
+        "diffMsMax": 0,
+        "slowCount": 0,
+        "slow": [],
+        "gaps": []
+      },
+      "loopBoundaryWaitMs": 0,
+      "firstFrameMs": 126.5,
+      "sampleMs": 22008.8,
+      "frames": 1313,
+      "presentedFps": 60.22,
+      "callbackFps": 60.03,
+      "contentFps": 0,
+      "windowContentFps": 0,
+      "frameTailMs": 28,
+      "contentTailMs": 21882.3,
+      "frameIntervalP95": 27.7,
+      "frameIntervalMax": 34.7,
+      "frameDelayExcessMax": 25.08,
+      "frameDelayExcessP95": 11.05,
+      "contentGapP95": null,
+      "maxVisualHoldMs": 21882.3,
+      "repeatFraction": 1,
+      "framesDecoded": 1322,
+      "framesDropped": 1,
+      "dropRatio": 0.0008,
+      "decodeMsP95": 1.6,
+      "videoInstances": 1,
+      "loops": 3,
+      "duration": 5.833333,
+      "currentTime": 4.369107,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 1.46,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 52.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 90.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 123.6,
+          "time": 0.000155,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 123.7,
+          "time": 0.000197,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 123.9,
+          "time": 0.000227,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 123.9,
+          "time": 0.000313,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 5960.2,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 5960.2,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 5961.4,
+          "time": 0.00013,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 5961.4,
+          "time": 0.000158,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 11800.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 11800.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 11802.1,
+          "time": 0.000153,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 11802.1,
+          "time": 0.000197,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 17640.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 17640.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 17642,
+          "time": 0.000115,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 17642,
+          "time": 0.000136,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 126.5,
+          "mediaTime": 0.020067,
+          "dropped": 1,
+          "wallGapMs": 0,
+          "mediaGapMs": 0
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "9b3023082fcdff90",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Actual page matches measured file",
+      "pass": true,
+      "detail": {
+        "observedMain": "ffbe67a7e27d9095169c530900cec6de5347bfc43e6cfa8b9eb99822c5968d5f",
+        "formalHash": "ffbe67a7e27d9095169c530900cec6de5347bfc43e6cfa8b9eb99822c5968d5f"
+      }
+    },
+    {
+      "name": "Video renders curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "Hover continues through 3 loops curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "loops": 3,
+        "duration": 6.511633,
+        "currentTime": 2.356601
+      }
+    },
+    {
+      "name": "No playback stall curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "01f8a5643dcba25b",
+        "videoRevision": "01f8a5643dcba25b",
+        "sha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e"
+      }
+    },
+    {
+      "name": "Continuous preview has at least 45 real visual updates/s curated-image-in-type",
+      "pass": false,
+      "detail": {
+        "contentFps": 0,
+        "windowContentFps": 0,
+        "contentGapP95": null,
+        "maxVisualHoldMs": 21897.63
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-image-in-type",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "Hover continues through 3 loops curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "loops": 3,
+        "duration": 5.833333,
+        "currentTime": 4.369107
+      }
+    },
+    {
+      "name": "No playback stall curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "a201467854e72e3d",
+        "videoRevision": "a201467854e72e3d",
+        "sha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-webgpu-route",
+      "pass": true
+    },
+    {
+      "name": "No page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Measured source remained unchanged",
+      "pass": true
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "861843",
+        "Date": "Wed, 07 Oct 2026 02:15:27 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 229376-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "632467",
+        "Date": "Wed, 07 Oct 2026 02:15:27 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 524288-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "337555",
+        "Date": "Wed, 07 Oct 2026 02:15:27 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 65536-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "796307",
+        "Date": "Wed, 07 Oct 2026 02:15:27 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 360448-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "501395",
+        "Date": "Wed, 07 Oct 2026 02:15:27 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "574727",
+        "Date": "Wed, 07 Oct 2026 02:15:50 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Content-Range": "bytes 425984-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "148743",
+        "Date": "Wed, 07 Oct 2026 02:15:50 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Content-Range": "bytes 262144-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "312583",
+        "Date": "Wed, 07 Oct 2026 02:15:50 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Content-Range": "bytes 557056-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "17671",
+        "Date": "Wed, 07 Oct 2026 02:15:50 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      }
+    }
+  ],
+  "errors": []
+}

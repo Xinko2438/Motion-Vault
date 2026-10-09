@@ -1,0 +1,68 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "spatial-kinetic-images",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/DGFX/codrops-kinetic-images",
+  "commit": "965dda362a8f9e5d522ed675493897200d273e49",
+  "upstreamEntry": "source/src/app/layout.jsx",
+  "localEntry": "run/index.html",
+  "readableEffect": "adapter/src/",
+  "compiledEffect": "run/effect.js",
+  "variants": [
+    "Tower",
+    "Paper",
+    "Spiral"
+  ],
+  "catalogEntryCount": 1,
+  "preservedByteExactly": [
+    "source/ pinned 60-file snapshot",
+    "MeshImageMaterial.js including shader replacement",
+    "MeshBannerMaterial.js including shader replacement",
+    "getCanvasTexture.js including all composition and sampling helpers",
+    "all six source SCSS modules and global SCSS/reset",
+    "13 WebP images, banner.jpg, paper.glb and spiral.glb"
+  ],
+  "preservedMechanisms": [
+    "10 open-cylinder Tower pairs with source radius, segments, positions and group tilt",
+    "Low-FOV source PerspectiveCamera values in all modes",
+    "Source Paper and Spiral GLB geometry and authored materials",
+    "Canvas2D image concatenation with proportional dimensions and source UV mapping",
+    "Original per-frame texture offset expressions, gated only when stopped or reduced motion",
+    "Native Drei OrbitControls and R3F Canvas/View/tunnel structure"
+  ],
+  "adaptations": [
+    "Next shell, dynamic import and pathname navigation replaced with static esbuild and a local hash router.",
+    "No external fonts; UI uses system sans-serif. Original next/font source remains in snapshot, never bundled.",
+    "External attribution links become inert source-labelled spans inside sandbox; URLs remain in metadata.",
+    "Public assets become own-package ./assets URLs; GLTF decoder switches disabled after binary extension inspection.",
+    "Stable-getter R3F lifecycle controller avoids store-reset loops; ready waits for source View resource commit plus a genuine after-frame renderer-counter advance with draw calls and rejects initialization/shader errors.",
+    "Reduced motion uses demand rendering and gates all four ambient texture updates while retaining OrbitControls and hash navigation.",
+    "Async CanvasTexture ownership, cached banner texture cleanup, explicit primitive cleanup, native control cleanup and immediate renderer/context release; source Canvas persists across normal route changes.",
+    "Existing isolation bridge copied with a local asset whitelist and click/message/observer/pending-request/object-URL cleanup.",
+    "No gallery, catalog, storage, server, user computer or deployment changes."
+  ],
+  "visualEvidence": {
+    "kind": "none_for_local_adapter",
+    "localAdaptationVisualVerified": false,
+    "localRecordingCreated": false
+  },
+  "assetCaveats": [
+    {
+      "files": [
+        "source/public/images/*.webp",
+        "source/public/banner.jpg"
+      ],
+      "status": "individual_asset_rights_unverified",
+      "reason": "No individual photographer credits, photo licenses or model releases were present in the pinned repo. Publisher demo code permission does not establish those rights.",
+      "productionRequirement": "Verify asset rights or substitute licensed images preserving the authored collage proportions and art direction."
+    }
+  ],
+  "bridge": {
+    "source": "adapter/source-isolation-bridge.original.js",
+    "originalSha256": "53133d2c7865b4bd624a8f37fc1f288060f543526aa6e729b73b2288c09f5be6",
+    "adapted": "run/vault-isolation.js",
+    "adaptedSha256": "805f7dbc165420767a6ac2d797bd6f8fc9d626b6d30be79b8c98a8ff4f5003a0",
+    "whitelist": "run/asset-manifest.json"
+  },
+  "validation": "qa-static.json and qa-runtime-contract.json; real browser, GPU output, human interaction and acceptance pending"
+}

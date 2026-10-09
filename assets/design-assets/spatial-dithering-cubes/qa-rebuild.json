@@ -1,0 +1,16 @@
+{
+  "schema": "motion-vault.rebuild-review.v2",
+  "runtimeFiles": 6,
+  "byteIdenticalAcrossCWD": true,
+  "sha256": {
+    "run/assets/dithering_object-OOVEEC36.jpg": "ab15f181faed004827b2cd7aa923c3e646d03208b1972c2e20911070f7b8123d",
+    "run/diagnostics.js": "441f1371d5e3f097ded9c0eb2d5d88692096f163c295b6b1818cf6635938540e",
+    "run/effect.css": "03eeb877bba4e81119dd454fd58973d54f4170aa005de2f9a8f69a31efd5ec26",
+    "run/effect.js": "d9523f51b58ce3b8c3f0215dfbd16c7150010fe812155e62687dd1f997607f58",
+    "run/index.html": "e95adfb9ded1bc60592b1a092cb4cb02cdb9f82e906af8b0f0380f15b085cf17",
+    "run/vault-isolation.js": "53133d2c7865b4bd624a8f37fc1f288060f543526aa6e729b73b2288c09f5be6"
+  },
+  "browserExecuted": false,
+  "runtime": "not_run",
+  "scope": "Own adapter build only; no upstream build script or runtime executed."
+}

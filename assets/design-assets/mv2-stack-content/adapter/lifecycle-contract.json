@@ -1,0 +1,30 @@
+{
+  "id": "mv2-stack-content",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "instant-author-stack-reparent-content-navigation-and-return",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "semantic-stack-entry-enter-space-native-back-and-focus-return-runtime-unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/slideshow.mjs",
+  "reducedMotionModuleSha256": "899254305ad456dd7548dec6c5807d8f69663ae48aeec8a81f745914e64be8c1",
+  "variants": [
+    {
+      "entry": "source/src/js/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "Reduced open/close preserves the authored stack destinations, selected content classes, current index, observer enablement and scroll position; next/previous uses the authored stack step with no interpolated motion.",
+    "Live preference changes commit the pending open, close or navigation intent, remove only known Flip-owned properties, and restore content/title/back/navigation end states.",
+    "Stack entries gain labeled button semantics and trusted Enter/Space activation through open(item). The existing native Back control calls close(), returns keyboard focus to the entry, and preserves repeat/reopen. Native arrows keep their original callbacks.",
+    "Source/state tests do not establish real focus behavior, assistive-technology acceptance, CSS geometry or visual parity."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

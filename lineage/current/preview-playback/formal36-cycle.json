@@ -1,0 +1,6055 @@
+{
+  "schema": "motion-vault.formal36-natural-cycle.v1",
+  "runId": "bd2da21e-845a-4c42-bd6b-1e15f4f5ef74",
+  "startedAt": "2026-10-07T06:20:00.749Z",
+  "live": true,
+  "status": "completed",
+  "formalHash": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+  "publicationSha256": "219525b5ee3568fcc8d05bc31c3edd56a2c059e963001c49c9c6359b245beae4",
+  "failedHoverSha256": "c42474b5070a7d0ccb0a3af46a5c211fb2333309974b0a27441bfc80a36e15d6",
+  "expected": {
+    "web/index.html": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+    "src/hybrid/gallery.js": "8038c9dd0775b09949f8c4a488a67e00036a414dd6ab359ed0e3904a6fd7c4ed",
+    "src/hybrid/preview-choreography.js": "2927cf6b54794b1b495341b206fa02d9a10557001d0d7d7af4a9b8efdfced7f8",
+    "web/motion-vault-assets/shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
+    "web/motion-vault-assets/shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c",
+    "web/motion-vault-assets/local-36/entry.mjs": "6cd9e50890cc8c6cea23fbe85377596c084e4cbcbf484e8fc7756247a0773768",
+    "src/hybrid/test-hover-intent.mjs": "354b92434090c21a214f8cd8397b7ee831a937fcfbda316029b6f997df09cb06",
+    "lineage/current/live-no-preference.json": "c42474b5070a7d0ccb0a3af46a5c211fb2333309974b0a27441bfc80a36e15d6",
+    "lineage/current/install-receipt.json": "219525b5ee3568fcc8d05bc31c3edd56a2c059e963001c49c9c6359b245beae4",
+    ".runtime/preview-playback/startup-queue-live-execution.json": "b0a9a78431c4558524ba51f168a4c2420ffd6150f63a3213874780e770e9105f"
+  },
+  "plan": {
+    "periodMs": 4200,
+    "offsetsMs": [
+      0,
+      350,
+      700,
+      1050,
+      1400,
+      1750,
+      2100,
+      2450,
+      2800,
+      3150,
+      3500,
+      3850,
+      4200,
+      4550
+    ],
+    "maximumWindowMs": 6500,
+    "pixelThreshold": 5,
+    "modes": [
+      "normal",
+      "reduced"
+    ],
+    "earlySuccessExit": false
+  },
+  "checks": [
+    {
+      "name": "normal: Expected mode and authored period",
+      "pass": true,
+      "detail": {
+        "reduced": false,
+        "item": {
+          "id": 36,
+          "title": "快门遮罩圆形扩散",
+          "desc": "点击后从鼠标点击处向外炸开一个圆形遮罩，完全展露下一层场景。",
+          "design_value": "以强烈的几何仪式感切入新作品或大案例，视觉冲击力极高。",
+          "avoid": "扩散时间不要超过 0.6 秒，否则会产生拖沓感。",
+          "tech": "clip-path: circle(0% at x y) -> circle(150%);",
+          "uses": [
+            {
+              "scene": "brand",
+              "task": "entrance",
+              "placement": "开场进入下一幕",
+              "goal": "从明确的视觉起点揭示新场景"
+            }
+          ],
+          "preview_mode": "auto",
+          "source_kind": "independent_code",
+          "source_name": "既有本地代码演示",
+          "source_url": null,
+          "asset": {
+            "id": "local-36",
+            "version": "5904a308fe87faa4",
+            "manifest": "motion-vault-assets/local-36/asset.json",
+            "entry": "motion-vault-assets/local-36/entry.mjs",
+            "run": "motion-vault-assets/local-36/index.html",
+            "design": "motion-vault-assets/local-36/DESIGN.md",
+            "implementation": "motion-vault-assets/local-36/IMPLEMENTATION.md",
+            "parameters": "motion-vault-assets/local-36/parameters.json",
+            "poster": "motion-vault-assets/local-36/poster.jpg",
+            "video": null,
+            "preview_kind": "local_render",
+            "state": "local_implementation",
+            "source_verified": false
+          }
+        },
+        "duration": 4200
+      }
+    },
+    {
+      "name": "normal: All fourteen predetermined samples captured within bound",
+      "pass": true,
+      "detail": {
+        "elapsedMs": 4606.299999952316,
+        "count": 14,
+        "maximumWindowMs": 6500
+      }
+    },
+    {
+      "name": "normal: Same visible automatic instance throughout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "normal: Natural phase advances across a complete cycle",
+      "pass": true,
+      "detail": {
+        "records": 279,
+        "turns": 1,
+        "advance": 1.1011400000000005,
+        "maxPhaseStep": 0.0040000000000000036,
+        "seenOpen": true,
+        "seenClosed": true,
+        "overflow": false
+      }
+    },
+    {
+      "name": "normal: Authored pixels visibly change with original threshold",
+      "pass": true,
+      "detail": {
+        "pixels": 96396,
+        "pair": [
+          0,
+          1
+        ],
+        "threshold": 5
+      }
+    },
+    {
+      "name": "normal: No control-taking or fabricated input",
+      "pass": true,
+      "detail": [
+        {
+          "at": 129,
+          "type": "focus",
+          "trusted": true,
+          "buttons": null,
+          "key": null,
+          "x": null,
+          "y": null,
+          "visibility": "visible",
+          "target": null
+        },
+        {
+          "at": 1593,
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 0,
+          "key": null,
+          "x": 1,
+          "y": 1,
+          "visibility": "visible",
+          "target": "BODY"
+        },
+        {
+          "at": 1696,
+          "type": "pointerenter",
+          "trusted": true,
+          "buttons": 0,
+          "key": null,
+          "x": 678.118408203125,
+          "y": 468.4296875,
+          "visibility": "visible",
+          "target": "ARTICLE"
+        },
+        {
+          "at": 1696.2000000476837,
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 0,
+          "key": null,
+          "x": 678.118408203125,
+          "y": 468.4296875,
+          "visibility": "visible",
+          "target": "IMG"
+        }
+      ]
+    },
+    {
+      "name": "normal: No page or asynchronous errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "normal: Leaving releases the single preview",
+      "pass": true
+    },
+    {
+      "name": "reduced: Expected mode and authored period",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "item": {
+          "id": 36,
+          "title": "快门遮罩圆形扩散",
+          "desc": "点击后从鼠标点击处向外炸开一个圆形遮罩，完全展露下一层场景。",
+          "design_value": "以强烈的几何仪式感切入新作品或大案例，视觉冲击力极高。",
+          "avoid": "扩散时间不要超过 0.6 秒，否则会产生拖沓感。",
+          "tech": "clip-path: circle(0% at x y) -> circle(150%);",
+          "uses": [
+            {
+              "scene": "brand",
+              "task": "entrance",
+              "placement": "开场进入下一幕",
+              "goal": "从明确的视觉起点揭示新场景"
+            }
+          ],
+          "preview_mode": "auto",
+          "source_kind": "independent_code",
+          "source_name": "既有本地代码演示",
+          "source_url": null,
+          "asset": {
+            "id": "local-36",
+            "version": "5904a308fe87faa4",
+            "manifest": "motion-vault-assets/local-36/asset.json",
+            "entry": "motion-vault-assets/local-36/entry.mjs",
+            "run": "motion-vault-assets/local-36/index.html",
+            "design": "motion-vault-assets/local-36/DESIGN.md",
+            "implementation": "motion-vault-assets/local-36/IMPLEMENTATION.md",
+            "parameters": "motion-vault-assets/local-36/parameters.json",
+            "poster": "motion-vault-assets/local-36/poster.jpg",
+            "video": null,
+            "preview_kind": "local_render",
+            "state": "local_implementation",
+            "source_verified": false
+          }
+        },
+        "duration": 4200
+      }
+    },
+    {
+      "name": "reduced: All fourteen predetermined samples captured within bound",
+      "pass": true,
+      "detail": {
+        "elapsedMs": 4609.200000047684,
+        "count": 14,
+        "maximumWindowMs": 6500
+      }
+    },
+    {
+      "name": "reduced: Same visible automatic instance throughout",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "reduced: Natural phase advances across a complete cycle",
+      "pass": true,
+      "detail": {
+        "records": 278,
+        "turns": 1,
+        "advance": 1.0991500000000005,
+        "maxPhaseStep": 0.0040000000000000036,
+        "seenOpen": true,
+        "seenClosed": true,
+        "overflow": false
+      }
+    },
+    {
+      "name": "reduced: Authored pixels visibly change with original threshold",
+      "pass": true,
+      "detail": {
+        "pixels": 96376,
+        "pair": [
+          0,
+          1
+        ],
+        "threshold": 5
+      }
+    },
+    {
+      "name": "reduced: No control-taking or fabricated input",
+      "pass": true,
+      "detail": [
+        {
+          "at": 28.199999928474426,
+          "type": "focus",
+          "trusted": true,
+          "buttons": null,
+          "key": null,
+          "x": null,
+          "y": null,
+          "visibility": "visible",
+          "target": null
+        },
+        {
+          "at": 576.1999999284744,
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 0,
+          "key": null,
+          "x": 1,
+          "y": 1,
+          "visibility": "visible",
+          "target": "BODY"
+        },
+        {
+          "at": 668.1999999284744,
+          "type": "pointerenter",
+          "trusted": true,
+          "buttons": 0,
+          "key": null,
+          "x": 678.118408203125,
+          "y": 468.4296875,
+          "visibility": "visible",
+          "target": "ARTICLE"
+        },
+        {
+          "at": 668.3999999761581,
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 0,
+          "key": null,
+          "x": 678.118408203125,
+          "y": 468.4296875,
+          "visibility": "visible",
+          "target": "IMG"
+        }
+      ]
+    },
+    {
+      "name": "reduced: No page or asynchronous errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "reduced: Leaving releases the single preview",
+      "pass": true
+    },
+    {
+      "name": "Pinned inputs and verifier remain unchanged",
+      "pass": true
+    }
+  ],
+  "reports": [
+    {
+      "mode": "normal",
+      "startedAt": "2026-10-07T06:20:03.626Z",
+      "samples": [
+        {
+          "index": 0,
+          "plannedOffsetMs": 0,
+          "due": 1780.8999999761581,
+          "lateMs": 3.3000000715255737,
+          "captureMs": 51.299999952316284,
+          "before": {
+            "at": 1784.2000000476837,
+            "elapsedMs": 8,
+            "phase": 0.00197,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 1835.5,
+            "elapsedMs": 59.299999952316284,
+            "phase": 0.01386,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-00.png",
+          "sha256": "2daadda0ac208e72cd771b5db7e5df25acadf3b9eff6a47126917e6b4fdfa4ad"
+        },
+        {
+          "index": 1,
+          "plannedOffsetMs": 350,
+          "due": 2130.899999976158,
+          "lateMs": 14,
+          "captureMs": 58.40000009536743,
+          "before": {
+            "at": 2144.899999976158,
+            "elapsedMs": 368.6999999284744,
+            "phase": 0.08531,
+            "inlineClip": "circle(66.2233% at 50% 50%)",
+            "computedClip": "circle(66.2233% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2203.3000000715256,
+            "elapsedMs": 427.10000002384186,
+            "phase": 0.10117,
+            "inlineClip": "circle(95.6958% at 50% 50%)",
+            "computedClip": "circle(95.6958% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-01.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 2,
+          "plannedOffsetMs": 700,
+          "due": 2480.899999976158,
+          "lateMs": 0.5,
+          "captureMs": 38.200000047683716,
+          "before": {
+            "at": 2481.399999976158,
+            "elapsedMs": 705.1999999284744,
+            "phase": 0.16862,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2519.600000023842,
+            "elapsedMs": 743.3999999761581,
+            "phase": 0.17655,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-02.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 3,
+          "plannedOffsetMs": 1050,
+          "due": 2830.899999976158,
+          "lateMs": 7.900000095367432,
+          "captureMs": 40.39999997615814,
+          "before": {
+            "at": 2838.8000000715256,
+            "elapsedMs": 1062.6000000238419,
+            "phase": 0.25195,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2879.2000000476837,
+            "elapsedMs": 1103,
+            "phase": 0.25988,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-03.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 4,
+          "plannedOffsetMs": 1400,
+          "due": 3180.899999976158,
+          "lateMs": 13.100000023841858,
+          "captureMs": 33.10000002384186,
+          "before": {
+            "at": 3194,
+            "elapsedMs": 1417.7999999523163,
+            "phase": 0.33529,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 3227.100000023842,
+            "elapsedMs": 1450.8999999761581,
+            "phase": 0.34321,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-04.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 5,
+          "plannedOffsetMs": 1750,
+          "due": 3530.899999976158,
+          "lateMs": 641.4000000953674,
+          "captureMs": 32.799999952316284,
+          "before": {
+            "at": 4172.300000071526,
+            "elapsedMs": 2396.100000023842,
+            "phase": 0.5694,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4205.100000023842,
+            "elapsedMs": 2428.899999976158,
+            "phase": 0.57733,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-05.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 6,
+          "plannedOffsetMs": 2100,
+          "due": 3880.899999976158,
+          "lateMs": 329.2000000476837,
+          "captureMs": 43.5,
+          "before": {
+            "at": 4210.100000023842,
+            "elapsedMs": 2433.899999976158,
+            "phase": 0.57733,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4253.600000023842,
+            "elapsedMs": 2477.399999976158,
+            "phase": 0.58924,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-06.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 7,
+          "plannedOffsetMs": 2450,
+          "due": 4230.899999976158,
+          "lateMs": 26.800000071525574,
+          "captureMs": 45.199999928474426,
+          "before": {
+            "at": 4257.700000047684,
+            "elapsedMs": 2481.5,
+            "phase": 0.58924,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4302.899999976158,
+            "elapsedMs": 2526.6999999284744,
+            "phase": 0.60114,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-07.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 8,
+          "plannedOffsetMs": 2800,
+          "due": 4580.899999976158,
+          "lateMs": 3.9000000953674316,
+          "captureMs": 65.19999992847443,
+          "before": {
+            "at": 4584.800000071526,
+            "elapsedMs": 2808.600000023842,
+            "phase": 0.6686,
+            "inlineClip": "circle(139.846% at 50% 50%)",
+            "computedClip": "circle(139.846% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4650,
+            "elapsedMs": 2873.7999999523163,
+            "phase": 0.68448,
+            "inlineClip": "circle(127.052% at 50% 50%)",
+            "computedClip": "circle(127.052% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-08.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 9,
+          "plannedOffsetMs": 3150,
+          "due": 4930.899999976158,
+          "lateMs": 30.90000009536743,
+          "captureMs": 574.6999999284744,
+          "before": {
+            "at": 4961.800000071526,
+            "elapsedMs": 3185.600000023842,
+            "phase": 0.7559,
+            "inlineClip": "circle(43.5133% at 50% 50%)",
+            "computedClip": "circle(43.5133% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 5536.5,
+            "elapsedMs": 3760.2999999523163,
+            "phase": 0.89479,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-09.png",
+          "sha256": "95270a00ec36e9a2c0497142c139dc748fc77689641056d397369596d2d1a379"
+        },
+        {
+          "index": 10,
+          "plannedOffsetMs": 3500,
+          "due": 5280.899999976158,
+          "lateMs": 260.8000000715256,
+          "captureMs": 45.10000002384186,
+          "before": {
+            "at": 5541.700000047684,
+            "elapsedMs": 3765.5,
+            "phase": 0.89479,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 5586.800000071526,
+            "elapsedMs": 3810.600000023842,
+            "phase": 0.90669,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-10.png",
+          "sha256": "95270a00ec36e9a2c0497142c139dc748fc77689641056d397369596d2d1a379"
+        },
+        {
+          "index": 11,
+          "plannedOffsetMs": 3850,
+          "due": 5630.899999976158,
+          "lateMs": 15.600000023841858,
+          "captureMs": 40.89999997615814,
+          "before": {
+            "at": 5646.5,
+            "elapsedMs": 3870.2999999523163,
+            "phase": 0.92255,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 5687.399999976158,
+            "elapsedMs": 3911.1999999284744,
+            "phase": 0.9305,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-11.png",
+          "sha256": "95270a00ec36e9a2c0497142c139dc748fc77689641056d397369596d2d1a379"
+        },
+        {
+          "index": 12,
+          "plannedOffsetMs": 4200,
+          "due": 5980.899999976158,
+          "lateMs": 3.700000047683716,
+          "captureMs": 38.10000002384186,
+          "before": {
+            "at": 5984.600000023842,
+            "elapsedMs": 4208.399999976158,
+            "phase": 0.00193,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 6022.700000047684,
+            "elapsedMs": 4246.5,
+            "phase": 0.00986,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-12.png",
+          "sha256": "95270a00ec36e9a2c0497142c139dc748fc77689641056d397369596d2d1a379"
+        },
+        {
+          "index": 13,
+          "plannedOffsetMs": 4550,
+          "due": 6330.899999976158,
+          "lateMs": 9.800000071525574,
+          "captureMs": 49.799999952316284,
+          "before": {
+            "at": 6340.700000047684,
+            "elapsedMs": 4564.5,
+            "phase": 0.08524,
+            "inlineClip": "circle(66.0902% at 50% 50%)",
+            "computedClip": "circle(66.0902% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 6390.5,
+            "elapsedMs": 4614.299999952316,
+            "phase": 0.09714,
+            "inlineClip": "circle(88.3296% at 50% 50%)",
+            "computedClip": "circle(88.3296% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/normal-13.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Expected mode and authored period",
+          "pass": true,
+          "detail": {
+            "reduced": false,
+            "item": {
+              "id": 36,
+              "title": "快门遮罩圆形扩散",
+              "desc": "点击后从鼠标点击处向外炸开一个圆形遮罩，完全展露下一层场景。",
+              "design_value": "以强烈的几何仪式感切入新作品或大案例，视觉冲击力极高。",
+              "avoid": "扩散时间不要超过 0.6 秒，否则会产生拖沓感。",
+              "tech": "clip-path: circle(0% at x y) -> circle(150%);",
+              "uses": [
+                {
+                  "scene": "brand",
+                  "task": "entrance",
+                  "placement": "开场进入下一幕",
+                  "goal": "从明确的视觉起点揭示新场景"
+                }
+              ],
+              "preview_mode": "auto",
+              "source_kind": "independent_code",
+              "source_name": "既有本地代码演示",
+              "source_url": null,
+              "asset": {
+                "id": "local-36",
+                "version": "5904a308fe87faa4",
+                "manifest": "motion-vault-assets/local-36/asset.json",
+                "entry": "motion-vault-assets/local-36/entry.mjs",
+                "run": "motion-vault-assets/local-36/index.html",
+                "design": "motion-vault-assets/local-36/DESIGN.md",
+                "implementation": "motion-vault-assets/local-36/IMPLEMENTATION.md",
+                "parameters": "motion-vault-assets/local-36/parameters.json",
+                "poster": "motion-vault-assets/local-36/poster.jpg",
+                "video": null,
+                "preview_kind": "local_render",
+                "state": "local_implementation",
+                "source_verified": false
+              }
+            },
+            "duration": 4200
+          }
+        },
+        {
+          "name": "All fourteen predetermined samples captured within bound",
+          "pass": true,
+          "detail": {
+            "elapsedMs": 4606.299999952316,
+            "count": 14,
+            "maximumWindowMs": 6500
+          }
+        },
+        {
+          "name": "Same visible automatic instance throughout",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "Natural phase advances across a complete cycle",
+          "pass": true,
+          "detail": {
+            "records": 279,
+            "turns": 1,
+            "advance": 1.1011400000000005,
+            "maxPhaseStep": 0.0040000000000000036,
+            "seenOpen": true,
+            "seenClosed": true,
+            "overflow": false
+          }
+        },
+        {
+          "name": "Authored pixels visibly change with original threshold",
+          "pass": true,
+          "detail": {
+            "pixels": 96396,
+            "pair": [
+              0,
+              1
+            ],
+            "threshold": 5
+          }
+        },
+        {
+          "name": "No control-taking or fabricated input",
+          "pass": true,
+          "detail": [
+            {
+              "at": 129,
+              "type": "focus",
+              "trusted": true,
+              "buttons": null,
+              "key": null,
+              "x": null,
+              "y": null,
+              "visibility": "visible",
+              "target": null
+            },
+            {
+              "at": 1593,
+              "type": "pointermove",
+              "trusted": true,
+              "buttons": 0,
+              "key": null,
+              "x": 1,
+              "y": 1,
+              "visibility": "visible",
+              "target": "BODY"
+            },
+            {
+              "at": 1696,
+              "type": "pointerenter",
+              "trusted": true,
+              "buttons": 0,
+              "key": null,
+              "x": 678.118408203125,
+              "y": 468.4296875,
+              "visibility": "visible",
+              "target": "ARTICLE"
+            },
+            {
+              "at": 1696.2000000476837,
+              "type": "pointermove",
+              "trusted": true,
+              "buttons": 0,
+              "key": null,
+              "x": 678.118408203125,
+              "y": 468.4296875,
+              "visibility": "visible",
+              "target": "IMG"
+            }
+          ]
+        },
+        {
+          "name": "No page or asynchronous errors",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "Leaving releases the single preview",
+          "pass": true
+        }
+      ],
+      "hoverAt": 1680.7000000476837,
+      "initial": {
+        "at": 1780.8999999761581,
+        "elapsedMs": 4.699999928474426,
+        "phase": 0,
+        "inlineClip": "circle(0% at 50% 50%)",
+        "computedClip": "circle(0% at 50% 50%)",
+        "revealed": "false",
+        "active": {
+          "id": 36,
+          "kind": "local-autoplay"
+        },
+        "playing": "true",
+        "running": "true",
+        "playback": "auto",
+        "connected": true,
+        "activeCount": 1,
+        "layerCount": 1,
+        "sameNode": true,
+        "visible": {
+          "page": "visible",
+          "painted": true,
+          "fullViewport": true,
+          "hitCard": true
+        },
+        "clip": {
+          "x": 497.65625,
+          "y": 2815.4375,
+          "width": 429.671875,
+          "height": 261.984375,
+          "scale": 1
+        }
+      },
+      "trace": {
+        "start": 1776.2000000476837,
+        "endedAt": 6403.300000071526,
+        "phases": [
+          {
+            "at": 1776.3000000715256,
+            "phase": 0
+          },
+          {
+            "at": 1781.6000000238419,
+            "phase": 0.00197
+          },
+          {
+            "at": 1795.8999999761581,
+            "phase": 0.00593
+          },
+          {
+            "at": 1813,
+            "phase": 0.00988
+          },
+          {
+            "at": 1829.3000000715256,
+            "phase": 0.01386
+          },
+          {
+            "at": 1845.3999999761581,
+            "phase": 0.01783
+          },
+          {
+            "at": 1862.5,
+            "phase": 0.02181
+          },
+          {
+            "at": 1879,
+            "phase": 0.02579
+          },
+          {
+            "at": 1897.2000000476837,
+            "phase": 0.02976
+          },
+          {
+            "at": 1912.7000000476837,
+            "phase": 0.03369
+          },
+          {
+            "at": 1929,
+            "phase": 0.03767
+          },
+          {
+            "at": 1945.7000000476837,
+            "phase": 0.04164
+          },
+          {
+            "at": 1962.5,
+            "phase": 0.04562
+          },
+          {
+            "at": 1980.7000000476837,
+            "phase": 0.0496
+          },
+          {
+            "at": 1995.5,
+            "phase": 0.05355
+          },
+          {
+            "at": 2012.7000000476837,
+            "phase": 0.05752
+          },
+          {
+            "at": 2029.3999999761581,
+            "phase": 0.06148
+          },
+          {
+            "at": 2046.7000000476837,
+            "phase": 0.06545
+          },
+          {
+            "at": 2064,
+            "phase": 0.06943
+          },
+          {
+            "at": 2078.8000000715256,
+            "phase": 0.07338
+          },
+          {
+            "at": 2096.2000000476837,
+            "phase": 0.07736
+          },
+          {
+            "at": 2113,
+            "phase": 0.08133
+          },
+          {
+            "at": 2129,
+            "phase": 0.08531
+          },
+          {
+            "at": 2146.3000000715256,
+            "phase": 0.08926
+          },
+          {
+            "at": 2163.5,
+            "phase": 0.09321
+          },
+          {
+            "at": 2179.399999976158,
+            "phase": 0.09719
+          },
+          {
+            "at": 2196.399999976158,
+            "phase": 0.10117
+          },
+          {
+            "at": 2212.3000000715256,
+            "phase": 0.10514
+          },
+          {
+            "at": 2229.3000000715256,
+            "phase": 0.1091
+          },
+          {
+            "at": 2245.5,
+            "phase": 0.11307
+          },
+          {
+            "at": 2262.8000000715256,
+            "phase": 0.11702
+          },
+          {
+            "at": 2279.2000000476837,
+            "phase": 0.121
+          },
+          {
+            "at": 2296.600000023842,
+            "phase": 0.12498
+          },
+          {
+            "at": 2312.899999976158,
+            "phase": 0.12893
+          },
+          {
+            "at": 2329.7000000476837,
+            "phase": 0.1329
+          },
+          {
+            "at": 2346.399999976158,
+            "phase": 0.13688
+          },
+          {
+            "at": 2362.600000023842,
+            "phase": 0.14086
+          },
+          {
+            "at": 2378.899999976158,
+            "phase": 0.14483
+          },
+          {
+            "at": 2396.7000000476837,
+            "phase": 0.14879
+          },
+          {
+            "at": 2413.399999976158,
+            "phase": 0.15274
+          },
+          {
+            "at": 2429.3000000715256,
+            "phase": 0.15671
+          },
+          {
+            "at": 2447.3000000715256,
+            "phase": 0.16069
+          },
+          {
+            "at": 2462.399999976158,
+            "phase": 0.16467
+          },
+          {
+            "at": 2479.8000000715256,
+            "phase": 0.16862
+          },
+          {
+            "at": 2497,
+            "phase": 0.1726
+          },
+          {
+            "at": 2512.399999976158,
+            "phase": 0.17655
+          },
+          {
+            "at": 2529.600000023842,
+            "phase": 0.18052
+          },
+          {
+            "at": 2545.7000000476837,
+            "phase": 0.1845
+          },
+          {
+            "at": 2562.600000023842,
+            "phase": 0.18845
+          },
+          {
+            "at": 2579.2000000476837,
+            "phase": 0.19245
+          },
+          {
+            "at": 2595.600000023842,
+            "phase": 0.1964
+          },
+          {
+            "at": 2612.7000000476837,
+            "phase": 0.20038
+          },
+          {
+            "at": 2629,
+            "phase": 0.20433
+          },
+          {
+            "at": 2647,
+            "phase": 0.20831
+          },
+          {
+            "at": 2662.2000000476837,
+            "phase": 0.21229
+          },
+          {
+            "at": 2680,
+            "phase": 0.21624
+          },
+          {
+            "at": 2697.3000000715256,
+            "phase": 0.22021
+          },
+          {
+            "at": 2712.7000000476837,
+            "phase": 0.22417
+          },
+          {
+            "at": 2729.3000000715256,
+            "phase": 0.22814
+          },
+          {
+            "at": 2746.600000023842,
+            "phase": 0.23212
+          },
+          {
+            "at": 2762.899999976158,
+            "phase": 0.2361
+          },
+          {
+            "at": 2779.5,
+            "phase": 0.24005
+          },
+          {
+            "at": 2795.600000023842,
+            "phase": 0.24402
+          },
+          {
+            "at": 2812,
+            "phase": 0.24798
+          },
+          {
+            "at": 2829.100000023842,
+            "phase": 0.25195
+          },
+          {
+            "at": 2846.2000000476837,
+            "phase": 0.25593
+          },
+          {
+            "at": 2862.7000000476837,
+            "phase": 0.25988
+          },
+          {
+            "at": 2879.399999976158,
+            "phase": 0.26386
+          },
+          {
+            "at": 2895.8000000715256,
+            "phase": 0.26781
+          },
+          {
+            "at": 2912.600000023842,
+            "phase": 0.27181
+          },
+          {
+            "at": 2930.5,
+            "phase": 0.27576
+          },
+          {
+            "at": 2945.7000000476837,
+            "phase": 0.27974
+          },
+          {
+            "at": 2962.2000000476837,
+            "phase": 0.28369
+          },
+          {
+            "at": 2980.3000000715256,
+            "phase": 0.28767
+          },
+          {
+            "at": 2996.100000023842,
+            "phase": 0.29162
+          },
+          {
+            "at": 3012.3000000715256,
+            "phase": 0.2956
+          },
+          {
+            "at": 3029,
+            "phase": 0.29957
+          },
+          {
+            "at": 3046.100000023842,
+            "phase": 0.30352
+          },
+          {
+            "at": 3062.7000000476837,
+            "phase": 0.3075
+          },
+          {
+            "at": 3079.5,
+            "phase": 0.31148
+          },
+          {
+            "at": 3096.100000023842,
+            "phase": 0.31543
+          },
+          {
+            "at": 3112.7000000476837,
+            "phase": 0.31943
+          },
+          {
+            "at": 3129.2000000476837,
+            "phase": 0.32338
+          },
+          {
+            "at": 3145.399999976158,
+            "phase": 0.32733
+          },
+          {
+            "at": 3162.7000000476837,
+            "phase": 0.33131
+          },
+          {
+            "at": 3179.3000000715256,
+            "phase": 0.33529
+          },
+          {
+            "at": 3196.5,
+            "phase": 0.33926
+          },
+          {
+            "at": 3212.100000023842,
+            "phase": 0.34321
+          },
+          {
+            "at": 3229.7000000476837,
+            "phase": 0.34719
+          },
+          {
+            "at": 3245.899999976158,
+            "phase": 0.35117
+          },
+          {
+            "at": 3262.7000000476837,
+            "phase": 0.35514
+          },
+          {
+            "at": 3279.100000023842,
+            "phase": 0.3591
+          },
+          {
+            "at": 3296.399999976158,
+            "phase": 0.36307
+          },
+          {
+            "at": 3312.7000000476837,
+            "phase": 0.36702
+          },
+          {
+            "at": 3329.2000000476837,
+            "phase": 0.371
+          },
+          {
+            "at": 3345.3000000715256,
+            "phase": 0.37498
+          },
+          {
+            "at": 3362.8000000715256,
+            "phase": 0.37893
+          },
+          {
+            "at": 3379.3000000715256,
+            "phase": 0.3829
+          },
+          {
+            "at": 3395.7000000476837,
+            "phase": 0.38688
+          },
+          {
+            "at": 3412.8000000715256,
+            "phase": 0.39083
+          },
+          {
+            "at": 3429.5,
+            "phase": 0.39481
+          },
+          {
+            "at": 3445.600000023842,
+            "phase": 0.39876
+          },
+          {
+            "at": 3462.399999976158,
+            "phase": 0.40276
+          },
+          {
+            "at": 3478.600000023842,
+            "phase": 0.40671
+          },
+          {
+            "at": 3495.899999976158,
+            "phase": 0.41067
+          },
+          {
+            "at": 3512.100000023842,
+            "phase": 0.41464
+          },
+          {
+            "at": 3529.100000023842,
+            "phase": 0.41862
+          },
+          {
+            "at": 3545.899999976158,
+            "phase": 0.42257
+          },
+          {
+            "at": 3563.8000000715256,
+            "phase": 0.42655
+          },
+          {
+            "at": 3579.399999976158,
+            "phase": 0.43052
+          },
+          {
+            "at": 3595.899999976158,
+            "phase": 0.4345
+          },
+          {
+            "at": 3612.8000000715256,
+            "phase": 0.43845
+          },
+          {
+            "at": 3628.8000000715256,
+            "phase": 0.44243
+          },
+          {
+            "at": 3646.5,
+            "phase": 0.44638
+          },
+          {
+            "at": 3662.8000000715256,
+            "phase": 0.45036
+          },
+          {
+            "at": 3679.600000023842,
+            "phase": 0.45433
+          },
+          {
+            "at": 3695.600000023842,
+            "phase": 0.45829
+          },
+          {
+            "at": 3712.100000023842,
+            "phase": 0.46226
+          },
+          {
+            "at": 3729.600000023842,
+            "phase": 0.46624
+          },
+          {
+            "at": 3746.899999976158,
+            "phase": 0.47021
+          },
+          {
+            "at": 3762.600000023842,
+            "phase": 0.47417
+          },
+          {
+            "at": 3779.600000023842,
+            "phase": 0.47814
+          },
+          {
+            "at": 3796.2000000476837,
+            "phase": 0.48212
+          },
+          {
+            "at": 3812.600000023842,
+            "phase": 0.4861
+          },
+          {
+            "at": 3829.100000023842,
+            "phase": 0.49002
+          },
+          {
+            "at": 3845.899999976158,
+            "phase": 0.494
+          },
+          {
+            "at": 3862,
+            "phase": 0.49798
+          },
+          {
+            "at": 3879.899999976158,
+            "phase": 0.50195
+          },
+          {
+            "at": 3897.100000023842,
+            "phase": 0.50593
+          },
+          {
+            "at": 3912.5,
+            "phase": 0.50988
+          },
+          {
+            "at": 3929.399999976158,
+            "phase": 0.51383
+          },
+          {
+            "at": 3945.600000023842,
+            "phase": 0.51781
+          },
+          {
+            "at": 3962.3000000715256,
+            "phase": 0.52179
+          },
+          {
+            "at": 3979,
+            "phase": 0.52576
+          },
+          {
+            "at": 3996.100000023842,
+            "phase": 0.52971
+          },
+          {
+            "at": 4012.399999976158,
+            "phase": 0.53369
+          },
+          {
+            "at": 4029,
+            "phase": 0.53767
+          },
+          {
+            "at": 4046.7000000476837,
+            "phase": 0.54162
+          },
+          {
+            "at": 4062.899999976158,
+            "phase": 0.5456
+          },
+          {
+            "at": 4079.5,
+            "phase": 0.54955
+          },
+          {
+            "at": 4096.300000071526,
+            "phase": 0.55355
+          },
+          {
+            "at": 4112.800000071526,
+            "phase": 0.5575
+          },
+          {
+            "at": 4129.300000071526,
+            "phase": 0.56148
+          },
+          {
+            "at": 4146,
+            "phase": 0.56545
+          },
+          {
+            "at": 4162.5,
+            "phase": 0.5694
+          },
+          {
+            "at": 4178.700000047684,
+            "phase": 0.57336
+          },
+          {
+            "at": 4196.200000047684,
+            "phase": 0.57733
+          },
+          {
+            "at": 4212.899999976158,
+            "phase": 0.58129
+          },
+          {
+            "at": 4229.200000047684,
+            "phase": 0.58526
+          },
+          {
+            "at": 4245.800000071526,
+            "phase": 0.58924
+          },
+          {
+            "at": 4262.300000071526,
+            "phase": 0.59321
+          },
+          {
+            "at": 4279.700000047684,
+            "phase": 0.59719
+          },
+          {
+            "at": 4296.399999976158,
+            "phase": 0.60114
+          },
+          {
+            "at": 4313.100000023842,
+            "phase": 0.60512
+          },
+          {
+            "at": 4329.5,
+            "phase": 0.6091
+          },
+          {
+            "at": 4345.300000071526,
+            "phase": 0.61305
+          },
+          {
+            "at": 4362.5,
+            "phase": 0.61702
+          },
+          {
+            "at": 4379.100000023842,
+            "phase": 0.62098
+          },
+          {
+            "at": 4395.800000071526,
+            "phase": 0.62498
+          },
+          {
+            "at": 4412.700000047684,
+            "phase": 0.62893
+          },
+          {
+            "at": 4429.100000023842,
+            "phase": 0.6329
+          },
+          {
+            "at": 4445.700000047684,
+            "phase": 0.63686
+          },
+          {
+            "at": 4462.100000023842,
+            "phase": 0.64083
+          },
+          {
+            "at": 4480.300000071526,
+            "phase": 0.64479
+          },
+          {
+            "at": 4496.200000047684,
+            "phase": 0.64879
+          },
+          {
+            "at": 4513.100000023842,
+            "phase": 0.65274
+          },
+          {
+            "at": 4529.5,
+            "phase": 0.65669
+          },
+          {
+            "at": 4545.600000023842,
+            "phase": 0.66067
+          },
+          {
+            "at": 4563.600000023842,
+            "phase": 0.66462
+          },
+          {
+            "at": 4579.200000047684,
+            "phase": 0.6686
+          },
+          {
+            "at": 4596.700000047684,
+            "phase": 0.67257
+          },
+          {
+            "at": 4612.100000023842,
+            "phase": 0.67655
+          },
+          {
+            "at": 4629.200000047684,
+            "phase": 0.68052
+          },
+          {
+            "at": 4646.100000023842,
+            "phase": 0.68448
+          },
+          {
+            "at": 4662.700000047684,
+            "phase": 0.68843
+          },
+          {
+            "at": 4678.800000071526,
+            "phase": 0.6924
+          },
+          {
+            "at": 4695.600000023842,
+            "phase": 0.69638
+          },
+          {
+            "at": 4712.300000071526,
+            "phase": 0.70036
+          },
+          {
+            "at": 4729.100000023842,
+            "phase": 0.70433
+          },
+          {
+            "at": 4746.399999976158,
+            "phase": 0.70829
+          },
+          {
+            "at": 4762.899999976158,
+            "phase": 0.71226
+          },
+          {
+            "at": 4779.300000071526,
+            "phase": 0.71621
+          },
+          {
+            "at": 4795.399999976158,
+            "phase": 0.72019
+          },
+          {
+            "at": 4812.300000071526,
+            "phase": 0.72417
+          },
+          {
+            "at": 4829.300000071526,
+            "phase": 0.72814
+          },
+          {
+            "at": 4845.800000071526,
+            "phase": 0.7321
+          },
+          {
+            "at": 4862.5,
+            "phase": 0.73607
+          },
+          {
+            "at": 4879.399999976158,
+            "phase": 0.74005
+          },
+          {
+            "at": 4896,
+            "phase": 0.744
+          },
+          {
+            "at": 4912.700000047684,
+            "phase": 0.74795
+          },
+          {
+            "at": 4929.600000023842,
+            "phase": 0.75193
+          },
+          {
+            "at": 4945.800000071526,
+            "phase": 0.7559
+          },
+          {
+            "at": 4963.399999976158,
+            "phase": 0.75988
+          },
+          {
+            "at": 4980,
+            "phase": 0.76386
+          },
+          {
+            "at": 4996,
+            "phase": 0.76781
+          },
+          {
+            "at": 5012.5,
+            "phase": 0.77176
+          },
+          {
+            "at": 5030.800000071526,
+            "phase": 0.77574
+          },
+          {
+            "at": 5045.600000023842,
+            "phase": 0.77971
+          },
+          {
+            "at": 5063.100000023842,
+            "phase": 0.78367
+          },
+          {
+            "at": 5079.700000047684,
+            "phase": 0.78764
+          },
+          {
+            "at": 5096.300000071526,
+            "phase": 0.7916
+          },
+          {
+            "at": 5113,
+            "phase": 0.7956
+          },
+          {
+            "at": 5129.100000023842,
+            "phase": 0.79955
+          },
+          {
+            "at": 5145.700000047684,
+            "phase": 0.80352
+          },
+          {
+            "at": 5162.5,
+            "phase": 0.8075
+          },
+          {
+            "at": 5178.600000023842,
+            "phase": 0.81145
+          },
+          {
+            "at": 5195.399999976158,
+            "phase": 0.81543
+          },
+          {
+            "at": 5212.899999976158,
+            "phase": 0.81938
+          },
+          {
+            "at": 5229.300000071526,
+            "phase": 0.82336
+          },
+          {
+            "at": 5246,
+            "phase": 0.82733
+          },
+          {
+            "at": 5262.800000071526,
+            "phase": 0.83131
+          },
+          {
+            "at": 5279.5,
+            "phase": 0.83526
+          },
+          {
+            "at": 5295.700000047684,
+            "phase": 0.83924
+          },
+          {
+            "at": 5312.800000071526,
+            "phase": 0.84319
+          },
+          {
+            "at": 5329.600000023842,
+            "phase": 0.84717
+          },
+          {
+            "at": 5346.100000023842,
+            "phase": 0.85114
+          },
+          {
+            "at": 5362.200000047684,
+            "phase": 0.8551
+          },
+          {
+            "at": 5378.899999976158,
+            "phase": 0.85907
+          },
+          {
+            "at": 5395.899999976158,
+            "phase": 0.86305
+          },
+          {
+            "at": 5412.800000071526,
+            "phase": 0.867
+          },
+          {
+            "at": 5429.399999976158,
+            "phase": 0.87098
+          },
+          {
+            "at": 5445.600000023842,
+            "phase": 0.87495
+          },
+          {
+            "at": 5462.100000023842,
+            "phase": 0.87893
+          },
+          {
+            "at": 5479.399999976158,
+            "phase": 0.88288
+          },
+          {
+            "at": 5496,
+            "phase": 0.88686
+          },
+          {
+            "at": 5512.100000023842,
+            "phase": 0.89081
+          },
+          {
+            "at": 5529,
+            "phase": 0.89479
+          },
+          {
+            "at": 5546.200000047684,
+            "phase": 0.89876
+          },
+          {
+            "at": 5562.700000047684,
+            "phase": 0.90274
+          },
+          {
+            "at": 5579.100000023842,
+            "phase": 0.90669
+          },
+          {
+            "at": 5595.5,
+            "phase": 0.91064
+          },
+          {
+            "at": 5612.300000071526,
+            "phase": 0.91462
+          },
+          {
+            "at": 5629.100000023842,
+            "phase": 0.91857
+          },
+          {
+            "at": 5645.800000071526,
+            "phase": 0.92255
+          },
+          {
+            "at": 5662.700000047684,
+            "phase": 0.92655
+          },
+          {
+            "at": 5678.700000047684,
+            "phase": 0.9305
+          },
+          {
+            "at": 5695.5,
+            "phase": 0.93448
+          },
+          {
+            "at": 5712.399999976158,
+            "phase": 0.93845
+          },
+          {
+            "at": 5728.800000071526,
+            "phase": 0.9424
+          },
+          {
+            "at": 5746.399999976158,
+            "phase": 0.94638
+          },
+          {
+            "at": 5763.100000023842,
+            "phase": 0.95036
+          },
+          {
+            "at": 5779.399999976158,
+            "phase": 0.95431
+          },
+          {
+            "at": 5795.700000047684,
+            "phase": 0.95826
+          },
+          {
+            "at": 5812.399999976158,
+            "phase": 0.96224
+          },
+          {
+            "at": 5829.899999976158,
+            "phase": 0.96619
+          },
+          {
+            "at": 5846,
+            "phase": 0.97017
+          },
+          {
+            "at": 5862.100000023842,
+            "phase": 0.97414
+          },
+          {
+            "at": 5879.399999976158,
+            "phase": 0.97812
+          },
+          {
+            "at": 5895.5,
+            "phase": 0.98207
+          },
+          {
+            "at": 5912.800000071526,
+            "phase": 0.98605
+          },
+          {
+            "at": 5929,
+            "phase": 0.99002
+          },
+          {
+            "at": 5945.300000071526,
+            "phase": 0.99398
+          },
+          {
+            "at": 5963,
+            "phase": 0.99795
+          },
+          {
+            "at": 5979.899999976158,
+            "phase": 0.00193
+          },
+          {
+            "at": 5995.600000023842,
+            "phase": 0.0059
+          },
+          {
+            "at": 6012.600000023842,
+            "phase": 0.00986
+          },
+          {
+            "at": 6028.5,
+            "phase": 0.01383
+          },
+          {
+            "at": 6046.300000071526,
+            "phase": 0.01781
+          },
+          {
+            "at": 6062.300000071526,
+            "phase": 0.02176
+          },
+          {
+            "at": 6079.200000047684,
+            "phase": 0.02571
+          },
+          {
+            "at": 6096.399999976158,
+            "phase": 0.02971
+          },
+          {
+            "at": 6113.200000047684,
+            "phase": 0.03367
+          },
+          {
+            "at": 6128.700000047684,
+            "phase": 0.03764
+          },
+          {
+            "at": 6146.600000023842,
+            "phase": 0.04162
+          },
+          {
+            "at": 6162.600000023842,
+            "phase": 0.04557
+          },
+          {
+            "at": 6178.600000023842,
+            "phase": 0.04955
+          },
+          {
+            "at": 6195.600000023842,
+            "phase": 0.0535
+          },
+          {
+            "at": 6212.200000047684,
+            "phase": 0.05748
+          },
+          {
+            "at": 6229.200000047684,
+            "phase": 0.06145
+          },
+          {
+            "at": 6246.600000023842,
+            "phase": 0.0654
+          },
+          {
+            "at": 6262.899999976158,
+            "phase": 0.06938
+          },
+          {
+            "at": 6279,
+            "phase": 0.07336
+          },
+          {
+            "at": 6295.899999976158,
+            "phase": 0.07731
+          },
+          {
+            "at": 6312.399999976158,
+            "phase": 0.08129
+          },
+          {
+            "at": 6329,
+            "phase": 0.08524
+          },
+          {
+            "at": 6345.300000071526,
+            "phase": 0.08921
+          },
+          {
+            "at": 6362.300000071526,
+            "phase": 0.09319
+          },
+          {
+            "at": 6378.700000047684,
+            "phase": 0.09714
+          },
+          {
+            "at": 6395.5,
+            "phase": 0.10114
+          }
+        ],
+        "lifecycle": [],
+        "overflow": false,
+        "inputs": [
+          {
+            "at": 129,
+            "type": "focus",
+            "trusted": true,
+            "buttons": null,
+            "key": null,
+            "x": null,
+            "y": null,
+            "visibility": "visible",
+            "target": null
+          },
+          {
+            "at": 1593,
+            "type": "pointermove",
+            "trusted": true,
+            "buttons": 0,
+            "key": null,
+            "x": 1,
+            "y": 1,
+            "visibility": "visible",
+            "target": "BODY"
+          },
+          {
+            "at": 1696,
+            "type": "pointerenter",
+            "trusted": true,
+            "buttons": 0,
+            "key": null,
+            "x": 678.118408203125,
+            "y": 468.4296875,
+            "visibility": "visible",
+            "target": "ARTICLE"
+          },
+          {
+            "at": 1696.2000000476837,
+            "type": "pointermove",
+            "trusted": true,
+            "buttons": 0,
+            "key": null,
+            "x": 678.118408203125,
+            "y": 468.4296875,
+            "visibility": "visible",
+            "target": "IMG"
+          }
+        ],
+        "errors": []
+      },
+      "phaseSummary": {
+        "records": 279,
+        "turns": 1,
+        "advance": 1.1011400000000005,
+        "maxPhaseStep": 0.0040000000000000036,
+        "seenOpen": true,
+        "seenClosed": true,
+        "overflow": false
+      },
+      "pixelPairs": [
+        {
+          "i": 0,
+          "j": 1,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 6,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 8,
+          "pixels": 96396
+        },
+        {
+          "i": 0,
+          "j": 9,
+          "pixels": 214
+        },
+        {
+          "i": 0,
+          "j": 10,
+          "pixels": 214
+        },
+        {
+          "i": 0,
+          "j": 11,
+          "pixels": 214
+        },
+        {
+          "i": 0,
+          "j": 12,
+          "pixels": 214
+        },
+        {
+          "i": 0,
+          "j": 13,
+          "pixels": 96396
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 4,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 4,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 6,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 6,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 7,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 7,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 8,
+          "j": 9,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 9,
+          "j": 10,
+          "pixels": 0
+        },
+        {
+          "i": 9,
+          "j": 11,
+          "pixels": 0
+        },
+        {
+          "i": 9,
+          "j": 12,
+          "pixels": 0
+        },
+        {
+          "i": 9,
+          "j": 13,
+          "pixels": 96376
+        },
+        {
+          "i": 10,
+          "j": 11,
+          "pixels": 0
+        },
+        {
+          "i": 10,
+          "j": 12,
+          "pixels": 0
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "pixels": 96376
+        },
+        {
+          "i": 11,
+          "j": 12,
+          "pixels": 0
+        },
+        {
+          "i": 11,
+          "j": 13,
+          "pixels": 96376
+        },
+        {
+          "i": 12,
+          "j": 13,
+          "pixels": 96376
+        }
+      ],
+      "finishedAt": "2026-10-07T06:20:13.050Z",
+      "passed": 8,
+      "total": 8
+    },
+    {
+      "mode": "reduced",
+      "startedAt": "2026-10-07T06:20:13.057Z",
+      "samples": [
+        {
+          "index": 0,
+          "plannedOffsetMs": 0,
+          "due": 746,
+          "lateMs": 2.1999999284744263,
+          "captureMs": 44.60000002384186,
+          "before": {
+            "at": 748.1999999284744,
+            "elapsedMs": 2.399999976158142,
+            "phase": 0.00429,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 792.7999999523163,
+            "elapsedMs": 47,
+            "phase": 0.01221,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-00.png",
+          "sha256": "058b64ff954a4045de71cd400ac0f1efc841fb3cfc208adfc47aff8c9789e20e"
+        },
+        {
+          "index": 1,
+          "plannedOffsetMs": 350,
+          "due": 1096,
+          "lateMs": 3.5,
+          "captureMs": 60.199999928474426,
+          "before": {
+            "at": 1099.5,
+            "elapsedMs": 353.7000000476837,
+            "phase": 0.0876,
+            "inlineClip": "circle(70.4935% at 50% 50%)",
+            "computedClip": "circle(70.4935% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 1159.6999999284744,
+            "elapsedMs": 413.89999997615814,
+            "phase": 0.0995,
+            "inlineClip": "circle(92.6637% at 50% 50%)",
+            "computedClip": "circle(92.6637% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-01.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 2,
+          "plannedOffsetMs": 700,
+          "due": 1446,
+          "lateMs": 51,
+          "captureMs": 490.7999999523163,
+          "before": {
+            "at": 1497,
+            "elapsedMs": 751.2000000476837,
+            "phase": 0.18286,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 1987.7999999523163,
+            "elapsedMs": 1242,
+            "phase": 0.2979,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-02.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 3,
+          "plannedOffsetMs": 1050,
+          "due": 1796,
+          "lateMs": 196.69999992847443,
+          "captureMs": 46.60000002384186,
+          "before": {
+            "at": 1992.6999999284744,
+            "elapsedMs": 1246.8999999761581,
+            "phase": 0.2979,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2039.2999999523163,
+            "elapsedMs": 1293.5,
+            "phase": 0.30983,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-03.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 4,
+          "plannedOffsetMs": 1400,
+          "due": 2146,
+          "lateMs": 10.399999976158142,
+          "captureMs": 35.799999952316284,
+          "before": {
+            "at": 2156.399999976158,
+            "elapsedMs": 1410.6000000238419,
+            "phase": 0.3376,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2192.1999999284744,
+            "elapsedMs": 1446.3999999761581,
+            "phase": 0.34555,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-04.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 5,
+          "plannedOffsetMs": 1750,
+          "due": 2496,
+          "lateMs": 18.09999990463257,
+          "captureMs": 47.90000009536743,
+          "before": {
+            "at": 2514.0999999046326,
+            "elapsedMs": 1768.2999999523163,
+            "phase": 0.42093,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2562,
+            "elapsedMs": 1816.2000000476837,
+            "phase": 0.43283,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-05.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 6,
+          "plannedOffsetMs": 2100,
+          "due": 2846,
+          "lateMs": 11,
+          "captureMs": 48,
+          "before": {
+            "at": 2857,
+            "elapsedMs": 2111.2000000476837,
+            "phase": 0.50426,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 2905,
+            "elapsedMs": 2159.2000000476837,
+            "phase": 0.51617,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-06.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 7,
+          "plannedOffsetMs": 2450,
+          "due": 3196,
+          "lateMs": 1.2999999523162842,
+          "captureMs": 42.799999952316284,
+          "before": {
+            "at": 3197.2999999523163,
+            "elapsedMs": 2451.5,
+            "phase": 0.5876,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 3240.0999999046326,
+            "elapsedMs": 2494.2999999523163,
+            "phase": 0.59552,
+            "inlineClip": "circle(150% at 50% 50%)",
+            "computedClip": "circle(150% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-07.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 8,
+          "plannedOffsetMs": 2800,
+          "due": 3546,
+          "lateMs": 7.699999928474426,
+          "captureMs": 53.60000002384186,
+          "before": {
+            "at": 3553.6999999284744,
+            "elapsedMs": 2807.899999976158,
+            "phase": 0.67093,
+            "inlineClip": "circle(138.236% at 50% 50%)",
+            "computedClip": "circle(138.236% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 3607.2999999523163,
+            "elapsedMs": 2861.5,
+            "phase": 0.68281,
+            "inlineClip": "circle(128.582% at 50% 50%)",
+            "computedClip": "circle(128.582% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-08.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        },
+        {
+          "index": 9,
+          "plannedOffsetMs": 3150,
+          "due": 3896,
+          "lateMs": 14.799999952316284,
+          "captureMs": 53.700000047683716,
+          "before": {
+            "at": 3910.7999999523163,
+            "elapsedMs": 3165,
+            "phase": 0.75426,
+            "inlineClip": "circle(45.4073% at 50% 50%)",
+            "computedClip": "circle(45.4073% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 3964.5,
+            "elapsedMs": 3218.7000000476837,
+            "phase": 0.77012,
+            "inlineClip": "circle(28.1729% at 50% 50%)",
+            "computedClip": "circle(28.1729% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-09.png",
+          "sha256": "af3805f7678d3941973055944fe6503cc07abac2cd95afab8ed3db64f8a2f826"
+        },
+        {
+          "index": 10,
+          "plannedOffsetMs": 3500,
+          "due": 4246,
+          "lateMs": 7.199999928474426,
+          "captureMs": 34.10000002384186,
+          "before": {
+            "at": 4253.199999928474,
+            "elapsedMs": 3507.399999976158,
+            "phase": 0.83757,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4287.299999952316,
+            "elapsedMs": 3541.5,
+            "phase": 0.84552,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-10.png",
+          "sha256": "0b6d2281308db289bf83af7fa2d2f30adeb77b1581ddbab308a16ff7fc63bc91"
+        },
+        {
+          "index": 11,
+          "plannedOffsetMs": 3850,
+          "due": 4596,
+          "lateMs": 13.899999976158142,
+          "captureMs": 28.399999976158142,
+          "before": {
+            "at": 4609.899999976158,
+            "elapsedMs": 3864.100000023842,
+            "phase": 0.9209,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4638.299999952316,
+            "elapsedMs": 3892.5,
+            "phase": 0.92886,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-11.png",
+          "sha256": "0b6d2281308db289bf83af7fa2d2f30adeb77b1581ddbab308a16ff7fc63bc91"
+        },
+        {
+          "index": 12,
+          "plannedOffsetMs": 4200,
+          "due": 4946,
+          "lateMs": 0.5,
+          "captureMs": 42.59999990463257,
+          "before": {
+            "at": 4946.5,
+            "elapsedMs": 4200.700000047684,
+            "phase": 0.00026,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 4989.099999904633,
+            "elapsedMs": 4243.299999952316,
+            "phase": 0.01217,
+            "inlineClip": "circle(0% at 50% 50%)",
+            "computedClip": "circle(0% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-12.png",
+          "sha256": "0b6d2281308db289bf83af7fa2d2f30adeb77b1581ddbab308a16ff7fc63bc91"
+        },
+        {
+          "index": 13,
+          "plannedOffsetMs": 4550,
+          "due": 5296,
+          "lateMs": 5.399999976158142,
+          "captureMs": 56,
+          "before": {
+            "at": 5301.399999976158,
+            "elapsedMs": 4555.600000023842,
+            "phase": 0.08757,
+            "inlineClip": "circle(70.4489% at 50% 50%)",
+            "computedClip": "circle(70.4489% at 50% 50%)",
+            "revealed": "false",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "after": {
+            "at": 5357.399999976158,
+            "elapsedMs": 4611.600000023842,
+            "phase": 0.09948,
+            "inlineClip": "circle(92.6201% at 50% 50%)",
+            "computedClip": "circle(92.6201% at 50% 50%)",
+            "revealed": "true",
+            "active": {
+              "id": 36,
+              "kind": "local-autoplay"
+            },
+            "playing": "true",
+            "running": "true",
+            "playback": "auto",
+            "connected": true,
+            "activeCount": 1,
+            "layerCount": 1,
+            "sameNode": true,
+            "visible": {
+              "page": "visible",
+              "painted": true,
+              "fullViewport": true,
+              "hitCard": true
+            },
+            "clip": {
+              "x": 497.65625,
+              "y": 2815.4375,
+              "width": 429.671875,
+              "height": 261.984375,
+              "scale": 1
+            }
+          },
+          "frame": "lineage/current/preview-playback/formal36-cycle-frames/reduced-13.png",
+          "sha256": "a763163c61d0d03cde5f25dad6d4032f1625b4089c2dc51841527d6c892bd16c"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Expected mode and authored period",
+          "pass": true,
+          "detail": {
+            "reduced": true,
+            "item": {
+              "id": 36,
+              "title": "快门遮罩圆形扩散",
+              "desc": "点击后从鼠标点击处向外炸开一个圆形遮罩，完全展露下一层场景。",
+              "design_value": "以强烈的几何仪式感切入新作品或大案例，视觉冲击力极高。",
+              "avoid": "扩散时间不要超过 0.6 秒，否则会产生拖沓感。",
+              "tech": "clip-path: circle(0% at x y) -> circle(150%);",
+              "uses": [
+                {
+                  "scene": "brand",
+                  "task": "entrance",
+                  "placement": "开场进入下一幕",
+                  "goal": "从明确的视觉起点揭示新场景"
+                }
+              ],
+              "preview_mode": "auto",
+              "source_kind": "independent_code",
+              "source_name": "既有本地代码演示",
+              "source_url": null,
+              "asset": {
+                "id": "local-36",
+                "version": "5904a308fe87faa4",
+                "manifest": "motion-vault-assets/local-36/asset.json",
+                "entry": "motion-vault-assets/local-36/entry.mjs",
+                "run": "motion-vault-assets/local-36/index.html",
+                "design": "motion-vault-assets/local-36/DESIGN.md",
+                "implementation": "motion-vault-assets/local-36/IMPLEMENTATION.md",
+                "parameters": "motion-vault-assets/local-36/parameters.json",
+                "poster": "motion-vault-assets/local-36/poster.jpg",
+                "video": null,
+                "preview_kind": "local_render",
+                "state": "local_implementation",
+                "source_verified": false
+              }
+            },
+            "duration": 4200
+          }
+        },
+        {
+          "name": "All fourteen predetermined samples captured within bound",
+          "pass": true,
+          "detail": {
+            "elapsedMs": 4609.200000047684,
+            "count": 14,
+            "maximumWindowMs": 6500
+          }
+        },
+        {
+          "name": "Same visible automatic instance throughout",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "Natural phase advances across a complete cycle",
+          "pass": true,
+          "detail": {
+            "records": 278,
+            "turns": 1,
+            "advance": 1.0991500000000005,
+            "maxPhaseStep": 0.0040000000000000036,
+            "seenOpen": true,
+            "seenClosed": true,
+            "overflow": false
+          }
+        },
+        {
+          "name": "Authored pixels visibly change with original threshold",
+          "pass": true,
+          "detail": {
+            "pixels": 96376,
+            "pair": [
+              0,
+              1
+            ],
+            "threshold": 5
+          }
+        },
+        {
+          "name": "No control-taking or fabricated input",
+          "pass": true,
+          "detail": [
+            {
+              "at": 28.199999928474426,
+              "type": "focus",
+              "trusted": true,
+              "buttons": null,
+              "key": null,
+              "x": null,
+              "y": null,
+              "visibility": "visible",
+              "target": null
+            },
+            {
+              "at": 576.1999999284744,
+              "type": "pointermove",
+              "trusted": true,
+              "buttons": 0,
+              "key": null,
+              "x": 1,
+              "y": 1,
+              "visibility": "visible",
+              "target": "BODY"
+            },
+            {
+              "at": 668.1999999284744,
+              "type": "pointerenter",
+              "trusted": true,
+              "buttons": 0,
+              "key": null,
+              "x": 678.118408203125,
+              "y": 468.4296875,
+              "visibility": "visible",
+              "target": "ARTICLE"
+            },
+            {
+              "at": 668.3999999761581,
+              "type": "pointermove",
+              "trusted": true,
+              "buttons": 0,
+              "key": null,
+              "x": 678.118408203125,
+              "y": 468.4296875,
+              "visibility": "visible",
+              "target": "IMG"
+            }
+          ]
+        },
+        {
+          "name": "No page or asynchronous errors",
+          "pass": true,
+          "detail": []
+        },
+        {
+          "name": "Leaving releases the single preview",
+          "pass": true
+        }
+      ],
+      "hoverAt": 667.2999999523163,
+      "initial": {
+        "at": 746,
+        "elapsedMs": 0.20000004768371582,
+        "phase": 0.00033,
+        "inlineClip": "circle(0% at 50% 50%)",
+        "computedClip": "circle(0% at 50% 50%)",
+        "revealed": "false",
+        "active": {
+          "id": 36,
+          "kind": "local-autoplay"
+        },
+        "playing": "true",
+        "running": "true",
+        "playback": "auto",
+        "connected": true,
+        "activeCount": 1,
+        "layerCount": 1,
+        "sameNode": true,
+        "visible": {
+          "page": "visible",
+          "painted": true,
+          "fullViewport": true,
+          "hitCard": true
+        },
+        "clip": {
+          "x": 497.65625,
+          "y": 2815.4375,
+          "width": 429.671875,
+          "height": 261.984375,
+          "scale": 1
+        }
+      },
+      "trace": {
+        "start": 745.7999999523163,
+        "endedAt": 5362.299999952316,
+        "phases": [
+          {
+            "at": 745.7999999523163,
+            "phase": 0.00033
+          },
+          {
+            "at": 747.5,
+            "phase": 0.00429
+          },
+          {
+            "at": 764.1999999284744,
+            "phase": 0.00824
+          },
+          {
+            "at": 780.2999999523163,
+            "phase": 0.01221
+          },
+          {
+            "at": 796.6999999284744,
+            "phase": 0.01619
+          },
+          {
+            "at": 814.0999999046326,
+            "phase": 0.02014
+          },
+          {
+            "at": 830.5,
+            "phase": 0.02412
+          },
+          {
+            "at": 847.5999999046326,
+            "phase": 0.0281
+          },
+          {
+            "at": 864.5999999046326,
+            "phase": 0.03207
+          },
+          {
+            "at": 881.0999999046326,
+            "phase": 0.03602
+          },
+          {
+            "at": 897.5999999046326,
+            "phase": 0.04
+          },
+          {
+            "at": 914.2999999523163,
+            "phase": 0.04395
+          },
+          {
+            "at": 930.3999999761581,
+            "phase": 0.04793
+          },
+          {
+            "at": 946.5999999046326,
+            "phase": 0.0519
+          },
+          {
+            "at": 963.2999999523163,
+            "phase": 0.05586
+          },
+          {
+            "at": 980.8999999761581,
+            "phase": 0.05983
+          },
+          {
+            "at": 996.8999999761581,
+            "phase": 0.06381
+          },
+          {
+            "at": 1014.5,
+            "phase": 0.06776
+          },
+          {
+            "at": 1030.8999999761581,
+            "phase": 0.07174
+          },
+          {
+            "at": 1047,
+            "phase": 0.07569
+          },
+          {
+            "at": 1063.5999999046326,
+            "phase": 0.07967
+          },
+          {
+            "at": 1080.1999999284744,
+            "phase": 0.08364
+          },
+          {
+            "at": 1097.1999999284744,
+            "phase": 0.0876
+          },
+          {
+            "at": 1113.5,
+            "phase": 0.0916
+          },
+          {
+            "at": 1130,
+            "phase": 0.09555
+          },
+          {
+            "at": 1147.5999999046326,
+            "phase": 0.0995
+          },
+          {
+            "at": 1163.5999999046326,
+            "phase": 0.10348
+          },
+          {
+            "at": 1180.7999999523163,
+            "phase": 0.10745
+          },
+          {
+            "at": 1197.7999999523163,
+            "phase": 0.11143
+          },
+          {
+            "at": 1213.6999999284744,
+            "phase": 0.11538
+          },
+          {
+            "at": 1231.0999999046326,
+            "phase": 0.11936
+          },
+          {
+            "at": 1247.7999999523163,
+            "phase": 0.12331
+          },
+          {
+            "at": 1263.8999999761581,
+            "phase": 0.12729
+          },
+          {
+            "at": 1280.5999999046326,
+            "phase": 0.13126
+          },
+          {
+            "at": 1297.2999999523163,
+            "phase": 0.13521
+          },
+          {
+            "at": 1314.3999999761581,
+            "phase": 0.13919
+          },
+          {
+            "at": 1330.7999999523163,
+            "phase": 0.14317
+          },
+          {
+            "at": 1347.3999999761581,
+            "phase": 0.14712
+          },
+          {
+            "at": 1364.1999999284744,
+            "phase": 0.15112
+          },
+          {
+            "at": 1380.8999999761581,
+            "phase": 0.15507
+          },
+          {
+            "at": 1397.5999999046326,
+            "phase": 0.15902
+          },
+          {
+            "at": 1414.5999999046326,
+            "phase": 0.163
+          },
+          {
+            "at": 1430,
+            "phase": 0.16698
+          },
+          {
+            "at": 1447.2999999523163,
+            "phase": 0.17093
+          },
+          {
+            "at": 1463.7999999523163,
+            "phase": 0.1749
+          },
+          {
+            "at": 1482.0999999046326,
+            "phase": 0.17888
+          },
+          {
+            "at": 1496.6999999284744,
+            "phase": 0.18286
+          },
+          {
+            "at": 1513.7999999523163,
+            "phase": 0.18681
+          },
+          {
+            "at": 1530.0999999046326,
+            "phase": 0.19079
+          },
+          {
+            "at": 1548.1999999284744,
+            "phase": 0.19476
+          },
+          {
+            "at": 1564.1999999284744,
+            "phase": 0.19874
+          },
+          {
+            "at": 1580.5,
+            "phase": 0.20269
+          },
+          {
+            "at": 1597.0999999046326,
+            "phase": 0.20664
+          },
+          {
+            "at": 1613.6999999284744,
+            "phase": 0.21062
+          },
+          {
+            "at": 1629.7999999523163,
+            "phase": 0.2146
+          },
+          {
+            "at": 1647.5999999046326,
+            "phase": 0.21855
+          },
+          {
+            "at": 1663.5,
+            "phase": 0.22252
+          },
+          {
+            "at": 1680.2999999523163,
+            "phase": 0.22648
+          },
+          {
+            "at": 1697.7999999523163,
+            "phase": 0.23048
+          },
+          {
+            "at": 1713.2999999523163,
+            "phase": 0.23443
+          },
+          {
+            "at": 1731.0999999046326,
+            "phase": 0.2384
+          },
+          {
+            "at": 1747.7999999523163,
+            "phase": 0.24238
+          },
+          {
+            "at": 1763.7999999523163,
+            "phase": 0.24633
+          },
+          {
+            "at": 1780.6999999284744,
+            "phase": 0.25031
+          },
+          {
+            "at": 1797,
+            "phase": 0.25426
+          },
+          {
+            "at": 1814.5,
+            "phase": 0.25824
+          },
+          {
+            "at": 1830.1999999284744,
+            "phase": 0.26221
+          },
+          {
+            "at": 1847.5,
+            "phase": 0.26617
+          },
+          {
+            "at": 1863.5999999046326,
+            "phase": 0.27014
+          },
+          {
+            "at": 1880.0999999046326,
+            "phase": 0.2741
+          },
+          {
+            "at": 1897.6999999284744,
+            "phase": 0.27807
+          },
+          {
+            "at": 1913.5,
+            "phase": 0.28205
+          },
+          {
+            "at": 1929.8999999761581,
+            "phase": 0.28602
+          },
+          {
+            "at": 1947.0999999046326,
+            "phase": 0.29
+          },
+          {
+            "at": 1964.1999999284744,
+            "phase": 0.29395
+          },
+          {
+            "at": 1980.5999999046326,
+            "phase": 0.2979
+          },
+          {
+            "at": 1996.5999999046326,
+            "phase": 0.30188
+          },
+          {
+            "at": 2013.3999999761581,
+            "phase": 0.30586
+          },
+          {
+            "at": 2031.7999999523163,
+            "phase": 0.30983
+          },
+          {
+            "at": 2047.2999999523163,
+            "phase": 0.31379
+          },
+          {
+            "at": 2064.2999999523163,
+            "phase": 0.31776
+          },
+          {
+            "at": 2080.5,
+            "phase": 0.32171
+          },
+          {
+            "at": 2097,
+            "phase": 0.32569
+          },
+          {
+            "at": 2113.6999999284744,
+            "phase": 0.32967
+          },
+          {
+            "at": 2129.899999976158,
+            "phase": 0.33364
+          },
+          {
+            "at": 2147.5999999046326,
+            "phase": 0.3376
+          },
+          {
+            "at": 2164.0999999046326,
+            "phase": 0.34157
+          },
+          {
+            "at": 2180.5999999046326,
+            "phase": 0.34555
+          },
+          {
+            "at": 2197.5,
+            "phase": 0.3495
+          },
+          {
+            "at": 2213.1999999284744,
+            "phase": 0.35348
+          },
+          {
+            "at": 2230.399999976158,
+            "phase": 0.35745
+          },
+          {
+            "at": 2246.5,
+            "phase": 0.3614
+          },
+          {
+            "at": 2263.6999999284744,
+            "phase": 0.36538
+          },
+          {
+            "at": 2280.5,
+            "phase": 0.36936
+          },
+          {
+            "at": 2296.5999999046326,
+            "phase": 0.37331
+          },
+          {
+            "at": 2314,
+            "phase": 0.37729
+          },
+          {
+            "at": 2330.7999999523163,
+            "phase": 0.38124
+          },
+          {
+            "at": 2347.2999999523163,
+            "phase": 0.38521
+          },
+          {
+            "at": 2363.7999999523163,
+            "phase": 0.38919
+          },
+          {
+            "at": 2380,
+            "phase": 0.39314
+          },
+          {
+            "at": 2397.6999999284744,
+            "phase": 0.39712
+          },
+          {
+            "at": 2414.399999976158,
+            "phase": 0.40107
+          },
+          {
+            "at": 2430.7999999523163,
+            "phase": 0.40505
+          },
+          {
+            "at": 2446.6999999284744,
+            "phase": 0.40902
+          },
+          {
+            "at": 2463.899999976158,
+            "phase": 0.413
+          },
+          {
+            "at": 2480,
+            "phase": 0.41695
+          },
+          {
+            "at": 2497,
+            "phase": 0.42093
+          },
+          {
+            "at": 2514.2999999523163,
+            "phase": 0.4249
+          },
+          {
+            "at": 2530.5,
+            "phase": 0.42886
+          },
+          {
+            "at": 2546.899999976158,
+            "phase": 0.43283
+          },
+          {
+            "at": 2564.1999999284744,
+            "phase": 0.43681
+          },
+          {
+            "at": 2580.5999999046326,
+            "phase": 0.44079
+          },
+          {
+            "at": 2597.2999999523163,
+            "phase": 0.44474
+          },
+          {
+            "at": 2614.1999999284744,
+            "phase": 0.44869
+          },
+          {
+            "at": 2630.2999999523163,
+            "phase": 0.45269
+          },
+          {
+            "at": 2647.7999999523163,
+            "phase": 0.45664
+          },
+          {
+            "at": 2664.7999999523163,
+            "phase": 0.4606
+          },
+          {
+            "at": 2680.0999999046326,
+            "phase": 0.4646
+          },
+          {
+            "at": 2697.899999976158,
+            "phase": 0.46855
+          },
+          {
+            "at": 2713.1999999284744,
+            "phase": 0.47252
+          },
+          {
+            "at": 2731,
+            "phase": 0.4765
+          },
+          {
+            "at": 2747,
+            "phase": 0.48045
+          },
+          {
+            "at": 2763.2999999523163,
+            "phase": 0.4844
+          },
+          {
+            "at": 2780.899999976158,
+            "phase": 0.48838
+          },
+          {
+            "at": 2797.2999999523163,
+            "phase": 0.49236
+          },
+          {
+            "at": 2814.5,
+            "phase": 0.49631
+          },
+          {
+            "at": 2830.2999999523163,
+            "phase": 0.50029
+          },
+          {
+            "at": 2847.399999976158,
+            "phase": 0.50426
+          },
+          {
+            "at": 2863.899999976158,
+            "phase": 0.50824
+          },
+          {
+            "at": 2879.899999976158,
+            "phase": 0.51219
+          },
+          {
+            "at": 2897.899999976158,
+            "phase": 0.51617
+          },
+          {
+            "at": 2913.7999999523163,
+            "phase": 0.52014
+          },
+          {
+            "at": 2930.5,
+            "phase": 0.5241
+          },
+          {
+            "at": 2946.899999976158,
+            "phase": 0.52807
+          },
+          {
+            "at": 2963.1999999284744,
+            "phase": 0.53202
+          },
+          {
+            "at": 2981.0999999046326,
+            "phase": 0.53602
+          },
+          {
+            "at": 2997.0999999046326,
+            "phase": 0.53998
+          },
+          {
+            "at": 3013.5,
+            "phase": 0.54393
+          },
+          {
+            "at": 3030.5999999046326,
+            "phase": 0.54793
+          },
+          {
+            "at": 3047.0999999046326,
+            "phase": 0.55188
+          },
+          {
+            "at": 3064.5,
+            "phase": 0.55586
+          },
+          {
+            "at": 3079.899999976158,
+            "phase": 0.55981
+          },
+          {
+            "at": 3097.2999999523163,
+            "phase": 0.56379
+          },
+          {
+            "at": 3113.6999999284744,
+            "phase": 0.56776
+          },
+          {
+            "at": 3130.0999999046326,
+            "phase": 0.57171
+          },
+          {
+            "at": 3147.5999999046326,
+            "phase": 0.57569
+          },
+          {
+            "at": 3163.6999999284744,
+            "phase": 0.57964
+          },
+          {
+            "at": 3180.399999976158,
+            "phase": 0.58364
+          },
+          {
+            "at": 3196.5999999046326,
+            "phase": 0.5876
+          },
+          {
+            "at": 3213.1999999284744,
+            "phase": 0.59157
+          },
+          {
+            "at": 3231.0999999046326,
+            "phase": 0.59552
+          },
+          {
+            "at": 3247.2999999523163,
+            "phase": 0.5995
+          },
+          {
+            "at": 3263.399999976158,
+            "phase": 0.60345
+          },
+          {
+            "at": 3281.0999999046326,
+            "phase": 0.60743
+          },
+          {
+            "at": 3296.5,
+            "phase": 0.6114
+          },
+          {
+            "at": 3314.5,
+            "phase": 0.61536
+          },
+          {
+            "at": 3330,
+            "phase": 0.61933
+          },
+          {
+            "at": 3347.2999999523163,
+            "phase": 0.62331
+          },
+          {
+            "at": 3363.5999999046326,
+            "phase": 0.62729
+          },
+          {
+            "at": 3380.2999999523163,
+            "phase": 0.63124
+          },
+          {
+            "at": 3397.7999999523163,
+            "phase": 0.63519
+          },
+          {
+            "at": 3413.5,
+            "phase": 0.63919
+          },
+          {
+            "at": 3430.1999999284744,
+            "phase": 0.64314
+          },
+          {
+            "at": 3447.899999976158,
+            "phase": 0.64712
+          },
+          {
+            "at": 3463.1999999284744,
+            "phase": 0.65107
+          },
+          {
+            "at": 3481.0999999046326,
+            "phase": 0.65505
+          },
+          {
+            "at": 3496.6999999284744,
+            "phase": 0.659
+          },
+          {
+            "at": 3513.899999976158,
+            "phase": 0.66298
+          },
+          {
+            "at": 3530.2999999523163,
+            "phase": 0.66695
+          },
+          {
+            "at": 3547.399999976158,
+            "phase": 0.67093
+          },
+          {
+            "at": 3564.0999999046326,
+            "phase": 0.6749
+          },
+          {
+            "at": 3580.5999999046326,
+            "phase": 0.67886
+          },
+          {
+            "at": 3596.399999976158,
+            "phase": 0.68281
+          },
+          {
+            "at": 3613.399999976158,
+            "phase": 0.68681
+          },
+          {
+            "at": 3630.1999999284744,
+            "phase": 0.69076
+          },
+          {
+            "at": 3647.899999976158,
+            "phase": 0.69471
+          },
+          {
+            "at": 3663.5,
+            "phase": 0.69869
+          },
+          {
+            "at": 3680.7999999523163,
+            "phase": 0.70267
+          },
+          {
+            "at": 3696.5,
+            "phase": 0.70664
+          },
+          {
+            "at": 3714.0999999046326,
+            "phase": 0.71062
+          },
+          {
+            "at": 3730.0999999046326,
+            "phase": 0.71457
+          },
+          {
+            "at": 3747.5,
+            "phase": 0.71855
+          },
+          {
+            "at": 3764.2999999523163,
+            "phase": 0.72252
+          },
+          {
+            "at": 3780,
+            "phase": 0.72648
+          },
+          {
+            "at": 3797.6999999284744,
+            "phase": 0.73043
+          },
+          {
+            "at": 3814.0999999046326,
+            "phase": 0.7344
+          },
+          {
+            "at": 3830.5999999046326,
+            "phase": 0.73838
+          },
+          {
+            "at": 3847,
+            "phase": 0.74233
+          },
+          {
+            "at": 3864,
+            "phase": 0.74631
+          },
+          {
+            "at": 3880.2999999523163,
+            "phase": 0.75029
+          },
+          {
+            "at": 3897.5,
+            "phase": 0.75426
+          },
+          {
+            "at": 3914.0999999046326,
+            "phase": 0.75821
+          },
+          {
+            "at": 3930.399999976158,
+            "phase": 0.76219
+          },
+          {
+            "at": 3947.399999976158,
+            "phase": 0.76617
+          },
+          {
+            "at": 3963.399999976158,
+            "phase": 0.77012
+          },
+          {
+            "at": 3980.899999976158,
+            "phase": 0.77407
+          },
+          {
+            "at": 3997.5,
+            "phase": 0.77807
+          },
+          {
+            "at": 4013.2999999523163,
+            "phase": 0.78202
+          },
+          {
+            "at": 4030.1999999284744,
+            "phase": 0.786
+          },
+          {
+            "at": 4047.0999999046326,
+            "phase": 0.78998
+          },
+          {
+            "at": 4063.5,
+            "phase": 0.79393
+          },
+          {
+            "at": 4080.1999999284744,
+            "phase": 0.7979
+          },
+          {
+            "at": 4097,
+            "phase": 0.80188
+          },
+          {
+            "at": 4114,
+            "phase": 0.80583
+          },
+          {
+            "at": 4130.5,
+            "phase": 0.80979
+          },
+          {
+            "at": 4147.899999976158,
+            "phase": 0.81379
+          },
+          {
+            "at": 4165.099999904633,
+            "phase": 0.81774
+          },
+          {
+            "at": 4179.799999952316,
+            "phase": 0.82171
+          },
+          {
+            "at": 4196.899999976158,
+            "phase": 0.82569
+          },
+          {
+            "at": 4214.799999952316,
+            "phase": 0.82964
+          },
+          {
+            "at": 4230.699999928474,
+            "phase": 0.83362
+          },
+          {
+            "at": 4246.699999928474,
+            "phase": 0.83757
+          },
+          {
+            "at": 4264,
+            "phase": 0.84155
+          },
+          {
+            "at": 4280.599999904633,
+            "phase": 0.84552
+          },
+          {
+            "at": 4297.5,
+            "phase": 0.84948
+          },
+          {
+            "at": 4314.299999952316,
+            "phase": 0.85345
+          },
+          {
+            "at": 4329.899999976158,
+            "phase": 0.8574
+          },
+          {
+            "at": 4348.099999904633,
+            "phase": 0.8614
+          },
+          {
+            "at": 4364.099999904633,
+            "phase": 0.86536
+          },
+          {
+            "at": 4380.099999904633,
+            "phase": 0.86931
+          },
+          {
+            "at": 4397.299999952316,
+            "phase": 0.87329
+          },
+          {
+            "at": 4413.399999976158,
+            "phase": 0.87726
+          },
+          {
+            "at": 4430.299999952316,
+            "phase": 0.88124
+          },
+          {
+            "at": 4447.599999904633,
+            "phase": 0.88521
+          },
+          {
+            "at": 4464.5,
+            "phase": 0.88917
+          },
+          {
+            "at": 4480.899999976158,
+            "phase": 0.89312
+          },
+          {
+            "at": 4497.299999952316,
+            "phase": 0.8971
+          },
+          {
+            "at": 4513.5,
+            "phase": 0.90107
+          },
+          {
+            "at": 4529.799999952316,
+            "phase": 0.90505
+          },
+          {
+            "at": 4547.299999952316,
+            "phase": 0.90902
+          },
+          {
+            "at": 4563.799999952316,
+            "phase": 0.91298
+          },
+          {
+            "at": 4580,
+            "phase": 0.91693
+          },
+          {
+            "at": 4596.799999952316,
+            "phase": 0.9209
+          },
+          {
+            "at": 4613.599999904633,
+            "phase": 0.92488
+          },
+          {
+            "at": 4630.099999904633,
+            "phase": 0.92886
+          },
+          {
+            "at": 4647.5,
+            "phase": 0.93281
+          },
+          {
+            "at": 4664.099999904633,
+            "phase": 0.93676
+          },
+          {
+            "at": 4680.399999976158,
+            "phase": 0.94076
+          },
+          {
+            "at": 4698.199999928474,
+            "phase": 0.94471
+          },
+          {
+            "at": 4713.5,
+            "phase": 0.94869
+          },
+          {
+            "at": 4730.799999952316,
+            "phase": 0.95267
+          },
+          {
+            "at": 4747.5,
+            "phase": 0.95664
+          },
+          {
+            "at": 4763.799999952316,
+            "phase": 0.9606
+          },
+          {
+            "at": 4780.399999976158,
+            "phase": 0.96457
+          },
+          {
+            "at": 4796.799999952316,
+            "phase": 0.96852
+          },
+          {
+            "at": 4813.299999952316,
+            "phase": 0.9725
+          },
+          {
+            "at": 4830,
+            "phase": 0.97648
+          },
+          {
+            "at": 4847.199999928474,
+            "phase": 0.98043
+          },
+          {
+            "at": 4863.5,
+            "phase": 0.9844
+          },
+          {
+            "at": 4880.799999952316,
+            "phase": 0.98838
+          },
+          {
+            "at": 4896.799999952316,
+            "phase": 0.99233
+          },
+          {
+            "at": 4913.5,
+            "phase": 0.99631
+          },
+          {
+            "at": 4930.799999952316,
+            "phase": 0.00026
+          },
+          {
+            "at": 4947.099999904633,
+            "phase": 0.00426
+          },
+          {
+            "at": 4963.899999976158,
+            "phase": 0.00821
+          },
+          {
+            "at": 4980.199999928474,
+            "phase": 0.01217
+          },
+          {
+            "at": 4997.699999928474,
+            "phase": 0.01614
+          },
+          {
+            "at": 5013.199999928474,
+            "phase": 0.02012
+          },
+          {
+            "at": 5030.299999952316,
+            "phase": 0.0241
+          },
+          {
+            "at": 5046.5,
+            "phase": 0.02805
+          },
+          {
+            "at": 5063.699999928474,
+            "phase": 0.03202
+          },
+          {
+            "at": 5080.699999928474,
+            "phase": 0.03598
+          },
+          {
+            "at": 5097.299999952316,
+            "phase": 0.03995
+          },
+          {
+            "at": 5114.5,
+            "phase": 0.0439
+          },
+          {
+            "at": 5131,
+            "phase": 0.04788
+          },
+          {
+            "at": 5147.5,
+            "phase": 0.05186
+          },
+          {
+            "at": 5164.099999904633,
+            "phase": 0.05583
+          },
+          {
+            "at": 5180.699999928474,
+            "phase": 0.05979
+          },
+          {
+            "at": 5197.299999952316,
+            "phase": 0.06376
+          },
+          {
+            "at": 5213.899999976158,
+            "phase": 0.06774
+          },
+          {
+            "at": 5231,
+            "phase": 0.07169
+          },
+          {
+            "at": 5248.099999904633,
+            "phase": 0.07567
+          },
+          {
+            "at": 5263.5,
+            "phase": 0.07964
+          },
+          {
+            "at": 5280.299999952316,
+            "phase": 0.08362
+          },
+          {
+            "at": 5296.799999952316,
+            "phase": 0.08757
+          },
+          {
+            "at": 5314.5,
+            "phase": 0.09155
+          },
+          {
+            "at": 5330.399999976158,
+            "phase": 0.0955
+          },
+          {
+            "at": 5347.299999952316,
+            "phase": 0.09948
+          }
+        ],
+        "lifecycle": [],
+        "overflow": false,
+        "inputs": [
+          {
+            "at": 28.199999928474426,
+            "type": "focus",
+            "trusted": true,
+            "buttons": null,
+            "key": null,
+            "x": null,
+            "y": null,
+            "visibility": "visible",
+            "target": null
+          },
+          {
+            "at": 576.1999999284744,
+            "type": "pointermove",
+            "trusted": true,
+            "buttons": 0,
+            "key": null,
+            "x": 1,
+            "y": 1,
+            "visibility": "visible",
+            "target": "BODY"
+          },
+          {
+            "at": 668.1999999284744,
+            "type": "pointerenter",
+            "trusted": true,
+            "buttons": 0,
+            "key": null,
+            "x": 678.118408203125,
+            "y": 468.4296875,
+            "visibility": "visible",
+            "target": "ARTICLE"
+          },
+          {
+            "at": 668.3999999761581,
+            "type": "pointermove",
+            "trusted": true,
+            "buttons": 0,
+            "key": null,
+            "x": 678.118408203125,
+            "y": 468.4296875,
+            "visibility": "visible",
+            "target": "IMG"
+          }
+        ],
+        "errors": []
+      },
+      "phaseSummary": {
+        "records": 278,
+        "turns": 1,
+        "advance": 1.0991500000000005,
+        "maxPhaseStep": 0.0040000000000000036,
+        "seenOpen": true,
+        "seenClosed": true,
+        "overflow": false
+      },
+      "pixelPairs": [
+        {
+          "i": 0,
+          "j": 1,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 2,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 3,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 4,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 5,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 6,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 7,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 8,
+          "pixels": 96376
+        },
+        {
+          "i": 0,
+          "j": 9,
+          "pixels": 36305
+        },
+        {
+          "i": 0,
+          "j": 10,
+          "pixels": 0
+        },
+        {
+          "i": 0,
+          "j": 11,
+          "pixels": 0
+        },
+        {
+          "i": 0,
+          "j": 12,
+          "pixels": 0
+        },
+        {
+          "i": 0,
+          "j": 13,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 2,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 3,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 4,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 1,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 1,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 1,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 3,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 4,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 2,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 2,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 2,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 4,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 3,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 3,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 3,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 5,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 4,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 4,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 4,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 6,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 5,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 5,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 5,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 6,
+          "j": 7,
+          "pixels": 0
+        },
+        {
+          "i": 6,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 6,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 6,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 6,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 7,
+          "j": 8,
+          "pixels": 0
+        },
+        {
+          "i": 7,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 7,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 7,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 8,
+          "j": 9,
+          "pixels": 60772
+        },
+        {
+          "i": 8,
+          "j": 10,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 11,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 12,
+          "pixels": 96376
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "pixels": 0
+        },
+        {
+          "i": 9,
+          "j": 10,
+          "pixels": 36305
+        },
+        {
+          "i": 9,
+          "j": 11,
+          "pixels": 36305
+        },
+        {
+          "i": 9,
+          "j": 12,
+          "pixels": 36305
+        },
+        {
+          "i": 9,
+          "j": 13,
+          "pixels": 60772
+        },
+        {
+          "i": 10,
+          "j": 11,
+          "pixels": 0
+        },
+        {
+          "i": 10,
+          "j": 12,
+          "pixels": 0
+        },
+        {
+          "i": 10,
+          "j": 13,
+          "pixels": 96376
+        },
+        {
+          "i": 11,
+          "j": 12,
+          "pixels": 0
+        },
+        {
+          "i": 11,
+          "j": 13,
+          "pixels": 96376
+        },
+        {
+          "i": 12,
+          "j": 13,
+          "pixels": 96376
+        }
+      ],
+      "finishedAt": "2026-10-07T06:20:21.777Z",
+      "passed": 8,
+      "total": 8
+    }
+  ],
+  "served": [
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault.html",
+      "status": 200,
+      "sha256": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526"
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/shared/runtime.31fd3f9a83f9.mjs",
+      "status": 200,
+      "sha256": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d"
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/shared/runtime.css",
+      "status": 200,
+      "sha256": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/local-36/entry.mjs",
+      "status": 200,
+      "sha256": "6cd9e50890cc8c6cea23fbe85377596c084e4cbcbf484e8fc7756247a0773768"
+    }
+  ],
+  "browserCompleted": true,
+  "verifierSha256": "2bb2860d670aa2fe408ae81c751ca90e9c2de90aa25e1fcdd821975bff5e3aa4",
+  "sourceUnchanged": true,
+  "at": "2026-10-07T06:20:22.559Z",
+  "passed": 17,
+  "total": 17,
+  "allPassed": true,
+  "sourceInference": {
+    "observedOriginalFailurePhases": false,
+    "description": "Authored open hold is 630–2688ms. Hypothetical 700/1260/2610ms samples all have clip circle(150% at 50% 50%); these are not claimed to be the failed report actual sample times."
+  }
+}

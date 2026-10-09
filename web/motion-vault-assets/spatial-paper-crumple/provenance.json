@@ -1,0 +1,72 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "spatial-paper-crumple",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/item-develop/paper-crumple-demo",
+  "commit": "f84648b001dd13becda7a629ab5398cecfe3a252",
+  "upstreamEntry": "source/src/main-vat.js",
+  "localEntry": "run/index.html",
+  "readableEffect": "adapter/author/src/main-vat.js",
+  "preservedByteExactly": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "data/crumple-lab.svg",
+    "data/fold-toss.svg",
+    "data/grid-paper-works.svg",
+    "data/origami-engine.svg",
+    "data/paper-protocol.svg",
+    "data/throwaway-studio.svg",
+    "data/wastebasket-club.svg",
+    "index.html",
+    "vat/geo/vertex_animation_textures1_mesh.fbx",
+    "vat/tex/vertex_animation_textures1_pos.exr"
+  ],
+  "adaptations": [
+    "Preserved original 50-frame Houdini VAT FBX/EXR decoder, smooth normals and Cannon physics.",
+    "Pinned CDN dependencies replaced by local bundled Three 0.160.1 and cannon-es 0.20.0.",
+    "Original Caveat and Yomogi typography loaded locally via FontFace and the asset broker; OFL notices included.",
+    "DPR capped at 1.5. Added lifecycle, timer cleanup, late-load guards and reduced-motion gates; no forced click/drag.",
+    "Asset paths changed from import.meta-relative source paths to bounded run-relative paths.",
+    "2026-10-07 lifecycle: Both real ArrayBuffer FontFace loads and seven SVG Image decodes precede authored application initialization.",
+    "2026-10-07 lifecycle: Readiness waits FBX/EXR VAT decoding, an actual spawned paper mesh using the unchanged timed entrance, and genuine first draw with GL error check.",
+    "2026-10-07 lifecycle: Source stop suspends pending entrance timers with remaining delay; no 150ms polling loop remains. Dispose rejects pending readiness and clears timers, gestures, fonts and scene resources."
+  ],
+  "visualEvidence": {
+    "localAdaptationVisualVerified": false,
+    "localRecordingCreated": false,
+    "kind": "author_video_frames",
+    "paths": [
+      "evidence/upstream-3s.jpg",
+      "evidence/upstream-7s.jpg",
+      "evidence/upstream-12s.jpg"
+    ],
+    "sourceUrl": "https://github.com/item-develop/paper-crumple-demo/blob/f84648b001dd13becda7a629ab5398cecfe3a252/preview-4-3.mp4",
+    "videoSha256": "dd7272a11a76b6a8fab9bcab2b521d30e2e2a46f98e2420b3478c1b6a4872a3f"
+  },
+  "assetCaveats": [
+    "Source explicitly calls the seven fictional brand SVGs self-made copyright-free data; repository includes their originals under MIT.",
+    "FBX/EXR are the project\u2019s author-produced Houdini exports, distributed with the MIT repository.",
+    "Caveat and Yomogi are bundled unchanged from Google Fonts under SIL OFL, with full notices and download hashes.",
+    "Source video stills are evidence of the author demo only, never labeled as recordings of the local adapter."
+  ],
+  "bridge": {
+    "source": "adapter/source-isolation-bridge.original.js",
+    "originalSha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "adapted": "run/vault-isolation.js",
+    "adaptedSha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+    "change": "Added local dispose event to release pending broker tasks/object URLs."
+  },
+  "validation": "qa-static.json; compatibility-review.json; original source hash verified; runtime, visual equivalence and user acceptance NOT VERIFIED",
+  "adaptedOriginalFiles": [
+    "src/main-vat.js",
+    "src/paper-vat.js",
+    "src/paper.js"
+  ],
+  "lifecycleRepair": {
+    "scope": "cloud WORK package only; no project/local integration or publication",
+    "contract": "SourceDemo.ready Promise; isReady Boolean; dispose idempotent Promise; inspect returns actual source-owned state",
+    "recipe": "adapter/REBUILD.md",
+    "sharedHelper": "adapter/lifecycle.js"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "installation": "npm install --ignore-scripts; no upstream build config/scripts executed",
+  "packageLock": "adapter/package-lock.json",
+  "packageLockSha256": "93363544fdc22f07da75cd2ab44623b3382139031ecc0fdfef84af2e6253b4cb",
+  "buildTool": "esbuild 0.25.10",
+  "bundledRuntimePackages": [
+    {
+      "name": "postprocessing",
+      "version": "6.39.3",
+      "license": "Zlib",
+      "integrity": "sha512-h5H1iuN96aRkU06CzJ8d/FqFe3Qs2bI7LiGHTzOI5T5mQqjzovi2t1EkRHb8qkHgoD9cTJDb4uA30AkSxsFB7A==",
+      "resolved": "https://registry.npmjs.org/postprocessing/-/postprocessing-6.39.3.tgz",
+      "noticeFiles": [
+        "vendor-licenses/postprocessing-6.39.3-LICENSE.md"
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.182.0",
+      "license": "MIT",
+      "integrity": "sha512-GbHabT+Irv+ihI1/f5kIIsZ+Ef9Sl5A1Y7imvS5RQjWgtTPfPnZ43JmlYI7NtCRDK9zir20lQpfg8/9Yd02OvQ==",
+      "resolved": "https://registry.npmjs.org/three/-/three-0.182.0.tgz",
+      "noticeFiles": [
+        "vendor-licenses/three-0.182.0-LICENSE"
+      ]
+    }
+  ],
+  "missingStandaloneLicenseFiles": [],
+  "licenseSupplementNotes": "Some npm tarballs omit standalone license files. Full MIT notices were retrieved from the package repository at npm gitHead or the published release tag. Radix packages declare MIT; the shared Radix MIT notice is from a separately pinned current repository commit (see its origin metadata), not claimed as an exact old-release file."
+}

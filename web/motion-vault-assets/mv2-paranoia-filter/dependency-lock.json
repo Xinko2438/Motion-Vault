@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/codrops/ParanoiaSlideshow",
+  "commit": "0801177ffc024e22c6034e1c6035d93df0e3f5f9",
+  "files": [
+    {
+      "file": "adapter/package-lock.json",
+      "sha256": "595ef69d3485aefcf7e900b8a402e1a6b7e53cfaced38c5f4fb34082acfe82af",
+      "kind": "pinned runtime dependency lock; lifecycle scripts disabled"
+    }
+  ],
+  "sourceFileHashes": {
+    "README.md": "b70a7937d39a4c128adf6c6d1686491937e94f5cfbe6508e7cfc4695316f313e",
+    ".gitignore": "bf64be67ab4d9e29bc42bb75afa848eca35958c856ae93b09dd9e3630472a2bc",
+    "package.json": "8482ea66fdeff7c94bf865061394dcc3c98107d55bc10253fa883f78bd3a599c",
+    "LICENSE": "1f6db3d0b162eaa534ff5585db684f00c41f776325f7fd11ebf9373650099ce1",
+    ".gitattributes": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+    "src/index.html": "8bb8c88a0f4cb44f6628438f95076fbd7b547a443c7095f126221b599d221600",
+    "src/favicon.ico": "44fadea9ab16494cbd38fe9b31100467848001642166fc351d879af6f121cb68",
+    "src/js/slideshow.js": "a315bd0cd9c4e1774e2cfd316772c3243da4b9b077bbb5151a24b6328b4d6826",
+    "src/js/slide.js": "5b6b8f4673f1d15449c1cbf057e84f93d273365edb4e8320a00c13ecf931f52c",
+    "src/js/index.js": "5347e01724aa0d18b89f9c9826290aa159a557ee4e967cfb114ec64cdaa41a9a",
+    "src/js/utils.js": "3ff27d681c421f90aed5214c5ced662a69db4b7d1fef44a75cb63e4812e63a6a",
+    "src/css/base.css": "e7b495b6fc92bdace502c7fefc79fbfcc74c98145a87ab157d11529e7d478a36",
+    "src/img/2.jpg": "dd04da96b800ae60cfe5335acd76eeb6288dea61de6a05b57ddb9e37db2e5400",
+    "src/img/circle.svg": "14f8ae0ee94d75dbf54c4c4fc926fc583289bf3af7b72b93e099b070b3ccc7ad",
+    "src/img/7.jpg": "77c60ced93bf3339b4b1a006ee3ff366666807ddde2ed1dfa4bf80313fa77336",
+    "src/img/6.jpg": "716af729287f4c400b42bec73f28f9282e4b350fc51bf107a6144547d908d5cb",
+    "src/img/8.jpg": "e2a5efe11f6bfc76878ffdaceed55f9284827bf230535e0e069ce780b227911a",
+    "src/img/3.jpg": "b53e3b68e3339cb489b876e331628c9853860db2e5baee785db065c645ac558a",
+    "src/img/9.jpg": "864647dea1d26fc805c9c58bc60fcf4f9d6242dae4b84ff93be984e8b030658e",
+    "src/img/4.jpg": "2bd854f146ea3a984ddc664db3d583e40661553b502f2a1a952dd3df455a45a9",
+    "src/img/lines.svg": "796816600ad3b93df5dc839585d0953012640a7d7659626acdf76a9bb85f53f0",
+    "src/img/1.jpg": "9ab56db5128e3e4d90661402e66407328a783a9309706d7dd77634ede9ccc697",
+    "src/img/5.jpg": "25cfecbcb479c5c256fda44580ea94f892c3db2321270c55717ab283ed0a5428"
+  }
+}

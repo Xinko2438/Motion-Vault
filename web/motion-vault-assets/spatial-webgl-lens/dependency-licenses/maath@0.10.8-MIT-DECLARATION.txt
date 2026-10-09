@@ -1,0 +1,9 @@
+maath 0.10.8 license declaration
+
+The published package.json declares "license": "MIT". The published package and exact release source tree do not include a LICENSE or NOTICE file.
+
+Exact release commit: https://github.com/pmndrs/math/commit/626d198fbae28ba82f2f1b184db7fcafd4d23846
+Repository tree checked: https://api.github.com/repos/pmndrs/math/git/trees/626d198fbae28ba82f2f1b184db7fcafd4d23846?recursive=1
+The repository was renamed from pmndrs/maath to pmndrs/math. Its current 2026 copyright is not substituted for this 2024 release. No copyright holder or additional permission grant is invented here.
+
+This declaration records an upstream notice-provenance gap; it is not a replacement for a publisher-issued copyright/permission notice.

@@ -1,0 +1,307 @@
+{
+  "id": "spatial-kinetic-images",
+  "repo": "DGFX/codrops-kinetic-images",
+  "commit": "965dda362a8f9e5d522ed675493897200d273e49",
+  "files": [
+    {
+      "path": ".gitignore",
+      "gitBlobSha": "01435d7354a87cb238c138b95cf9ea6a66897e95",
+      "bytes": 474
+    },
+    {
+      "path": ".prettierignore",
+      "gitBlobSha": "a066a9abbd728b4f312a761ac27e572022078bf8",
+      "bytes": 30
+    },
+    {
+      "path": ".prettierrc",
+      "gitBlobSha": "2984b6583c48f109adaf40568ae682c1d31124f7",
+      "bytes": 144
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha": "09a8a4d2c4eadd6bb56f5e72afd0830b38773eaf",
+      "bytes": 1449
+    },
+    {
+      "path": "eslint.config.js",
+      "gitBlobSha": "951a702ea28fd51ece8c87a1f6e564e90b56e8d2",
+      "bytes": 371
+    },
+    {
+      "path": "jsconfig.json",
+      "gitBlobSha": "c4550b6d8f32df073ce096d9d41e500de097e087",
+      "bytes": 95
+    },
+    {
+      "path": "next.config.js",
+      "gitBlobSha": "ff4aa966bf8e8e621ee79f25e2da6757dfb86319",
+      "bytes": 1302
+    },
+    {
+      "path": "package-lock.json",
+      "gitBlobSha": "4ee5776dd919f5ee74ffd1d48bdcac07d8907a65",
+      "bytes": 371187
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha": "29f9112465989102633b4bb40fa08321abe9ba5a",
+      "bytes": 971
+    },
+    {
+      "path": "public/banner.jpg",
+      "gitBlobSha": "07c5e0bf09f52a46bf9285267e7e0110c81010d9",
+      "bytes": 32499
+    },
+    {
+      "path": "public/images/img1.webp",
+      "gitBlobSha": "fc63285c66d646bcead5c3fbf010e0ddb81be069",
+      "bytes": 89092
+    },
+    {
+      "path": "public/images/img10.webp",
+      "gitBlobSha": "5f21026c9aca777c669e621c6fe8d96487ff776d",
+      "bytes": 225900
+    },
+    {
+      "path": "public/images/img11.webp",
+      "gitBlobSha": "211e13847f9c475d32fbf32cabb284eae4aef5da",
+      "bytes": 17294
+    },
+    {
+      "path": "public/images/img12.webp",
+      "gitBlobSha": "eaf56e56f701be20067359d7080cca2d5225e6dc",
+      "bytes": 143348
+    },
+    {
+      "path": "public/images/img13.webp",
+      "gitBlobSha": "605a35cf044e82489c815e0104d91a9000e19872",
+      "bytes": 78228
+    },
+    {
+      "path": "public/images/img2.webp",
+      "gitBlobSha": "31602ad4d1288ac9e918541c7fa625643c6f2da5",
+      "bytes": 81648
+    },
+    {
+      "path": "public/images/img3.webp",
+      "gitBlobSha": "3004edd1b9a0f9c605779cf5c80a304f142ea39f",
+      "bytes": 61790
+    },
+    {
+      "path": "public/images/img4.webp",
+      "gitBlobSha": "b8547cc01e24db8684e5a011ea6295e9a9ecb38a",
+      "bytes": 84664
+    },
+    {
+      "path": "public/images/img5.webp",
+      "gitBlobSha": "0be03fbc37b67066829fcdc62ef26fcdec8b0353",
+      "bytes": 119538
+    },
+    {
+      "path": "public/images/img6.webp",
+      "gitBlobSha": "9243465e2876f4d795221bc5e3289c7f8461b426",
+      "bytes": 64810
+    },
+    {
+      "path": "public/images/img7.webp",
+      "gitBlobSha": "83f36ae26fc4887d5f39a1388dd1c3e9e8034938",
+      "bytes": 336412
+    },
+    {
+      "path": "public/images/img8.webp",
+      "gitBlobSha": "86db846a4c88aadac865ec607447ae62ab261325",
+      "bytes": 91838
+    },
+    {
+      "path": "public/images/img9.webp",
+      "gitBlobSha": "9ffc581ce3229bf49bb9e8f718b5cb4d1669e2b2",
+      "bytes": 131134
+    },
+    {
+      "path": "public/paper.glb",
+      "gitBlobSha": "75b6fa275ce0942b0eb4e72688071a798a199e94",
+      "bytes": 43804
+    },
+    {
+      "path": "public/spiral.glb",
+      "gitBlobSha": "0a999b412355fc3e2784e3260fdf11a46a73d2a6",
+      "bytes": 227264
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "gitBlobSha": "718d6fea4835ec2d246af9800eddb7ffb276240c",
+      "bytes": 25931
+    },
+    {
+      "path": "src/app/layout.jsx",
+      "gitBlobSha": "43e35e5277fd6196be7b4794d767ead03a08c206",
+      "bytes": 522
+    },
+    {
+      "path": "src/app/page.jsx",
+      "gitBlobSha": "654d2d0571253915ee0e17a41da66bf553c6e486",
+      "bytes": 1907
+    },
+    {
+      "path": "src/app/page.module.scss",
+      "gitBlobSha": "b41be1f9e124b96436d86c52349f9091d5a513da",
+      "bytes": 93
+    },
+    {
+      "path": "src/app/paper/page.jsx",
+      "gitBlobSha": "f0890cbb1b216f94d874b97576a0e7494445a9d8",
+      "bytes": 1042
+    },
+    {
+      "path": "src/app/paper/page.module.scss",
+      "gitBlobSha": "04295f6e2742f09161d1134f851a572f75027985",
+      "bytes": 471
+    },
+    {
+      "path": "src/app/spiral/page.jsx",
+      "gitBlobSha": "bda4de3c0f7cced0a78a77ff507baf49f3d7ef26",
+      "bytes": 871
+    },
+    {
+      "path": "src/app/spiral/page.module.scss",
+      "gitBlobSha": "dcb1575490f0c079f4fd28484b6b3e9b8eb5cdf1",
+      "bytes": 132
+    },
+    {
+      "path": "src/assets/fonts/font-faces.js",
+      "gitBlobSha": "30f1505ce84a0e53689a1d1e3f5c46db29e2b4bc",
+      "bytes": 336
+    },
+    {
+      "path": "src/components/layouts/Layout.jsx",
+      "gitBlobSha": "2d30dcca166c6cca59f63ca40938d90a1ea49e2e",
+      "bytes": 3198
+    },
+    {
+      "path": "src/components/ui/modules/Footer/Footer.jsx",
+      "gitBlobSha": "805094834fb7dc4f5dc120b232fc2fae2a0dbfc2",
+      "bytes": 238
+    },
+    {
+      "path": "src/components/ui/modules/Footer/Footer.module.scss",
+      "gitBlobSha": "8c56af943ae094ab8eee7257c5e94af1736c4f4a",
+      "bytes": 321
+    },
+    {
+      "path": "src/components/ui/modules/Header/Header.jsx",
+      "gitBlobSha": "06445dc46e4b7c9b67d619f7e5b8e1812d4cd853",
+      "bytes": 238
+    },
+    {
+      "path": "src/components/ui/modules/Header/Header.module.scss",
+      "gitBlobSha": "e1e79a4564b062ede3ce1f6f40d70f7489093240",
+      "bytes": 172
+    },
+    {
+      "path": "src/components/ui/modules/Loader/Loader.jsx",
+      "gitBlobSha": "3d6bc1f355415b335e2ee60420eaad9614ca5630",
+      "bytes": 246
+    },
+    {
+      "path": "src/components/ui/modules/Loader/Loader.module.scss",
+      "gitBlobSha": "ebe073a3c04a047138ab0ffb7cf8ef0879975799",
+      "bytes": 419
+    },
+    {
+      "path": "src/components/ui/modules/index.js",
+      "gitBlobSha": "c86f65a7827a3eb5e7fe4ffd54c2f8bf6e91f5a7",
+      "bytes": 159
+    },
+    {
+      "path": "src/components/webgl/Banner/Banner.jsx",
+      "gitBlobSha": "1b83474415d0d218f1aff6700ec52d419ff044bc",
+      "bytes": 1085
+    },
+    {
+      "path": "src/components/webgl/Billboard/Billboard.jsx",
+      "gitBlobSha": "15a5bf9cfa7114f953198c8384ad20a28bfae85d",
+      "bytes": 1479
+    },
+    {
+      "path": "src/components/webgl/Paper/Paper.jsx",
+      "gitBlobSha": "8f8f4b50ac0cf3b79c35dfb74470f115d6efbba9",
+      "bytes": 882
+    },
+    {
+      "path": "src/components/webgl/Spiral/Spiral.jsx",
+      "gitBlobSha": "f4c4e7742f580cab7b336e5dc1f010f5400304f2",
+      "bytes": 1062
+    },
+    {
+      "path": "src/components/webgl/index.js",
+      "gitBlobSha": "f140147ce6c0b59205959c17e0c0991778277b90",
+      "bytes": 218
+    },
+    {
+      "path": "src/data/images.js",
+      "gitBlobSha": "8f846ceada7b2a911dc4b478e683e4823f740101",
+      "bytes": 490
+    },
+    {
+      "path": "src/data/metadata.js",
+      "gitBlobSha": "34afa4cc90d99fde367b3284a4f2d0c9f0455dfc",
+      "bytes": 137
+    },
+    {
+      "path": "src/hooks/index.js",
+      "gitBlobSha": "875d4754c19da9a6ec3efdb515187df748b9975d",
+      "bytes": 68
+    },
+    {
+      "path": "src/hooks/useCollageTexture.jsx",
+      "gitBlobSha": "f8c612f83b548f39f28b9842a4e96a60b9f65215",
+      "bytes": 1310
+    },
+    {
+      "path": "src/styles/_reset.scss",
+      "gitBlobSha": "49d9b45d468d6327e8412bcd64b400b72a667504",
+      "bytes": 1986
+    },
+    {
+      "path": "src/styles/global.scss",
+      "gitBlobSha": "38089f7cd71ea08d8bfe651fb2615fcc8f0971b1",
+      "bytes": 952
+    },
+    {
+      "path": "src/webgl/Scene.jsx",
+      "gitBlobSha": "e84a76e2bbc2e70f7b11854761b96f65055538f9",
+      "bytes": 343
+    },
+    {
+      "path": "src/webgl/View.jsx",
+      "gitBlobSha": "f1a432b4c4e8364879060c7c53c417d74bd7ec89",
+      "bytes": 685
+    },
+    {
+      "path": "src/webgl/helpers/Three.jsx",
+      "gitBlobSha": "02e1a85fb9362cd6c55ae4902b9b6964cec40a25",
+      "bytes": 146
+    },
+    {
+      "path": "src/webgl/helpers/getCanvasTexture.js",
+      "gitBlobSha": "3882531daa443cfa7554389bb0f68c860d54414c",
+      "bytes": 3951
+    },
+    {
+      "path": "src/webgl/helpers/global.js",
+      "gitBlobSha": "e58045567346ebe3987dde17c2ae264b93d835f2",
+      "bytes": 63
+    },
+    {
+      "path": "src/webgl/materials/MeshBannerMaterial.js",
+      "gitBlobSha": "a0152de738d4ccd81f27488dff4ca2c4c80c8548",
+      "bytes": 1284
+    },
+    {
+      "path": "src/webgl/materials/MeshImageMaterial.js",
+      "gitBlobSha": "e62e93a890e550ec9ea9623705095fc38b7be1a3",
+      "bytes": 684
+    }
+  ]
+}

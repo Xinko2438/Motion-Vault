@@ -1,0 +1,219 @@
+{
+  "id": "spatial-procedural-snake",
+  "editing": "Edit these source constants in adapter/src equivalents, rebuild, and verify. No runtime parameter UI is asserted.",
+  "previewViewport": {
+    "width": 1100,
+    "height": 670,
+    "scaling": "host iframe scale, no source camera replacement"
+  },
+  "parameters": [
+    {
+      "name": "camera.fov",
+      "default": 45,
+      "source": "source/src/js/main.ts",
+      "meaning": "透视视角，保留原作空间构图"
+    },
+    {
+      "name": "camera.position",
+      "default": [
+        0,
+        15,
+        20
+      ],
+      "source": "source/src/js/main.ts",
+      "meaning": "相机看向原点"
+    },
+    {
+      "name": "desktop.length",
+      "default": 26,
+      "source": "source/src/js/utils/properties.ts",
+      "meaning": "原作高质量蛇身长度"
+    },
+    {
+      "name": "desktop.spineSegments",
+      "default": 100,
+      "source": "source/src/js/utils/properties.ts",
+      "meaning": "纵向鳞片排数"
+    },
+    {
+      "name": "desktop.radialSegments",
+      "default": 8,
+      "source": "source/src/js/utils/properties.ts",
+      "meaning": "每环鳞片数，默认共 800 个实例"
+    },
+    {
+      "name": "desktop.texturePoints",
+      "default": 100,
+      "source": "source/src/js/utils/properties.ts",
+      "meaning": "曲线位置/法线浮点纹理采样点数"
+    },
+    {
+      "name": "desktop.dpr",
+      "default": "min(2, devicePixelRatio)",
+      "source": "source/src/js/utils/properties.ts",
+      "meaning": "保留上游设备质量策略，不人为降档"
+    },
+    {
+      "name": "speed",
+      "default": 4,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "沿曲线移动速度"
+    },
+    {
+      "name": "targetLerp",
+      "default": 0.1,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "原生目标球逐帧插值"
+    },
+    {
+      "name": "orbitRadius",
+      "default": "max(1, min(2.5, viewportWidth / 800))",
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "1100 宽时为 1.375"
+    },
+    {
+      "name": "segmentLength",
+      "default": {
+        "min": 4,
+        "max": 8
+      },
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "新 Bézier 段随机长度范围"
+    },
+    {
+      "name": "maxTurnRate",
+      "default": 1.15,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "每段最大转角，弧度"
+    },
+    {
+      "name": "wanderWeight",
+      "default": 0.2,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "噪声游走权重"
+    },
+    {
+      "name": "wanderStrength",
+      "default": "Math.PI / 12",
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "水平游走强度"
+    },
+    {
+      "name": "tiltStrength",
+      "default": "Math.PI / 24",
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "垂直倾斜强度"
+    },
+    {
+      "name": "coilAmplitude",
+      "default": 3.0,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "盘旋高度幅值"
+    },
+    {
+      "name": "coilFrequency",
+      "default": 0.25,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "盘旋上下频率"
+    },
+    {
+      "name": "u_baseColor",
+      "default": "#2a9d8f",
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "青绿基底"
+    },
+    {
+      "name": "u_spotColor",
+      "default": "#e76f51",
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "珊瑚斑点"
+    },
+    {
+      "name": "u_spotScale",
+      "default": 5.0,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "斑点空间尺度"
+    },
+    {
+      "name": "u_spotThreshold",
+      "default": 0.6,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "斑点阈值"
+    },
+    {
+      "name": "u_scaleMin/u_scaleMax",
+      "default": [
+        0.13,
+        0.65
+      ],
+      "source": "source/src/js/utils/properties.ts",
+      "meaning": "高质量蛇体最小/最大粗细"
+    },
+    {
+      "name": "u_radiusN/u_radiusB",
+      "default": [
+        0.5,
+        0.8
+      ],
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "截面垂直与水平比例"
+    },
+    {
+      "name": "u_twistAmount",
+      "default": 3.0,
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "鳞片绕脊线的扭转"
+    },
+    {
+      "name": "u_specularPower/u_specularIntensity",
+      "default": [
+        27,
+        0.5
+      ],
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "镜面高光"
+    },
+    {
+      "name": "u_fresnelPower/u_fresnelIntensity",
+      "default": [
+        3.5,
+        0.3
+      ],
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "边缘高光"
+    },
+    {
+      "name": "u_normalPerturbScale/u_normalPerturbStrength",
+      "default": [
+        20,
+        0.05
+      ],
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "表面细节尺度与强度"
+    },
+    {
+      "name": "u_anisotropicStrength/u_anisotropicRoughness",
+      "default": [
+        0.35,
+        0.5
+      ],
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "延长反射形态"
+    },
+    {
+      "name": "ball.radius/color",
+      "default": [
+        0.3,
+        "#44ddff"
+      ],
+      "source": "source/src/js/components/Snake.ts",
+      "meaning": "真实追逐目标球"
+    }
+  ],
+  "reducedMotion": {
+    "source": "native matchMedia",
+    "ambientRAF": false,
+    "directInput": "one original simulation step per real mouse/touch move"
+  },
+  "randomness": "Original unseeded Math.random and simplex noise retained; frames differ on reload."
+}

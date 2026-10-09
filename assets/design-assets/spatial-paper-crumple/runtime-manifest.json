@@ -1,0 +1,93 @@
+{
+  "schema": "motion-vault.local-runtime.v1",
+  "id": "spatial-paper-crumple",
+  "entry": "run/index.html",
+  "network": "local manifest-listed files plus authored embedded data/blob URLs only",
+  "sandbox": "allow-scripts; no allow-same-origin",
+  "files": [
+    {
+      "path": "run/data/crumple-lab.svg",
+      "bytes": 851,
+      "sha256": "65a23eeda0dbaad30db163deb9f55eec1adfb6f739579c8b6d43618bf60c4951",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/data/fold-toss.svg",
+      "bytes": 643,
+      "sha256": "0c71b417a37e22d070197c5b7765f3fc26f493cc4d978c382e4f6619f37a3107",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/data/grid-paper-works.svg",
+      "bytes": 1113,
+      "sha256": "ac82a662f1a8424e775c359cd5ae3e684675656d42dc372743b7b1ce00d1d996",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/data/origami-engine.svg",
+      "bytes": 815,
+      "sha256": "9492e5db9e32e7e60f28c6454aa66e359699869f20b4c6ccf222f0897382fa2a",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/data/paper-protocol.svg",
+      "bytes": 936,
+      "sha256": "a284a37c0a4cf71d7a317b4a4540c2051a7804fb536b1d07f9691ecc2bcb4b17",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/data/throwaway-studio.svg",
+      "bytes": 913,
+      "sha256": "4a7b5be19e6da181bb55818500f9373cf2db96fe14e99d73d80b9472f8606f7f",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/data/wastebasket-club.svg",
+      "bytes": 930,
+      "sha256": "b1152cfeb0dffa028969b89d3ec704fcc75066be8d57d5ba50a92cad11312d8e",
+      "mime": "image/svg+xml"
+    },
+    {
+      "path": "run/effect.js",
+      "bytes": 745072,
+      "sha256": "a94b6f815da147e32f4feaf15ac9fb3a7a71a12e6d25edf9ecd0e2b9709ab080",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "run/fonts/Caveat.ttf",
+      "bytes": 403648,
+      "sha256": "0bdb6b660482d31531b3945849fba5916b3ef8695da7024a9e6b9ee3c4157988",
+      "mime": "font/ttf"
+    },
+    {
+      "path": "run/fonts/Yomogi.ttf",
+      "bytes": 4045904,
+      "sha256": "ec280f473a03187292905618f24fdb08a6dcbf8620b52637e3b589fe745259b9",
+      "mime": "font/ttf"
+    },
+    {
+      "path": "run/index.html",
+      "bytes": 671,
+      "sha256": "006334718a578eb5e25dfad531f16e5d31e37a562e1c99129b3687a171657d9d",
+      "mime": "text/html"
+    },
+    {
+      "path": "run/vat/geo/vertex_animation_textures1_mesh.fbx",
+      "bytes": 1249769,
+      "sha256": "1f8882cb799ec3c2788d4f65e99521ca3acd69d3a4cc1903b22bd19250e721a1",
+      "mime": "application/octet-stream"
+    },
+    {
+      "path": "run/vat/tex/vertex_animation_textures1_pos.exr",
+      "bytes": 1745336,
+      "sha256": "88ea8f26c5f6b261d0f21a8703243d4d0d6599091ecec35b7c4f417c965aaff8",
+      "mime": "image/aces"
+    },
+    {
+      "path": "run/vault-isolation.js",
+      "bytes": 4359,
+      "sha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+      "mime": "text/javascript"
+    }
+  ]
+}

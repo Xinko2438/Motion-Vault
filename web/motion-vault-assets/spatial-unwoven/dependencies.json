@@ -1,0 +1,13 @@
+{
+  "direct": {
+    "three": "0.128.0",
+    "gsap": "3.12.5"
+  },
+  "lockFile": "dependency-lock.json",
+  "lockSha256": "b35670c19084b4e635cf3babe90a5e95caa1d2a3f35b39a7c35c56e464b369a7",
+  "dependencyLifecycleScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "dependencyArchiveIntegrityVerified": true,
+  "runtimeExecution": "not performed in cloud; static only",
+  "licenseNotice": "Three is MIT. GSAP is not MIT; original distribution notice and exact package license field retained."
+}

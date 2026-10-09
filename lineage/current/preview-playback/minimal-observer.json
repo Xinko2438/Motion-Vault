@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-06T18:11:03.222Z",
+  "mode": "minimal-observer-diagnostic",
+  "mainSha256": "6cd8a0dbe5fb929c08148d9cc62ce0b988d9718a3c53d74a51962c979ed3a996",
+  "samples": [
+    {
+      "id": "curated-depth",
+      "presentedFps": 52.98303915728752,
+      "callbacks": 170,
+      "dropped": 26,
+      "total": 200,
+      "duration": 3.213104,
+      "tailMs": 18.600000023841858,
+      "paused": false
+    },
+    {
+      "id": "curated-image-in-type",
+      "presentedFps": 53.99134353665611,
+      "callbacks": 122,
+      "dropped": 13,
+      "total": 139,
+      "duration": 2.245729,
+      "tailMs": 4.90000002384204,
+      "paused": false
+    },
+    {
+      "id": "curated-telescope",
+      "presentedFps": 56.105186517623885,
+      "callbacks": 132,
+      "dropped": 7,
+      "total": 143,
+      "duration": 2.334474,
+      "tailMs": 2.400000000000091,
+      "paused": false
+    }
+  ]
+}

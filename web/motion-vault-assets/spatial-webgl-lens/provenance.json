@@ -1,0 +1,40 @@
+{
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/14islands/codrops-scroll-rig-tutorial",
+  "commit": "f903c1ed917bf1c2f8a351aea54f1045db6fc129",
+  "article": "https://tympanus.net/codrops/2023/10/10/progressively-enhanced-webgl-lens-refraction/",
+  "demo": "https://tympanus.net/Tutorials/WebGLLensRefraction/",
+  "preserved": [
+    "Original editorial DOM composition and image layout",
+    "Original Lens MeshTransmissionMaterial props and FBO refraction",
+    "Original camera scale/FOV, lens geometry, photo assets and exact font glyphs",
+    "Source scroll grayscale/zoom/opacity and image-cube geometry/material values"
+  ],
+  "adaptations": [
+    "Own local esbuild configuration, no CRA/upstream build scripts",
+    "Local package URLs and owned Draco decoder loader",
+    "Original incorrect root preload corrected to actual glb/lens-transformed2.glb",
+    "Exact OFL fonts fetched through manifest broker, registered with FontFace(ArrayBuffer), temporary Blob URLs for Troika; no hidden font embedding",
+    "Official Troika main-thread fallback selected to avoid worker string-eval in isolated frame; same typesetter and SDF pipeline",
+    "Source motion callbacks gated for pause/reduced-motion; native pointer/scroll remain",
+    "Root Codrops external links removed; unrelated host UI unchanged",
+    "Existing opaque source broker bridge retained",
+    "Compatibility revision: resource/first-render-gated ready Promise, accurate inspect/isReady, partial-initialization cleanup and terminal lifecycle. Original author source remains unchanged; browser/runtime compatibility is pending.",
+    "Track nine Troika onSync callbacks and actual null-target render submissions; initialization errors propagate from renderer and text loading.",
+    "Scoped pinned Troika lifecycle transform cancels private XHR, SDF queue/idle timers and atlas resources; glyph/material algorithms remain.",
+    "Own ImageBitmap loader ownership closes late decoded images and clears only owned URL caches; guarded Draco decoder cannot create a worker after disposal.",
+    "Reduced demand rendering requests the source root render queue; native reduced-motion wheel scrolling preserved; manual paused paint redraws source FBO without advancing lens simulation."
+  ],
+  "codeLicense": "Actual repository MIT",
+  "assets": {
+    "photos": "Original Maxim Berg Unsplash attribution retained; Unsplash license supports use, not a separate MIT claim. Verify individual image/page matches before production attribution.",
+    "hdri": "empty_warehouse_01 identified at https://polyhaven.com/a/empty_warehouse_01 as CC0",
+    "lensModel": "Bundled original lens geometry, source credits Paul Henschel lens reference; no contrary per-file restriction found. Retain attribution.",
+    "fonts": "Exact OFL files/copyright metadata/notice hashes in font-license-review; covered by the project’s exact-path/hash release allowlist, not a generic font-policy change."
+  },
+  "browserExecuted": false,
+  "runtimeVerified": false,
+  "localVisualVerified": false,
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "compatibilityReview": "compatibility-review.json"
+}

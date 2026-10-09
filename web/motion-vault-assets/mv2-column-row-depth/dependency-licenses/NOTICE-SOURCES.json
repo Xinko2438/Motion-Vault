@@ -1,0 +1,14 @@
+{
+  "verifiedAt": "2026-10-07",
+  "sources": {
+    "Lenis-MIT-LICENSE": {
+      "url": "https://raw.githubusercontent.com/darkroomengineering/lenis/main/LICENSE",
+      "sha256": "7d1896b31f2eed9f286b05faca067c4e35b2f109ae7c4ed5105220e2d2820228"
+    },
+    "imagesloaded-MIT-LICENSE": {
+      "url": "https://raw.githubusercontent.com/desandro/imagesloaded/v5.0.0/LICENSE.md",
+      "sha256": "f2f42b991be256cf53a7574aac72d4b77b85d4d96e7ee5f749db142ce5cda2d6"
+    }
+  },
+  "note": "Full permission notices retained. Versions in dependencies.json are read from actual artifacts; this notice inventory is not a runtime pass."
+}

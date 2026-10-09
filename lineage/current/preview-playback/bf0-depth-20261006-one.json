@@ -1,0 +1,183 @@
+{
+  "schema": "motion-vault.bframe-encode-trial.v1",
+  "runId": "bf0-depth-20261006-one",
+  "id": "curated-depth",
+  "at": "2026-10-06T17:38:29.538Z",
+  "status": "rolled_back",
+  "sourceVersion": "1f33dcbef8594b4d",
+  "browserUsed": false,
+  "encoded": true,
+  "change": {
+    "onlyAddedEncoderOption": [
+      "-bf",
+      "0"
+    ],
+    "input": "original native AV1; not previous lossy H264",
+    "crf": 20,
+    "preset": "fast",
+    "noNewRecording": true
+  },
+  "native": {
+    "file": ".runtime/preview-playback/native-refinements-20261006-one/curated-depth/native.mp4",
+    "sha256": "518b8a916b497281554c998e63875910a4f4120052e71f43876365e1758f3c45"
+  },
+  "captureReceipt": {
+    "file": "lineage/current/capture/curated-depth.json",
+    "sha256": "f8f4a7b2d0ea1b170d60dfc6bdcef94349896386a6e43622bac092c65a7359e1"
+  },
+  "trim": {
+    "startSeconds": 0.004866633333333332,
+    "endSeconds": 6.5058
+  },
+  "backup": {
+    "video": ".runtime/preview-playback/bf0-depth-20261006-one/original.mp4",
+    "manifest": ".runtime/preview-playback/bf0-depth-20261006-one/manifest-before.json"
+  },
+  "before": {
+    "videoSha256": "d2e4e8019ed3f9d93f7b4e49d37ee73f9f5d9508908e3a8e099c05b5a0d19854",
+    "manifestSha256": "872747767167b628b603830e7372b8c6d812f867cec9cc7c7d32601b6316f8c1",
+    "stream": {
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 656,
+      "height": 400,
+      "has_b_frames": 2,
+      "pix_fmt": "yuv420p",
+      "level": 31,
+      "color_range": "tv",
+      "r_frame_rate": "60000/1",
+      "avg_frame_rate": "23640000/390343",
+      "time_base": "1/60000",
+      "start_pts": 0,
+      "duration_ts": 390053,
+      "duration": "6.500883",
+      "nb_frames": "394",
+      "extradata": "\n00000000: 0164 001f ffe1 001c 6764 001f acd9 40a4  .d......gd....@.\n00000010: 33b0 16a0 21a0 2800 0003 0008 000e a600  3...!.(.........\n00000020: 78c1 8cb0 0100 0668 eae1 b2c8 b0fd f8f8  x......h........\n00000030: 00                                       .\n"
+    },
+    "sps": {
+      "profile": 100,
+      "constraints": 0,
+      "level": 31,
+      "spsId": 0,
+      "maxRefs": 4,
+      "frameOnly": 1,
+      "widthMbs": 41,
+      "heightMap": 25,
+      "vuiPresent": 1,
+      "timing": {
+        "numUnitsInTick": 1,
+        "timeScale": 120000,
+        "fixedFrameRateFlag": 0,
+        "nominalFPS": 60000
+      },
+      "spsHex": "6764001facd940a433b016a021a0280000030008000ea60078c18cb0"
+    }
+  },
+  "command": {
+    "executable": "ffmpeg",
+    "args": [
+      "-y",
+      "-hide_banner",
+      "-loglevel",
+      "error",
+      "-threads",
+      "1",
+      "-i",
+      "D:\\windows_ext\\Desktop\\AI_Native\\projects\\design-reference-library\\.runtime\\preview-playback\\native-refinements-20261006-one\\curated-depth\\native.mp4",
+      "-vf",
+      "trim=start=0.004866633333333332:end=6.5058,setpts=PTS-STARTPTS,scale=in_range=pc:out_range=tv",
+      "-filter_threads",
+      "1",
+      "-c:v",
+      "libx264",
+      "-threads",
+      "1",
+      "-preset",
+      "fast",
+      "-crf",
+      "20",
+      "-bf",
+      "0",
+      "-pix_fmt",
+      "yuv420p",
+      "-color_range",
+      "tv",
+      "-fps_mode",
+      "passthrough",
+      "-enc_time_base",
+      "demux",
+      "-video_track_timescale",
+      "60000",
+      "-an",
+      "-movflags",
+      "+faststart",
+      "D:\\windows_ext\\Desktop\\AI_Native\\projects\\design-reference-library\\.runtime\\preview-playback\\bf0-depth-20261006-one\\modified.mp4"
+    ]
+  },
+  "after": {
+    "videoSha256": "ff0b6ea416f196dc744b84e748e1c2e11fa8e2a0ed8f68e596697fc11415da81",
+    "stream": {
+      "codec_name": "h264",
+      "profile": "High",
+      "width": 656,
+      "height": 400,
+      "has_b_frames": 0,
+      "pix_fmt": "yuv420p",
+      "level": 31,
+      "color_range": "tv",
+      "r_frame_rate": "60000/1",
+      "avg_frame_rate": "23640000/390053",
+      "time_base": "1/60000",
+      "start_pts": 0,
+      "duration_ts": 390053,
+      "duration": "6.500883",
+      "nb_frames": "394",
+      "extradata": "\n00000000: 0164 001f ffe1 001b 6764 001f acb6 0521  .d......gd.....!\n00000010: 9d80 b501 0d01 4000 0003 0040 0075 3003  ......@....@.u0.\n00000020: c60c b801 0006 68ea c1b2 c8b0 fdf8 f800  ......h.........\n"
+    },
+    "sps": {
+      "profile": 100,
+      "constraints": 0,
+      "level": 31,
+      "spsId": 0,
+      "maxRefs": 2,
+      "frameOnly": 1,
+      "widthMbs": 41,
+      "heightMap": 25,
+      "vuiPresent": 1,
+      "timing": {
+        "numUnitsInTick": 1,
+        "timeScale": 120000,
+        "fixedFrameRateFlag": 0,
+        "nominalFPS": 60000
+      },
+      "spsHex": "6764001facb605219d80b5010d0140000003004000753003c60cb8"
+    },
+    "frameTypes": {
+      "I": 2,
+      "P": 392
+    },
+    "manifestSha256": "31d568f19c965ff0e5403fb27b2523300bd43684d0c3d7b77bd5be88ef47cfc2"
+  },
+  "checks": {
+    "packetCount": 394,
+    "decodedFrameCount": 394,
+    "packetCountEqual": true,
+    "everyDisplayPTSEqual": true,
+    "streamDurationEqual": true,
+    "containerDurationEqual": true,
+    "timeBaseEqual": true,
+    "decodedFrameCountEqual": true,
+    "dimensionsEqual": true,
+    "pixelFormatAndRangeEqual": true,
+    "zeroBFrames": true,
+    "nativeSourceUnchanged": true
+  },
+  "displayPTSSha256": {
+    "before": "1df50b9afb7d46f5332cf919ef2aa5b947cfb712c99eb43db4bde9facea142af",
+    "after": "1df50b9afb7d46f5332cf919ef2aa5b947cfb712c99eb43db4bde9facea142af"
+  },
+  "note": "DTS and compressed/decoded frame hashes are expected to change when removing B frames; every display PTS is compared exactly.",
+  "sourceRunHashesMatch": true,
+  "appliedAt": "2026-10-06T17:38:31.554Z",
+  "rolledBackAt": "2026-10-06T17:40:15.721Z"
+}

@@ -1,0 +1,51 @@
+{
+  "repository": "https://github.com/codrops/HoverGrid",
+  "commit": "0a59474715182c0d0bc2219c48f9cdd4f570cf9b",
+  "files": [
+    {
+      "file": "run/js/imagesloaded.pkgd.min.js",
+      "version": "5.0.0",
+      "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    },
+    {
+      "file": "run/js/gsap.min.js",
+      "version": "3.12.5",
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    }
+  ],
+  "sourceFileHashes": {
+    "README.md": "b32318555884077148edae9b8b951bc1330ba9bb6f8003b806c10bcaf8d42041",
+    "LICENSE": "a5ad4d98a7970bd09ba775c7e237fb93c60139f8e0e261ebb470e580b213c226",
+    "index.html": "6004e40daf030bad7a96fc2edcdd0a358715fbebb85c461faf0c097845252f91",
+    "js/imagesloaded.pkgd.min.js": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+    "js/gsap.min.js": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+    "js/index.js": "943765fd5ff2c1c74e9abf141aff362983acc769ebe7bc46647c9b672df1ca31",
+    "js/utils.js": "aa26851e642452aaee2bf95ca51b3978b8da373339ef1cd5c8753b970de59deb",
+    "media/red1.jpg": "2daea7163a60ebafdaa3d2e96be46b252f0cc96eb0753c130650bb224ef1a3c2",
+    "media/2.jpg": "7ef5be016ad0d811050569ffbb70c83420ab8c730dbeed9dc5ff30f785d3a0b2",
+    "media/7.jpg": "d9483649a17cd625d1a482ab79d318af39e2a5f84000231e38bfe80f5689de24",
+    "media/bg-video.mp4": "6ba6df91652a7b0c5b53f08de0e1fc9279dd6fd9dd3e6b12f5660888f8e35959",
+    "media/pink.jpg": "d4cf14644bbc470f78c538aea20c41fd8a47e7b9575bb57485f613df8ed5c518",
+    "media/6.jpg": "d3801d9c7804918220ca1e855b2a8425ddb959f702f5b9ed0196e711dd696160",
+    "media/8.jpg": "0f6d21d956b0de358b89b22755fa5a547ade35f6e17e68465ec05362546ca60b",
+    "media/15.jpg": "37bef8900468cd108857418715f276d927cb8b72f38eb433fb4677750be0eeb9",
+    "media/3.jpg": "edea658657202b77bcba3297b473f4a93f9bfb2faa3edc343e5add62d2fe0a75",
+    "media/12.jpg": "f8381bcdcb57b74e4ef550b58563c64371ecbaf60cbe440e03115766a6abfbc5",
+    "media/9.jpg": "b930f2c7d5db474650414c427f0feec8fab6818912c57cdd31928a4de543ae40",
+    "media/11.jpg": "bf11b08a53c21bf79f1f77d3fe6138cbc0a86bdd8998a87bf5f678b0b5c95db0",
+    "media/13.jpg": "ad6b4e67257d0d139e2c6ca04b7d23faf83c32e9f348688b34f190b03452f968",
+    "media/14.jpg": "8c22307910773e073180c728229e50c771898c3b459e94823a0c4c46c8c5fc5b",
+    "media/4.jpg": "c55e9b0ee3cdb18ef35777087ed7eb859ef6ed433c30d651fb3346fee2d7a30e",
+    "media/beige2.jpg": "74090b6950a0bf0f61be35eed9a56afeadda41a54fe904bfe550625115834285",
+    "media/beige1.jpg": "ee9ed8bd9fada5659a1e87c19e3eb520d775463207951777b2024c03cefd6a11",
+    "media/1.jpg": "80cb7694e5ff2240b91a737a50eba8cb61f607447efa4e9bcd698c1e5e70c654",
+    "media/5.jpg": "10c6b8384b1dd1e1b727552567d294b5bc20f32c0ec27cccc019fed3a6902323",
+    "media/red2.jpg": "822180690ee027191b267b286ed0cf2240b118d1076af89a408acebda26d0706",
+    "media/10.jpg": "5e4008741bcf91ed55d53b58fdfe95c65c983f8ce0b45e19a872ef6354049f43",
+    "css/base.css": "bde861626b156e44450448cacf79f6837df61ef2414091201ec3e2cc6c7f601d"
+  }
+}

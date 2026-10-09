@@ -1,0 +1,5 @@
+:root { --font-primary: Arial, Helvetica, sans-serif; }
+html, body, #root { width: 100%; height: 100%; }
+.vault-error { position: fixed; z-index: 2000; inset: 1rem; height: fit-content; padding: 1rem; color: #8b1717; background: #fff; font: 16px/1.4 Arial, sans-serif; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }

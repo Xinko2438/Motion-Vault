@@ -1,0 +1,30 @@
+{
+  "installation": "npm install --ignore-scripts; no upstream build config/scripts executed",
+  "packageLock": "adapter/package-lock.json",
+  "packageLockSha256": "7b9671d3f2ac012f217cfbf4a6878b2e28ecb7d52d33f4c415c5677c6b06fd19",
+  "buildTool": "esbuild 0.25.10",
+  "bundledRuntimePackages": [
+    {
+      "name": "three",
+      "version": "0.183.0",
+      "license": "MIT",
+      "integrity": "sha512-G6SH2jfefIVa2YI4JL2VbgQhrrbp1A8dRc7lr3PW827kdVyaX2RgH6M5FmjmdVFLgSHppyg3OYOZdTfWElle+g==",
+      "resolved": "https://registry.npmjs.org/three/-/three-0.183.0.tgz",
+      "noticeFiles": [
+        "vendor-licenses/three-0.183.0-LICENSE"
+      ]
+    },
+    {
+      "name": "tweakpane",
+      "version": "4.0.5",
+      "license": "MIT",
+      "integrity": "sha512-rxEXdSI+ArlG1RyO6FghC4ZUX8JkEfz8F3v1JuteXSV0pEtHJzyo07fcDG+NsJfN5L39kSbCYbB9cBGHyuI/tQ==",
+      "resolved": "https://registry.npmjs.org/tweakpane/-/tweakpane-4.0.5.tgz",
+      "noticeFiles": [
+        "vendor-licenses/tweakpane-4.0.5-repository-LICENSE"
+      ]
+    }
+  ],
+  "missingStandaloneLicenseFiles": [],
+  "licenseSupplementNotes": "Some npm tarballs omit standalone license files. Full MIT notices were retrieved from the package repository at npm gitHead or the published release tag. Radix packages declare MIT; the shared Radix MIT notice is from a separately pinned current repository commit (see its origin metadata), not claimed as an exact old-release file."
+}

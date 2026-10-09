@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const deps=path.resolve(process.env.MOTION_DITHERING_DEPS||path.join(root,'adapter/npm'));
+const require=createRequire(import.meta.url);
+const esbuild=process.env.ESBUILD_PATH?require(process.env.ESBUILD_PATH):process.env.MOTION_TOOLING?createRequire(path.join(path.resolve(process.env.MOTION_TOOLING),'package.json'))('esbuild'):require('esbuild');
+if(esbuild.version!=='0.25.10')throw new Error('This recipe requires esbuild 0.25.10.');
+const result=await esbuild.build({absWorkingDir:root,entryPoints:[path.join(root,'source/src/index.js')],outfile:path.join(root,'run/effect.js'),bundle:true,format:'iife',target:'es2022',minify:false,sourcemap:false,legalComments:'eof',nodePaths:[path.join(deps,'node_modules')],loader:{'.glsl':'text','.jpg':'file'},assetNames:'assets/[name]-[hash]',metafile:true,plugins:[{name:'local-entry-adapter',setup(build){build.onLoad({filter:/src\/index\.js$/},async args=>args.path===path.join(root,'source/src/index.js')?{contents:await fs.readFile(path.join(root,'adapter/index.js'),'utf8'),loader:'js',resolveDir:path.join(root,'source/src')}:null);}}]});
+await fs.writeFile(path.join(root,'build-evidence.json'),JSON.stringify({tool:'esbuild',version:esbuild.version,ownConfig:true,upstreamScriptsExecuted:false,metafile:result.metafile},null,2));

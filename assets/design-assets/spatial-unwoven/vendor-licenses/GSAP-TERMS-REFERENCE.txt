@@ -1,0 +1,8 @@
+GSAP 3.12.5 terms and retained notice
+
+The exact original distribution header remains unchanged in run/vendor/gsap.min.js and vendor-licenses/gsap-DISTRIBUTION-NOTICE.txt. The latter is an original distribution notice plus package metadata, not the full GSAP agreement and not an MIT grant.
+
+Full current official terms: https://gsap.com/community/standard-license/
+Verified 2026-10-07; effective April 30, 2025, last modified May 30, 2025. The current terms permit website/application/interface use, restrict competing no-code visual animation builders, and prohibit removing proprietary notices. They distinguish previously licensed versions from later revisions; this note does not invent which historical agreement a recipient accepted.
+
+Retaining the original notice is verified. A full historical agreement is not bundled here. This reference is not a substitute for the linked terms, does not relicense GSAP, and is not a claim of unrestricted redistribution. Reassess the agreement before product reuse outside the present local source-reference gallery.

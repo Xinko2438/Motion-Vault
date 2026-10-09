@@ -1,0 +1,39 @@
+{
+  "direct": {
+    "@14islands/lerp": "1.0.3",
+    "@14islands/r3f-scroll-rig": "8.12.3",
+    "@react-spring/three": "9.7.3",
+    "@react-three/drei": "9.86.3",
+    "@react-three/fiber": "8.14.4",
+    "maath": "^0.10.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.157.0"
+  },
+  "lockSha256": "92d6fb11e026185db1058616b69786221a7a445c1c5f9ff9b005d4f4c8149348",
+  "lifecycleScriptsExecuted": false,
+  "buildTool": "existing esbuild 0.25.10, own config",
+  "runtimeDependencies": "Locally bundled React/R3F/Three; legacy pinned source stack preserved",
+  "draco": {
+    "source": "three@0.157.0 npm archive examples/jsm/libs/draco/gltf",
+    "license": "Apache-2.0",
+    "files": [
+      {
+        "path": "run/draco/draco_decoder.js",
+        "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f",
+        "bytes": 512465
+      },
+      {
+        "path": "run/draco/draco_decoder.wasm",
+        "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+        "bytes": 192420
+      },
+      {
+        "path": "run/draco/draco_wasm_wrapper.js",
+        "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+        "bytes": 58456
+      }
+    ]
+  },
+  "fontFiles": "font-license-review/whitelist-request.json"
+}

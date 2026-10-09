@@ -1,0 +1,66 @@
+[
+  {
+    "entry": "source/js/demo4/index.js",
+    "output": "run/effect-index4.js"
+  },
+  {
+    "entry": "source/js/demo5/index.js",
+    "output": "run/effect-index5.js"
+  },
+  {
+    "entry": "source/js/demo6/index.js",
+    "output": "run/effect-index6.js"
+  },
+  {
+    "entry": "source/js/demo15/index.js",
+    "output": "run/effect-index15.js"
+  },
+  {
+    "entry": "source/js/demo14/index.js",
+    "output": "run/effect-index14.js"
+  },
+  {
+    "entry": "source/js/demo10/index.js",
+    "output": "run/effect-index10.js"
+  },
+  {
+    "entry": "source/js/demo11/index.js",
+    "output": "run/effect-index11.js"
+  },
+  {
+    "entry": "source/js/demo13/index.js",
+    "output": "run/effect-index13.js"
+  },
+  {
+    "entry": "source/js/demo8/index.js",
+    "output": "run/effect-index8.js"
+  },
+  {
+    "entry": "source/js/demo12/index.js",
+    "output": "run/effect-index12.js"
+  },
+  {
+    "entry": "source/js/demo7/index.js",
+    "output": "run/effect-index7.js"
+  },
+  {
+    "entry": "source/js/demo9/index.js",
+    "output": "run/effect-index9.js"
+  },
+  {
+    "entry": "source/js/demo1/index.js",
+    "output": "run/effect.js"
+  },
+  {
+    "entry": "source/js/demo2/index.js",
+    "output": "run/effect-index2.js"
+  },
+  {
+    "entry": "source/js/demo3/index.js",
+    "output": "run/effect-index3.js"
+  },
+  {
+    "entry": "source/js/demo16/index.js",
+    "output": "run/effect-index16.js"
+  }
+]

@@ -1,0 +1,789 @@
+{
+  "schema": "motion-vault.static-review.v1",
+  "passed": 185,
+  "total": 185,
+  "browserExecuted": false,
+  "upstreamCodeExecuted": false,
+  "runtimeStatus": "not_run",
+  "ownControllerMocks": "14/14 pass; no real React/R3F/Three runtime executed",
+  "visualStatus": "local render not captured",
+  "glbInspection": [
+    {
+      "file": "run/assets/paper.glb",
+      "extensionsUsed": [
+        "KHR_materials_unlit"
+      ],
+      "extensionsRequired": [],
+      "meshes": 1,
+      "buffers": [
+        {
+          "byteLength": 42420
+        }
+      ]
+    },
+    {
+      "file": "run/assets/spiral.glb",
+      "extensionsUsed": [],
+      "extensionsRequired": [],
+      "meshes": 1,
+      "buffers": [
+        {
+          "byteLength": 225872
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "Opaque allow-scripts-only iframe rendering at 1100x670",
+    "All image/model loads through host manifest bridge",
+    "All three routes and authored shader visual equivalence",
+    "Native orbit/dolly/pan with mouse/touch and cross-boundary release",
+    "Cold mount genuine pointer continuation",
+    "Reduced-motion first frame and direct orbit",
+    "Stop/resume/paint/dispose with real R3F, repeated mount and GPU memory",
+    "Original atlas dimensions versus device maxTextureSize",
+    "Local cover/recording and user design acceptance"
+  ],
+  "results": [
+    {
+      "check": "pinned-source: .gitignore",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: .prettierignore",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: .prettierrc",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: README.md",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: eslint.config.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: jsconfig.json",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: next.config.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: package-lock.json",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: package.json",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/banner.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img1.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img10.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img11.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img12.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img13.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img2.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img3.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img4.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img5.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img6.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img7.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img8.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/images/img9.webp",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/paper.glb",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: public/spiral.glb",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/favicon.ico",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/layout.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/page.module.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/paper/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/paper/page.module.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/spiral/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/app/spiral/page.module.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/assets/fonts/font-faces.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/layouts/Layout.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/Footer/Footer.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/Footer/Footer.module.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/Header/Header.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/Header/Header.module.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/Loader/Loader.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/Loader/Loader.module.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/ui/modules/index.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/webgl/Banner/Banner.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/webgl/Billboard/Billboard.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/webgl/Paper/Paper.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/webgl/Spiral/Spiral.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/components/webgl/index.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/data/images.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/data/metadata.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/hooks/index.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/hooks/useCollageTexture.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/styles/_reset.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/styles/global.scss",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/Scene.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/View.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/helpers/Three.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/helpers/getCanvasTexture.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/helpers/global.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/materials/MeshBannerMaterial.js",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: src/webgl/materials/MeshImageMaterial.js",
+      "passed": true
+    },
+    {
+      "check": "all 60 source files retained",
+      "passed": true
+    },
+    {
+      "check": "exact authored mechanism: webgl/materials/MeshImageMaterial.js",
+      "passed": true
+    },
+    {
+      "check": "exact authored mechanism: webgl/materials/MeshBannerMaterial.js",
+      "passed": true
+    },
+    {
+      "check": "exact authored mechanism: webgl/helpers/getCanvasTexture.js",
+      "passed": true
+    },
+    {
+      "check": "exact authored mechanism: webgl/helpers/global.js",
+      "passed": true
+    },
+    {
+      "check": "exact authored mechanism: webgl/helpers/Three.jsx",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: styles/global.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: styles/_reset.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: app/page.module.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: components/ui/modules/Loader/Loader.module.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: components/ui/modules/Header/Header.module.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: components/ui/modules/Footer/Footer.module.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: app/paper/page.module.scss",
+      "passed": true
+    },
+    {
+      "check": "exact source SCSS: app/spiral/page.module.scss",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: banner.jpg",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: paper.glb",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: spiral.glb",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img3.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img6.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img5.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img1.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img11.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img8.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img7.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img4.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img12.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img2.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img10.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img9.webp",
+      "passed": true
+    },
+    {
+      "check": "exact local asset: img13.webp",
+      "passed": true
+    },
+    {
+      "check": "paper GLB header",
+      "passed": true
+    },
+    {
+      "check": "paper GLB requires no decoder",
+      "passed": true
+    },
+    {
+      "check": "paper GLB buffers embedded",
+      "passed": true
+    },
+    {
+      "check": "paper GLB contains no external images",
+      "passed": true
+    },
+    {
+      "check": "paper useGLTF explicitly disables both decoders",
+      "passed": true
+    },
+    {
+      "check": "spiral GLB header",
+      "passed": true
+    },
+    {
+      "check": "spiral GLB requires no decoder",
+      "passed": true
+    },
+    {
+      "check": "spiral GLB buffers embedded",
+      "passed": true
+    },
+    {
+      "check": "spiral GLB contains no external images",
+      "passed": true
+    },
+    {
+      "check": "spiral useGLTF explicitly disables both decoders",
+      "passed": true
+    },
+    {
+      "check": "authored page geometry/camera exact except error forwarding: app/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "authored page geometry/camera exact except error forwarding: app/paper/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "authored page geometry/camera exact except error forwarding: app/spiral/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "Billboard actual R3F useFrame gated",
+      "passed": true
+    },
+    {
+      "check": "Banner actual R3F useFrame gated",
+      "passed": true
+    },
+    {
+      "check": "Paper actual R3F useFrame gated",
+      "passed": true
+    },
+    {
+      "check": "Spiral actual R3F useFrame gated",
+      "passed": true
+    },
+    {
+      "check": "Billboard geometry retained",
+      "passed": true
+    },
+    {
+      "check": "Banner source geometry retained",
+      "passed": true
+    },
+    {
+      "check": "native OrbitControls retained",
+      "passed": true
+    },
+    {
+      "check": "local hash router avoids history origin",
+      "passed": true
+    },
+    {
+      "check": "root has no Next runtime",
+      "passed": true
+    },
+    {
+      "check": "source public image references own package",
+      "passed": true
+    },
+    {
+      "check": "actual R3F frame-loop stop/resume/paint",
+      "passed": true
+    },
+    {
+      "check": "native reduced motion and demand mode",
+      "passed": true
+    },
+    {
+      "check": "ready uses actual resources and renderer frame rather than a timer",
+      "passed": true
+    },
+    {
+      "check": "stable getter subscription avoids R3F store reset loop",
+      "passed": true
+    },
+    {
+      "check": "source lifecycle export actually connected",
+      "passed": true
+    },
+    {
+      "check": "collage cancellation and explicit texture disposal",
+      "passed": true
+    },
+    {
+      "check": "primitive geometry and material disposal",
+      "passed": true
+    },
+    {
+      "check": "bridge requires verified parent source/channel",
+      "passed": true
+    },
+    {
+      "check": "bridge limits local package and explicit asset manifest",
+      "passed": true
+    },
+    {
+      "check": "bridge GET only",
+      "passed": true
+    },
+    {
+      "check": "bridge disposal cleanup",
+      "passed": true
+    },
+    {
+      "check": "asset whitelist complete and internal",
+      "passed": true
+    },
+    {
+      "check": "classic local scripts, no CDN/module imports",
+      "passed": true
+    },
+    {
+      "check": "CSP blocks fonts/workers/objects",
+      "passed": true
+    },
+    {
+      "check": "no navigable external source link in sandbox",
+      "passed": true
+    },
+    {
+      "check": "own build and exact tool version",
+      "passed": true
+    },
+    {
+      "check": "actual compiled source includes adapter/src/app/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "actual compiled source includes adapter/src/app/paper/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "actual compiled source includes adapter/src/app/spiral/page.jsx",
+      "passed": true
+    },
+    {
+      "check": "actual compiled source includes adapter/src/webgl/materials/MeshImageMaterial.js",
+      "passed": true
+    },
+    {
+      "check": "actual compiled source includes adapter/src/webgl/materials/MeshBannerMaterial.js",
+      "passed": true
+    },
+    {
+      "check": "actual compiled source includes adapter/src/webgl/helpers/getCanvasTexture.js",
+      "passed": true
+    },
+    {
+      "check": "Next/font shell absent from compiled inputs",
+      "passed": true
+    },
+    {
+      "check": "JavaScript syntax: run/effect.js",
+      "passed": true
+    },
+    {
+      "check": "JavaScript syntax: run/vault-isolation.js",
+      "passed": true
+    },
+    {
+      "check": "source map: run/effect.js.map",
+      "passed": true
+    },
+    {
+      "check": "source map: run/effect.css.map",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/asset-manifest.json",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/banner.jpg",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img1.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img10.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img11.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img12.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img13.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img2.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img3.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img4.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img5.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img6.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img7.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img8.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/images/img9.webp",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/paper.glb",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/assets/spiral.glb",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/effect.css",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/effect.css.map",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/effect.js",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/effect.js.map",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/index.html",
+      "passed": true
+    },
+    {
+      "check": "run hash: run/vault-isolation.js",
+      "passed": true
+    },
+    {
+      "check": "dependency lock hash",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: @babel/runtime@7.29.7",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: @react-three/drei@10.4.2",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: @react-three/fiber@9.2.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: camera-controls@2.10.1",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: its-fine@2.1.1",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: react-dom@19.1.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: react-reconciler@0.31.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: react-use-measure@2.1.7",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: react@19.1.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: scheduler@0.25.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: scheduler@0.26.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: suspend-react@0.1.3",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: three-stdlib@2.36.1",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: three@0.175.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: tunnel-rat@0.1.2",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: use-sync-external-store@1.7.0",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: zustand@4.5.7",
+      "passed": true
+    },
+    {
+      "check": "dependency notices: zustand@5.0.15",
+      "passed": true
+    },
+    {
+      "check": "publisher grant explicitly distinct from repo license",
+      "passed": true
+    },
+    {
+      "check": "three variants are one entry",
+      "passed": true
+    },
+    {
+      "check": "own mocked controller tests pass",
+      "passed": true
+    }
+  ]
+}

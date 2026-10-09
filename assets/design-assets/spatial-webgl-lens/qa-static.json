@@ -1,0 +1,218 @@
+{
+  "schema": "motion-vault.source-contract-static.v1",
+  "id": "spatial-webgl-lens",
+  "checkedAt": "2026-10-07T11:27:14.834323+00:00",
+  "passed": 51,
+  "total": 51,
+  "checks": [
+    {
+      "check": "pinned source .gitignore",
+      "passed": true
+    },
+    {
+      "check": "pinned source LICENSE",
+      "passed": true
+    },
+    {
+      "check": "pinned source package.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source pnpm-lock.yaml",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/env/empty_warehouse_01_1k.hdr",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/favicon.ico",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/fonts.css",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/fonts/PlayfairDisplay-Italic.woff",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/fonts/Poppins-Medium.woff",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/fonts/Poppins-Regular.woff",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/fonts/Poppins-SemiBold.woff",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/glb/lens-transformed2.glb",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/images/codrops-bg-tiny.png",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/images/maxim-berg-1_U2RcHnSjc-unsplash.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/images/maxim-berg-ANuuRuCRRAc-unsplash.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/images/maxim-berg-TcE45yIzJA0-unsplash.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/images/maxim-berg-qsDfqZyTCAE-unsplash-crop.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/index.html",
+      "passed": true
+    },
+    {
+      "check": "pinned source public/styles.css",
+      "passed": true
+    },
+    {
+      "check": "pinned source readme.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/App.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/CodropsFrame.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/EffectsToggle.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/Image.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/ImageCube.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/Lens.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/Text.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/WebGLBackground.jsx",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/index.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/draco/draco_decoder.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/draco/draco_wasm_wrapper.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/effect.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/vault-isolation.js",
+      "passed": true
+    },
+    {
+      "check": "relative local HTML resources",
+      "passed": true
+    },
+    {
+      "check": "classic bundle before opaque sandbox execution",
+      "passed": true
+    },
+    {
+      "check": "exact OFL font pair Poppins-Medium.woff",
+      "passed": true
+    },
+    {
+      "check": "exact OFL font pair Poppins-Regular.woff",
+      "passed": true
+    },
+    {
+      "check": "exact OFL font pair PlayfairDisplay-Italic.woff",
+      "passed": true
+    },
+    {
+      "check": "exact OFL font pair Poppins-SemiBold.woff",
+      "passed": true
+    },
+    {
+      "check": "authored material parameters",
+      "passed": true
+    },
+    {
+      "check": "four tracked ArrayBuffer fonts",
+      "passed": true
+    },
+    {
+      "check": "ready waits actual text sync and screen frame",
+      "passed": true
+    },
+    {
+      "check": "nine authored text instances",
+      "passed": true
+    },
+    {
+      "check": "stable store selector",
+      "passed": true
+    },
+    {
+      "check": "frameloop reads current store snapshot",
+      "passed": true
+    },
+    {
+      "check": "reduced motion retains native wheel",
+      "passed": true
+    },
+    {
+      "check": "demand frames request root screen render",
+      "passed": true
+    },
+    {
+      "check": "Troika explicit private resource cleanup",
+      "passed": true
+    },
+    {
+      "check": "late Draco init is terminally guarded",
+      "passed": true
+    },
+    {
+      "check": "CSP local Draco WASM and blob worker",
+      "passed": true
+    },
+    {
+      "check": "no CSS font fetch",
+      "passed": true
+    }
+  ],
+  "bundleSha256": "e0ebb39ca663216aa05022d7d89d9c0994705ddf1d73c8cacc77f28188b15e98",
+  "browserExecuted": false,
+  "runtime": "not_run",
+  "visualAcceptance": "pending",
+  "scope": "Source/parse/asset checks only; runtime contract predicates have not executed in a browser."
+}

@@ -1,0 +1,30 @@
+{
+  "installation": "npm install --ignore-scripts; no upstream build config/scripts executed",
+  "packageLock": "adapter/package-lock.json",
+  "packageLockSha256": "a84ef6763f2579c7689aefff367eee6c14b63188e60528f1bb864ce6912e758f",
+  "buildTool": "esbuild 0.25.10",
+  "bundledRuntimePackages": [
+    {
+      "name": "cannon-es",
+      "version": "0.20.0",
+      "license": "MIT",
+      "integrity": "sha512-eZhWTZIkFOnMAJOgfXJa9+b3kVlvG+FX4mdkpePev/w/rP5V8NRquGyEozcjPfEoXUlb+p7d9SUcmDSn14prOA==",
+      "resolved": "https://registry.npmjs.org/cannon-es/-/cannon-es-0.20.0.tgz",
+      "noticeFiles": [
+        "vendor-licenses/cannon-es-0.20.0-LICENSE"
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.160.1",
+      "license": "MIT",
+      "integrity": "sha512-Bgl2wPJypDOZ1stAxwfWAcJ0WQf7QzlptsxkjYiURPz+n5k4RBDLsq+6f9Y75TYxn6aHLcWz+JNmwTOXWrQTBQ==",
+      "resolved": "https://registry.npmjs.org/three/-/three-0.160.1.tgz",
+      "noticeFiles": [
+        "vendor-licenses/three-0.160.1-LICENSE"
+      ]
+    }
+  ],
+  "missingStandaloneLicenseFiles": [],
+  "licenseSupplementNotes": "Some npm tarballs omit standalone license files. Full MIT notices were retrieved from the package repository at npm gitHead or the published release tag. Radix packages declare MIT; the shared Radix MIT notice is from a separately pinned current repository commit (see its origin metadata), not claimed as an exact old-release file."
+}

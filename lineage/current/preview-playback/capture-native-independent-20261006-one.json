@@ -1,0 +1,38 @@
+{
+  "schema": "motion-vault.native-capture-batch.v1",
+  "runId": "native-independent-20261006-one",
+  "startedAt": "2026-10-06T16:24:29.228Z",
+  "state": "failed",
+  "ids": [
+    "curated-glass-torus",
+    "curated-metal-name",
+    "curated-liquid-grid",
+    "curated-depth"
+  ],
+  "scriptSha256": "7312fe70ae9773165a7dbc99961fa190b992090873e0f8ae81164514fa1e130a",
+  "recordOptions": {
+    "audio": false,
+    "frameRate": 60,
+    "maxWidth": 656,
+    "maxHeight": 400
+  },
+  "reports": [
+    {
+      "id": "curated-glass-torus",
+      "version": "34d07324a3894dd3",
+      "passed": false,
+      "previousVideoSha256": "0c79800c09dc4511db70b017f3b445b5317bbef742a76fa4ce30e3a6509947af",
+      "error": "Error: Source recording errors: {\"runtimeReport\":{\"issues\":[],\"csp\":[],\"sourceErrors\":[],\"inputs\":{\"pointermove\":99},\"outside\":[]},\"responses\":[{\"url\":\"http://127.0.0.1:38934/favicon.ico\",\"status\":404}]}\n    at withBrowser.gpu (file:///D:/windows_ext/Desktop/AI_Native/projects/design-reference-library/src/hybrid/capture-candidate-assets.mjs:257:152)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async withBrowser (file:///D:/windows_ext/Desktop/AI_Native/projects/design-reference-library/scripts/isolated-browser.mjs:20:9)\n    at async withStage (file:///D:/windows_ext/Desktop/AI_Native/projects/design-reference-library/src/hybrid/browser-tools.mjs:13:13)\n    at async captureBatch (file:///D:/windows_ext/Desktop/AI_Native/projects/design-reference-library/src/hybrid/capture-candidate-assets.mjs:236:3)\n    at async file:///D:/windows_ext/Desktop/AI_Native/projects/design-reference-library/src/hybrid/capture-candidate-assets.mjs:304:6"
+    }
+  ],
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/154.0.8037.93",
+    "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "jsVersion": "15.4.80.19"
+  },
+  "browserClosed": true,
+  "finishedAt": "2026-10-06T16:24:43.729Z",
+  "sourceScriptUnchanged": true
+}

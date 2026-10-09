@@ -1,0 +1,264 @@
+{
+  "repository": "https://github.com/houmahani/codrops-depth-gallery",
+  "commit": "28190e0920df887f069524c3863db397af34c1c8",
+  "codeLicense": "MIT",
+  "runtimeVerification": "not_performed_browser_routes_blocked",
+  "id": "spatial-depth-gallery",
+  "source_kind": "adapted_author_source",
+  "author": "Houmahani Kane",
+  "article": "https://tympanus.net/codrops/?p=111409",
+  "demo": "https://tympanus.net/Tutorials/DepthGallery/",
+  "license": {
+    "name": "MIT",
+    "file": "source/LICENSE",
+    "url": "https://github.com/houmahani/codrops-depth-gallery/blob/28190e0920df887f069524c3863db397af34c1c8/LICENSE",
+    "sha256": "21b9f7ab4e47821cca20bb0b1b6e9aa779acc5b3564afde475ce0bca5cb05f4d"
+  },
+  "sourceFiles": [
+    {
+      "path": ".gitignore",
+      "bytes": 253,
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+      "gitBlobSha": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/.gitignore"
+    },
+    {
+      "path": ".prettierignore",
+      "bytes": 18,
+      "sha256": "a2409cab6567095750a1a50cbfb5c19cefdb84e10fb48a6cac3f92c4939dfea3",
+      "gitBlobSha": "de4d1f007dd195ea685034cbda7209013105044b",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/.prettierignore"
+    },
+    {
+      "path": ".prettierrc.json",
+      "bytes": 90,
+      "sha256": "be56fb329232bab85577b2d8bdd7f9cd156baeec7f2fc155e12bf9334226d382",
+      "gitBlobSha": "8486671742597a5e1eee4abf2787be5a8e83e4a0",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/.prettierrc.json"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1094,
+      "sha256": "21b9f7ab4e47821cca20bb0b1b6e9aa779acc5b3564afde475ce0bca5cb05f4d",
+      "gitBlobSha": "a106bb6950403e20f09e542342280b77411b9300",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1391,
+      "sha256": "140547fd039b547bced1b28e88187bb4611aa1e9cb9c7e8ba0653b6c3f7dd9e3",
+      "gitBlobSha": "671c25c218a0fd528d9e6fa37f4e2b4b080561b5",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/README.md"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 309,
+      "sha256": "5f78576b963c815931caccd320725a6b2ab911eb5f7367f8cb6081aa6b1ddd03",
+      "gitBlobSha": "17255ed79babf5b6a2f63e3b237a7972021badbb",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/eslint.config.mjs"
+    },
+    {
+      "path": "index.html",
+      "bytes": 2099,
+      "sha256": "71618defa956a4ce89e428011cd85f4f9ab82ba7e99933c51db1e2d6f1a213f2",
+      "gitBlobSha": "86b49ad4badbd082fb55698bd92799d1740f4d97",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/index.html"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 67355,
+      "sha256": "de2e707706e6c4062b923e9c13423ac2b283ad65620a7e27238245b277df0668",
+      "gitBlobSha": "568ec2d7ba2ef93a0ca2dc46b0771a1f546f7429",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/package-lock.json"
+    },
+    {
+      "path": "package.json",
+      "bytes": 978,
+      "sha256": "98c97f01427937b07dab637ed9750ee5177d36ae3589e80bdc9e282e1f5788b1",
+      "gitBlobSha": "bc08026ad4e28ef4de5addb68ae5356691c4b23c",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/package.json"
+    },
+    {
+      "path": "resources/README.md",
+      "bytes": 726,
+      "sha256": "622c1e39cca8a93f056f0b888aa2b364e43c6bc8232f680d3968be0e43cb391c",
+      "gitBlobSha": "2d43b4a73d7c5a6bcfd3b1a54c0304f24c878818",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/resources/README.md"
+    },
+    {
+      "path": "resources/screenshot.jpg",
+      "bytes": 76036,
+      "sha256": "fd86cf35280fd365437dab51fb338d465d3acc66e4705187f9de6b4fcf79ed99",
+      "gitBlobSha": "65cdad4a15adf29f4a7f05572e52f06a170dd980",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/resources/screenshot.jpg"
+    },
+    {
+      "path": "src/Experience/Background/index.js",
+      "bytes": 6583,
+      "sha256": "685e455e9e407cc4f09d3f322cac358073a7db68213a04360dc9a8fe385e968c",
+      "gitBlobSha": "684802a8f388e03faa7e535c1e3c7856db80da57",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Background/index.js"
+    },
+    {
+      "path": "src/Experience/Background/shaders/fragment.glsl",
+      "bytes": 1639,
+      "sha256": "256dca3ddc2cdea2a3899dfa22c44ab2798c19dec5ad8e2442ab4db7b0b651f1",
+      "gitBlobSha": "055a6672ddf3475a4e1ef041ebdab5b958095c2c",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Background/shaders/fragment.glsl"
+    },
+    {
+      "path": "src/Experience/Background/shaders/vertex.glsl",
+      "bytes": 92,
+      "sha256": "8f2938072df24f26d087484ff3d2f2e8affb7fd40dc9c68bbd7f4690c4c7245f",
+      "gitBlobSha": "58a95768cd77f101f90ce61bde11f7e0332f388c",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Background/shaders/vertex.glsl"
+    },
+    {
+      "path": "src/Experience/Debug.js",
+      "bytes": 1289,
+      "sha256": "8c153d40c5346a59e60050ade6506c8502d880c9583f4e71c2d51f8811568c7c",
+      "gitBlobSha": "fef7fc575be03f9c0ea62d27c94f3cfecf2b3cf4",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Debug.js"
+    },
+    {
+      "path": "src/Experience/Engine.js",
+      "bytes": 5507,
+      "sha256": "eeb0565ed5fb478df743228dd5ec8ebe9238192994f6da3b44048350dbf8d73d",
+      "gitBlobSha": "693072629626068b2f92db86f1ba56ad5f4cea3e",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Engine.js"
+    },
+    {
+      "path": "src/Experience/Gallery.js",
+      "bytes": 15176,
+      "sha256": "00ffcb281f7f65b9983a2d5fc5763f1ac9ff024fc3db843454f231b26f6364c1",
+      "gitBlobSha": "e37d18b493b98aa3574b0cce3f6931e30df0e326",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Gallery.js"
+    },
+    {
+      "path": "src/Experience/Label.js",
+      "bytes": 6527,
+      "sha256": "118e3528ed0bc61fdfff3f75b033f2ce0a20c7d4c732e82bb32917b6a2e0dfc7",
+      "gitBlobSha": "9613006116d4a8d255d3f6a7343ee7ff8fa7056f",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Label.js"
+    },
+    {
+      "path": "src/Experience/Scroll.js",
+      "bytes": 8547,
+      "sha256": "575b9dc98abe8874b2ed97834a9199a63d336b395bb7dfcb797cf809a8f3c5c5",
+      "gitBlobSha": "7afdbdb6393d7caa0530ddbab4a7eee2d80b60ea",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Scroll.js"
+    },
+    {
+      "path": "src/Experience/Trail.js",
+      "bytes": 5473,
+      "sha256": "f355d45653aa0c9c6ece27ff5b40e60363042227a24cdfde2105e585fe309457",
+      "gitBlobSha": "7afee80ac743a974bcff1ca7a646dfdf30aba8ad",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/Trail.js"
+    },
+    {
+      "path": "src/Experience/TrailController.js",
+      "bytes": 12660,
+      "sha256": "84f400921868bfcd5813f33972aebccaba38f80c9aac26233ea96051d273dfc4",
+      "gitBlobSha": "b825eec4c11f7afa882e34faa3de3212015d5759",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/TrailController.js"
+    },
+    {
+      "path": "src/Experience/TrailHeadParticles.js",
+      "bytes": 4670,
+      "sha256": "0d7b073bdacf5c4260208ce0c75203c8ab579375b7ce62ef17a020ba2ed5eae1",
+      "gitBlobSha": "4335527d681a43e526f0c5312f271a7da988804c",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/TrailHeadParticles.js"
+    },
+    {
+      "path": "src/Experience/index.js",
+      "bytes": 3217,
+      "sha256": "9013dd8110efa387a6a292f3e30e3246816d85a03c6cd9bc891ff2a14a8991b9",
+      "gitBlobSha": "81eef68bde24bef27e70d4660cb4a447dab37a79",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/Experience/index.js"
+    },
+    {
+      "path": "src/assets/flower-01.webp",
+      "bytes": 52310,
+      "sha256": "5ba1220bdf9efd791545249abccaa75ca68a9ba19f5e3bf72144ba9901754a2e",
+      "gitBlobSha": "ec737f1eadb2ef2f7ae1ee21b5f99fda79690dcc",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/assets/flower-01.webp"
+    },
+    {
+      "path": "src/assets/flower-02.webp",
+      "bytes": 38980,
+      "sha256": "bf0282e5311cd6fa2a689d4a234bb8333befe92defa23405b10b6b9fd1fd6899",
+      "gitBlobSha": "d68a510142b9f41bf63fd3dcff67dbdf13bf6d7c",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/assets/flower-02.webp"
+    },
+    {
+      "path": "src/assets/flower-03.webp",
+      "bytes": 41584,
+      "sha256": "76f7d53a2242b3a26822b872b222a56d813b9d301e844e98d23650b82392e2ca",
+      "gitBlobSha": "118f86106c62a2533b13ecb11739d335ae2caae0",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/assets/flower-03.webp"
+    },
+    {
+      "path": "src/assets/flower-04.webp",
+      "bytes": 40938,
+      "sha256": "327bdc8d043687691947267439a3ce1f1c88482e45c2c144b633f6f5d0e6e7f2",
+      "gitBlobSha": "9a9b27d29c1e3663676be5dd31ce217d5d1bc68e",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/assets/flower-04.webp"
+    },
+    {
+      "path": "src/assets/flower-05.webp",
+      "bytes": 28546,
+      "sha256": "4370126b8aeb14ebad7472d31edc8636d6d9b575066024b824cc9bc00d59e341",
+      "gitBlobSha": "c4fa37f16c798d1d87ec0d94475c14e981f553e2",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/assets/flower-05.webp"
+    },
+    {
+      "path": "src/css/base.css",
+      "bytes": 4241,
+      "sha256": "a160a2358a1113f10980c758334a5f1d54d7036a7e06d2b51788fb9816fdb2a4",
+      "gitBlobSha": "3a11b4dd2df46843308faed05854731e702c367c",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/css/base.css"
+    },
+    {
+      "path": "src/css/canvas.css",
+      "bytes": 3955,
+      "sha256": "0bbbd0f279b09056e9acf5c0a953b03cbd7e35f8ef9e7f6df5b1f7b4a13b531b",
+      "gitBlobSha": "2b9cca2dcb34a84e42811a6d4751cccba06b69c7",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/css/canvas.css"
+    },
+    {
+      "path": "src/data/galleryData.js",
+      "bytes": 1805,
+      "sha256": "b11517bcc5ecfe302c547dfeaeb31023e115ed3cbfe9681eed01bfecb42bebae",
+      "gitBlobSha": "b46e5e31080eef2942c045b02b83f279d766ba31",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/data/galleryData.js"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 386,
+      "sha256": "f2666de8e8d0abd7b0c26c23913077ecc4f1c035c8492c58dad1a58eb728e7ae",
+      "gitBlobSha": "a047c7129d96dd1d57ce2a789509f100114f01c3",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/src/main.js"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 286,
+      "sha256": "38e7ef7b0bc9fc32bc6413c07604e9031c379d57650c6a26eafc87aac95ab553",
+      "gitBlobSha": "4f882b335e6850290857ae4474d71ab83faa44a1",
+      "downloadUrl": "https://raw.githubusercontent.com/houmahani/codrops-depth-gallery/28190e0920df887f069524c3863db397af34c1c8/vite.config.js"
+    }
+  ],
+  "omittedUpstreamFiles": [
+    "resources/demo.mp4",
+    "resources/reel.mp4",
+    "resources/stage.mp4"
+  ],
+  "fetchedAt": "2026-10-07",
+  "upstreamBuildScriptsExecuted": false,
+  "status": "adapted_static_checks_passed_runtime_pending",
+  "assetRights": [
+    "README attributes the five bundled images to Lummi.ai.",
+    "Lummi’s current license permits copying, editing and website/template use; prohibits image resale and bundling a competing stock-image service. https://www.lummi.ai/license verified 2026-10-07.",
+    "Individual Lummi item IDs and creators are absent upstream; preserve this uncertainty, do not claim photo authorship or a per-image release.",
+    "Editorial color-chip inspiration is credited to @thisislandscape, as in upstream."
+  ]
+}

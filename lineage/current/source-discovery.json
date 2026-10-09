@@ -1,0 +1,559 @@
+[
+  {
+    "id": "curated-telescope",
+    "source": "https://tympanus.net/codrops/2025/10/29/building-a-layered-zoom-scroll-effect-with-gsap-scrollsmoother-and-scrolltrigger/",
+    "demo": "https://tympanus.net/Tutorials/TelescopeZoom/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/10/29/building-a-layered-zoom-scroll-effect-with-gsap-scrollsmoother-and-scrolltrigger/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "3497d153734d783660073a6535c4bf5f563e19502e717834501dc38374c953ce",
+        "title": "Telescope Zoom Animation on Scroll | Codrops"
+      }
+    ],
+    "repositories": [
+      "https://github.com/joffreysp/telescope-zoom"
+    ]
+  },
+  {
+    "id": "curated-glass-torus",
+    "source": "https://tympanus.net/codrops/2025/03/13/warping-3d-text-inside-a-glass-torus/",
+    "demo": "https://tympanus.net/Tutorials/TransmissionMaterial/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/03/13/warping-3d-text-inside-a-glass-torus/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "4c6d49c6bf9e588441d7f5abb9af03d609540ab2bbfc62a2c99f0691676f85f5",
+        "title": "Transmission Material | Codrops"
+      }
+    ],
+    "repositories": [
+      "https://github.com/mattverse/what-i-love/tree/main/07-circular-text"
+    ]
+  },
+  {
+    "id": "curated-metal-name",
+    "source": "https://tympanus.net/codrops/2026/09/09/turning-names-into-digital-architecture-with-three-js/",
+    "demo": "https://blacklead-studio.webflow.io/three-js-conf",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/09/09/turning-names-into-digital-architecture-with-three-js/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "c3c03a53644e0d4111960a4cdc68c5c15ee45a14b329d387c77fabf8616c0137",
+        "title": "Three.js Conf"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-liquid-grid",
+    "source": "https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/",
+    "demo": "https://infinite-jelly-glass.shader.se/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/09/08/building-an-infinite-liquid-glass-grid-with-three-js-webgpu-and-tsl/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "282ebd1d00141c59e2955b4985841d91354e6f4d91919e1016ec67a4a37818e1",
+        "title": "Infinite Liquid (Jelly) Glass | Shader Development Studio"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-depth",
+    "source": "https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/",
+    "demo": "https://depth.fyi/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/09/13/building-depth-designing-and-developing-a-3d-renderer-inside-figma/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "6ded25241fa6cd882e2307c34f73ab99053b824fe2c84af184efdb1446b51077",
+        "title": "DEPTH — Studio-quality 3D renders in Figma"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-spatial-product",
+    "source": "https://tympanus.net/codrops/2026/02/24/from-flat-to-spatial-creating-a-3d-product-grid-with-react-three-fiber/",
+    "demo": "https://shoe-finder-wine.vercel.app/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/02/24/from-flat-to-spatial-creating-a-3d-product-grid-with-react-three-fiber/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "12b9c0c31ac5fb90e1ce41fa6f58736f25557e432a1199136e5d6fc21b09ad6c",
+        "title": null
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-fluid-xray",
+    "source": "https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/",
+    "demo": "https://tympanus.net/Tutorials/SkeletonFluidReveal/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/03/23/building-a-dual-scene-fluid-x-ray-reveal-effect-in-three-js/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "1d14380e30e13c6873e9701e7083ca3f256d6104285daf7e4f855f7626be99b7",
+        "title": "Skeleton Fluid Reveal | Codrops"
+      }
+    ],
+    "repositories": [
+      "https://github.com/cullenwebber/three-skull"
+    ]
+  },
+  {
+    "id": "curated-camera-route",
+    "source": "https://tympanus.net/codrops/2023/02/14/animate-a-camera-fly-through-on-scroll-using-theatre-js-and-react-three-fiber/",
+    "demo": "https://tympanus.net/Development/CameraFlyThrough/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2023/02/14/animate-a-camera-fly-through-on-scroll-using-theatre-js-and-react-three-fiber/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "a8d27bdce5eb998a0db667ce2e7137a617dd64e92ea0f6a8fb6422652db8ea8e",
+        "title": "Camera Fly-through using Theatre.js | Codrops"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-cloth-object",
+    "source": "https://tympanus.net/codrops/2025/08/20/exporting-a-cloth-simulation-from-blender-to-an-interactive-three-js-scene/",
+    "demo": "https://tympanus.net/Tutorials/BalloonButton/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/08/20/exporting-a-cloth-simulation-from-blender-to-an-interactive-three-js-scene/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/BalloonButton/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-emissive-dissolve",
+    "source": "https://tympanus.net/codrops/2025/02/17/implementing-a-dissolve-effect-with-shaders-and-particles-in-three-js/",
+    "demo": "https://tympanus.net/Tutorials/EmissiveDissolveEffect/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/02/17/implementing-a-dissolve-effect-with-shaders-and-particles-in-three-js/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/EmissiveDissolveEffect/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-dual-wave",
+    "source": "https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/",
+    "demo": "https://tympanus.net/Tutorials/DualWaveTextAnimation/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/01/15/building-a-scroll-driven-dual-wave-text-animation-with-gsap/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/DualWaveTextAnimation/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-image-in-type",
+    "source": "https://tympanus.net/Development/ImageExpansionTypography/",
+    "demo": "https://tympanus.net/Development/ImageExpansionTypography/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Development/ImageExpansionTypography/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Development/ImageExpansionTypography/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-cylinder-type",
+    "source": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+    "demo": "https://tympanus.net/Tutorials/3DTextScroll/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/3DTextScroll/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-stylized-water",
+    "source": "https://tympanus.net/Tutorials/StylizedWater/",
+    "demo": "https://tympanus.net/Tutorials/StylizedWater/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/StylizedWater/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/StylizedWater/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-shape-ascii",
+    "source": "https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/",
+    "demo": "https://tympanus.net/Tutorials/ASCIILogo/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/09/04/beyond-the-luminance-ramp-a-shape-aware-ascii-renderer-in-three-js/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/ASCIILogo/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-reaction-diffusion",
+    "source": "https://tympanus.net/codrops/2024/05/01/reaction-diffusion-compute-shader-in-webgpu/",
+    "demo": "https://tympanus.net/Tutorials/WebGPUReactionDiffusion/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2024/05/01/reaction-diffusion-compute-shader-in-webgpu/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/WebGPUReactionDiffusion/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-vortex-glass",
+    "source": "https://tympanus.net/codrops/2025/03/10/rendering-a-procedural-vortex-inside-a-glass-sphere-with-three-js-and-tsl/",
+    "demo": "https://tympanus.net/Tutorials/VortexGlassSphere/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/03/10/rendering-a-procedural-vortex-inside-a-glass-sphere-with-three-js-and-tsl/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/VortexGlassSphere/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-webgl-reveal",
+    "source": "https://tympanus.net/Development/RevealingWebGLImages/",
+    "demo": "https://tympanus.net/Development/RevealingWebGLImages/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Development/RevealingWebGLImages/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Development/RevealingWebGLImages/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-persistent-gallery",
+    "source": "https://tympanus.net/codrops/2026/02/02/building-a-scroll-revealed-webgl-gallery-with-gsap-three-js-astro-and-barba-js/",
+    "demo": "https://pixelimageeffect.pages.dev/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/02/02/building-a-scroll-revealed-webgl-gallery-with-gsap-three-js-astro-and-barba-js/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "7398c1d4b812c1e3ce5d1e06ad5bb6bec49085376d263f99aa20fc31de1ddf5e",
+        "title": "WebGL Pixel Effect on Scroll with GSAP, Three.js and Astro"
+      }
+    ],
+    "repositories": [
+      "https://github.com/J0SUKE/gsap-threejs-codrops"
+    ]
+  },
+  {
+    "id": "curated-webgpu-route",
+    "source": "https://tympanus.net/codrops/2026/06/30/building-persistent-page-transitions-with-webgpu-and-vanilla-javascript/",
+    "demo": "https://page-transitions-with-webgpu-vanilla-js.crnacura.workers.dev/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/06/30/building-persistent-page-transitions-with-webgpu-and-vanilla-javascript/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "80bcdfa71adf396ac9d98f5ee5239bb14d5732e2d5cf7efeb59c96b320d04001",
+        "title": "Page Transitions with WebGPU and VanillaJS"
+      }
+    ],
+    "repositories": [
+      "https://github.com/bnpne/page-transitions-with-webgpu-vanilla-js"
+    ]
+  },
+  {
+    "id": "curated-grid-full",
+    "source": "https://tympanus.net/Tutorials/GridToFullPreview/",
+    "demo": "https://tympanus.net/Tutorials/GridToFullPreview/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/GridToFullPreview/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/GridToFullPreview/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-editorial-layout",
+    "source": "https://tympanus.net/Development/ScrollBasedLayoutAnimations/",
+    "demo": "https://tympanus.net/Development/ScrollBasedLayoutAnimations/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Development/ScrollBasedLayoutAnimations/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "d9b58169d2223bc26aea3809068c2cb27694948e4c036548d0cb12ece43a886d",
+        "title": "On-Scroll Image Layout Animations | Codrops"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-thumbnail-flow",
+    "source": "https://tympanus.net/codrops/2026/06/04/creating-a-thumbnail-flow-animation-with-gsap-motionpath/",
+    "demo": "https://tympanus.net/Tutorials/MotionPathTransition/index3.html",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2026/06/04/creating-a-thumbnail-flow-animation-with-gsap-motionpath/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "0e3d9dd721ddb9085214b6d86a610ad3180ea8a35208f2c2fd162ea1ad2fd39d",
+        "title": "Thumbnail Flow Animation with GSAP MotionPath | Demo 3 | Codrops"
+      }
+    ],
+    "repositories": [
+      "https://github.com/Ibaliqbal/codrops-motion-path-transition"
+    ]
+  },
+  {
+    "id": "curated-elastic-editorial",
+    "source": "https://tympanus.net/codrops/2025/06/03/elastic-grid-scroll-creating-lag-based-layout-animations-with-gsap-scrollsmoother/",
+    "demo": "https://tympanus.net/Tutorials/ElasticGridScroll/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2025/06/03/elastic-grid-scroll-creating-lag-based-layout-animations-with-gsap-scrollsmoother/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "b066a840234ef93331c6099b742db83e840af0d452b7241c4719f42961728378",
+        "title": "Elastic Grid Scroll | Demo 1 | Codrops"
+      }
+    ],
+    "repositories": [
+      "https://github.com/codrops/ElasticGridScroll"
+    ]
+  },
+  {
+    "id": "curated-cluster",
+    "source": "https://tympanus.net/Tutorials/3DCluster/",
+    "demo": "https://tympanus.net/Tutorials/3DCluster/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/3DCluster/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Tutorials/3DCluster/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-layer-cut",
+    "source": "https://tympanus.net/Development/LayersAnimation/",
+    "demo": "https://tympanus.net/Development/LayersAnimation/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/Development/LayersAnimation/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Development/LayersAnimation/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-rounded-menu",
+    "source": "https://github.com/codrops/ExpandingRoundedMenu/",
+    "demo": "https://tympanus.net/Development/ExpandingRoundedMenu/",
+    "pages": [
+      {
+        "kind": "source",
+        "status": 200,
+        "sha256": "b195dc1bb040a480e51736f058509e676454ca4129772b7d99701cd57110b81d",
+        "title": "GitHub - codrops/ExpandingRoundedMenu: An expanding menu animation with a cover unreveal effect in the background. · GitHub"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Development/ExpandingRoundedMenu/"
+      }
+    ],
+    "repositories": [
+      "https://github.com/features/copilot",
+      "https://github.com/features/ai/github-app",
+      "https://github.com/features/actions",
+      "https://github.com/features/codespaces",
+      "https://github.com/features/issues",
+      "https://github.com/features/code-review",
+      "https://github.com/features/code-quality",
+      "https://github.com/security/advanced-security",
+      "https://github.com/security/advanced-security/code-security",
+      "https://github.com/security/advanced-security/secret-protection",
+      "https://github.com/enterprise/startups",
+      "https://github.com/solutions/industry/nonprofits",
+      "https://github.com/solutions/use-case/app-modernization",
+      "https://github.com/solutions/use-case/devsecops",
+      "https://github.com/solutions/use-case/devops",
+      "https://github.com/solutions/use-case/ci-cd",
+      "https://github.com/solutions/use-case",
+      "https://github.com/solutions/industry/healthcare",
+      "https://github.com/solutions/industry/financial-services",
+      "https://github.com/solutions/industry/manufacturing",
+      "https://github.com/solutions/industry/government",
+      "https://github.com/solutions/industry",
+      "https://github.com/resources/articles",
+      "https://github.com/resources/events",
+      "https://github.com/resources/whitepapers",
+      "https://github.com/solutions/executive-insights",
+      "https://github.com/orgs/community/discussions",
+      "https://github.com/open-source/sponsors",
+      "https://github.com/features/copilot/copilot-business",
+      "https://github.com/enterprise/premium-support"
+    ]
+  },
+  {
+    "id": "curated-inline-menu",
+    "source": "https://tympanus.net/codrops/2021/06/23/inline-to-menu-link-animation/",
+    "demo": "https://tympanus.net/Development/InlineToMenuLink/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2021/06/23/inline-to-menu-link-animation/"
+      },
+      {
+        "kind": "demo",
+        "status": 200,
+        "sha256": "aba47f85981f32bc8b65df5faa4d326a35e3c7dc7f13620afafbda94aad345e1",
+        "title": "Inline to Menu Link Animation | Demo 1 | Codrops"
+      }
+    ],
+    "repositories": [
+      "https://github.com/codrops/InlineToMenuLink"
+    ]
+  },
+  {
+    "id": "curated-tooltip-gallery",
+    "source": "https://tympanus.net/codrops/2022/12/07/tooltip-to-gallery-page-transition/",
+    "demo": "https://tympanus.net/Development/TooltipTransition/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2022/12/07/tooltip-to-gallery-page-transition/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Development/TooltipTransition/"
+      }
+    ],
+    "repositories": []
+  },
+  {
+    "id": "curated-grid-flow-nav",
+    "source": "https://tympanus.net/codrops/2023/07/27/grid-flow-animation/",
+    "demo": "https://tympanus.net/Development/GridFlowEffect/",
+    "pages": [
+      {
+        "kind": "source",
+        "error": "HTTP 403 https://tympanus.net/codrops/2023/07/27/grid-flow-animation/"
+      },
+      {
+        "kind": "demo",
+        "error": "HTTP 403 https://tympanus.net/Development/GridFlowEffect/"
+      }
+    ],
+    "repositories": []
+  }
+]

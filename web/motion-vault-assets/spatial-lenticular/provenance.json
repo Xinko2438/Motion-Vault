@@ -1,0 +1,69 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "spatial-lenticular",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/wass08/r3f-lenticular-material",
+  "commit": "9d7fcc2343a8719784c995a8c742311e2327b8a1",
+  "upstreamEntry": "source/src/main.jsx",
+  "localEntry": "run/index.html",
+  "readableEffect": "adapter/author/src/main.jsx",
+  "preservedByteExactly": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "index.html",
+    "package.json",
+    "public/textures/evil-angel/angel.png",
+    "public/textures/evil-angel/evil.png",
+    "public/textures/summer-winter/summer.png",
+    "public/textures/summer-winter/winter.png",
+    "public/vite.svg",
+    "src/assets/react.svg",
+    "src/components/LenticularMaterial.jsx",
+    "src/index.css",
+    "src/main.jsx",
+    "vite.config.js",
+    "yarn.lock"
+  ],
+  "adaptations": [
+    "Original LenticularMaterial.jsx retained byte-for-byte.",
+    "Video pair/preloading removed; summer-winter becomes the initial still set, evil-angel stays selectable.",
+    "Drei sunset environment replaced with its exact named Venice Sunset HDR as a local CC0 asset.",
+    "WebGPURenderer uses its WebGL backend (forceWebGL:true) for opaque sandbox compatibility; TSL source is retained.",
+    "Demand rendering, DPR 1.5 cap, error boundary and lifecycle cleanup added; promotional logo/link omitted.",
+    "2026-10-07 lifecycle: Readiness now waits all four PNGs, decoded local HDR, actual renderer initialization, compileAsync completion and first submitted draw; failures reject.",
+    "2026-10-07 lifecycle: Pinned Three175 WebGPURenderer private housekeeping RAF is stopped; node-frame bookkeeping is performed on actual demand renders.",
+    "2026-10-07 lifecycle: Explicit custom renderer disposal awaits ongoing compilation; native Fiber unmount completion is awaited rather than assuming root.unmount disposes WebGPURenderer.",
+    "2026-10-07 lifecycle: Live reduced-motion media changes update native OrbitControls damping. Early useTexture GPU uploads queue behind renderer initialization."
+  ],
+  "visualEvidence": {
+    "localAdaptationVisualVerified": false,
+    "localRecordingCreated": false,
+    "kind": "author_tutorial_thumbnail",
+    "path": "evidence/upstream-tutorial-thumbnail.png"
+  },
+  "assetCaveats": [
+    "Official tutorial identifies images as made with 3D AI Studio; the unchanged author-produced repository stills accompany MIT source distribution.",
+    "No separate per-image provenance/model-release warranty is supplied; recheck suitability and clearance before unrelated production redistribution.",
+    "Venice Sunset is by Greg Zaal / Poly Haven, CC0. https://polyhaven.com/a/venice_sunset and https://polyhaven.com/license verified 2026-10-07.",
+    "Video assets and promotional logo were not copied."
+  ],
+  "bridge": {
+    "source": "adapter/source-isolation-bridge.original.js",
+    "originalSha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "adapted": "run/vault-isolation.js",
+    "adaptedSha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+    "change": "Added local dispose event to release pending broker tasks/object URLs."
+  },
+  "validation": "qa-static.json; compatibility-review.json; original source hash verified; runtime, visual equivalence and user acceptance NOT VERIFIED",
+  "adaptedOriginalFiles": [
+    "src/App.jsx",
+    "src/components/Experience.jsx"
+  ],
+  "lifecycleRepair": {
+    "scope": "cloud WORK package only; no project/local integration or publication",
+    "contract": "SourceDemo.ready Promise; isReady Boolean; dispose idempotent Promise; inspect returns actual source-owned state",
+    "recipe": "adapter/REBUILD.md",
+    "sharedHelper": "adapter/lifecycle.js"
+  }
+}

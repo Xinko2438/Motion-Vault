@@ -1,0 +1,934 @@
+{
+  "at": "2026-10-06T13:18:11.993Z",
+  "authorizedBy": "User explicitly requested removal of superseded project versions and continuation of A then B",
+  "recovery": "versions/.recovery.zip",
+  "targets": [
+    {
+      "owner": "design-reference-library",
+      "relative": "candidates/curated-originals/versions",
+      "reason": "Superseded review page; the active candidate input and page are outside this folder",
+      "regenerable": false,
+      "files": 2,
+      "bytes": 214010,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": "web\\motion-vault-assets\\shared\\runtime.260a68f82c8d.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 177340,
+      "hash": "260a68f82c8db6d8ae6e3b6f0bfbb5c6ce6c9cbd15993226f98b173cbfbb952f"
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": "web\\motion-vault-assets\\shared\\runtime.b3c39928ba33.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 174074,
+      "hash": "b3c39928ba338f04b6f41f821afc8dc760db4f5e1aafd3b205415453d6332a55"
+    },
+    {
+      "owner": "staging",
+      "relative": "motion-vault-assets\\shared\\runtime.260a68f82c8d.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 177340,
+      "hash": "260a68f82c8db6d8ae6e3b6f0bfbb5c6ce6c9cbd15993226f98b173cbfbb952f"
+    },
+    {
+      "owner": "staging",
+      "relative": "motion-vault-assets\\shared\\runtime.b3c39928ba33.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 174074,
+      "hash": "b3c39928ba338f04b6f41f821afc8dc760db4f5e1aafd3b205415453d6332a55"
+    },
+    {
+      "owner": "media-knowledge-hub",
+      "relative": "web\\standalone\\motion-vault-assets\\shared\\runtime.260a68f82c8d.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 177340,
+      "hash": "260a68f82c8db6d8ae6e3b6f0bfbb5c6ce6c9cbd15993226f98b173cbfbb952f"
+    },
+    {
+      "owner": "media-knowledge-hub",
+      "relative": "web\\standalone\\motion-vault-assets\\shared\\runtime.b3c39928ba33.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 174074,
+      "hash": "b3c39928ba338f04b6f41f821afc8dc760db4f5e1aafd3b205415453d6332a55"
+    },
+    {
+      "owner": "media-knowledge-hub",
+      "relative": "web\\public\\assets\\motion-vault-assets\\shared\\runtime.260a68f82c8d.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 177340,
+      "hash": "260a68f82c8db6d8ae6e3b6f0bfbb5c6ce6c9cbd15993226f98b173cbfbb952f"
+    },
+    {
+      "owner": "media-knowledge-hub",
+      "relative": "web\\public\\assets\\motion-vault-assets\\shared\\runtime.b3c39928ba33.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 174074,
+      "hash": "b3c39928ba338f04b6f41f821afc8dc760db4f5e1aafd3b205415453d6332a55"
+    },
+    {
+      "owner": "media-knowledge-hub",
+      "relative": "web\\dist\\assets\\motion-vault-assets\\shared\\runtime.260a68f82c8d.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 177340,
+      "hash": "260a68f82c8db6d8ae6e3b6f0bfbb5c6ce6c9cbd15993226f98b173cbfbb952f"
+    },
+    {
+      "owner": "media-knowledge-hub",
+      "relative": "web\\dist\\assets\\motion-vault-assets\\shared\\runtime.b3c39928ba33.mjs",
+      "reason": "Obsolete runtime hash, not referenced by the current catalogue",
+      "regenerable": true,
+      "files": 1,
+      "bytes": 174074,
+      "hash": "b3c39928ba338f04b6f41f821afc8dc760db4f5e1aafd3b205415453d6332a55"
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791213881627",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 458,
+      "bytes": 19826219,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791215165772",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 147,
+      "bytes": 2399814,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791215329701",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 337,
+      "bytes": 29704016,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791215605529",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 330,
+      "bytes": 14491657,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791215667810",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 337,
+      "bytes": 34456569,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791215770008",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 337,
+      "bytes": 28395506,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791215880147",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 165,
+      "bytes": 5782684,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791217366987",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 316,
+      "bytes": 12081943,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791259586840",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 167,
+      "bytes": 5987077,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791259751932",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 343,
+      "bytes": 29954700,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791259799190",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 342,
+      "bytes": 54155760,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791260212431",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 420,
+      "bytes": 36214111,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791260337093",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 348,
+      "bytes": 21060885,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791260373569",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 347,
+      "bytes": 59608903,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791260610559",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 441,
+      "bytes": 63141539,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791260776991",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 421,
+      "bytes": 57242186,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791261255113",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 368,
+      "bytes": 24076495,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791261861246",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 338,
+      "bytes": 13089318,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791261917733",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 338,
+      "bytes": 13094106,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791261941814",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 328,
+      "bytes": 12996066,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791262004533",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 338,
+      "bytes": 13105246,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791262108084",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 369,
+      "bytes": 23715420,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791262381332",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 218,
+      "bytes": 12360744,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791264256015",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 188,
+      "bytes": 10899149,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791266196542",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 354,
+      "bytes": 34338244,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791266782778",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 169,
+      "bytes": 6039194,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267264405",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 362,
+      "bytes": 63757987,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267406114",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 343,
+      "bytes": 43689708,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267470436",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 166,
+      "bytes": 5959411,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267570294",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 343,
+      "bytes": 47071151,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267672594",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 164,
+      "bytes": 4818094,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267754048",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 332,
+      "bytes": 12825302,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267858017",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 349,
+      "bytes": 27082672,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791267902702",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 358,
+      "bytes": 59144076,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268065245",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 394,
+      "bytes": 68007779,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268214803",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 358,
+      "bytes": 43493580,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268320970",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 344,
+      "bytes": 13134048,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268423026",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 372,
+      "bytes": 24268138,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268453628",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 253,
+      "bytes": 12224145,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268481688",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 341,
+      "bytes": 13190681,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268516977",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 346,
+      "bytes": 13218331,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268599876",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 170,
+      "bytes": 10249599,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268616101",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 348,
+      "bytes": 13177888,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268838548",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 350,
+      "bytes": 13502173,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791268866175",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 405,
+      "bytes": 67511413,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791269014930",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 358,
+      "bytes": 48191939,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791269058121",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 179,
+      "bytes": 10385173,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791273978331",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 349,
+      "bytes": 20008244,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791274270634",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 366,
+      "bytes": 55324052,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791274564659",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 343,
+      "bytes": 49325147,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791274607568",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 341,
+      "bytes": 16088407,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791274644052",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 347,
+      "bytes": 59525724,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791274816012",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 376,
+      "bytes": 59239961,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791274958582",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 389,
+      "bytes": 62099070,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791275090788",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 373,
+      "bytes": 27375578,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791275121054",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 341,
+      "bytes": 13199920,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791275146227",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 338,
+      "bytes": 13110092,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791275359170",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 403,
+      "bytes": 58559862,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791275483072",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 388,
+      "bytes": 57380049,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791275590365",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 404,
+      "bytes": 59150222,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791278103554",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 400,
+      "bytes": 58010066,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791278132035",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 404,
+      "bytes": 59149578,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791278245423",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 402,
+      "bytes": 63808610,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791278259425",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 403,
+      "bytes": 58561575,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791279949353",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 323,
+      "bytes": 13128370,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791279982152",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 341,
+      "bytes": 13139020,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791280081874",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 342,
+      "bytes": 13470264,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791282466841",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 645,
+      "bytes": 116289280,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791282811074",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 394,
+      "bytes": 120592977,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791283447231",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 476,
+      "bytes": 43174061,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791283725651",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 498,
+      "bytes": 59480570,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791284027413",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 347,
+      "bytes": 34129281,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791284287900",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 830,
+      "bytes": 184271289,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791285164530",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 482,
+      "bytes": 90583088,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791285485481",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 400,
+      "bytes": 131774275,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791285732442",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 500,
+      "bytes": 86026755,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791285869654",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 446,
+      "bytes": 93946422,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791286028997",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 372,
+      "bytes": 80443600,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791286098981",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 441,
+      "bytes": 63418576,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791286210661",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 192,
+      "bytes": 10982302,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791286786459",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 364,
+      "bytes": 31805515,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791287004334",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 353,
+      "bytes": 14011663,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791287025003",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 404,
+      "bytes": 66719931,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791287219877",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 368,
+      "bytes": 51796236,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791287626853",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 742,
+      "bytes": 134346699,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791288186984",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 735,
+      "bytes": 129527031,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791288529953",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 370,
+      "bytes": 56110378,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791288581808",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 415,
+      "bytes": 62764554,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791289115444",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 678,
+      "bytes": 129538131,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791292104378",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 402,
+      "bytes": 67104926,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/formal-merge/browser-1791292212587",
+      "reason": "Closed, project-created isolated QA browser; no user login profile",
+      "regenerable": true,
+      "files": 730,
+      "bytes": 134142044,
+      "hash": null
+    },
+    {
+      "owner": "design-reference-library",
+      "relative": ".runtime/consolidation/recordings",
+      "reason": "Intermediate screencast frames; verified final clips, posters and capture evidence are retained",
+      "regenerable": true,
+      "files": 10366,
+      "bytes": 677300592,
+      "hash": null
+    }
+  ]
+}

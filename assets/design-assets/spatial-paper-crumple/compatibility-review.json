@@ -1,0 +1,102 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-paper-crumple",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "WORK ONLY; no browser execution, no local integration, no publication",
+  "baselineDefiniteGaps": [
+    "project/assets/design-assets/spatial-paper-crumple/adapter/author/src/main-vat.js:1163-1165 reschedules paused entrance timers every150ms.",
+    "Same branch in project/assets/design-assets/spatial-paper-crumple/run/effect.js:3979 col87227."
+  ],
+  "sourceFixes": [
+    "Both real ArrayBuffer FontFace loads and seven SVG Image decodes precede authored application initialization.",
+    "Readiness waits FBX/EXR VAT decoding, an actual spawned paper mesh using the unchanged timed entrance, and genuine first draw with GL error check.",
+    "Source stop suspends pending entrance timers with remaining delay; no 150ms polling loop remains. Dispose rejects pending readiness and clears timers, gestures, fonts and scene resources."
+  ],
+  "loaderAudit": [
+    "Fonts: fetch local TTF -> ArrayBuffer -> FontFace; compatible with broker and does not require font URL fetch.",
+    "VAT: local FBX/EXR -> FileLoader Request/fetch -> broker -> CPU decode. FBX is ASCII and has no active external Texture/Video reference.",
+    "Design SVGs: native Image.src -> broker blob -> canvas texture. fflate Worker definitions exist in bundled library but the active synchronous decode path has no worker invocation."
+  ],
+  "renderer": "Three160 WebGLRenderer with SSAO/shadows; EXR FloatType is CPU-decoded into geometry, not a float-texture GPU rendering requirement.",
+  "nativeInput": "Native pointer capture for click/drag/release; lostpointercapture, blur and stop cancel gestures. No synthetic input.",
+  "reducedMotion": "No falling entrance or physics under reduced motion; direct dragging remains, open/discard transitions snap.",
+  "sourceEvidence": [
+    "adapter/entry.js",
+    "adapter/author/src/main-vat.js",
+    "adapter/author/src/paper.js",
+    "adapter/author/src/paper-vat.js",
+    "adapter/lifecycle.js"
+  ],
+  "initializationContract": "ready is a Promise; all required active resource loads plus scene initialization and actual first draw precede succeed; load/draw/GL errors reject; no load-event or timeout readiness",
+  "disposalContract": "idempotent Promise; own RAF/timers/listeners/resources cleaned; host frame destruction remains final isolation boundary",
+  "runtimePending": [
+    "Opaque allow-scripts broker/CSP actual network and decode behavior",
+    "Real WebGL program compilation/framebuffer support/visual result",
+    "Native cold-start drag, cross-boundary release, touch and scroll containment",
+    "Repeated mount/stop/resume/dispose, hidden page and loading-time teardown",
+    "Actual 1100x670 embedded layout and card/modal resize scaling",
+    "Normal/reduced-motion preference and live preference-change behavior"
+  ],
+  "knownHostBoundary": [
+    "Current project gallery marks iframe load as playing, not SourceDemo readiness; parent-owned nonce lifecycle host bridge still required.",
+    "WORK run package does not contain project-generated vault-native-input.js; parent packaging must add native trusted-pointer reporting before host verification.",
+    "All compatibility claims remain source-reviewed, never browser-verified."
+  ],
+  "originalSourceFilesMatchedGitBlobs": 16,
+  "originalSourceMismatches": [],
+  "runtimeBundleSha256": "a94b6f815da147e32f4feaf15ac9fb3a7a71a12e6d25edf9ecd0e2b9709ab080",
+  "runtimeManifestFiles": 14,
+  "externalBuildImports": [],
+  "htmlMissingOrExternalResources": [],
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "rebuildByteIdentical": true,
+  "changesPatchAppliesToOriginalDryRun": true,
+  "sourceEvidenceLines": [
+    {
+      "path": "adapter/entry.js",
+      "line": 8,
+      "text": "const font=new FontFace(family,await response.arrayBuffer());await font.load();"
+    },
+    {
+      "path": "adapter/entry.js",
+      "line": 12,
+      "text": "await paper.preparePaperImages();"
+    },
+    {
+      "path": "adapter/author/src/main-vat.js",
+      "line": 641,
+      "text": "await firstPaper;"
+    },
+    {
+      "path": "adapter/author/src/main-vat.js",
+      "line": 647,
+      "text": "lifecycle.succeed({fonts:2,designImages:PAPER_DESIGNS.length,vatDecoded:true,firstFrameSubmitted:true});"
+    },
+    {
+      "path": "adapter/author/src/main-vat.js",
+      "line": 1171,
+      "text": "const vaultSchedule = (callback, delay) => lifecycle.schedule(callback,delay);"
+    },
+    {
+      "path": "adapter/author/src/main-vat.js",
+      "line": 1173,
+      "text": "lifecycle.setHandlers({"
+    },
+    {
+      "path": "adapter/author/src/paper.js",
+      "line": 65,
+      "text": "export async function preparePaperImages() {"
+    }
+  ]
+}

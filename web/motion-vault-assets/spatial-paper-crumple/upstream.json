@@ -1,0 +1,143 @@
+{
+  "repository": "https://github.com/item-develop/paper-crumple-demo",
+  "commit": "f84648b001dd13becda7a629ab5398cecfe3a252",
+  "codeLicense": "MIT",
+  "runtimeVerification": "not_performed_browser_routes_blocked",
+  "id": "spatial-paper-crumple",
+  "source_kind": "adapted_author_source",
+  "author": "nagasawa (ITEM Inc.)",
+  "article": "https://github.com/item-develop/paper-crumple-demo",
+  "demo": "https://paper-crumple-demo.pages.dev/",
+  "license": {
+    "name": "MIT",
+    "file": "source/LICENSE",
+    "url": "https://github.com/item-develop/paper-crumple-demo/blob/f84648b001dd13becda7a629ab5398cecfe3a252/LICENSE",
+    "sha256": "4eed05e34edbd69ace01774f495ece66a227da77ced0aa089a6410f0edd32480"
+  },
+  "sourceFiles": [
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "sha256": "66512ef2f9db2da9691660c7840dfdc56c8fbb533c63dfdbaadcc4e5f9e80ab2",
+      "gitBlobSha": "bc3dd9fb3b151eeb095d35ee7d199835ff26a7dc",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/.gitignore"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "4eed05e34edbd69ace01774f495ece66a227da77ced0aa089a6410f0edd32480",
+      "gitBlobSha": "87ba0f6a930f07dbcca0697d2d48caa54ce3b689",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1409,
+      "sha256": "e21a62be05958b1ea6b51e5939f383e5f5d6b840425bcb74e546e80cab299c4b",
+      "gitBlobSha": "8d6af5c76dccbfb69f00fdbd348b22f3d3510c34",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/README.md"
+    },
+    {
+      "path": "data/crumple-lab.svg",
+      "bytes": 851,
+      "sha256": "65a23eeda0dbaad30db163deb9f55eec1adfb6f739579c8b6d43618bf60c4951",
+      "gitBlobSha": "f433d110b8bc15f4e723f93d058c9b5b7bc01afd",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/crumple-lab.svg"
+    },
+    {
+      "path": "data/fold-toss.svg",
+      "bytes": 643,
+      "sha256": "0c71b417a37e22d070197c5b7765f3fc26f493cc4d978c382e4f6619f37a3107",
+      "gitBlobSha": "384a7ba4e9fe9c813d89ffe662771a116d8fd7fe",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/fold-toss.svg"
+    },
+    {
+      "path": "data/grid-paper-works.svg",
+      "bytes": 1113,
+      "sha256": "ac82a662f1a8424e775c359cd5ae3e684675656d42dc372743b7b1ce00d1d996",
+      "gitBlobSha": "9b6b5ea52c789f5af74582361c3bb940f5823736",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/grid-paper-works.svg"
+    },
+    {
+      "path": "data/origami-engine.svg",
+      "bytes": 815,
+      "sha256": "9492e5db9e32e7e60f28c6454aa66e359699869f20b4c6ccf222f0897382fa2a",
+      "gitBlobSha": "5f556d524e94277b170a23eb6c079ef1536f9ee5",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/origami-engine.svg"
+    },
+    {
+      "path": "data/paper-protocol.svg",
+      "bytes": 936,
+      "sha256": "a284a37c0a4cf71d7a317b4a4540c2051a7804fb536b1d07f9691ecc2bcb4b17",
+      "gitBlobSha": "8ff24e7c1821f4ae7e0f86c2732d4afe5fef0907",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/paper-protocol.svg"
+    },
+    {
+      "path": "data/throwaway-studio.svg",
+      "bytes": 913,
+      "sha256": "4a7b5be19e6da181bb55818500f9373cf2db96fe14e99d73d80b9472f8606f7f",
+      "gitBlobSha": "ccc0f70b4c0f9919babbb698ea64df3c0a21e88a",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/throwaway-studio.svg"
+    },
+    {
+      "path": "data/wastebasket-club.svg",
+      "bytes": 930,
+      "sha256": "b1152cfeb0dffa028969b89d3ec704fcc75066be8d57d5ba50a92cad11312d8e",
+      "gitBlobSha": "2147f9025b3d3c817d82f2ef2a26da60c32f3bf6",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/data/wastebasket-club.svg"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1165,
+      "sha256": "19118cef0a9b11b1647979b0f2b7f2d60afe5aaac50961a3500f72d20f33dd38",
+      "gitBlobSha": "7f349229ab88d3c59eb408b5e5107b0e7c2132ab",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/index.html"
+    },
+    {
+      "path": "src/main-vat.js",
+      "bytes": 36129,
+      "sha256": "d1ab55a705a5135178604a6450ca2b605ede3a8ddef81b63379891cf53efafbb",
+      "gitBlobSha": "24492a8ed635043c81be869522f239cf6cebb258",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/src/main-vat.js"
+    },
+    {
+      "path": "src/paper-vat.js",
+      "bytes": 16802,
+      "sha256": "b85c266f5086dee7ef74ab3471aa0c80f1daf8b2748db1e922da3804f94f05b8",
+      "gitBlobSha": "76f9277d9917f132932ae77a36329aab3b18b484",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/src/paper-vat.js"
+    },
+    {
+      "path": "src/paper.js",
+      "bytes": 9884,
+      "sha256": "628ff0fd813306fbf1ed0cfcefcd8ac4156061158a1f09431f0fa16aba787cb1",
+      "gitBlobSha": "45b1fe8b0ad69f727db7029e8f43e6ef506dcf4e",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/src/paper.js"
+    },
+    {
+      "path": "vat/geo/vertex_animation_textures1_mesh.fbx",
+      "bytes": 1249769,
+      "sha256": "1f8882cb799ec3c2788d4f65e99521ca3acd69d3a4cc1903b22bd19250e721a1",
+      "gitBlobSha": "944ee854d4afe3ad6fca27924205a922f34acc7b",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/vat/geo/vertex_animation_textures1_mesh.fbx"
+    },
+    {
+      "path": "vat/tex/vertex_animation_textures1_pos.exr",
+      "bytes": 1745336,
+      "sha256": "88ea8f26c5f6b261d0f21a8703243d4d0d6599091ecec35b7c4f417c965aaff8",
+      "gitBlobSha": "5e79aa54513175776e845e505b7d1d75f65854fb",
+      "downloadUrl": "https://raw.githubusercontent.com/item-develop/paper-crumple-demo/f84648b001dd13becda7a629ab5398cecfe3a252/vat/tex/vertex_animation_textures1_pos.exr"
+    }
+  ],
+  "omittedUpstreamFiles": [
+    "preview-4-3.mp4"
+  ],
+  "fetchedAt": "2026-10-07",
+  "upstreamBuildScriptsExecuted": false,
+  "status": "adapted_static_checks_passed_runtime_pending",
+  "assetRights": [
+    "Source explicitly calls the seven fictional brand SVGs self-made copyright-free data; repository includes their originals under MIT.",
+    "FBX/EXR are the project’s author-produced Houdini exports, distributed with the MIT repository.",
+    "Caveat and Yomogi are bundled unchanged from Google Fonts under SIL OFL, with full notices and download hashes.",
+    "Source video stills are evidence of the author demo only, never labeled as recordings of the local adapter."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-dithering-cubes",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "Cloud WORK source adaptation only; no local integration/publication/browser execution",
+  "baselineDefiniteGaps": [
+    "Ready was a mutable Boolean texture flag rather than an awaitable resource/draw contract; early constructor errors preceded contract installation."
+  ],
+  "sourceFixes": [
+    "Early owned resource registry and ready Promise now reject initialization/resource/shader failures and resolve only after the loaded texture participates in an actual first scene draw.",
+    "Dispose cancels RAF, pane and native listeners, rejects unresolved readiness, and releases late texture arrival; native reduced-motion pane changes explicitly repaint.",
+    "Original two400x400 grids, Grid class and both GLSL files remain unchanged; no quality or count downgrade."
+  ],
+  "loaderAudit": [
+    "TextureLoader -> ImageLoader src -> scoped broker Blob image -> original vertex-sampled texture. One local authored JPEG.",
+    "Local Three175/Tweakpane4/essentials; no fonts, decoder, worker or remote runtime path."
+  ],
+  "renderer": "Three175 WebGL2 renderer; instanced vertex texture sampling.320000 source instances retained; actual device memory/frame-time still unmeasured.",
+  "nativeInputAndReducedMotion": "Original Tweakpane progress, delay, threshold and visibility controls retained. No auto progress sweep; reduced-motion controls paint direct changes.",
+  "sourceEvidence": [
+    "adapter/index.js:10-37",
+    "adapter/index.js:131-143",
+    "adapter/index.js:269-298",
+    "source/src/Grid/Grid.js:165-210",
+    "adapter/check-static.py"
+  ],
+  "runtimePending": [
+    "Final trusted native-pointer / nonce lifecycle bridge must be injected and manifest-listed by Motion Vault packaging.",
+    "Opaque allow-scripts-only origin: actual CSP, broker, texture/font/model decode and first frame require browser verification.",
+    "GPU shader/material/FBO correctness, original1100x670 composition, native drag/scroll/touch and cross-boundary release remain untested.",
+    "Normal/reduced startup and live preference changes; stop-before-ready/resume/dispose/reopen and resource/memory behavior remain untested.",
+    "Local application/publication remains gated on compatibility; source build/parse/mock checks do not establish runtime acceptance."
+  ],
+  "initializationContract": "ready Promise; isReady Boolean; actual required resource and initial render predicates, rejecting failures. Fulfillment is not visual acceptance.",
+  "disposalContract": "Terminal/idempotent dispose; may return Promise. Host frame destruction remains the final isolation boundary.",
+  "staticEvidence": {
+    "report": "qa-static.json",
+    "rebuild": "qa-rebuild.json",
+    "bundleSha256": "d9523f51b58ce3b8c3f0215dfbd16c7150010fe812155e62687dd1f997607f58",
+    "runtimeExecuted": false
+  },
+  "mediaRights": "Existing independent media/font/license caveats retained; compatibility checks do not clear third-party asset rights."
+}

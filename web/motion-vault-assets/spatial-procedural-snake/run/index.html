@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-cpNByESktmVioLz4n3H2Y89KaQ+72cbWb1+PEyFRpC0='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src blob: data:; font-src 'none'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WebGL Snake | Codrops</title>
+  <meta
+        name="description"
+        content="Interactive 3D snake animation built with Three.js and WebGL, featuring procedural curve generation and adaptive quality settings" />
+  <meta name="keywords" content="threejs, webgl, animation, snake, procedural, 3d, graphics" />
+  <meta name="author" content="Codrops" />
+  <link rel="stylesheet" href="./effect.css" />
+  <script src="./vault-isolation.js"></script>
+  <script>
+    document.documentElement.className = 'js';
+  </script>
+<script src="./vault-native-input.js"></script><script src="./vault-session.js"></script></head>
+
+<body class="demo-1">
+  <noscript>
+    <div style="padding: 2rem; text-align: center; color: #fff; background: #000">
+      <h1>JavaScript Required</h1>
+      <p>This demo requires JavaScript and WebGL support.</p>
+      <p>Please enable JavaScript and use a modern browser.</p>
+    </div>
+  </noscript>
+  <div id="sizer" aria-hidden="true"></div>
+  <main>
+    <header class="frame">
+      <h1 class="frame__title">WebGL Snake Animation</h1>
+      <span class="frame__back">Article</span>
+      <span class="frame__archive">All demos</span>
+      <span class="frame__github">GitHub</span>
+      <nav class="frame__tags">
+        <span>#3d</span>
+        <span>#three.js</span>
+        <span>#webgl</span>
+        <span>#procedural</span>
+      </nav>
+    </header>
+    <div class="content"></div>
+  </main>
+  <script src="./effect.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+{
+  "id": "mv2-rotating-image-scroll",
+  "repo": "RotatingOnScrollAnimations",
+  "title": "摄影阵列的三维旋转与滚动光场",
+  "demo": "https://tympanus.net/Development/RotatingOnScrollAnimations/",
+  "mode": "scroll",
+  "scene": "portfolio",
+  "task": "overview",
+  "design": "连续摄影在不同轴线、表面与空间排布中旋转；保留作者构图及多个原生变体，不把十五种变体拆成十五条素材。"
+}

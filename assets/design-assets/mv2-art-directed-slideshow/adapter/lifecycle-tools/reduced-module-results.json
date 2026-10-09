@@ -1,0 +1,37 @@
+{
+  "modules": [
+    {
+      "name": "editorial.mjs",
+      "sha256": "11737b108c2bcff11c34fae812a722eb8b0b9aa1fec1aedb1c44a55d08d2c903",
+      "ids": [
+        "mv2-satto-type-motion",
+        "mv2-sticky-grid-story"
+      ]
+    },
+    {
+      "name": "grid-push.mjs",
+      "sha256": "64b8b11bad6d933ecdbe25badf5993553f9f5cc979f7224f05d11ab0f3dabd26",
+      "ids": [
+        "mv2-grid-push"
+      ]
+    },
+    {
+      "name": "scroll-layouts.mjs",
+      "sha256": "bacbe5abcd555bbe85310cf8f76334e0d654a4eaaf5b48cb7b5ea70e3fb7bb5d",
+      "ids": [
+        "mv2-column-row-depth",
+        "mv2-reflection-editorial"
+      ]
+    },
+    {
+      "name": "slideshow.mjs",
+      "sha256": "899254305ad456dd7548dec6c5807d8f69663ae48aeec8a81f745914e64be8c1",
+      "ids": [
+        "mv2-art-directed-slideshow",
+        "mv2-paranoia-filter",
+        "mv2-stack-content"
+      ]
+    }
+  ],
+  "runtimeVerification": "not_run"
+}

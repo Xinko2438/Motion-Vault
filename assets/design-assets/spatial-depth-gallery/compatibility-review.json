@@ -1,0 +1,105 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-depth-gallery",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "WORK ONLY; no browser execution, no local integration, no publication",
+  "baselineDefiniteGaps": [
+    "project/assets/design-assets/spatial-depth-gallery/adapter/entry.js:13; Engine.js:60-75 (async initialization overrides earlier stop).",
+    "project/assets/design-assets/spatial-depth-gallery/run/effect.js:4134 (same actual bundled path)."
+  ],
+  "sourceFixes": [
+    "SourceDemo.stop during texture initialization no longer restarts the render RAF. Engine.init accepts autoStart:false; adapter alone decides when to start.",
+    "All five image textures must load; an actual first draw and WebGL error check precede Promise resolution.",
+    "Partial and late textures, debug pane, renderer and authored scene resources are disposed."
+  ],
+  "loaderAudit": [
+    "TextureLoader -> HTMLImageElement.src -> vault-isolation image broker -> local blob URL; five run/assets WebP files."
+  ],
+  "renderer": "Three183 WebGL2; regular GLSL background and textured scene; DPR <= 1.5.",
+  "nativeInput": "Native pointer parallax, wheel (preventDefault), touch scroll; inner viewport remains 1100x670 in gallery, so authored <=768 mobile breakpoint is not exercised by card scaling.",
+  "reducedMotion": "Time-driven background/trail phase is frozen; explicit scroll/parallax with authored smoothing remains.",
+  "sourceEvidence": [
+    "adapter/entry.js",
+    "adapter/author/src/Experience/Engine.js",
+    "adapter/author/src/Experience/Scroll.js",
+    "adapter/author/src/Experience/Gallery.js",
+    "adapter/lifecycle.js"
+  ],
+  "initializationContract": "ready is a Promise; all required active resource loads plus scene initialization and actual first draw precede succeed; load/draw/GL errors reject; no load-event or timeout readiness",
+  "disposalContract": "idempotent Promise; own RAF/timers/listeners/resources cleaned; host frame destruction remains final isolation boundary",
+  "runtimePending": [
+    "Opaque allow-scripts broker/CSP actual network and decode behavior",
+    "Real WebGL program compilation/framebuffer support/visual result",
+    "Native cold-start drag, cross-boundary release, touch and scroll containment",
+    "Repeated mount/stop/resume/dispose, hidden page and loading-time teardown",
+    "Actual 1100x670 embedded layout and card/modal resize scaling",
+    "Normal/reduced-motion preference and live preference-change behavior"
+  ],
+  "knownHostBoundary": [
+    "Current project gallery marks iframe load as playing, not SourceDemo readiness; parent-owned nonce lifecycle host bridge still required.",
+    "WORK run package does not contain project-generated vault-native-input.js; parent packaging must add native trusted-pointer reporting before host verification.",
+    "All compatibility claims remain source-reviewed, never browser-verified."
+  ],
+  "originalSourceFilesMatchedGitBlobs": 33,
+  "originalSourceMismatches": [],
+  "runtimeBundleSha256": "2f9f55438a58a561c52c61172c30c7b850e0392f92ab01c70bafdb0ba8bca0dd",
+  "runtimeManifestFiles": 9,
+  "externalBuildImports": [],
+  "htmlMissingOrExternalResources": [],
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "rebuildByteIdentical": true,
+  "changesPatchAppliesToOriginalDryRun": true,
+  "sourceEvidenceLines": [
+    {
+      "path": "adapter/entry.js",
+      "line": 14,
+      "text": "await engine.init({autoStart:false});"
+    },
+    {
+      "path": "adapter/entry.js",
+      "line": 16,
+      "text": "engine.renderFrame();assertFirstFrame(engine.renderer);"
+    },
+    {
+      "path": "adapter/entry.js",
+      "line": 17,
+      "text": "lifecycle.succeed({textures:engine.preloadedTextures.size,sceneInitialized:true,firstFrameSubmitted:true});"
+    },
+    {
+      "path": "adapter/author/src/Experience/Engine.js",
+      "line": 55,
+      "text": "async init({ autoStart = true } = {}) {"
+    },
+    {
+      "path": "adapter/author/src/Experience/Engine.js",
+      "line": 78,
+      "text": "if (autoStart) this.start()"
+    },
+    {
+      "path": "adapter/author/src/Experience/Engine.js",
+      "line": 132,
+      "text": "this.renderFrame()"
+    },
+    {
+      "path": "adapter/author/src/Experience/Engine.js",
+      "line": 135,
+      "text": "renderFrame() {"
+    },
+    {
+      "path": "adapter/author/src/Experience/Engine.js",
+      "line": 193,
+      "text": "this.isDisposed = true"
+    }
+  ]
+}

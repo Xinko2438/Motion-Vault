@@ -1,0 +1,321 @@
+--- a/src/js/components/FluidSim.ts
++++ b/src/js/components/FluidSim.ts
+@@ -233,7 +233,8 @@
+   }
+ 
+   updatePoint() {
+-    const time = Properties.time
++    if(!Input.hasPointer)return
++    const time = Properties.interactionTime
+     this.point.position.copy(Input.mouseScreenXY)
+     const point = this.point
+ 
+@@ -286,7 +287,7 @@
+     this.updatePoint()
+ 
+     // Idle gate: once input is stale and the field has dissipated, skip the solve to save GPU/battery.
+-    if (!shouldSolveFluid(Properties.time, this.lastUserInput, IDLE_SLEEP_AFTER)) {
++    if (!Input.hasPointer || !shouldSolveFluid(Properties.interactionTime, this.lastUserInput, IDLE_SLEEP_AFTER)) {
+       Properties.gl!.autoClear = savedAutoClear
+       Properties.gl!.setRenderTarget(savedRenderTarget)
+       return
+--- a/src/js/components/xylophone/Xylophone.ts
++++ b/src/js/components/xylophone/Xylophone.ts
+@@ -17,14 +17,12 @@
+   Vector3,
+ } from "three"
+ import { GLTFLoader } from "three/examples/jsm/Addons.js"
+-import audioUrl from "../../../assets/audio/do.wav?url"
+ import modelUrl from "../../../assets/models/xylophone-09.glb?url"
+ import xylophoneFrag from "../../../shaders/xylophone/xylophoneFrag.glsl?raw"
+ import xylophoneVert from "../../../shaders/xylophone/xylophoneVert.glsl?raw"
+ import { AUDIO, GLASS_LAYER, XYLOPHONE } from "../../configs/XylophoneConfig"
+ import { Input } from "../../utils/input"
+ import { Properties } from "../../utils/properties"
+-import { XylophoneAudio } from "./XylophoneAudio"
+ import { buildInstancedGeometry, writeHelixTransforms, type BuiltGeometry } from "./helix"
+ import { createHitWorkspace, hitBarIndex, type InstanceAttributes } from "./picking"
+ 
+@@ -96,6 +94,7 @@
+   }
+ 
+   // mesh
++  private disposed = false
+   private mesh?: Mesh
+   private material?: ShaderMaterial
+   private instances?: BuiltGeometry
+@@ -103,8 +102,7 @@
+   private geometryHeight = 1 // bar bbox height — the helix's vertical pitch
+ 
+   // strike (audio + swing)
+-  private audio?: XylophoneAudio
+-  private muted = false
++  private muted = true
+   private lastHitIndex = -1
+   private readonly raycast = new Raycaster()
+   private readonly hitWorkspace = createHitWorkspace()
+@@ -125,7 +123,6 @@
+   /** Held here too: the toggle can be set before the model (and its audio) finish loading. */
+   setMuted(muted: boolean) {
+     this.muted = muted
+-    this.audio?.setMuted(muted)
+   }
+ 
+   /* --------------------------------- update --------------------------------- */
+@@ -172,7 +169,6 @@
+     if (index !== -1 && index !== this.lastHitIndex) {
+       this.instances.aStrikeTime.setX(index, Properties.time)
+       this.instances.aStrikeTime.needsUpdate = true
+-      this.audio?.playNote(index)
+     }
+ 
+     this.lastHitIndex = index
+@@ -186,9 +182,10 @@
+       modelGeometry = (gltf.scene.children[0] as Mesh).geometry
+     } catch (err) {
+       console.error("[Xylophone] bar model failed to load — nothing to render", err)
+-      return
++      throw err
+     }
+ 
++    if(this.disposed) { modelGeometry.dispose(); return; }
+     this.build(modelGeometry)
+   }
+ 
+@@ -217,15 +214,7 @@
+     this.mesh = new Mesh(this.instances.geometry, this.material)
+     this.mesh.layers.enable(GLASS_LAYER) // also rendered in isolation into the view-normal buffer (SSAO)
+     this.group.add(this.mesh)
+-
+-    this.audio = new XylophoneAudio({
+-      url: audioUrl,
+-      count: XYLOPHONE.count,
+-      baseFreq: AUDIO.baseFreq,
+-      octaveSpan: AUDIO.octaveSpan,
+-    })
+-    this.audio.setMuted(this.muted)
+-    void this.audio.load()
++    // Audio omitted: exact sample redistribution rights are unresolved.
+   }
+ 
+   async load() {
+@@ -244,7 +233,7 @@
+   }
+ 
+   dispose() {
+-    this.audio?.dispose()
++    this.disposed = true
+     this.instances?.geometry.dispose()
+     this.material?.dispose()
+     this.uniforms.u_tGradient.value?.dispose()
+--- a/src/js/configs/XylophoneConfig.ts
++++ b/src/js/configs/XylophoneConfig.ts
+@@ -9,7 +9,7 @@
+ 
+ export const QUALITY = {
+   isMobile,
+-  maxDpr: isMobile ? 1.5 : 2,
++  maxDpr: 1.5,
+   /** view-normal buffer size, as a fraction of the screen */
+   glassBufferScale: isMobile ? 0.5 : 1,
+ } as const
+--- a/src/js/main.ts
++++ b/src/js/main.ts
+@@ -1,3 +1,8 @@
++import { lifecycle, rejectShaderErrors, assertFirstFrame } from '../../../lifecycle.js';
++import { smaaImages } from '../../../resources.js';
++const vaultMotion = matchMedia('(prefers-reduced-motion: reduce)');
++const vaultError = error => lifecycle.fail(error);
++const vaultListen = (...args) => lifecycle.listen(...args);
+ import { EffectPass, RenderPass, SMAAEffect, SMAAPreset, SSAOEffect } from "postprocessing"
+ import {
+   DoubleSide,
+@@ -17,7 +22,6 @@
+ import { FLUID, FROST, QUALITY, SSAO } from "./configs/XylophoneConfig"
+ import { FrostBackdropPass } from "./passes/FrostBackdropPass"
+ import { GlassBufferPass } from "./passes/GlassBufferPass"
+-import { SoundToggle } from "./ui/SoundToggle"
+ import { Input } from "./utils/input"
+ import { Properties } from "./utils/properties"
+ import { RAFCollection } from "./utils/RAFCollection"
+@@ -46,13 +50,13 @@
+   private readonly aaPass: EffectPass
+ 
+   // ui
+-  private soundToggle: SoundToggle
+ 
+   // frame
+   private size = { width: 0, height: 0 }
+   private dateTime = performance.now()
+   private isContextLost = false
+   private rafId = 0
++  private destroyed = false
+ 
+   private readonly boundUpdate = this.update.bind(this)
+   private readonly boundResize = this.resize.bind(this)
+@@ -65,6 +69,8 @@
+       powerPreference: "high-performance",
+       premultipliedAlpha: false,
+     })
++    rejectShaderErrors(gl)
++    if(!gl.getContext().getExtension('EXT_color_buffer_float')){gl.dispose();gl.forceContextLoss();throw new Error('This authored fluid effect requires EXT_color_buffer_float')}
+     gl.outputColorSpace = SRGBColorSpace
+     gl.toneMapping = NoToneMapping
+     gl.setPixelRatio(Properties.dpr)
+@@ -81,12 +87,12 @@
+ 
+     // Context loss is common on mobile when backgrounding. three re-uploads every GPU
+     // resource itself on restore, so we only have to stop and resume drawing.
+-    canvas.addEventListener("webglcontextlost", (event) => {
++    vaultListen(canvas,"webglcontextlost", (event) => {
+       event.preventDefault()
+       this.isContextLost = true
+       console.warn("WebGL context lost — pausing render")
+     })
+-    canvas.addEventListener("webglcontextrestored", () => {
++    vaultListen(canvas,"webglcontextrestored", () => {
+       this.isContextLost = false
+       console.warn("WebGL context restored — resuming render")
+     })
+@@ -165,6 +171,7 @@
+ 
+   /* ---------------------------------- main ---------------------------------- */
+   constructor() {
++    lifecycle.addCleanup(()=>this.destroy())
+     Properties.viewportWidth = window.innerWidth
+     Properties.viewportHeight = window.innerHeight
+ 
+@@ -200,7 +207,7 @@
+     this.ssaoPass = new EffectPass(this.camera, this.ssaoEffect)
+     this.aaPass = new EffectPass(
+       this.camera,
+-      new SMAAEffect({ preset: QUALITY.isMobile ? SMAAPreset.MEDIUM : SMAAPreset.ULTRA })
++      new (SMAAEffect as any)(smaaImages[0], smaaImages[1], QUALITY.isMobile ? SMAAPreset.MEDIUM : SMAAPreset.ULTRA)
+     )
+ 
+     for (const pass of [this.frostBackdropPass, this.renderPass, this.glassBufferPass, this.ssaoPass, this.aaPass]) {
+@@ -211,12 +218,17 @@
+     this.resize()
+     window.addEventListener("resize", this.boundResize)
+ 
+-    this.soundToggle = new SoundToggle((muted) => this.xylophone.setMuted(muted))
+-    this.soundToggle.mount()
++    this.xylophone.setMuted(true)
+ 
+     // The loader covers the page until the bars exist. `load()` swallows its own asset failures,
+     // so the overlay can't get stuck on a failed fetch.
+-    void this.xylophone.load().then(() => document.body.classList.remove("loading"))
++    void this.xylophone.load().then(() => {
++      if(lifecycle.disposed)return
++      Properties.composer.render(0);assertFirstFrame(this.gl)
++      document.body.classList.remove("loading")
++      lifecycle.succeed({modelLoaded:true,smaaImages:2,firstFrameSubmitted:true})
++      if(lifecycle.running)this.resume()
++    }).catch(vaultError)
+     void this.setupDebug()
+ 
+     this.update()
+@@ -245,6 +257,7 @@
+   }
+ 
+   private update() {
++    if (!lifecycle.running || lifecycle.disposed) return
+     this.rafId = window.requestAnimationFrame(this.boundUpdate)
+     if (this.isContextLost) return
+ 
+@@ -253,7 +266,11 @@
+     this.dateTime = now
+ 
+     Properties.deltaTime = delta
+-    Properties.time += delta
++    Properties.interactionTime += delta
++    Properties.reduceMotion = vaultMotion.matches
++    this.xylophone.uniforms.u_spinSpeed.value = Properties.reduceMotion ? 0 : 0.3
++    this.xylophone.uniforms.u_swingScale.value = Properties.reduceMotion ? 0 : 1
++    if (!Properties.reduceMotion) Properties.time += delta
+     Properties.globalUniforms.u_deltaTime.value = delta
+     Properties.globalUniforms.u_time.value = Properties.time
+ 
+@@ -264,41 +281,33 @@
+     Input.postUpdate()
+   }
+ 
++  stop() { cancelAnimationFrame(this.rafId); this.rafId=0; Input.resetGesture(); }
++  resume() { if(lifecycle.disposed || !lifecycle.running || this.rafId) return; this.dateTime=performance.now(); this.update(); }
+   destroy() {
++    if(this.destroyed)return
++    this.destroyed=true
+     window.cancelAnimationFrame(this.rafId)
+     window.removeEventListener("resize", this.boundResize)
+     Input.destroy()
+-    this.soundToggle.destroy()
++    FBOHelper.fsQuad?.dispose()
+ 
+     for (const pass of [this.frostBackdropPass, this.renderPass, this.glassBufferPass, this.ssaoPass, this.aaPass]) {
+-      Properties.composer.removePass(pass)
+-      pass.dispose()
++      if(pass){Properties.composer.removePass(pass);pass.dispose()}
+     }
+ 
+-    this.glassNormalMaterial.dispose()
+-    this.fluid.dispose()
+-    this.xylophone.dispose()
+-    this.xylophoneBg.dispose()
++    this.glassNormalMaterial?.dispose()
++    this.fluid?.dispose()
++    this.xylophone?.dispose()
++    this.xylophoneBg?.dispose()
+     Properties.composer.dispose()
+-    this.gl.dispose()
++    this.gl?.dispose()
++    this.gl?.forceContextLoss()
+   }
+ }
+ 
+ let app: App | null = null
+-
+-window.addEventListener("load", () => {
+-  app = new App()
++lifecycle.setHandlers({
++  stop(){app?.stop()},resume(){app?.resume()},dispose(){app?.destroy();app=null},
++  inspect(){return {renderer:'Three182 WebGL2; float/half-float fluid targets; SSAO/SMAA',input:['native mouse sweep','native wheel','native touch drag'],resources:'one embedded-buffer GLB; two embedded SMAA PNGs; no active Draco/worker/audio',reducedMotionBehavior:'shader spin and swing frozen; independent real-input clock retains fluid hover and idle sleep'};}
+ })
+-
+-// pagehide, not beforeunload — beforeunload doesn't fire reliably on mobile Safari.
+-//
+-// `persisted` means the page is going into the back/forward cache rather than being torn down,
+-// so it can be restored by a back navigation with no `load` event to rebuild us. Tearing the app
+-// down there would strand a dead canvas on return; the browser freezes our rAF while cached, so
+-// staying alive costs nothing.
+-window.addEventListener("pagehide", (event) => {
+-  if (event.persisted) return
+-
+-  app?.destroy()
+-  app = null
+-})
++try { app = new App();if(!lifecycle.running)app.stop() } catch(error) { vaultError(error); document.body.classList.remove('loading'); }
+--- a/src/js/utils/input.ts
++++ b/src/js/utils/input.ts
+@@ -85,7 +85,12 @@
+     this.deltaScrollY = 0
+   }
+ 
++  static resetGesture() {
++    this.deltaScrollY=0;this.dragAxis="none";this.hasPointer=false;
++  }
++
+   static destroy() {
++    this.resetGesture()
+     document.removeEventListener("mousemove", this.onMouseMove)
+     document.removeEventListener("wheel", this.onWheel)
+     document.removeEventListener("touchstart", this.onTouchStart)
+--- a/src/js/utils/properties.ts
++++ b/src/js/utils/properties.ts
+@@ -23,6 +23,7 @@
+ 
+   // clock
+   static time = 0
++  static interactionTime = 0
+   static deltaTime = 0
+ 
+   // shared by reference into materials — assigning `.value` updates every consumer

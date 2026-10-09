@@ -1,0 +1,206 @@
+{
+  "at": "2026-10-07T09:37:24.208Z",
+  "status": "technically_complete",
+  "mode": "single-page-curation-workflow",
+  "formalHash": "ac7932bae7ab518270202dd03c2108587fdc873c228bd893d104048c7d7cac5b",
+  "userTaskComplete": true,
+  "allScopedChecksPassed": true,
+  "entry": "http://127.0.0.1:4380/app/assets/motion-vault.html",
+  "sourceCounts": {
+    "original": 60,
+    "new": 30
+  },
+  "userStates": [
+    "formal",
+    "preselection",
+    "hidden"
+  ],
+  "stateStorage": "existing browser-local records; source catalogue and provenance remain separate",
+  "publication": {
+    "runId": "curation-single-page-1791365346752",
+    "at": "2026-10-07T09:35:45.790Z",
+    "changedFiles": 4,
+    "sync": {
+      "verified": true,
+      "checkOnly": true,
+      "applicationCount": 1,
+      "canonicalEntry": "motion-vault.html",
+      "legacyCandidateRedirect": true,
+      "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+      "formalCount": 60,
+      "candidateCount": 30,
+      "localCandidateCount": 30,
+      "assetFiles": 2768,
+      "copyChecks": 8325,
+      "httpChecks": 13,
+      "formalSha256": "ac7932bae7ab518270202dd03c2108587fdc873c228bd893d104048c7d7cac5b",
+      "candidateSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+      "publicCatalogueSha256": "7a8d48a30a4ab4af78bbf0e9cc93dc380f24ebef7d3a4ac6f1400eeb7674e6b0",
+      "http": [
+        {
+          "path": "motion-vault-icon.svg",
+          "status": 200,
+          "type": "image/svg+xml",
+          "sha256": "7728179db81aa983233ea95420ec7b8c9b7ac6016ee2abd4afa9ed01235da232"
+        },
+        {
+          "path": "motion-vault-icon.ico",
+          "status": 200,
+          "type": "image/vnd.microsoft.icon",
+          "sha256": "5ee7516464abb039cb95e40a80d060b27046e796b2c208f236c9cd2f2873eea1"
+        },
+        {
+          "path": "motion-vault.html",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "sha256": "ac7932bae7ab518270202dd03c2108587fdc873c228bd893d104048c7d7cac5b"
+        },
+        {
+          "path": "motion-vault-catalog.json",
+          "status": 200,
+          "type": "application/json; charset=utf-8",
+          "sha256": "7a8d48a30a4ab4af78bbf0e9cc93dc380f24ebef7d3a4ac6f1400eeb7674e6b0"
+        },
+        {
+          "path": "motion-vault-candidates.html",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "sha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09"
+        },
+        {
+          "path": "motion-vault-candidate-catalog.json",
+          "status": 200,
+          "type": "application/json; charset=utf-8",
+          "sha256": "c3a8b1a315435c414dd005bca598abee8b7a213ba485844a170e6fd0fa74ad12"
+        },
+        {
+          "path": "motion-vault-assets/shared/runtime.mjs",
+          "status": 200,
+          "type": "text/javascript; charset=utf-8",
+          "sha256": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d"
+        },
+        {
+          "path": "motion-vault-assets/shared/runtime.css",
+          "status": 200,
+          "type": "text/css; charset=utf-8",
+          "sha256": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+        },
+        {
+          "path": "motion-vault-assets/online-lens/DESIGN.md",
+          "status": 200,
+          "type": "text/markdown; charset=utf-8",
+          "sha256": "7162983ba76fd4e3f6472a696cf8df301c930f8eb87ca14023306f7e9a55eee8"
+        },
+        {
+          "path": "motion-vault-assets/online-lens/poster.jpg",
+          "status": 200,
+          "type": "image/jpeg",
+          "sha256": "084bb2a118088f0170c58a420db9ac40b0fb0d1f5b2fd874c6e7acd13d75e9ee"
+        },
+        {
+          "path": "motion-vault-assets/online-contours/preview.mp4",
+          "status": 200,
+          "type": "video/mp4",
+          "sha256": "f5b5bc7b7d8e40eb0065b80be65dfadc86404a67e5a537b08701b80cbec62617"
+        },
+        {
+          "path": "motion-vault-assets/curated-rounded-menu/run/index.html",
+          "status": 200,
+          "type": "text/html; charset=utf-8",
+          "sha256": "82502961ba01c3cc3a8479b07a56c6daeb00feb40e268aaa1ad8e7f76a66bb4d"
+        },
+        {
+          "path": "motion-vault-assets/curated-rounded-menu/run/effect.js",
+          "status": 200,
+          "type": "text/javascript; charset=utf-8",
+          "sha256": "d506d6fc4d2e5ae0f1a603875c6a4e1c457364d721c24bfa02553d90af200c75"
+        }
+      ]
+    }
+  },
+  "proofs": [
+    {
+      "file": "lineage/current/curation-workflow/stage.json",
+      "sha256": "23b2dbe033619520be722d898a4a02567443e1dd6a0a8c433f4767ac3b46328e",
+      "passed": 39,
+      "total": 39,
+      "at": "2026-10-07T09:24:38.260Z",
+      "live": false
+    },
+    {
+      "file": "lineage/current/curation-workflow/live.json",
+      "sha256": "66a8152ab4a971a5750b9c6762f5284f3dbee55e4a4abe5288373c8df35c4e81",
+      "passed": 39,
+      "total": 39,
+      "at": "2026-10-07T09:36:14.615Z",
+      "live": true
+    },
+    {
+      "file": "lineage/current/candidate-validation.json",
+      "sha256": "22e0648d0dd1a54ab6d349849a1409850b9fd63e9238d6eb7ea360cdb30c9ab3",
+      "passed": 166,
+      "total": 166,
+      "at": "2026-10-07T09:27:53.738Z",
+      "live": false
+    },
+    {
+      "file": "lineage/current/sandbox.json",
+      "sha256": "b07197b5f8db9858baa3a3c6ab6a46539895e58009c45eefbdfe8d21390871f0",
+      "passed": 30,
+      "total": 30,
+      "at": "2026-10-07T09:30:51.419Z"
+    },
+    {
+      "file": "lineage/current/no-preference.json",
+      "sha256": "233dd36db7e947388a54b6601b5c735b61c46bd80e1a20edb50425f1edb5118b",
+      "passed": 193,
+      "total": 193,
+      "at": "2026-10-07T09:33:11.109Z",
+      "live": false
+    },
+    {
+      "file": "lineage/current/interaction-switch/stage.json",
+      "sha256": "f8f7c1633f9895320700f296d5f98e144b412d76589e3e97afc00c09a652e9ff",
+      "passed": 27,
+      "total": 27,
+      "at": "2026-10-07T09:33:34.809Z",
+      "live": false
+    },
+    {
+      "file": "lineage/current/interaction-switch/live.json",
+      "sha256": "f89892a57cad2bd89b14961a7dec52c5ea86c5e107310164d8678a10f988bb57",
+      "passed": 27,
+      "total": 27,
+      "at": "2026-10-07T09:36:36.390Z",
+      "live": true
+    },
+    {
+      "file": "lineage/current/consolidation-check.json",
+      "sha256": "8e23025511e2bccb1496637c2903a4e612bbb0a899e63eabc7ae310f3f5ae5af",
+      "passed": 18,
+      "total": 18,
+      "at": "2026-10-07T09:37:20.900Z",
+      "live": true
+    }
+  ],
+  "projectTests": {
+    "passed": 27,
+    "total": 27,
+    "file": "lineage/current/curation-workflow/project-tests.txt"
+  },
+  "prior": {
+    "file": "lineage/current/curation-workflow/prior.json",
+    "sha256": "8e298c7551afceca333825bf66a0010c82421ff61d344fd42acde24b16bfe292"
+  },
+  "userBrowserDataChanged": false,
+  "sourceEffectsChanged": false,
+  "previewVideosChanged": false,
+  "newUserPages": 0,
+  "scope": "Reversible promotion/demotion/hiding/restoration for both original and candidate items in the existing single page; old storage compatibility, atomic persistence and cross-tab refresh; retain preview/interactive and favicon.",
+  "notClaimed": [
+    "Cross-device synchronization",
+    "Automatic modification of seed catalogue files by browser selection",
+    "User approval of the 30 candidates",
+    "Universal real-time FPS"
+  ]
+}

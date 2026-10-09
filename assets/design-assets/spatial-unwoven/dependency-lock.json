@@ -1,0 +1,36 @@
+{
+  "schema": "motion-vault.pinned-file-dependencies.v1",
+  "lifecycleScriptsExecuted": false,
+  "packages": [
+    {
+      "name": "three",
+      "version": "0.128.0",
+      "metadata": "https://registry.npmjs.org/three/0.128.0",
+      "resolved": "https://registry.npmjs.org/three/-/three-0.128.0.tgz",
+      "integrity": "sha512-i0ap/E+OaSfzw7bD1TtYnPo3VEplkl70WX5fZqZnfZsE3k3aSFudqrrC9ldFZfYFkn1zwDmBcdGfiIm/hnbyZA==",
+      "license": "MIT",
+      "notices": [
+        "vendor-licenses/three-LICENSE.txt"
+      ],
+      "file": "run/vendor/three.min.js",
+      "sha256": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+      "upstreamArchiveEntry": "package/build/three.min.js",
+      "bytes": 603445
+    },
+    {
+      "name": "gsap",
+      "version": "3.12.5",
+      "metadata": "https://registry.npmjs.org/gsap/3.12.5",
+      "resolved": "https://registry.npmjs.org/gsap/-/gsap-3.12.5.tgz",
+      "integrity": "sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==",
+      "license": "Standard 'no charge' license: https://gsap.com/standard-license. Club GSAP members get more: https://gsap.com/licensing/. Why GreenSock doesn't employ an MIT license: https://gsap.com/why-license/",
+      "notices": [
+        "vendor-licenses/gsap-DISTRIBUTION-NOTICE.txt"
+      ],
+      "file": "run/vendor/gsap.min.js",
+      "sha256": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+      "upstreamArchiveEntry": "package/dist/gsap.min.js",
+      "bytes": 72214
+    }
+  ]
+}

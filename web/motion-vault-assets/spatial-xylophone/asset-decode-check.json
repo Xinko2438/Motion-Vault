@@ -1,0 +1,9 @@
+{
+  "mode": "Static GLB header and JSON validation; no renderer",
+  "magicValid": true,
+  "version": 2,
+  "lengthMatches": true,
+  "meshes": 1,
+  "extensionsRequired": [],
+  "externalUris": []
+}

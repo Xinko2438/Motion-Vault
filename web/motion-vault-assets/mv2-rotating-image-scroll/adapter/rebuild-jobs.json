@@ -1,0 +1,38 @@
+[
+  {
+    "entry": "source/js/index15.js",
+    "output": "run/effect-index15.js"
+  },
+  {
+    "entry": "source/js/index14.js",
+    "output": "run/effect-index14.js"
+  },
+  {
+    "entry": "source/js/index10.js",
+    "output": "run/effect-index10.js"
+  },
+  {
+    "entry": "source/js/index11.js",
+    "output": "run/effect-index11.js"
+  },
+  {
+    "entry": "source/js/index13.js",
+    "output": "run/effect-index13.js"
+  },
+  {
+    "entry": "source/js/index8.js",
+    "output": "run/effect-index8.js"
+  },
+  {
+    "entry": "source/js/index12.js",
+    "output": "run/effect-index12.js"
+  },
+  {
+    "entry": "source/js/index7.js",
+    "output": "run/effect-index7.js"
+  },
+  {
+    "entry": "source/js/index9.js",
+    "output": "run/effect-index9.js"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "schema": "motion-vault.rebuild-review.v2",
+  "ownPipeline": [
+    "python adapter/prepare.py",
+    "node adapter/build.mjs",
+    "python adapter/metadata.py"
+  ],
+  "runFilesCompared": 23,
+  "allRunFilesByteIdentical": true,
+  "comparedRunHashManifestSha256": "a41af04861dbb19ee4655d2d4caca8ba342201401ce8e293d599db38334c8386",
+  "browserExecuted": false,
+  "upstreamRuntimeExecuted": false,
+  "scope": "stable-getter readiness/lifecycle revision"
+}

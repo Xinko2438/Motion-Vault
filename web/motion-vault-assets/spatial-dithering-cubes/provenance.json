@@ -1,0 +1,38 @@
+{
+  "kind": "adapted_author_source",
+  "author": "Damar Berlari",
+  "repo": "https://github.com/damarberlari/visualizing-dithering-codrops",
+  "commit": "ff5e1936f6174e71455be494ba00a5c282ddf6c5",
+  "localEntry": "run/index.html",
+  "sourceEntry": "source/src/index.js",
+  "unchanged": [
+    "Grid class geometry, instances, thresholds and material setup",
+    "400x400 image grid and 400x400 threshold grid",
+    "camera framing, palette, native Tweakpane controls"
+  ],
+  "shaders": [
+    {
+      "path": "source/src/Grid/shaders/vertexShader.glsl",
+      "sha256": "95a32660188221791d50191cf566f66edb4b20d662edf253ae604f49c79b136a",
+      "preserved": "Exact pinned source passed unchanged to esbuild text loader"
+    },
+    {
+      "path": "source/src/Grid/shaders/fragmentShader.glsl",
+      "sha256": "cc99579b845908f7e509815aa89ca941e1b41ff8b946da12467826a1d4e094ee",
+      "preserved": "Exact pinned source passed unchanged to esbuild text loader"
+    }
+  ],
+  "adaptations": [
+    "Own esbuild config/local dependency bundle",
+    "Named lifecycle and reduced-motion-aware idle rendering; original shader progress unchanged",
+    "Native control changes request a render; deterministic setProgress applies same original uniform",
+    "External Codrops links/favicon removed from embedded local page",
+    "Existing opaque sandbox bridge copied from local integration",
+    "Compatibility revision: resource/first-render-gated ready Promise, accurate inspect/isReady, partial-initialization cleanup and terminal lifecycle. Original author source remains unchanged; browser/runtime compatibility is pending."
+  ],
+  "upstreamVisualVerified": false,
+  "runtimeVerified": false,
+  "assetRights": "dithering_object.jpg is bundled author demo art; code/publisher license is not separately verified image copyright. Keep attribution, verify or replace for production.",
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "compatibilityReview": "compatibility-review.json"
+}

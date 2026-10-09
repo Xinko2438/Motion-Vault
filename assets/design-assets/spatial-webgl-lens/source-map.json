@@ -1,0 +1,42 @@
+[
+  {
+    "path": "source/src/App.jsx",
+    "role": "original layout"
+  },
+  {
+    "path": "source/src/Lens.jsx",
+    "role": "original refractive material and FBO"
+  },
+  {
+    "path": "source/src/Text.jsx",
+    "role": "matching DOM/WebGL typography"
+  },
+  {
+    "path": "source/src/Image.jsx",
+    "role": "scroll-managed image transforms"
+  },
+  {
+    "path": "source/src/ImageCube.jsx",
+    "role": "original spatial image geometry"
+  },
+  {
+    "path": "adapter/runtime.jsx",
+    "role": "local lifecycle and asset transport"
+  },
+  {
+    "path": "adapter/build.mjs",
+    "role": "own scoped source transforms"
+  },
+  {
+    "path": "adapter/check-static.py",
+    "role": "scoped compatibility verification or lifecycle source"
+  },
+  {
+    "path": "adapter/troika-transform.mjs",
+    "role": "scoped compatibility verification or lifecycle source"
+  },
+  {
+    "path": "adapter/entry.jsx",
+    "role": "scoped compatibility verification or lifecycle source"
+  }
+]

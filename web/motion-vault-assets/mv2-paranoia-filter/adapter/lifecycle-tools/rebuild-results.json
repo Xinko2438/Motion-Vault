@@ -1,0 +1,31 @@
+[
+  {
+    "id": "mv2-paranoia-filter",
+    "compatibility": "needs_runtime",
+    "readiness": "author-init-promise-plus-required-resources",
+    "reducedMotionStrategy": "instant-three-slideshow-title-and-background-synchronization",
+    "reducedMotionSupport": "source_path_present_runtime_unverified",
+    "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+    "keyboardSupport": "focusable-labeled-nav-enter-space-same-intent-callback-runtime-unverified",
+    "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/slideshow.mjs",
+    "reducedMotionModuleSha256": "899254305ad456dd7548dec6c5807d8f69663ae48aeec8a81f745914e64be8c1",
+    "variants": [
+      {
+        "entry": "source/src/js/index.js",
+        "output": "run/effect.js",
+        "authorInitialization": "explicit-promise-bound",
+        "firstRender": "not-applicable",
+        "runtimeVerification": "not_run"
+      }
+    ],
+    "sourceRepairNotes": [
+      "Main, previous-preview and next-preview slideshow indices retain their authored offsets and wraparound; selected title and original body color are committed synchronously.",
+      "Focusable navigation retains the authored nav composition; trusted Enter/Space input calls the same intent callback as pointer input, without dispatching a synthetic click.",
+      "Live preference changes stop owned transitions and settle slide, title and body state. Real keyboard, layout and visual acceptance remain unrun."
+    ],
+    "limitations": [
+      "No browser runtime or visual acceptance was performed by this repair.",
+      "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+    ]
+  }
+]

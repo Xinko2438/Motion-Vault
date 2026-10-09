@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    {
+      "file": "run/js/gsap.min.js",
+      "version": "3.14.1",
+      "sha256": "b216c8122377d9b94baed346799cfaaa7a010ddf3cdbea815f689ad3304c4462",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrollSmoother.min.js",
+      "version": "3.14.1",
+      "sha256": "814f79c458dda325ee671b8beef2b92efb9a5b4ed0d195b815a4a4804f44355b",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrollTrigger.min.js",
+      "version": "3.14.1",
+      "sha256": "f118ac1dd8d3c8d1a4af08c3c59ef2f54bff449e55c5cf486a992b0711fef30d",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrambleTextPlugin.min.js",
+      "version": "3.14.1",
+      "sha256": "e19a02151657ef9865c209fd0bcf03064d9aeb3ac1fd219cdccf8375268194a4",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/Flip.min.js",
+      "version": "3.14.1",
+      "sha256": "9f58a855546e4b7bcec87ad218ee342fdd88e15d6b0ef2feb49b34bcc34e0a34",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    }
+  ],
+  "buildTool": {
+    "name": "esbuild",
+    "version": "0.25.10"
+  },
+  "upstreamBuildScriptsExecuted": false,
+  "dependencyLifecycleScriptsExecuted": false
+}

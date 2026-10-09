@@ -1,0 +1,192 @@
+{
+  "id": "spatial-webgl-lens",
+  "repo": "14islands/codrops-scroll-rig-tutorial",
+  "commit": "f903c1ed917bf1c2f8a351aea54f1045db6fc129",
+  "files": [
+    {
+      "path": ".gitignore",
+      "gitBlobSha": "b614903094cf5d27cb46a763c85a6d903e6ba11f",
+      "bytes": 367,
+      "sha256": "9aa5d788070cc97653b7e734853af1d344b43234fe8e7f735a59b7e395a5995c"
+    },
+    {
+      "path": "LICENSE",
+      "gitBlobSha": "bfb3aad68e54e8f7b5f65a66cdebaa948a6e3264",
+      "bytes": 1066,
+      "sha256": "5738d63582741509fcc89b58376a008da3bcb879bd0bff593d5b3c9ddde0f7a5"
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha": "6105d2ea96c6411a8af861be804f148e563cca41",
+      "bytes": 734,
+      "sha256": "432724f94305d294774acda1c5c4a291c41f02d9128176c84a1758c693d8179b"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "gitBlobSha": "741e8acd65f0b0101a3ac0423ce53c01eaaaddde",
+      "bytes": 394131,
+      "sha256": "d56da8438ba69dd13d0a92b5335d90d3635d44ce9761c7b18d92a8334ca827bc"
+    },
+    {
+      "path": "public/env/empty_warehouse_01_1k.hdr",
+      "gitBlobSha": "5066e1e983f31a441e5af87512214dde86710478",
+      "bytes": 1672140,
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451"
+    },
+    {
+      "path": "public/favicon.ico",
+      "gitBlobSha": "9d0a2997f7494f6ad7949a7329b01f12458d72ee",
+      "bytes": 15406,
+      "sha256": "2d708b99ced5418009f80cea91f5d1b910a1271108fc18c79afe4ddcce7a2551"
+    },
+    {
+      "path": "public/fonts.css",
+      "gitBlobSha": "ef8bf032be8fcf387664966784a3992b35f782fc",
+      "bytes": 664,
+      "sha256": "216475a8d505db5402512d82121b054cbdd71e63f86cdec4ec37e2afd142547b"
+    },
+    {
+      "path": "public/fonts/PlayfairDisplay-Italic.woff",
+      "gitBlobSha": "fe1d106593add0f3d290319fc0c98b684ad27273",
+      "bytes": 50932,
+      "sha256": "44ef21f3734a8fd344563c2738af3fc0f0820bf4dd8b5cd1a51ed78b8687a6e3"
+    },
+    {
+      "path": "public/fonts/Poppins-Medium.woff",
+      "gitBlobSha": "d5e713b46131dd0659f4e1ad34d366f8d9798778",
+      "bytes": 65760,
+      "sha256": "9ec8c55ca9a20762804eddbda1f3bb327d2d19245d89a7ee6f2076421c60c6c1"
+    },
+    {
+      "path": "public/fonts/Poppins-Regular.woff",
+      "gitBlobSha": "ccce523febc97ab824233ac8e1f0c9e94edb5d9c",
+      "bytes": 66572,
+      "sha256": "c68e1edb2e2414da9f1a46a81131ceeb09e082363d20c8605d5edb929a1bf648"
+    },
+    {
+      "path": "public/fonts/Poppins-SemiBold.woff",
+      "gitBlobSha": "5035ee775d447b94636e9859d3a570410b553538",
+      "bytes": 66232,
+      "sha256": "952d2591178ef0c2dea37fb2c14f01e18433c8d59db10f6365c9e1ca9e8efe2a"
+    },
+    {
+      "path": "public/glb/lens-transformed2.glb",
+      "gitBlobSha": "5a4a82d6329b3b6749048f2241803961b8f467bc",
+      "bytes": 16048,
+      "sha256": "b453bf1f0739c9e12352a9b7dad997def5093ebe284356e0dd75932cf3084598"
+    },
+    {
+      "path": "public/images/codrops-bg-tiny.png",
+      "gitBlobSha": "26a72625e6b3a4c342456283a9217bd0c6684119",
+      "bytes": 313106,
+      "sha256": "79c0cd10b0be64718a0f53fed60dbe77625a9196a66ab895ca4b7e9dd9efed51"
+    },
+    {
+      "path": "public/images/maxim-berg-1_U2RcHnSjc-unsplash.jpg",
+      "gitBlobSha": "6e6b222f732575a778cdfcfd8c267377174b3a24",
+      "bytes": 24598,
+      "sha256": "03d7e09f9ac1c5c41a83ad6d43b5ee76a982bbf02c896f93cb2e046250579ac1"
+    },
+    {
+      "path": "public/images/maxim-berg-ANuuRuCRRAc-unsplash.jpg",
+      "gitBlobSha": "0f684ed85376f2b30620e8eb192cfc767fcced19",
+      "bytes": 235445,
+      "sha256": "9e5f6b988787d13068167925ec3b6159a01f83ee4379440e0782e2d74dde1778"
+    },
+    {
+      "path": "public/images/maxim-berg-TcE45yIzJA0-unsplash.jpg",
+      "gitBlobSha": "1392c660b134b9718d2e3758b03db26391640cc2",
+      "bytes": 122364,
+      "sha256": "883cb2087f7c491d029b737a7eb86c36a4aaf53f459fce7352044c17821fc3e4"
+    },
+    {
+      "path": "public/images/maxim-berg-qsDfqZyTCAE-unsplash-crop.jpg",
+      "gitBlobSha": "0f8b07008feb13719d252a839ed00e2a50490f33",
+      "bytes": 114018,
+      "sha256": "a3613bc430de416836d764b5c7ac993ee88907166da4d6d26265aed7b9f5ba2c"
+    },
+    {
+      "path": "public/index.html",
+      "gitBlobSha": "855ec72b2bd98a32ff98bd5db0239a0a1080c081",
+      "bytes": 1383,
+      "sha256": "63916c62f7175daf57f28f58d3ba6b69ed4082f77d600b715c9f7d437dfc508b"
+    },
+    {
+      "path": "public/styles.css",
+      "gitBlobSha": "6ccd18e573f8a77f46c3f1122ba527b6e9919adb",
+      "bytes": 5733,
+      "sha256": "5c76d396d7c169cc48692db143e5fe8c02c14968c8369195f2ad0259afd07fa9"
+    },
+    {
+      "path": "readme.md",
+      "gitBlobSha": "e8bec68e13fdeedd0444e87171d94bb8ee070751",
+      "bytes": 785,
+      "sha256": "f2f253f0c9918455410abcebe79fc1f15caf86755bf33199bbcd2b91f3147aff"
+    },
+    {
+      "path": "src/App.jsx",
+      "gitBlobSha": "9070cff32646f59415bb525e6f9d71d64c8fa795",
+      "bytes": 5391,
+      "sha256": "175dc4dc5850c26c88db4c27a90473deca8ced7dab83a8f32db75774bdd086ef"
+    },
+    {
+      "path": "src/CodropsFrame.jsx",
+      "gitBlobSha": "0ce88327bc53b6aaa12ee48725fa8b4d7451d145",
+      "bytes": 976,
+      "sha256": "7e4892f09dd703ce60e3d94711a080e34ccc07035f223ca22563865fd6200fc1"
+    },
+    {
+      "path": "src/EffectsToggle.jsx",
+      "gitBlobSha": "5ba4158c8ff33639c62781014d4b09113c6f81e1",
+      "bytes": 802,
+      "sha256": "cdb6dec91c4cc80eac611bbce139128733f981082c8a8b552c35de3354a27667"
+    },
+    {
+      "path": "src/Image.jsx",
+      "gitBlobSha": "f1ef22b1cc0da870b188d00fbf4ee57a1d54ca55",
+      "bytes": 2589,
+      "sha256": "49d29f1d79a1487c5186a982bcc1399712e5acffa6c7412d20cbd5375c4f8650"
+    },
+    {
+      "path": "src/ImageCube.jsx",
+      "gitBlobSha": "d4589528ab499e0e4e1fbb2c45a2319a78a7fe75",
+      "bytes": 1810,
+      "sha256": "9f03b10e13613a45f23abe0965393d98a495436b5bc81dec5d28e2774cd9b7a9"
+    },
+    {
+      "path": "src/Lens.jsx",
+      "gitBlobSha": "7563e9c8b98e85a1ad3c21122d2e921537ab6281",
+      "bytes": 2448,
+      "sha256": "6ce49f22b8bd75064a72974ca7d932cddaf0f007824cd8b437ad64611c5732bf"
+    },
+    {
+      "path": "src/Text.jsx",
+      "gitBlobSha": "1850e558f2b974e0080e061f753639bc407c8013",
+      "bytes": 2069,
+      "sha256": "89ac53bced9e65bf3e2545d5417788c99bf76b1f6999191092ce209a1f449c44"
+    },
+    {
+      "path": "src/WebGLBackground.jsx",
+      "gitBlobSha": "363a2f77e42ab93a412c8b72f3f3e8b6a343ddbc",
+      "bytes": 598,
+      "sha256": "1bd7b8314fdd15f50d87c72f55fefa1b1947021d5856ede653eaaec7edbe7275"
+    },
+    {
+      "path": "src/index.js",
+      "gitBlobSha": "3dec457be53bdac28eb1e20118f2a1fa3d22eded",
+      "bytes": 150,
+      "sha256": "dc8508ffcfcff6e7aa601db8a9686675c95644c91e27eeb174493e38b2fefc1b"
+    }
+  ],
+  "repository": "https://github.com/14islands/codrops-scroll-rig-tutorial",
+  "source_kind": "adapted_author_source",
+  "author": "David Lindkvist / 14islands",
+  "license": {
+    "type": "actual_repository_file",
+    "name": "MIT",
+    "path": "source/LICENSE",
+    "sha256": "5738d63582741509fcc89b58376a008da3bcb879bd0bff593d5b3c9ddde0f7a5"
+  },
+  "status": "built_static_valid_runtime_unverified",
+  "upstreamScriptsExecuted": false
+}

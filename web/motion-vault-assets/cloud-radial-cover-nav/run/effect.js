@@ -1,0 +1,33 @@
+
+/* One reversible scalar drives all layers. Retargeting preserves position AND
+   velocity, so rapid toggles never recreate/restart a timeline. */
+const $=id=>document.getElementById(id);
+const stage=$('stage'),menu=$('navigation'),toggle=$('menu-toggle'),cover=$('menu-cover');
+const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+const tokens=getComputedStyle(document.documentElement);
+const stiffness=parseFloat(tokens.getPropertyValue('--spring-stiffness'))||104;
+const damping=parseFloat(tokens.getPropertyValue('--spring-damping'))||23;
+const fragments=[...document.querySelectorAll('[data-exit]')].map(el=>({el,vector:el.dataset.exit.split(',').map(Number)}));
+const reveals=[...document.querySelectorAll('[data-reveal]')].map(el=>({el,order:Number(el.dataset.reveal)}));
+const links=[...menu.querySelectorAll('.nav-link')];
+let progress=0,velocity=0,target=0,frame=0,lastTime=0,radius=1000,originX=0,originY=0,route='work',feedbackTimer;
+const clamp=value=>Math.max(0,Math.min(1,value));
+const smooth=value=>{const x=clamp(value);return x*x*(3-2*x);};
+const sections={
+ work:{eyebrow:'A study in quiet architecture',lineOne:'Room for',lineTwo:'a little calm.',description:'Thoughtful spaces for the way we live.<br>Rooted in light, material, and the everyday.',cta:'Discover our approach',next:'studio',plate:'Plate 01 — The courtyard',footer:'SELECTED WORK / 01',color:'#99a78a',label:'Selected work'},
+ studio:{eyebrow:'Small practice. Shared curiosity.',lineOne:'Built around',lineTwo:'being human.',description:'We begin with how a place feels.<br>Then shape the details that make it belong.',cta:'Read our field notes',next:'journal',plate:'Plate 02 — The gathering place',footer:'THE STUDIO / 02',color:'#b0a68b',label:'The studio'},
+ journal:{eyebrow:'Observations from everyday places',lineOne:'A slower',lineTwo:'way of seeing.',description:'Notes on light, useful objects, and the<br>small details that give a space its character.',cta:'Return to selected work',next:'work',plate:'Plate 03 — The light study',footer:'FIELD NOTES / 03',color:'#a0ad9a',label:'Field notes'}
+};
+function size(){const box=stage.getBoundingClientRect(),button=toggle.getBoundingClientRect();originX=button.right-box.left-14;originY=button.top-box.top+button.height/2;radius=Math.hypot(Math.max(originX,box.width-originX),Math.max(originY,box.height-originY))+3;draw();}
+function draw(){const p=clamp(progress);stage.dataset.progress=p.toFixed(4);const aperture=`circle(${p*radius}px at ${originX}px ${originY}px)`;cover.style.clipPath=aperture;menu.style.clipPath=aperture;const exit=smooth(p/.82);const scale=Math.min(1,stage.clientWidth/1000);for(const {el,vector:[x,y,rotation]} of fragments){el.style.transform=`translate3d(${x*exit*scale}px,${y*exit*scale}px,0) rotate(${rotation*exit}deg)`;el.style.opacity=String(1-smooth(p/.72));}for(const {el,order} of reveals){const reveal=smooth((p-.31-order*.045)/(.59-order*.045));el.style.opacity=String(reveal);el.style.transform=`translate3d(0,${(1-reveal)*(el.classList.contains('nav-link')?75:24)}px,0)`;}const angle=p*45;$('toggle-line-a').style.transform=`translateY(${p*2}px) rotate(${angle}deg)`;$('toggle-line-b').style.transform=`translateY(${-p*2}px) rotate(${-angle}deg)`;}
+function settle(){progress=target;velocity=0;frame=0;draw();if(target===0){menu.dataset.open='false';$('page').inert=false;$('page-footer').inert=false;}else if(document.activeElement===toggle){links.find(link=>link.dataset.route===route)?.focus({preventScroll:true});}}
+function tick(time){const dt=Math.min((time-lastTime)/1000||1/60,1/30);lastTime=time;const steps=Math.ceil(dt/(1/120)),step=dt/steps;for(let i=0;i<steps;i++){velocity+=(stiffness*(target-progress)-damping*velocity)*step;progress+=velocity*step;}draw();if(Math.abs(target-progress)<.0005&&Math.abs(velocity)<.004){settle();return;}frame=requestAnimationFrame(tick);}
+function setOpen(open){target=open?1:0;toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');$('toggle-label').textContent=open?'Close':'Explore';if(open){menu.inert=false;menu.setAttribute('aria-hidden','false');menu.dataset.open='true';$('page').inert=true;$('page-footer').inert=true;$('announcement').textContent='Navigation open. Choose a section.';}else{toggle.focus({preventScroll:true});menu.inert=true;menu.setAttribute('aria-hidden','true');$('announcement').textContent='Navigation closed.';}if(reducedMotion.matches){if(frame)cancelAnimationFrame(frame);settle();return;}if(!frame){lastTime=performance.now();frame=requestAnimationFrame(tick);}}
+function changeRoute(next,notify=true){if(!sections[next])next='work';route=next;const data=sections[next];$('page-eyebrow').textContent=data.eyebrow;$('title-line-one').textContent=data.lineOne;$('title-line-two').replaceChildren(Object.assign(document.createElement('em'),{textContent:data.lineTwo}));$('page-description').innerHTML=data.description;$('project-label').textContent=data.cta;$('project-link').href='#'+data.next;$('plate-label').textContent=data.plate;$('footer-route').textContent=data.footer;document.documentElement.style.setProperty('--sage',data.color);links.forEach(link=>{if(link.dataset.route===next)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});document.title=`Forma — ${data.label}`;if(notify){clearTimeout(feedbackTimer);$('route-feedback').textContent=data.label+' / '+String(Object.keys(sections).indexOf(next)+1).padStart(2,'0');$('route-feedback').dataset.visible='true';$('announcement').textContent='Now viewing '+data.label;feedbackTimer=setTimeout(()=>$('route-feedback').dataset.visible='false',1700);}}
+toggle.addEventListener('click',()=>setOpen(target!==1));
+links.forEach(link=>link.addEventListener('click',()=>{changeRoute(link.dataset.route);setOpen(false);}));
+window.addEventListener('hashchange',()=>{const next=location.hash.slice(1);if(next!==route)changeRoute(next);if(target===1)setOpen(false);});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&target===1){event.preventDefault();setOpen(false);}if(event.key==='Tab'&&target===1){const order=[toggle,...links],index=order.indexOf(document.activeElement);if(event.shiftKey&&index<=0){event.preventDefault();links.at(-1).focus();}else if(!event.shiftKey&&index===order.length-1){event.preventDefault();toggle.focus();}}});
+reducedMotion.addEventListener('change',()=>{if(reducedMotion.matches&&frame){cancelAnimationFrame(frame);settle();}});
+window.addEventListener('resize',size);document.addEventListener('visibilitychange',()=>{if(document.hidden&&frame){cancelAnimationFrame(frame);settle();}});
+changeRoute(location.hash.slice(1)||'work',false);size();

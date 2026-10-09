@@ -1,0 +1,429 @@
+{
+  "at": "2026-10-06T17:18:58.970Z",
+  "total": 30,
+  "ready": 30,
+  "authorSource": 26,
+  "independent": 4,
+  "items": [
+    {
+      "id": "curated-telescope",
+      "title": "镜筒式层叠缩放叙事",
+      "kind": "adapted_author_source",
+      "version": "5e790586dc35495c",
+      "sourceFiles": 3,
+      "main": {
+        "scene": "brand",
+        "task": "entrance",
+        "placement": "品牌首页首屏进入第二幕",
+        "goal": "让用户沿同一视觉中心进入故事，而不是上下切换孤立区块"
+      },
+      "previewBytes": 1283835
+    },
+    {
+      "id": "curated-glass-torus",
+      "title": "玻璃圆环与折射字带",
+      "kind": "independent_code",
+      "version": "34d07324a3894dd3",
+      "sourceFiles": 1,
+      "main": {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "活动主视觉与动态标识",
+        "goal": "让文字与实体材质形成一个完整视觉对象"
+      },
+      "previewBytes": 206784
+    },
+    {
+      "id": "curated-metal-name",
+      "title": "字形截面的金属空间结构",
+      "kind": "independent_code",
+      "version": "bd731e31ddc9ebc1",
+      "sourceFiles": 1,
+      "main": {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "活动个性化入口与签名页",
+        "goal": "将用户输入变成有材质、有空间秩序的品牌记忆"
+      },
+      "previewBytes": 1020178
+    },
+    {
+      "id": "curated-liquid-grid",
+      "title": "玻璃球面图像陈列",
+      "kind": "independent_code",
+      "version": "c815ebacdb5e56b7",
+      "sourceFiles": 1,
+      "main": {
+        "scene": "portfolio",
+        "task": "overview",
+        "placement": "影像工作室作品总览",
+        "goal": "让大量视觉作品处于一个连续、可探索的空间"
+      },
+      "previewBytes": 277300
+    },
+    {
+      "id": "curated-depth",
+      "title": "同一物体的形态、材质与光照叙事",
+      "kind": "independent_code",
+      "version": "1f33dcbef8594b4d",
+      "sourceFiles": 1,
+      "main": {
+        "scene": "product",
+        "task": "feature",
+        "placement": "设计工具或材质产品的功能说明",
+        "goal": "通过同一对象的持续变化解释产品能力"
+      },
+      "previewBytes": 238055
+    },
+    {
+      "id": "curated-spatial-product",
+      "title": "曲面产品墙与聚焦选型",
+      "kind": "adapted_author_source",
+      "version": "29f76553ecba4e43",
+      "sourceFiles": 27,
+      "main": {
+        "scene": "product",
+        "task": "showroom",
+        "placement": "设计品牌系列产品选择页",
+        "goal": "从产品总览自然聚焦到单个对象"
+      },
+      "previewBytes": 654818
+    },
+    {
+      "id": "curated-fluid-xray",
+      "title": "实体与透视结构的流体显露",
+      "kind": "adapted_author_source",
+      "version": "32120f3862e59169",
+      "sourceFiles": 19,
+      "main": {
+        "scene": "product",
+        "task": "detail",
+        "placement": "产品内部结构与外壳对照",
+        "goal": "把表面与内部结构保持在同一空间坐标中展示"
+      },
+      "previewBytes": 319217
+    },
+    {
+      "id": "curated-camera-route",
+      "title": "沿场景路线推进的镜头叙事",
+      "kind": "adapted_author_source",
+      "version": "c13b04d58ff390e8",
+      "sourceFiles": 4,
+      "main": {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "空间品牌与沉浸式开场",
+        "goal": "让用户通过镜头路线而非按钮切换探索场景"
+      },
+      "previewBytes": 1560262
+    },
+    {
+      "id": "curated-cloth-object",
+      "title": "柔性实体落下与压缩回弹",
+      "kind": "adapted_author_source",
+      "version": "d6fa10001d30108c",
+      "sourceFiles": 6,
+      "main": {
+        "scene": "product",
+        "task": "detail",
+        "placement": "柔性材料或触感产品的微型展示",
+        "goal": "让压缩、褶皱和落地表现真实的柔软感"
+      },
+      "previewBytes": 109687
+    },
+    {
+      "id": "curated-emissive-dissolve",
+      "title": "带发光边缘的实体溶解",
+      "kind": "adapted_author_source",
+      "version": "2bc09bcef2eb8770",
+      "sourceFiles": 6,
+      "main": {
+        "scene": "brand",
+        "task": "entrance",
+        "placement": "发布视觉的出现与消退",
+        "goal": "让一个完整物体逐步转换成能量或粒子"
+      },
+      "previewBytes": 857705
+    },
+    {
+      "id": "curated-dual-wave",
+      "title": "双向文字波的滚动编排",
+      "kind": "adapted_author_source",
+      "version": "d2b499f36a6c4f0c",
+      "sourceFiles": 4,
+      "main": {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "专题章节开头与短标题",
+        "goal": "在可读的文字顺序中建立富有张力的入场节奏"
+      },
+      "previewBytes": 1102710
+    },
+    {
+      "id": "curated-image-in-type",
+      "title": "文字之间展开的图像叙事",
+      "kind": "adapted_author_source",
+      "version": "ce1e54030c2531a7",
+      "sourceFiles": 11,
+      "main": {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "编辑型首页与图文专题标题",
+        "goal": "让图像在文字结构内部生长，而不是插入独立图片区块"
+      },
+      "previewBytes": 1147308
+    },
+    {
+      "id": "curated-cylinder-type",
+      "title": "柱面排字与三维阅读节奏",
+      "kind": "adapted_author_source",
+      "version": "b5b3f948e71c4896",
+      "sourceFiles": 5,
+      "main": {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "人物名单、栏目或演出阵容",
+        "goal": "将纵向列表转成可旋转的文字空间"
+      },
+      "previewBytes": 1071500
+    },
+    {
+      "id": "curated-stylized-water",
+      "title": "风格化水面与场景光感",
+      "kind": "adapted_author_source",
+      "version": "95b6aed8a71b31d1",
+      "sourceFiles": 25,
+      "main": {
+        "scene": "brand",
+        "task": "atmosphere",
+        "placement": "自然、海岸或空间主题背景",
+        "goal": "让水的风格与画面整体气质一致"
+      },
+      "previewBytes": 653550
+    },
+    {
+      "id": "curated-shape-ascii",
+      "title": "沿真实轮廓选字的 ASCII 实体",
+      "kind": "adapted_author_source",
+      "version": "051454d34b6f999c",
+      "sourceFiles": 14,
+      "main": {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "技术品牌的标识实验",
+        "goal": "在字符媒介里保住标识轮廓和空间感"
+      },
+      "previewBytes": 216284
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "title": "反应扩散的生长型材质",
+      "kind": "adapted_author_source",
+      "version": "2e1abf071b3aa30b",
+      "sourceFiles": 20,
+      "main": {
+        "scene": "brand",
+        "task": "atmosphere",
+        "placement": "研究、自然与生成设计主题视觉",
+        "goal": "以持续生长而非循环平移的纹理表达过程"
+      },
+      "previewBytes": 1251138
+    },
+    {
+      "id": "curated-vortex-glass",
+      "title": "玻璃球中的体积漩涡",
+      "kind": "adapted_author_source",
+      "version": "d5c74e6bd34a1883",
+      "sourceFiles": 52,
+      "main": {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "高识别度的发布主视觉",
+        "goal": "把复杂运动约束在一个清晰的中心物体内"
+      },
+      "previewBytes": 477560
+    },
+    {
+      "id": "curated-webgl-reveal",
+      "title": "滚动中连续显露的 WebGL 图像",
+      "kind": "adapted_author_source",
+      "version": "3cffea68504ddd1a",
+      "sourceFiles": 8,
+      "main": {
+        "scene": "portfolio",
+        "task": "discovery",
+        "placement": "摄影、艺术作品目录",
+        "goal": "让图像显露过程与浏览节奏形成联系"
+      },
+      "previewBytes": 432021
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "title": "滚动显露与跨页连续的作品集",
+      "kind": "adapted_author_source",
+      "version": "54ff3fdc942fa76d",
+      "sourceFiles": 21,
+      "main": {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "从作品总览进入项目详情",
+        "goal": "让跨页导航继承当前图像的视觉关系"
+      },
+      "previewBytes": 768524
+    },
+    {
+      "id": "curated-webgpu-route",
+      "title": "保持画布连续的 WebGPU 跨页转场",
+      "kind": "adapted_author_source",
+      "version": "9b3023082fcdff90",
+      "sourceFiles": 20,
+      "main": {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "视觉导向网站的页面切换",
+        "goal": "在路由切换时保留连续的图形场景"
+      },
+      "previewBytes": 511403
+    },
+    {
+      "id": "curated-grid-full",
+      "title": "网格图像到完整案例的形态接续",
+      "kind": "adapted_author_source",
+      "version": "dcb9dea4d9f73cd3",
+      "sourceFiles": 5,
+      "main": {
+        "scene": "product",
+        "task": "detail",
+        "placement": "产品目录中的原位放大预览",
+        "goal": "在保留系列产品关系的同时查看单个对象细节"
+      },
+      "previewBytes": 295939
+    },
+    {
+      "id": "curated-editorial-layout",
+      "title": "随阅读推进重组的编辑版式",
+      "kind": "adapted_author_source",
+      "version": "e6f8e18b6e38482c",
+      "sourceFiles": 4,
+      "main": {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "长专题的图文段落交接",
+        "goal": "让页面版式本身成为叙事节奏的一部分"
+      },
+      "previewBytes": 1146787
+    },
+    {
+      "id": "curated-thumbnail-flow",
+      "title": "缩略卡组沿弧线流向主画面",
+      "kind": "adapted_author_source",
+      "version": "6f5cec0e4b516921",
+      "sourceFiles": 6,
+      "main": {
+        "scene": "portfolio",
+        "task": "sequence",
+        "placement": "从叠放图像进入一组精选作品",
+        "goal": "让卡组、图带和主图之间有明确连续关系"
+      },
+      "previewBytes": 279901
+    },
+    {
+      "id": "curated-elastic-editorial",
+      "title": "带延迟弹性的图像网格编排",
+      "kind": "adapted_author_source",
+      "version": "7d9552c2cef9774b",
+      "sourceFiles": 16,
+      "main": {
+        "scene": "portfolio",
+        "task": "overview",
+        "placement": "节奏鲜明的视觉作品集",
+        "goal": "通过有控制的滞后让网格具有整体弹性"
+      },
+      "previewBytes": 1092131
+    },
+    {
+      "id": "curated-cluster",
+      "title": "可探索的三维簇状物体",
+      "kind": "adapted_author_source",
+      "version": "72a34f23d3effd4a",
+      "sourceFiles": 6,
+      "main": {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "强调聚合或模块关系的交互主视觉",
+        "goal": "通过一个聚合体表现复杂部分如何形成整体"
+      },
+      "previewBytes": 1820464
+    },
+    {
+      "id": "curated-layer-cut",
+      "title": "分层图像的几何剪裁转场",
+      "kind": "adapted_author_source",
+      "version": "1c7c7d9678d65125",
+      "sourceFiles": 12,
+      "main": {
+        "scene": "portfolio",
+        "task": "sequence",
+        "placement": "摄影系列或视觉方案切换",
+        "goal": "让整幅画面以有序层次进入和退出"
+      },
+      "previewBytes": 1104997
+    },
+    {
+      "id": "curated-rounded-menu",
+      "title": "圆角导航与背景揭幕的联动",
+      "kind": "adapted_author_source",
+      "version": "ecb280e1c8cd2b35",
+      "sourceFiles": 2,
+      "main": {
+        "scene": "workspace",
+        "task": "navigation",
+        "placement": "品牌型应用或内容站主导航",
+        "goal": "让导航展开成为空间切换而非盖一块面板"
+      },
+      "previewBytes": 292013
+    },
+    {
+      "id": "curated-inline-menu",
+      "title": "正文词语迁移成图像导航",
+      "kind": "adapted_author_source",
+      "version": "fd4cfcead22ecc3d",
+      "sourceFiles": 6,
+      "main": {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "词语导向的专题索引",
+        "goal": "从阅读正文自然切换到一个相关图像集合"
+      },
+      "previewBytes": 297230
+    },
+    {
+      "id": "curated-tooltip-gallery",
+      "title": "小预览到画廊再到全屏的连续过渡",
+      "kind": "adapted_author_source",
+      "version": "b355cb24d1186dde",
+      "sourceFiles": 5,
+      "main": {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "文字目录的渐进式作品查看",
+        "goal": "在不突然切换上下文的前提下逐层放大信息"
+      },
+      "previewBytes": 393501
+    },
+    {
+      "id": "curated-grid-flow-nav",
+      "title": "图像网格流动构成导航节奏",
+      "kind": "adapted_author_source",
+      "version": "322ddb112513aa6c",
+      "sourceFiles": 9,
+      "main": {
+        "scene": "workspace",
+        "task": "navigation",
+        "placement": "视觉栏目或作品频道入口",
+        "goal": "把导航选择与新一组图像的到来组织成整体"
+      },
+      "previewBytes": 586162
+    }
+  ]
+}

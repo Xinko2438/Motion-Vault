@@ -1,0 +1,123 @@
+{
+  "id": "mv2-rotating-image-scroll",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "author-flat-native-scroll-plus-static-marquee",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "reload_required_for_full_mode_restore",
+  "keyboardSupport": "author-controls-runtime-unverified",
+  "variants": [
+    {
+      "entry": "source/js/index15.js",
+      "output": "run/effect-index15.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index14.js",
+      "output": "run/effect-index14.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index10.js",
+      "output": "run/effect-index10.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index11.js",
+      "output": "run/effect-index11.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index13.js",
+      "output": "run/effect-index13.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index8.js",
+      "output": "run/effect-index8.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index12.js",
+      "output": "run/effect-index12.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index7.js",
+      "output": "run/effect-index7.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index9.js",
+      "output": "run/effect-index9.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "first-render-hook-present-runtime-not-run",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index.js",
+      "output": "run/js/index.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index2.js",
+      "output": "run/js/index2.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index3.js",
+      "output": "run/js/index3.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index4.js",
+      "output": "run/js/index4.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index5.js",
+      "output": "run/js/index5.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index6.js",
+      "output": "run/js/index6.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "Each author variant captures reduceMotion during initialization. Normal/reduced initial loads have source paths; live preference changes require reloading to reconfigure the geometry and scroll mode."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

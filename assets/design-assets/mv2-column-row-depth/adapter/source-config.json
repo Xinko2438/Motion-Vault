@@ -1,0 +1,10 @@
+{
+  "id": "mv2-column-row-depth",
+  "repo": "OnScrollColumnsRows",
+  "title": "列与行在纵深中交错展开",
+  "demo": "https://tympanus.net/Development/OnScrollColumnsRows/",
+  "mode": "scroll",
+  "scene": "editorial",
+  "task": "chapter",
+  "design": "大幅摄影列阵按阅读推进形成交错速度和纵深，多个作者变体作为一个可研究的源码家族保留。"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "mv2-sticky-grid-story",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "native-scroll-static-author-intro-content-and-full-photo-grid-with-live-preference-rebuild",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "native-document-scroll-and-visible-existing-tutorial-link-source-verified-runtime-unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/editorial.mjs",
+  "reducedMotionModuleSha256": "11737b108c2bcff11c34fae812a722eb8b0b9aa1fec1aedb1c44a55d08d2c903",
+  "variants": [
+    {
+      "entry": "source/src/scripts/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "Reduced motion bypasses Lenis and all pinned/parallax/reveal/zoom timelines. The original introduction, title, description, tutorial anchor, and all twelve gallery images remain in document order and normal flow.",
+    "Reduced layout explicitly removes fixed/sticky positioning, offscreen transforms, opacity and pointer-event suppression; readable type and a responsive photo grid replace viewport-sized staging only while reduced motion is selected.",
+    "Live preference changes revert the owned GSAP context, remove the tracked Lenis ticker, destroy and untrack Lenis, restore style snapshots, and rebuild the unchanged author sequence when motion is re-enabled.",
+    "Source and mocked lifecycle checks are not browser, screen-reader, visual-layout, or real GSAP/Lenis acceptance."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

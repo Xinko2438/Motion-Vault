@@ -1,0 +1,10 @@
+{
+  "id": "mv2-satto-type-motion",
+  "repo": "ScrollTextMotion",
+  "title": "散列字块汇聚成编排骨架",
+  "demo": "https://tympanus.net/Development/ScrollMotion/",
+  "mode": "scroll",
+  "scene": "editorial",
+  "task": "typesetting",
+  "design": "小型信息字块、超大单字与留白形成编辑秩序；滚动驱动的不只是文字显隐，而是排版关系的持续重组。"
+}

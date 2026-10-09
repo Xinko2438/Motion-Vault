@@ -1,0 +1,5197 @@
+{
+  "at": "2026-10-07T03:25:49.061Z",
+  "startedAt": "2026-10-07T03:24:01.493Z",
+  "runId": "6147bc57-0a20-42c3-baa5-19ff16d143fe",
+  "label": "remaining-verified-loops",
+  "live": true,
+  "sampleMs": 22000,
+  "requiredLoops": 3,
+  "formalHash": "ffbe67a7e27d9095169c530900cec6de5347bfc43e6cfa8b9eb99822c5968d5f",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "verifierHash": "b3f5ff5baef9abd6b342ae99a8290f63b6a5c77a1676ce083fd6da791c4120d8",
+  "sourceUnchanged": true,
+  "sourceMediaEvidence": {
+    "path": "lineage/current/preview-playback/remaining-source-rgb.json",
+    "sha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+    "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+    "generatedAt": "2026-10-07T02:57:42.375Z",
+    "profile": "rgb",
+    "tools": {
+      "ffmpeg": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+      "ffprobe": "ffprobe version 8.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+    }
+  },
+  "environment": {
+    "verificationMode": "separate-playback-source-visual",
+    "pixelProbeEnabled": false,
+    "performancePixelReadback": false,
+    "afterWindowPixelCheck": true,
+    "softwareVideoDecodeRequested": false,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/154.0.8037.93",
+      "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "jsVersion": "15.4.80.19"
+    },
+    "gpu": {
+      "devices": [
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "Intel",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 4318,
+          "deviceId": 11545,
+          "subSysId": 1615863045,
+          "revision": 161,
+          "vendorString": "",
+          "deviceString": "NVIDIA GeForce RTX 5060 Laptop GPU",
+          "driverVendor": "",
+          "driverVersion": "32.0.16.1692"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 5140,
+          "deviceId": 140,
+          "subSysId": 0,
+          "revision": 0,
+          "vendorString": "",
+          "deviceString": "Microsoft Basic Render Driver",
+          "driverVendor": "",
+          "driverVersion": "10.0.26100.9278"
+        }
+      ],
+      "features": {
+        "2d_canvas": "enabled",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "enabled",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "enabled_on",
+        "rasterization": "enabled",
+        "raw_draw": "disabled_off_ok",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "enabled",
+        "video_encode": "enabled",
+        "webgl": "enabled",
+        "webgpu": "enabled",
+        "webnn": "disabled_off"
+      }
+    },
+    "gpuDisabledByHarness": false,
+    "mediaPlayers": {
+      "126132CABBF60E151BDC88F11D861066": {
+        "kVideoDecoderName": "D3D11VideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"av1\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"FULL\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"av1 profile main\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "true",
+        "kFrameUrl": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      },
+      "622347261C97E283D88E3D062D325B97": {
+        "kVideoDecoderName": "D3D11VideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"av1\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"FULL\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"av1 profile main\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "true",
+        "kFrameUrl": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      },
+      "88B73783A034C489D477ADD0A33FFD14": {
+        "kVideoDecoderName": "D3D11VideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"av1\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"FULL\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"av1 profile main\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "true",
+        "kFrameUrl": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      },
+      "1717ECB12C78ED3CA856062EC34D551F": {
+        "kVideoDecoderName": "D3D11VideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"av1\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"FULL\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"av1 profile main\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "true",
+        "kFrameUrl": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      }
+    },
+    "page": {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+      "visibility": "visible",
+      "dpr": 1,
+      "timeOrigin": 1791343445439.2,
+      "videoFrameCallback": "function"
+    }
+  },
+  "assets": [
+    {
+      "id": "curated-image-in-type",
+      "version": "ce1e54030c2531a7",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4",
+      "videoRevision": "01f8a5643dcba25b",
+      "sha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e"
+    },
+    {
+      "id": "curated-cylinder-type",
+      "version": "b5b3f948e71c4896",
+      "video": "motion-vault-assets/curated-cylinder-type/preview.mp4",
+      "videoRevision": "7665394220740bb8",
+      "sha256": "7665394220740bb8f25cecf22684a934866d2f5ae19924f537cb18d4dc355835"
+    },
+    {
+      "id": "curated-shape-ascii",
+      "version": "051454d34b6f999c",
+      "video": "motion-vault-assets/curated-shape-ascii/preview.mp4",
+      "videoRevision": "1e1e6abad487962d",
+      "sha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f"
+    },
+    {
+      "id": "curated-webgpu-route",
+      "version": "9b3023082fcdff90",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4",
+      "videoRevision": "a201467854e72e3d",
+      "sha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec"
+    }
+  ],
+  "passed": 33,
+  "total": 33,
+  "samples": [
+    {
+      "id": "curated-image-in-type",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "sampleStartPerf": 1729.2000000476837,
+      "sampleEndPerf": 23765.5,
+      "performancePixelReadback": false,
+      "callbackDiagnostics": {
+        "callbackMsP95": 0.1,
+        "callbackMsMax": 0.3,
+        "gaps": []
+      },
+      "loopBoundaryWaitMs": 0,
+      "firstFrameMs": 176.4,
+      "sampleMs": 22036.3,
+      "frames": 1304,
+      "presentedFps": 59.99,
+      "callbackFps": 59.62,
+      "windowPresentedFps": 59.97,
+      "lastFrameMediaTime": 2.2974,
+      "contentFps": null,
+      "windowContentFps": null,
+      "contentGapP95": null,
+      "maxVisualHoldMs": null,
+      "repeatFraction": null,
+      "frameTailMs": 5.3,
+      "frameIntervalP95": 27.7,
+      "frameIntervalMax": 34.5,
+      "frameDelayExcessMax": 17.85,
+      "frameDelayExcessP95": 10.98,
+      "framesDecoded": 1319,
+      "framesDropped": 5,
+      "dropRatio": 0.0038,
+      "decodeMsP95": 14.4,
+      "videoInstances": 1,
+      "loops": 3,
+      "duration": 6.511633,
+      "currentTime": 2.31416,
+      "playbackRate": 1,
+      "readyState": 4,
+      "seeking": false,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 4.2,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 81.6,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 81.7,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 140.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 175.1,
+          "time": 0.000257,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 175.2,
+          "time": 0.000257,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 175.3,
+          "time": 0.000316,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 175.3,
+          "time": 0.000422,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 175.4,
+          "time": 0.000438,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 175.4,
+          "time": 0.000452,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 6688.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 6688.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 6692.5,
+          "time": 0.000226,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 6692.5,
+          "time": 0.000255,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 13204.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 13204.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 13207.2,
+          "time": 0.00018,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 13207.2,
+          "time": 0.000223,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 19720,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 19720,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 19722.5,
+          "time": 0.00028,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 19722.5,
+          "time": 0.000326,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 176.4,
+          "mediaTime": 0.014267,
+          "dropped": 2,
+          "wallGapMs": 0,
+          "mediaGapMs": 0
+        },
+        {
+          "ms": 6739.1,
+          "mediaTime": 0.047583,
+          "dropped": 3,
+          "wallGapMs": 21.1,
+          "mediaGapMs": 16.65
+        },
+        {
+          "ms": 8489.1,
+          "mediaTime": 1.796167,
+          "dropped": 4,
+          "wallGapMs": 20.7,
+          "mediaGapMs": 33.3
+        },
+        {
+          "ms": 21357.4,
+          "mediaTime": 1.629667,
+          "dropped": 5,
+          "wallGapMs": 21,
+          "mediaGapMs": 33.3
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "frameGaps": [],
+      "version": "ce1e54030c2531a7",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4",
+      "sourceContent": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 392,
+          "rawFrameBlocks": 392,
+          "showinfoFrames": 392,
+          "originalPacketFrames": 392,
+          "originalFramePts": 392,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 392,
+        "encodedDurationSeconds": 6.511633333333334,
+        "contentFps": 59.892807232184445,
+        "contentGapP95Ms": 16.85,
+        "maxVisualHoldMs": 18.083333,
+        "loopContentFps": 60.04637853277979,
+        "loopContentGapP95Ms": 16.85,
+        "loopMaxVisualHoldMs": 18.083333,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      },
+      "frameTailBudgetMs": 16.7,
+      "frameTailDelayExcessMs": 0,
+      "mediaResources": [
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1810.3000000715256,
+          "duration": 11.100000023841858,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1810.3000000715256,
+          "domainLookupStart": 1810.3000000715256,
+          "domainLookupEnd": 1810.3000000715256,
+          "connectStart": 1810.3000000715256,
+          "secureConnectionStart": 0,
+          "connectEnd": 1810.3000000715256,
+          "requestStart": 1811.6000000238419,
+          "responseStart": 1818,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1818,
+          "responseEnd": 1821.4000000953674,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1821.2000000476837,
+          "duration": 9.600000023841858,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1821.2000000476837,
+          "domainLookupStart": 1821.2000000476837,
+          "domainLookupEnd": 1821.2000000476837,
+          "connectStart": 1821.2000000476837,
+          "secureConnectionStart": 0,
+          "connectEnd": 1821.2000000476837,
+          "requestStart": 1823.8000000715256,
+          "responseStart": 1828,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1828,
+          "responseEnd": 1830.8000000715256,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1830.6000000238419,
+          "duration": 12.300000071525574,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1830.6000000238419,
+          "domainLookupStart": 1830.6000000238419,
+          "domainLookupEnd": 1830.6000000238419,
+          "connectStart": 1830.6000000238419,
+          "secureConnectionStart": 0,
+          "connectEnd": 1830.6000000238419,
+          "requestStart": 1833.3000000715256,
+          "responseStart": 1839.7000000476837,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1839.7000000476837,
+          "responseEnd": 1842.9000000953674,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1842.8000000715256,
+          "duration": 25,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "video/mp4",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1842.8000000715256,
+          "domainLookupStart": 1842.8000000715256,
+          "domainLookupEnd": 1842.8000000715256,
+          "connectStart": 1842.8000000715256,
+          "secureConnectionStart": 0,
+          "connectEnd": 1842.8000000715256,
+          "requestStart": 1858.4000000953674,
+          "responseStart": 1863.2000000476837,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1863.2000000476837,
+          "responseEnd": 1867.8000000715256,
+          "transferSize": 75711,
+          "encodedBodySize": 75411,
+          "decodedBodySize": 75411,
+          "responseStatus": 206,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1881.4000000953674,
+          "duration": 16.5,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1881.4000000953674,
+          "domainLookupStart": 1881.4000000953674,
+          "domainLookupEnd": 1881.4000000953674,
+          "connectStart": 1881.4000000953674,
+          "secureConnectionStart": 0,
+          "connectEnd": 1881.4000000953674,
+          "requestStart": 1883.6000000238419,
+          "responseStart": 1888.5,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1888.5,
+          "responseEnd": 1897.9000000953674,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1903.9000000953674,
+          "duration": 24.399999976158142,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1903.9000000953674,
+          "domainLookupStart": 1903.9000000953674,
+          "domainLookupEnd": 1903.9000000953674,
+          "connectStart": 1903.9000000953674,
+          "secureConnectionStart": 0,
+          "connectEnd": 1903.9000000953674,
+          "requestStart": 1906.5,
+          "responseStart": 1910.3000000715256,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1910.3000000715256,
+          "responseEnd": 1928.3000000715256,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+          "entryType": "resource",
+          "startTime": 1928,
+          "duration": 26.600000023841858,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 1928,
+          "domainLookupStart": 1928,
+          "domainLookupEnd": 1928,
+          "connectStart": 1928,
+          "secureConnectionStart": 0,
+          "connectEnd": 1928,
+          "requestStart": 1931,
+          "responseStart": 1939.1000000238419,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 1939.1000000238419,
+          "responseEnd": 1954.6000000238419,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        }
+      ],
+      "servedMediaSha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e",
+      "actualPixelChange": {
+        "id": "curated-image-in-type",
+        "phase": "after-performance-window",
+        "performanceWindowEnded": 23765.5,
+        "sourceURL": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+        "sameVideo": true,
+        "width": 96,
+        "height": 58,
+        "pixelFormat": "RGBA",
+        "sampleCount": 2,
+        "threshold": {
+          "maxChannelDeltaOver": 3,
+          "changedPixelRatioOver": 0.002
+        },
+        "first": {
+          "captureAt": 23793.5,
+          "nativeTimestamp": 2330800,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-image-in-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.5,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-image-in-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.5,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 2.341151,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 2.341151,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 2.341603,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 2.341603,
+            "error": null
+          },
+          "readbackMs": 19.6,
+          "pixelSha256": "6aa12c0cf1158ddf58d0c6ec9731fecf2b7c050b8bc30bd5dff65bff59648aa5"
+        },
+        "second": {
+          "captureAt": 24718.6,
+          "nativeTimestamp": 3268233,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-image-in-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.5,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-image-in-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.5,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 3.266758,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 3.266758,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 3.266805,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 3.266805,
+            "error": null
+          },
+          "readbackMs": 4.4,
+          "pixelSha256": "d1a1f66f7ea54241bc8d48845380d0f90bccdc0558f7f47c0dcc9bbbd15d850f"
+        },
+        "changed": true,
+        "pixelRatio": 0.45294540229885055,
+        "mae": 17.73988266283525
+      }
+    },
+    {
+      "id": "curated-cylinder-type",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "sampleStartPerf": 24954.300000071526,
+      "sampleEndPerf": 48956.700000047684,
+      "performancePixelReadback": false,
+      "callbackDiagnostics": {
+        "callbackMsP95": 0.1,
+        "callbackMsMax": 0.2,
+        "gaps": []
+      },
+      "loopBoundaryWaitMs": 0,
+      "firstFrameMs": 118,
+      "sampleMs": 24002.4,
+      "frames": 1423,
+      "presentedFps": 59.93,
+      "callbackFps": 59.59,
+      "windowPresentedFps": 59.87,
+      "lastFrameMediaTime": 4.357,
+      "contentFps": null,
+      "windowContentFps": null,
+      "contentGapP95": null,
+      "maxVisualHoldMs": null,
+      "repeatFraction": null,
+      "frameTailMs": 23.2,
+      "frameIntervalP95": 27.7,
+      "frameIntervalMax": 34.6,
+      "frameDelayExcessMax": 17.97,
+      "frameDelayExcessP95": 11,
+      "framesDecoded": 1440,
+      "framesDropped": 6,
+      "dropRatio": 0.0042,
+      "decodeMsP95": 3.8,
+      "videoInstances": 1,
+      "loops": 3,
+      "duration": 6.499783,
+      "currentTime": 4.367652,
+      "playbackRate": 1,
+      "readyState": 4,
+      "seeking": false,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 2.13,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.8,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 50.9,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 107.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 124.2,
+          "time": 0.000067,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 124.2,
+          "time": 0.000067,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 124.3,
+          "time": 0.000067,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 125.2,
+          "time": 0.000643,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 6624.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 6624.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 6626.6,
+          "time": 0.000158,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 6626.6,
+          "time": 0.0002,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 13130.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 13130.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 13133.1,
+          "time": 0.000254,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 13133.1,
+          "time": 0.000292,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 19632.5,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 19632.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 19635,
+          "time": 0.000163,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 19635.1,
+          "time": 0.000192,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 139,
+          "mediaTime": 0.020217,
+          "dropped": 1,
+          "wallGapMs": 21,
+          "mediaGapMs": 20.22
+        },
+        {
+          "ms": 6632.1,
+          "mediaTime": 0.003567,
+          "dropped": 2,
+          "wallGapMs": 27.9,
+          "mediaGapMs": -6478.75
+        },
+        {
+          "ms": 11208.3,
+          "mediaTime": 4.589717,
+          "dropped": 3,
+          "wallGapMs": 27.4,
+          "mediaGapMs": 33.27
+        },
+        {
+          "ms": 13131.9,
+          "mediaTime": 0,
+          "dropped": 4,
+          "wallGapMs": 20.8,
+          "mediaGapMs": -6482.32
+        },
+        {
+          "ms": 16722.3,
+          "mediaTime": 3.591883,
+          "dropped": 5,
+          "wallGapMs": 27.6,
+          "mediaGapMs": 33.2
+        },
+        {
+          "ms": 19639.2,
+          "mediaTime": 0.003567,
+          "dropped": 6,
+          "wallGapMs": 28.2,
+          "mediaGapMs": -6478.75
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "frameGaps": [],
+      "version": "b5b3f948e71c4896",
+      "video": "motion-vault-assets/curated-cylinder-type/preview.mp4",
+      "sourceContent": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "7665394220740bb8f25cecf22684a934866d2f5ae19924f537cb18d4dc355835",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 391,
+          "rawFrameBlocks": 391,
+          "showinfoFrames": 391,
+          "originalPacketFrames": 391,
+          "originalFramePts": 391,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 391,
+        "encodedDurationSeconds": 6.499783333333333,
+        "contentFps": 52.77098980222418,
+        "contentGapP95Ms": 16.85,
+        "maxVisualHoldMs": 549.65,
+        "loopContentFps": 52.924841084446406,
+        "loopContentGapP95Ms": 16.8667,
+        "loopMaxVisualHoldMs": 549.65,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      },
+      "frameTailBudgetMs": 16.6167,
+      "frameTailDelayExcessMs": 6.5833,
+      "mediaResources": [
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+          "entryType": "resource",
+          "startTime": 25005.100000023842,
+          "duration": 26.399999976158142,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 25005.100000023842,
+          "domainLookupStart": 25005.100000023842,
+          "domainLookupEnd": 25005.100000023842,
+          "connectStart": 25005.100000023842,
+          "secureConnectionStart": 0,
+          "connectEnd": 25005.100000023842,
+          "requestStart": 25006.400000095367,
+          "responseStart": 25010.600000023842,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 25010.600000023842,
+          "responseEnd": 25031.5,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+          "entryType": "resource",
+          "startTime": 25031.400000095367,
+          "duration": 16.299999952316284,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 25031.400000095367,
+          "domainLookupStart": 25031.400000095367,
+          "domainLookupEnd": 25031.400000095367,
+          "connectStart": 25031.400000095367,
+          "secureConnectionStart": 0,
+          "connectEnd": 25031.400000095367,
+          "requestStart": 25039.100000023842,
+          "responseStart": 25043,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 25043,
+          "responseEnd": 25047.700000047684,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+          "entryType": "resource",
+          "startTime": 25047.600000023842,
+          "duration": 13.100000023841858,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "video/mp4",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 25047.600000023842,
+          "domainLookupStart": 25047.600000023842,
+          "domainLookupEnd": 25047.600000023842,
+          "connectStart": 25047.600000023842,
+          "secureConnectionStart": 0,
+          "connectEnd": 25047.600000023842,
+          "requestStart": 25051.100000023842,
+          "responseStart": 25056.100000023842,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 25056.100000023842,
+          "responseEnd": 25060.700000047684,
+          "transferSize": 73160,
+          "encodedBodySize": 72860,
+          "decodedBodySize": 72860,
+          "responseStatus": 206,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+          "entryType": "resource",
+          "startTime": 25082.300000071526,
+          "duration": 10.5,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 25082.300000071526,
+          "domainLookupStart": 25082.300000071526,
+          "domainLookupEnd": 25082.300000071526,
+          "connectStart": 25082.300000071526,
+          "secureConnectionStart": 0,
+          "connectEnd": 25082.300000071526,
+          "requestStart": 25083.400000095367,
+          "responseStart": 25086.100000023842,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 25086.100000023842,
+          "responseEnd": 25092.800000071526,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+          "entryType": "resource",
+          "startTime": 25092.5,
+          "duration": 11.800000071525574,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 25092.5,
+          "domainLookupStart": 25092.5,
+          "domainLookupEnd": 25092.5,
+          "connectStart": 25092.5,
+          "secureConnectionStart": 0,
+          "connectEnd": 25092.5,
+          "requestStart": 25095.200000047684,
+          "responseStart": 25097.800000071526,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 25097.800000071526,
+          "responseEnd": 25104.300000071526,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        }
+      ],
+      "servedMediaSha256": "7665394220740bb8f25cecf22684a934866d2f5ae19924f537cb18d4dc355835",
+      "actualPixelChange": {
+        "id": "curated-cylinder-type",
+        "phase": "after-performance-window",
+        "performanceWindowEnded": 48956.700000047684,
+        "sourceURL": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+        "sameVideo": true,
+        "width": 96,
+        "height": 58,
+        "pixelFormat": "RGBA",
+        "sampleCount": 2,
+        "threshold": {
+          "maxChannelDeltaOver": 3,
+          "changedPixelRatioOver": 0.002
+        },
+        "first": {
+          "captureAt": 49380.3,
+          "nativeTimestamp": 4789317,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-cylinder-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 44,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-cylinder-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 44,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 4.790542,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 4.790542,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 4.790743,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 4.790743,
+            "error": null
+          },
+          "readbackMs": 5.8,
+          "pixelSha256": "f4ba9b561b042890144118d8968092c1a53933637cc075c32576ef8dbe03385f"
+        },
+        "second": {
+          "captureAt": 50291.4,
+          "nativeTimestamp": 5688617,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-cylinder-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 44,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-cylinder-type",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 44,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 5.702031,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 5.702031,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 5.702089,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 5.702089,
+            "error": null
+          },
+          "readbackMs": 2.6,
+          "pixelSha256": "898f35688c059753570b57e2b4e0a18b03389ce9ec04701d25ed3e787dd4321e"
+        },
+        "changed": true,
+        "pixelRatio": 0.5066451149425287,
+        "mae": 39.863864942528735
+      }
+    },
+    {
+      "id": "curated-shape-ascii",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "sampleStartPerf": 51008.90000009537,
+      "sampleEndPerf": 73197.10000002384,
+      "performancePixelReadback": false,
+      "callbackDiagnostics": {
+        "callbackMsP95": 0.1,
+        "callbackMsMax": 0.1,
+        "gaps": []
+      },
+      "loopBoundaryWaitMs": 0,
+      "firstFrameMs": 313.3,
+      "sampleMs": 22188.2,
+      "frames": 1290,
+      "presentedFps": 59.72,
+      "callbackFps": 58.94,
+      "windowPresentedFps": 59.7,
+      "lastFrameMediaTime": 5.3147,
+      "contentFps": null,
+      "windowContentFps": null,
+      "contentGapP95": null,
+      "maxVisualHoldMs": null,
+      "repeatFraction": null,
+      "frameTailMs": 6.4,
+      "frameIntervalP95": 27.7,
+      "frameIntervalMax": 34.9,
+      "frameDelayExcessMax": 18.27,
+      "frameDelayExcessP95": 11.02,
+      "framesDecoded": 1316,
+      "framesDropped": 7,
+      "dropRatio": 0.0053,
+      "decodeMsP95": 3.7,
+      "videoInstances": 1,
+      "loops": 3,
+      "duration": 5.512717,
+      "currentTime": 5.324382,
+      "playbackRate": 1,
+      "readyState": 4,
+      "seeking": false,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 0.19,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 100.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 100.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 239.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 315.9,
+          "time": 0.000088,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 316,
+          "time": 0.000088,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 316.1,
+          "time": 0.000088,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 317.2,
+          "time": 0.000794,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 5832.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 5832.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 5834.1,
+          "time": 0.000187,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 5834.1,
+          "time": 0.000206,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 11347.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 11347.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 11349.2,
+          "time": 0.000145,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 11349.3,
+          "time": 0.000184,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 16862.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 16862.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 16863.9,
+          "time": 0.000145,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 16864,
+          "time": 0.000171,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 321.6,
+          "mediaTime": 0.013567,
+          "dropped": 1,
+          "wallGapMs": 8.3,
+          "mediaGapMs": 13.57
+        },
+        {
+          "ms": 5008,
+          "mediaTime": 4.698367,
+          "dropped": 2,
+          "wallGapMs": 13.6,
+          "mediaGapMs": 33.32
+        },
+        {
+          "ms": 5508.1,
+          "mediaTime": 5.198117,
+          "dropped": 3,
+          "wallGapMs": 6.9,
+          "mediaGapMs": 33.32
+        },
+        {
+          "ms": 9375.9,
+          "mediaTime": 3.547867,
+          "dropped": 4,
+          "wallGapMs": 13.4,
+          "mediaGapMs": 33.32
+        },
+        {
+          "ms": 10542.8,
+          "mediaTime": 4.715,
+          "dropped": 5,
+          "wallGapMs": 7.2,
+          "mediaGapMs": 33.32
+        },
+        {
+          "ms": 15959.2,
+          "mediaTime": 4.61505,
+          "dropped": 6,
+          "wallGapMs": 6.5,
+          "mediaGapMs": 33.32
+        },
+        {
+          "ms": 21848.3,
+          "mediaTime": 4.998217,
+          "dropped": 7,
+          "wallGapMs": 14.2,
+          "mediaGapMs": 16.68
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "frameGaps": [],
+      "version": "051454d34b6f999c",
+      "video": "motion-vault-assets/curated-shape-ascii/preview.mp4",
+      "sourceContent": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 331,
+          "rawFrameBlocks": 331,
+          "showinfoFrames": 331,
+          "originalPacketFrames": 331,
+          "originalFramePts": 331,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 331,
+        "encodedDurationSeconds": 5.512716666666667,
+        "contentFps": 34.82856304967605,
+        "contentGapP95Ms": 33.35,
+        "maxVisualHoldMs": 667.383333,
+        "loopContentFps": 35.00996181555978,
+        "loopContentGapP95Ms": 33.3667,
+        "loopMaxVisualHoldMs": 667.383333,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      },
+      "frameTailBudgetMs": 16.6833,
+      "frameTailDelayExcessMs": 0,
+      "mediaResources": [
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+          "entryType": "resource",
+          "startTime": 51109.10000002384,
+          "duration": 41.39999997615814,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 51109.10000002384,
+          "domainLookupStart": 51109.10000002384,
+          "domainLookupEnd": 51109.10000002384,
+          "connectStart": 51109.10000002384,
+          "secureConnectionStart": 0,
+          "connectEnd": 51109.10000002384,
+          "requestStart": 51117.800000071526,
+          "responseStart": 51123.300000071526,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 51123.300000071526,
+          "responseEnd": 51150.5,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+          "entryType": "resource",
+          "startTime": 51150.40000009537,
+          "duration": 170.89999997615814,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 51150.40000009537,
+          "domainLookupStart": 51203.5,
+          "domainLookupEnd": 51204.10000002384,
+          "connectStart": 51204.10000002384,
+          "secureConnectionStart": 0,
+          "connectEnd": 51217.800000071526,
+          "requestStart": 51218.300000071526,
+          "responseStart": 51225.90000009537,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 51225.90000009537,
+          "responseEnd": 51321.300000071526,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+          "entryType": "resource",
+          "startTime": 51321,
+          "duration": 25.300000071525574,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 51321,
+          "domainLookupStart": 51321,
+          "domainLookupEnd": 51321,
+          "connectStart": 51321,
+          "secureConnectionStart": 0,
+          "connectEnd": 51321,
+          "requestStart": 51329.40000009537,
+          "responseStart": 51333.10000002384,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 51333.10000002384,
+          "responseEnd": 51346.300000071526,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+          "entryType": "resource",
+          "startTime": 51346.200000047684,
+          "duration": 18.899999976158142,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "video/mp4",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 51346.200000047684,
+          "domainLookupStart": 51346.200000047684,
+          "domainLookupEnd": 51346.200000047684,
+          "connectStart": 51346.200000047684,
+          "secureConnectionStart": 0,
+          "connectEnd": 51346.200000047684,
+          "requestStart": 51350.800000071526,
+          "responseStart": 51354.300000071526,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 51354.300000071526,
+          "responseEnd": 51365.10000002384,
+          "transferSize": 1094,
+          "encodedBodySize": 794,
+          "decodedBodySize": 37658,
+          "responseStatus": 206,
+          "serverTiming": []
+        }
+      ],
+      "servedMediaSha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f",
+      "actualPixelChange": {
+        "id": "curated-shape-ascii",
+        "phase": "after-performance-window",
+        "performanceWindowEnded": 73197.10000002384,
+        "sourceURL": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+        "sameVideo": true,
+        "width": 96,
+        "height": 58,
+        "pixelFormat": "RGBA",
+        "sampleCount": 2,
+        "threshold": {
+          "maxChannelDeltaOver": 3,
+          "changedPixelRatioOver": 0.002
+        },
+        "first": {
+          "captureAt": 73244.1,
+          "nativeTimestamp": 5364700,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-shape-ascii",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-shape-ascii",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 5.37113,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 5.37113,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 5.371254,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 5.371254,
+            "error": null
+          },
+          "readbackMs": 3,
+          "pixelSha256": "5b39b32a973d1c7f86bad1993981bba4fff9cf93eb0079b85ee1a11b7a2a2115"
+        },
+        "second": {
+          "captureAt": 74155.4,
+          "nativeTimestamp": 757567,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-shape-ascii",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-shape-ascii",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 951.328125,
+              "y": 337.984375,
+              "width": 429.65625,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 0.763711,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 0.763711,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 0.763762,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 0.763762,
+            "error": null
+          },
+          "readbackMs": 3.9,
+          "pixelSha256": "ca67fee641b378608237071f3a14d8430a1fbf81c32b95db8030402afb091667"
+        },
+        "changed": true,
+        "pixelRatio": 0.14852729885057472,
+        "mae": 1.296875
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "sampleStartPerf": 74362.70000004768,
+      "sampleEndPerf": 96365.90000009537,
+      "performancePixelReadback": false,
+      "callbackDiagnostics": {
+        "callbackMsP95": 0.1,
+        "callbackMsMax": 0.2,
+        "gaps": []
+      },
+      "loopBoundaryWaitMs": 0,
+      "firstFrameMs": 101.17,
+      "sampleMs": 22003.2,
+      "frames": 1307,
+      "presentedFps": 59.95,
+      "callbackFps": 59.67,
+      "windowPresentedFps": 59.9,
+      "lastFrameMediaTime": 4.3653,
+      "contentFps": null,
+      "windowContentFps": null,
+      "contentGapP95": null,
+      "maxVisualHoldMs": null,
+      "repeatFraction": null,
+      "frameTailMs": 15.5,
+      "frameIntervalP95": 27.7,
+      "frameIntervalMax": 34.6,
+      "frameDelayExcessMax": 17.97,
+      "frameDelayExcessP95": 11.05,
+      "framesDecoded": 1324,
+      "framesDropped": 9,
+      "dropRatio": 0.0068,
+      "decodeMsP95": 2.2,
+      "videoInstances": 1,
+      "loops": 3,
+      "duration": 5.833333,
+      "currentTime": 4.38163,
+      "playbackRate": 1,
+      "readyState": 4,
+      "seeking": false,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 1.45,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 52.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 81.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 104.2,
+          "time": 0.000092,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 104.3,
+          "time": 0.000092,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 105.2,
+          "time": 0.000092,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 105.3,
+          "time": 0.000491,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 5939.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 5939.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 5940.5,
+          "time": 0.000182,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 5940.6,
+          "time": 0.000205,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 11775.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 11776,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 11777.1,
+          "time": 0.00011,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 11777.1,
+          "time": 0.000127,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "seeking",
+          "ms": 17613.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 17613.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "seeked",
+          "ms": 17621.8,
+          "time": 0.000183,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 17621.8,
+          "time": 0.000212,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 105.4,
+          "mediaTime": 0.020067,
+          "dropped": 1,
+          "wallGapMs": 4.23,
+          "mediaGapMs": 20.07
+        },
+        {
+          "ms": 3258.6,
+          "mediaTime": 3.165967,
+          "dropped": 2,
+          "wallGapMs": 7.1,
+          "mediaGapMs": 33.27
+        },
+        {
+          "ms": 4647.3,
+          "mediaTime": 4.54845,
+          "dropped": 3,
+          "wallGapMs": 6.9,
+          "mediaGapMs": 33.3
+        },
+        {
+          "ms": 7605.7,
+          "mediaTime": 1.668,
+          "dropped": 4,
+          "wallGapMs": 7,
+          "mediaGapMs": 33.23
+        },
+        {
+          "ms": 9578.1,
+          "mediaTime": 3.64845,
+          "dropped": 5,
+          "wallGapMs": 7.3,
+          "mediaGapMs": 33.3
+        },
+        {
+          "ms": 11800.2,
+          "mediaTime": 0.020067,
+          "dropped": 6,
+          "wallGapMs": 21.3,
+          "mediaGapMs": 16.63
+        },
+        {
+          "ms": 14557,
+          "mediaTime": 2.7834,
+          "dropped": 7,
+          "wallGapMs": 7,
+          "mediaGapMs": 33.27
+        },
+        {
+          "ms": 17314.1,
+          "mediaTime": 5.531217,
+          "dropped": 8,
+          "wallGapMs": 21,
+          "mediaGapMs": 33.3
+        },
+        {
+          "ms": 17612.4,
+          "mediaTime": 5.816683,
+          "dropped": 9,
+          "wallGapMs": 20.9,
+          "mediaGapMs": 19.07
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "frameGaps": [],
+      "version": "9b3023082fcdff90",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4",
+      "sourceContent": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 352,
+          "rawFrameBlocks": 352,
+          "showinfoFrames": 352,
+          "originalPacketFrames": 352,
+          "originalFramePts": 352,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 352,
+        "encodedDurationSeconds": 5.833333333333334,
+        "contentFps": 43.199999999999996,
+        "contentGapP95Ms": 33.3,
+        "maxVisualHoldMs": 518.566667,
+        "loopContentFps": 43.37142857142857,
+        "loopContentGapP95Ms": 33.3,
+        "loopMaxVisualHoldMs": 518.566667,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      },
+      "frameTailBudgetMs": 16.65,
+      "frameTailDelayExcessMs": 0,
+      "mediaResources": [
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+          "entryType": "resource",
+          "startTime": 74414.70000004768,
+          "duration": 10.399999976158142,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "http/1.1",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 74414.70000004768,
+          "domainLookupStart": 74414.70000004768,
+          "domainLookupEnd": 74414.70000004768,
+          "connectStart": 74414.70000004768,
+          "secureConnectionStart": 0,
+          "connectEnd": 74414.70000004768,
+          "requestStart": 74417.30000007153,
+          "responseStart": 74422,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 74422,
+          "responseEnd": 74425.10000002384,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+          "entryType": "resource",
+          "startTime": 74425,
+          "duration": 41.60000002384186,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 74425,
+          "domainLookupStart": 74433.20000004768,
+          "domainLookupEnd": 74433.90000009537,
+          "connectStart": 74433.90000009537,
+          "secureConnectionStart": 0,
+          "connectEnd": 74434.80000007153,
+          "requestStart": 74434.90000009537,
+          "responseStart": 74438.70000004768,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 74438.70000004768,
+          "responseEnd": 74466.60000002384,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+          "entryType": "resource",
+          "startTime": 74466.30000007153,
+          "duration": 17.799999952316284,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 74466.30000007153,
+          "domainLookupStart": 74466.30000007153,
+          "domainLookupEnd": 74466.30000007153,
+          "connectStart": 74466.30000007153,
+          "secureConnectionStart": 0,
+          "connectEnd": 74466.30000007153,
+          "requestStart": 74467.80000007153,
+          "responseStart": 74473.20000004768,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 74473.20000004768,
+          "responseEnd": 74484.10000002384,
+          "transferSize": 300,
+          "encodedBodySize": 0,
+          "decodedBodySize": 0,
+          "responseStatus": 0,
+          "serverTiming": []
+        },
+        {
+          "name": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+          "entryType": "resource",
+          "startTime": 74483.5,
+          "duration": 13.300000071525574,
+          "navigationId": 8248,
+          "initiatorType": "video",
+          "deliveryType": "",
+          "nextHopProtocol": "",
+          "renderBlockingStatus": "non-blocking",
+          "contentType": "video/mp4",
+          "contentEncoding": "",
+          "workerStart": 0,
+          "workerRouterEvaluationStart": 0,
+          "workerCacheLookupStart": 0,
+          "workerMatchedSourceType": "",
+          "workerFinalSourceType": "",
+          "redirectStart": 0,
+          "redirectEnd": 0,
+          "fetchStart": 74483.5,
+          "domainLookupStart": 74483.5,
+          "domainLookupEnd": 74483.5,
+          "connectStart": 74483.5,
+          "secureConnectionStart": 0,
+          "connectEnd": 74483.5,
+          "requestStart": 74486.40000009537,
+          "responseStart": 74489.60000002384,
+          "firstInterimResponseStart": 0,
+          "finalResponseHeadersStart": 74489.60000002384,
+          "responseEnd": 74496.80000007153,
+          "transferSize": 563,
+          "encodedBodySize": 263,
+          "decodedBodySize": 17671,
+          "responseStatus": 206,
+          "serverTiming": []
+        }
+      ],
+      "servedMediaSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+      "actualPixelChange": {
+        "id": "curated-webgpu-route",
+        "phase": "after-performance-window",
+        "performanceWindowEnded": 96365.90000009537,
+        "sourceURL": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+        "sameVideo": true,
+        "width": 96,
+        "height": 58,
+        "pixelFormat": "RGBA",
+        "sampleCount": 2,
+        "threshold": {
+          "maxChannelDeltaOver": 3,
+          "changedPixelRatioOver": 0.002
+        },
+        "first": {
+          "captureAt": 96388.9,
+          "nativeTimestamp": 4398600,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-webgpu-route",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 497.65625,
+              "y": 337.953125,
+              "width": 429.671875,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-webgpu-route",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 497.65625,
+              "y": 337.953125,
+              "width": 429.671875,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 4.404402,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 4.404402,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 4.404494,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 4.404494,
+            "error": null
+          },
+          "readbackMs": 2,
+          "pixelSha256": "f84c98d5e79d018025c63c248dc1b5556f3b78d0bed4e71df121334218269e7e"
+        },
+        "second": {
+          "captureAt": 97294.3,
+          "nativeTimestamp": 5281467,
+          "beforeVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-webgpu-route",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 497.65625,
+              "y": 337.953125,
+              "width": 429.671875,
+              "height": 261.984375
+            }
+          },
+          "afterVisibility": {
+            "visible": true,
+            "page": "visible",
+            "intersects": true,
+            "hitCard": "curated-webgpu-route",
+            "styles": [
+              {
+                "node": "VIDEO",
+                "className": "",
+                "display": "inline",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "preview-layer",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "DIV",
+                "className": "stage",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "visible"
+              },
+              {
+                "node": "ARTICLE",
+                "className": "card",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1",
+                "contentVisibility": "auto"
+              }
+            ],
+            "bounds": {
+              "x": 497.65625,
+              "y": 337.953125,
+              "width": 429.671875,
+              "height": 261.984375
+            }
+          },
+          "readiness": {
+            "waitMs": 0,
+            "waitedForFrame": false,
+            "before": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 5.309852,
+              "error": null
+            },
+            "after": {
+              "connected": true,
+              "sameElement": true,
+              "videoCount": 1,
+              "sameCard": true,
+              "sameSource": true,
+              "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+              "paused": false,
+              "readyState": 4,
+              "networkState": 1,
+              "seeking": false,
+              "currentTime": 5.309852,
+              "error": null
+            },
+            "presentedFrame": null
+          },
+          "beforeGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 5.309908,
+            "error": null
+          },
+          "afterGuard": {
+            "connected": true,
+            "sameElement": true,
+            "videoCount": 1,
+            "sameCard": true,
+            "sameSource": true,
+            "currentSource": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "paused": false,
+            "readyState": 4,
+            "networkState": 1,
+            "seeking": false,
+            "currentTime": 5.309908,
+            "error": null
+          },
+          "readbackMs": 2.2,
+          "pixelSha256": "a6eb113ced0a62067cdff4fc7fa30a158f3ba5819c79ba825c6f5f1089f49abc"
+        },
+        "changed": true,
+        "pixelRatio": 0.3004669540229885,
+        "mae": 29.85859674329502
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "Source RGB evidence matches current catalogue and analyzer",
+      "pass": true,
+      "detail": {
+        "path": "lineage/current/preview-playback/remaining-source-rgb.json",
+        "sha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "generatedAt": "2026-10-07T02:57:42.375Z",
+        "profile": "rgb",
+        "tools": {
+          "ffmpeg": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+          "ffprobe": "ffprobe version 8.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+        }
+      }
+    },
+    {
+      "name": "Actual page matches measured file",
+      "pass": true,
+      "detail": {
+        "observedMain": "ffbe67a7e27d9095169c530900cec6de5347bfc43e6cfa8b9eb99822c5968d5f",
+        "formalHash": "ffbe67a7e27d9095169c530900cec6de5347bfc43e6cfa8b9eb99822c5968d5f"
+      }
+    },
+    {
+      "name": "Video renders curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "Hover continues through 3 loops curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "loops": 3,
+        "duration": 6.511633,
+        "currentTime": 2.31416
+      }
+    },
+    {
+      "name": "No playback stall curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "01f8a5643dcba25b",
+        "videoRevision": "01f8a5643dcba25b",
+        "sha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e",
+        "servedSha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e"
+      }
+    },
+    {
+      "name": "All source RGB frames and original PTS verified curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 392,
+          "rawFrameBlocks": 392,
+          "showinfoFrames": 392,
+          "originalPacketFrames": 392,
+          "originalFramePts": 392,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 392,
+        "encodedDurationSeconds": 6.511633333333334,
+        "contentFps": 59.892807232184445,
+        "contentGapP95Ms": 16.85,
+        "maxVisualHoldMs": 18.083333,
+        "loopContentFps": 60.04637853277979,
+        "loopContentGapP95Ms": 16.85,
+        "loopMaxVisualHoldMs": 18.083333,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      }
+    },
+    {
+      "name": "Continuous source has at least 45 RGB changes/s including loop curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "01f8a5643dcba25b896420377f30244b0c2791aef1a5588db0b1cfad6fb5717e",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 392,
+          "rawFrameBlocks": 392,
+          "showinfoFrames": 392,
+          "originalPacketFrames": 392,
+          "originalFramePts": 392,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 392,
+        "encodedDurationSeconds": 6.511633333333334,
+        "contentFps": 59.892807232184445,
+        "contentGapP95Ms": 16.85,
+        "maxVisualHoldMs": 18.083333,
+        "loopContentFps": 60.04637853277979,
+        "loopContentGapP95Ms": 16.85,
+        "loopMaxVisualHoldMs": 18.083333,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      }
+    },
+    {
+      "name": "Actual preview changes after performance window curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-image-in-type",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-cylinder-type"
+      }
+    },
+    {
+      "name": "Hover continues through 3 loops curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "loops": 3,
+        "duration": 6.499783,
+        "currentTime": 4.367652
+      }
+    },
+    {
+      "name": "No playback stall curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-cylinder-type"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "7665394220740bb8",
+        "videoRevision": "7665394220740bb8",
+        "sha256": "7665394220740bb8f25cecf22684a934866d2f5ae19924f537cb18d4dc355835",
+        "servedSha256": "7665394220740bb8f25cecf22684a934866d2f5ae19924f537cb18d4dc355835"
+      }
+    },
+    {
+      "name": "All source RGB frames and original PTS verified curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "7665394220740bb8f25cecf22684a934866d2f5ae19924f537cb18d4dc355835",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 391,
+          "rawFrameBlocks": 391,
+          "showinfoFrames": 391,
+          "originalPacketFrames": 391,
+          "originalFramePts": 391,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 391,
+        "encodedDurationSeconds": 6.499783333333333,
+        "contentFps": 52.77098980222418,
+        "contentGapP95Ms": 16.85,
+        "maxVisualHoldMs": 549.65,
+        "loopContentFps": 52.924841084446406,
+        "loopContentGapP95Ms": 16.8667,
+        "loopMaxVisualHoldMs": 549.65,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      }
+    },
+    {
+      "name": "Actual preview changes after performance window curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-cylinder-type"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-cylinder-type",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "id": "curated-shape-ascii"
+      }
+    },
+    {
+      "name": "Hover continues through 3 loops curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "loops": 3,
+        "duration": 5.512717,
+        "currentTime": 5.324382
+      }
+    },
+    {
+      "name": "No playback stall curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "id": "curated-shape-ascii"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "1e1e6abad487962d",
+        "videoRevision": "1e1e6abad487962d",
+        "sha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f",
+        "servedSha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f"
+      }
+    },
+    {
+      "name": "All source RGB frames and original PTS verified curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "1e1e6abad487962d52b7f41ce91aeff30717e5354e3f31948a69ea717575660f",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 331,
+          "rawFrameBlocks": 331,
+          "showinfoFrames": 331,
+          "originalPacketFrames": 331,
+          "originalFramePts": 331,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 331,
+        "encodedDurationSeconds": 5.512716666666667,
+        "contentFps": 34.82856304967605,
+        "contentGapP95Ms": 33.35,
+        "maxVisualHoldMs": 667.383333,
+        "loopContentFps": 35.00996181555978,
+        "loopContentGapP95Ms": 33.3667,
+        "loopMaxVisualHoldMs": 667.383333,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      }
+    },
+    {
+      "name": "Actual preview changes after performance window curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "id": "curated-shape-ascii"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-shape-ascii",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "Hover continues through 3 loops curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "loops": 3,
+        "duration": 5.833333,
+        "currentTime": 4.38163
+      }
+    },
+    {
+      "name": "No playback stall curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "a201467854e72e3d",
+        "videoRevision": "a201467854e72e3d",
+        "sha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+        "servedSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec"
+      }
+    },
+    {
+      "name": "All source RGB frames and original PTS verified curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "basis": "offline-file-pts",
+        "complete": true,
+        "mediaSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+        "reportSha256": "245a1ed61f640c6a66776256cc8273435380207e3d53d4097ce2cf67df12f927",
+        "analyzerSha256": "32ee707ac9fa9da11fafb57c1c8bc43d275a730e183870b372849ccf7e82bb49",
+        "sampling": {
+          "width": 96,
+          "height": 58,
+          "pixelFormat": "rgb24",
+          "scale": "bilinear",
+          "frames": "all decoded frames, original integer PTS; copyts and fps_mode passthrough; no fps filter or frame selection"
+        },
+        "visibleChangeRule": {
+          "maximumAbsoluteRGBChannelDeltaOver": 3,
+          "changedPixelFractionOver": 0.002
+        },
+        "integrity": {
+          "complete": true,
+          "decodedFrames": 352,
+          "rawFrameBlocks": 352,
+          "showinfoFrames": 352,
+          "originalPacketFrames": 352,
+          "originalFramePts": 352,
+          "originalPtsMatched": true,
+          "originalPtsMatchRule": "Exact PTS multiset including duplicates; frameTimeline retains original decoder order and unmodified frame PTS.",
+          "decoderPtsMatched": true,
+          "frameIndicesContiguous": true,
+          "sourceUnchanged": true
+        },
+        "decodedFrames": 352,
+        "encodedDurationSeconds": 5.833333333333334,
+        "contentFps": 43.199999999999996,
+        "contentGapP95Ms": 33.3,
+        "maxVisualHoldMs": 518.566667,
+        "loopContentFps": 43.37142857142857,
+        "loopContentGapP95Ms": 33.3,
+        "loopMaxVisualHoldMs": 518.566667,
+        "noVisibleChanges": false,
+        "interpretation": "Offline decoded source-media RGB changes. Same dimensions and threshold as the browser probe; FFmpeg color conversion and bilinear scaling are not claimed pixel-identical to browser canvas. These are not observed screen frames or browser playback rates."
+      }
+    },
+    {
+      "name": "Actual preview changes after performance window curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-webgpu-route",
+      "pass": true
+    },
+    {
+      "name": "No page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Measured source remained unchanged",
+      "pass": true
+    }
+  ],
+  "network": [
+    {
+      "event": "request",
+      "requestId": "31236.63",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.390945,
+      "wallTime": 1791343447.249495,
+      "range": "bytes=0-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.63",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.39979,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "861843",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.391586,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 0.813,
+        "sendEnd": 1.239,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 7.229,
+        "receiveHeadersEnd": 7.524
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.64",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.401939,
+      "wallTime": 1791343447.260459,
+      "range": "bytes=229376-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.63",
+      "timestamp": 588071.402273,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.64",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.409958,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 229376-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "632467",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.402443,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 2.148,
+        "sendEnd": 2.48,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.378,
+        "receiveHeadersEnd": 6.699
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.65",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.411342,
+      "wallTime": 1791343447.26987,
+      "range": "bytes=524288-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.64",
+      "timestamp": 588071.411549,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.65",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.422094,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 524288-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "337555",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.412462,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 1.621,
+        "sendEnd": 1.905,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 8.05,
+        "receiveHeadersEnd": 8.764
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.66",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.42351,
+      "wallTime": 1791343447.282035,
+      "range": "bytes=786432-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.65",
+      "timestamp": 588071.423718,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.66",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.446592,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 786432-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "75411",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.425524,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 13.674,
+        "sendEnd": 13.978,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 18.53,
+        "receiveHeadersEnd": 20.228
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.66",
+      "timestamp": 588071.448601,
+      "encodedDataLength": 75749
+    },
+    {
+      "event": "request",
+      "requestId": "31236.67",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.462172,
+      "wallTime": 1791343447.32073,
+      "range": "bytes=65536-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.67",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.470688,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 65536-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "796307",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.462719,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 1.609,
+        "sendEnd": 1.854,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.579,
+        "receiveHeadersEnd": 7.132
+      }
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.67",
+      "timestamp": 588071.478736,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "request",
+      "requestId": "31236.68",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.484686,
+      "wallTime": 1791343447.343226,
+      "range": "bytes=360448-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.68",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.493444,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 360448-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "501395",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.485228,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 2.048,
+        "sendEnd": 2.294,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 5.919,
+        "receiveHeadersEnd": 7.065
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.69",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.508812,
+      "wallTime": 1791343447.367356,
+      "range": "bytes=589824-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.68",
+      "timestamp": 588071.509134,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.69",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Media",
+      "timestamp": 588071.521998,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Content-Range": "bytes 589824-861842/861843",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "272019",
+        "Date": "Wed, 07 Oct 2026 03:24:07 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588071.509702,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 2.126,
+        "sendEnd": 2.486,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 10.248,
+        "receiveHeadersEnd": 10.841
+      }
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.69",
+      "timestamp": 588071.535474,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "request",
+      "requestId": "31236.70",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Fetch",
+      "timestamp": 588093.356281,
+      "wallTime": 1791343469.214817,
+      "range": null
+    },
+    {
+      "event": "response",
+      "requestId": "31236.70",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=01f8a5643dcba25b",
+      "resourceType": "Fetch",
+      "timestamp": 588093.364155,
+      "status": 200,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d2693-1a11287cff3\"",
+        "Connection": "keep-alive",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "861843",
+        "Keep-Alive": "timeout=5",
+        "Date": "Wed, 07 Oct 2026 03:24:29 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588093.356795,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": 0.177,
+        "dnsEnd": 0.68,
+        "connectStart": 0.68,
+        "connectEnd": 1.586,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 1.708,
+        "sendEnd": 1.896,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.08,
+        "receiveHeadersEnd": 6.129
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.70",
+      "timestamp": 588093.367218,
+      "encodedDataLength": 862126
+    },
+    {
+      "event": "request",
+      "requestId": "31236.74",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.585817,
+      "wallTime": 1791343470.444333,
+      "range": "bytes=0-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.74",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.592459,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"b1c9c-1a11287ce3f\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-728219/728220",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "728220",
+        "Date": "Wed, 07 Oct 2026 03:24:30 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588094.586284,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 0.904,
+        "sendEnd": 1.117,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 5.14,
+        "receiveHeadersEnd": 5.352
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.75",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.612151,
+      "wallTime": 1791343470.47067,
+      "range": "bytes=425984-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.74",
+      "timestamp": 588094.61232,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.75",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.625878,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"b1c9c-1a11287ce3f\"",
+        "Content-Range": "bytes 425984-728219/728220",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "302236",
+        "Date": "Wed, 07 Oct 2026 03:24:30 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588094.613997,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 5.986,
+        "sendEnd": 6.171,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 9.812,
+        "receiveHeadersEnd": 10.71
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.76",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.628303,
+      "wallTime": 1791343470.486823,
+      "range": "bytes=655360-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.75",
+      "timestamp": 588094.628468,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.76",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.638291,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"b1c9c-1a11287ce3f\"",
+        "Content-Range": "bytes 655360-728219/728220",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "72860",
+        "Date": "Wed, 07 Oct 2026 03:24:30 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588094.630189,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 1.778,
+        "sendEnd": 2.384,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.69,
+        "receiveHeadersEnd": 7.302
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.76",
+      "timestamp": 588094.6415,
+      "encodedDataLength": 73198
+    },
+    {
+      "event": "request",
+      "requestId": "31236.77",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.66303,
+      "wallTime": 1791343470.521555,
+      "range": "bytes=262144-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.77",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.668453,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"b1c9c-1a11287ce3f\"",
+        "Content-Range": "bytes 262144-728219/728220",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "466076",
+        "Date": "Wed, 07 Oct 2026 03:24:30 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588094.66346,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 0.81,
+        "sendEnd": 1.175,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 3.448,
+        "receiveHeadersEnd": 3.978
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.78",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.673259,
+      "wallTime": 1791343470.531781,
+      "range": "bytes=491520-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.77",
+      "timestamp": 588094.67363,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.78",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Media",
+      "timestamp": 588094.680017,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"b1c9c-1a11287ce3f\"",
+        "Content-Range": "bytes 491520-728219/728220",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "236700",
+        "Date": "Wed, 07 Oct 2026 03:24:30 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588094.673609,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 2.363,
+        "sendEnd": 2.542,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 5.037,
+        "receiveHeadersEnd": 5.441
+      }
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.78",
+      "timestamp": 588094.685182,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "request",
+      "requestId": "31236.79",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Fetch",
+      "timestamp": 588118.888975,
+      "wallTime": 1791343494.747495,
+      "range": null
+    },
+    {
+      "event": "response",
+      "requestId": "31236.79",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "resourceType": "Fetch",
+      "timestamp": 588118.908862,
+      "status": 200,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"b1c9c-1a11287ce3f\"",
+        "Connection": "keep-alive",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "728220",
+        "Keep-Alive": "timeout=5",
+        "Date": "Wed, 07 Oct 2026 03:24:54 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:12 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588118.889673,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": 0.531,
+        "dnsEnd": 1.76,
+        "connectStart": 1.76,
+        "connectEnd": 4.668,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 4.779,
+        "sendEnd": 5.281,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 16.257,
+        "receiveHeadersEnd": 16.337
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.79",
+      "timestamp": 588118.950584,
+      "encodedDataLength": 728503
+    },
+    {
+      "event": "request",
+      "requestId": "31236.80",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.689834,
+      "wallTime": 1791343496.548353,
+      "range": "bytes=0-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.80",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.706607,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"9131a-1a11287d780\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-594713/594714",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "594714",
+        "Date": "Wed, 07 Oct 2026 03:24:56 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:14 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588120.690627,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 7.899,
+        "sendEnd": 8.29,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 13.501,
+        "receiveHeadersEnd": 14.187
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.81",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.731184,
+      "wallTime": 1791343496.589703,
+      "range": "bytes=425984-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.80",
+      "timestamp": 588120.731363,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.81",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.819566,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"9131a-1a11287d780\"",
+        "Content-Range": "bytes 425984-594713/594714",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "168730",
+        "Date": "Wed, 07 Oct 2026 03:24:56 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:14 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588120.73827,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": 46.09,
+        "dnsEnd": 46.621,
+        "connectStart": 46.621,
+        "connectEnd": 60.27,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 60.813,
+        "sendEnd": 61.052,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 68.488,
+        "receiveHeadersEnd": 78.242
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.82",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.901831,
+      "wallTime": 1791343496.760362,
+      "range": "bytes=196608-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.81",
+      "timestamp": 588120.902132,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.82",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.916716,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"9131a-1a11287d780\"",
+        "Content-Range": "bytes 196608-594713/594714",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "398106",
+        "Date": "Wed, 07 Oct 2026 03:24:56 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:14 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588120.902778,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 7.398,
+        "sendEnd": 7.827,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 11.066,
+        "receiveHeadersEnd": 12.703
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.83",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.926936,
+      "wallTime": 1791343496.78546,
+      "range": "bytes=557056-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.82",
+      "timestamp": 588120.927127,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.83",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Media",
+      "timestamp": 588120.93728,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"9131a-1a11287d780\"",
+        "Content-Range": "bytes 557056-594713/594714",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "37658",
+        "Date": "Wed, 07 Oct 2026 03:24:56 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:14 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588120.927922,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 3.665,
+        "sendEnd": 3.894,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 7.216,
+        "receiveHeadersEnd": 8.226
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.83",
+      "timestamp": 588120.945927,
+      "encodedDataLength": 1374
+    },
+    {
+      "event": "request",
+      "requestId": "31236.84",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Fetch",
+      "timestamp": 588142.809526,
+      "wallTime": 1791343518.668058,
+      "range": null
+    },
+    {
+      "event": "response",
+      "requestId": "31236.84",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "resourceType": "Fetch",
+      "timestamp": 588142.820696,
+      "status": 200,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"9131a-1a11287d780\"",
+        "Connection": "keep-alive",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "594714",
+        "Keep-Alive": "timeout=5",
+        "Date": "Wed, 07 Oct 2026 03:25:18 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:14 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588142.810407,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": 1.122,
+        "dnsEnd": 1.774,
+        "connectStart": 1.774,
+        "connectEnd": 2.949,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 3.038,
+        "sendEnd": 3.211,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 7.901,
+        "receiveHeadersEnd": 7.944
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.84",
+      "timestamp": 588142.821668,
+      "encodedDataLength": 594997
+    },
+    {
+      "event": "request",
+      "requestId": "31236.85",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588143.995429,
+      "wallTime": 1791343519.853982,
+      "range": "bytes=0-"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.85",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.004447,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "574727",
+        "Date": "Wed, 07 Oct 2026 03:25:19 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588143.996177,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 1.953,
+        "sendEnd": 2.296,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.631,
+        "receiveHeadersEnd": 6.966
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.86",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.005756,
+      "wallTime": 1791343519.864272,
+      "range": "bytes=425984-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.85",
+      "timestamp": 588144.005927,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.86",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.021542,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Content-Range": "bytes 425984-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "148743",
+        "Date": "Wed, 07 Oct 2026 03:25:19 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588144.007928,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": 6.032,
+        "dnsEnd": 6.791,
+        "connectStart": 6.791,
+        "connectEnd": 7.692,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 7.802,
+        "sendEnd": 7.99,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 11.627,
+        "receiveHeadersEnd": 12.223
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.87",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.047104,
+      "wallTime": 1791343519.905638,
+      "range": "bytes=262144-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.86",
+      "timestamp": 588144.047467,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.87",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.055369,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Content-Range": "bytes 262144-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "312583",
+        "Date": "Wed, 07 Oct 2026 03:25:19 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588144.047674,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 0.927,
+        "sendEnd": 1.291,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.364,
+        "receiveHeadersEnd": 6.832
+      }
+    },
+    {
+      "event": "request",
+      "requestId": "31236.88",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.064308,
+      "wallTime": 1791343519.922839,
+      "range": "bytes=557056-"
+    },
+    {
+      "event": "failed",
+      "requestId": "31236.87",
+      "timestamp": 588144.064841,
+      "canceled": true,
+      "errorText": "net::ERR_ABORTED"
+    },
+    {
+      "event": "response",
+      "requestId": "31236.88",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Media",
+      "timestamp": 588144.071552,
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Content-Range": "bytes 557056-574726/574727",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "17671",
+        "Date": "Wed, 07 Oct 2026 03:25:19 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588144.06509,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": -1,
+        "dnsEnd": -1,
+        "connectStart": -1,
+        "connectEnd": -1,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 2.076,
+        "sendEnd": 2.269,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 5.312,
+        "receiveHeadersEnd": 5.728
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.88",
+      "timestamp": 588144.07762,
+      "encodedDataLength": 843
+    },
+    {
+      "event": "request",
+      "requestId": "31236.89",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Fetch",
+      "timestamp": 588165.954577,
+      "wallTime": 1791343541.813095,
+      "range": null
+    },
+    {
+      "event": "response",
+      "requestId": "31236.89",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "resourceType": "Fetch",
+      "timestamp": 588165.963107,
+      "status": 200,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8c507-1a11287d97a\"",
+        "Connection": "keep-alive",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "574727",
+        "Keep-Alive": "timeout=5",
+        "Date": "Wed, 07 Oct 2026 03:25:41 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 18:44:15 GMT",
+        "Content-Type": "video/mp4"
+      },
+      "timing": {
+        "requestTime": 588165.955417,
+        "proxyStart": -1,
+        "proxyEnd": -1,
+        "dnsStart": 0.224,
+        "dnsEnd": 1.12,
+        "connectStart": 1.12,
+        "connectEnd": 2.433,
+        "sslStart": -1,
+        "sslEnd": -1,
+        "workerStart": -1,
+        "workerReady": -1,
+        "workerFetchStart": -1,
+        "workerRespondWithSettled": -1,
+        "sendStart": 2.547,
+        "sendEnd": 2.903,
+        "pushStart": 0,
+        "pushEnd": 0,
+        "receiveHeadersStart": 6.45,
+        "receiveHeadersEnd": 6.488
+      }
+    },
+    {
+      "event": "finished",
+      "requestId": "31236.89",
+      "timestamp": 588165.965206,
+      "encodedDataLength": 575010
+    }
+  ],
+  "errors": []
+}

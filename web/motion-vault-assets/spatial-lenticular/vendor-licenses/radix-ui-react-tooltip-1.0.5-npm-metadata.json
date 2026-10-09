@@ -1,0 +1,24 @@
+{
+  "name": "@radix-ui/react-tooltip",
+  "version": "1.0.5",
+  "license": "MIT",
+  "gitHead": null,
+  "repository": {
+    "url": "git+https://github.com/radix-ui/primitives.git",
+    "type": "git"
+  },
+  "dist": {
+    "shasum": "fe20274aeac874db643717fc7761d5a8abdd62d1",
+    "tarball": "https://registry.npmjs.org/@radix-ui/react-tooltip/-/react-tooltip-1.0.5.tgz",
+    "fileCount": 8,
+    "integrity": "sha512-cDKVcfzyO6PpckZekODJZDe5ZxZ2fCZlzKzTmPhe4mX9qTHRfLcKgqb0OKf22xLwDequ2tVleim+ZYx3rabD5w==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDZl5L/eiYOfkhjFWG3ab3u6pCw6LgpUKplaFK5SCk8uwIgVCqs7efS3bQ3hwGqxnV+RAtzrP+S1zkWAcanKuRMp6g=",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 164292,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkCJa8ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoxXA//bjtEGkXpG8hriNni+ylJpugpDRrbwOpmqV3PaGkwzspZ9Yit\r\nF7whLlKS0yf616EqQ6PDTIDNNErxfk0Dv4ntm4iJZnCKbQ2edUdHwyJvi7eo\r\n+/oI8n/u5Hu9n6BDLrDbmGaLXqn6BwR293poDQQA1g9kj/yXPFvabv3CPxbI\r\n+Fq4E7CxlhOvnUfBXDFqGlps4+exTizwzGicyz9TWxxewdGJps2dYmz8rYJF\r\nXJ527Rb65i+R71Qn1dtsCV8i2iIBBi0icTdCGbkRxZ40IinMJWfMsqJDiqAk\r\nJIoZs9P8zKZEjmaKJHovHQRTCXJY1uPcRfbVeJb1MYgbIQGLPwE8dsxq3NLY\r\nnHpOtxYDz4yb0NnSD+bz9lWXlFnBLy7bDp+XV3+pUVf8b6Qd9Z+fWf50+i46\r\nypU+TEurfPXYqqLmJ+XT8xaV0PLqrQS1tM9Cvoqkm4XmtAvJbvm8YHSFeYMf\r\nS0LT/0+JqwpXjKwvBECezY0Z/Gltb3m0YQfbwnDygQrP4EXNydnZt3Fa9Vbx\r\nVVPZR9H86i1NuoNVbwJ9KXVBVPdhIZlg6hJ0w2lIQz51L0MHwQ8SyQEsO4Mk\r\n60yZbjXOsg1zffSFwuvLEF9B9tfpnLMsWjb4ybyfvo6e+HOOqW3jUMYRCOZD\r\nrX0O6IRL+hU5l35xOK8Rp//rY6PAEDEo4iU=\r\n=8Vuo\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

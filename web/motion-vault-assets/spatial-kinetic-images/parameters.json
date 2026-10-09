@@ -1,0 +1,189 @@
+{
+  "viewport": {
+    "width": 1100,
+    "height": 670,
+    "hostScaling": "Scale the iframe as a whole; keep its internal reference viewport."
+  },
+  "parameters": [
+    {
+      "name": "mode",
+      "default": "Tower",
+      "unit": "mode",
+      "meaning": "Tower, Paper or Spiral chosen through the source footer",
+      "binding": "location.hash: #/, #/paper, #/spiral",
+      "editIn": "adapter/router.jsx",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "towerCount",
+      "default": 10,
+      "unit": "pairs",
+      "meaning": "Stacked image cylinders with narrow graphic ribbons",
+      "binding": "COUNT",
+      "editIn": "adapter/src/app/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "towerGap",
+      "default": 3.2,
+      "unit": "world units",
+      "meaning": "Vertical distance between image tiers",
+      "binding": "GAP",
+      "editIn": "adapter/src/app/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "billboardRadius",
+      "default": 5,
+      "unit": "world units",
+      "meaning": "Source open image-cylinder radius",
+      "binding": "radius={5}",
+      "editIn": "adapter/src/app/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "bannerRadius",
+      "default": 5.035,
+      "unit": "world units",
+      "meaning": "Slightly offset narrow ribbon cylinder",
+      "binding": "radius={5.035}",
+      "editIn": "adapter/src/app/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "towerFov",
+      "default": 7,
+      "unit": "degrees",
+      "meaning": "Very low perspective field of view",
+      "binding": "PerspectiveCamera fov",
+      "editIn": "adapter/src/app/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "towerCamera",
+      "default": [
+        0,
+        0,
+        70
+      ],
+      "unit": "world units",
+      "meaning": "Source Tower camera position",
+      "binding": "PerspectiveCamera position",
+      "editIn": "adapter/src/app/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "paperFov",
+      "default": 20,
+      "unit": "degrees",
+      "meaning": "Source Paper view",
+      "binding": "PerspectiveCamera fov",
+      "editIn": "adapter/src/app/paper/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "paperCamera",
+      "default": [
+        0,
+        0,
+        13
+      ],
+      "unit": "world units",
+      "meaning": "Source Paper camera position",
+      "binding": "PerspectiveCamera position",
+      "editIn": "adapter/src/app/paper/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "spiralFov",
+      "default": 7,
+      "unit": "degrees",
+      "meaning": "Source Spiral view",
+      "binding": "PerspectiveCamera fov",
+      "editIn": "adapter/src/app/spiral/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "spiralCamera",
+      "default": [
+        0,
+        0,
+        100
+      ],
+      "unit": "world units",
+      "meaning": "Source Spiral camera position",
+      "binding": "PerspectiveCamera position",
+      "editIn": "adapter/src/app/spiral/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "collageHeight",
+      "default": 512,
+      "unit": "px before DPR",
+      "meaning": "Horizontal atlas fit height",
+      "binding": "canvasHeight",
+      "editIn": "adapter/src/hooks/useCollageTexture.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "paperCollageWidth",
+      "default": 1024,
+      "unit": "px before DPR",
+      "meaning": "Vertical atlas width using first five images",
+      "binding": "canvasWidth",
+      "editIn": "adapter/src/app/paper/page.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "billboardDrift",
+      "default": 0.001,
+      "unit": "offset per second per mounted Billboard",
+      "meaning": "Ten Billboards share one texture; retain cumulative source behavior",
+      "binding": "texture.offset.x += delta * 0.001",
+      "editIn": "adapter/src/components/webgl/Billboard/Billboard.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "bannerDrift",
+      "default": 0.03333333333333333,
+      "unit": "offset per second per mounted Banner",
+      "meaning": "Ten Banners share cached map; retain cumulative source behavior",
+      "binding": "material.map.offset.x += delta / 30",
+      "editIn": "adapter/src/components/webgl/Banner/Banner.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "paperDrift",
+      "default": 0.03333333333333333,
+      "unit": "offset per second",
+      "meaning": "Vertical texture movement",
+      "binding": "texture.offset.y += delta / 30",
+      "editIn": "adapter/src/components/webgl/Paper/Paper.jsx",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "spiralDrift",
+      "default": -0.02,
+      "unit": "offset per second",
+      "meaning": "Horizontal reverse movement",
+      "binding": "material.map.offset.x -= delta / 50",
+      "editIn": "adapter/src/components/webgl/Spiral/Spiral.jsx",
+      "runtimeMutationExposed": false
+    }
+  ],
+  "interaction": "Native OrbitControls: genuine mouse/touch orbit, wheel/dolly and pan as supported by the author defaults; source footer selects shape variant. No synthesized pointer input.",
+  "reducedMotion": "Native media query suppresses every ambient texture update and loading CSS animation. Demand rendering leaves direct orbit and navigation available.",
+  "lifecycle": {
+    "namespace": "window.SourceDemo",
+    "methods": [
+      "ready (Promise getter)",
+      "stop",
+      "resume",
+      "paint",
+      "dispose",
+      "inspect",
+      "status (inspect alias)"
+    ],
+    "limitations": "ready resolves only after committed source resources and genuine nonempty rendered-frame evidence, not visual correctness. inspect reports lifecycle/resource state and errors. dispose is idempotent and returns a cleanup Promise. Disposed instances require a new iframe mount; browser behavior remains unverified."
+  }
+}

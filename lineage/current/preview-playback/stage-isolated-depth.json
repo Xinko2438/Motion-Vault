@@ -1,0 +1,419 @@
+{
+  "at": "2026-10-06T17:58:24.214Z",
+  "startedAt": "2026-10-06T17:58:17.596Z",
+  "runId": "5f45d5a6-1075-4a48-986d-589e43c26eb5",
+  "label": "stage-isolated-depth",
+  "live": false,
+  "sampleMs": 2400,
+  "requiredLoops": 0,
+  "formalHash": "f1359daf0aaa8727e95961bb5c4aff0c2877eafec5dd755308557bf192ea1ba9",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "verifierHash": "d4a754ec6f7a62c3af835c3cdaa139cbb7c6c2b1a5783d75574f78402806947a",
+  "sourceUnchanged": true,
+  "environment": {
+    "pixelProbeEnabled": true,
+    "softwareVideoDecodeRequested": false,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/154.0.8037.93",
+      "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "jsVersion": "15.4.80.19"
+    },
+    "gpu": {
+      "devices": [
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "Intel",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 4318,
+          "deviceId": 11545,
+          "subSysId": 1615863045,
+          "revision": 161,
+          "vendorString": "",
+          "deviceString": "NVIDIA GeForce RTX 5060 Laptop GPU",
+          "driverVendor": "",
+          "driverVersion": "32.0.16.1692"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 5140,
+          "deviceId": 140,
+          "subSysId": 0,
+          "revision": 0,
+          "vendorString": "",
+          "deviceString": "Microsoft Basic Render Driver",
+          "driverVendor": "",
+          "driverVersion": "10.0.26100.9278"
+        }
+      ],
+      "features": {
+        "2d_canvas": "enabled",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "enabled",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "enabled_on",
+        "rasterization": "enabled",
+        "raw_draw": "disabled_off_ok",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "enabled",
+        "video_encode": "enabled",
+        "webgl": "enabled",
+        "webgpu": "enabled",
+        "webnn": "disabled_off"
+      }
+    },
+    "gpuDisabledByHarness": false,
+    "mediaPlayers": {
+      "16B48F5775AEF6A8F9815C61CEC3D40F": {
+        "kVideoDecoderName": "FFmpegVideoDecoder",
+        "kVideoTracks": "[{\"alpha mode\":\"is_opaque\",\"codec\":\"h264\",\"coded size\":\"656x400\",\"color space\":{\"matrix\":\"BT709\",\"primaries\":\"BT709\",\"range\":\"LIMITED\",\"transfer\":\"IEC61966_2_1\"},\"encryption scheme\":\"Unencrypted\",\"has extra data\":true,\"hdr metadata\":{},\"natural size\":\"656x400\",\"orientation\":\"0°\",\"profile\":\"h264 high 4:4:4 predictive\",\"visible rect\":\"0,0 656x400\"}]",
+        "kIsPlatformVideoDecoder": "false",
+        "kFrameUrl": "http://127.0.0.1:39734/motion-vault.html?view=pending",
+        "kResolution": "656x400"
+      }
+    },
+    "page": {
+      "url": "http://127.0.0.1:39734/motion-vault.html?view=pending",
+      "visibility": "visible",
+      "dpr": 1,
+      "videoFrameCallback": "function"
+    }
+  },
+  "assets": [
+    {
+      "id": "curated-depth",
+      "version": "1f33dcbef8594b4d",
+      "video": "motion-vault-assets/curated-depth/preview.mp4",
+      "videoRevision": "0cfcbd5b04d2c926",
+      "sha256": "0cfcbd5b04d2c9260033076353c74c85abba158f8e0e61857053514c1caf530e"
+    }
+  ],
+  "passed": 6,
+  "total": 7,
+  "samples": [
+    {
+      "id": "curated-depth",
+      "url": "http://127.0.0.1:39734/motion-vault-assets/curated-depth/preview.mp4?v=0cfcbd5b04d2c926",
+      "firstFrameMs": 61.1,
+      "sampleMs": 2627.7,
+      "frames": 132,
+      "presentedFps": 51.68,
+      "callbackFps": 51.68,
+      "contentFps": 51.29,
+      "windowContentFps": 50.65,
+      "frameTailMs": 31.8,
+      "contentTailMs": 31.8,
+      "frameIntervalP95": 33.5,
+      "frameIntervalMax": 39.4,
+      "frameDelayExcessMax": 22.67,
+      "frameDelayExcessP95": 4.95,
+      "contentGapP95": 33.5,
+      "maxVisualHoldMs": 39.4,
+      "repeatFraction": 0.0076,
+      "framesDecoded": 159,
+      "framesDropped": 24,
+      "dropRatio": 0.1509,
+      "decodeMsP95": 106.9,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 6.500883,
+      "currentTime": 2.568865,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 3.93,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 50.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 58.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 59.6,
+          "time": 0.000596,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 59.8,
+          "time": 0.000725,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 227.7,
+          "mediaTime": 0.183217,
+          "dropped": 2,
+          "wallGapMs": 21.3,
+          "mediaGapMs": 50.03
+        },
+        {
+          "ms": 510,
+          "mediaTime": 0.466333,
+          "dropped": 4,
+          "wallGapMs": 19.5,
+          "mediaGapMs": 49.93
+        },
+        {
+          "ms": 811.4,
+          "mediaTime": 0.771717,
+          "dropped": 6,
+          "wallGapMs": 14.6,
+          "mediaGapMs": 49.98
+        },
+        {
+          "ms": 1308.4,
+          "mediaTime": 1.263917,
+          "dropped": 8,
+          "wallGapMs": 19.8,
+          "mediaGapMs": 49.5
+        },
+        {
+          "ms": 1348.2,
+          "mediaTime": 1.3133,
+          "dropped": 9,
+          "wallGapMs": 19.9,
+          "mediaGapMs": 32.9
+        },
+        {
+          "ms": 1383,
+          "mediaTime": 1.34615,
+          "dropped": 10,
+          "wallGapMs": 34.8,
+          "mediaGapMs": 32.85
+        },
+        {
+          "ms": 1430.9,
+          "mediaTime": 1.395317,
+          "dropped": 11,
+          "wallGapMs": 33.5,
+          "mediaGapMs": 32.77
+        },
+        {
+          "ms": 1547.4,
+          "mediaTime": 1.510183,
+          "dropped": 12,
+          "wallGapMs": 19.7,
+          "mediaGapMs": 32.98
+        },
+        {
+          "ms": 1663.3,
+          "mediaTime": 1.625333,
+          "dropped": 13,
+          "wallGapMs": 21.1,
+          "mediaGapMs": 32.87
+        },
+        {
+          "ms": 1742.4,
+          "mediaTime": 1.707667,
+          "dropped": 14,
+          "wallGapMs": 19.2,
+          "mediaGapMs": 32.93
+        },
+        {
+          "ms": 1842.1,
+          "mediaTime": 1.806567,
+          "dropped": 15,
+          "wallGapMs": 19.1,
+          "mediaGapMs": 32.95
+        },
+        {
+          "ms": 1875.9,
+          "mediaTime": 1.839467,
+          "dropped": 16,
+          "wallGapMs": 33.8,
+          "mediaGapMs": 32.9
+        },
+        {
+          "ms": 1910.4,
+          "mediaTime": 1.87235,
+          "dropped": 17,
+          "wallGapMs": 34.5,
+          "mediaGapMs": 32.88
+        },
+        {
+          "ms": 1960.6,
+          "mediaTime": 1.9217,
+          "dropped": 18,
+          "wallGapMs": 35.7,
+          "mediaGapMs": 32.88
+        },
+        {
+          "ms": 2091.2,
+          "mediaTime": 2.054083,
+          "dropped": 19,
+          "wallGapMs": 19.7,
+          "mediaGapMs": 32.77
+        },
+        {
+          "ms": 2222.7,
+          "mediaTime": 2.184733,
+          "dropped": 20,
+          "wallGapMs": 20,
+          "mediaGapMs": 32.63
+        },
+        {
+          "ms": 2302.7,
+          "mediaTime": 2.2665,
+          "dropped": 21,
+          "wallGapMs": 20.1,
+          "mediaGapMs": 32.67
+        },
+        {
+          "ms": 2383.2,
+          "mediaTime": 2.348233,
+          "dropped": 22,
+          "wallGapMs": 20.1,
+          "mediaGapMs": 32.68
+        },
+        {
+          "ms": 2483.3,
+          "mediaTime": 2.445983,
+          "dropped": 23,
+          "wallGapMs": 14.1,
+          "mediaGapMs": 32.58
+        },
+        {
+          "ms": 2595.9,
+          "mediaTime": 2.560167,
+          "dropped": 24,
+          "wallGapMs": 19.6,
+          "mediaGapMs": 32.57
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "1f33dcbef8594b4d",
+      "video": "motion-vault-assets/curated-depth/preview.mp4"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Actual page matches measured file",
+      "pass": true,
+      "detail": {
+        "observedMain": "f1359daf0aaa8727e95961bb5c4aff0c2877eafec5dd755308557bf192ea1ba9",
+        "formalHash": "f1359daf0aaa8727e95961bb5c4aff0c2877eafec5dd755308557bf192ea1ba9"
+      }
+    },
+    {
+      "name": "Video renders curated-depth",
+      "pass": true,
+      "detail": {
+        "id": "curated-depth"
+      }
+    },
+    {
+      "name": "No playback stall curated-depth",
+      "pass": false,
+      "detail": {
+        "id": "curated-depth"
+      }
+    },
+    {
+      "name": "Current media cache identity curated-depth",
+      "pass": true,
+      "detail": {
+        "requestedRevision": "0cfcbd5b04d2c926",
+        "videoRevision": "0cfcbd5b04d2c926",
+        "sha256": "0cfcbd5b04d2c9260033076353c74c85abba158f8e0e61857053514c1caf530e"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-depth",
+      "pass": true
+    },
+    {
+      "name": "No page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Measured source remained unchanged",
+      "pass": true
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:39734/motion-vault-assets/curated-depth/preview.mp4?v=0cfcbd5b04d2c926",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "no-cache",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-239616/239617",
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "239617",
+        "Date": "Tue, 06 Oct 2026 17:58:20 GMT",
+        "Content-Type": "video/mp4"
+      }
+    }
+  ],
+  "errors": []
+}

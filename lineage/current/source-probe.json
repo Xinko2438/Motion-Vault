@@ -1,0 +1,978 @@
+[
+  {
+    "id": "curated-camera-route",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "Camera Flythrough using Theatre.js",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-cloth-object",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "Balloon Button by Joshua Guo",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-cluster",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-cylinder-type",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [],
+    "height": 4010,
+    "text": "3D Text Animation on Scroll\nDemo 1\nDemo 2\nDemo 3\nCylinder Text\nScroll Animation\n\nScroll down\n\nVINNY BLAZE\nLOLA VANCE\nREX DELGADO\nRUBY KNOX\nMICKEY TORQUE\nJOEY MARLOWE\nSCARLET DUNE\nBOBBY VEGA\nCASS NOVA\nLANCE FURY\nFRANKIE VALENCE\nNINA ROCCO\nNext Effect:",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-depth",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "ONE OBJECT / THREE CHAPTERS\nForm. Surface. Light.\n滚动或拖动进度，观察同一对象如何贯穿叙事。\n叙事进度\n自动演示\n01 / FORM",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-dual-wave",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [
+      {
+        "src": "tesla.webp",
+        "loaded": true
+      }
+    ],
+    "height": 3406,
+    "text": "DUAL WAVE TEXT ANIMATION ON SCROLL\nVOLT R2\nÉCLAT\nPROJECT ION\nAEROLINE\nSÉRIE NOIR\nULTRARUN\nATELIER 03\nPULSE ONE\nLINEA 24\nECHO SERIES\nZERO\nSHIFT/BLACK\nSOLAR DRIFT\nNº 27\nMODE/3\nPURE FORM\nEDGE\nSTILLWATER\nPARFUM Nº8\nVANTAGE\nCORE\nARCHIVE GREEN\nROSSO LINEA\n",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-editorial-layout",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [],
+    "height": 34902,
+    "text": "On-Scroll Image Layout Animations\nProject\nAI Art\nDate\nJuly, 2023\nCreativity Redefined\nMission\n\nThe AI-Art Project is a transformative initiative dedicated to exploring the immense impact of AI-generated art on the art world and artists. We aim to dis",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-elastic-editorial",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [],
+    "height": 3426,
+    "text": "Elastic Grid Scroll\nArticle\nAll demos\nGitHub\nVariations\n01\n02\n03\n04\n05\n06\n07\n08\n09\n\nSymmetrical outer column lag\n\nZorith - L91\nNymera - L50\nBrynd - Q89\nMykar - L27\nLektar - X43\nSolmir - Q91\nThalon - V75\nFexil - R50\nDareon - N38\nVexra - N22\nJaleth - N",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-emissive-dissolve",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": false,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "Dissolve Effect\nTutorial\nGitHub\nAll demos\n#glsl\n#three.js\n#webgl\nControls",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-fluid-xray",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-glass-torus",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "OPTICAL STUDY\nWords, refracted.\n字体、透明体与光照，共同形成一个视觉对象。\n折射\n暂停旋转\nLOCAL DESIGN STUDY",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-grid-flow-nav",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "canvases": [],
+    "images": [],
+    "height": 670,
+    "text": "81\n%",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-grid-full",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [
+      {
+        "src": "./assets/products/product-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-3.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-4.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-5.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-6.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-7.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-8.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-3.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-3-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-3-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-4.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-4-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-4-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-7.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-7-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-7-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-8.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-8-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-8-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-1-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-1-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-2-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-2-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-5.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-5-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-5-detail-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-6.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-6-detail-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/products/product-6-detail-2.webp",
+        "loaded": true
+      }
+    ],
+    "height": 670,
+    "text": "Grid to Full Preview\nAll 8\nChairs 2\nTables 1\nDecoration 3\nCabinets 2\n\nAdd to cart\n\nAdd to cart\n\nAdd to cart\n\nAdd to cart\n\nAdd to cart\n\nAdd to cart\n\nAdd to cart\n\nAdd to cart\n\nPRODUCT TITLE\n\n€ 0\n\nPRODUCT TITLE\n\n€ 0",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-image-in-type",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [],
+    "height": 4522,
+    "text": "ON-SCROLL EXPANDING IMAGE WITHIN #TYPOGRAPHY\nPROJECT 1\nGratitude is my\nnew response\nto \njudgement.\n\nBEHOLD THE BOUNDLESS DANCE OF YIN AND YANG, WHERE ALL IS FLUX AND NOTHING HOLDS ITS SHAPE BUT FOR A FLEETING BREATH. THE MOUNTAIN'S MIGHT, THOUGH SEEM",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-inline-menu",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "canvases": [],
+    "images": [
+      {
+        "src": "img/1.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/2.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/3.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/4.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/5.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/6.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/7.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/8.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/9.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/10.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/11.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/12.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/13.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/14.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/15.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/16.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/17.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/18.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/19.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/20.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/5.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/2.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/1.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/3.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/8.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/13.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/7.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/12.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/6.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/14.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/5.jpg",
+        "loaded": true
+      },
+      {
+        "src": "img/16.jpg",
+        "loaded": true
+      }
+    ],
+    "height": 670,
+    "text": "CLOSE\nDuring his earth period, man experiences the blissful feeling of being fashioned into such forms. The absorption of the watery parts is felt in the soul as an accession of force, or inner strength.\nEXPLORE\nSERENITY COMPLEXITY FIDELITY GENEROSIT",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-layer-cut",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "canvases": [],
+    "images": [],
+    "height": 670,
+    "text": "ACT( )RS\n\nBlinded by screens, in a narrative cage,\nBut there's a call beyond, igniting our rage.\nEvery show, every story, molding the pics in our head,\nTime to shatter the frames, live by our own thread.",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-liquid-grid",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "SPATIAL COLLECTION\nA field of images.\n拖动这个空间，观察图像、折射与回弹的关系。\n按住画面拖动\n折射：开启\n复位\nLOCAL DESIGN STUDY",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-metal-name",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "GENERATIVE IDENTITY\nBuilt from a name.\n同一个字形，在连续截面与扭转中形成结构。\n字形\n扭转\n切换材质\nLOCAL DESIGN STUDY",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-persistent-gallery",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [
+      {
+        "src": "./assets/1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/3.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/4.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/5.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/6.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/7.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/8.webp",
+        "loaded": true
+      },
+      {
+        "src": "./assets/9.webp",
+        "loaded": true
+      }
+    ],
+    "height": 5709,
+    "text": "#WebGL Pixel Effect on #Scroll with #GSAP, #Three.js and #Astro\nNORTHERN\nEXPEDITIONS\n1970–1978\n\nMorning Ascent\n\nDark spruce forest frowned on either side the\nfrozen waterway. The trees had been stripped by\na recent wind of their white covering of fro",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-reaction-diffusion",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 300,
+        "height": 150
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "WebGPU Refraction Diffusion by atuin.media\nSubscribe to our frontend news",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-rounded-menu",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "canvases": [],
+    "images": [],
+    "height": 670,
+    "text": "2018\nA\nS\nO\nR\n\n“WHEN YOU REALIZE NOTHING IS LACKING, THE WHOLE WORLD BELONGS TO YOU.”\n\n2019\nASOR\nClothing Dresses Accessories Brands\nLogin \nNew In\nBlouses\nJeans\nBlazers\nTrousers\nLingerie\nSwimwear\nDiscounts\nT-Shirts\nParty\nBasics\nTrending\nNew Season\nHol",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-shape-ascii",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 562,
+        "height": 562
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "ASCII LOGO\nBY EDOARDO LUNARDI\ndark\nlight",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-spatial-product",
+    "errors": [],
+    "console": [
+      "THREE.THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false\n\nMaterial Name: \nMaterial Type: ShaderMaterial\n\nProgram Info Log: Fragment shader is not compiled.\n\nFRAGMENT\n\nWARNING: 0:56: 'glslify' : unrecognized pragma\nERROR: 0:83: 'snoise' : no matching overloaded function found\n\n  78:   float dist = length(centeredUv);\n  79:   float radius = 0.6;\n  80:   float mask = 1.0 - smoothstep(radius - 0.01, radius + 0.01, dist);\n  81: \n  82:   // Noise Generation\n> 83:   float n = snoise(noiseUv * uScale + uTime * 0.05);\n  84: \n  85:   // Isolines\n  86:   float lines = fract(n * 5.0);\n  87:   float pattern = smoothstep(0.5 - uLineThickness, 0.5, lines) - smoothstep(0.5, 0.5 + uLineThickness, lines);\n  88: \n  89:   // Opacity"
+    ],
+    "resourceErrors": [],
+    "ready": false,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      },
+      {
+        "width": 88,
+        "height": 99
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "Shoe Grid\nCurvature Strength\nRotation Strength\nFocus Scale\nDim Scale\nDim Opacity\nDrag Speed\nDamp Factor\nTilt Factor\nZoom In\nZoom Damp\nZoom Out\nTransition\nEnter Start Opacity\nEnter Start Z\nExit End Z\nTransition Z Damp\nEnter Opacity Damp\nExit Opacity D",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-stylized-water",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 754,
+    "text": "Sky\nBackground\nWater\nNear\nFar\nWater Level\nWave Speed\nWave Amplitude\nTexture Size\nFoam\nRocks\nColor\nMoss\nTerrain\nSand\nGrass\nUnderwater\nEnablesound",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-telescope",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-big.jpg",
+        "loaded": true
+      },
+      {
+        "src": "./img-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-3.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-4.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-9.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-6.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-7.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-8.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-9.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-10.webp",
+        "loaded": true
+      }
+    ],
+    "height": 1340,
+    "text": "Telescope Zoom Animation on #Scroll with #GSAP\nfor the\nplanet",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-thumbnail-flow",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [],
+    "images": [
+      {
+        "src": "./img-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-1.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-2.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-3.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-4.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-5.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-6.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-7.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-8.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-9.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-10.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-11.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-12.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-13.webp",
+        "loaded": true
+      },
+      {
+        "src": "./img-14.webp",
+        "loaded": true
+      }
+    ],
+    "height": 670,
+    "text": "Image Flow Effect Using #GSAP MotionPath Plugin\nArticle\nAll demos\nGitHub\n\nEffects:\n\n01\n02\n03\n04\n+ Open\nClose\n\n01 — Some Text\n\n01\n\n02\n\n03\n\n04\n\n05\n\n06\n\n07\n\n08\n\n09\n\n10\n\n11\n\n12\n\n13\n\n14",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-tooltip-gallery",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "canvases": [],
+    "images": [],
+    "height": 723,
+    "text": "◀ Back\n23XA B320\nRobotics\n\nRobotics develops machines that can substitute for humans and replicate human actions. Robots can be used in many situations for many purposes, but today many are used in dangerous environments (including inspection of radi",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": false
+  },
+  {
+    "id": "curated-vortex-glass",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 64,
+        "height": 64
+      },
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "Debug\nRenderer\nGalaxy\nTester\nSpeed\nFrequency\nDistortion\nEmission Color\nEmission Multiplier\nSphere\nEnvironment\nTop Color\nBottom Color",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-webgl-reveal",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 4613,
+    "text": "Revealing\nWebGL Images\nVariations\n1\n2\n3\n4\n5\nEmbrace of Heat\n2023\nSilence in Sand\n2022\nWhispers of Earth\n2024\nMirage in Time\n2021\nVeiled in Gold\n2023\nAncient Sands Speak\n2022\nDreams of Dust\n2024\nGilded Sands Sing\n2021\nMirrored Illusions Fade\n2023\nRipp",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  },
+  {
+    "id": "curated-webgpu-route",
+    "errors": [],
+    "console": [],
+    "resourceErrors": [],
+    "ready": true,
+    "canvases": [
+      {
+        "width": 1100,
+        "height": 670
+      }
+    ],
+    "images": [],
+    "height": 670,
+    "text": "93%\nSelected\nIndex\nSelected\nSeealpsee\nK2\nThe North Face\nMount Cook\nMount Everest\nBNPNE\nTutorial Source All demos",
+    "gpu": true,
+    "laterErrors": [],
+    "imageChange": true
+  }
+]

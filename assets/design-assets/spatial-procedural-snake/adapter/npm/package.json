@@ -1,0 +1,6 @@
+{
+  "name": "motion-vault-spatial-procedural-snake-local-build",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": { "three": "0.182.0", "simplex-noise": "4.0.3" }
+}

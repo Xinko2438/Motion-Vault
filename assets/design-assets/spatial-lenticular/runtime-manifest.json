@@ -1,0 +1,63 @@
+{
+  "schema": "motion-vault.local-runtime.v1",
+  "id": "spatial-lenticular",
+  "entry": "run/index.html",
+  "network": "local manifest-listed files plus authored embedded data/blob URLs only",
+  "sandbox": "allow-scripts; no allow-same-origin",
+  "files": [
+    {
+      "path": "run/effect.css",
+      "bytes": 46,
+      "sha256": "983f94922ca07e94aef2712b2fbb14653f3f6ed3ab674b30eaccc8234017c897",
+      "mime": "text/css"
+    },
+    {
+      "path": "run/effect.js",
+      "bytes": 1761704,
+      "sha256": "1ba0c2a292ec02234f5752feb4876921cad9cab24033c9f8a602a50f28b2e331",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "run/environment/venice_sunset_1k.hdr",
+      "bytes": 1440400,
+      "sha256": "92fe2b29b1957828fb8925a57633540bbba5bf380d9285ed553443e834249352",
+      "mime": "image/vnd.radiance"
+    },
+    {
+      "path": "run/index.html",
+      "bytes": 776,
+      "sha256": "f9acc256beb0a694ff913bdf17d611644cbe82229d9480b7e42ecd9af0e1dee1",
+      "mime": "text/html"
+    },
+    {
+      "path": "run/textures/evil-angel/angel.png",
+      "bytes": 244641,
+      "sha256": "704cacb7c7a13fdb4ca168c5b2f58c4c59fd5ccc91073a478f80670d05e5eae5",
+      "mime": "image/png"
+    },
+    {
+      "path": "run/textures/evil-angel/evil.png",
+      "bytes": 185600,
+      "sha256": "190e3f839008f10e59fea82306b6d7ed39d7110d3f5bcdc29830a98ecb488950",
+      "mime": "image/png"
+    },
+    {
+      "path": "run/textures/summer-winter/summer.png",
+      "bytes": 444149,
+      "sha256": "9cd97cf85168f636430112bd353ac65a291141d09caccc2b82d22fbc5fa532f7",
+      "mime": "image/png"
+    },
+    {
+      "path": "run/textures/summer-winter/winter.png",
+      "bytes": 473683,
+      "sha256": "2c89b6337ec860d0700c126419f131b22d1df871f1ca696669bac01719f0aac9",
+      "mime": "image/png"
+    },
+    {
+      "path": "run/vault-isolation.js",
+      "bytes": 4359,
+      "sha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+      "mime": "text/javascript"
+    }
+  ]
+}

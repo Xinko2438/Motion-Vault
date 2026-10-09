@@ -1,0 +1,103 @@
+{
+  "at": "2026-10-06T11:40:05.219Z",
+  "candidateHash": "355faf473712e49b9b1ceef520907dacf9a8f115d0847522f1d68487cb34cfd8",
+  "reports": [
+    {
+      "id": "curated-glass-torus",
+      "passed": true,
+      "live": false,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true
+    },
+    {
+      "id": "curated-spatial-product",
+      "passed": true,
+      "live": false,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ],
+        [
+          88,
+          99
+        ]
+      ],
+      "images": true,
+      "gpu": true
+    },
+    {
+      "id": "curated-camera-route",
+      "passed": true,
+      "live": false,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "passed": true,
+      "live": false,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true
+    },
+    {
+      "id": "curated-webgpu-route",
+      "passed": true,
+      "live": false,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true
+    },
+    {
+      "id": "curated-rounded-menu",
+      "passed": true,
+      "live": false,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true
+    }
+  ],
+  "passed": 6,
+  "total": 6
+}

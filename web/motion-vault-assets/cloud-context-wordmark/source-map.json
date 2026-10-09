@@ -1,0 +1,14 @@
+[
+  {
+    "path": "source/index.html",
+    "role": "authoritative_independent_source"
+  },
+  {
+    "path": "source/effect.js",
+    "role": "extracted_reading_copy_not_separate_loader"
+  },
+  {
+    "path": "adapter/native-lifecycle.js",
+    "role": "explicit owned ready/dispose contract"
+  }
+]

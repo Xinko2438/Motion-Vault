@@ -1,0 +1,47 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-webgl-lens",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "Cloud WORK source adaptation only; no local integration/publication/browser execution",
+  "baselineDefiniteGaps": [
+    "Earlier readiness did not include Troika glyph work or actual screen-target render completion.",
+    "Demand invalidate alone could leave the authored global render queue empty. Reduced smooth scrolling duration0 does not disable Lenis smoothing.",
+    "Paused paint returned before the authored FBO render. Texture.dispose alone did not close ImageBitmap data; late bitmap/font/decoder work could outlive teardown."
+  ],
+  "sourceFixes": [
+    "Ready Promise gates four exact tracked OFL fonts, local photographs/HDR/Draco model, nine actual text onSync values and a later screen-target render submission.",
+    "Use stable state getters and read current R3F store before mode comparison. Demand repaint also requests the authored global render queue. Reduced motion uses native wheel scrolling, keeps input active, and removes lens damping.",
+    "Manual paused paint freezes simulation but still renders the authored portal/FBO. Full transmission material parameter block remains byte-identical.",
+    "Explicit owned ImageBitmap/URL cache, Troika XHR/SDF/atlas and late Draco initialization guards clean up terminal resources. External source link is non-navigating in embedded runtime."
+  ],
+  "loaderAudit": [
+    "Font files -> broker fetch ArrayBuffer -> FontFace; same bytes -> transient Blob font URLs -> Troika main-thread XHR typesetter. CSP font-src none does not permit external font URL loads.",
+    "Photos -> broker bytes -> owned Blob URLs -> DOM img/ImageBitmapLoader textures. HDR/GLB -> FileLoader -> broker.",
+    "Pinned local Draco JS+WASM fetched on main thread through broker and decoded in an owned Blob worker; worker-src blob and wasm-unsafe-eval scoped in CSP. No Troika worker/eval path."
+  ],
+  "renderer": "Three157 WebGL renderer, authored half-float FBO/transmission material and Troika SDF; actual float-render-target, GLSL and decoder support still require target GPU/browser.",
+  "nativeInputAndReducedMotion": "Original scroll-rig, lens pointer, editorial page scroll and effects toggle retained; inner1100x670 is scaled by host, not a mobile-size redesign.",
+  "sourceEvidence": [
+    "adapter/runtime.jsx:16-22",
+    "adapter/runtime.jsx:32-96",
+    "adapter/source/src/Lens.jsx:14-38",
+    "adapter/troika-transform.mjs",
+    "adapter/build.mjs"
+  ],
+  "runtimePending": [
+    "Final trusted native-pointer / nonce lifecycle bridge must be injected and manifest-listed by Motion Vault packaging.",
+    "Opaque allow-scripts-only origin: actual CSP, broker, texture/font/model decode and first frame require browser verification.",
+    "GPU shader/material/FBO correctness, original1100x670 composition, native drag/scroll/touch and cross-boundary release remain untested.",
+    "Normal/reduced startup and live preference changes; stop-before-ready/resume/dispose/reopen and resource/memory behavior remain untested.",
+    "Local application/publication remains gated on compatibility; source build/parse/mock checks do not establish runtime acceptance."
+  ],
+  "initializationContract": "ready Promise; isReady Boolean; actual required resource and initial render predicates, rejecting failures. Fulfillment is not visual acceptance.",
+  "disposalContract": "Terminal/idempotent dispose; may return Promise. Host frame destruction remains the final isolation boundary.",
+  "staticEvidence": {
+    "report": "qa-static.json",
+    "rebuild": "qa-rebuild.json",
+    "bundleSha256": "e0ebb39ca663216aa05022d7d89d9c0994705ddf1d73c8cacc77f28188b15e98",
+    "runtimeExecuted": false
+  },
+  "mediaRights": "Existing independent media/font/license caveats retained; compatibility checks do not clear third-party asset rights."
+}

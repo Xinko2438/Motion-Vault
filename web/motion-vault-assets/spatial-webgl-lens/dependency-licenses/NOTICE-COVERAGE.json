@@ -1,0 +1,950 @@
+{
+  "bundleSha256": "59457c33541f544bc8222edae8c6b08f997c99c9221cb302152ccabadec01404",
+  "bundledPackageLocations": 42,
+  "inventory": [
+    {
+      "name": "@14islands/r3f-scroll-rig",
+      "version": "8.12.3",
+      "declaredLicense": "ISC",
+      "bytesInOutput": 45310,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@14islands/r3f-scroll-rig/dist/scrollrig.modern.js",
+        "../../build/spatial-webgl-lens/node_modules/@14islands/r3f-scroll-rig/dist/powerups.modern.js",
+        "../../build/spatial-webgl-lens/node_modules/@14islands/r3f-scroll-rig/dist/scrollrig.css"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@14islands-r3f-scroll-rig-LICENSE",
+          "sha256": "baac31e39835ea40c05b19cf74af5b80a09c22dcced49ffe727ff1d31ed3ed0e",
+          "source": "build/spatial-webgl-lens/node_modules/@14islands/r3f-scroll-rig/LICENSE"
+        }
+      ],
+      "declarationMismatch": "package.json says ISC; distributed LICENSE contains MIT permission text and Copyright (c) 2023 14 Islands AB. Preserve exact LICENSE rather than silently replacing it with generic ISC."
+    },
+    {
+      "name": "@babel/runtime",
+      "version": "7.29.7",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 470,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@babel/runtime/helpers/esm/extends.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@babel__runtime@7.29.7-LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76",
+          "source": "build/spatial-webgl-lens/node_modules/@babel/runtime/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@juggle/resize-observer",
+      "version": "3.4.0",
+      "declaredLicense": "Apache-2.0",
+      "bytesInOutput": 26331,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/resizeObservers.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/hasActiveObservations.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/hasSkippedObservations.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/deliverResizeLoopError.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObserverBoxOptions.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/freeze.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObserverSize.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/DOMRectReadOnly.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/element.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/global.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/calculateBoxSize.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObserverEntry.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/calculateDepthForNode.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/broadcastActiveObservations.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/algorithms/gatherActiveObservationsAtDepth.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/process.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/queueMicroTask.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/queueResizeObserver.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/utils/scheduler.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObservation.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObserverDetail.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObserverController.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/ResizeObserver.js",
+        "../../build/spatial-webgl-lens/node_modules/@juggle/resize-observer/lib/exports/resize-observer.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@juggle__resize-observer@3.4.0-LICENSE",
+          "sha256": "293c905e2ec4f6c30c4684592898fd24215ac735f0601b07b158d1588c8a5af7",
+          "source": "build/spatial-webgl-lens/node_modules/@juggle/resize-observer/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-spring/animated",
+      "version": "9.7.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 10753,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-spring/animated/dist/react-spring_animated.modern.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-spring-three-LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "source": "build/spatial-webgl-lens/node_modules/@react-spring/animated/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-spring/core",
+      "version": "9.7.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 61115,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-spring/core/dist/react-spring_core.modern.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-spring-three-LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "source": "build/spatial-webgl-lens/node_modules/@react-spring/core/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-spring/rafz",
+      "version": "9.7.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 4563,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-spring/rafz/dist/react-spring_rafz.modern.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-spring-three-LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "source": "build/spatial-webgl-lens/node_modules/@react-spring/rafz/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-spring/shared",
+      "version": "9.7.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 29401,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-spring/shared/dist/react-spring_shared.modern.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-spring-three-LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "source": "build/spatial-webgl-lens/node_modules/@react-spring/shared/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-spring/three",
+      "version": "9.7.3",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 977,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-spring/three/dist/react-spring_three.modern.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-spring-three-LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "source": "build/spatial-webgl-lens/node_modules/@react-spring/three/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-spring/types",
+      "version": "9.7.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 168,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-spring/types/dist/react-spring_types.modern.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-spring-three-LICENSE",
+          "sha256": "51863a051d919d260e725327cb58df68d04289919d90fa64283beb9c646a2b02",
+          "source": "build/spatial-webgl-lens/node_modules/@react-spring/types/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-three/drei",
+      "version": "9.86.3",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 48382,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/useProgress.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/web/Loader.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/Text.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/shaderMaterial.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/useTexture.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/helpers/constants.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/Image.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/useGLTF.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/useFBO.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/helpers/glsl/distort.vert.glsl.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/MeshDistortMaterial.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/MeshWobbleMaterial.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/materials/DiscardMaterial.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/MeshTransmissionMaterial.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/shapes.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/helpers/environment-assets.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/useEnvironment.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/core/Environment.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-three-drei-LICENSE",
+          "sha256": "2e36b208b403882158daf95cae207087bbb830db4d434a79ebafffca177244c8",
+          "source": "build/spatial-webgl-lens/node_modules/@react-three/drei/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "suspend-react",
+      "version": "0.1.3",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 2092,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-three/drei/node_modules/suspend-react/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/suspend-react@0.1.3-LICENSE",
+          "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2",
+          "source": "build/spatial-webgl-lens/node_modules/@react-three/drei/node_modules/suspend-react/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@react-three/fiber",
+      "version": "8.14.4",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 74026,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-three/fiber/dist/index-dc6125bc.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/@react-three/fiber/dist/react-three-fiber.esm.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-three__fiber@8.14.4-LICENSE",
+          "sha256": "ebd6a29bec64bdfcf8795388f2eceaf1479c14d343c0846de347ab8609d66139",
+          "source": "https://github.com/pmndrs/react-three-fiber/blob/3b5e7491190a8e457a4163beea005bcc321c429c/LICENSE",
+          "gitBlobSha": "8268b7a4ebff68143b9a14a98b5a38d6ae961774"
+        }
+      ]
+    },
+    {
+      "name": "suspend-react",
+      "version": "0.1.3",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 2466,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@react-three/fiber/node_modules/suspend-react/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/suspend-react@0.1.3-LICENSE",
+          "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2",
+          "source": "build/spatial-webgl-lens/node_modules/@react-three/fiber/node_modules/suspend-react/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "@studio-freight/lenis",
+      "version": "1.0.42",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 16358,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/@studio-freight/lenis/dist/lenis.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@studio-freight__lenis@1.0.42-SUPPLEMENTARY-LICENSE",
+          "sha256": "7d1896b31f2eed9f286b05faca067c4e35b2f109ae7c4ed5105220e2d2820228",
+          "source": "https://github.com/darkroomengineering/lenis/blob/main/LICENSE",
+          "gitBlobSha": "4960877b2aad0e450491cb902d66e825d19acf80"
+        }
+      ],
+      "provenanceCaveat": "Published 1.0.42 declares MIT but contains no LICENSE file. Exact release commit e725e862778b8c45679e8b9901768a77db8a6d26 contains no license/notice file either. Current publisher notice is supplementary, not claimed to originate in that release."
+    },
+    {
+      "name": "bidi-js",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 36728,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/bidi-js/dist/bidi.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/bidi-js@1.1.0-LICENSE.txt",
+          "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+          "source": "build/spatial-webgl-lens/node_modules/bidi-js/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "name": "debounce",
+      "version": "1.2.1",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 1538,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/debounce/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/debounce@1.2.1-LICENSE",
+          "sha256": "87c2f96d275cd4fb2b047e23f792f34704ffb798949039da60392b7122685412",
+          "source": "build/spatial-webgl-lens/node_modules/debounce/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "decode-uri-component",
+      "version": "0.2.2",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 2463,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/decode-uri-component/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/decode-uri-component@0.2.2-license",
+          "sha256": "ed7a9a0f74e43951b2520efe1a4349cb9ed5f3dff0b0f268e2e51a4d38df7ea4",
+          "source": "build/spatial-webgl-lens/node_modules/decode-uri-component/license"
+        }
+      ]
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 1446,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/fast-deep-equal/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/fast-deep-equal@3.1.3-LICENSE",
+          "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+          "source": "build/spatial-webgl-lens/node_modules/fast-deep-equal/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "filter-obj",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 588,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/filter-obj/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/filter-obj@1.1.0-license",
+          "sha256": "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c",
+          "source": "build/spatial-webgl-lens/node_modules/filter-obj/license"
+        }
+      ]
+    },
+    {
+      "name": "its-fine",
+      "version": "1.2.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 4970,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/its-fine/dist/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/its-fine@1.2.5-LICENSE",
+          "sha256": "978e8e1b1678b5e73758171a2d1a3cc1b2732495874a5e82d4a73a290e66158b",
+          "source": "build/spatial-webgl-lens/node_modules/its-fine/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "maath",
+      "version": "0.10.8",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 21166,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/objectSpread2-284232a6.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/isNativeReflectConstruct-5594d075.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/matrix-baa530bf.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/triangle-b62b9067.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/misc-19a3ec46.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/vector2-d2bf51f1.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/vector3-0a088b7f.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/buffer-59a95d05.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/classCallCheck-9098b006.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/index-0332b2ed.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/easing-0f4db1c0.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/geometry-0fb11825.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/three-eb2ad8c0.esm.js",
+        "../../build/spatial-webgl-lens/node_modules/maath/dist/maath.esm.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/maath@0.10.8-MIT-DECLARATION.txt",
+          "sha256": "3934d532df70a0f38a0f88baeeb3ff96f0373b0a87c4fb1a8ee527417359b1a9",
+          "source": "Published package.json and exact release tree"
+        }
+      ],
+      "unresolved": "Upstream omits full license/copyright notice; MIT metadata preserved; exact publisher notice not established."
+    },
+    {
+      "name": "query-string",
+      "version": "6.14.1",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 11715,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/query-string/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/query-string@6.14.1-license",
+          "sha256": "846c2349412e40c3c33095b2903f6a311ef4b30ccd26c214044a2cdc24fdc5cc",
+          "source": "build/spatial-webgl-lens/node_modules/query-string/license"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "version": "18.2.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 10892,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/react/cjs/react.production.min.js",
+        "../../build/spatial-webgl-lens/node_modules/react/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-dom-LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "source": "build/spatial-webgl-lens/node_modules/react/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "18.2.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 246992,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/react-dom/cjs/react-dom.production.min.js",
+        "../../build/spatial-webgl-lens/node_modules/react-dom/index.js",
+        "../../build/spatial-webgl-lens/node_modules/react-dom/client.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-dom-LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "source": "build/spatial-webgl-lens/node_modules/react-dom/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.23.2",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 8025,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/react-dom/node_modules/scheduler/cjs/scheduler.production.min.js",
+        "../../build/spatial-webgl-lens/node_modules/react-dom/node_modules/scheduler/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-dom-LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "source": "build/spatial-webgl-lens/node_modules/react-dom/node_modules/scheduler/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "react-intersection-observer",
+      "version": "9.16.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 5373,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/react-intersection-observer/dist/index.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-intersection-observer@9.16.0-LICENSE",
+          "sha256": "6c6d295c4af5a9252d64200b9e3cb01374d9d3efd80b301fd94b04e280043f8e",
+          "source": "build/spatial-webgl-lens/node_modules/react-intersection-observer/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "react-reconciler",
+      "version": "0.27.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 186835,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/react-reconciler/cjs/react-reconciler-constants.production.min.js",
+        "../../build/spatial-webgl-lens/node_modules/react-reconciler/constants.js",
+        "../../build/spatial-webgl-lens/node_modules/react-reconciler/cjs/react-reconciler.production.min.js",
+        "../../build/spatial-webgl-lens/node_modules/react-reconciler/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-dom-LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "source": "build/spatial-webgl-lens/node_modules/react-reconciler/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "react-use-measure",
+      "version": "2.1.7",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 4405,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/react-use-measure/dist/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-use-measure@2.1.7-LICENSE",
+          "sha256": "1f9038eff8dbd6505a26f9d6830cc6da2b87ab1a9305d1100884986e9c11a31a",
+          "source": "build/spatial-webgl-lens/node_modules/react-use-measure/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.21.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 7982,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/scheduler/cjs/scheduler.production.min.js",
+        "../../build/spatial-webgl-lens/node_modules/scheduler/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/react-dom-LICENSE",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "source": "build/spatial-webgl-lens/node_modules/scheduler/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "split-on-first",
+      "version": "1.1.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 724,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/split-on-first/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/split-on-first@1.1.0-license",
+          "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+          "source": "build/spatial-webgl-lens/node_modules/split-on-first/license"
+        }
+      ]
+    },
+    {
+      "name": "strict-uri-encode",
+      "version": "2.0.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 311,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/strict-uri-encode/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/strict-uri-encode@2.0.0-license",
+          "sha256": "e6fdf7ac2af533b4436d99aa75df32aa78690510f7d68a3e73e8576967298d2f",
+          "source": "build/spatial-webgl-lens/node_modules/strict-uri-encode/license"
+        }
+      ]
+    },
+    {
+      "name": "supports-webp",
+      "version": "3.0.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 521,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/supports-webp/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/supports-webp@3.0.0-license",
+          "sha256": "4f1216089ff1fae958e88dfa72aad4319bd168ab6336cc595ed9104f2b2b27f2",
+          "source": "build/spatial-webgl-lens/node_modules/supports-webp/license"
+        }
+      ]
+    },
+    {
+      "name": "suspend-react",
+      "version": "0.0.8",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 1626,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/suspend-react/dist/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/suspend-react@0.1.3-LICENSE",
+          "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2",
+          "source": "build/spatial-webgl-lens/node_modules/suspend-react/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.157.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 1342531,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/three/build/three.module.js",
+        "../../build/spatial-webgl-lens/node_modules/three/examples/jsm/loaders/DRACOLoader.js",
+        "../../build/spatial-webgl-lens/node_modules/three/src/math/MathUtils.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/three-LICENSE",
+          "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+          "source": "build/spatial-webgl-lens/node_modules/three/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "three-stdlib",
+      "version": "2.36.1",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 231198,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/_polyfill/constants.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/utils/BufferGeometryUtils.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/objects/GroundProjectedEnv.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/_polyfill/LoaderUtils.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/loaders/GLTFLoader.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/loaders/RGBELoader.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/loaders/EXRLoader.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/loaders/DRACOLoader.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/libs/MeshoptDecoder.js",
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/three-stdlib@2.36.1-LICENSE",
+          "sha256": "28eb7edf059a39094aa3d169db1fec46ac4a6279c921a90f965828d92ec86e79",
+          "source": "build/spatial-webgl-lens/node_modules/three-stdlib/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "fflate",
+      "version": "0.6.11",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 9940,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/three-stdlib/node_modules/fflate/esm/browser.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/fflate@0.6.11-LICENSE",
+          "sha256": "62249119bb7df6e54300f37a37145c26a6d4420410aac8881a119c5b427cf751",
+          "source": "build/spatial-webgl-lens/node_modules/three-stdlib/node_modules/fflate/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "troika-three-text",
+      "version": "0.47.2",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 146110,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/troika-three-text/dist/troika-three-text.esm.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/troika-three-text-LICENSE",
+          "sha256": "c514829145810d3bf5730a78b5054250bd1b711b2823f2fc58c2ba89930bce5c",
+          "source": "build/spatial-webgl-lens/node_modules/troika-three-text/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "troika-three-utils",
+      "version": "0.47.2",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 11302,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/troika-three-utils/dist/troika-three-utils.esm.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/troika-three-text-LICENSE",
+          "sha256": "c514829145810d3bf5730a78b5054250bd1b711b2823f2fc58c2ba89930bce5c",
+          "source": "build/spatial-webgl-lens/node_modules/troika-three-utils/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "troika-worker-utils",
+      "version": "0.47.2",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 1015,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/troika-worker-utils/src/mainThreadFallback.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/troika-three-text-LICENSE",
+          "sha256": "c514829145810d3bf5730a78b5054250bd1b711b2823f2fc58c2ba89930bce5c",
+          "source": "build/spatial-webgl-lens/node_modules/troika-worker-utils/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "vecn",
+      "version": "1.3.1",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 20228,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/vecn/src/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/vecn@1.3.1-LICENSE",
+          "sha256": "701e33a022ce5f12e7c6b3d4b8ce2266dd69d18fb3b093a322b9f3e9324227a5",
+          "source": "build/spatial-webgl-lens/node_modules/vecn/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "webgl-sdf-generator",
+      "version": "1.1.1",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 27755,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/webgl-sdf-generator/dist/webgl-sdf-generator.mjs"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/bidi-js@1.1.0-LICENSE.txt",
+          "sha256": "49d4d143fed599deb502a0fe6e02f49832f87e9a3a4cd0502e469596d50faa6d",
+          "source": "build/spatial-webgl-lens/node_modules/webgl-sdf-generator/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "name": "zustand",
+      "version": "3.7.2",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 4665,
+      "inputs": [
+        "../../build/spatial-webgl-lens/node_modules/zustand/esm/index.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/zustand@3.7.2-LICENSE",
+          "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417",
+          "source": "build/spatial-webgl-lens/node_modules/zustand/LICENSE"
+        }
+      ]
+    }
+  ],
+  "embeddedVendors": [
+    {
+      "name": "meshoptimizer",
+      "version": "0.14",
+      "containedIn": "three-stdlib@2.36.1/libs/MeshoptDecoder.js",
+      "reason": "WASM decoder bytes are bundled even if runtime calls disable Meshopt. Original source map states built from meshoptimizer 0.14 and copyright 2016-2020 Arseny Kapoulkine.",
+      "notices": [
+        {
+          "path": "dependency-licenses/meshoptimizer@0.14-MIT-LICENSE.md",
+          "sha256": "5659fff08d177c50acd9905482b0103f6d73263235b3282cdffa9b7e7a6b2db2",
+          "source": "https://github.com/zeux/meshoptimizer/blob/v0.14/LICENSE.md",
+          "gitBlobSha": "4fcd766d22b48d14851305f790cfdd55616dc64d"
+        }
+      ]
+    },
+    {
+      "name": "Typr.ts",
+      "version": "@fredli74/typr 0.3.7 per troika-three-text package devDependencies",
+      "containedIn": "troika-three-text@0.47.2/libs/typr.factory.js",
+      "provenance": "Official master LICENSE explicitly linked by retained upstream bundle banner; not claimed to be a release-tag lookup.",
+      "notices": [
+        {
+          "path": "dependency-licenses/Typr.ts-MIT-LICENSE",
+          "sha256": "44b8cdb76bb7adb8fb3ca23a63d4bbf32c2be201bae44106e712094e6cff42a7",
+          "source": "https://github.com/fredli74/Typr.ts/blob/master/LICENSE",
+          "gitBlobSha": "031dd5e15fcbef813db5a1bb2bb83177b201f369"
+        }
+      ]
+    },
+    {
+      "name": "woff2otf",
+      "containedIn": "troika-three-text@0.47.2/libs/woff2otf.factory.js",
+      "notices": [
+        {
+          "path": "dependency-licenses/woff2otf-ATTRIBUTION.txt",
+          "sha256": "32460a6c0b7a43e78e79b6e69e80a77d70f6bab1dc29dd780c2187f4a3f65b76",
+          "source": "build/spatial-webgl-lens/node_modules/troika-three-text/src/woff2otf.js",
+          "licenseText": "dependency-licenses/draco-APACHE-2.0.txt"
+        }
+      ],
+      "modifiedUpstream": "Preserved Steffen Hanikel 2012 copyright, Artemy Tregubenko 2014 and Jason Johnston 2019 modification notices. Full Apache 2.0 text already shipped."
+    },
+    {
+      "name": "fflate embedded in troika",
+      "version": "troika build dependency range ^0.7.0; exact embedded build version unrecorded",
+      "containedIn": "troika-three-text@0.47.2/libs/woff2otf.factory.js",
+      "notices": [
+        {
+          "path": "dependency-licenses/fflate-embedded-troika-MIT-LICENSE",
+          "sha256": "0a1df3a083d0c010560aa342e87959c8c1070e6fd54545741f083f22d0c8b551",
+          "source": "build/spatial-webgl-lens/node_modules/fflate/LICENSE"
+        }
+      ],
+      "provenance": "Arjun Barrett 2020 MIT notice from local official package; distinct from separately bundled three-stdlib nested fflate 0.6.11."
+    },
+    {
+      "name": "Draco",
+      "source": "three@0.157.0 examples/jsm/libs/draco/gltf",
+      "notices": [
+        {
+          "path": "dependency-licenses/draco-APACHE-2.0.txt"
+        }
+      ],
+      "verification": "All three runtime files unchanged and hash-matched; full Apache 2.0 text shipped. No separate NOTICE file found in the pinned Three Draco distribution. No new required Draco notice gap established."
+    },
+    {
+      "name": "Poppins and Playfair Display",
+      "license": "OFL-1.1",
+      "files": [
+        {
+          "sourcePath": "source/public/fonts/PlayfairDisplay-Italic.woff",
+          "proposedRuntimePath": "run/fonts/PlayfairDisplay-Italic.woff",
+          "bytes": 50932,
+          "sha256": "44ef21f3734a8fd344563c2738af3fc0f0820bf4dd8b5cd1a51ed78b8687a6e3",
+          "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/PlayfairDisplay-Italic.woff",
+          "nameTable": {
+            "0": [
+              "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
+            ],
+            "1": [
+              "Playfair Display"
+            ],
+            "2": [
+              "Italic"
+            ],
+            "3": [
+              "1.203;FTH;PlayfairDisplay-Italic"
+            ],
+            "5": [
+              "Version 1.203"
+            ],
+            "14": [
+              "http://scripts.sil.org/OFL"
+            ]
+          },
+          "license": "SIL Open Font License 1.1",
+          "notice": "font-license-review/playfairdisplay-OFL.txt"
+        },
+        {
+          "sourcePath": "source/public/fonts/Poppins-Medium.woff",
+          "proposedRuntimePath": "run/fonts/Poppins-Medium.woff",
+          "bytes": 65760,
+          "sha256": "9ec8c55ca9a20762804eddbda1f3bb327d2d19245d89a7ee6f2076421c60c6c1",
+          "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/Poppins-Medium.woff",
+          "nameTable": {
+            "0": [
+              "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
+            ],
+            "1": [
+              "Poppins Medium"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "ITFO; Poppins Medium; 4.004b8"
+            ],
+            "5": [
+              "4.004"
+            ],
+            "14": [
+              "https://scripts.sil.org/OFL"
+            ]
+          },
+          "license": "SIL Open Font License 1.1",
+          "notice": "font-license-review/poppins-OFL.txt"
+        },
+        {
+          "sourcePath": "source/public/fonts/Poppins-Regular.woff",
+          "proposedRuntimePath": "run/fonts/Poppins-Regular.woff",
+          "bytes": 66572,
+          "sha256": "c68e1edb2e2414da9f1a46a81131ceeb09e082363d20c8605d5edb929a1bf648",
+          "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/Poppins-Regular.woff",
+          "nameTable": {
+            "0": [
+              "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
+            ],
+            "1": [
+              "Poppins"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "ITFO; Poppins Regular; 4.004b8"
+            ],
+            "5": [
+              "4.004"
+            ],
+            "14": [
+              "https://scripts.sil.org/OFL"
+            ]
+          },
+          "license": "SIL Open Font License 1.1",
+          "notice": "font-license-review/poppins-OFL.txt"
+        },
+        {
+          "sourcePath": "source/public/fonts/Poppins-SemiBold.woff",
+          "proposedRuntimePath": "run/fonts/Poppins-SemiBold.woff",
+          "bytes": 66232,
+          "sha256": "952d2591178ef0c2dea37fb2c14f01e18433c8d59db10f6365c9e1ca9e8efe2a",
+          "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/Poppins-SemiBold.woff",
+          "nameTable": {
+            "0": [
+              "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
+            ],
+            "1": [
+              "Poppins SemiBold"
+            ],
+            "2": [
+              "Regular"
+            ],
+            "3": [
+              "ITFO; Poppins SemiBold; 4.004b8"
+            ],
+            "5": [
+              "4.004"
+            ],
+            "14": [
+              "https://scripts.sil.org/OFL"
+            ]
+          },
+          "license": "SIL Open Font License 1.1",
+          "notice": "font-license-review/poppins-OFL.txt"
+        }
+      ],
+      "verification": "Four approved source/runtime pairs match exact whitelist hashes; both full copyright/OFL notices already present."
+    }
+  ],
+  "status": "covered-with-upstream-notice-provenance-caveats",
+  "mediaRights": "This audit concerns code/vendor/font notices only; author repository license is not independent proof of photo, HDR, model or other media rights."
+}

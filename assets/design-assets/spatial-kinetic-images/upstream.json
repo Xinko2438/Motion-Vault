@@ -1,0 +1,445 @@
+{
+  "id": "spatial-kinetic-images",
+  "source_kind": "adapted_author_source",
+  "repository": "https://github.com/DGFX/codrops-kinetic-images",
+  "commit": "965dda362a8f9e5d522ed675493897200d273e49",
+  "author": "Dominik Fojcik",
+  "article": "https://tympanus.net/codrops/2025/07/09/how-to-create-kinetic-image-animations-with-react-three-fiber/",
+  "demo": "https://tympanus.net/Tutorials/KineticImages/",
+  "license": {
+    "name": "MIT publisher downloadable-demo grant",
+    "file": "CODROPS-DEMO-LICENSE.txt",
+    "url": "https://tympanus.net/codrops/licensing/",
+    "sha256": "c70954b7c1f85ca6201691d6754ac9997680efb35f9462bb59d3ba410a2a18ca",
+    "repositoryLicenseFile": null,
+    "basis": "Codrops article Code link identifies DGFX/codrops-kinetic-images as its downloadable demo. The publisher explicitly licenses downloadable demos under MIT unless otherwise stated. This is distinct from a repo LICENSE.",
+    "verifiedAt": "2026-10-07",
+    "assetRightsExcluded": true
+  },
+  "sourceFiles": [
+    {
+      "path": ".gitignore",
+      "bytes": 474,
+      "sha256": "928d92826254aedcc1bb79cb87c1ea45a0c867cee5bcb7d42c367baccea59769",
+      "gitBlobSha": "01435d7354a87cb238c138b95cf9ea6a66897e95",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/.gitignore"
+    },
+    {
+      "path": ".prettierignore",
+      "bytes": 30,
+      "sha256": "1ff9f001934502772da6840f3d3313365276b5ddae6af20784062a6be08adbf2",
+      "gitBlobSha": "a066a9abbd728b4f312a761ac27e572022078bf8",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/.prettierignore"
+    },
+    {
+      "path": ".prettierrc",
+      "bytes": 144,
+      "sha256": "334d40e0958e8da33550390edd9d4ceeb8c08ede4d6313d76a10afc95d83c8b0",
+      "gitBlobSha": "2984b6583c48f109adaf40568ae682c1d31124f7",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/.prettierrc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1449,
+      "sha256": "c8cbfb7c54536f39eaeda5b05db38f2c1991e272fe0fe64a019eb6b7b7aa57f9",
+      "gitBlobSha": "09a8a4d2c4eadd6bb56f5e72afd0830b38773eaf",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/README.md"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 371,
+      "sha256": "16e2cadd82e7c161629947239d22ba8ae9541a651471e127bf1d292099ddd0a5",
+      "gitBlobSha": "951a702ea28fd51ece8c87a1f6e564e90b56e8d2",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/eslint.config.js"
+    },
+    {
+      "path": "jsconfig.json",
+      "bytes": 95,
+      "sha256": "57450ee4ba1365bd140b35222b12f77220c4929e65c27b000c4b8b0a94ce6f4c",
+      "gitBlobSha": "c4550b6d8f32df073ce096d9d41e500de097e087",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/jsconfig.json"
+    },
+    {
+      "path": "next.config.js",
+      "bytes": 1302,
+      "sha256": "bbc3ee0d8118fb9d2cb7b208d2e3f7282310e60d17dbe58499cda82e335a3f75",
+      "gitBlobSha": "ff4aa966bf8e8e621ee79f25e2da6757dfb86319",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/next.config.js"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 371187,
+      "sha256": "c84167b6bd6323273ed3166e6ae72e3d0de0f98ee4f50bee58aff75bcfa4c08b",
+      "gitBlobSha": "4ee5776dd919f5ee74ffd1d48bdcac07d8907a65",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/package-lock.json"
+    },
+    {
+      "path": "package.json",
+      "bytes": 971,
+      "sha256": "14e4fddf6690da35374057c193bb0029695abc4b954140488cfcf21931dbba5e",
+      "gitBlobSha": "29f9112465989102633b4bb40fa08321abe9ba5a",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/package.json"
+    },
+    {
+      "path": "public/banner.jpg",
+      "bytes": 32499,
+      "sha256": "dd9e4cf358b09a9ad4b9e6b08ea02b8c4d365ae1abdf23c7a40d6a17c65cca33",
+      "gitBlobSha": "07c5e0bf09f52a46bf9285267e7e0110c81010d9",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/banner.jpg"
+    },
+    {
+      "path": "public/images/img1.webp",
+      "bytes": 89092,
+      "sha256": "84eeda1d9b08c5b80cc6a5481ab3a7117df3d42ddc5fd3df8438173d43964f84",
+      "gitBlobSha": "fc63285c66d646bcead5c3fbf010e0ddb81be069",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img1.webp"
+    },
+    {
+      "path": "public/images/img10.webp",
+      "bytes": 225900,
+      "sha256": "06d2cbceb8daefbe891139d4c08f86e7e7fbf6f94c3c7fabf89fe655eb5f8e36",
+      "gitBlobSha": "5f21026c9aca777c669e621c6fe8d96487ff776d",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img10.webp"
+    },
+    {
+      "path": "public/images/img11.webp",
+      "bytes": 17294,
+      "sha256": "8412d54fc40ad2c899776a05e0d929e3daa9b7eaaa68f36d8686db8333477153",
+      "gitBlobSha": "211e13847f9c475d32fbf32cabb284eae4aef5da",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img11.webp"
+    },
+    {
+      "path": "public/images/img12.webp",
+      "bytes": 143348,
+      "sha256": "7d71c8713318af2480f81e0eea07d893fae6bbdaa850e43456c51ad4d6dd9fef",
+      "gitBlobSha": "eaf56e56f701be20067359d7080cca2d5225e6dc",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img12.webp"
+    },
+    {
+      "path": "public/images/img13.webp",
+      "bytes": 78228,
+      "sha256": "ac60426351b9061b9766322153cbd1e8145e172c9e92f2efc22cc59d3b135cbe",
+      "gitBlobSha": "605a35cf044e82489c815e0104d91a9000e19872",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img13.webp"
+    },
+    {
+      "path": "public/images/img2.webp",
+      "bytes": 81648,
+      "sha256": "970e133403b3ef5aae660932e21d377a731402e34501cc883cefc8482522819e",
+      "gitBlobSha": "31602ad4d1288ac9e918541c7fa625643c6f2da5",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img2.webp"
+    },
+    {
+      "path": "public/images/img3.webp",
+      "bytes": 61790,
+      "sha256": "0afdd9ea9ddf38eede53fb9de4b2d66d9ce2a214b8792699ecff4601ae258985",
+      "gitBlobSha": "3004edd1b9a0f9c605779cf5c80a304f142ea39f",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img3.webp"
+    },
+    {
+      "path": "public/images/img4.webp",
+      "bytes": 84664,
+      "sha256": "9a8b5b7488b47e69cc78cff93076e8cae1ef7c0ccbecad569fdf108bcff21206",
+      "gitBlobSha": "b8547cc01e24db8684e5a011ea6295e9a9ecb38a",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img4.webp"
+    },
+    {
+      "path": "public/images/img5.webp",
+      "bytes": 119538,
+      "sha256": "d5812acaa8ae4c3e4badd50b1c5c95cc439e834197dd7077646754e81e3dacab",
+      "gitBlobSha": "0be03fbc37b67066829fcdc62ef26fcdec8b0353",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img5.webp"
+    },
+    {
+      "path": "public/images/img6.webp",
+      "bytes": 64810,
+      "sha256": "19d6fa47978380d428da56f28d27d2106644e7b054683bd4e0ca86813a63fc34",
+      "gitBlobSha": "9243465e2876f4d795221bc5e3289c7f8461b426",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img6.webp"
+    },
+    {
+      "path": "public/images/img7.webp",
+      "bytes": 336412,
+      "sha256": "ab5e70075002f011147bdf8a35e5cadf4f664cbd4f52f44fe9c600f41f0c5c8f",
+      "gitBlobSha": "83f36ae26fc4887d5f39a1388dd1c3e9e8034938",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img7.webp"
+    },
+    {
+      "path": "public/images/img8.webp",
+      "bytes": 91838,
+      "sha256": "a673be179315d544b1844756ed0654b0178e3b7fb098f3cf2a968e2a2602e1f6",
+      "gitBlobSha": "86db846a4c88aadac865ec607447ae62ab261325",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img8.webp"
+    },
+    {
+      "path": "public/images/img9.webp",
+      "bytes": 131134,
+      "sha256": "f9cffea1b4597a2ad8c4aa72b8cce3abbe8f8113b7ae6cb448c39f8813c7ae91",
+      "gitBlobSha": "9ffc581ce3229bf49bb9e8f718b5cb4d1669e2b2",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/images/img9.webp"
+    },
+    {
+      "path": "public/paper.glb",
+      "bytes": 43804,
+      "sha256": "63d564ca96ad9bc0e4a7c320db43a9714859fdd670159b57c4de32195c69d29a",
+      "gitBlobSha": "75b6fa275ce0942b0eb4e72688071a798a199e94",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/paper.glb"
+    },
+    {
+      "path": "public/spiral.glb",
+      "bytes": 227264,
+      "sha256": "912d8bc511bc5e6c438f6aab6c0ea83862a29f7be45684c420eac80a8a4a7697",
+      "gitBlobSha": "0a999b412355fc3e2784e3260fdf11a46a73d2a6",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/public/spiral.glb"
+    },
+    {
+      "path": "src/app/favicon.ico",
+      "bytes": 25931,
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932",
+      "gitBlobSha": "718d6fea4835ec2d246af9800eddb7ffb276240c",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/favicon.ico"
+    },
+    {
+      "path": "src/app/layout.jsx",
+      "bytes": 522,
+      "sha256": "4104169c944c9f4f799e9930312eb84fadbd0402117308869cf693445b0666a2",
+      "gitBlobSha": "43e35e5277fd6196be7b4794d767ead03a08c206",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/layout.jsx"
+    },
+    {
+      "path": "src/app/page.jsx",
+      "bytes": 1907,
+      "sha256": "577a31d5297aa9a522734f1644f627ca804b14a336c32dbf60ac7bbc13e1912d",
+      "gitBlobSha": "654d2d0571253915ee0e17a41da66bf553c6e486",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/page.jsx"
+    },
+    {
+      "path": "src/app/page.module.scss",
+      "bytes": 93,
+      "sha256": "a3f321a2a143c40ddac303cc44baa31c2fa5d7157acba6238f6ed6d926b517f6",
+      "gitBlobSha": "b41be1f9e124b96436d86c52349f9091d5a513da",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/page.module.scss"
+    },
+    {
+      "path": "src/app/paper/page.jsx",
+      "bytes": 1042,
+      "sha256": "80d396aa5dbce24b6cd3e7b85630563d5f4efaa36550a392ced855908f6dbb35",
+      "gitBlobSha": "f0890cbb1b216f94d874b97576a0e7494445a9d8",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/paper/page.jsx"
+    },
+    {
+      "path": "src/app/paper/page.module.scss",
+      "bytes": 471,
+      "sha256": "65b0e02227277bf3f8368d65e5f117a58acfb48b175f126d7458d4e291bf7d62",
+      "gitBlobSha": "04295f6e2742f09161d1134f851a572f75027985",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/paper/page.module.scss"
+    },
+    {
+      "path": "src/app/spiral/page.jsx",
+      "bytes": 871,
+      "sha256": "df87a95ff259325071e7bec17a2feda5fb26b91b311b7bd6cfde9733550438a2",
+      "gitBlobSha": "bda4de3c0f7cced0a78a77ff507baf49f3d7ef26",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/spiral/page.jsx"
+    },
+    {
+      "path": "src/app/spiral/page.module.scss",
+      "bytes": 132,
+      "sha256": "8ff6df5717df545b1faadb673f5f3acf1dc111c09ebc6359c21a3b4aa9b523f8",
+      "gitBlobSha": "dcb1575490f0c079f4fd28484b6b3e9b8eb5cdf1",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/app/spiral/page.module.scss"
+    },
+    {
+      "path": "src/assets/fonts/font-faces.js",
+      "bytes": 336,
+      "sha256": "d4913773b370d1970e74b904593f5ad35a56bbbf516a7f7001e903a6b4adc0ca",
+      "gitBlobSha": "30f1505ce84a0e53689a1d1e3f5c46db29e2b4bc",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/assets/fonts/font-faces.js"
+    },
+    {
+      "path": "src/components/layouts/Layout.jsx",
+      "bytes": 3198,
+      "sha256": "184710c2f4a2f8070c69094cfd8aa088bb995df620d3299939997359c42e20d8",
+      "gitBlobSha": "2d30dcca166c6cca59f63ca40938d90a1ea49e2e",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/layouts/Layout.jsx"
+    },
+    {
+      "path": "src/components/ui/modules/Footer/Footer.jsx",
+      "bytes": 238,
+      "sha256": "b97c4ffccd043cfad42f829e1b01517649629a0bc13ecd00c729d402610d5d8d",
+      "gitBlobSha": "805094834fb7dc4f5dc120b232fc2fae2a0dbfc2",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/Footer/Footer.jsx"
+    },
+    {
+      "path": "src/components/ui/modules/Footer/Footer.module.scss",
+      "bytes": 321,
+      "sha256": "874427401e2be7d4d67f94fdc1b2f653e4c4ef1e06681a557e0212aba6a4fc87",
+      "gitBlobSha": "8c56af943ae094ab8eee7257c5e94af1736c4f4a",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/Footer/Footer.module.scss"
+    },
+    {
+      "path": "src/components/ui/modules/Header/Header.jsx",
+      "bytes": 238,
+      "sha256": "cfee9008471e689645f6e6c49372b853f49f0d2d7595f9c8be2316e668714330",
+      "gitBlobSha": "06445dc46e4b7c9b67d619f7e5b8e1812d4cd853",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/Header/Header.jsx"
+    },
+    {
+      "path": "src/components/ui/modules/Header/Header.module.scss",
+      "bytes": 172,
+      "sha256": "79f8a7be907ccbd8457c97a95e6b06eff559a46de36622d58bcd4d20a2070b7e",
+      "gitBlobSha": "e1e79a4564b062ede3ce1f6f40d70f7489093240",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/Header/Header.module.scss"
+    },
+    {
+      "path": "src/components/ui/modules/Loader/Loader.jsx",
+      "bytes": 246,
+      "sha256": "e6bf251ab94c23b797bf68edc6f1a2f3e2e8cbf841f7223f6c6a28011ec78a4a",
+      "gitBlobSha": "3d6bc1f355415b335e2ee60420eaad9614ca5630",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/Loader/Loader.jsx"
+    },
+    {
+      "path": "src/components/ui/modules/Loader/Loader.module.scss",
+      "bytes": 419,
+      "sha256": "a8bdaac6725d46f5c6b9655ccc059a0ac8e4d898103c3846cabee272a2ad567c",
+      "gitBlobSha": "ebe073a3c04a047138ab0ffb7cf8ef0879975799",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/Loader/Loader.module.scss"
+    },
+    {
+      "path": "src/components/ui/modules/index.js",
+      "bytes": 159,
+      "sha256": "a2300275e4dfbf57edbba2b599f018a28b07434331fda5187069d03f0fcfbef8",
+      "gitBlobSha": "c86f65a7827a3eb5e7fe4ffd54c2f8bf6e91f5a7",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/ui/modules/index.js"
+    },
+    {
+      "path": "src/components/webgl/Banner/Banner.jsx",
+      "bytes": 1085,
+      "sha256": "ba397f5965929563d1e260075d0502492e9632f6819d4e4304ba110a117aabc0",
+      "gitBlobSha": "1b83474415d0d218f1aff6700ec52d419ff044bc",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/webgl/Banner/Banner.jsx"
+    },
+    {
+      "path": "src/components/webgl/Billboard/Billboard.jsx",
+      "bytes": 1479,
+      "sha256": "7a0b35131abf12d6af5ea1122696e467ecb257cfabe47c545bb2146f402f1dc8",
+      "gitBlobSha": "15a5bf9cfa7114f953198c8384ad20a28bfae85d",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/webgl/Billboard/Billboard.jsx"
+    },
+    {
+      "path": "src/components/webgl/Paper/Paper.jsx",
+      "bytes": 882,
+      "sha256": "136798b13b78631da9568df93fc39a6172b5ad2e353f5833dc500d299e46e9da",
+      "gitBlobSha": "8f8f4b50ac0cf3b79c35dfb74470f115d6efbba9",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/webgl/Paper/Paper.jsx"
+    },
+    {
+      "path": "src/components/webgl/Spiral/Spiral.jsx",
+      "bytes": 1062,
+      "sha256": "9481b94714dcfe8533c24b63ee92d66b09d72ff970127de3f5a37ac9ad275e0f",
+      "gitBlobSha": "f4c4e7742f580cab7b336e5dc1f010f5400304f2",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/webgl/Spiral/Spiral.jsx"
+    },
+    {
+      "path": "src/components/webgl/index.js",
+      "bytes": 218,
+      "sha256": "49d26ae9f1b1ec7734e426a099099d8064ec1551756fefbf18cbee22e6805af0",
+      "gitBlobSha": "f140147ce6c0b59205959c17e0c0991778277b90",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/components/webgl/index.js"
+    },
+    {
+      "path": "src/data/images.js",
+      "bytes": 490,
+      "sha256": "9e9f84786558f302c7553afc96fcf9666b105323fd5c28c7217609f12e0be295",
+      "gitBlobSha": "8f846ceada7b2a911dc4b478e683e4823f740101",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/data/images.js"
+    },
+    {
+      "path": "src/data/metadata.js",
+      "bytes": 137,
+      "sha256": "4dcbc9c3c8164e4531aa3a3d4ed48871fd5d441f688fc0ae9872ff489b159fc2",
+      "gitBlobSha": "34afa4cc90d99fde367b3284a4f2d0c9f0455dfc",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/data/metadata.js"
+    },
+    {
+      "path": "src/hooks/index.js",
+      "bytes": 68,
+      "sha256": "5361bb866e6b0530be0bd9c7b74ba775b447f8950de0e661f7cd54819430af07",
+      "gitBlobSha": "875d4754c19da9a6ec3efdb515187df748b9975d",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/hooks/index.js"
+    },
+    {
+      "path": "src/hooks/useCollageTexture.jsx",
+      "bytes": 1310,
+      "sha256": "a17259a8b19540b900b44df0a01b8cb0105d3e5df4a02170e6a4283dba497cb9",
+      "gitBlobSha": "f8c612f83b548f39f28b9842a4e96a60b9f65215",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/hooks/useCollageTexture.jsx"
+    },
+    {
+      "path": "src/styles/_reset.scss",
+      "bytes": 1986,
+      "sha256": "72a57698c7f2b0287a65e4ff6731900e1f505b0375414775ae45701b21916b18",
+      "gitBlobSha": "49d9b45d468d6327e8412bcd64b400b72a667504",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/styles/_reset.scss"
+    },
+    {
+      "path": "src/styles/global.scss",
+      "bytes": 952,
+      "sha256": "a63464ada0cfab83a4d97acc82ecd8b0ab15f8c76595f225688a6cb501cd953a",
+      "gitBlobSha": "38089f7cd71ea08d8bfe651fb2615fcc8f0971b1",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/styles/global.scss"
+    },
+    {
+      "path": "src/webgl/Scene.jsx",
+      "bytes": 343,
+      "sha256": "e11fbea6c7be843cff3cba17f38ca014d60c8bc1323c5a8091064d45fd3b9789",
+      "gitBlobSha": "e84a76e2bbc2e70f7b11854761b96f65055538f9",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/Scene.jsx"
+    },
+    {
+      "path": "src/webgl/View.jsx",
+      "bytes": 685,
+      "sha256": "ed9124501ab35bb55e0732e285427d9f4cfcfb90908bafa1bd967408d7ee0764",
+      "gitBlobSha": "f1a432b4c4e8364879060c7c53c417d74bd7ec89",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/View.jsx"
+    },
+    {
+      "path": "src/webgl/helpers/Three.jsx",
+      "bytes": 146,
+      "sha256": "bb3f5f05e0ec23bfc55d831d0ffb7a9bc9012048eeeacd5e4f13c6ac2a958599",
+      "gitBlobSha": "02e1a85fb9362cd6c55ae4902b9b6964cec40a25",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/helpers/Three.jsx"
+    },
+    {
+      "path": "src/webgl/helpers/getCanvasTexture.js",
+      "bytes": 3951,
+      "sha256": "cc56e7817f358a0eb448db2beb2cb03d44655f517304819d38a6427c30ec8784",
+      "gitBlobSha": "3882531daa443cfa7554389bb0f68c860d54414c",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/helpers/getCanvasTexture.js"
+    },
+    {
+      "path": "src/webgl/helpers/global.js",
+      "bytes": 63,
+      "sha256": "af4d663344b605b64529b19400c76f4f8b013b510d786843e6fd67b04643cc2b",
+      "gitBlobSha": "e58045567346ebe3987dde17c2ae264b93d835f2",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/helpers/global.js"
+    },
+    {
+      "path": "src/webgl/materials/MeshBannerMaterial.js",
+      "bytes": 1284,
+      "sha256": "7234dcf2cacf07e801d48da7e4ce16b722fcaf1962a082755a906e18096ce27e",
+      "gitBlobSha": "a0152de738d4ccd81f27488dff4ca2c4c80c8548",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/materials/MeshBannerMaterial.js"
+    },
+    {
+      "path": "src/webgl/materials/MeshImageMaterial.js",
+      "bytes": 684,
+      "sha256": "3af18b6cfbfc81d2d59895d6149a6ab7b354f7ae9d6896bc98c57c502821ac86",
+      "gitBlobSha": "e62e93a890e550ec9ea9623705095fc38b7be1a3",
+      "downloadUrl": "https://raw.githubusercontent.com/DGFX/codrops-kinetic-images/965dda362a8f9e5d522ed675493897200d273e49/src/webgl/materials/MeshImageMaterial.js"
+    }
+  ],
+  "snapshotScope": "All 60 pinned source files in the source download plan; upstream out/ prebuilt deployment excluded.",
+  "upstreamCodeExecuted": false,
+  "status": "adapted_static_checks_passed_runtime_pending",
+  "imageRights": "Publisher code grant is not an individual photo license or model release. Source photos retained for local source-faithful study; production requires verified rights or licensed replacements."
+}

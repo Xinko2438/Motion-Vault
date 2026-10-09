@@ -1,0 +1,25 @@
+{
+  "id": "mv2-repeating-image",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "author-crossfade-and-native-scroll",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "reload_required_for_full_mode_restore",
+  "keyboardSupport": "author-controls-runtime-unverified",
+  "variants": [
+    {
+      "entry": "source/js/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "The authored crossfade checks the live preference, but the smooth-scroller choice is made on initial load. A preference change requires reloading to fully reconfigure the scroll mode."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "motion-vault-paper-crumple-adapter",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.160.1",
+    "cannon-es": "0.20.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}

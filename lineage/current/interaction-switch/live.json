@@ -1,0 +1,271 @@
+{
+  "runId": "0c84c253-26d3-4913-83b0-da73c9fdcc2e",
+  "startedAt": "2026-10-09T06:25:01.458Z",
+  "at": "2026-10-09T06:25:16.543Z",
+  "live": true,
+  "formalHash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03",
+  "passed": 31,
+  "total": 31,
+  "checks": [
+    {
+      "name": "Both gallery mode buttons are visible",
+      "pass": true
+    },
+    {
+      "name": "Lightweight preview is the default",
+      "pass": true
+    },
+    {
+      "name": "Preview hover plays a video without a source iframe",
+      "pass": true
+    },
+    {
+      "name": "Switching to real mode releases the video",
+      "pass": true
+    },
+    {
+      "name": "Real source document becomes ready inside the card",
+      "pass": true
+    },
+    {
+      "name": "Real mode keeps the source isolated",
+      "pass": true
+    },
+    {
+      "name": "Native trusted mouse hover reaches the real source",
+      "pass": true,
+      "detail": [
+        {
+          "type": "mouseover",
+          "trusted": true,
+          "target": false
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "target": false
+        },
+        {
+          "type": "mouseover",
+          "trusted": true,
+          "target": true
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "target": true
+        }
+      ]
+    },
+    {
+      "name": "The actual tooltip responds to hover",
+      "pass": true,
+      "detail": {
+        "before": {
+          "opacity": "0",
+          "visibility": "visible",
+          "transform": "none"
+        },
+        "after": {
+          "opacity": "0.9962",
+          "visibility": "visible",
+          "transform": "none"
+        }
+      }
+    },
+    {
+      "name": "A real source click does not open the gallery detail",
+      "pass": true
+    },
+    {
+      "name": "Real card runs code rather than a video",
+      "pass": true
+    },
+    {
+      "name": "Leaving the real card releases its source iframe",
+      "pass": true
+    },
+    {
+      "name": "Trusted drag is delivered to the real source",
+      "pass": true,
+      "detail": [
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 0,
+          "x": 439.984375,
+          "y": 403.078125
+        },
+        {
+          "type": "pointerdown",
+          "trusted": true,
+          "buttons": 1,
+          "x": 439.984375,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 478.5,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 517,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 555.5,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 594,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 632.5,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 671,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 709.5,
+          "y": 403.078125
+        },
+        {
+          "type": "pointermove",
+          "trusted": true,
+          "buttons": 1,
+          "x": 748,
+          "y": 403.078125
+        },
+        {
+          "type": "pointerup",
+          "trusted": true,
+          "buttons": 0,
+          "x": 748,
+          "y": 403.078125
+        }
+      ]
+    },
+    {
+      "name": "Dragging does not select parent-page text or open detail",
+      "pass": true
+    },
+    {
+      "name": "Switching back restores hover video and releases code",
+      "pass": true
+    },
+    {
+      "name": "Detail exposes both modes and starts the selected preview",
+      "pass": true
+    },
+    {
+      "name": "Clicking detail text preserves the same running video",
+      "pass": true
+    },
+    {
+      "name": "Detail switch runs the local asset instead of video",
+      "pass": true
+    },
+    {
+      "name": "Clicking outside detail code preserves its active source frame",
+      "pass": true
+    },
+    {
+      "name": "Detail switch can return from code to video",
+      "pass": true
+    },
+    {
+      "name": "Closing detail clears its preview",
+      "pass": true
+    },
+    {
+      "name": "Formal detail stays active after an outside-preview click",
+      "pass": true
+    },
+    {
+      "name": "Escape still closes detail and releases its preview",
+      "pass": true
+    },
+    {
+      "name": "The UI mode survives refresh without another entry URL",
+      "pass": true
+    },
+    {
+      "name": "Mode changes do not alter collection, review or bookmark storage",
+      "pass": true
+    },
+    {
+      "name": "Mode controls remain visible without horizontal overflow 1440",
+      "pass": true
+    },
+    {
+      "name": "Mode controls remain visible without horizontal overflow 1024",
+      "pass": true
+    },
+    {
+      "name": "Mode controls remain visible without horizontal overflow 768",
+      "pass": true
+    },
+    {
+      "name": "Mode controls remain visible without horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "Both served favicon formats decode with rounded transparent corners",
+      "pass": true,
+      "detail": [
+        {
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-icon.ico?v=202602b98370ac8e",
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "center": 255
+        },
+        {
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-icon.svg?v=202602b98370ac8e",
+          "corners": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "center": 255
+        }
+      ]
+    },
+    {
+      "name": "No gallery errors in the complete switch journey",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Measured application bytes remained unchanged",
+      "pass": true
+    }
+  ]
+}

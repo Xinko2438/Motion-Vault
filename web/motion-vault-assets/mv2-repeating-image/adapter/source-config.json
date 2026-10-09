@@ -1,0 +1,10 @@
+{
+  "id": "mv2-repeating-image",
+  "repo": "RepeatingImageTransition",
+  "title": "连续影帧沿路径接入图像详情",
+  "demo": "https://tympanus.net/Development/RepeatingImageTransition/",
+  "mode": "click",
+  "scene": "portfolio",
+  "task": "handoff",
+  "design": "图像自身被拆成有停顿与重叠的连续影帧；平面、丝绸折面与墨迹形态保留作者完整路径、裁切和阶段时序。"
+}

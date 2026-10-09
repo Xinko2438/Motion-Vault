@@ -1,0 +1,70 @@
+[
+  {
+    "path": "source/js/index4.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index8.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index6.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index3.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index15.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index11.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index12.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index7.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index10.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index5.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index9.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index14.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index2.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/index13.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "adapter/rebuild.mjs",
+    "role": "own source bundler, no upstream script execution"
+  },
+  {
+    "path": "run/vault-controls.js",
+    "role": "isolated frame lifecycle only; original input handlers unchanged"
+  }
+]

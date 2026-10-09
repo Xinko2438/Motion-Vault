@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "mv2-paranoia-filter",
+  "version": "1.0.0",
+  "dependencies": {
+    "gsap": "3.8.0",
+    "imagesloaded": "4.1.4"
+  }
+}

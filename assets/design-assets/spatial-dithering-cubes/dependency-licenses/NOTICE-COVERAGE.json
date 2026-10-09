@@ -1,0 +1,59 @@
+{
+  "bundleSha256": "008006bb8940c06b3eccdd9e11e49547f699e379f9098e4e3733bcf1d94f4136",
+  "bundledPackageLocations": 3,
+  "inventory": [
+    {
+      "name": "@tweakpane/plugin-essentials",
+      "version": "0.2.1",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 272966,
+      "inputs": [
+        "../../build/spatial-dithering-cubes/node_modules/@tweakpane/plugin-essentials/dist/tweakpane-plugin-essentials.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/@tweakpane-plugin-essentials-LICENSE.txt",
+          "sha256": "493a944d67d9a3570e9a2e1c798aa8d0c209d1d95dfedfff06b77e8aeb786d11",
+          "source": "build/spatial-dithering-cubes/node_modules/@tweakpane/plugin-essentials/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.175.0",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 1092682,
+      "inputs": [
+        "../../build/spatial-dithering-cubes/node_modules/three/build/three.core.js",
+        "../../build/spatial-dithering-cubes/node_modules/three/build/three.module.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/three-LICENSE",
+          "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+          "source": "build/spatial-dithering-cubes/node_modules/three/LICENSE"
+        }
+      ]
+    },
+    {
+      "name": "tweakpane",
+      "version": "4.0.5",
+      "declaredLicense": "MIT",
+      "bytesInOutput": 264437,
+      "inputs": [
+        "../../build/spatial-dithering-cubes/node_modules/tweakpane/dist/tweakpane.js"
+      ],
+      "notices": [
+        {
+          "path": "dependency-licenses/tweakpane@4.0.5-LICENSE.txt",
+          "sha256": "385accdd560bac0013a2965fe9d39c45808b7542d2bbb3ef0cceeb60b7da71c3",
+          "source": "https://github.com/cocopon/tweakpane/blob/4.0.5/LICENSE.txt",
+          "gitBlobSha": "597ee0936f67ef27bca9f11385517836a42a1bd5"
+        }
+      ]
+    }
+  ],
+  "embeddedVendors": [],
+  "status": "covered",
+  "mediaRights": "This audit concerns code/vendor/font notices only; author repository license is not independent proof of photo, HDR, model or other media rights."
+}

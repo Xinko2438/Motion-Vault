@@ -1,0 +1,5 @@
+# Rebuild the adapted source
+
+Run `node adapter/rebuild.mjs` from this asset directory. Provide installed esbuild 0.25.10 via normal module resolution or the absolute `MOTION_VAULT_ESBUILD` environment value. For entries using npm runtime imports, the existing adapter/package.json and lock identify required dependencies; dependency lifecycle scripts must remain disabled. No tool downloads or package installs occur in this recipe.
+
+The recipe uses immutable source/, relative rebuild-jobs.json, and the included owned lifecycle/CSP/reduced-motion transforms. It keeps local HTML variant navigation and outputs the same run/ entries. It does not execute upstream build scripts, change the gallery, modify curation state, or mark runtime compatibility approved. The existing run/vault-isolation.js, vault-native-input.js and vault-session.js are separate owned host-contract adapters and remain unchanged. Regenerate asset hashes/version with the gallery packaging pipeline after any rebuild; never reuse prior capture or compatibility evidence for changed bytes.

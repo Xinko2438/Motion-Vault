@@ -1,0 +1,74 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "spatial-procedural-snake",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/Sujenphea/procedural-snake",
+  "commit": "fce15746389d8a358be228d92d3c82fb989be915",
+  "upstreamEntry": "source/src/js/main.ts",
+  "localEntry": "run/index.html",
+  "readableEffect": "run/effect.js",
+  "preservedByteExactly": [
+    "src/js/components/Snake.ts",
+    "src/js/curves/CurveGenerator.ts",
+    "src/js/curves/EndlessCurve.ts",
+    "src/js/utils/Emitter.ts",
+    "src/js/utils/RAFCollection.ts",
+    "src/js/utils/input.ts",
+    "src/js/utils/normaliseWheel.ts",
+    "src/js/utils/properties.ts",
+    "src/shaders/ball/ballFrag.glsl",
+    "src/shaders/ball/ballVert.glsl",
+    "src/shaders/snake/snakeFrag.glsl",
+    "src/shaders/snake/snakeVert.glsl",
+    "src/vite-env.d.ts"
+  ],
+  "adaptations": [
+    "Only main.ts runtime lifecycle is patched; author scene/geometry/shaders/curves/input/properties retained.",
+    "Exact Three 0.182.0 and simplex-noise 4.0.3 bundled by own esbuild 0.25.10 configuration.",
+    "Original remote analytics, ads and favicons removed; navigation text retained as non-navigating spans.",
+    "Native reduced-motion respects the system, without ambient RAF; real input advances one author simulation step.",
+    "Real stop/resume/dispose/current-state paint hooks; input, GPU buffers, textures, material and renderer cleanup.",
+    "Existing opaque sandbox transport reused with dispose cleanup; no parent UI/state or storage access.",
+    "Ready Promise resolves only after procedural scene initialization and a real first render submission; shader or initialization errors reject, including cleanup of partially constructed App.",
+    "Compatibility revision: resource/first-render-gated ready Promise, accurate inspect/isReady, partial-initialization cleanup and terminal lifecycle. Original author source remains unchanged; browser/runtime compatibility is pending."
+  ],
+  "sourceDiff": "adapter/effect.diff",
+  "securityPolicy": {
+    "cspMeta": "default-src 'none'; script-src 'self' 'sha256-cpNByESktmVioLz4n3H2Y89KaQ+72cbWb1+PEyFRpC0='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src blob: data:; font-src 'none'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'",
+    "inlineScriptAuthorization": "SHA256 of the unchanged original inline class initialization",
+    "externalNetworkAllowed": false,
+    "browserEnforcementVerified": false,
+    "note": "Standalone default-deny CSP is emitted before styles/scripts. Opaque sandbox remains allow-scripts only."
+  },
+  "visualEvidence": {
+    "localAdaptationVisualVerified": false,
+    "localRecordingCreated": false,
+    "browserExecuted": false
+  },
+  "assetCaveats": [
+    {
+      "status": "no_external_runtime_art_assets",
+      "reason": "All snake/ball geometry, shader textures and colors are procedural. No external photos, models, fonts, audio or HDR environment included."
+    },
+    {
+      "status": "external_readme_preview_rights_not_asserted",
+      "reason": "Original README includes an external Codrops preview image URL; it is retained only as upstream documentation, not downloaded or used at runtime. Code MIT is not an independent permission for that image or branding."
+    }
+  ],
+  "bridge": {
+    "source": "adapter/source-isolation-bridge.original.js",
+    "originalSha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "adapted": "run/vault-isolation.js",
+    "adaptedSha256": "b6b2cb92ced9360fe5a4a1d713bc3ad90fbe721001aeab5ea548ebe6b40c0baa",
+    "manifest": "asset-manifest.json",
+    "textureRequestsRequired": false
+  },
+  "validation": {
+    "staticReport": "qa-static.json",
+    "runtimeStatus": "runtime_unverified",
+    "visualAcceptance": "unverified",
+    "userAcceptance": "not_requested"
+  },
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "compatibilityReview": "compatibility-review.json"
+}

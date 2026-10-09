@@ -1,0 +1,987 @@
+{
+  "at": "2026-10-07T06:17:14.117Z",
+  "runStartedAt": "2026-10-07T06:16:50.077Z",
+  "runId": "6504109b-19ea-4770-9c5c-5b7792a3540d",
+  "verifierSha256": "e06147694dbf647a6eeac1c23438f0f36e715771affb3e54577d66806a363ad1",
+  "sourceUnchanged": true,
+  "live": true,
+  "sandboxFixture": false,
+  "gallerySandbox": false,
+  "brokerSha256": "fcabca997951fe4c695f0199df1210c4640a3579f10e9befc79e01136bbcb996",
+  "browserCompleted": true,
+  "formalHash": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "assetHashes": {
+    "index.html": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+    "motion-vault-assets/curated-webgpu-route/asset.json": "3a1580b96d36df6fb3f6e58e245a3e7e4574d9981f9f933dc1b8fc0a411f1688",
+    "motion-vault-assets/curated-webgpu-route/run/index.html": "c2126c30eced6231b5109c197ead861655767a57b4294efcaed154625c58a27c",
+    "motion-vault-assets/curated-webgpu-route/run/effect.js": "c44d07e6cd8b2dd47ce8034b69d46a00985120f55246dea75c89201eabb3c3a0",
+    "motion-vault-assets/curated-persistent-gallery/asset.json": "643da6782310997d887c0804046c61b371ea1ac1fdc6e3ea5ebfbe6a15e4e328",
+    "motion-vault-assets/curated-persistent-gallery/run/index.html": "b0128b528c418a34ce9a02bbe925985c23883aa19a9545a61cda704565d41627",
+    "motion-vault-assets/curated-persistent-gallery/run/effect.js": "d3625b9f90765c31bea2c56208af21d9e905bbaeb65e783f2b515da203b6f020"
+  },
+  "reports": [
+    {
+      "id": "curated-webgpu-route",
+      "passed": true,
+      "actions": [
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"index\"]",
+          "x": 112.0703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"index\"]",
+            "events": [
+              {
+                "type": "pointerdown",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 112.0703125,
+                "y": 29
+              },
+              {
+                "type": "pointerup",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 112.0703125,
+                "y": 29
+              },
+              {
+                "type": "click",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 112,
+                "y": 29
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_index_drag",
+          "from": [
+            700,
+            350
+          ],
+          "to": [
+            508,
+            290
+          ],
+          "steps": 12
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "x": 55.703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"main\"]",
+            "events": [
+              {
+                "type": "pointerdown",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 55.703125,
+                "y": 29
+              },
+              {
+                "type": "pointerup",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 55.703125,
+                "y": 29
+              },
+              {
+                "type": "click",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 55,
+                "y": 29
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "[data-page=\"main\"] .slot-2[data-link]",
+          "x": 550,
+          "y": 334.7890625,
+          "proof": {
+            "selector": "[data-page=\"main\"] .slot-2[data-link]",
+            "events": [
+              {
+                "type": "pointerdown",
+                "isTrusted": true,
+                "match": true,
+                "target": "FIGURE",
+                "x": 550,
+                "y": 334.7890625
+              },
+              {
+                "type": "pointerup",
+                "isTrusted": true,
+                "match": true,
+                "target": "FIGURE",
+                "x": 550,
+                "y": 334.7890625
+              },
+              {
+                "type": "click",
+                "isTrusted": true,
+                "match": true,
+                "target": "FIGURE",
+                "x": 550,
+                "y": 334
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "x": 55.703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"main\"]",
+            "events": [
+              {
+                "type": "pointerdown",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 55.703125,
+                "y": 29
+              },
+              {
+                "type": "pointerup",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 55.703125,
+                "y": 29
+              },
+              {
+                "type": "click",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 55,
+                "y": 29
+              }
+            ]
+          }
+        }
+      ],
+      "states": [
+        {
+          "name": "Initial main page is ready",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html",
+          "pages": [
+            {
+              "page": "main"
+            }
+          ],
+          "templates": [],
+          "containers": 0,
+          "scroll": {
+            "window": 0,
+            "smoother": "undefined",
+            "before": "undefined",
+            "range": 0
+          },
+          "nav": [
+            {
+              "key": "main",
+              "href": "#/",
+              "active": true
+            },
+            {
+              "key": "index",
+              "href": "#/index",
+              "active": false
+            }
+          ],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Main to Index finishes after a real nav click",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/index",
+          "pages": [
+            {
+              "page": "index"
+            }
+          ],
+          "templates": [],
+          "containers": 0,
+          "scroll": {
+            "window": 0,
+            "smoother": "undefined",
+            "before": "undefined",
+            "range": 0
+          },
+          "nav": [
+            {
+              "key": "main",
+              "href": "#/",
+              "active": false
+            },
+            {
+              "key": "index",
+              "href": "#/index",
+              "active": true
+            }
+          ],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Index returns to Main",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/",
+          "pages": [
+            {
+              "page": "main"
+            }
+          ],
+          "templates": [],
+          "containers": 0,
+          "scroll": {
+            "window": 0,
+            "smoother": "undefined",
+            "before": "undefined",
+            "range": 0
+          },
+          "nav": [
+            {
+              "key": "main",
+              "href": "#/",
+              "active": true
+            },
+            {
+              "key": "index",
+              "href": "#/index",
+              "active": false
+            }
+          ],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Main selected image enters its matching detail",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/3",
+          "pages": [
+            {
+              "page": "inner",
+              "image": "2"
+            }
+          ],
+          "templates": [],
+          "containers": 0,
+          "scroll": {
+            "window": 0,
+            "smoother": "undefined",
+            "before": "undefined",
+            "range": 1862
+          },
+          "nav": [
+            {
+              "key": "main",
+              "href": "#/",
+              "active": false
+            },
+            {
+              "key": "index",
+              "href": "#/index",
+              "active": false
+            }
+          ],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Detail returns to Main",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/",
+          "pages": [
+            {
+              "page": "main"
+            }
+          ],
+          "templates": [],
+          "containers": 0,
+          "scroll": {
+            "window": 0,
+            "smoother": "undefined",
+            "before": "undefined",
+            "range": 0
+          },
+          "nav": [
+            {
+              "key": "main",
+              "href": "#/",
+              "active": true
+            },
+            {
+              "key": "index",
+              "href": "#/index",
+              "active": false
+            }
+          ],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        }
+      ],
+      "screenshots": [
+        "lineage/current/preview-playback/curated-webgpu-route-live-6504109b-19ea-4770-9c5c-5b7792a3540d-before.jpg",
+        "lineage/current/preview-playback/curated-webgpu-route-live-6504109b-19ea-4770-9c5c-5b7792a3540d-detail.jpg",
+        "lineage/current/preview-playback/curated-webgpu-route-live-6504109b-19ea-4770-9c5c-5b7792a3540d-after.jpg"
+      ],
+      "network": []
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "passed": true,
+      "actions": [
+        {
+          "action": "real_pointer_click",
+          "selector": ".grid a[href=\"./1.html\"]",
+          "x": 251.9375,
+          "y": 249.9296875,
+          "proof": {
+            "selector": ".grid a[href=\"./1.html\"]",
+            "events": [
+              {
+                "type": "pointerdown",
+                "isTrusted": true,
+                "match": true,
+                "target": "IMG",
+                "x": 251.9375,
+                "y": 249.9296875
+              },
+              {
+                "type": "pointerup",
+                "isTrusted": true,
+                "match": true,
+                "target": "IMG",
+                "x": 251.9375,
+                "y": 249.9296875
+              },
+              {
+                "type": "click",
+                "isTrusted": true,
+                "match": true,
+                "target": "IMG",
+                "x": 251,
+                "y": 249
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".details-data a[href=\"./index.html\"]",
+          "x": 360.90625,
+          "y": 34,
+          "proof": {
+            "selector": ".details-data a[href=\"./index.html\"]",
+            "events": [
+              {
+                "type": "pointerdown",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 360.90625,
+                "y": 34
+              },
+              {
+                "type": "pointerup",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 360.90625,
+                "y": 34
+              },
+              {
+                "type": "click",
+                "isTrusted": true,
+                "match": true,
+                "target": "A",
+                "x": 360,
+                "y": 34
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_wheel",
+          "deltaY": 450
+        }
+      ],
+      "states": [
+        {
+          "name": "Initial gallery is ready",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+          "pages": [],
+          "templates": [
+            "home"
+          ],
+          "containers": 1,
+          "scroll": {
+            "window": 0,
+            "smoother": "0",
+            "before": "undefined",
+            "range": 5039
+          },
+          "nav": [],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Gallery image enters its detail route",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/1.html",
+          "pages": [],
+          "templates": [
+            "detail"
+          ],
+          "containers": 1,
+          "scroll": {
+            "window": 0,
+            "smoother": "0",
+            "before": "undefined",
+            "range": 75
+          },
+          "nav": [],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "The selected image persists and settles in detail",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/1.html",
+          "pages": [],
+          "templates": [
+            "detail"
+          ],
+          "containers": 1,
+          "scroll": {
+            "window": 0,
+            "smoother": "0",
+            "before": "undefined",
+            "range": 75
+          },
+          "nav": [],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Detail returns to gallery through its Index link",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+          "pages": [],
+          "templates": [
+            "home"
+          ],
+          "containers": 1,
+          "scroll": {
+            "window": 0,
+            "smoother": "0",
+            "before": "undefined",
+            "range": 5039
+          },
+          "nav": [],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        },
+        {
+          "name": "Returned gallery accepts actual wheel scrolling",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+          "pages": [],
+          "templates": [
+            "home"
+          ],
+          "containers": 1,
+          "scroll": {
+            "window": 450,
+            "smoother": "450",
+            "before": "0",
+            "range": 5039
+          },
+          "nav": [],
+          "canvasSame": true,
+          "documentSame": true,
+          "errors": [],
+          "csp": [],
+          "images": []
+        }
+      ],
+      "screenshots": [
+        "lineage/current/preview-playback/curated-persistent-gallery-live-6504109b-19ea-4770-9c5c-5b7792a3540d-before.jpg",
+        "lineage/current/preview-playback/curated-persistent-gallery-live-6504109b-19ea-4770-9c5c-5b7792a3540d-detail.jpg",
+        "lineage/current/preview-playback/curated-persistent-gallery-live-6504109b-19ea-4770-9c5c-5b7792a3540d-after.jpg"
+      ],
+      "network": []
+    }
+  ],
+  "checks": [
+    {
+      "id": "curated-webgpu-route",
+      "name": "Initial main page is ready",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html",
+        "pages": [
+          {
+            "page": "main"
+          }
+        ],
+        "templates": [],
+        "containers": 0,
+        "scroll": {
+          "window": 0,
+          "smoother": "undefined",
+          "before": "undefined",
+          "range": 0
+        },
+        "nav": [
+          {
+            "key": "main",
+            "href": "#/",
+            "active": true
+          },
+          {
+            "key": "index",
+            "href": "#/index",
+            "active": false
+          }
+        ],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "Main to Index finishes after a real nav click",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/index",
+        "pages": [
+          {
+            "page": "index"
+          }
+        ],
+        "templates": [],
+        "containers": 0,
+        "scroll": {
+          "window": 0,
+          "smoother": "undefined",
+          "before": "undefined",
+          "range": 0
+        },
+        "nav": [
+          {
+            "key": "main",
+            "href": "#/",
+            "active": false
+          },
+          {
+            "key": "index",
+            "href": "#/index",
+            "active": true
+          }
+        ],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "Index returns to Main",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/",
+        "pages": [
+          {
+            "page": "main"
+          }
+        ],
+        "templates": [],
+        "containers": 0,
+        "scroll": {
+          "window": 0,
+          "smoother": "undefined",
+          "before": "undefined",
+          "range": 0
+        },
+        "nav": [
+          {
+            "key": "main",
+            "href": "#/",
+            "active": true
+          },
+          {
+            "key": "index",
+            "href": "#/index",
+            "active": false
+          }
+        ],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "Main selected image enters its matching detail",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/3",
+        "pages": [
+          {
+            "page": "inner",
+            "image": "2"
+          }
+        ],
+        "templates": [],
+        "containers": 0,
+        "scroll": {
+          "window": 0,
+          "smoother": "undefined",
+          "before": "undefined",
+          "range": 1862
+        },
+        "nav": [
+          {
+            "key": "main",
+            "href": "#/",
+            "active": false
+          },
+          {
+            "key": "index",
+            "href": "#/index",
+            "active": false
+          }
+        ],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "Detail returns to Main",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/",
+        "pages": [
+          {
+            "page": "main"
+          }
+        ],
+        "templates": [],
+        "containers": 0,
+        "scroll": {
+          "window": 0,
+          "smoother": "undefined",
+          "before": "undefined",
+          "range": 0
+        },
+        "nav": [
+          {
+            "key": "main",
+            "href": "#/",
+            "active": true
+          },
+          {
+            "key": "index",
+            "href": "#/index",
+            "active": false
+          }
+        ],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "The original canvas and document survive the complete journey",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/",
+        "pages": [
+          {
+            "page": "main"
+          }
+        ],
+        "templates": [],
+        "containers": 0,
+        "scroll": {
+          "window": 0,
+          "smoother": "undefined",
+          "before": "undefined",
+          "range": 0
+        },
+        "nav": [
+          {
+            "key": "main",
+            "href": "#/",
+            "active": true
+          },
+          {
+            "key": "index",
+            "href": "#/index",
+            "active": false
+          }
+        ],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "The final location stays within the local reference package",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html#/",
+        "localPrefix": "/app/assets/motion-vault-assets/curated-webgpu-route/run/"
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "name": "Journey has no script, CSP, HTTP, image or external-resource errors",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "csp": [],
+        "images": [],
+        "network": [],
+        "external": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "Initial gallery is ready",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+        "pages": [],
+        "templates": [
+          "home"
+        ],
+        "containers": 1,
+        "scroll": {
+          "window": 0,
+          "smoother": "0",
+          "before": "undefined",
+          "range": 5039
+        },
+        "nav": [],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "Gallery image enters its detail route",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/1.html",
+        "pages": [],
+        "templates": [
+          "detail"
+        ],
+        "containers": 1,
+        "scroll": {
+          "window": 0,
+          "smoother": "0",
+          "before": "undefined",
+          "range": 75
+        },
+        "nav": [],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "The selected image persists and settles in detail",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/1.html",
+        "pages": [],
+        "templates": [
+          "detail"
+        ],
+        "containers": 1,
+        "scroll": {
+          "window": 0,
+          "smoother": "0",
+          "before": "undefined",
+          "range": 75
+        },
+        "nav": [],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "Detail returns to gallery through its Index link",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+        "pages": [],
+        "templates": [
+          "home"
+        ],
+        "containers": 1,
+        "scroll": {
+          "window": 0,
+          "smoother": "0",
+          "before": "undefined",
+          "range": 5039
+        },
+        "nav": [],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "Returned gallery accepts actual wheel scrolling",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+        "pages": [],
+        "templates": [
+          "home"
+        ],
+        "containers": 1,
+        "scroll": {
+          "window": 450,
+          "smoother": "450",
+          "before": "0",
+          "range": 5039
+        },
+        "nav": [],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "The original canvas and document survive the complete journey",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+        "pages": [],
+        "templates": [
+          "home"
+        ],
+        "containers": 1,
+        "scroll": {
+          "window": 450,
+          "smoother": "450",
+          "before": "0",
+          "range": 5039
+        },
+        "nav": [],
+        "canvasSame": true,
+        "documentSame": true,
+        "errors": [],
+        "csp": [],
+        "images": []
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "The final location stays within the local reference package",
+      "passed": true,
+      "detail": {
+        "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html",
+        "localPrefix": "/app/assets/motion-vault-assets/curated-persistent-gallery/run/"
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "name": "Journey has no script, CSP, HTTP, image or external-resource errors",
+      "passed": true,
+      "detail": {
+        "errors": [],
+        "csp": [],
+        "images": [],
+        "network": [],
+        "external": []
+      }
+    },
+    {
+      "id": "suite",
+      "name": "Verifier and tested asset bytes stayed unchanged",
+      "passed": true
+    }
+  ],
+  "passed": 17,
+  "total": 17,
+  "allPassed": true
+}

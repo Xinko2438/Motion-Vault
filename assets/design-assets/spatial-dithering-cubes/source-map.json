@@ -1,0 +1,26 @@
+[
+  {
+    "path": "source/src/index.js",
+    "role": "author entry"
+  },
+  {
+    "path": "source/src/Grid/Grid.js",
+    "role": "original instanced geometry/material/threshold generator"
+  },
+  {
+    "path": "source/src/Grid/shaders/vertexShader.glsl",
+    "role": "original vertex animation/dithering shader"
+  },
+  {
+    "path": "source/src/Grid/shaders/fragmentShader.glsl",
+    "role": "original fragment shader"
+  },
+  {
+    "path": "adapter/index.js",
+    "role": "source entry with local lifecycle glue"
+  },
+  {
+    "path": "adapter/check-static.py",
+    "role": "scoped compatibility verification or lifecycle source"
+  }
+]

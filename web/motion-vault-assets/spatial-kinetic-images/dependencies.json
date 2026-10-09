@@ -1,0 +1,228 @@
+{
+  "direct": {
+    "@react-three/drei": "10.4.2",
+    "@react-three/fiber": "9.2.0",
+    "leva": "0.10.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sass": "1.89.2",
+    "three": "0.175.0"
+  },
+  "lockFile": "dependency-lock.json",
+  "lockSha256": "ebbf62ef982df50a7d9319131527c2e90d02288ff5a5c9e5e3d1f55399019566",
+  "sourceLockFile": "source/package-lock.json",
+  "sourceLockSha256": "c84167b6bd6323273ed3166e6ae72e3d0de0f98ee4f50bee58aff75bcfa4c08b",
+  "dependencyLifecycleScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "dependencyInstall": "npm ci --ignore-scripts in separate same-scope dependency workspace; original Next dependency/scripts not used",
+  "ownBuildTool": {
+    "esbuild": "0.25.10",
+    "sass": "1.89.2"
+  },
+  "runtimeExecution": "not performed; static source and own-controller mocks only",
+  "unusedInstalledDirectPackages": [
+    "leva"
+  ],
+  "bundledPackageLicenses": [
+    {
+      "name": "@babel/runtime",
+      "version": "7.29.7",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/@babel__runtime@7.29.7-LICENSE",
+          "sha256": "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76"
+        }
+      ]
+    },
+    {
+      "name": "@react-three/drei",
+      "version": "10.4.2",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/@react-three__drei@10.4.2-LICENSE",
+          "sha256": "2e36b208b403882158daf95cae207087bbb830db4d434a79ebafffca177244c8"
+        }
+      ]
+    },
+    {
+      "name": "@react-three/fiber",
+      "version": "9.2.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/react-three-fiber-MIT-publisher-notice.txt",
+          "sha256": "c2104fa0b797741297fd073e4e92376e935fdb65c7147a388970c8c441c792a5",
+          "provenance": "official repository current master; npm archive omitted the notice"
+        }
+      ]
+    },
+    {
+      "name": "camera-controls",
+      "version": "2.10.1",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/camera-controls@2.10.1-LICENSE",
+          "sha256": "d175c34ca3b4fb17d0568627ef8fd9363ae6f63f9ffdc97d4da71f0d7f3473ee"
+        }
+      ]
+    },
+    {
+      "name": "its-fine",
+      "version": "2.1.1",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/its-fine@2.1.1-LICENSE",
+          "sha256": "643123eeb38f154d93cb8323e1289a648d3f343b411a9340453c010e325d0c82"
+        }
+      ]
+    },
+    {
+      "name": "react-dom",
+      "version": "19.1.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/react-dom@19.1.0-LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-reconciler",
+      "version": "0.31.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/react-reconciler@0.31.0-LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "react-use-measure",
+      "version": "2.1.7",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/react-use-measure@2.1.7-LICENSE",
+          "sha256": "1f9038eff8dbd6505a26f9d6830cc6da2b87ab1a9305d1100884986e9c11a31a"
+        }
+      ]
+    },
+    {
+      "name": "react",
+      "version": "19.1.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/react@19.1.0-LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.25.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/scheduler@0.25.0-LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "scheduler",
+      "version": "0.26.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/scheduler@0.26.0-LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "suspend-react",
+      "version": "0.1.3",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/suspend-react@0.1.3-LICENSE",
+          "sha256": "997e79b828d8b85d6f18730c8dbf58074811360a199506bd84e1263e17c227a2"
+        }
+      ]
+    },
+    {
+      "name": "three-stdlib",
+      "version": "2.36.1",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/three-stdlib@2.36.1-LICENSE",
+          "sha256": "28eb7edf059a39094aa3d169db1fec46ac4a6279c921a90f965828d92ec86e79"
+        }
+      ]
+    },
+    {
+      "name": "three",
+      "version": "0.175.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/three@0.175.0-LICENSE",
+          "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+        }
+      ]
+    },
+    {
+      "name": "tunnel-rat",
+      "version": "0.1.2",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/tunnel-rat@0.1.2-LICENSE",
+          "sha256": "cd14add33d47bcecae9fed5559224ae135c5ec41e1d3a126601f5fbd82291834"
+        }
+      ]
+    },
+    {
+      "name": "use-sync-external-store",
+      "version": "1.7.0",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/use-sync-external-store@1.7.0-LICENSE",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+        }
+      ]
+    },
+    {
+      "name": "zustand",
+      "version": "4.5.7",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/zustand@4.5.7-LICENSE",
+          "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417"
+        }
+      ]
+    },
+    {
+      "name": "zustand",
+      "version": "5.0.15",
+      "license": "MIT",
+      "notices": [
+        {
+          "path": "dependency-licenses/zustand@5.0.15-LICENSE",
+          "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417"
+        }
+      ]
+    }
+  ],
+  "vendorCaveat": "Bundled Drei/Three utility code may retain inactive decoder URL strings; both authored useGLTF calls explicitly disable Draco and Meshopt, and pinned GLBs need neither. CSP disables workers/external connections."
+}

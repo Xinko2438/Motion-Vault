@@ -1,0 +1,142 @@
+[
+  {
+    "path": "source/js/utils.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo6/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo6/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo3/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo3/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo13/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo13/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo9/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo9/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo15/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo15/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo11/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo11/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo4/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo4/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo12/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo12/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo2/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo2/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo5/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo5/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo7/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo7/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo8/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo8/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo10/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo10/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo1/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo1/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo14/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo14/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo16/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo16/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "adapter/rebuild.mjs",
+    "role": "own source bundler, no upstream script execution"
+  },
+  {
+    "path": "run/vault-controls.js",
+    "role": "isolated frame lifecycle only; original input handlers unchanged"
+  }
+]

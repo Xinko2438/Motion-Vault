@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'none';script-src 'self' 'sha256-5YNxo1t78wGTe+9AgI66WIJny40Dvy0KbFjjimuhwl0=';style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;connect-src blob: data:;font-src 'none';worker-src 'none';object-src 'none';frame-src 'none';media-src 'none';base-uri 'none';form-action 'none'">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FORM / FLOW — a kinetic editorial handoff</title>
+<style>
+/* Design controls. The composition scales with both viewport axes. */
+:root{--paper:#f5f4ef;--ink:#242523;--muted:#787970;--accent:#4d5fea;--rule:#d4d4cb;--pad:clamp(18px,4vw,56px);--duration:1550ms;--ease:cubic-bezier(.65,0,.2,1);--title-size:min(24vw,38vh);--grain-opacity:.045}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper)}button{font:inherit;color:inherit}button:focus-visible{outline:2px solid var(--accent);outline-offset:5px}button{cursor:pointer}::selection{background:#c7cfff}.stage{isolation:isolate;position:relative;height:100%;min-height:200px;overflow:hidden}.page{position:absolute;inset:0;padding:0 var(--pad);display:flex;flex-direction:column;overflow:hidden}.masthead{position:relative;display:flex;align-items:center;justify-content:space-between;height:12%;min-height:36px;border-bottom:1px solid var(--rule);font-size:11px;letter-spacing:.065em;text-transform:uppercase;z-index:2}.brand{display:flex;align-items:center;gap:9px;font-weight:700}.brand-mark{width:14px;height:14px;display:inline-block;border:1px solid currentColor;transform:rotate(45deg)}.edition{color:var(--muted)}.top-nav{display:flex;align-items:center;gap:24px}.issue{position:relative;font:italic 15px Georgia,serif}.hero{position:relative;flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:54% 46%;padding-top:1.5vh}.title{position:relative;grid-column:1/3;z-index:3;margin:0;font-size:var(--title-size);font-weight:900;letter-spacing:-.09em;line-height:.94;padding-top:1.5vh;white-space:nowrap;width:max-content;transform:scaleX(1.13);transform-origin:left center}.title span{display:inline-block;letter-spacing:-.09em}.title .period{color:var(--accent)}.eyebrow{font-size:10px;letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:9px;margin-bottom:12px}.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}.article{position:relative;z-index:2;padding-top:5%;max-width:370px;align-self:start}.article h2{font:normal clamp(22px,3.1vw,40px)/1.05 Georgia,'Times New Roman',serif;letter-spacing:-.055em;margin:0 0 15px;max-width:350px}.article h2 em{font-weight:normal}.summary{max-width:275px;font-size:11px;line-height:1.6;color:var(--muted);margin:0}.art{grid-column:2;grid-row:2;position:relative;height:128%;align-self:end;margin-top:-28%;margin-bottom:1.7vh;display:grid;place-items:center;perspective:1000px;pointer-events:none}.art-label{position:absolute;left:0;bottom:0;font-size:9px;color:var(--muted);letter-spacing:.05em}.sculpture{position:relative;width:min(31vw,45vh);aspect-ratio:1;transform:rotate(-23deg) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .5s ease;will-change:transform}.arch{position:absolute;inset:calc(var(--i)*3.2%);border:clamp(2px,.6vw,7px) solid var(--ink);border-radius:50% 50% 4% 4%;transform:translate(calc(var(--i)*.5%),calc(var(--i)*-.1%));box-shadow:inset 0 0 0 .4px var(--paper)}.art-axis{position:absolute;width:80%;height:1px;top:50%;left:10%;background:var(--rule);transform:rotate(-23deg);z-index:-1}.art-axis::after,.art-axis::before{content:"+";position:absolute;top:-6px;font-size:10px;color:var(--muted)}.art-axis::after{right:0}.art-axis::before{left:0}.foot{display:flex;align-items:center;justify-content:space-between;min-height:60px;height:15%;border-top:1px solid var(--rule);position:relative;z-index:3}.chapter{font-size:10px;color:var(--muted);display:flex;align-items:center;gap:16px}.chapter-line{width:70px;height:1px;background:var(--rule);position:relative}.chapter-line::before{content:"";position:absolute;width:50%;height:1px;background:var(--ink);transition:transform .5s}.page[data-page="1"] .chapter-line::before{transform:translateX(100%)}.nav-button{display:flex;align-items:center;gap:30px;background:none;border:0;padding:10px 0;font-size:12px}.nav-button .circle{display:grid;place-items:center;border:1px solid var(--ink);border-radius:50%;width:36px;height:36px;transition:background .2s,color .2s,transform .2s}.nav-button:hover .circle{background:var(--ink);color:var(--paper);transform:rotate(-25deg)}.keyboard-hint{font-size:9px;color:var(--muted);margin-left:20px}.page[data-page="1"]{--accent:#ba522e}.page[data-page="1"] .title{letter-spacing:-.085em}.page[data-page="1"] .sculpture{transform:rotate(36deg) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));width:min(34vw,46vh)}.ribbon{position:absolute;left:5%;top:calc(8% + var(--i)*6%);width:90%;height:12%;border:clamp(2px,.5vw,6px) solid var(--ink);border-radius:50%;transform:rotate(calc(var(--i)*-3deg));background:var(--paper)}.page[data-page="1"] .article h2{max-width:350px}.page[hidden]{display:none}.transition-field{position:absolute;inset:0;z-index:10;pointer-events:none;overflow:hidden}.field-wash{position:absolute;inset:0;background:#dddff2;clip-path:inset(0 100% 0 0)}.flying-letter{position:absolute;font-weight:900;line-height:1;letter-spacing:-.09em;transform-origin:0 0;will-change:transform,opacity;white-space:pre}.flying-letter .next-char{position:absolute;inset:0;opacity:0}.transition-note{position:absolute;left:var(--pad);bottom:var(--pad);color:var(--ink);font:italic 13px Georgia,serif;opacity:0}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:600px),(max-height:400px){:root{--pad:20px;--title-size:min(25vw,39vh)}.masthead{font-size:7px;min-height:28px;height:13%}.brand{gap:6px}.brand-mark{width:9px;height:9px}.top-nav{gap:10px}.edition{display:none}.issue{font-size:10px}.hero{padding-top:1vh;grid-template-rows:52% 48%;grid-template-columns:53% 47%}.title{padding-top:1vh;transform:scaleX(1.08)}.eyebrow{font-size:6px;gap:4px;margin-bottom:5px}.eyebrow::before{width:4px;height:4px}.article{padding-top:3%;padding-right:6px}.article h2{font-size:clamp(15px,4.1vw,23px);margin-bottom:4px;letter-spacing:-.06em}.summary{font-size:7px;line-height:1.4;max-width:170px}.foot{min-height:40px;height:18%}.chapter{font-size:7px;gap:8px}.chapter-line{width:30px}.nav-button{font-size:8px;gap:9px;padding:4px 0}.nav-button .circle{width:24px;height:24px}.keyboard-hint{display:none}.art{height:125%;margin-bottom:3vh}.art-label{font-size:6px;bottom:-2px}.sculpture{width:min(30vw,43vh)}.page[data-page="1"] .sculpture{width:min(31vw,44vh)}.arch{border-width:2px}.ribbon{border-width:2px}.transition-note{font-size:9px}.art-axis{display:none}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}.sculpture{will-change:auto}}
+</style>
+<script src="./vault-native-input.js"></script><script src="./vault-session.js"></script></head>
+<body>
+<main class="stage" aria-label="Kinetic editorial page transition">
+<section class="page" data-page="0" aria-label="Form, chapter one">
+<header class="masthead"><div class="brand"><i class="brand-mark" aria-hidden="true"></i> FIELDWORK</div><div class="edition">Independent studies in movement</div><div class="top-nav"><span>Journal</span><span class="issue">No. 028</span></div></header>
+<div class="hero"><h1 class="title" aria-label="Form."><span>F</span><span>O</span><span>R</span><span>M</span><span class="period">.</span></h1><div class="article"><div class="eyebrow">01 / The shape of things</div><h2>A little structure.<br>A lot of <em>possibility.</em></h2><p class="summary">An exploration of the space between what a thing is, and what it could become.</p></div><div class="art" aria-label="Original concentric arch sculpture"><div class="art-axis"></div><div class="sculpture"><i class="arch" style="--i:0"></i><i class="arch" style="--i:1"></i><i class="arch" style="--i:2"></i><i class="arch" style="--i:3"></i><i class="arch" style="--i:4"></i><i class="arch" style="--i:5"></i><i class="arch" style="--i:6"></i><i class="arch" style="--i:7"></i><i class="arch" style="--i:8"></i><i class="arch" style="--i:9"></i></div><span class="art-label">FIG. 01 — ORDER / INK ON PAPER</span></div></div>
+<footer class="foot"><div class="chapter"><span>01 / 02</span><i class="chapter-line"></i><span>Form & feeling</span><span class="keyboard-hint">Use ← → to explore</span></div><button class="nav-button" data-go="1">Let it flow <span class="circle" aria-hidden="true">↗</span></button></footer>
+</section>
+<section class="page" data-page="1" aria-label="Flow, chapter two" hidden inert>
+<header class="masthead"><div class="brand"><i class="brand-mark" aria-hidden="true"></i> FIELDWORK</div><div class="edition">Independent studies in movement</div><div class="top-nav"><span>Journal</span><span class="issue">No. 028</span></div></header>
+<div class="hero"><h1 class="title" aria-label="Flow."><span>F</span><span>L</span><span>O</span><span>W</span><span class="period">.</span></h1><div class="article"><div class="eyebrow">02 / Room for the unexpected</div><h2>Make a little room<br>for <em>movement.</em></h2><p class="summary">When the familiar comes undone, a different kind of order begins to emerge.</p></div><div class="art" aria-label="Original flowing ribbon sculpture"><div class="art-axis"></div><div class="sculpture"><i class="ribbon" style="--i:0"></i><i class="ribbon" style="--i:1"></i><i class="ribbon" style="--i:2"></i><i class="ribbon" style="--i:3"></i><i class="ribbon" style="--i:4"></i><i class="ribbon" style="--i:5"></i><i class="ribbon" style="--i:6"></i><i class="ribbon" style="--i:7"></i><i class="ribbon" style="--i:8"></i><i class="ribbon" style="--i:9"></i></div><span class="art-label">FIG. 02 — CHANGE / INK ON PAPER</span></div></div>
+<footer class="foot"><div class="chapter"><span>02 / 02</span><i class="chapter-line"></i><span>Form & feeling</span><span class="keyboard-hint">Use ← → to explore</span></div><button class="nav-button" data-go="0">Back to form <span class="circle" aria-hidden="true">↙</span></button></footer>
+</section>
+<div class="transition-field" aria-hidden="true"></div><div class="sr-only" role="status" aria-live="polite"></div>
+</main>
+<script>
+/* Independently authored for Motion Vault. No libraries, upstream code, assets or requests. */
+(() => {
+  'use strict';
+  const stage = document.querySelector('.stage');
+  const pages = [...document.querySelectorAll('.page')];
+  const field = document.querySelector('.transition-field');
+  const status = document.querySelector('[role="status"]');
+  const media = matchMedia('(prefers-reduced-motion: reduce)');
+  const listeners = new AbortController();
+  const signal = listeners.signal;
+  const params = new URLSearchParams(location.search);
+  // An explicit gallery hover may request motion. Standalone still follows the OS.
+  const reduced = () => media.matches && params.get('motionIntent') !== 'hover';
+  let current = 0, running = false, disposed = false, demoTimer = 0;
+  let animations = [], generation = 0, activeTarget = 0;
+  let demoEnabled = params.get('demo') === '1', pointerOwns = false;
+
+  function duration() {
+    return parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--duration')) || 1550;
+  }
+  function animate(node, frames, options) {
+    const animation = node.animate(frames, options);
+    animations.push(animation);
+    return animation;
+  }
+  function show(index, moveFocus = false) {
+    current = index;
+    pages.forEach((page, i) => {
+      page.hidden = i !== index;
+      page.inert = i !== index;
+      page.style.opacity = '';
+      page.querySelector('.title').style.visibility = '';
+    });
+    field.replaceChildren();
+    stage.dataset.state = index ? 'flow' : 'form';
+    if (moveFocus) pages[index].querySelector('button').focus({preventScroll:true});
+    status.textContent = index ? 'Chapter two: Flow.' : 'Chapter one: Form.';
+  }
+  function cancelTransition() {
+    generation++;
+    animations.forEach(animation => animation.cancel());
+    animations = [];
+    running = false;
+    show(activeTarget);
+  }
+  function clearDemo() { clearTimeout(demoTimer); demoTimer = 0; }
+  function scheduleDemo() {
+    clearDemo();
+    if (demoEnabled && !pointerOwns && !reduced() && !disposed && !document.hidden) {
+      demoTimer = setTimeout(() => transition(1-current, false), 2700);
+    }
+  }
+
+  async function transition(target, fromInput = true) {
+    if (disposed || target === current && !running) return;
+    clearDemo();
+    if (running) cancelTransition();
+    if (target === current) { scheduleDemo(); return; }
+    activeTarget = target;
+    if (reduced() || document.hidden) { show(target, fromInput && document.activeElement?.tagName === 'BUTTON'); scheduleDemo(); return; }
+    const token = ++generation;
+    running = true;
+    const oldPage = pages[current], nextPage = pages[target];
+    const sourceLetters = [...oldPage.querySelectorAll('.title span')];
+    const sourceBoxes = sourceLetters.map(letter => letter.getBoundingClientRect());
+    const takeFocus = fromInput && document.activeElement?.tagName === 'BUTTON';
+    nextPage.hidden = false;
+    nextPage.inert = true;
+    nextPage.style.opacity = '0';
+    const targetLetters = [...nextPage.querySelectorAll('.title span')];
+    const targetBoxes = targetLetters.map(letter => letter.getBoundingClientRect());
+    oldPage.querySelector('.title').style.visibility = 'hidden';
+    nextPage.querySelector('.title').style.visibility = 'hidden';
+    const wash = document.createElement('div'); wash.className = 'field-wash'; field.append(wash);
+    const note = document.createElement('div'); note.className = 'transition-note'; note.textContent = target ? 'Structure gives way to movement.' : 'Movement finds a little structure.'; field.append(note);
+    const ms = duration(), width = stage.clientWidth, height = stage.clientHeight;
+    const direction = target ? 1 : -1;
+    const easing = 'cubic-bezier(.64,0,.22,1)';
+    animate(wash, [{clipPath:'inset(0 100% 0 0)',offset:0},{clipPath:'inset(0 0 0 0)',offset:.25},{clipPath:'inset(0 0 0 0)',offset:.67},{clipPath:'inset(0 0 0 100%)',offset:1}], {duration:ms,fill:'both',easing});
+    animate(note, [{opacity:0},{opacity:1,offset:.38},{opacity:1,offset:.62},{opacity:0}], {duration:ms,fill:'both'});
+    animate(oldPage,[{opacity:1},{opacity:0,offset:.35},{opacity:0}],{duration:ms,fill:'forwards'});
+    animate(nextPage,[{opacity:0},{opacity:0,offset:.59},{opacity:1}],{duration:ms,fill:'forwards'});
+    const travel = sourceLetters.map((letter, index) => {
+      const box = sourceBoxes[index], end = targetBoxes[index];
+      const fly = document.createElement('div'); fly.className = 'flying-letter';
+      const old = document.createElement('span'); old.textContent = letter.textContent;
+      const next = document.createElement('span'); next.className = 'next-char'; next.textContent = targetLetters[index].textContent;
+      fly.append(old, next); field.append(fly);
+      const titleStyle = getComputedStyle(letter);
+      const startScale = box.width / letter.offsetWidth;
+      Object.assign(fly.style, {left:box.left+'px',top:box.top+'px',fontSize:titleStyle.fontSize,lineHeight:titleStyle.lineHeight,color:getComputedStyle(letter).color,width:letter.offsetWidth+'px',height:box.height+'px'});
+      // Glyphs expand into a diagonal typographic field, then resolve at exact title boxes.
+      const centerX = width*(.13 + index*.185), centerY = height*(.33 + (index%2)*.21);
+      const rotation = (index-2)*-13*direction;
+      const scale = index === 4 ? 4.8 : 2.2;
+      const middleX = centerX - box.left - letter.offsetWidth*scale/2;
+      const middleY = centerY - box.top - box.height*scale/2;
+      const first = `translate(0px,0px) rotate(0deg) scale(${startScale},1)`;
+      const middle = `translate(${middleX}px,${middleY}px) rotate(${rotation}deg) scale(${scale})`;
+      const final = `translate(${end.left-box.left}px,${end.top-box.top}px) rotate(0deg) scale(${end.width/targetLetters[index].offsetWidth},1)`;
+      animate(old,[{opacity:1},{opacity:1,offset:.45},{opacity:0,offset:.56},{opacity:0}],{duration:ms,fill:'both'});
+      animate(next,[{opacity:0},{opacity:0,offset:.45},{opacity:1,offset:.56},{opacity:1}],{duration:ms,fill:'both'});
+      return animate(fly,[{transform:first,offset:0},{transform:middle,offset:.43},{transform:middle,offset:.56},{transform:final,offset:1}],{duration:ms,delay:index*22,fill:'both',easing});
+    });
+    try { await Promise.all(travel.map(animation=>animation.finished)); } catch { return; }
+    if (token !== generation || disposed) return;
+    animations.forEach(animation=>animation.cancel()); animations=[]; running=false;
+    show(target,takeFocus); scheduleDemo();
+  }
+
+  stage.addEventListener('click', event => {
+    const button = event.target.closest('[data-go]');
+    if (button) transition(Number(button.dataset.go));
+  },{signal});
+  window.addEventListener('keydown',event=>{
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.key === 'ArrowRight' || event.key === 'ArrowLeft' || event.key === 'Escape') {
+      event.preventDefault(); pointerOwns=true; clearDemo();
+      transition(event.key==='ArrowRight'?1:0);
+    }
+  },{signal});
+  stage.addEventListener('pointermove',event=>{
+    if (!event.isTrusted) return;
+    pointerOwns=true; clearDemo();
+    if (reduced() || running) return;
+    const rx = (event.clientY/innerHeight-.5)*-9, ry=(event.clientX/innerWidth-.5)*9;
+    stage.style.setProperty('--rx',rx+'deg'); stage.style.setProperty('--ry',ry+'deg');
+  },{signal,passive:true});
+  stage.addEventListener('pointerdown',()=>{pointerOwns=true;clearDemo();},{signal,passive:true});
+  stage.addEventListener('pointerleave',()=>{pointerOwns=false;stage.style.setProperty('--rx','0deg');stage.style.setProperty('--ry','0deg');scheduleDemo();},{signal});
+  document.addEventListener('visibilitychange',()=>{
+    clearDemo();
+    if (document.hidden && running) cancelTransition();
+    else scheduleDemo();
+  },{signal});
+  media.addEventListener('change',()=>{if(reduced()&&running)cancelTransition();scheduleDemo();},{signal});
+  window.addEventListener('resize',()=>{if(running)cancelTransition();},{signal});
+  function dispose(){if(disposed)return;disposed=true;clearDemo();if(running)cancelTransition();listeners.abort();field.replaceChildren();}
+  window.addEventListener('pagehide',dispose,{signal,once:true});
+  window.MotionExample = {
+    next:()=>transition(1), previous:()=>transition(0),
+    demo:()=>{demoEnabled=true;pointerOwns=false;scheduleDemo();},
+    stop:()=>{demoEnabled=false;clearDemo();},
+    reset:()=>{clearDemo();activeTarget=0;cancelTransition();show(0);},
+    dispose,
+    get state(){return {page:current,running,disposed,reducedMotion:reduced(),demoEnabled};}
+  };
+  show(0); scheduleDemo();
+})();
+
+window.__VaultNativeInitialized=true;
+</script>
+<script src="./vault-native-lifecycle.js"></script></body>
+</html>

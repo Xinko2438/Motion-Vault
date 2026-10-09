@@ -1,0 +1,224 @@
+{
+  "schema": "motion-vault.static-review.v1",
+  "passed": 51,
+  "total": 51,
+  "browserExecuted": false,
+  "upstreamCodeExecuted": false,
+  "runtimeStatus": "not_run",
+  "visualStatus": "author screenshot reviewed; local render not captured",
+  "remaining": [
+    "Opaque allow-scripts-only iframe rendering",
+    "All six broker-loaded image uploads",
+    "Normal autoplay and true drag",
+    "Cold-start held pointer, cancel and cross-boundary release",
+    "Reduced-motion static state and direct manipulation",
+    "Stop/resume/dispose and repeated mount resource cleanup",
+    "1100x670 viewport scaled in gallery"
+  ],
+  "results": [
+    {
+      "check": "pinned-source: LICENSE.md",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: README.md",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: img/motion_blur_portrait_01.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: img/motion_blur_portrait_02.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: img/motion_blur_portrait_03.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: img/motion_blur_portrait_04.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: img/motion_blur_portrait_05.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: img/motion_blur_portrait_06.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned-source: index.html",
+      "passed": true
+    },
+    {
+      "check": "original CONFIG defaults",
+      "passed": true
+    },
+    {
+      "check": "original vertex shader",
+      "passed": true
+    },
+    {
+      "check": "original fragment shader",
+      "passed": true
+    },
+    {
+      "check": "original independent ribbon geometry",
+      "passed": true
+    },
+    {
+      "check": "original strip layout",
+      "passed": true
+    },
+    {
+      "check": "original responsive sizing",
+      "passed": true
+    },
+    {
+      "check": "26 ribbons retained",
+      "passed": true
+    },
+    {
+      "check": "normal drag velocity smoothing retained",
+      "passed": true
+    },
+    {
+      "check": "normal release easing retained",
+      "passed": true
+    },
+    {
+      "check": "pinned vendor: three",
+      "passed": true
+    },
+    {
+      "check": "package archive integrity recorded: three",
+      "passed": true
+    },
+    {
+      "check": "pinned vendor: gsap",
+      "passed": true
+    },
+    {
+      "check": "package archive integrity recorded: gsap",
+      "passed": true
+    },
+    {
+      "check": "dependency lifecycle scripts not executed",
+      "passed": true
+    },
+    {
+      "check": "no font artifacts",
+      "passed": true
+    },
+    {
+      "check": "local portrait byte match: motion_blur_portrait_02.jpg",
+      "passed": true
+    },
+    {
+      "check": "local portrait byte match: motion_blur_portrait_03.jpg",
+      "passed": true
+    },
+    {
+      "check": "local portrait byte match: motion_blur_portrait_05.jpg",
+      "passed": true
+    },
+    {
+      "check": "local portrait byte match: motion_blur_portrait_04.jpg",
+      "passed": true
+    },
+    {
+      "check": "local portrait byte match: motion_blur_portrait_01.jpg",
+      "passed": true
+    },
+    {
+      "check": "local portrait byte match: motion_blur_portrait_06.jpg",
+      "passed": true
+    },
+    {
+      "check": "HTML resources are own-package relative",
+      "passed": true
+    },
+    {
+      "check": "bridge precedes dependencies and effect",
+      "passed": true
+    },
+    {
+      "check": "run has no author CDN scripts",
+      "passed": true
+    },
+    {
+      "check": "no storage or host-state API",
+      "passed": true
+    },
+    {
+      "check": "reduced motion does not force timer or introduction",
+      "passed": true
+    },
+    {
+      "check": "real-pointer capture, no synthetic event generation",
+      "passed": true
+    },
+    {
+      "check": "lifecycle method implemented: stop",
+      "passed": true
+    },
+    {
+      "check": "lifecycle method implemented: resume",
+      "passed": true
+    },
+    {
+      "check": "lifecycle method implemented: dispose",
+      "passed": true
+    },
+    {
+      "check": "lifecycle method implemented: paint",
+      "passed": true
+    },
+    {
+      "check": "ticker removed on stop",
+      "passed": true
+    },
+    {
+      "check": "dispose releases GPU objects",
+      "passed": true
+    },
+    {
+      "check": "resource-and-first-render ready Promise",
+      "passed": true
+    },
+    {
+      "check": "partial-initialization resource ownership",
+      "passed": true
+    },
+    {
+      "check": "terminal disposal rejects pending readiness",
+      "passed": true
+    },
+    {
+      "check": "transport same source and session guard",
+      "passed": true
+    },
+    {
+      "check": "transport closes its own pending requests and Blob URLs",
+      "passed": true
+    },
+    {
+      "check": "syntax parse only: effect.js",
+      "passed": true
+    },
+    {
+      "check": "syntax parse only: vault-isolation.js",
+      "passed": true
+    },
+    {
+      "check": "syntax parse only: vendor/three.min.js",
+      "passed": true
+    },
+    {
+      "check": "syntax parse only: vendor/gsap.min.js",
+      "passed": true
+    }
+  ]
+}

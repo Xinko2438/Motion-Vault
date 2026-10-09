@@ -1,0 +1,130 @@
+TAP version 13
+# Subtest: Formal IDs and explicit deletions are preserved
+ok 1 - Formal IDs and explicit deletions are preserved
+  ---
+  duration_ms: 0.7888
+  type: 'test'
+  ...
+# Subtest: All formal sources, runnable entries and previews remain intact
+ok 2 - All formal sources, runnable entries and previews remain intact
+  ---
+  duration_ms: 487.7595
+  type: 'test'
+  ...
+# Subtest: Thirty fully local review candidates do not become approved formal assets
+ok 3 - Thirty fully local review candidates do not become approved formal assets
+  ---
+  duration_ms: 1365.5268
+  type: 'test'
+  ...
+# Subtest: Classification is purpose, concrete task, placement and design goal
+ok 4 - Classification is purpose, concrete task, placement and design goal
+  ---
+  duration_ms: 0.953
+  type: 'test'
+  ...
+# Subtest: Agent receives actual readable source instead of oversized dependency bundles
+ok 5 - Agent receives actual readable source instead of oversized dependency bundles
+  ---
+  duration_ms: 597.289
+  type: 'test'
+  ...
+# Subtest: Rejected or unknown references are never silently restored
+ok 6 - Rejected or unknown references are never silently restored
+  ---
+  duration_ms: 217.0613
+  type: 'test'
+  ...
+# Subtest: Private curator notes stay outside production outputs
+ok 7 - Private curator notes stay outside production outputs
+  ---
+  duration_ms: 118.3956
+  type: 'test'
+  ...
+# Subtest: Source demos keep their isolation in the unified page; hover loads only local previews
+ok 8 - Source demos keep their isolation in the unified page; hover loads only local previews
+  ---
+  duration_ms: 0.5877
+  type: 'test'
+  ...
+# Subtest: Published pages correspond to the currently validated staged artifacts
+ok 9 - Published pages correspond to the currently validated staged artifacts
+  ---
+  duration_ms: 5.0159
+  type: 'test'
+  ...
+# Subtest: Public inventory contains no font files, private folders or obsolete builds
+ok 10 - Public inventory contains no font files, private folders or obsolete builds
+  ---
+  duration_ms: 887.9823
+  type: 'test'
+  ...
+# Subtest: Capture, import retry, hide/restore and permanent entry identities remain
+ok 11 - Capture, import retry, hide/restore and permanent entry identities remain
+  ---
+  duration_ms: 1.1522
+  type: 'test'
+  ...
+# Subtest: Same-code previews retain clear original-versus-independent provenance
+ok 12 - Same-code previews retain clear original-versus-independent provenance
+  ---
+  duration_ms: 0.4528
+  type: 'test'
+  ...
+# Subtest: Recaptured candidate media changes its browser cache identity independently of source code
+ok 13 - Recaptured candidate media changes its browser cache identity independently of source code
+  ---
+  duration_ms: 176.6147
+  type: 'test'
+  ...
+# Subtest: A single page serves library, pending review and hidden states
+ok 14 - A single page serves library, pending review and hidden states
+  ---
+  duration_ms: 1.0912
+  type: 'test'
+  ...
+# Subtest: Preview media cache: timeout backs off and direct lease prevents duplicate fetch
+ok 15 - Preview media cache: timeout backs off and direct lease prevents duplicate fetch
+  ---
+  duration_ms: 33.9579
+  type: 'test'
+  ...
+# Subtest: Preview media cache: a new generation does not inherit an aborted fetch
+ok 16 - Preview media cache: a new generation does not inherit an aborted fetch
+  ---
+  duration_ms: 76.1168
+  type: 'test'
+  ...
+# Subtest: Preview media cache: a true miss returns HTTP without starting a new prefetch
+ok 17 - Preview media cache: a true miss returns HTTP without starting a new prefetch
+  ---
+  duration_ms: 9.0481
+  type: 'test'
+  ...
+# Subtest: Preview media cache: clear preserves live Blob leases and reclaims them on release
+ok 18 - Preview media cache: clear preserves live Blob leases and reclaims them on release
+  ---
+  duration_ms: 9.0038
+  type: 'test'
+  ...
+# Subtest: Preview media cache: a stalled body does not block a second visible item
+ok 19 - Preview media cache: a stalled body does not block a second visible item
+  ---
+  duration_ms: 10.1504
+  type: 'test'
+  ...
+# Subtest: Preview media cache: pending jobs reserve entry and byte budgets
+ok 20 - Preview media cache: pending jobs reserve entry and byte budgets
+  ---
+  duration_ms: 96.1269
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4252.8138

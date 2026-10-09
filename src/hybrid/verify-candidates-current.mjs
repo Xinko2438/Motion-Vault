@@ -10,11 +10,14 @@ const runId=randomUUID(),runStartedAt=new Date().toISOString(),verifierPath=file
 const initialFormalHash=sha(await readFile(path.join(baseRoot,'index.html'))),redirectPath=live?path.join(project,'candidates/curated-originals/index.html'):path.join(root,'candidates.html'),initialRedirectHash=sha(await readFile(redirectPath));
 const ck=(name,passed,detail)=>{checks.push({name,passed:!!passed,...(detail===undefined?{}:{detail})});if(!passed)console.error('FAIL '+name)};
 const catalog=JSON.parse(await readFile(path.join(baseRoot,'candidate-catalog.json'),'utf8'));
+const expansion=JSON.parse(await readFile(path.join(project,'src/hybrid/source-expansion-catalog.json'),'utf8'));
+const expectedCount=30+expansion.length,expectedTotal=60+expectedCount;
+const originalCandidates=catalog.items.filter(i=>String(i.id).startsWith('curated-'));
 const query=(...args)=>JSON.parse(execFileSync(process.execPath,['scripts/query-vault.mjs',...args,'--root',path.relative(project,baseRoot),'--json'],{cwd:project,encoding:'utf8',windowsHide:true,maxBuffer:4*1024*1024,timeout:60000}));
-ck('Thirty local candidates, no pending implementation placeholders',catalog.count===30&&catalog.localReady===30&&catalog.items.every(i=>i.asset?.video&&i.asset.poster&&i.asset.entry));
-ck('Four independent implementations are not attributed as original source',catalog.items.filter(i=>i.source_kind==='independent_code').length===4&&catalog.items.filter(i=>i.source_kind==='adapted_author_source').length===26);
-const verified=query('verify','--scope','candidates');ck('All code, source and preview hashes match',verified.result.length===30&&verified.result.every(i=>i.ready));
-for(const it of catalog.items){
+ck('Every registered candidate has real recorded media without placeholders',catalog.count===expectedCount&&catalog.localReady===expectedCount&&catalog.items.every(i=>i.asset?.video&&i.asset.poster&&i.asset.entry));
+ck('Original independent implementations retain their attribution',originalCandidates.filter(i=>i.source_kind==='independent_code').length===4&&originalCandidates.filter(i=>i.source_kind==='adapted_author_source').length===26);
+const verified=query('verify','--scope','candidates');ck('All code, source and preview hashes match',verified.result.length===expectedCount&&verified.result.every(i=>i.ready));
+for(const it of originalCandidates){
  const data=query('inspect',String(it.id),'--scope','candidates','--section','all').result;
  ck('Agent can read design and bounded real code '+it.id,data.integrity.verified&&data.design.includes('实际用途')&&data.implementation.length>200&&data.entryCode.length>30&&data.entryCode.length<30000&&data.sourceMap.length>0);
 }
@@ -52,11 +55,11 @@ const run=s=>withBrowser(async b=>{
  const note=async text=>b.evaluate('(()=>{const e=document.getElementById("reviewNote");e.value='+JSON.stringify(text)+';e.dispatchEvent(new Event("input",{bubbles:true}))})()');
  await b.call('Page.addScriptToEvaluateOnNewDocument',{source:'window.__errors=[];addEventListener("error",e=>__errors.push(e.error?.stack||e.message));addEventListener("unhandledrejection",e=>__errors.push(String(e.reason)));for(const type of ["pointerdown","pointerup","click"])document.addEventListener(type,e=>{const p=window.__vaultClickProbe;if(!p)return;const expected=document.querySelector(p.selector),r=expected?.getBoundingClientRect();p.events.push({type,match:!!expected&&e.composedPath().includes(expected),target:e.target.id||e.target.tagName,isTrusted:e.isTrusted,x:e.clientX,y:e.clientY,rect:r?{x:r.x,y:r.y,width:r.width,height:r.height}:null})},true);'});
  await b.goto(main,450);await until(b,'!!window.HybridVault&&!!window.CandidateVault');
- ck('One application contains both catalogues',await b.evaluate('HybridVault.release==="formal"&&HybridVault.items().filter(i=>i.asset).length===90&&CandidateVault.items().length===30'));
+ ck('One application contains both complete catalogues',await b.evaluate('HybridVault.release==="formal"&&HybridVault.items().filter(i=>i.asset).length==='+expectedTotal+'&&CandidateVault.items().length==='+expectedCount));
  ck('Default library and public export exclude all unaccepted candidates',(await visibleCandidates()).length===0&&(await publicData()).items.every(i=>!catalog.items.some(c=>c.id===i.id)));
  ck('Private review export is absent from normal browsing',await b.evaluate('document.getElementById("exportReview").getClientRects().length===0'));
  await view('pending');
- ck('All thirty pending-review cards render in the same page',(await visibleCandidates()).length===30&&await b.evaluate('location.pathname.endsWith("/motion-vault.html")&&document.querySelectorAll("#searchInput").length===1&&document.querySelectorAll("#sceneTabs").length===1'));
+ ck('Every pending-review source renders in the same page',(await visibleCandidates()).length===expectedCount&&await b.evaluate('location.pathname.endsWith("/motion-vault.html")&&document.querySelectorAll("#searchInput").length===1&&document.querySelectorAll("#sceneTabs").length===1'));
  ck('No obsolete version labels or missing-implementation banners',await b.evaluate('!/(hover-intent|20261006r|待补实现 25)/.test(document.body.innerText)'));
  ck('Initial pending state starts no full demo',await b.evaluate('document.querySelectorAll("iframe,.preview-layer").length===0'));
  for(const it of catalog.items){
@@ -91,10 +94,10 @@ const run=s=>withBrowser(async b=>{
  ck('Legacy private note is preserved without a storage migration',await b.evaluate('document.getElementById("reviewNote").value')===canary);
  ck('Candidate details expose only the isolated interactive entry',await b.evaluate('document.getElementById("runAlone").hidden&&document.getElementById("runAlone").getAttribute("href")==="#"&&!document.getElementById("runLocal").hidden&&!document.getElementById("runLocal").disabled'));
  await close();await click(selector(target)+' .archive-btn');await view('pending');
- ck('Restoring an unaccepted candidate returns it to pending',await exists(selector(target))&&(await visibleCandidates()).length===30);
+ ck('Restoring an unaccepted candidate returns it to pending',await exists(selector(target))&&(await visibleCandidates()).length===expectedCount);
  ck('Production export remains clean while viewing pending',!(await publicData()).items.some(i=>i.id===target)&&!JSON.stringify(await publicData()).includes(canary));
  await click(selector(target)+' .collect-btn');
- ck('Explicit collection removes only the selected pending item',!(await exists(selector(target)))&&(await visibleCandidates()).length===29);
+ ck('Explicit collection removes only the selected pending item',!(await exists(selector(target)))&&(await visibleCandidates()).length===expectedCount-1);
  await view('library');
  ck('The collected candidate joins the default gallery and production export',await exists(selector(target))&&(await publicData()).items.some(i=>i.id===target));
  ck('Acceptance never copies notes or review events into public items',!JSON.stringify(await publicData()).includes(canary)&&(await publicData()).items.every(i=>!('note'in i)&&!('notes'in i)&&!('events'in i)&&!('hidden'in i)&&!('accepted'in i)));
@@ -117,11 +120,11 @@ const run=s=>withBrowser(async b=>{
  await open(target);await externalReview(['accept']);
  ck('External review change preserves the currently open detail',await b.evaluate('document.getElementById("modal").open&&document.getElementById("reviewNote").value')===canary);
  await close();
- ck('Closing detail reflects externally accepted state immediately',!(await exists(selector(target)))&&(await visibleCandidates()).length===29&&await b.evaluate('document.querySelector("#viewTabs [data-view=pending]").textContent.includes("29")'));
+ ck('Closing detail reflects externally accepted state immediately',!(await exists(selector(target)))&&(await visibleCandidates()).length===expectedCount-1&&await b.evaluate('document.querySelector("#viewTabs [data-view=pending]").textContent.includes('+JSON.stringify(String(expectedCount-1))+')'));
  await view('library');await open(target);await externalReview(['hide']);await close();
  ck('Closing detail reflects an external hide in gallery and public export',!(await exists(selector(target)))&&!(await publicData()).items.some(i=>i.id===target)&&await b.evaluate('document.querySelector("#viewTabs [data-view=hidden]").textContent.includes("2")'));
  await externalReview(['restore','unaccept']);await view('pending');
- ck('External updates do not lose private notes or pending identity',await exists(selector(target))&&(await visibleCandidates()).length===30&&await b.evaluate('CandidateVault.exportReview().items.find(i=>i.id==='+JSON.stringify(target)+').note')===canary);
+ ck('External updates do not lose private notes or pending identity',await exists(selector(target))&&(await visibleCandidates()).length===expectedCount&&await b.evaluate('CandidateVault.exportReview().items.find(i=>i.id==='+JSON.stringify(target)+').note')===canary);
 
  // A storage failure must not forge acceptance; the note draft remains recoverable.
  await b.evaluate('window.__originalSetItem=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='+JSON.stringify(key)+')throw new DOMException("Storage test","QuotaExceededError");return __originalSetItem.call(this,k,v)}');
@@ -144,7 +147,7 @@ const run=s=>withBrowser(async b=>{
  ck('Returning to pending retains shared search context',await exists(selector(target)));
  await b.evaluate('document.getElementById("searchInput").value="";document.getElementById("searchInput").dispatchEvent(new Event("input"))');
  await click('#sceneTabs [data-scene=all]');
- ck('All pending candidates remain after the workflow',(await visibleCandidates()).length===30);
+ ck('All pending candidates remain after the workflow',(await visibleCandidates()).length===expectedCount);
  const payload=await b.evaluate('fetch('+JSON.stringify(live?'motion-vault-candidate-catalog.json':'candidate-catalog.json')+').then(r=>r.text())');
  ck('Published catalogue contains no private canary',!payload.includes(canary)&&!payload.includes(draft));
 

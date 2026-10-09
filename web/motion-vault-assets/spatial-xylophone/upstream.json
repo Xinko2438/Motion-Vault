@@ -1,0 +1,362 @@
+{
+  "repository": "https://github.com/Sujenphea/xylophone",
+  "commit": "8e4f9a8c7729f52edc006ca02c6c377921c4f1b7",
+  "codeLicense": "MIT",
+  "runtimeVerification": "not_performed_browser_routes_blocked",
+  "id": "spatial-xylophone",
+  "source_kind": "adapted_author_source",
+  "author": "Sujen Phea",
+  "article": "https://tympanus.net/codrops/2026/08/04/building-an-endless-interactive-glass-xylophone-with-three-js/",
+  "demo": "https://tympanus.net/Tutorials/Xylophone/",
+  "license": {
+    "name": "MIT",
+    "file": "source/LICENSE",
+    "url": "https://github.com/Sujenphea/xylophone/blob/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/LICENSE",
+    "sha256": "3b56d635b76cb0c0fc8ffd303bce06bd44365cf4b99e77e889fc6b259141ec1b"
+  },
+  "sourceFiles": [
+    {
+      "path": ".gitignore",
+      "bytes": 407,
+      "sha256": "0350db7c5dad5586ecf9eb4dc98941a90df93ec66aea8e308446801bebcf3e20",
+      "gitBlobSha": "d2547f35ed24f944feb0368921c0f7d1974cd985",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/.gitignore"
+    },
+    {
+      "path": ".prettierrc",
+      "bytes": 156,
+      "sha256": "f00a83fe5df34706a9754a09dd200bee8979498a3712ccbac03c4422b7675760",
+      "gitBlobSha": "532b9140b2b6594398602c90ae9b6ee8c936f177",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/.prettierrc"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1094,
+      "sha256": "3b56d635b76cb0c0fc8ffd303bce06bd44365cf4b99e77e889fc6b259141ec1b",
+      "gitBlobSha": "a5ef20beccc243ab7bfbc164294f0053333032a8",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/LICENSE"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 143,
+      "sha256": "b54021df0d8472c4acfa2927142f5aab15cbce73e3ed8e17e0ec59eaab3575cb",
+      "gitBlobSha": "97d61a1874b250b52078112de971e8052469d619",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/Makefile"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2353,
+      "sha256": "7ed53bc8ace66652a0efe93a7e70889556e3dd1fd694597742e9ecec0fc9aca2",
+      "gitBlobSha": "a06effaab7aa3841901da2c4d1ed134a7794b02f",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/README.md"
+    },
+    {
+      "path": "css/base.css",
+      "bytes": 5235,
+      "sha256": "a775dae4c64dbbc0efa0959741e687736c9a11944ae7997583bfe3652ef5dc7e",
+      "gitBlobSha": "54206bb58dc65bc9aad7552968b25a46982d815b",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/css/base.css"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 757,
+      "sha256": "6f7271bbd536bc84f3a1321afb1c25ca8d43326179253b0654434cac427b9848",
+      "gitBlobSha": "63ec6d2e3d593eb4ef97fff13d0e59d32b921077",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/eslint.config.js"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 95490,
+      "sha256": "f28f6fad0818dc274da2959729a03fe66f1f6cfc1e79eb5762bf0fe6cb49c582",
+      "gitBlobSha": "861dc68e903523aeafa0269abba3c6f9d99e6a0b",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/package-lock.json"
+    },
+    {
+      "path": "package.json",
+      "bytes": 675,
+      "sha256": "8ebc03d5b97a5b6bf2ca61d74102c2766eeb97be4118d628d7c9457926f665d0",
+      "gitBlobSha": "5f9e6cb40e8053e64c2ca417f333c568574bd7f1",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/package.json"
+    },
+    {
+      "path": "src/assets/models/xylophone-09.glb",
+      "bytes": 27648,
+      "sha256": "d0f93d659e06a7c92fbe1a60734ba0eb2593486ed19c0ca1f6bae55f8efe713a",
+      "gitBlobSha": "df1fe4664237dff268032561f3ea1919fe517552",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/assets/models/xylophone-09.glb"
+    },
+    {
+      "path": "src/index.html",
+      "bytes": 2798,
+      "sha256": "9718f2ba14ed3d604a5503fce891542461546415c81e391713e33b42f3ed8052",
+      "gitBlobSha": "8a5df3e03852754861260cbfe5d9935038637015",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/index.html"
+    },
+    {
+      "path": "src/js/common/FBO.ts",
+      "bytes": 1118,
+      "sha256": "90e7ae9290024ed647f280dbe7ebe69fdcb929f0065ca49dca1535def9bd8f9c",
+      "gitBlobSha": "2775a531c88f1ba47fee1259bb340e10e588b6e9",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/common/FBO.ts"
+    },
+    {
+      "path": "src/js/common/FBOHelper.ts",
+      "bytes": 2636,
+      "sha256": "f8e9ebb545824d982e50c206a250196903e2d324606953ecb7631002358cac63",
+      "gitBlobSha": "e7b020f8e05dc8580a90f48cfe5f0f3320d8c142",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/common/FBOHelper.ts"
+    },
+    {
+      "path": "src/js/components/FluidSim.ts",
+      "bytes": 15334,
+      "sha256": "0711ccfe35cbf95897a8b40b97937a31c443bd6258c52d55485958dd83abbb91",
+      "gitBlobSha": "75c8d4816de20167d1faa2044965ab41a269e2bd",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/components/FluidSim.ts"
+    },
+    {
+      "path": "src/js/components/XylophoneBg.ts",
+      "bytes": 1330,
+      "sha256": "67d5c0b3b5e0c9f7dad68fc14268f8017aa481fe70ad8fa6bcd856b8a479f34b",
+      "gitBlobSha": "458ca17ffdd1c23a19948a10f809959dad290b05",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/components/XylophoneBg.ts"
+    },
+    {
+      "path": "src/js/components/xylophone/Xylophone.ts",
+      "bytes": 8681,
+      "sha256": "2bbfe79db6909474963b0ed66dd8e54abb19862f04f4a64b0c09c43af5f33cc7",
+      "gitBlobSha": "9d492bb8b253fa0ecd4b5eefa0709b323a7035d7",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/components/xylophone/Xylophone.ts"
+    },
+    {
+      "path": "src/js/components/xylophone/XylophoneAudio.ts",
+      "bytes": 8327,
+      "sha256": "616affc78be7dfeae95aaecb510f8c257cb8c6d44f15207c34c940eae0dc31bd",
+      "gitBlobSha": "746acdcf80d00a77d7857865cfe528137292a1b3",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/components/xylophone/XylophoneAudio.ts"
+    },
+    {
+      "path": "src/js/components/xylophone/helix.ts",
+      "bytes": 4303,
+      "sha256": "d2f00dfa98d209e3dae9dba8725858b58c149ba92b6f490d9169445187ac191a",
+      "gitBlobSha": "1f563e29deddd44127f2017c4fcb14b12515b5e0",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/components/xylophone/helix.ts"
+    },
+    {
+      "path": "src/js/components/xylophone/picking.ts",
+      "bytes": 2558,
+      "sha256": "ddf01175dd21fdb5cd59da17a21814b29a84d0e51fd10ea81bbc86ade253bb33",
+      "gitBlobSha": "5857e3dd6f826175a64336a2f5d6022d2d3e9289",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/components/xylophone/picking.ts"
+    },
+    {
+      "path": "src/js/configs/XylophoneConfig.ts",
+      "bytes": 3558,
+      "sha256": "1f69f1d23f737eedc5eede578a6d508250ecdf4cd625bbfe6aef1494c162e6c7",
+      "gitBlobSha": "f304e5b8475ef7cdebf60ca6c04235340aad79f1",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/configs/XylophoneConfig.ts"
+    },
+    {
+      "path": "src/js/main.ts",
+      "bytes": 11052,
+      "sha256": "664121b0b3a47f9ccd5eeb34a9ec14db585fdbbac4438d872469203b12bf0f59",
+      "gitBlobSha": "0c571771ca72017069f02d0a4a43c002d1fe1839",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/main.ts"
+    },
+    {
+      "path": "src/js/passes/FrostBackdropPass.ts",
+      "bytes": 4171,
+      "sha256": "7044bb46a60122bb99391cb931485cc9912295668fd36c132ec3626d0bd9a16b",
+      "gitBlobSha": "a53c45388e478fba0f5517d2f5d385065d769f9d",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/passes/FrostBackdropPass.ts"
+    },
+    {
+      "path": "src/js/passes/GlassBufferPass.ts",
+      "bytes": 3358,
+      "sha256": "9b2f73bd73890c92f1ca59361e408012d121ff66655579e346ea907291eb0724",
+      "gitBlobSha": "69c63df70f2d49714f88960bd5e1ce0d799af30e",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/passes/GlassBufferPass.ts"
+    },
+    {
+      "path": "src/js/ui/SoundToggle.ts",
+      "bytes": 1656,
+      "sha256": "c9379dba0d886f1c79dc7787dc6abaed3d10bffb5cb24de8b0a2870b93e54f23",
+      "gitBlobSha": "0527254971c2c69c49080862888f80120516ff1f",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/ui/SoundToggle.ts"
+    },
+    {
+      "path": "src/js/utils/RAFCollection.ts",
+      "bytes": 478,
+      "sha256": "6c9400ce60d99f0ddac15f30ab36469e39a8757f7b46265d4ff3f197a1f1ed3a",
+      "gitBlobSha": "478a55f6c50c72365e6f820bdb86ae86230a809a",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/utils/RAFCollection.ts"
+    },
+    {
+      "path": "src/js/utils/input.ts",
+      "bytes": 5082,
+      "sha256": "c41fcc63eea3fa8a31a836eeabdb47f57450b57801eb479adf932bee355c7e9e",
+      "gitBlobSha": "653b99c8c70b800b13a8efc5b3a75f33daa0fc1d",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/utils/input.ts"
+    },
+    {
+      "path": "src/js/utils/normalizeWheel.ts",
+      "bytes": 1283,
+      "sha256": "640dc8fa413ed444e084f5e676f6d73b91138a25b3db1bbc4cdfe735f4f68270",
+      "gitBlobSha": "6e5dfe08390f881b140a2e8ca5b36d9e83303f27",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/utils/normalizeWheel.ts"
+    },
+    {
+      "path": "src/js/utils/properties.ts",
+      "bytes": 1489,
+      "sha256": "f51c8dae8ef8f50b949931d23faa0e98142d3ed2f6f38cdf1894a555ced684b7",
+      "gitBlobSha": "ca28fe488fee3ecd7e4e067fa2ad7bbfbb065813",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/js/utils/properties.ts"
+    },
+    {
+      "path": "src/shaders/fluid/fluidAdvectionFrag.glsl",
+      "bytes": 1615,
+      "sha256": "9dd2c730d5a9547bcba098e1db39928d80ef2a2fdb16794c975797b7d7dedbad",
+      "gitBlobSha": "f60b6a77bd0c18effa46d460b21948fe312276da",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidAdvectionFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidBaseVert.glsl",
+      "bytes": 720,
+      "sha256": "89f91b7482e4cdc74dba6633ce96cc21b445b120f663e3a15de69c68171a3480",
+      "gitBlobSha": "92eae30db53397cfcd6581c2f1803c73ea313b72",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidBaseVert.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidClearFrag.glsl",
+      "bytes": 576,
+      "sha256": "5899628392f36d0d5d5eca9cfbc0d7dfc98f9180f247c22ae12f84fdd62923f8",
+      "gitBlobSha": "6b70c76d2f4441c85c3591646e36a536ff6bc283",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidClearFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidCurlFrag.glsl",
+      "bytes": 640,
+      "sha256": "257a188d58f1c3ee5b72625ac2809f3b44e0ca50e2e139a27c58880beb921d23",
+      "gitBlobSha": "e5d3fd9b9c55c6fa80c2a26fd81be900e1e3e00d",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidCurlFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidDivergenceFrag.glsl",
+      "bytes": 629,
+      "sha256": "7c4c4c99601fbd4f35a16f181fe9d35d480d1ffd7244769e3a126dc1722ff25d",
+      "gitBlobSha": "3c8f4d9b2f13093a0aeb52b3cdc82f68d99f60af",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidDivergenceFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidGradientSubtractFrag.glsl",
+      "bytes": 825,
+      "sha256": "957f3fcab97c4bb64a54047f21e635b7907b99bbbe20054abf4a35b4ab83df3f",
+      "gitBlobSha": "319890ddb81a65196918331351e7a5d2aee4582e",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidGradientSubtractFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidPressureFrag.glsl",
+      "bytes": 1104,
+      "sha256": "d5440f99c92bb9971177af274de9275c3ec54e4444ed155a18f693e34bde93d6",
+      "gitBlobSha": "e6590966954ed7b6a004e8bcaec6c925feb4fd25",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidPressureFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidSplatFrag.glsl",
+      "bytes": 1366,
+      "sha256": "f3256318c70dd4f4ae95ebc12a8aab50ae73efc33a6125f0b528066c96ef22fe",
+      "gitBlobSha": "a34729f6f30eee0c73ccdf7220dab1767f5ec3b8",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidSplatFrag.glsl"
+    },
+    {
+      "path": "src/shaders/fluid/fluidVorticityFrag.glsl",
+      "bytes": 1219,
+      "sha256": "b2de63c9db88d9ca9cdcab8c6d5be9370a1f0287750ba45a264df8e0b321703e",
+      "gitBlobSha": "a43517629b6a471c9b7a81feaa5f232f413b4371",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/fluid/fluidVorticityFrag.glsl"
+    },
+    {
+      "path": "src/shaders/postprocessing/blitFrag.glsl",
+      "bytes": 110,
+      "sha256": "3324c3e38326269d4704a9dd8752c409b11adf8b3e5f7cc56a9be6d58f6faad2",
+      "gitBlobSha": "5bc96a64455f62820e1ba95db0bb83b62506a94c",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/postprocessing/blitFrag.glsl"
+    },
+    {
+      "path": "src/shaders/postprocessing/blitVert.glsl",
+      "bytes": 135,
+      "sha256": "7dee2cebbb2c1cd5db8d195e061546dfc997e6d3975ee28b4065077550bfbb97",
+      "gitBlobSha": "e0cc42c6a5ee7207f2dd47457bef234f26615238",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/postprocessing/blitVert.glsl"
+    },
+    {
+      "path": "src/shaders/xylophone/glassNormalFrag.glsl",
+      "bytes": 755,
+      "sha256": "62f12e3356956fa31aa246aef9b41641235ec9bd9d56169084d531a8f270fa52",
+      "gitBlobSha": "f063a7abf6e4f5e6641f2afef4690c87426903a9",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/xylophone/glassNormalFrag.glsl"
+    },
+    {
+      "path": "src/shaders/xylophone/xylophoneFrag.glsl",
+      "bytes": 4976,
+      "sha256": "e17b8d34ec1380a0b8bed8655cf768631350e026d4ac5211c1597f22d2792bea",
+      "gitBlobSha": "788b0959f04d2400195b383ea4ba662522571840",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/xylophone/xylophoneFrag.glsl"
+    },
+    {
+      "path": "src/shaders/xylophone/xylophoneVert.glsl",
+      "bytes": 2482,
+      "sha256": "e48c8f3c9c7324d8d51e6c6f231c8881bf10dab3c775584d3b0fcafa16897272",
+      "gitBlobSha": "1353720eae5888f2268540d7706bc79b9fe10a02",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/xylophone/xylophoneVert.glsl"
+    },
+    {
+      "path": "src/shaders/xylophoneBg/xylophoneBgFrag.glsl",
+      "bytes": 643,
+      "sha256": "5c3eada5b97d35fbe770b4de728925090dd4743fe975abec802a6f83d3aa3ba4",
+      "gitBlobSha": "e5086cd11c9fafdc80436bbbdc1835ce4fb13688",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/xylophoneBg/xylophoneBgFrag.glsl"
+    },
+    {
+      "path": "src/shaders/xylophoneBg/xylophoneBgVert.glsl",
+      "bytes": 184,
+      "sha256": "75a7e7934c5443dad655e823dcb0b4c922fe8297c3f6dd9696268b5f2eab95fd",
+      "gitBlobSha": "a7a3096913f12686363aad8db8a3a146a524ceca",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/shaders/xylophoneBg/xylophoneBgVert.glsl"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 284,
+      "sha256": "46d3c011824ef3af5a5f6b766f72a082a12ec5d29187f85552596070ca01e2c1",
+      "gitBlobSha": "4e9aa46404f835bd1f30858837bb2c1f1fc8a363",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/src/vite-env.d.ts"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 527,
+      "sha256": "eacc61733333e59fe271157d746cf12c89e57177fa74855799c058841f9c06c1",
+      "gitBlobSha": "75abdef26594460f62f904bf54b54377573c9209",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/tsconfig.json"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 1068,
+      "sha256": "63ed2c29d86dbc7a909b7e513b8a4b6fb8ec90aea07be403834c76ab798863f8",
+      "gitBlobSha": "58e01218e0aa15fd4e78386b85c48af53506e9a6",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/xylophone/8e4f9a8c7729f52edc006ca02c6c377921c4f1b7/vite.config.js"
+    }
+  ],
+  "omittedUpstreamFiles": [
+    ".vscode/extensions.json",
+    ".vscode/launch.json",
+    ".vscode/settings.json",
+    "src/assets/audio/do.wav"
+  ],
+  "fetchedAt": "2026-10-07",
+  "upstreamBuildScriptsExecuted": false,
+  "status": "adapted_static_checks_passed_runtime_pending",
+  "assetRights": [
+    "The author-modeled GLB is distributed with the MIT repository; retain attribution.",
+    "The note sample has no exact source-item permission verified. It is excluded from source acquisition and runtime.",
+    "Pavel Dobryakov fluid-solver MIT notice is included in addition to Sujen Phea’s project notice."
+  ]
+}

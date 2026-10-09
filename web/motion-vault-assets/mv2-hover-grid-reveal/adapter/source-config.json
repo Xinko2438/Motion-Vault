@@ -1,0 +1,10 @@
+{
+  "id": "mv2-hover-grid-reveal",
+  "repo": "HoverGrid",
+  "title": "网格遮罩随悬停让出背景画面",
+  "demo": "http://tympanus.net/Development/HoverGrid/",
+  "mode": "pointer",
+  "scene": "portfolio",
+  "task": "discovery",
+  "design": "保留 Metalab 灵感原作的整幅图像网格、区域裁切与原生鼠标响应，背景媒体是素材层而非伪造交互的录屏。"
+}

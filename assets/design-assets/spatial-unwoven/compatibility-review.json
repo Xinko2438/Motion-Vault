@@ -1,0 +1,43 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-unwoven",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "Cloud WORK source adaptation only; no local integration/publication/browser execution",
+  "baselineDefiniteGaps": [
+    "Existing ready was a Boolean asset counter, not an awaitable initialization contract; errors before lifecycle installation could leave the early no-op disposer.",
+    "GSAP owns a ticker independently of the source callback, so source stop/remove alone did not explicitly sleep that ticker."
+  ],
+  "sourceFixes": [
+    "Ready Promise now resolves after all six actual portraits load and the authored scene is rendered; shader diagnostics and initialization errors reject.",
+    "Early owned resource cleanup handles partial boot; named ticker/tweens, pointer capture, images, observers, geometry/materials/textures/context are disposed. Stop sleeps the owned GSAP ticker.",
+    "Both GLSL strings, 26-ribbon geometry, CONFIG, strip layout and resize math remain byte-identical."
+  ],
+  "loaderAudit": [
+    "new Image + src setter -> scoped broker -> owned Blob URL -> Three Texture. Six local JPEG bytes remain exact source.",
+    "Local classic Three128/GSAP3.12.5; no font, worker, decoder, module CORS or remote path."
+  ],
+  "renderer": "Three128 WebGL1/2 renderer; GLSL1 ribbon vertex/fragment shaders; no float framebuffer dependency.",
+  "nativeInputAndReducedMotion": "Native horizontal real-pointer capture, drag/fling preserved. Reduced motion freezes ambient phase and uses direct drag redraw without fling.",
+  "sourceEvidence": [
+    "run/effect.js:55-86",
+    "run/effect.js:577-705",
+    "adapter/build-local.py",
+    "adapter/check-static.py"
+  ],
+  "runtimePending": [
+    "Final trusted native-pointer / nonce lifecycle bridge must be injected and manifest-listed by Motion Vault packaging.",
+    "Opaque allow-scripts-only origin: actual CSP, broker, texture/font/model decode and first frame require browser verification.",
+    "GPU shader/material/FBO correctness, original1100x670 composition, native drag/scroll/touch and cross-boundary release remain untested.",
+    "Normal/reduced startup and live preference changes; stop-before-ready/resume/dispose/reopen and resource/memory behavior remain untested.",
+    "Local application/publication remains gated on compatibility; source build/parse/mock checks do not establish runtime acceptance."
+  ],
+  "initializationContract": "ready Promise; isReady Boolean; actual required resource and initial render predicates, rejecting failures. Fulfillment is not visual acceptance.",
+  "disposalContract": "Terminal/idempotent dispose; may return Promise. Host frame destruction remains the final isolation boundary.",
+  "staticEvidence": {
+    "report": "qa-static.json",
+    "rebuild": "qa-rebuild.json",
+    "bundleSha256": "8b7ecf54a3e8981c8718e964671e957f14d0ab80dfc42952fa6ec3dadfa13438",
+    "runtimeExecuted": false
+  },
+  "mediaRights": "Existing independent media/font/license caveats retained; compatibility checks do not clear third-party asset rights."
+}

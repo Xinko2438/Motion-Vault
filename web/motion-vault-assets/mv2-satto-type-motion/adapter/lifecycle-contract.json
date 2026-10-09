@@ -1,0 +1,30 @@
+{
+  "id": "mv2-satto-type-motion",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "native-scroll-readable-author-text-groups-with-live-preference-rebuild",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "native-document-scroll-and-existing-link-focus-source-verified-runtime-unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/editorial.mjs",
+  "reducedMotionModuleSha256": "11737b108c2bcff11c34fae812a722eb8b0b9aa1fec1aedb1c44a55d08d2c903",
+  "variants": [
+    {
+      "entry": "source/js/index.js",
+      "output": "run/js/index.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "Reduced motion skips ScrollSmoother, Flip, ScrambleText, related-item animation, and cursor blinking. It retains every authored text group and the logo in document flow, with wrapping and no blur.",
+    "Preference changes revert owned GSAP work, restore original text and style snapshots, and recreate the author animation only after opting back into motion. Resize rebuilding is restricted to normal mode.",
+    "The previously approved removal of the unrelated external recommendation section remains unchanged; immutable source preserves that section.",
+    "Source and mocked lifecycle checks are not browser, screen-reader, visual-layout, or real GSAP/ScrollSmoother acceptance."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

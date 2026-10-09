@@ -1,0 +1,125 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-xylophone",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "WORK ONLY; no browser execution, no local integration, no publication",
+  "baselineDefiniteGaps": [
+    "project/assets/design-assets/spatial-xylophone/adapter/author/src/js/main.ts:262-269 freezes Properties.time.",
+    "FluidSim.ts:235-241 uses frozen time for input throttle;288-289 uses it for idle sleep.",
+    "Actual bundle confirms main effect.js:4804 col6748; FluidSim effect.js:4650 col1563,2541."
+  ],
+  "sourceFixes": [
+    "Readiness waits two genuine embedded SMAA PNG decodes, the local GLB and actual first composer draw; failures reject.",
+    "Frozen shader time is separated from a monotonic interaction clock, restoring reduced-motion fluid input and idle sleep without re-enabling spin/swing.",
+    "Explicit EXT_color_buffer_float capability gate rejects unsupported targets before building float/half-float simulation buffers.",
+    "Dispose handles partially constructed App instances; registered input/context listeners and single RAF are released."
+  ],
+  "loaderAudit": [
+    "GLTFLoader -> FileLoader Request/fetch -> broker for one run/assets GLB. Binary JSON confirms no extensionsUsed, no images, one embedded buffer: no active Draco, ImageBitmap, worker or external buffer.",
+    "SMAA images are embedded data PNGs; both are decoded before the app initializes. Audio module is not active in adapter."
+  ],
+  "renderer": "Three182 WebGL2 with FloatType/half-float render targets, custom fluid GLSL, SSAO and SMAA; EXT_color_buffer_float is mandatory and now guarded.",
+  "nativeInput": "Native mouse sweep, wheel and touch drag; document listeners operate inside actual frame coordinates; canvas itself remains pointer-events:none as authored.",
+  "reducedMotion": "Shader spin and strike swing are frozen; independent interaction clock preserves direct hover fluid and allows idle solver sleep.",
+  "sourceEvidence": [
+    "adapter/entry.js",
+    "adapter/resources.js",
+    "adapter/author/src/js/main.ts",
+    "adapter/author/src/js/components/FluidSim.ts",
+    "adapter/author/src/js/utils/properties.ts",
+    "adapter/author/src/js/utils/input.ts",
+    "adapter/lifecycle.js"
+  ],
+  "initializationContract": "ready is a Promise; all required active resource loads plus scene initialization and actual first draw precede succeed; load/draw/GL errors reject; no load-event or timeout readiness",
+  "disposalContract": "idempotent Promise; own RAF/timers/listeners/resources cleaned; host frame destruction remains final isolation boundary",
+  "runtimePending": [
+    "Opaque allow-scripts broker/CSP actual network and decode behavior",
+    "Real WebGL program compilation/framebuffer support/visual result",
+    "Native cold-start drag, cross-boundary release, touch and scroll containment",
+    "Repeated mount/stop/resume/dispose, hidden page and loading-time teardown",
+    "Actual 1100x670 embedded layout and card/modal resize scaling",
+    "Normal/reduced-motion preference and live preference-change behavior"
+  ],
+  "knownHostBoundary": [
+    "Current project gallery marks iframe load as playing, not SourceDemo readiness; parent-owned nonce lifecycle host bridge still required.",
+    "WORK run package does not contain project-generated vault-native-input.js; parent packaging must add native trusted-pointer reporting before host verification.",
+    "All compatibility claims remain source-reviewed, never browser-verified."
+  ],
+  "originalSourceFilesMatchedGitBlobs": 47,
+  "originalSourceMismatches": [],
+  "runtimeBundleSha256": "ac038007923ddfba400f1fc5c1183c192351b841dbe46968cb3c6efc2efabe7f",
+  "runtimeManifestFiles": 5,
+  "externalBuildImports": [],
+  "htmlMissingOrExternalResources": [],
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "rebuildByteIdentical": true,
+  "changesPatchAppliesToOriginalDryRun": true,
+  "sourceEvidenceLines": [
+    {
+      "path": "adapter/resources.js",
+      "line": 5,
+      "text": "smaaImages=await Promise.all([SMAAEffect.searchImageDataURL,SMAAEffect.areaImageDataURL].map(loadImage));"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 73,
+      "text": "if(!gl.getContext().getExtension('EXT_color_buffer_float')){gl.dispose();gl.forceContextLoss();throw new Error('This authored fluid effect requires EXT_color_buffer_float')}"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 174,
+      "text": "lifecycle.addCleanup(()=>this.destroy())"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 229,
+      "text": "lifecycle.succeed({modelLoaded:true,smaaImages:2,firstFrameSubmitted:true})"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 269,
+      "text": "Properties.interactionTime += delta"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 286,
+      "text": "destroy() {"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 291,
+      "text": "Input.destroy()"
+    },
+    {
+      "path": "adapter/author/src/js/main.ts",
+      "line": 310,
+      "text": "stop(){app?.stop()},resume(){app?.resume()},dispose(){app?.destroy();app=null},"
+    },
+    {
+      "path": "adapter/author/src/js/components/FluidSim.ts",
+      "line": 236,
+      "text": "if(!Input.hasPointer)return"
+    },
+    {
+      "path": "adapter/author/src/js/components/FluidSim.ts",
+      "line": 237,
+      "text": "const time = Properties.interactionTime"
+    },
+    {
+      "path": "adapter/author/src/js/components/FluidSim.ts",
+      "line": 290,
+      "text": "if (!Input.hasPointer || !shouldSolveFluid(Properties.interactionTime, this.lastUserInput, IDLE_SLEEP_AFTER)) {"
+    }
+  ]
+}

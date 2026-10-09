@@ -1,0 +1,25 @@
+/* ../../../.runtime/preview-repair-build/lens/node_modules/@14islands/r3f-scroll-rig/dist/scrollrig.css */
+.ScrollRig-visibilityHidden {
+  visibility: hidden;
+}
+.js-global-canvas-error .ScrollRig-visibilityHidden {
+  visibility: unset;
+}
+.ScrollRig-transparentColor {
+  color: transparent;
+}
+.js-global-canvas-error .ScrollRig-transparentColor {
+  color: unset;
+}
+.js-smooth-scrollbar-disabled .ScrollRig-hiddenIfSmooth {
+  color: unset !important;
+  visibility: unset !important;
+}
+.ScrollRig-scrollHtml {
+  height: 100%;
+  overflow: hidden;
+}
+.ScrollRig-scrollWrapper {
+  height: 100%;
+  overflow-y: scroll;
+}

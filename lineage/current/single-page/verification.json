@@ -1,0 +1,1173 @@
+{
+  "at": "2026-10-06T14:41:53.325Z",
+  "live": false,
+  "fast": false,
+  "htmlSha256": "d03ec6eb6c7d48a38eb696b494e2e7a756bc95961082f286e617dd08b71797d8",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "passed": 223,
+  "total": 223,
+  "checks": [
+    {
+      "name": "Exactly sixty formal and thirty candidate source records retained",
+      "passed": true
+    },
+    {
+      "name": "Every formal code and preview contract remains intact",
+      "passed": true
+    },
+    {
+      "name": "Every candidates code and preview contract remains intact",
+      "passed": true
+    },
+    {
+      "name": "Agent obtains source and design for a new candidate",
+      "passed": true
+    },
+    {
+      "name": "One gallery defaults to sixty existing references",
+      "passed": true
+    },
+    {
+      "name": "No links to a second candidate application",
+      "passed": true
+    },
+    {
+      "name": "No heavy preview is started on arrival",
+      "passed": true
+    },
+    {
+      "name": "Favicon loads motion-vault-icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Favicon loads motion-vault-icon.ico",
+      "passed": true
+    },
+    {
+      "name": "New thirty open in the very same document",
+      "passed": true
+    },
+    {
+      "name": "Unified use-case filter finds relevant new designs",
+      "passed": true
+    },
+    {
+      "name": "One search filters candidate designs",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 2",
+      "passed": true,
+      "detail": {
+        "pixels": 4732
+      }
+    },
+    {
+      "name": "Preview released 2",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 4",
+      "passed": true,
+      "detail": {
+        "pixels": 57202
+      }
+    },
+    {
+      "name": "Preview released 4",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 7",
+      "passed": true,
+      "detail": {
+        "pixels": 3474
+      }
+    },
+    {
+      "name": "Preview released 7",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 10",
+      "passed": true,
+      "detail": {
+        "pixels": 14989
+      }
+    },
+    {
+      "name": "Preview released 10",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 11",
+      "passed": true,
+      "detail": {
+        "pixels": 3527
+      }
+    },
+    {
+      "name": "Preview released 11",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 12",
+      "passed": true,
+      "detail": {
+        "pixels": 13364
+      }
+    },
+    {
+      "name": "Preview released 12",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 16",
+      "passed": true,
+      "detail": {
+        "pixels": 11783
+      }
+    },
+    {
+      "name": "Preview released 16",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 18",
+      "passed": true,
+      "detail": {
+        "pixels": 10897
+      }
+    },
+    {
+      "name": "Preview released 18",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 19",
+      "passed": true,
+      "detail": {
+        "pixels": 106
+      }
+    },
+    {
+      "name": "Preview released 19",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 22",
+      "passed": true,
+      "detail": {
+        "pixels": 5640
+      }
+    },
+    {
+      "name": "Preview released 22",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 24",
+      "passed": true,
+      "detail": {
+        "pixels": 9015
+      }
+    },
+    {
+      "name": "Preview released 24",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 25",
+      "passed": true,
+      "detail": {
+        "pixels": 954
+      }
+    },
+    {
+      "name": "Preview released 25",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 28",
+      "passed": true,
+      "detail": {
+        "pixels": 72843
+      }
+    },
+    {
+      "name": "Preview released 28",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 30",
+      "passed": true,
+      "detail": {
+        "pixels": 863
+      }
+    },
+    {
+      "name": "Preview released 30",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 31",
+      "passed": true,
+      "detail": {
+        "pixels": 15195
+      }
+    },
+    {
+      "name": "Preview released 31",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 33",
+      "passed": true,
+      "detail": {
+        "pixels": 5117
+      }
+    },
+    {
+      "name": "Preview released 33",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 34",
+      "passed": true,
+      "detail": {
+        "pixels": 5338
+      }
+    },
+    {
+      "name": "Preview released 34",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 35",
+      "passed": true,
+      "detail": {
+        "pixels": 593
+      }
+    },
+    {
+      "name": "Preview released 35",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 36",
+      "passed": true,
+      "detail": {
+        "pixels": 96396
+      }
+    },
+    {
+      "name": "Preview released 36",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 37",
+      "passed": true,
+      "detail": {
+        "pixels": 96534
+      }
+    },
+    {
+      "name": "Preview released 37",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 38",
+      "passed": true,
+      "detail": {
+        "pixels": 5007
+      }
+    },
+    {
+      "name": "Preview released 38",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 39",
+      "passed": true,
+      "detail": {
+        "pixels": 1722
+      }
+    },
+    {
+      "name": "Preview released 39",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion 40",
+      "passed": true,
+      "detail": {
+        "pixels": 8142
+      }
+    },
+    {
+      "name": "Preview released 40",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-grid",
+      "passed": true,
+      "detail": {
+        "pixels": 60187
+      }
+    },
+    {
+      "name": "Preview released online-grid",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-dock",
+      "passed": true,
+      "detail": {
+        "pixels": 5695
+      }
+    },
+    {
+      "name": "Preview released online-dock",
+      "passed": true
+    },
+    {
+      "name": "Menu opens directly on hover",
+      "passed": true
+    },
+    {
+      "name": "Preview released online-radial",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-draw",
+      "passed": true,
+      "detail": {
+        "pixels": 957
+      }
+    },
+    {
+      "name": "Preview released online-draw",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-morph",
+      "passed": true,
+      "detail": {
+        "pixels": 4311
+      }
+    },
+    {
+      "name": "Preview released online-morph",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-pixel",
+      "passed": true,
+      "detail": {
+        "pixels": 1341
+      }
+    },
+    {
+      "name": "Preview released online-pixel",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-sheet",
+      "passed": true,
+      "detail": {
+        "pixels": 17179
+      }
+    },
+    {
+      "name": "Preview released online-sheet",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-toast",
+      "passed": true,
+      "detail": {
+        "pixels": 3543
+      }
+    },
+    {
+      "name": "Preview released online-toast",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-nav",
+      "passed": true,
+      "detail": {
+        "pixels": 7536
+      }
+    },
+    {
+      "name": "Preview released online-nav",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-ring",
+      "passed": true,
+      "detail": {
+        "pixels": 25079
+      }
+    },
+    {
+      "name": "Preview released online-ring",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-lens",
+      "passed": true,
+      "detail": {
+        "pixels": 4854
+      }
+    },
+    {
+      "name": "Preview released online-lens",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-ripple",
+      "passed": true,
+      "detail": {
+        "pixels": 31550
+      }
+    },
+    {
+      "name": "Preview released online-ripple",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-wave",
+      "passed": true,
+      "detail": {
+        "pixels": 8759
+      }
+    },
+    {
+      "name": "Preview released online-wave",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-orbit",
+      "passed": true,
+      "detail": {
+        "pixels": 9818
+      }
+    },
+    {
+      "name": "Preview released online-orbit",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-blur",
+      "passed": true,
+      "detail": {
+        "pixels": 2949
+      }
+    },
+    {
+      "name": "Preview released online-blur",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-particles",
+      "passed": true,
+      "detail": {
+        "pixels": 5138
+      }
+    },
+    {
+      "name": "Preview released online-particles",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-chart",
+      "passed": true,
+      "detail": {
+        "pixels": 2589
+      }
+    },
+    {
+      "name": "Preview released online-chart",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-dial",
+      "passed": true,
+      "detail": {
+        "pixels": 790
+      }
+    },
+    {
+      "name": "Preview released online-dial",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-book",
+      "passed": true,
+      "detail": {
+        "pixels": 21351
+      }
+    },
+    {
+      "name": "Preview released online-book",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-string",
+      "passed": true,
+      "detail": {
+        "pixels": 3159
+      }
+    },
+    {
+      "name": "Preview released online-string",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-stack",
+      "passed": true,
+      "detail": {
+        "pixels": 40137
+      }
+    },
+    {
+      "name": "Preview released online-stack",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-spot",
+      "passed": true,
+      "detail": {
+        "pixels": 15273
+      }
+    },
+    {
+      "name": "Preview released online-spot",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-proximity",
+      "passed": true,
+      "detail": {
+        "pixels": 2967
+      }
+    },
+    {
+      "name": "Preview released online-proximity",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-velocity",
+      "passed": true,
+      "detail": {
+        "pixels": 3809
+      }
+    },
+    {
+      "name": "Preview released online-velocity",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-repel",
+      "passed": true,
+      "detail": {
+        "pixels": 1587
+      }
+    },
+    {
+      "name": "Preview released online-repel",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-linkimage",
+      "passed": true,
+      "detail": {
+        "pixels": 20785
+      }
+    },
+    {
+      "name": "Preview released online-linkimage",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-peel",
+      "passed": true,
+      "detail": {
+        "pixels": 5819
+      }
+    },
+    {
+      "name": "Preview released online-peel",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-bezier",
+      "passed": true,
+      "detail": {
+        "pixels": 3266
+      }
+    },
+    {
+      "name": "Preview released online-bezier",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-swipe",
+      "passed": true,
+      "detail": {
+        "pixels": 1013
+      }
+    },
+    {
+      "name": "Preview released online-swipe",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-blinds",
+      "passed": true,
+      "detail": {
+        "pixels": 1538
+      }
+    },
+    {
+      "name": "Preview released online-blinds",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-lines",
+      "passed": true,
+      "detail": {
+        "pixels": 171
+      }
+    },
+    {
+      "name": "Preview released online-lines",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-typewriter",
+      "passed": true,
+      "detail": {
+        "pixels": 963
+      }
+    },
+    {
+      "name": "Preview released online-typewriter",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-network",
+      "passed": true,
+      "detail": {
+        "pixels": 2108
+      }
+    },
+    {
+      "name": "Preview released online-network",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-contours",
+      "passed": true,
+      "detail": {
+        "pixels": 32435
+      }
+    },
+    {
+      "name": "Preview released online-contours",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-donut",
+      "passed": true,
+      "detail": {
+        "pixels": 2831
+      }
+    },
+    {
+      "name": "Preview released online-donut",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-hold",
+      "passed": true,
+      "detail": {
+        "pixels": 3729
+      }
+    },
+    {
+      "name": "Preview released online-hold",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion online-color",
+      "passed": true,
+      "detail": {
+        "pixels": 5199
+      }
+    },
+    {
+      "name": "Preview released online-color",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-telescope",
+      "passed": true,
+      "detail": {
+        "pixels": 4698
+      }
+    },
+    {
+      "name": "Preview released curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-glass-torus",
+      "passed": true,
+      "detail": {
+        "pixels": 8421
+      }
+    },
+    {
+      "name": "Preview released curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-metal-name",
+      "passed": true,
+      "detail": {
+        "pixels": 9461
+      }
+    },
+    {
+      "name": "Preview released curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-liquid-grid",
+      "passed": true,
+      "detail": {
+        "pixels": 18866
+      }
+    },
+    {
+      "name": "Preview released curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-depth",
+      "passed": true,
+      "detail": {
+        "pixels": 600
+      }
+    },
+    {
+      "name": "Preview released curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-spatial-product",
+      "passed": true,
+      "detail": {
+        "pixels": 1232
+      }
+    },
+    {
+      "name": "Preview released curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-fluid-xray",
+      "passed": true,
+      "detail": {
+        "pixels": 40214
+      }
+    },
+    {
+      "name": "Preview released curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-camera-route",
+      "passed": true,
+      "detail": {
+        "pixels": 39762
+      }
+    },
+    {
+      "name": "Preview released curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-cloth-object",
+      "passed": true,
+      "detail": {
+        "pixels": 12955
+      }
+    },
+    {
+      "name": "Preview released curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-emissive-dissolve",
+      "passed": true,
+      "detail": {
+        "pixels": 16959
+      }
+    },
+    {
+      "name": "Preview released curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-dual-wave",
+      "passed": true,
+      "detail": {
+        "pixels": 10541
+      }
+    },
+    {
+      "name": "Preview released curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-image-in-type",
+      "passed": true,
+      "detail": {
+        "pixels": 27044
+      }
+    },
+    {
+      "name": "Preview released curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-cylinder-type",
+      "passed": true,
+      "detail": {
+        "pixels": 9646
+      }
+    },
+    {
+      "name": "Preview released curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-stylized-water",
+      "passed": true,
+      "detail": {
+        "pixels": 22755
+      }
+    },
+    {
+      "name": "Preview released curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-shape-ascii",
+      "passed": true,
+      "detail": {
+        "pixels": 4553
+      }
+    },
+    {
+      "name": "Preview released curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-reaction-diffusion",
+      "passed": true,
+      "detail": {
+        "pixels": 96955
+      }
+    },
+    {
+      "name": "Preview released curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-vortex-glass",
+      "passed": true,
+      "detail": {
+        "pixels": 9736
+      }
+    },
+    {
+      "name": "Preview released curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-webgl-reveal",
+      "passed": true,
+      "detail": {
+        "pixels": 26519
+      }
+    },
+    {
+      "name": "Preview released curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-persistent-gallery",
+      "passed": true,
+      "detail": {
+        "pixels": 167
+      }
+    },
+    {
+      "name": "Preview released curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-webgpu-route",
+      "passed": true,
+      "detail": {
+        "pixels": 29486
+      }
+    },
+    {
+      "name": "Preview released curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-grid-full",
+      "passed": true,
+      "detail": {
+        "pixels": 37958
+      }
+    },
+    {
+      "name": "Preview released curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-editorial-layout",
+      "passed": true,
+      "detail": {
+        "pixels": 72361
+      }
+    },
+    {
+      "name": "Preview released curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-thumbnail-flow",
+      "passed": true,
+      "detail": {
+        "pixels": 1183
+      }
+    },
+    {
+      "name": "Preview released curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-elastic-editorial",
+      "passed": true,
+      "detail": {
+        "pixels": 63708
+      }
+    },
+    {
+      "name": "Preview released curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-cluster",
+      "passed": true,
+      "detail": {
+        "pixels": 20086
+      }
+    },
+    {
+      "name": "Preview released curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-layer-cut",
+      "passed": true,
+      "detail": {
+        "pixels": 57345
+      }
+    },
+    {
+      "name": "Preview released curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-rounded-menu",
+      "passed": true,
+      "detail": {
+        "pixels": 57476
+      }
+    },
+    {
+      "name": "Preview released curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-inline-menu",
+      "passed": true,
+      "detail": {
+        "pixels": 1452
+      }
+    },
+    {
+      "name": "Preview released curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-tooltip-gallery",
+      "passed": true,
+      "detail": {
+        "pixels": 51575
+      }
+    },
+    {
+      "name": "Preview released curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Actual visual motion curated-grid-flow-nav",
+      "passed": true,
+      "detail": {
+        "pixels": 2595
+      }
+    },
+    {
+      "name": "Preview released curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Title region also previews online-grid",
+      "passed": true
+    },
+    {
+      "name": "Title region also previews online-lens",
+      "passed": true
+    },
+    {
+      "name": "Title region also previews curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Dragging takes over without selecting text",
+      "passed": true
+    },
+    {
+      "name": "Preview uses no fabricated button clicks",
+      "passed": true
+    },
+    {
+      "name": "Navigation and motion produced no JavaScript errors",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Old formal hide state survives without migration",
+      "passed": true
+    },
+    {
+      "name": "Existing private state is not rewritten on startup",
+      "passed": true
+    },
+    {
+      "name": "Old candidate hide state survives",
+      "passed": true
+    },
+    {
+      "name": "Original candidate note is still editable",
+      "passed": true
+    },
+    {
+      "name": "Edited private note survives reload",
+      "passed": true
+    },
+    {
+      "name": "Production export does not contain notes or unapproved candidates",
+      "passed": true
+    },
+    {
+      "name": "One hidden view contains both historical collections",
+      "passed": true
+    },
+    {
+      "name": "Both kinds can be restored",
+      "passed": true
+    },
+    {
+      "name": "Restored library remains sixty",
+      "passed": true
+    },
+    {
+      "name": "Existing bookmark survives consolidation",
+      "passed": true
+    },
+    {
+      "name": "Explicit review action collects one item, not the whole batch",
+      "passed": true
+    },
+    {
+      "name": "Collected item appears in the same library",
+      "passed": true
+    },
+    {
+      "name": "Collected export remains neutral and excludes notes",
+      "passed": true
+    },
+    {
+      "name": "Library mode does not display private note text",
+      "passed": true
+    },
+    {
+      "name": "Failed private write does not falsely hide an item or close details",
+      "passed": true
+    },
+    {
+      "name": "Failed note remains exportable as a draft",
+      "passed": true
+    },
+    {
+      "name": "Former address redirects into the main gallery pending view",
+      "passed": true
+    },
+    {
+      "name": "Explicit hover still plays under reduced ambient motion",
+      "passed": true
+    },
+    {
+      "name": "Unified layout fits 1440",
+      "passed": true
+    },
+    {
+      "name": "Unified layout fits 1024",
+      "passed": true
+    },
+    {
+      "name": "Unified layout fits 768",
+      "passed": true
+    },
+    {
+      "name": "Unified layout fits 390",
+      "passed": true
+    },
+    {
+      "name": "Unified layout fits 320",
+      "passed": true
+    },
+    {
+      "name": "Published candidate source count remains thirty",
+      "passed": true
+    },
+    {
+      "name": "All operations completed without uncaught JavaScript errors",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "privateBrowserDataChanged": false
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "motion-vault.local-runtime.v1",
+  "id": "spatial-xylophone",
+  "entry": "run/index.html",
+  "network": "local manifest-listed files plus authored embedded data/blob URLs only",
+  "sandbox": "allow-scripts; no allow-same-origin",
+  "files": [
+    {
+      "path": "run/assets/xylophone-09-CNRHXLQD.glb",
+      "bytes": 27648,
+      "sha256": "d0f93d659e06a7c92fbe1a60734ba0eb2593486ed19c0ca1f6bae55f8efe713a",
+      "mime": "model/gltf-binary"
+    },
+    {
+      "path": "run/effect.css",
+      "bytes": 3386,
+      "sha256": "061be600e7289f6ca1d1960ccbc394fbf52c39ea0f3478ff934f997d315e9e81",
+      "mime": "text/css"
+    },
+    {
+      "path": "run/effect.js",
+      "bytes": 1576007,
+      "sha256": "ac038007923ddfba400f1fc5c1183c192351b841dbe46968cb3c6efc2efabe7f",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "run/index.html",
+      "bytes": 790,
+      "sha256": "f4a3848b53f3fab0352fc19b9320c88b174340b3cb6cc3612488603f6f095272",
+      "mime": "text/html"
+    },
+    {
+      "path": "run/vault-isolation.js",
+      "bytes": 4359,
+      "sha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+      "mime": "text/javascript"
+    }
+  ]
+}

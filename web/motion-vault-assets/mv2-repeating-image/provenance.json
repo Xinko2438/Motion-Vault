@@ -1,0 +1,22 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "mv2-repeating-image",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/codrops/RepeatingImageTransition",
+  "commit": "a7d59ac952d31ef7bb93ad74df749621da524484",
+  "source": "https://tympanus.net/Development/RepeatingImageTransition/",
+  "author": "Manoela Ilic / Codrops",
+  "originalSourcePreserved": true,
+  "differences": [
+    "Original author entry scripts bundled to local IIFE where needed; original timeline/geometry source retained.",
+    "Remote analytics, sponsors, navigation and font requests removed; fonts may fall back and change glyph metrics.",
+    "Local asset broker and bounded frame lifecycle added; no synthetic user clicks or pointer IDs.",
+    "No source animation is replaced by a prerecorded video."
+  ],
+  "codeLicense": "MIT from actual source/LICENSE; runtime vendors retain separate terms.",
+  "mediaRights": "Original demo material retained with source README credits. This is not a blanket commercial license for every photograph, font, trademark or subject.",
+  "upstreamVisualVerified": false,
+  "localRuntimeVerified": false,
+  "localVisualVerified": false,
+  "previewCaptured": false
+}

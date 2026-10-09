@@ -1,0 +1,680 @@
+{
+  "runId": "2df26e24-63b2-4819-8296-a8096f71f176",
+  "runStartedAt": "2026-10-07T09:26:07.647Z",
+  "at": "2026-10-07T09:27:53.738Z",
+  "verifierSha256": "920c25d6d758f87530daf10fcfb4ac40251f588615df62d1fed343b3ee4ef47d",
+  "sourceUnchanged": true,
+  "live": false,
+  "formalHash": "ac7932bae7ab518270202dd03c2108587fdc873c228bd893d104048c7d7cac5b",
+  "candidateSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "passed": 166,
+  "total": 166,
+  "checks": [
+    {
+      "name": "Thirty local candidates, no pending implementation placeholders",
+      "passed": true
+    },
+    {
+      "name": "Four independent implementations are not attributed as original source",
+      "passed": true
+    },
+    {
+      "name": "All code, source and preview hashes match",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Agent can read design and bounded real code curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "One application contains both catalogues",
+      "passed": true
+    },
+    {
+      "name": "Default library and public export exclude all unaccepted candidates",
+      "passed": true
+    },
+    {
+      "name": "Private review export is absent from normal browsing",
+      "passed": true
+    },
+    {
+      "name": "All thirty pending-review cards render in the same page",
+      "passed": true
+    },
+    {
+      "name": "No obsolete version labels or missing-implementation banners",
+      "passed": true
+    },
+    {
+      "name": "Initial pending state starts no full demo",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-telescope",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-glass-torus",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-metal-name",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-liquid-grid",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-depth",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-spatial-product",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-fluid-xray",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-camera-route",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-cloth-object",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-emissive-dissolve",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-dual-wave",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-image-in-type",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-cylinder-type",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-stylized-water",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-shape-ascii",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-reaction-diffusion",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-vortex-glass",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-webgl-reveal",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-persistent-gallery",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-webgpu-route",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-grid-full",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-editorial-layout",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-thumbnail-flow",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-elastic-editorial",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-cluster",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-layer-cut",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-rounded-menu",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-inline-menu",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-tooltip-gallery",
+      "passed": true
+    },
+    {
+      "name": "Actual stage hover plays curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Actual caption hover plays curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Card releases player curated-grid-flow-nav",
+      "passed": true
+    },
+    {
+      "name": "Independent provenance is explicit without null labels",
+      "passed": true
+    },
+    {
+      "name": "Legacy formal hide and unaccepted bookmarks remain respected",
+      "passed": true
+    },
+    {
+      "name": "Bookmarking a pending candidate never approves it",
+      "passed": true
+    },
+    {
+      "name": "One hidden view combines both legacy storage formats",
+      "passed": true
+    },
+    {
+      "name": "Legacy private note is preserved without a storage migration",
+      "passed": true
+    },
+    {
+      "name": "Candidate details expose only the isolated interactive entry",
+      "passed": true
+    },
+    {
+      "name": "Restoring an unaccepted candidate returns it to pending",
+      "passed": true
+    },
+    {
+      "name": "Production export remains clean while viewing pending",
+      "passed": true
+    },
+    {
+      "name": "Explicit collection removes only the selected pending item",
+      "passed": true
+    },
+    {
+      "name": "The collected candidate joins the default gallery and production export",
+      "passed": true
+    },
+    {
+      "name": "Acceptance never copies notes or review events into public items",
+      "passed": true
+    },
+    {
+      "name": "Private review editing stays outside normal library detail",
+      "passed": true
+    },
+    {
+      "name": "Explicit collection survives reload",
+      "passed": true
+    },
+    {
+      "name": "Hiding a collected candidate removes it from gallery and public export",
+      "passed": true
+    },
+    {
+      "name": "Hiding preserves the independent acceptance decision",
+      "passed": true
+    },
+    {
+      "name": "Restoring a collected candidate returns it to library",
+      "passed": true
+    },
+    {
+      "name": "Moving back to pending immediately removes production eligibility",
+      "passed": true
+    },
+    {
+      "name": "Pending state and the original note survive the complete round trip",
+      "passed": true
+    },
+    {
+      "name": "External review change preserves the currently open detail",
+      "passed": true
+    },
+    {
+      "name": "Closing detail reflects externally accepted state immediately",
+      "passed": true
+    },
+    {
+      "name": "Closing detail reflects an external hide in gallery and public export",
+      "passed": true
+    },
+    {
+      "name": "External updates do not lose private notes or pending identity",
+      "passed": true
+    },
+    {
+      "name": "Failed persistence does not pretend to collect the candidate",
+      "passed": true
+    },
+    {
+      "name": "Failed note save keeps an exportable private draft",
+      "passed": true
+    },
+    {
+      "name": "Unsaved private text is also excluded from production",
+      "passed": true
+    },
+    {
+      "name": "Formal restore still uses the original event journal",
+      "passed": true
+    },
+    {
+      "name": "Existing search and purpose filters apply to pending content",
+      "passed": true
+    },
+    {
+      "name": "State change reuses the same search instead of a second page",
+      "passed": true
+    },
+    {
+      "name": "Returning to pending retains shared search context",
+      "passed": true
+    },
+    {
+      "name": "All pending candidates remain after the workflow",
+      "passed": true
+    },
+    {
+      "name": "Published catalogue contains no private canary",
+      "passed": true
+    },
+    {
+      "name": "Explicit hover also works with reduced ambient motion",
+      "passed": true
+    },
+    {
+      "name": "Unified pending layout fits 1440",
+      "passed": true
+    },
+    {
+      "name": "Unified pending layout fits 1024",
+      "passed": true
+    },
+    {
+      "name": "Unified pending layout fits 768",
+      "passed": true
+    },
+    {
+      "name": "Unified pending layout fits 390",
+      "passed": true
+    },
+    {
+      "name": "No gallery JavaScript errors",
+      "passed": true,
+      "detail": []
+    }
+  ]
+}

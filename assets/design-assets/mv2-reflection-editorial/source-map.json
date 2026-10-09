@@ -1,0 +1,22 @@
+[
+  {
+    "path": "source/js/utils.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo2/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/demo1/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "adapter/rebuild.mjs",
+    "role": "own source bundler, no upstream script execution"
+  },
+  {
+    "path": "run/vault-controls.js",
+    "role": "isolated frame lifecycle only; original input handlers unchanged"
+  }
+]

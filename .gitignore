@@ -25,3 +25,11 @@
 *.swp
 .DS_Store
 Thumbs.db
+
+# Local-only user records and Git-archived previous work
+curation/formal-merge/private/
+knowledge/
+_work/
+versions/
+lineage/*
+!lineage/current/

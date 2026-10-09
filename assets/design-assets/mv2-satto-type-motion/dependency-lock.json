@@ -1,0 +1,53 @@
+{
+  "repository": "https://github.com/codrops/ScrollTextMotion",
+  "commit": "9f05d938f7b38e76e3146f26e393118e7975b6b3",
+  "files": [
+    {
+      "file": "run/js/gsap.min.js",
+      "version": "3.14.1",
+      "sha256": "b216c8122377d9b94baed346799cfaaa7a010ddf3cdbea815f689ad3304c4462",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrollSmoother.min.js",
+      "version": "3.14.1",
+      "sha256": "814f79c458dda325ee671b8beef2b92efb9a5b4ed0d195b815a4a4804f44355b",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrollTrigger.min.js",
+      "version": "3.14.1",
+      "sha256": "f118ac1dd8d3c8d1a4af08c3c59ef2f54bff449e55c5cf486a992b0711fef30d",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrambleTextPlugin.min.js",
+      "version": "3.14.1",
+      "sha256": "e19a02151657ef9865c209fd0bcf03064d9aeb3ac1fd219cdccf8375268194a4",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/Flip.min.js",
+      "version": "3.14.1",
+      "sha256": "9f58a855546e4b7bcec87ad218ee342fdd88e15d6b0ef2feb49b34bcc34e0a34",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    }
+  ],
+  "sourceFileHashes": {
+    "README.md": "70be5db7db2abdb27908c4808201e948a35c081dc052c1c554b67ba8ae42b65b",
+    "LICENSE": "21b9f7ab4e47821cca20bb0b1b6e9aa779acc5b3564afde475ce0bca5cb05f4d",
+    "index.html": "33e1c6d834af5f6b12d54ab70a631ca77cc9457c1cbae21a9c1e66618c253ca2",
+    "js/gsap.min.js": "b216c8122377d9b94baed346799cfaaa7a010ddf3cdbea815f689ad3304c4462",
+    "js/ScrollSmoother.min.js": "814f79c458dda325ee671b8beef2b92efb9a5b4ed0d195b815a4a4804f44355b",
+    "js/ScrollTrigger.min.js": "f118ac1dd8d3c8d1a4af08c3c59ef2f54bff449e55c5cf486a992b0711fef30d",
+    "js/ScrambleTextPlugin.min.js": "e19a02151657ef9865c209fd0bcf03064d9aeb3ac1fd219cdccf8375268194a4",
+    "js/index.js": "46f40ffbb2bf4bbf510a20b1175854fd6e476fceeb1a482c1165a8377f5a8793",
+    "js/Flip.min.js": "9f58a855546e4b7bcec87ad218ee342fdd88e15d6b0ef2feb49b34bcc34e0a34",
+    "css/base.css": "ad9c2870e85ad931db2b2f3569c4b739a1592b4f48a9125b4a2daa7acbc30ec1"
+  }
+}

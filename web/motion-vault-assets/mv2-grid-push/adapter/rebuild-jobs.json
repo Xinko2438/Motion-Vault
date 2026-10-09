@@ -1,0 +1,14 @@
+[
+  {
+    "entry": "source/js/demo1/index.js",
+    "output": "run/effect.js"
+  },
+  {
+    "entry": "source/js/demo2/index.js",
+    "output": "run/effect-index2.js"
+  },
+  {
+    "entry": "source/js/demo3/index.js",
+    "output": "run/effect-index3.js"
+  }
+]

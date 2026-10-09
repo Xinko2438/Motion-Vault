@@ -1,0 +1,10 @@
+{
+  "id": "mv2-stack-content",
+  "repo": "ContentLayoutTransition",
+  "title": "摄影叠页展开为编辑内容空间",
+  "demo": "http://tympanus.net/Development/ContentLayoutTransition/",
+  "mode": "click",
+  "scene": "portfolio",
+  "task": "handoff",
+  "design": "黑底大字与橙色标题围合摄影列阵，叠页展开后仍保持作品、文字与相邻图像的空间关系。"
+}

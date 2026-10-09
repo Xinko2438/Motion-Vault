@@ -1,0 +1,11 @@
+{
+  "direct": {
+    "@tweakpane/plugin-essentials": "0.2.1",
+    "three": "0.175.0",
+    "tweakpane": "4.0.5"
+  },
+  "lockSha256": "9a5a3eb74d294fde150ea73143a89382f1bd52eacf75868ebba1b4f285fa2085",
+  "installedWith": "npm install --ignore-scripts --no-audit --no-fund --registry=https://registry.npmjs.org --cache=/tmp/motion-vault-npm-cache",
+  "lifecycleScriptsExecuted": false,
+  "buildTool": "existing esbuild 0.25.10, own adapter/build.mjs"
+}

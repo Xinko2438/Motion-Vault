@@ -1,0 +1,10 @@
+{
+  "id": "mv2-sticky-grid-story",
+  "repo": "codrops-sticky-grid-scroll",
+  "title": "固定画布里逐步展开的摄影章节",
+  "demo": "https://tympanus.net/Tutorials/StickyGridScroll/",
+  "mode": "scroll",
+  "scene": "editorial",
+  "task": "chapter",
+  "design": "标题、说明与各列摄影在固定场景中分阶段交接，保留作者列组延迟、中央叙事与图像视差时序。"
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-09",
+  "canonicalRoot": "D:\\windows_ext\\Desktop\\AI_Native\\projects\\design-reference-library",
+  "repository": "https://github.com/Manson2438/Motion-Vault",
+  "localArchiveCommit": "57afb2afcd813686668e0c383d0cac55615ed28f",
+  "localArchiveRef": "archive/local-before-unification-20261009",
+  "remoteBefore": "e63a4fbc5945500c4df732bb4062ed8c79db0be4",
+  "pageSha256": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03",
+  "validation": {
+    "build": "passed",
+    "staticPassed": 67,
+    "staticFailed": 0,
+    "staticSkipped": 1,
+    "curation": "39/39",
+    "interaction": "31/31",
+    "copyChecks": 15816,
+    "httpChecks": 13
+  },
+  "privacy": {
+    "userBrowserChanged": false,
+    "hubUserMediaChanged": false,
+    "privateReviewUploaded": false
+  },
+  "strategy": "Preserve complete local archive locally; current screened full runtime tree continues existing GitHub main history without force push. Recover old files using git restore --source archive/local-before-unification-20261009 -- <path>.",
+  "cleanup": "Only files read back byte-identically from Git; manifest retained by task execution.",
+  "routing": "Single executor, no subagents; Git operations serialized."
+}

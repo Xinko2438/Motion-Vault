@@ -1,0 +1,289 @@
+{
+  "schema": "motion-vault.static-check-report.v1",
+  "id": "spatial-procedural-snake",
+  "checkedAt": "2026-10-07T11:27:16.251106+00:00",
+  "status": "passed",
+  "runtimeStatus": "runtime_unverified",
+  "browserExecuted": false,
+  "localVideoCreated": false,
+  "checks": [
+    {
+      "check": "complete_pinned_source_tree",
+      "passed": true,
+      "detail": "29 Git blobs; no source additions/removals"
+    },
+    {
+      "check": "all_git_blob_hashes_match",
+      "passed": true,
+      "detail": {
+        "mismatches": [],
+        "commit": "fce15746389d8a358be228d92d3c82fb989be915"
+      }
+    },
+    {
+      "check": "source_sha256_manifest",
+      "passed": true,
+      "detail": "All downloaded source SHA256 records match"
+    },
+    {
+      "check": "actual_mit_license_retained",
+      "passed": true,
+      "detail": "Actual Codrops copyright and MIT permission retained byte-for-byte"
+    },
+    {
+      "check": "author_core_preserved",
+      "passed": true,
+      "detail": {
+        "unchangedFiles": [
+          "src/js/components/Snake.ts",
+          "src/js/curves/CurveGenerator.ts",
+          "src/js/curves/EndlessCurve.ts",
+          "src/js/utils/Emitter.ts",
+          "src/js/utils/RAFCollection.ts",
+          "src/js/utils/input.ts",
+          "src/js/utils/normaliseWheel.ts",
+          "src/js/utils/properties.ts",
+          "src/shaders/ball/ballFrag.glsl",
+          "src/shaders/ball/ballVert.glsl",
+          "src/shaders/snake/snakeFrag.glsl",
+          "src/shaders/snake/snakeVert.glsl",
+          "src/vite-env.d.ts"
+        ],
+        "mismatches": []
+      }
+    },
+    {
+      "check": "local_html_resources_only",
+      "passed": true,
+      "detail": [
+        "./effect.css",
+        "./vault-isolation.js",
+        "./effect.js"
+      ]
+    },
+    {
+      "check": "classic_script_sandbox_entry",
+      "passed": true,
+      "detail": "Classic bundle avoids opaque-origin module-fetch CORS requirements"
+    },
+    {
+      "check": "standalone_default_deny_csp",
+      "passed": true,
+      "detail": {
+        "directives": {
+          "default-src": [
+            "'none'"
+          ],
+          "script-src": [
+            "'self'",
+            "'sha256-cpNByESktmVioLz4n3H2Y89KaQ+72cbWb1+PEyFRpC0='"
+          ],
+          "style-src": [
+            "'self'",
+            "'unsafe-inline'"
+          ],
+          "img-src": [
+            "'self'",
+            "data:",
+            "blob:"
+          ],
+          "connect-src": [
+            "blob:",
+            "data:"
+          ],
+          "font-src": [
+            "'none'"
+          ],
+          "base-uri": [
+            "'self'"
+          ],
+          "form-action": [
+            "'none'"
+          ],
+          "object-src": [
+            "'none'"
+          ],
+          "frame-src": [
+            "'none'"
+          ],
+          "worker-src": [
+            "'none'"
+          ]
+        },
+        "inlineScriptsAuthorizedBy": "exact SHA256; no unsafe-inline or unsafe-eval in script-src",
+        "browserEnforcementVerified": false
+      }
+    },
+    {
+      "check": "csp_provenance_consistent",
+      "passed": true,
+      "detail": "Output, provenance and run manifest contain the same policy"
+    },
+    {
+      "check": "author_styles_retained",
+      "passed": true,
+      "detail": "All author CSS retained before documented iframe-boundary additions"
+    },
+    {
+      "check": "no_external_styles_fonts",
+      "passed": true,
+      "detail": "System monospace, no imported font/CDN/background image"
+    },
+    {
+      "check": "exact_author_dependency_versions",
+      "passed": true,
+      "detail": {
+        "three": "0.182.0",
+        "simplex-noise": "4.0.3"
+      }
+    },
+    {
+      "check": "only_two_runtime_dependencies",
+      "passed": true,
+      "detail": "No transitive install scripts or extra runtime packages"
+    },
+    {
+      "check": "dependency_licenses_present",
+      "passed": true,
+      "detail": "Actual installed package licenses copied"
+    },
+    {
+      "check": "no_upstream_configuration_executed",
+      "passed": true,
+      "detail": "Own esbuild configuration; npm --ignore-scripts install recorded"
+    },
+    {
+      "check": "no_external_bundle_imports",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "only_local_build_inputs",
+      "passed": true,
+      "detail": [
+        "../../../../../../../tmp/motion-vault-snake-build-20261007/node_modules/three/build/three.core.js",
+        "../../../../../../../tmp/motion-vault-snake-build-20261007/node_modules/three/build/three.module.js",
+        "adapter/src/css/style.css",
+        "source-glsl:/workspace/scratch/910f5ac4d64e/motion-expansion/next20/work/spatial-procedural-snake/adapter/src/shaders/snake/snakeFrag.glsl",
+        "source-glsl:/workspace/scratch/910f5ac4d64e/motion-expansion/next20/work/spatial-procedural-snake/adapter/src/shaders/snake/snakeVert.glsl",
+        "source-glsl:/workspace/scratch/910f5ac4d64e/motion-expansion/next20/work/spatial-procedural-snake/adapter/src/shaders/ball/ballFrag.glsl",
+        "source-glsl:/workspace/scratch/910f5ac4d64e/motion-expansion/next20/work/spatial-procedural-snake/adapter/src/shaders/ball/ballVert.glsl",
+        "../../../../../../../tmp/motion-vault-snake-build-20261007/node_modules/simplex-noise/dist/esm/simplex-noise.js",
+        "adapter/src/js/curves/CurveGenerator.ts",
+        "adapter/src/js/curves/EndlessCurve.ts",
+        "../../../../../../../tmp/motion-vault-snake-build-20261007/node_modules/three/examples/jsm/libs/lil-gui.module.min.js",
+        "adapter/src/js/utils/properties.ts",
+        "adapter/src/js/utils/input.ts",
+        "adapter/src/js/components/Snake.ts",
+        "adapter/src/js/utils/RAFCollection.ts",
+        "adapter/src/js/main.ts"
+      ]
+    },
+    {
+      "check": "readable_source_map",
+      "passed": true,
+      "detail": {
+        "sourceCount": 14
+      }
+    },
+    {
+      "check": "all_original_shader_bytes_in_map",
+      "passed": true,
+      "detail": [
+        "source/src/shaders/snake/snakeVert.glsl",
+        "source/src/shaders/snake/snakeFrag.glsl",
+        "source/src/shaders/ball/ballVert.glsl",
+        "source/src/shaders/ball/ballFrag.glsl"
+      ]
+    },
+    {
+      "check": "syntax:run/effect.js",
+      "passed": true,
+      "detail": "Node parse only; application not executed"
+    },
+    {
+      "check": "syntax:run/vault-isolation.js",
+      "passed": true,
+      "detail": "Node parse only; application not executed"
+    },
+    {
+      "check": "syntax:adapter/build.mjs",
+      "passed": true,
+      "detail": "Node parse only; application not executed"
+    },
+    {
+      "check": "explicit_raf_cancellation",
+      "passed": true,
+      "detail": "stop cancels request; resume resets timing"
+    },
+    {
+      "check": "native_reduced_motion_gating",
+      "passed": true,
+      "detail": "No ambient RAF when reduced; one author update requested by real input event"
+    },
+    {
+      "check": "native_input_retained",
+      "passed": true,
+      "detail": "Original mousemove and touchmove handlers; no synthetic events or pointer IDs"
+    },
+    {
+      "check": "resource_disposal_implemented",
+      "passed": true,
+      "detail": "Static presence check only; actual GPU/event leak behavior unverified"
+    },
+    {
+      "check": "resource_frame_gated_promise",
+      "passed": true,
+      "detail": "Promise cannot resolve on window.load alone; actual scene construction and renderer submission required"
+    },
+    {
+      "check": "failed_boot_cleanup",
+      "passed": true,
+      "detail": "Both constructor and later first-paint failure paths release owned partial App"
+    },
+    {
+      "check": "no_host_or_storage_access_in_app",
+      "passed": true,
+      "detail": "App never accesses parent document/state or storage"
+    },
+    {
+      "check": "bridge_local_get_and_parent_channel_guard",
+      "passed": true,
+      "detail": "Existing package-scoped asset transport only; server-side manifest whitelist remains integration requirement"
+    },
+    {
+      "check": "run_manifest_hashes",
+      "passed": true,
+      "detail": "5 run files"
+    },
+    {
+      "check": "opaque_sandbox_contract",
+      "passed": true,
+      "detail": "Declared contract, not a runtime iframe acceptance test"
+    },
+    {
+      "check": "no_external_runtime_assets",
+      "passed": true,
+      "detail": "Application textures and geometry are procedural; generic unused Three engine loaders do not imply runtime requests"
+    },
+    {
+      "check": "honest_runtime_status",
+      "passed": true,
+      "detail": "No browser/visual/interaction/video acceptance asserted"
+    }
+  ],
+  "notRun": [
+    "WebGL 2 context/shader runtime compilation",
+    "1100x670 actual rendering and scaled card interaction",
+    "Visual comparison to author demo",
+    "Real mouse/touch pointer target and cold mount behavior",
+    "Reduced-motion, visibility and stop/resume behavior in a browser",
+    "WebGL context loss/restoration",
+    "Actual GPU/listener/RAF disposal measurement",
+    "Opaque iframe loading with production host asset broker",
+    "User aesthetic acceptance"
+  ],
+  "limitations": [
+    "This is static/source/build verification only. It is not browser, runtime, visual, interaction, isolation-runtime or acceptance evidence."
+  ]
+}

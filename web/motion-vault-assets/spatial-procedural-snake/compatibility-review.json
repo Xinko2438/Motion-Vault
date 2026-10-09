@@ -1,0 +1,42 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-procedural-snake",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "Cloud WORK source adaptation only; no local integration/publication/browser execution",
+  "baselineDefiniteGaps": [
+    "Ready was a Boolean after constructor and had no inspect contract. Partial constructor/first verification failures needed explicit ownership cleanup."
+  ],
+  "sourceFixes": [
+    "Ready Promise requires procedural scene construction and actual first render submission; renderer/shader/init failures reject. No window.load-only resolution.",
+    "Failure catch now destroys assigned App or partially constructing App; native/RAF/geometry/float textures/renderer cleanup is terminal.",
+    "Original shaders/geometry/curves/input remain byte-exact. Reduced mode advances one original simulation step per genuine mouse/touch move, not an ambient loop."
+  ],
+  "loaderAudit": [
+    "Fully procedural Three182/simplex-noise4 effect. No image/model/font/HDR/FileLoader network request.",
+    "Classic bundle with exact inline initializer hash in CSP; worker and external network denied."
+  ],
+  "renderer": "Three182 requires WebGL2; authored FloatType data textures and instanced scales need actual shader/device verification.",
+  "nativeInputAndReducedMotion": "Original document mousemove/touchmove; internal1100x670 viewport sizing. No simulated input, automatic seek, or manufactured pointer IDs.",
+  "sourceEvidence": [
+    "adapter/src/js/main.ts:149-245",
+    "adapter/src/js/main.ts:255-307",
+    "adapter/build-local.py",
+    "adapter/check-static.py"
+  ],
+  "runtimePending": [
+    "Final trusted native-pointer / nonce lifecycle bridge must be injected and manifest-listed by Motion Vault packaging.",
+    "Opaque allow-scripts-only origin: actual CSP, broker, texture/font/model decode and first frame require browser verification.",
+    "GPU shader/material/FBO correctness, original1100x670 composition, native drag/scroll/touch and cross-boundary release remain untested.",
+    "Normal/reduced startup and live preference changes; stop-before-ready/resume/dispose/reopen and resource/memory behavior remain untested.",
+    "Local application/publication remains gated on compatibility; source build/parse/mock checks do not establish runtime acceptance."
+  ],
+  "initializationContract": "ready Promise; isReady Boolean; actual required resource and initial render predicates, rejecting failures. Fulfillment is not visual acceptance.",
+  "disposalContract": "Terminal/idempotent dispose; may return Promise. Host frame destruction remains the final isolation boundary.",
+  "staticEvidence": {
+    "report": "qa-static.json",
+    "rebuild": "qa-rebuild.json",
+    "bundleSha256": "60b718d38b4d44f0f00d97557f1d97ff7c02428293b97350402cf22c0e233abf",
+    "runtimeExecuted": false
+  },
+  "mediaRights": "Existing independent media/font/license caveats retained; compatibility checks do not clear third-party asset rights."
+}

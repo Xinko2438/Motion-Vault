@@ -1,0 +1,38 @@
+{
+  "viewport": {
+    "width": 1100,
+    "height": 670
+  },
+  "progress": {
+    "min": 0,
+    "max": 1,
+    "default": 0,
+    "entry": "SourceDemo.setProgress(value)",
+    "purpose": "Same original uniform as native Progress slider; no invented pointer."
+  },
+  "thresholdMaps": [
+    "bayer4x4",
+    "halftone",
+    "bayer8x8",
+    "voidAndCluster"
+  ],
+  "delayModes": [
+    "Cell by Cell",
+    "Row by Row",
+    "Column by Column",
+    "Random",
+    "Corner to Corner"
+  ],
+  "nativeControls": "Original Tweakpane retained",
+  "instanceCounts": {
+    "image": 160000,
+    "threshold": 160000
+  },
+  "reducedMotion": "No autoplay or progress sweep. Static frame and direct native controls.",
+  "lifecycle": [
+    "stop",
+    "resume",
+    "dispose",
+    "paint"
+  ]
+}

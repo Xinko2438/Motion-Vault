@@ -1,0 +1,28 @@
+[
+  {
+    "path": "source/index.html",
+    "role": "authoritative_pinned_entry",
+    "contains": [
+      "shaders",
+      "ribbon geometry",
+      "layout",
+      "motion"
+    ]
+  },
+  {
+    "path": "run/effect.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/build-local.py",
+    "role": "own_deterministic_source_transform"
+  },
+  {
+    "path": "run/vault-isolation.js",
+    "role": "opaque_local_asset_transport"
+  },
+  {
+    "path": "adapter/check-static.py",
+    "role": "scoped compatibility verification or lifecycle source"
+  }
+]

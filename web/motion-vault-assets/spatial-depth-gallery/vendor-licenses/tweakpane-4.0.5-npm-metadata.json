@@ -1,0 +1,23 @@
+{
+  "name": "tweakpane",
+  "version": "4.0.5",
+  "license": "MIT",
+  "gitHead": null,
+  "repository": {
+    "url": "git+https://github.com/cocopon/tweakpane.git",
+    "type": "git"
+  },
+  "dist": {
+    "shasum": "696572c4294c48a11cc0a3c487ea89ad1491e09a",
+    "tarball": "https://registry.npmjs.org/tweakpane/-/tweakpane-4.0.5.tgz",
+    "fileCount": 35,
+    "integrity": "sha512-rxEXdSI+ArlG1RyO6FghC4ZUX8JkEfz8F3v1JuteXSV0pEtHJzyo07fcDG+NsJfN5L39kSbCYbB9cBGHyuI/tQ==",
+    "signatures": [
+      {
+        "sig": "MEQCIAzXfl4epv5PmteuOcbnWcbSrXSXn5eV5qwb5GwWmwRPAiAll4hs0V+Gisd5Qk6ZgmnVapyBhYxDJ2JpJMjfhhTDIw==",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 447537
+  }
+}

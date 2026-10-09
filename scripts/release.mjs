@@ -1,7 +1,8 @@
+import {verifyExpansionIntegration} from './expansion-integration-gate.mjs';
 import {readFile,writeFile,mkdir,readdir,rename,rm,open} from 'node:fs/promises';import path from 'node:path';import {execFileSync} from 'node:child_process';import {randomUUID} from 'node:crypto';
 import {project,root,sha,put,exists,guard,assertUnifiedGallery} from './build-hybrid.mjs';
 const evidence=path.join(project,'lineage/current'),hub=path.resolve(project,'../media-knowledge-hub');
-const excluded=/\.(woff2?|ttf|otf|eot|map)$/i;
+import {walkPublishableAssets as walk,assertPublishableAssetBytes} from './release-asset-policy.mjs';
 
 const publishLockFile=path.join(project,'.runtime/motion-vault-publish.lock');
 const fileHash=async p=>{try{return sha(await readFile(p));}catch(e){if(e.code==='ENOENT')return null;throw e;}};
@@ -47,21 +48,24 @@ async function withPublishLock(){
  }finally{await releasePublishLock(owner);}
 }
 
-async function walk(dir,prefix=''){const out=[];for(const e of await readdir(dir,{withFileTypes:true})){if(e.isSymbolicLink())throw new Error('Symlink is not a publishable asset');if(['.git','node_modules','dist','private','fonts','font'].includes(e.name)||excluded.test(e.name))continue;const rel=prefix?prefix+'/'+e.name:e.name;if(e.isDirectory())out.push(...await walk(path.join(dir,e.name),rel));else if(e.isFile())out.push(rel);}return out.sort();}
 async function batches(values,fn){for(let n=0;n<values.length;n+=8)await Promise.all(values.slice(n,n+8).map(fn));}
 async function publish(owner){
  const priorReceiptPath=path.join(evidence,'install-receipt.json');
  if(await exists(priorReceiptPath)){const prior=JSON.parse(await readFile(priorReceiptPath,'utf8'));if(prior.runId===owner.runId)throw new Error('This publication runId already completed; no files changed. Use status or sync --check.');}
  const cat=JSON.parse(await readFile(path.join(root,'catalog.json'),'utf8')),candidate=JSON.parse(await readFile(path.join(root,'candidate-catalog.json'),'utf8'));
- if(cat.items.length!==60||candidate.items.length!==30||candidate.localReady!==30)throw new Error('Unexpected catalogue identity or readiness');
+ const expansion=JSON.parse(await readFile(path.join(project,'src/hybrid/source-expansion-catalog.json'),'utf8'));
+ const compatibility=JSON.parse(await readFile(path.join(project,'src/hybrid/source-expansion-compatibility.json'),'utf8'));
  const galleryHTML=await readFile(path.join(root,'index.html'),'utf8'),redirectHTML=await readFile(path.join(root,'candidates.html'),'utf8');
+ const integration=verifyExpansionIntegration({compatibility,registry:expansion,formal:cat,candidates:candidate,galleryHTML,redirectHTML});
+ const expectedFormal=compatibility.cataloguePlan?.formalSourceCount??cat.items.length,expectedCandidates=compatibility.cataloguePlan?.candidateSourceCount??candidate.items.length;
+ if(cat.items.length!==expectedFormal||candidate.items.length!==expectedCandidates||candidate.localReady!==candidate.items.filter(i=>i.asset?.state==='local_source_verified').length)throw new Error('Unexpected source catalogue identity or verified-media count');
  assertUnifiedGallery(galleryHTML,cat,candidate,redirectHTML);
  const stagedHTML=sha(galleryHTML),stagedCandidate=sha(redirectHTML);
- for(const f of ['candidate-validation.json','sandbox.json','no-preference.json']){const proof=JSON.parse(await readFile(path.join(evidence,f),'utf8'));if(proof.passed!==proof.total||proof.total<1||proof.formalHash!==stagedHTML||(proof.candidateSha256||proof.candidateHash)!==stagedCandidate)throw new Error('Current publication lacks matching verified evidence: '+f);}
+ if(integration.mode!=='explicit-human-acceptance')for(const f of ['candidate-validation.json','sandbox.json','no-preference.json']){const proof=JSON.parse(await readFile(path.join(evidence,f),'utf8'));if(proof.passed!==proof.total||proof.total<1||proof.formalHash!==stagedHTML||(proof.candidateSha256||proof.candidateHash)!==stagedCandidate)throw new Error('Current publication lacks matching verified evidence: '+f);}
  const refs=[...cat.items,...candidate.items].filter(i=>i.asset),neededRuntime=new Set(['runtime.mjs',...refs.flatMap(i=>[])]);
  for(const it of cat.items){const m=JSON.parse(await readFile(path.join(root,it.asset.manifest),'utf8'));for(const rel of Object.keys(m.shared_hashes||{}))if(rel.endsWith('.mjs'))neededRuntime.add(path.basename(rel));}
  const payload=new Map(),assetPaths=(await walk(path.join(root,'motion-vault-assets'))).filter(f=>!/^shared\/runtime\.[a-f0-9]+\.mjs$/.test(f)||neededRuntime.has(path.basename(f)));
- await batches(assetPaths,async f=>payload.set('motion-vault-assets/'+f,await readFile(path.join(root,'motion-vault-assets',f))));
+ await batches(assetPaths,async f=>{const bytes=await readFile(path.join(root,'motion-vault-assets',f));assertPublishableAssetBytes(f,bytes);payload.set('motion-vault-assets/'+f,bytes);});
  const endpoints=[['motion-vault.html','web/index.html','index.html'],['motion-vault-candidates.html','candidates/curated-originals/index.html','candidates.html'],['motion-vault-catalog.json','web/catalog.json','catalog.json'],['motion-vault-candidate-catalog.json','web/candidate-catalog.json','candidate-catalog.json'],['motion-vault-icon.svg','web/motion-vault-icon.svg','motion-vault-icon.svg'],['motion-vault-icon.ico','web/motion-vault-icon.ico','motion-vault-icon.ico']];
  for(const [url,,src]of endpoints)payload.set(url,await readFile(path.join(root,src)));
  const changes=[],targets=new Set();const plan=async(owner,rel,b)=>{const p=path.resolve(owner,rel);if(!p.startsWith(owner+path.sep))throw new Error('Out of publish scope');const normalized=process.platform==='win32'?path.normalize(p).toLowerCase():path.normalize(p);if(targets.has(normalized))throw new Error('Duplicate publication target '+p);targets.add(normalized);const old=await exists(p)?await readFile(p):null;if(old&&sha(old)===sha(b))return;changes.push({p,old,b});};
@@ -75,7 +79,7 @@ async function publish(owner){
   assertUnifiedGallery(await readFile(path.join(project,'web/index.html'),'utf8'),JSON.parse(await readFile(path.join(project,'web/catalog.json'),'utf8')),JSON.parse(await readFile(path.join(project,'web/candidate-catalog.json'),'utf8')),await readFile(path.join(project,'candidates/curated-originals/index.html'),'utf8'));
   const sync=JSON.parse(execFileSync(process.execPath,['scripts/sync-gallery.mjs','--check'],{cwd:project,encoding:'utf8',windowsHide:true,timeout:120000}));if(!sync.verified)throw new Error('Live publication mismatch');
  const inv=[...payload].filter(([f])=>f.startsWith('motion-vault-assets/')).map(([f,b])=>({file:f.slice('motion-vault-assets/'.length),bytes:b.length,sha256:sha(b)}));
- const receipt={at:new Date().toISOString(),runId:owner.runId,publisherPid:owner.pid,publisherNonce:owner.nonce,applicationCount:1,canonicalEntry:'motion-vault.html',legacyCandidateRedirect:true,redirectSha256:stagedCandidate,formalCount:cat.items.length,candidateCount:candidate.items.length,localCandidateCount:candidate.localReady,formalSha256:sha(payload.get('motion-vault.html')),candidateSha256:sha(payload.get('motion-vault-candidates.html')),assetFiles:inv.length,changedFiles:changes.length,privateReviewPublished:false,userBrowserDataChanged:false,hubBusinessDataChanged:false,serverRestarted:false,sync};
+ const receipt={verificationMode:integration.mode,humanAccepted:integration.humanAccepted,automaticRuntimePassed:integration.automaticRuntimePassed,sourceCountsOnly:true,at:new Date().toISOString(),runId:owner.runId,publisherPid:owner.pid,publisherNonce:owner.nonce,applicationCount:1,canonicalEntry:'motion-vault.html',legacyCandidateRedirect:true,redirectSha256:stagedCandidate,formalCount:cat.items.length,candidateCount:candidate.items.length,localCandidateCount:candidate.localReady,formalSha256:sha(payload.get('motion-vault.html')),candidateSha256:sha(payload.get('motion-vault-candidates.html')),assetFiles:inv.length,changedFiles:changes.length,privateReviewPublished:false,userBrowserDataChanged:false,hubBusinessDataChanged:false,serverRestarted:false,sync};
  await put(evidence,'install-receipt.json',JSON.stringify(receipt,null,2));await put(evidence,'asset-inventory.json',JSON.stringify({files:inv},null,2));
  console.log(JSON.stringify({published:true,runId:owner.runId,applicationCount:1,canonicalEntry:receipt.canonicalEntry,legacyCandidateRedirect:true,formalCount:receipt.formalCount,candidatesReady:receipt.localCandidateCount,candidatesTotal:receipt.candidateCount,changedFiles:changes.length,formalSha256:receipt.formalSha256,candidateSha256:receipt.candidateSha256}));
  }catch(e){

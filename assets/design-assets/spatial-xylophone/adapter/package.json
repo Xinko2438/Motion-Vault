@@ -1,0 +1,12 @@
+{
+  "name": "motion-vault-xylophone-adapter",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.182.0",
+    "postprocessing": "6.39.3"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.10"
+  }
+}

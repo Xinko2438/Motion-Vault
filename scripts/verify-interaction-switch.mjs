@@ -71,6 +71,9 @@ const run=server=>withBrowser(async b=>{
    const outer=await b.evaluate('(()=>{const r=document.querySelector(".local-source-frame").getBoundingClientRect();return{x:r.x,y:r.y,s:r.width/1100}})()');
    return{x:outer.x+r.x*outer.s,y:outer.y+r.y*outer.s};
   };
+  // A move to the existing pointer coordinates need not produce a native event.
+  const away=await b.evaluate('(()=>{const r=document.querySelector(".local-source-frame").getBoundingClientRect();return{x:r.x+8,y:r.y+8}})()');
+  await b.call('Input.dispatchMouseEvent',{type:'mouseMoved',...away});await b.delay(100);
   const tipBefore=await source.evaluate('(()=>{const s=getComputedStyle(document.querySelector(".tooltip"));return{opacity:s.opacity,visibility:s.visibility,transform:s.transform}})()');
   const p=await sourcePoint('[data-tooltip]');await b.call('Input.dispatchMouseEvent',{type:'mouseMoved',...p});await b.delay(1000);
   const tipAfter=await source.evaluate('(()=>{const s=getComputedStyle(document.querySelector(".tooltip"));return{opacity:s.opacity,visibility:s.visibility,transform:s.transform}})()');
@@ -99,12 +102,20 @@ const run=server=>withBrowser(async b=>{
  check('Switching back restores hover video and releases code',await b.evaluate('document.querySelectorAll("iframe").length===0&&document.querySelectorAll(".preview-layer video").length===1'));
  await click('.card[data-id=curated-tooltip-gallery] .detail-btn');await until(b,'document.getElementById("modal").open&&document.querySelector("#modalStage video")?.currentTime>0');
  check('Detail exposes both modes and starts the selected preview',await b.evaluate('document.getElementById("runPreview").getClientRects().length>0&&document.getElementById("runLocal").getClientRects().length>0&&document.getElementById("runPreview").getAttribute("aria-pressed")==="true"'));
+ await b.evaluate('window.__detailVideo=document.querySelector("#modalStage video")');await click('#modalDesc');await b.delay(150);
+ check('Clicking detail text preserves the same running video',await b.evaluate('document.querySelector("#modalStage video")===__detailVideo&&!__detailVideo.paused&&!!HybridVault.active()'));
  await click('#runLocal');await until(b,'!!document.querySelector("#modalStage iframe")');
  check('Detail switch runs the local asset instead of video',await b.evaluate('document.querySelectorAll("#modalStage video").length===0&&document.getElementById("runLocal").getAttribute("aria-pressed")==="true"'));
+ await b.evaluate('window.__detailFrame=document.querySelector("#modalStage iframe")');await click('#modalSource');await b.delay(150);
+ check('Clicking outside detail code preserves its active source frame',await b.evaluate('document.querySelector("#modalStage iframe")===__detailFrame&&!!HybridVault.active()'));
  await click('#runPreview');await until(b,'document.querySelector("#modalStage video")?.currentTime>0');
  check('Detail switch can return from code to video',await b.evaluate('document.querySelectorAll("iframe").length===0'));
  await click('#closeBtn');await b.delay(100);
  check('Closing detail clears its preview',await b.evaluate('!document.getElementById("modal").open&&document.querySelectorAll("#modalStage video,#modalStage iframe").length===0'));
+ await b.evaluate('HybridVault.open(39)');await until(b,'!!HybridVault.active()');await click('#modalSource');
+ check('Formal detail stays active after an outside-preview click',await b.evaluate('document.getElementById("modal").open&&String(HybridVault.active()?.id)==="39"'));
+ await b.call('Input.dispatchKeyEvent',{type:'keyDown',key:'Escape',code:'Escape',windowsVirtualKeyCode:27});await b.call('Input.dispatchKeyEvent',{type:'keyUp',key:'Escape',code:'Escape',windowsVirtualKeyCode:27});await b.delay(150);
+ check('Escape still closes detail and releases its preview',await b.evaluate('!document.getElementById("modal").open&&document.querySelectorAll("#modalStage .preview-layer").length===0'));
  await click('#previewModes [data-preview-mode=interactive]');await b.goto(url,500);await until(b,'!!window.HybridVault');
  check('The UI mode survives refresh without another entry URL',await b.evaluate('document.body.dataset.previewMode==="interactive"&&location.search==="?view=pending"'));
  check('Mode changes do not alter collection, review or bookmark storage',(await snapshot())===beforePrivate);

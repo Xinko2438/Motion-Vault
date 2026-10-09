@@ -1,0 +1,2710 @@
+{
+  "schema": "motion-vault.native-capture-batch.v1",
+  "runId": "native-journeys-20261006-one",
+  "startedAt": "2026-10-06T16:43:50.844Z",
+  "state": "completed",
+  "ids": [
+    "curated-spatial-product",
+    "curated-persistent-gallery",
+    "curated-webgpu-route"
+  ],
+  "scriptSha256": "8f2130c905f365c247448bec7a90f6d02081b9acc5d86aa89bf4b26952bdd7cc",
+  "recordOptions": {
+    "audio": false,
+    "frameRate": 60,
+    "maxWidth": 656,
+    "maxHeight": 400
+  },
+  "viewport": {
+    "width": 1100,
+    "height": 670,
+    "deviceScaleFactor": 1,
+    "mobile": false
+  },
+  "trial": false,
+  "reports": [
+    {
+      "id": "curated-spatial-product",
+      "version": "29f76553ecba4e43",
+      "passed": true,
+      "previousVideoSha256": "b13aac737b4452bb6096e19be1d6d7746c7d735435c546e758edabf4d40a3582",
+      "sourceBefore": {
+        "scope": "all files declared under run/; excludes generated preview/poster",
+        "fileCount": 149,
+        "run": "run/index.html",
+        "runSha256": "c7e8b66e67e581b0495df44744b189519d7b741821dbd9773e03627c8d01931e",
+        "entry": "run/effect.js",
+        "entrySha256": "c598115d1be75f56961d3946d45195243a5a9ca3f268cfdd59262e54285bca35",
+        "declaredFilesSha256": "46b85146bc0b1e39f13e44c7db3414a2f557bd7f16f38e2b660b4f5fe5614065"
+      },
+      "prewarm": [
+        {
+          "action": "real_pointer_click",
+          "selector": "button.control-button[aria-label=\"Zoom In\"]",
+          "x": 304.25,
+          "y": 622,
+          "proof": {
+            "selector": "button.control-button[aria-label=\"Zoom In\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_drag",
+          "from": [
+            605,
+            335
+          ],
+          "to": [
+            330,
+            241.2
+          ],
+          "steps": 72,
+          "durationMs": 1206
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "button.control-button[aria-label=\"Zoom Out\"]",
+          "x": 550,
+          "y": 622,
+          "proof": {
+            "selector": "button.control-button[aria-label=\"Zoom Out\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".control-bar-island .tab-button:nth-child(2)",
+          "x": 470.015625,
+          "y": 622,
+          "proof": {
+            "selector": ".control-bar-island .tab-button:nth-child(2)",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "collection_New Balance"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".control-bar-island .tab-button:nth-child(1)",
+          "x": 467.5703125,
+          "y": 622,
+          "proof": {
+            "selector": ".control-bar-island .tab-button:nth-child(1)",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "collection_Nike"
+        }
+      ],
+      "quality": {
+        "nativeFrames": 249,
+        "encodedFrames": 249,
+        "visibleChanges": 236,
+        "fullContentFPS": 52.3824,
+        "firstWindow": {
+          "startSeconds": 0,
+          "endSeconds": 2.4,
+          "visibleChanges": 139,
+          "contentFPS": 57.91666666666667,
+          "longestHoldSeconds": 0.07780000000000001
+        },
+        "fullWindow": {
+          "startSeconds": 0,
+          "endSeconds": 4.5053,
+          "visibleChanges": 236,
+          "contentFPS": 52.38274920649013,
+          "longestHoldSeconds": 0.08771600000000035
+        },
+        "maxEncodedFrameGapSeconds": 0.0746,
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 7.5495,
+          "pixelsDeltaOver2Fraction": 0.2124,
+          "maxLumaDelta": 192
+        },
+        "continuousRequired": false,
+        "noSyntheticFrameIncrease": true
+      },
+      "native": {
+        "videoSha256": "2056fe2cb3f22df5610cac9c900fd1504645991147b12012be3046d4f18b0ac0",
+        "bytes": 521389,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "av1",
+              "profile": "Main",
+              "codec_tag_string": "av01",
+              "width": 656,
+              "height": 400,
+              "pix_fmt": "yuv420p",
+              "level": 1,
+              "color_range": "pc",
+              "r_frame_rate": "60000/1",
+              "avg_frame_rate": "119520/2167",
+              "time_base": "1/60000",
+              "duration": "4.520667",
+              "bit_rate": "918529"
+            }
+          ],
+          "format": {
+            "duration": "4.520667",
+            "size": "521389",
+            "bit_rate": "922676"
+          }
+        },
+        "analysis": {
+          "elapsedMs": 1194,
+          "decoderThreads": 1,
+          "filterThreads": 1,
+          "sampling": {
+            "width": 164,
+            "height": 100,
+            "pixelFormat": "gray",
+            "scale": "area",
+            "frames": "all decoded frames, original timestamps; no fps filter"
+          },
+          "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+          "visibleChangeRule": {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+          },
+          "decodedFrames": 249,
+          "encodedDurationSeconds": 4.5207,
+          "decodedUniqueLumaFrames": 249,
+          "exactAdjacentDuplicates": 0,
+          "exactAdjacentDuplicateFraction": 0,
+          "visibleChanges": 242,
+          "visibleChangesPerEncodedSecond": 53.5319,
+          "firstVisibleChangeSeconds": 0.00576667,
+          "lastVisibleChangeSeconds": 4.504017,
+          "leadingHoldSeconds": 0.0058,
+          "trailingHoldSeconds": 0.0167,
+          "decodedFrameIntervalSeconds": {
+            "median": 0.0167,
+            "p90": 0.0212,
+            "max": 0.0746
+          },
+          "visibleChangeIntervalSeconds": {
+            "median": 0.0167,
+            "p90": 0.0214,
+            "max": 0.0918
+          },
+          "heldIntervalsAtLeast120ms": [],
+          "thresholdSensitivity": [
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.05,
+              "changes": 243
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.1,
+              "changes": 236
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.25,
+              "changes": 214
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.5,
+              "changes": 179
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 1,
+              "changes": 168
+            }
+          ],
+          "perSecond": [
+            {
+              "start": 0,
+              "end": 1,
+              "encodedTransitions": 57,
+              "exactDuplicates": 0,
+              "visibleChanges": 54,
+              "maxMeanAbsoluteLumaDelta": 24.8687
+            },
+            {
+              "start": 1,
+              "end": 2,
+              "encodedTransitions": 62,
+              "exactDuplicates": 0,
+              "visibleChanges": 62,
+              "maxMeanAbsoluteLumaDelta": 11.4561
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "encodedTransitions": 59,
+              "exactDuplicates": 0,
+              "visibleChanges": 59,
+              "maxMeanAbsoluteLumaDelta": 30.587
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "encodedTransitions": 43,
+              "exactDuplicates": 0,
+              "visibleChanges": 40,
+              "maxMeanAbsoluteLumaDelta": 0.5471
+            },
+            {
+              "start": 4,
+              "end": 4.5207,
+              "encodedTransitions": 27,
+              "exactDuplicates": 0,
+              "visibleChanges": 27,
+              "maxMeanAbsoluteLumaDelta": 8.9814
+            }
+          ],
+          "loopBoundary": {
+            "meanAbsoluteLumaDelta": 7.5661,
+            "pixelsDeltaOver2Fraction": 0.2091,
+            "maxLumaDelta": 192
+          }
+        }
+      },
+      "trim": {
+        "startSeconds": 0,
+        "endSeconds": 4.5207
+      },
+      "analysis": {
+        "elapsedMs": 368,
+        "decoderThreads": 1,
+        "filterThreads": 1,
+        "sampling": {
+          "width": 164,
+          "height": 100,
+          "pixelFormat": "gray",
+          "scale": "area",
+          "frames": "all decoded frames, original timestamps; no fps filter"
+        },
+        "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+        "visibleChangeRule": {
+          "meanAbsoluteLumaDeltaAtLeast": 0.25,
+          "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+        },
+        "decodedFrames": 249,
+        "encodedDurationSeconds": 4.5053,
+        "decodedUniqueLumaFrames": 249,
+        "exactAdjacentDuplicates": 0,
+        "exactAdjacentDuplicateFraction": 0,
+        "visibleChanges": 236,
+        "visibleChangesPerEncodedSecond": 52.3824,
+        "firstVisibleChangeSeconds": 0.0391333,
+        "lastVisibleChangeSeconds": 4.503917,
+        "leadingHoldSeconds": 0.0391,
+        "trailingHoldSeconds": 0.0014,
+        "decodedFrameIntervalSeconds": {
+          "median": 0.0167,
+          "p90": 0.0212,
+          "max": 0.0746
+        },
+        "visibleChangeIntervalSeconds": {
+          "median": 0.0167,
+          "p90": 0.0214,
+          "max": 0.0877
+        },
+        "heldIntervalsAtLeast120ms": [],
+        "thresholdSensitivity": [
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.05,
+            "changes": 245
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.1,
+            "changes": 240
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "changes": 214
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.5,
+            "changes": 178
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 1,
+            "changes": 168
+          }
+        ],
+        "perSecond": [
+          {
+            "start": 0,
+            "end": 1,
+            "encodedTransitions": 57,
+            "exactDuplicates": 0,
+            "visibleChanges": 52,
+            "maxMeanAbsoluteLumaDelta": 24.7588
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "encodedTransitions": 62,
+            "exactDuplicates": 0,
+            "visibleChanges": 62,
+            "maxMeanAbsoluteLumaDelta": 11.4231
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "encodedTransitions": 59,
+            "exactDuplicates": 0,
+            "visibleChanges": 59,
+            "maxMeanAbsoluteLumaDelta": 30.5472
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "encodedTransitions": 43,
+            "exactDuplicates": 0,
+            "visibleChanges": 41,
+            "maxMeanAbsoluteLumaDelta": 0.5051
+          },
+          {
+            "start": 4,
+            "end": 4.5053,
+            "encodedTransitions": 27,
+            "exactDuplicates": 0,
+            "visibleChanges": 22,
+            "maxMeanAbsoluteLumaDelta": 8.9073
+          }
+        ],
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 7.5495,
+          "pixelsDeltaOver2Fraction": 0.2124,
+          "maxLumaDelta": 192
+        }
+      },
+      "actions": [
+        {
+          "action": "real_pointer_click",
+          "selector": "button.control-button[aria-label=\"Zoom In\"]",
+          "x": 304.25,
+          "y": 622,
+          "proof": {
+            "selector": "button.control-button[aria-label=\"Zoom In\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_drag",
+          "from": [
+            605,
+            335
+          ],
+          "to": [
+            330,
+            241.2
+          ],
+          "steps": 72,
+          "durationMs": 1212
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "button.control-button[aria-label=\"Zoom Out\"]",
+          "x": 550,
+          "y": 622,
+          "proof": {
+            "selector": "button.control-button[aria-label=\"Zoom Out\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".control-bar-island .tab-button:nth-child(2)",
+          "x": 470.015625,
+          "y": 622,
+          "proof": {
+            "selector": ".control-bar-island .tab-button:nth-child(2)",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "collection_New Balance"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".control-bar-island .tab-button:nth-child(1)",
+          "x": 467.5703125,
+          "y": 622,
+          "proof": {
+            "selector": ".control-bar-island .tab-button:nth-child(1)",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "collection_Nike"
+        }
+      ],
+      "inputs": {
+        "pointermove": 155,
+        "pointerdown": 10,
+        "pointerup": 10,
+        "click": 10
+      },
+      "sourceAfter": {
+        "scope": "all files declared under run/; excludes generated preview/poster",
+        "fileCount": 149,
+        "run": "run/index.html",
+        "runSha256": "c7e8b66e67e581b0495df44744b189519d7b741821dbd9773e03627c8d01931e",
+        "entry": "run/effect.js",
+        "entrySha256": "c598115d1be75f56961d3946d45195243a5a9ca3f268cfdd59262e54285bca35",
+        "declaredFilesSha256": "46b85146bc0b1e39f13e44c7db3414a2f557bd7f16f38e2b660b4f5fe5614065"
+      },
+      "stagedModified": true,
+      "frames": 249,
+      "distinct": 237,
+      "videoBytes": 654818,
+      "videoSha256": "969a3238eab64aac59c1b546ccb177f390754cc3a2ca3986cf12715c875da08b",
+      "posterSha256": "34ea2e037f04e18ef24327764b5f15bac053adae69224390262be902943f8efa",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_tag_string": "avc1",
+            "width": 656,
+            "height": 400,
+            "pix_fmt": "yuv420p",
+            "level": 31,
+            "color_range": "tv",
+            "r_frame_rate": "60000/1",
+            "avg_frame_rate": "186750/3379",
+            "time_base": "1/60000",
+            "duration": "4.505333",
+            "bit_rate": "1152967",
+            "nb_frames": "249"
+          }
+        ],
+        "format": {
+          "duration": "4.505333",
+          "size": "654818",
+          "bit_rate": "1162742"
+        }
+      },
+      "issues": [],
+      "csp": [],
+      "external": [],
+      "wallDurationMs": 5317
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "version": "54ff3fdc942fa76d",
+      "passed": true,
+      "previousVideoSha256": "1a632d57d4b07c5e4f44a8b54eb418fb557704a4df519c9b0ca70c87192e21c5",
+      "sourceBefore": {
+        "scope": "all files declared under run/; excludes generated preview/poster",
+        "fileCount": 24,
+        "run": "run/index.html",
+        "runSha256": "b0128b528c418a34ce9a02bbe925985c23883aa19a9545a61cda704565d41627",
+        "entry": "run/effect.js",
+        "entrySha256": "d3625b9f90765c31bea2c56208af21d9e905bbaeb65e783f2b515da203b6f020",
+        "declaredFilesSha256": "e300ba3bbf7c56f634a595cc04332c0d5e4a2c27c2255c5f3de80c67740b5ba7"
+      },
+      "prewarm": [
+        {
+          "action": "verified_journey_state",
+          "name": "home_ready"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".grid a[href=\"./1.html\"]",
+          "x": 251.9375,
+          "y": 249.9296875,
+          "proof": {
+            "selector": ".grid a[href=\"./1.html\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "detail_entered"
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "same_image_transition_finished"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".details-data a[href=\"./index.html\"]",
+          "x": 360.90625,
+          "y": 34,
+          "proof": {
+            "selector": ".details-data a[href=\"./index.html\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "home_returned"
+        },
+        {
+          "action": "source_scroll_raf",
+          "durationMs": 3002.799999976158,
+          "updates": 520,
+          "min": 0,
+          "max": 0.179699999997139,
+          "curve": "closed-triangle",
+          "timesMs": [
+            3.09999997615796,
+            8.699999976158324,
+            108.79999997615778,
+            114.19999997615832,
+            119.79999997615778,
+            125.4999999761585,
+            130.89999997615814,
+            136.4999999761585,
+            142.09999997615796,
+            147.59999997615796,
+            153.09999997615796,
+            158.69999997615832,
+            164.29999997615778,
+            169.79999997615778,
+            175.29999997615778,
+            180.89999997615814,
+            186.4999999761585,
+            191.9999999761585,
+            197.59999997615796,
+            203.19999997615832,
+            208.69999997615832,
+            214.29999997615778,
+            219.79999997615778,
+            225.39999997615814,
+            230.9999999761585,
+            236.4999999761585,
+            241.9999999761585,
+            247.59999997615796,
+            253.09999997615796,
+            258.59999997615796,
+            264.2999999761578,
+            269.89999997615814,
+            275.39999997615814,
+            280.9999999761585,
+            286.39999997615814,
+            292.09999997615796,
+            297.59999997615796,
+            303.09999997615796,
+            308.6999999761583,
+            314.1999999761583,
+            319.7999999761578,
+            325.39999997615814,
+            330.9999999761585,
+            336.39999997615814,
+            341.9999999761585,
+            347.59999997615796,
+            353.09999997615796,
+            358.6999999761583,
+            364.2999999761578,
+            369.7999999761578,
+            375.2999999761578,
+            380.9999999761585,
+            386.4999999761585,
+            391.9999999761585,
+            397.59999997615796,
+            403.1999999761583,
+            408.6999999761583,
+            414.2999999761578,
+            419.7999999761578,
+            425.2999999761578,
+            430.89999997615814,
+            436.4999999761585,
+            441.9999999761585,
+            447.59999997615796,
+            453.1999999761583,
+            458.6999999761583,
+            464.1999999761583,
+            469.7999999761578,
+            475.2999999761578,
+            480.9999999761585,
+            486.39999997615814,
+            491.9999999761585,
+            497.4999999761585,
+            503.09999997615796,
+            508.7999999761578,
+            514.1999999761583,
+            519.6999999761583,
+            525.2999999761578,
+            530.7999999761578,
+            536.4999999761585,
+            541.9999999761585,
+            547.599999976158,
+            553.1999999761583,
+            558.6999999761583,
+            564.1999999761583,
+            569.6999999761583,
+            575.3999999761581,
+            580.9999999761585,
+            586.3999999761581,
+            591.9999999761585,
+            597.599999976158,
+            603.099999976158,
+            608.6999999761583,
+            614.1999999761583,
+            619.7999999761578,
+            625.3999999761581,
+            630.7999999761578,
+            636.4999999761585,
+            641.9999999761585,
+            647.4999999761585,
+            653.099999976158,
+            658.6999999761583,
+            664.1999999761583,
+            669.7999999761578,
+            675.3999999761581,
+            680.8999999761581,
+            686.4999999761585,
+            691.8999999761581,
+            697.4999999761585,
+            702.9999999761585,
+            708.599999976158,
+            714.1999999761583,
+            719.7999999761578,
+            725.2999999761578,
+            730.8999999761581,
+            736.3999999761581,
+            742.099999976158,
+            747.599999976158,
+            753.099999976158,
+            758.599999976158,
+            764.2999999761578,
+            769.7999999761578,
+            797.599999976158,
+            803.099999976158,
+            808.6999999761583,
+            814.1999999761583,
+            819.6999999761583,
+            825.3999999761581,
+            830.8999999761581,
+            836.3999999761581,
+            841.9999999761585,
+            847.4999999761585,
+            853.099999976158,
+            858.599999976158,
+            864.1999999761583,
+            869.6999999761583,
+            875.1999999761583,
+            880.9999999761585,
+            886.3999999761581,
+            891.8999999761581,
+            897.4999999761585,
+            902.9999999761585,
+            908.599999976158,
+            914.1999999761583,
+            919.6999999761583,
+            925.2999999761578,
+            930.8999999761581,
+            936.3999999761581,
+            941.8999999761581,
+            947.4999999761585,
+            952.9999999761585,
+            958.599999976158,
+            964.099999976158,
+            969.7999999761578,
+            975.1999999761583,
+            980.8999999761581,
+            986.3999999761581,
+            991.9999999761585,
+            997.599999976158,
+            1002.9999999761585,
+            1008.4999999761585,
+            1014.1999999761583,
+            1019.6999999761583,
+            1025.2999999761578,
+            1030.7999999761578,
+            1036.3999999761581,
+            1041.8999999761581,
+            1047.3999999761581,
+            1053.099999976158,
+            1058.6999999761583,
+            1064.099999976158,
+            1069.599999976158,
+            1075.1999999761583,
+            1080.8999999761581,
+            1086.3999999761581,
+            1091.8999999761581,
+            1097.4999999761585,
+            1103.099999976158,
+            1108.599999976158,
+            1114.099999976158,
+            1119.6999999761583,
+            1125.2999999761578,
+            1130.6999999761583,
+            1136.3999999761581,
+            1141.7999999761578,
+            1147.4999999761585,
+            1153.099999976158,
+            1158.599999976158,
+            1164.099999976158,
+            1169.6999999761583,
+            1175.2999999761578,
+            1180.6999999761583,
+            1186.3999999761581,
+            1191.8999999761581,
+            1197.4999999761585,
+            1202.9999999761585,
+            1208.599999976158,
+            1214.1999999761583,
+            1219.7999999761578,
+            1225.2999999761578,
+            1230.7999999761578,
+            1236.3999999761581,
+            1241.9999999761585,
+            1247.599999976158,
+            1252.9999999761585,
+            1258.599999976158,
+            1264.099999976158,
+            1269.6999999761583,
+            1275.1999999761583,
+            1280.8999999761581,
+            1286.2999999761578,
+            1291.8999999761581,
+            1297.4999999761585,
+            1302.9999999761585,
+            1308.599999976158,
+            1314.099999976158,
+            1319.6999999761583,
+            1325.2999999761578,
+            1330.7999999761578,
+            1336.2999999761578,
+            1341.7999999761578,
+            1347.3999999761581,
+            1352.9999999761585,
+            1358.599999976158,
+            1364.099999976158,
+            1369.6999999761583,
+            1375.1999999761583,
+            1380.7999999761578,
+            1386.2999999761578,
+            1391.7999999761578,
+            1397.4999999761585,
+            1402.9999999761585,
+            1408.4999999761585,
+            1414.099999976158,
+            1419.6999999761583,
+            1425.1999999761583,
+            1430.6999999761583,
+            1436.3999999761581,
+            1441.8999999761581,
+            1447.4999999761585,
+            1452.9999999761585,
+            1458.599999976158,
+            1464.099999976158,
+            1469.599999976158,
+            1475.1999999761583,
+            1480.6999999761583,
+            1486.2999999761578,
+            1491.8999999761581,
+            1497.4999999761585,
+            1502.9999999761585,
+            1508.599999976158,
+            1514.099999976158,
+            1519.6999999761583,
+            1525.1999999761583,
+            1530.7999999761578,
+            1536.2999999761578,
+            1541.7999999761578,
+            1547.3999999761581,
+            1552.9999999761585,
+            1558.4999999761585,
+            1564.099999976158,
+            1569.6999999761583,
+            1575.1999999761583,
+            1580.7999999761578,
+            1586.2999999761578,
+            1591.7999999761578,
+            1597.4999999761585,
+            1602.9999999761585,
+            1608.599999976158,
+            1613.9999999761585,
+            1619.599999976158,
+            1625.1999999761583,
+            1630.7999999761578,
+            1636.3999999761581,
+            1641.8999999761581,
+            1647.3999999761581,
+            1652.9999999761585,
+            1658.6999999761583,
+            1664.099999976158,
+            1669.6999999761583,
+            1675.1999999761583,
+            1680.6999999761583,
+            1686.2999999761578,
+            1691.8999999761581,
+            1697.3999999761581,
+            1702.9999999761585,
+            1708.4999999761585,
+            1714.099999976158,
+            1719.6999999761583,
+            1725.1999999761583,
+            1730.6999999761583,
+            1736.2999999761578,
+            1741.7999999761578,
+            1747.3999999761581,
+            1752.9999999761585,
+            1758.4999999761585,
+            1764.099999976158,
+            1769.599999976158,
+            1775.099999976158,
+            1780.6999999761583,
+            1786.2999999761578,
+            1791.7999999761578,
+            1797.3999999761581,
+            1802.8999999761581,
+            1808.4999999761585,
+            1813.9999999761585,
+            1819.599999976158,
+            1825.1999999761583,
+            1830.6999999761583,
+            1836.1999999761583,
+            1841.8999999761581,
+            1847.3999999761581,
+            1852.8999999761581,
+            1858.4999999761585,
+            1863.9999999761585,
+            1869.599999976158,
+            1875.099999976158,
+            1880.6999999761583,
+            1886.2999999761578,
+            1891.7999999761578,
+            1897.3999999761581,
+            1902.9999999761585,
+            1908.4999999761585,
+            1913.9999999761585,
+            1919.599999976158,
+            1925.1999999761583,
+            1930.6999999761583,
+            1936.2999999761578,
+            1941.7999999761578,
+            1947.3999999761581,
+            1952.8999999761581,
+            1958.4999999761585,
+            1964.099999976158,
+            1969.599999976158,
+            1975.1999999761583,
+            1980.6999999761583,
+            1986.2999999761578,
+            1991.7999999761578,
+            1997.3999999761581,
+            2002.9999999761585,
+            2008.4999999761585,
+            2014.099999976158,
+            2019.599999976158,
+            2025.099999976158,
+            2030.6999999761583,
+            2036.2999999761578,
+            2041.7999999761578,
+            2047.2999999761578,
+            2052.899999976158,
+            2058.4999999761585,
+            2063.9999999761585,
+            2069.4999999761585,
+            2075.099999976158,
+            2080.599999976158,
+            2086.299999976158,
+            2091.799999976158,
+            2097.399999976158,
+            2102.899999976158,
+            2108.4999999761585,
+            2113.9999999761585,
+            2119.4999999761585,
+            2125.099999976158,
+            2130.599999976158,
+            2136.1999999761583,
+            2141.799999976158,
+            2147.299999976158,
+            2152.799999976158,
+            2158.4999999761585,
+            2163.9999999761585,
+            2169.599999976158,
+            2175.099999976158,
+            2180.599999976158,
+            2186.1999999761583,
+            2191.6999999761583,
+            2197.299999976158,
+            2202.899999976158,
+            2208.399999976158,
+            2213.899999976158,
+            2219.4999999761585,
+            2225.099999976158,
+            2230.6999999761583,
+            2236.1999999761583,
+            2241.6999999761583,
+            2247.399999976158,
+            2252.899999976158,
+            2258.399999976158,
+            2263.9999999761585,
+            2269.599999976158,
+            2275.099999976158,
+            2280.599999976158,
+            2286.1999999761583,
+            2291.799999976158,
+            2297.299999976158,
+            2302.799999976158,
+            2308.399999976158,
+            2313.899999976158,
+            2319.4999999761585,
+            2325.099999976159,
+            2330.6999999761574,
+            2336.299999976158,
+            2341.799999976158,
+            2347.399999976158,
+            2352.799999976158,
+            2358.399999976158,
+            2363.899999976158,
+            2369.4999999761585,
+            2375.099999976159,
+            2380.6999999761574,
+            2386.1999999761574,
+            2391.799999976158,
+            2397.399999976158,
+            2402.899999976158,
+            2408.399999976158,
+            2413.9999999761585,
+            2419.599999976159,
+            2425.1999999761574,
+            2430.599999976159,
+            2436.1999999761574,
+            2441.6999999761574,
+            2447.299999976158,
+            2452.899999976158,
+            2458.399999976158,
+            2464.099999976159,
+            2469.599999976159,
+            2475.099999976159,
+            2480.6999999761574,
+            2486.299999976158,
+            2491.6999999761574,
+            2497.399999976158,
+            2502.899999976158,
+            2508.399999976158,
+            2513.9999999761585,
+            2519.4999999761585,
+            2525.099999976159,
+            2530.599999976159,
+            2536.1999999761574,
+            2541.799999976158,
+            2547.299999976158,
+            2552.799999976158,
+            2558.399999976158,
+            2563.899999976158,
+            2569.4999999761585,
+            2575.099999976159,
+            2580.599999976159,
+            2586.1999999761574,
+            2591.6999999761574,
+            2597.299999976158,
+            2602.799999976158,
+            2608.399999976158,
+            2613.9999999761585,
+            2619.599999976159,
+            2625.099999976159,
+            2630.4999999761585,
+            2636.099999976159,
+            2641.6999999761574,
+            2647.399999976158,
+            2652.899999976158,
+            2658.399999976158,
+            2663.9999999761585,
+            2669.4999999761585,
+            2675.099999976159,
+            2680.599999976159,
+            2686.1999999761574,
+            2691.799999976158,
+            2697.1999999761574,
+            2702.799999976158,
+            2708.399999976158,
+            2713.899999976158,
+            2719.4999999761585,
+            2724.9999999761585,
+            2730.6999999761574,
+            2736.099999976159,
+            2741.799999976158,
+            2747.299999976158,
+            2752.899999976158,
+            2758.4999999761585,
+            2763.9999999761585,
+            2769.399999976158,
+            2774.9999999761585,
+            2780.6999999761574,
+            2786.099999976159,
+            2791.799999976158,
+            2797.299999976158,
+            2802.799999976158,
+            2808.399999976158,
+            2813.9999999761585,
+            2819.4999999761585,
+            2824.9999999761585,
+            2830.6999999761574,
+            2836.099999976159,
+            2841.6999999761574,
+            2847.399999976158,
+            2852.899999976158,
+            2858.4999999761585,
+            2863.9999999761585,
+            2869.4999999761585,
+            2874.9999999761585,
+            2880.599999976159,
+            2886.1999999761574,
+            2891.6999999761574,
+            2897.299999976158,
+            2902.799999976158,
+            2908.399999976158,
+            2913.9999999761585,
+            2919.4999999761585,
+            2924.9999999761585,
+            2930.599999976159,
+            2936.099999976159,
+            2941.6999999761574,
+            2947.1999999761574,
+            2952.799999976158,
+            2958.299999976158,
+            2963.899999976158,
+            2969.4999999761585,
+            2974.9999999761585,
+            2980.599999976159,
+            2986.099999976159,
+            2991.6999999761574,
+            2997.299999976158,
+            3002.799999976158
+          ],
+          "finalProgress": 0
+        }
+      ],
+      "quality": {
+        "nativeFrames": 385,
+        "encodedFrames": 385,
+        "visibleChanges": 337,
+        "fullContentFPS": 51.3081,
+        "firstWindow": {
+          "startSeconds": 0,
+          "endSeconds": 2.4,
+          "visibleChanges": 116,
+          "contentFPS": 48.333333333333336,
+          "longestHoldSeconds": 0.12770000000000004
+        },
+        "fullWindow": {
+          "startSeconds": 0,
+          "endSeconds": 6.5682,
+          "visibleChanges": 337,
+          "contentFPS": 51.30781644895101,
+          "longestHoldSeconds": 0.39385000000000003
+        },
+        "maxEncodedFrameGapSeconds": 0.2291,
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 20.8721,
+          "pixelsDeltaOver2Fraction": 0.249,
+          "maxLumaDelta": 255
+        },
+        "continuousRequired": false,
+        "noSyntheticFrameIncrease": true
+      },
+      "native": {
+        "videoSha256": "b7e4daf27b99e6991b5720093844cf982868dd8f26a8c11a97863960f608041b",
+        "bytes": 762998,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "av1",
+              "profile": "Main",
+              "codec_tag_string": "av01",
+              "width": 656,
+              "height": 400,
+              "pix_fmt": "yuv420p",
+              "level": 1,
+              "color_range": "pc",
+              "r_frame_rate": "60/1",
+              "avg_frame_rate": "825000/14099",
+              "time_base": "1/60000",
+              "duration": "6.581750",
+              "bit_rate": "922575"
+            }
+          ],
+          "format": {
+            "duration": "6.581750",
+            "size": "762998",
+            "bit_rate": "927410"
+          }
+        },
+        "analysis": {
+          "elapsedMs": 437,
+          "decoderThreads": 1,
+          "filterThreads": 1,
+          "sampling": {
+            "width": 164,
+            "height": 100,
+            "pixelFormat": "gray",
+            "scale": "area",
+            "frames": "all decoded frames, original timestamps; no fps filter"
+          },
+          "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+          "visibleChangeRule": {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+          },
+          "decodedFrames": 385,
+          "encodedDurationSeconds": 6.5818,
+          "decodedUniqueLumaFrames": 377,
+          "exactAdjacentDuplicates": 8,
+          "exactAdjacentDuplicateFraction": 0.0208,
+          "visibleChanges": 339,
+          "visibleChangesPerEncodedSecond": 51.5061,
+          "firstVisibleChangeSeconds": 0.0026,
+          "lastVisibleChangeSeconds": 6.5643,
+          "leadingHoldSeconds": 0.0026,
+          "trailingHoldSeconds": 0.0175,
+          "decodedFrameIntervalSeconds": {
+            "median": 0.0165,
+            "p90": 0.0167,
+            "max": 0.2291
+          },
+          "visibleChangeIntervalSeconds": {
+            "median": 0.0165,
+            "p90": 0.0167,
+            "max": 0.3939
+          },
+          "heldIntervalsAtLeast120ms": [
+            {
+              "start": 3.217,
+              "end": 3.3631,
+              "seconds": 0.1461
+            },
+            {
+              "start": 3.3631,
+              "end": 3.7569,
+              "seconds": 0.3939
+            }
+          ],
+          "thresholdSensitivity": [
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.05,
+              "changes": 347
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.1,
+              "changes": 334
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.25,
+              "changes": 326
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.5,
+              "changes": 301
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 1,
+              "changes": 282
+            }
+          ],
+          "perSecond": [
+            {
+              "start": 0,
+              "end": 1,
+              "encodedTransitions": 57,
+              "exactDuplicates": 0,
+              "visibleChanges": 48,
+              "maxMeanAbsoluteLumaDelta": 4.6033
+            },
+            {
+              "start": 1,
+              "end": 2,
+              "encodedTransitions": 60,
+              "exactDuplicates": 1,
+              "visibleChanges": 53,
+              "maxMeanAbsoluteLumaDelta": 22.5615
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "encodedTransitions": 61,
+              "exactDuplicates": 0,
+              "visibleChanges": 51,
+              "maxMeanAbsoluteLumaDelta": 15.4454
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "encodedTransitions": 48,
+              "exactDuplicates": 7,
+              "visibleChanges": 30,
+              "maxMeanAbsoluteLumaDelta": 17.8522
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "encodedTransitions": 59,
+              "exactDuplicates": 0,
+              "visibleChanges": 59,
+              "maxMeanAbsoluteLumaDelta": 13.4973
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "encodedTransitions": 63,
+              "exactDuplicates": 0,
+              "visibleChanges": 63,
+              "maxMeanAbsoluteLumaDelta": 8.0666
+            },
+            {
+              "start": 6,
+              "end": 6.5818,
+              "encodedTransitions": 36,
+              "exactDuplicates": 0,
+              "visibleChanges": 35,
+              "maxMeanAbsoluteLumaDelta": 7.987
+            }
+          ],
+          "loopBoundary": {
+            "meanAbsoluteLumaDelta": 20.8245,
+            "pixelsDeltaOver2Fraction": 0.2385,
+            "maxLumaDelta": 254
+          }
+        }
+      },
+      "trim": {
+        "startSeconds": 0,
+        "endSeconds": 6.5818
+      },
+      "analysis": {
+        "elapsedMs": 371,
+        "decoderThreads": 1,
+        "filterThreads": 1,
+        "sampling": {
+          "width": 164,
+          "height": 100,
+          "pixelFormat": "gray",
+          "scale": "area",
+          "frames": "all decoded frames, original timestamps; no fps filter"
+        },
+        "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+        "visibleChangeRule": {
+          "meanAbsoluteLumaDeltaAtLeast": 0.25,
+          "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+        },
+        "decodedFrames": 385,
+        "encodedDurationSeconds": 6.5682,
+        "decodedUniqueLumaFrames": 384,
+        "exactAdjacentDuplicates": 1,
+        "exactAdjacentDuplicateFraction": 0.0026,
+        "visibleChanges": 337,
+        "visibleChangesPerEncodedSecond": 51.3081,
+        "firstVisibleChangeSeconds": 0.0026,
+        "lastVisibleChangeSeconds": 6.5651,
+        "leadingHoldSeconds": 0.0026,
+        "trailingHoldSeconds": 0.0031,
+        "decodedFrameIntervalSeconds": {
+          "median": 0.0165,
+          "p90": 0.0167,
+          "max": 0.2291
+        },
+        "visibleChangeIntervalSeconds": {
+          "median": 0.0165,
+          "p90": 0.0167,
+          "max": 0.3939
+        },
+        "heldIntervalsAtLeast120ms": [
+          {
+            "start": 0.5856,
+            "end": 0.7133,
+            "seconds": 0.1277
+          },
+          {
+            "start": 3.217,
+            "end": 3.3631,
+            "seconds": 0.1461
+          },
+          {
+            "start": 3.3631,
+            "end": 3.7569,
+            "seconds": 0.3939
+          }
+        ],
+        "thresholdSensitivity": [
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.05,
+            "changes": 351
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.1,
+            "changes": 341
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "changes": 326
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.5,
+            "changes": 300
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 1,
+            "changes": 282
+          }
+        ],
+        "perSecond": [
+          {
+            "start": 0,
+            "end": 1,
+            "encodedTransitions": 57,
+            "exactDuplicates": 0,
+            "visibleChanges": 44,
+            "maxMeanAbsoluteLumaDelta": 4.5541
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "encodedTransitions": 60,
+            "exactDuplicates": 1,
+            "visibleChanges": 54,
+            "maxMeanAbsoluteLumaDelta": 22.5408
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "encodedTransitions": 61,
+            "exactDuplicates": 0,
+            "visibleChanges": 51,
+            "maxMeanAbsoluteLumaDelta": 15.3716
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "encodedTransitions": 48,
+            "exactDuplicates": 0,
+            "visibleChanges": 30,
+            "maxMeanAbsoluteLumaDelta": 17.859
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "encodedTransitions": 59,
+            "exactDuplicates": 0,
+            "visibleChanges": 59,
+            "maxMeanAbsoluteLumaDelta": 13.4605
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "encodedTransitions": 63,
+            "exactDuplicates": 0,
+            "visibleChanges": 63,
+            "maxMeanAbsoluteLumaDelta": 8.0615
+          },
+          {
+            "start": 6,
+            "end": 6.5682,
+            "encodedTransitions": 36,
+            "exactDuplicates": 0,
+            "visibleChanges": 36,
+            "maxMeanAbsoluteLumaDelta": 7.9436
+          }
+        ],
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 20.8721,
+          "pixelsDeltaOver2Fraction": 0.249,
+          "maxLumaDelta": 255
+        }
+      },
+      "actions": [
+        {
+          "action": "verified_journey_state",
+          "name": "home_ready"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".grid a[href=\"./1.html\"]",
+          "x": 251.9375,
+          "y": 249.9296875,
+          "proof": {
+            "selector": ".grid a[href=\"./1.html\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "detail_entered"
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "same_image_transition_finished"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": ".details-data a[href=\"./index.html\"]",
+          "x": 360.90625,
+          "y": 34,
+          "proof": {
+            "selector": ".details-data a[href=\"./index.html\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "home_returned"
+        },
+        {
+          "action": "source_scroll_raf",
+          "durationMs": 3002.6000000000004,
+          "updates": 523,
+          "min": 0,
+          "max": 0.1796640000000001,
+          "curve": "closed-triangle",
+          "timesMs": [
+            2.899999999999636,
+            8.5,
+            36.29999999999927,
+            41.899999999999636,
+            47.399999999999636,
+            97.39999999999964,
+            102.89999999999964,
+            108.60000000000036,
+            114,
+            119.60000000000036,
+            125.20000000000073,
+            130.79999999999927,
+            136.29999999999927,
+            141.79999999999927,
+            147.39999999999964,
+            152.89999999999964,
+            158.5,
+            164.10000000000036,
+            169.60000000000036,
+            175.20000000000073,
+            180.70000000000073,
+            186.29999999999927,
+            191.79999999999927,
+            197.39999999999964,
+            203,
+            208.5,
+            214,
+            219.70000000000073,
+            225.10000000000036,
+            230.70000000000073,
+            236.29999999999927,
+            241.79999999999927,
+            247.39999999999964,
+            253,
+            258.39999999999964,
+            264.10000000000036,
+            269.60000000000036,
+            275.2000000000007,
+            280.7000000000007,
+            286.2999999999993,
+            291.7999999999993,
+            297.5,
+            302.89999999999964,
+            308.60000000000036,
+            314.10000000000036,
+            319.7000000000007,
+            325.10000000000036,
+            330.7000000000007,
+            336.2999999999993,
+            341.7999999999993,
+            347.39999999999964,
+            352.89999999999964,
+            358.5,
+            364.10000000000036,
+            369.60000000000036,
+            375.2000000000007,
+            380.60000000000036,
+            386.7000000000007,
+            391.7999999999993,
+            397.2999999999993,
+            402.89999999999964,
+            408.5,
+            414,
+            419.7000000000007,
+            425.2000000000007,
+            430.7000000000007,
+            436.2999999999993,
+            441.7999999999993,
+            447.2999999999993,
+            452.89999999999964,
+            458.5,
+            464.10000000000036,
+            469.60000000000036,
+            475.10000000000036,
+            480.7000000000007,
+            486.2999999999993,
+            491.7000000000007,
+            497.39999999999964,
+            503,
+            508.5,
+            514.1000000000004,
+            519.6000000000004,
+            525.1000000000004,
+            530.7999999999993,
+            536.2999999999993,
+            541.7999999999993,
+            547.2999999999993,
+            552.8999999999996,
+            558.5,
+            564,
+            569.5,
+            575.1000000000004,
+            580.7000000000007,
+            586.2999999999993,
+            591.7999999999993,
+            597.2999999999993,
+            603,
+            608.3999999999996,
+            613.8999999999996,
+            619.5,
+            625.2000000000007,
+            630.7000000000007,
+            636.2000000000007,
+            641.7000000000007,
+            647.3999999999996,
+            652.8999999999996,
+            658.5,
+            664,
+            669.5,
+            675.2000000000007,
+            680.7000000000007,
+            686.2000000000007,
+            691.7999999999993,
+            697.2999999999993,
+            702.7999999999993,
+            708.5,
+            714,
+            719.6000000000004,
+            725.1000000000004,
+            730.7000000000007,
+            736.2000000000007,
+            741.7999999999993,
+            747.3999999999996,
+            752.7999999999993,
+            758.5,
+            764,
+            769.5,
+            808.3999999999996,
+            814,
+            819.5,
+            825,
+            830.7000000000007,
+            836.2000000000007,
+            841.7999999999993,
+            847.3999999999996,
+            852.7999999999993,
+            858.3999999999996,
+            864.1000000000004,
+            869.5,
+            875,
+            880.5,
+            886.2000000000007,
+            891.7000000000007,
+            897.2999999999993,
+            902.8999999999996,
+            908.3999999999996,
+            914,
+            919.5,
+            925.2000000000007,
+            930.6000000000004,
+            936.2000000000007,
+            941.7000000000007,
+            947.2999999999993,
+            952.7999999999993,
+            958.3999999999996,
+            964,
+            969.5,
+            975,
+            980.5,
+            986.2000000000007,
+            991.7000000000007,
+            997.2999999999993,
+            1002.7999999999993,
+            1008.3999999999996,
+            1013.8999999999996,
+            1019.5,
+            1025.1000000000004,
+            1030.7000000000007,
+            1036.2000000000007,
+            1041.7000000000007,
+            1047.2999999999993,
+            1052.7999999999993,
+            1058.3999999999996,
+            1063.8999999999996,
+            1069.3999999999996,
+            1075.1000000000004,
+            1080.6000000000004,
+            1086.2000000000007,
+            1091.7999999999993,
+            1097.2000000000007,
+            1102.7999999999993,
+            1108.3999999999996,
+            1113.8999999999996,
+            1119.5,
+            1125.1000000000004,
+            1130.6000000000004,
+            1136.1000000000004,
+            1141.7000000000007,
+            1147.2000000000007,
+            1152.7999999999993,
+            1158.3999999999996,
+            1163.8999999999996,
+            1169.5,
+            1175,
+            1180.6000000000004,
+            1186.2000000000007,
+            1191.7000000000007,
+            1197.2000000000007,
+            1202.7999999999993,
+            1208.3999999999996,
+            1213.8999999999996,
+            1219.5,
+            1225,
+            1230.6000000000004,
+            1236.2000000000007,
+            1241.6000000000004,
+            1247.2000000000007,
+            1252.8999999999996,
+            1258.3999999999996,
+            1264,
+            1269.5,
+            1275,
+            1280.6000000000004,
+            1286.1000000000004,
+            1291.7000000000007,
+            1297.2999999999993,
+            1302.7999999999993,
+            1308.3999999999996,
+            1313.8999999999996,
+            1319.3999999999996,
+            1325,
+            1330.6000000000004,
+            1336.1000000000004,
+            1341.7000000000007,
+            1347.2000000000007,
+            1352.7999999999993,
+            1358.2999999999993,
+            1364,
+            1369.5,
+            1375,
+            1380.5,
+            1386.1000000000004,
+            1391.6000000000004,
+            1397.2000000000007,
+            1402.7999999999993,
+            1408.2999999999993,
+            1413.8999999999996,
+            1419.3999999999996,
+            1425,
+            1430.6000000000004,
+            1436.2999999999993,
+            1441.6000000000004,
+            1447.2999999999993,
+            1452.7999999999993,
+            1458.3999999999996,
+            1463.8999999999996,
+            1469.3999999999996,
+            1475,
+            1480.6000000000004,
+            1486.2000000000007,
+            1491.7000000000007,
+            1497.2000000000007,
+            1502.7999999999993,
+            1508.3999999999996,
+            1513.8999999999996,
+            1519.5,
+            1525,
+            1530.7000000000007,
+            1536.1000000000004,
+            1541.7000000000007,
+            1547.2000000000007,
+            1552.7999999999993,
+            1558.3999999999996,
+            1563.7999999999993,
+            1569.3999999999996,
+            1575,
+            1580.6000000000004,
+            1586.1000000000004,
+            1591.6000000000004,
+            1597.2000000000007,
+            1602.7000000000007,
+            1608.2999999999993,
+            1613.8999999999996,
+            1619.3999999999996,
+            1624.8999999999996,
+            1630.6000000000004,
+            1636.1000000000004,
+            1641.6000000000004,
+            1647.2000000000007,
+            1652.7000000000007,
+            1658.2999999999993,
+            1663.7999999999993,
+            1669.3999999999996,
+            1675,
+            1680.5,
+            1686.1000000000004,
+            1691.7000000000007,
+            1697.2000000000007,
+            1702.7999999999993,
+            1708.3999999999996,
+            1713.8999999999996,
+            1719.2999999999993,
+            1724.8999999999996,
+            1730.5,
+            1736.1000000000004,
+            1741.7000000000007,
+            1747.2000000000007,
+            1752.7999999999993,
+            1758.2999999999993,
+            1763.7999999999993,
+            1769.3999999999996,
+            1775,
+            1780.5,
+            1786.2000000000007,
+            1791.6000000000004,
+            1797.2000000000007,
+            1802.7000000000007,
+            1808.2999999999993,
+            1813.7999999999993,
+            1819.3999999999996,
+            1824.8999999999996,
+            1830.5,
+            1836.1000000000004,
+            1841.6000000000004,
+            1847.2000000000007,
+            1852.7000000000007,
+            1858.2999999999993,
+            1863.7999999999993,
+            1869.3999999999996,
+            1874.8999999999996,
+            1880.5,
+            1886.1000000000004,
+            1891.7000000000007,
+            1897.2000000000007,
+            1902.7000000000007,
+            1908.2000000000007,
+            1913.8999999999996,
+            1919.3999999999996,
+            1925,
+            1930.5,
+            1936.1000000000004,
+            1941.6000000000004,
+            1947.1000000000004,
+            1952.7000000000007,
+            1958.2999999999993,
+            1963.7999999999993,
+            1969.3999999999996,
+            1975,
+            1980.5,
+            1986.1000000000004,
+            1991.6000000000004,
+            1997.1000000000004,
+            2002.7000000000007,
+            2008.2999999999993,
+            2013.7999999999993,
+            2019.3999999999996,
+            2025,
+            2030.5,
+            2036.1000000000004,
+            2041.6000000000004,
+            2047.1000000000004,
+            2052.7000000000007,
+            2058.2000000000007,
+            2063.7999999999993,
+            2069.3999999999996,
+            2074.8999999999996,
+            2080.5,
+            2086.1000000000004,
+            2091.6000000000004,
+            2097.2000000000007,
+            2102.7000000000007,
+            2108.2999999999993,
+            2113.7000000000007,
+            2119.2999999999993,
+            2124.8999999999996,
+            2130.5,
+            2136.1000000000004,
+            2141.6000000000004,
+            2147.2000000000007,
+            2152.6000000000004,
+            2158.2999999999993,
+            2163.8999999999996,
+            2169.3999999999996,
+            2174.8999999999996,
+            2180.3999999999996,
+            2186,
+            2191.5,
+            2197.1000000000004,
+            2202.7000000000007,
+            2208.2000000000007,
+            2213.7999999999993,
+            2219.3999999999996,
+            2224.8999999999996,
+            2230.3999999999996,
+            2236,
+            2241.5,
+            2247.1000000000004,
+            2252.6000000000004,
+            2258.2000000000007,
+            2263.7999999999993,
+            2269.3999999999996,
+            2274.8999999999996,
+            2280.3999999999996,
+            2286,
+            2291.6000000000004,
+            2297.1000000000004,
+            2302.6000000000004,
+            2308.2999999999993,
+            2313.7999999999993,
+            2319.3999999999996,
+            2324.8999999999996,
+            2330.3999999999996,
+            2336,
+            2341.5,
+            2347.1000000000004,
+            2352.7000000000007,
+            2358.1000000000004,
+            2363.7000000000007,
+            2369.2999999999993,
+            2374.8999999999996,
+            2380.3999999999996,
+            2385.8999999999996,
+            2391.5,
+            2397,
+            2402.6000000000004,
+            2408.2000000000007,
+            2413.7000000000007,
+            2419.2999999999993,
+            2424.7999999999993,
+            2430.3999999999996,
+            2436,
+            2441.6000000000004,
+            2447.1000000000004,
+            2452.6000000000004,
+            2458.2999999999993,
+            2463.7999999999993,
+            2469.2999999999993,
+            2474.8999999999996,
+            2480.3999999999996,
+            2486.1000000000004,
+            2491.5,
+            2497.1000000000004,
+            2502.6000000000004,
+            2508.2000000000007,
+            2513.7000000000007,
+            2519.2999999999993,
+            2524.7999999999993,
+            2530.3999999999996,
+            2536,
+            2541.5,
+            2547.1000000000004,
+            2552.6000000000004,
+            2558.2000000000007,
+            2563.8999999999996,
+            2569.2999999999993,
+            2574.8999999999996,
+            2580.5,
+            2586,
+            2591.5,
+            2597.1000000000004,
+            2602.6000000000004,
+            2608.2000000000007,
+            2613.7000000000007,
+            2619.2999999999993,
+            2624.7999999999993,
+            2630.3999999999996,
+            2636,
+            2641.5,
+            2647.1000000000004,
+            2652.7000000000007,
+            2658.2000000000007,
+            2663.7000000000007,
+            2669.2000000000007,
+            2674.8999999999996,
+            2680.3999999999996,
+            2685.8999999999996,
+            2691.5,
+            2697,
+            2702.7000000000007,
+            2708.1000000000004,
+            2713.7000000000007,
+            2719.2999999999993,
+            2724.8999999999996,
+            2730.3999999999996,
+            2735.8999999999996,
+            2741.5,
+            2747,
+            2752.7000000000007,
+            2758.1000000000004,
+            2763.7000000000007,
+            2769.3999999999996,
+            2774.7999999999993,
+            2780.5,
+            2786,
+            2791.5,
+            2797.1000000000004,
+            2802.7000000000007,
+            2808.1000000000004,
+            2813.7000000000007,
+            2819.3999999999996,
+            2824.8999999999996,
+            2830.5,
+            2836,
+            2841.5,
+            2847.1000000000004,
+            2852.6000000000004,
+            2858.2000000000007,
+            2863.7000000000007,
+            2869.2999999999993,
+            2874.8999999999996,
+            2880.3999999999996,
+            2885.8999999999996,
+            2891.6000000000004,
+            2897.1000000000004,
+            2902.6000000000004,
+            2908.2000000000007,
+            2913.7000000000007,
+            2919.2000000000007,
+            2924.7999999999993,
+            2930.3999999999996,
+            2936,
+            2941.3999999999996,
+            2947,
+            2952.6000000000004,
+            2958.2000000000007,
+            2963.7000000000007,
+            2969.2999999999993,
+            2974.8999999999996,
+            2980.2999999999993,
+            2985.8999999999996,
+            2991.3999999999996,
+            2997.1000000000004,
+            3002.6000000000004
+          ],
+          "finalProgress": 0
+        }
+      ],
+      "inputs": {
+        "pointermove": 5,
+        "pointerdown": 4,
+        "pointerup": 4,
+        "click": 4
+      },
+      "sourceAfter": {
+        "scope": "all files declared under run/; excludes generated preview/poster",
+        "fileCount": 24,
+        "run": "run/index.html",
+        "runSha256": "b0128b528c418a34ce9a02bbe925985c23883aa19a9545a61cda704565d41627",
+        "entry": "run/effect.js",
+        "entrySha256": "d3625b9f90765c31bea2c56208af21d9e905bbaeb65e783f2b515da203b6f020",
+        "declaredFilesSha256": "e300ba3bbf7c56f634a595cc04332c0d5e4a2c27c2255c5f3de80c67740b5ba7"
+      },
+      "stagedModified": true,
+      "frames": 385,
+      "distinct": 338,
+      "videoBytes": 666038,
+      "videoSha256": "c9950726b95cac91c1339b578703375f4b23eaf2fc09ae3854eacd8d30d4ecd8",
+      "posterSha256": "54b39363c93fec01769415670a8a4b3acc98f5dd274ef606d54d2a2bc7bfa78b",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_tag_string": "avc1",
+            "width": 656,
+            "height": 400,
+            "pix_fmt": "yuv420p",
+            "level": 31,
+            "color_range": "tv",
+            "r_frame_rate": "60000/1001",
+            "avg_frame_rate": "2310000/39409",
+            "time_base": "1/60000",
+            "duration": "6.568167",
+            "bit_rate": "802558",
+            "nb_frames": "385"
+          }
+        ],
+        "format": {
+          "duration": "6.568167",
+          "size": "666038",
+          "bit_rate": "811231"
+        }
+      },
+      "issues": [],
+      "csp": [],
+      "external": [],
+      "wallDurationMs": 7078
+    },
+    {
+      "id": "curated-webgpu-route",
+      "version": "9b3023082fcdff90",
+      "passed": true,
+      "sourceBefore": {
+        "scope": "all files declared under run/; excludes generated preview/poster",
+        "fileCount": 11,
+        "run": "run/index.html",
+        "runSha256": "c2126c30eced6231b5109c197ead861655767a57b4294efcaed154625c58a27c",
+        "entry": "run/effect.js",
+        "entrySha256": "c44d07e6cd8b2dd47ce8034b69d46a00985120f55246dea75c89201eabb3c3a0",
+        "declaredFilesSha256": "2889ba0d33fb1b81ab8819b3e4588cd0de9bcabbf6afa22fe1531c4634158cb7"
+      },
+      "prewarm": [
+        {
+          "action": "verified_journey_state",
+          "name": "main_ready"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"index\"]",
+          "x": 112.0703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"index\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "index_entered"
+        },
+        {
+          "action": "real_pointer_drag",
+          "from": [
+            700,
+            350
+          ],
+          "to": [
+            508,
+            290
+          ],
+          "steps": 51,
+          "durationMs": 863
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "x": 55.703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"main\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "main_returned"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "[data-page=\"main\"] .slot-2[data-link]",
+          "x": 550,
+          "y": 334.7890625,
+          "proof": {
+            "selector": "[data-page=\"main\"] .slot-2[data-link]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "matching_detail_entered"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "x": 55.703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"main\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "main_cycle_closed"
+        }
+      ],
+      "quality": {
+        "nativeFrames": 352,
+        "encodedFrames": 325,
+        "visibleChanges": 233,
+        "fullContentFPS": 43.0586,
+        "firstWindow": {
+          "startSeconds": 0,
+          "endSeconds": 2.4,
+          "visibleChanges": 110,
+          "contentFPS": 45.833333333333336,
+          "longestHoldSeconds": 0.2163330000000001
+        },
+        "fullWindow": {
+          "startSeconds": 0,
+          "endSeconds": 5.4112,
+          "visibleChanges": 233,
+          "contentFPS": 43.05884092253105,
+          "longestHoldSeconds": 0.43294999999999995
+        },
+        "maxEncodedFrameGapSeconds": 0.0223,
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 1.0652,
+          "pixelsDeltaOver2Fraction": 0.1589,
+          "maxLumaDelta": 21
+        },
+        "continuousRequired": false,
+        "noSyntheticFrameIncrease": true
+      },
+      "native": {
+        "videoSha256": "a201467854e72e3d5b65605a1248bf9ddd2e64a3b7e733e80fd36a21385de0ec",
+        "bytes": 574727,
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "av1",
+              "profile": "Main",
+              "codec_tag_string": "av01",
+              "width": 656,
+              "height": 400,
+              "pix_fmt": "yuv420p",
+              "level": 1,
+              "color_range": "pc",
+              "r_frame_rate": "60000/1001",
+              "avg_frame_rate": "56320/933",
+              "time_base": "1/60000",
+              "duration": "5.833333",
+              "bit_rate": "783175"
+            }
+          ],
+          "format": {
+            "duration": "5.833333",
+            "size": "574727",
+            "bit_rate": "788197"
+          }
+        },
+        "analysis": {
+          "elapsedMs": 366,
+          "decoderThreads": 1,
+          "filterThreads": 1,
+          "sampling": {
+            "width": 164,
+            "height": 100,
+            "pixelFormat": "gray",
+            "scale": "area",
+            "frames": "all decoded frames, original timestamps; no fps filter"
+          },
+          "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+          "visibleChangeRule": {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+          },
+          "decodedFrames": 352,
+          "encodedDurationSeconds": 5.8333,
+          "decodedUniqueLumaFrames": 336,
+          "exactAdjacentDuplicates": 16,
+          "exactAdjacentDuplicateFraction": 0.0456,
+          "visibleChanges": 244,
+          "visibleChangesPerEncodedSecond": 41.8286,
+          "firstVisibleChangeSeconds": 0.0200667,
+          "lastVisibleChangeSeconds": 5.331417,
+          "leadingHoldSeconds": 0.0201,
+          "trailingHoldSeconds": 0.5019,
+          "decodedFrameIntervalSeconds": {
+            "median": 0.0166,
+            "p90": 0.0167,
+            "max": 0.0223
+          },
+          "visibleChangeIntervalSeconds": {
+            "median": 0.0166,
+            "p90": 0.0167,
+            "max": 0.4163
+          },
+          "heldIntervalsAtLeast120ms": [
+            {
+              "start": 1.0527,
+              "end": 1.1859,
+              "seconds": 0.1332
+            },
+            {
+              "start": 2.0514,
+              "end": 2.2345,
+              "seconds": 0.1831
+            },
+            {
+              "start": 4.2654,
+              "end": 4.6817,
+              "seconds": 0.4163
+            },
+            {
+              "start": 5.3314,
+              "end": 5.8333,
+              "seconds": 0.5019
+            }
+          ],
+          "thresholdSensitivity": [
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.05,
+              "changes": 264
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.1,
+              "changes": 229
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.25,
+              "changes": 181
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 0.5,
+              "changes": 157
+            },
+            {
+              "meanAbsoluteLumaDeltaAtLeast": 1,
+              "changes": 133
+            }
+          ],
+          "perSecond": [
+            {
+              "start": 0,
+              "end": 1,
+              "encodedTransitions": 60,
+              "exactDuplicates": 0,
+              "visibleChanges": 55,
+              "maxMeanAbsoluteLumaDelta": 18.9243
+            },
+            {
+              "start": 1,
+              "end": 2,
+              "encodedTransitions": 60,
+              "exactDuplicates": 0,
+              "visibleChanges": 48,
+              "maxMeanAbsoluteLumaDelta": 12.6712
+            },
+            {
+              "start": 2,
+              "end": 3,
+              "encodedTransitions": 61,
+              "exactDuplicates": 0,
+              "visibleChanges": 49,
+              "maxMeanAbsoluteLumaDelta": 16.088
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "encodedTransitions": 60,
+              "exactDuplicates": 0,
+              "visibleChanges": 47,
+              "maxMeanAbsoluteLumaDelta": 4.0056
+            },
+            {
+              "start": 4,
+              "end": 5,
+              "encodedTransitions": 60,
+              "exactDuplicates": 16,
+              "visibleChanges": 25,
+              "maxMeanAbsoluteLumaDelta": 2.0162
+            },
+            {
+              "start": 5,
+              "end": 5.8333,
+              "encodedTransitions": 50,
+              "exactDuplicates": 0,
+              "visibleChanges": 20,
+              "maxMeanAbsoluteLumaDelta": 2.1904
+            }
+          ],
+          "loopBoundary": {
+            "meanAbsoluteLumaDelta": 0.8256,
+            "pixelsDeltaOver2Fraction": 0.1073,
+            "maxLumaDelta": 16
+          }
+        }
+      },
+      "trim": {
+        "startSeconds": 0.0034000333333333334,
+        "endSeconds": 5.411417
+      },
+      "analysis": {
+        "elapsedMs": 349,
+        "decoderThreads": 1,
+        "filterThreads": 1,
+        "sampling": {
+          "width": 164,
+          "height": 100,
+          "pixelFormat": "gray",
+          "scale": "area",
+          "frames": "all decoded frames, original timestamps; no fps filter"
+        },
+        "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+        "visibleChangeRule": {
+          "meanAbsoluteLumaDeltaAtLeast": 0.25,
+          "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+        },
+        "decodedFrames": 325,
+        "encodedDurationSeconds": 5.4112,
+        "decodedUniqueLumaFrames": 317,
+        "exactAdjacentDuplicates": 8,
+        "exactAdjacentDuplicateFraction": 0.0247,
+        "visibleChanges": 233,
+        "visibleChangesPerEncodedSecond": 43.0586,
+        "firstVisibleChangeSeconds": 0.0166333,
+        "lastVisibleChangeSeconds": 5.344633,
+        "leadingHoldSeconds": 0.0166,
+        "trailingHoldSeconds": 0.0666,
+        "decodedFrameIntervalSeconds": {
+          "median": 0.0166,
+          "p90": 0.0167,
+          "max": 0.0223
+        },
+        "visibleChangeIntervalSeconds": {
+          "median": 0.0166,
+          "p90": 0.0167,
+          "max": 0.4329
+        },
+        "heldIntervalsAtLeast120ms": [
+          {
+            "start": 0.8994,
+            "end": 1.0326,
+            "seconds": 0.1332
+          },
+          {
+            "start": 1.0493,
+            "end": 1.1825,
+            "seconds": 0.1332
+          },
+          {
+            "start": 2.0314,
+            "end": 2.2477,
+            "seconds": 0.2163
+          },
+          {
+            "start": 2.9962,
+            "end": 3.279,
+            "seconds": 0.2828
+          },
+          {
+            "start": 4.262,
+            "end": 4.6949,
+            "seconds": 0.4329
+          }
+        ],
+        "thresholdSensitivity": [
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.05,
+            "changes": 272
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.1,
+            "changes": 229
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "changes": 178
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.5,
+            "changes": 156
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 1,
+            "changes": 133
+          }
+        ],
+        "perSecond": [
+          {
+            "start": 0,
+            "end": 1,
+            "encodedTransitions": 60,
+            "exactDuplicates": 0,
+            "visibleChanges": 50,
+            "maxMeanAbsoluteLumaDelta": 18.8824
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "encodedTransitions": 60,
+            "exactDuplicates": 0,
+            "visibleChanges": 49,
+            "maxMeanAbsoluteLumaDelta": 12.6206
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "encodedTransitions": 60,
+            "exactDuplicates": 0,
+            "visibleChanges": 47,
+            "maxMeanAbsoluteLumaDelta": 16.0462
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "encodedTransitions": 60,
+            "exactDuplicates": 0,
+            "visibleChanges": 42,
+            "maxMeanAbsoluteLumaDelta": 3.7674
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "encodedTransitions": 60,
+            "exactDuplicates": 8,
+            "visibleChanges": 24,
+            "maxMeanAbsoluteLumaDelta": 1.9813
+          },
+          {
+            "start": 5,
+            "end": 5.4112,
+            "encodedTransitions": 24,
+            "exactDuplicates": 0,
+            "visibleChanges": 21,
+            "maxMeanAbsoluteLumaDelta": 2.1229
+          }
+        ],
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 1.0652,
+          "pixelsDeltaOver2Fraction": 0.1589,
+          "maxLumaDelta": 21
+        }
+      },
+      "actions": [
+        {
+          "action": "verified_journey_state",
+          "name": "main_ready"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"index\"]",
+          "x": 112.0703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"index\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "index_entered"
+        },
+        {
+          "action": "real_pointer_drag",
+          "from": [
+            700,
+            350
+          ],
+          "to": [
+            508,
+            290
+          ],
+          "steps": 47,
+          "durationMs": 866
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "x": 55.703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"main\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "main_returned"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "[data-page=\"main\"] .slot-2[data-link]",
+          "x": 550,
+          "y": 334.7890625,
+          "proof": {
+            "selector": "[data-page=\"main\"] .slot-2[data-link]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "matching_detail_entered"
+        },
+        {
+          "action": "real_pointer_click",
+          "selector": "#nav [data-nav-key=\"main\"]",
+          "x": 55.703125,
+          "y": 29,
+          "proof": {
+            "selector": "#nav [data-nav-key=\"main\"]",
+            "events": [
+              {
+                "trusted": true,
+                "match": true
+              }
+            ]
+          }
+        },
+        {
+          "action": "verified_journey_state",
+          "name": "main_cycle_closed"
+        }
+      ],
+      "inputs": {
+        "pointermove": 109,
+        "pointerdown": 10,
+        "pointerup": 10,
+        "click": 10
+      },
+      "sourceAfter": {
+        "scope": "all files declared under run/; excludes generated preview/poster",
+        "fileCount": 11,
+        "run": "run/index.html",
+        "runSha256": "c2126c30eced6231b5109c197ead861655767a57b4294efcaed154625c58a27c",
+        "entry": "run/effect.js",
+        "entrySha256": "c44d07e6cd8b2dd47ce8034b69d46a00985120f55246dea75c89201eabb3c3a0",
+        "declaredFilesSha256": "2889ba0d33fb1b81ab8819b3e4588cd0de9bcabbf6afa22fe1531c4634158cb7"
+      },
+      "stagedModified": true,
+      "frames": 325,
+      "distinct": 234,
+      "videoBytes": 511403,
+      "videoSha256": "efc5b15f94a259906d581285dcfdd76a794634e05d931770de467258ad75dae1",
+      "posterSha256": "dab2cf8226732d10fd22848621896bc933271e34c67e4b4fb37ab27274997e68",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "profile": "High",
+            "codec_tag_string": "avc1",
+            "width": 656,
+            "height": 400,
+            "pix_fmt": "yuv420p",
+            "level": 31,
+            "color_range": "tv",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "19500000/324677",
+            "time_base": "1/60000",
+            "duration": "5.411233",
+            "bit_rate": "748537",
+            "nb_frames": "325"
+          }
+        ],
+        "format": {
+          "duration": "5.411233",
+          "size": "511403",
+          "bit_rate": "756061"
+        }
+      },
+      "issues": [],
+      "csp": [],
+      "external": [],
+      "wallDurationMs": 5861
+    }
+  ],
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/154.0.8037.93",
+    "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "jsVersion": "15.4.80.19"
+  },
+  "browserClosed": true,
+  "finishedAt": "2026-10-06T16:44:56.399Z",
+  "sourceScriptUnchanged": true
+}

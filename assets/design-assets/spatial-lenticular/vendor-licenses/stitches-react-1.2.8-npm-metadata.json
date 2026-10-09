@@ -1,0 +1,24 @@
+{
+  "name": "@stitches/react",
+  "version": "1.2.8",
+  "license": "MIT",
+  "gitHead": "c268db3938e2cf6bdbaa3d30f3ce7b67c0492a41",
+  "repository": {
+    "url": "git+https://github.com/modulz/stitches.git",
+    "type": "git"
+  },
+  "dist": {
+    "shasum": "954f8008be8d9c65c4e58efa0937f32388ce3a38",
+    "tarball": "https://registry.npmjs.org/@stitches/react/-/react-1.2.8.tgz",
+    "fileCount": 14,
+    "integrity": "sha512-9g9dWI4gsSVe8bNLlb+lMkBYsnIKCZTmvqvDG+Avnn69XfmHZKiaMrx7cgTaddq7aTPPmXiTsbFcUy0xgI4+wA==",
+    "signatures": [
+      {
+        "sig": "MEYCIQDyOVXhevoG0kmqphP4p286NOURwhti+6xtn6hojdlAjAIhAMG+Iwvub589YVqKy/SyTGNdlSrw17grXuenV2A/enNl",
+        "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+      }
+    ],
+    "unpackedSize": 520806,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiZhkYACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmobqhAApAjF5BLU3OlE6EUljbMpXMlPL+gEpwGM3f8eCG4zHjB+44A6\r\ntHALZulQuEdTQb2m03Qz5jvPskFWGpP6UyVkhgc07a8obmIT12OKgEH9LmDM\r\nagPVym6VUHOlxMkfrWSc8ioT2FG+aNolCbCvE0y0G280Tp2uFh4+nmYy/kch\r\ncJ1tD2Mu9tw6eq/8XDQcy2r8hOAVzdFUrYqzKrcgBpVdz23GBCxYNuMthtj8\r\nXRhA6eAQwqfMbCa9sW/WVG1ggWZMcvOWxJDvNHtBVXtTC5Rnhxcsn4J7cjAR\r\nEttGxsRo47InjUBSUo/clFf1YxvvXXmGvjmCEVDbIn+co5ujLRAspYbUbfcX\r\niSd/hm8Kwk7YIuaJ0yAbD9TVahs5iNVDO8DOdmZs1KguI/lMkrnsddBpWNMy\r\nExCctvNtG7ukjcZ772Tytmg3dwfeVCfw+BEGBvjF2zdL4op0BKqigynw2v6Z\r\nyrPn3VN7eODsuW3vWI/lEtadbV7o4t+kt+yeKusBrcMhekhu17NZ8NPSShB+\r\nXX3KQI9p+SW32Ur4oyfNMiJl3OQ6za4TR2Hh2KOv+5k5dxWYD1gWmbxz1cng\r\nuKFpywD8XJ6XTWHWxTySZuScRlK8SCz6DsftS/8BvyPAt/56bPjo19FAzSGf\r\n9Tn/QW8/DfJPQIXTTSRCrpFWCWafInQfZYo=\r\n=oaJ0\r\n-----END PGP SIGNATURE-----\r\n"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "runtimeEntry": "run/index.html",
+  "readableEntry": "run/effect.js",
+  "variants": [
+    "index4.html",
+    "index5.html",
+    "index6.html",
+    "index10.html",
+    "index8.html",
+    "index7.html",
+    "index9.html",
+    "index.html",
+    "index2.html",
+    "index3.html"
+  ],
+  "nativeInput": "scroll",
+  "configuration": "Edit the original source geometry/timeline values; no invented universal parameter API.",
+  "lifecycle": [
+    "SourceDemo.stop()",
+    "SourceDemo.resume()",
+    "SourceDemo.dispose()",
+    "SourceDemo.inspect()"
+  ],
+  "reducedMotion": "author handling retained plus CSS/lifecycle fallback; browser acceptance not run",
+  "viewport": {
+    "width": 1100,
+    "height": 670
+  },
+  "runtimeVerified": false
+}

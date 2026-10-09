@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-07T09:37:24.208Z",
+  "files": [
+    {
+      "file": ".runtime/curation-workflow/checkpoint.mjs",
+      "sha256": "74166fba38e904302d163e730166e4ce1fa0826607fa039777348d9fefe4b3e0",
+      "bytes": 1113
+    },
+    {
+      "file": ".runtime/curation-workflow/update-ui.mjs",
+      "sha256": "03c4fd0d8ba3f88f394b306d2ddf730345aa317b776f5e3918b0bc054598b31b",
+      "bytes": 5007
+    },
+    {
+      "file": ".runtime/curation-workflow/verify-release.mjs",
+      "sha256": "4d8c0f75fe2b41d798fe655abcbd91a859a999015a779663ada35cd924bcd996",
+      "bytes": 3496
+    },
+    {
+      "file": ".runtime/curation-workflow/finalize.mjs",
+      "sha256": "f10edcb5bbd764b3ccd1d2757999420c34ef13b6734d200d393f27349f2ed365",
+      "bytes": 8702
+    }
+  ]
+}

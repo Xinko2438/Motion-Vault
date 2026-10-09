@@ -1,0 +1,38 @@
+[
+  {
+    "path": "source/js/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/utils.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/smoothscroll.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/webgl/silk.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/webgl/Sheets.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/webgl/ink.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/js/webgl/glsl.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "adapter/rebuild.mjs",
+    "role": "own source bundler, no upstream script execution"
+  },
+  {
+    "path": "run/vault-controls.js",
+    "role": "isolated frame lifecycle only; original input handlers unchanged"
+  }
+]

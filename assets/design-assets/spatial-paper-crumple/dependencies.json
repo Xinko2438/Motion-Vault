@@ -1,0 +1,12 @@
+{
+  "direct": {
+    "three": "0.160.1",
+    "cannon-es": "0.20.0"
+  },
+  "lockFile": "adapter/package-lock.json",
+  "lockSha256": "a84ef6763f2579c7689aefff367eee6c14b63188e60528f1bb864ce6912e758f",
+  "dependencyLifecycleScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "runtimeExecution": "not performed; static bundle/asset validation only",
+  "missingStandaloneLicenseFiles": []
+}

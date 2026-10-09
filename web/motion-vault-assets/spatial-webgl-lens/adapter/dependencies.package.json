@@ -1,0 +1,16 @@
+{
+  "name": "motion-vault-spatial-webgl-lens",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@14islands/lerp": "1.0.3",
+    "@14islands/r3f-scroll-rig": "8.12.3",
+    "@react-spring/three": "9.7.3",
+    "@react-three/drei": "9.86.3",
+    "@react-three/fiber": "8.14.4",
+    "maath": "^0.10.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.157.0"
+  }
+}

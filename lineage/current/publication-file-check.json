@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-09T02:11:58.529Z",
+  "files": [
+    {
+      "path": "web/index.html",
+      "expected": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03",
+      "actual": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03"
+    },
+    {
+      "path": "candidates/curated-originals/index.html",
+      "expected": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+      "actual": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09"
+    },
+    {
+      "path": "web/catalog.json",
+      "expected": "7a8d48a30a4ab4af78bbf0e9cc93dc380f24ebef7d3a4ac6f1400eeb7674e6b0",
+      "actual": "7a8d48a30a4ab4af78bbf0e9cc93dc380f24ebef7d3a4ac6f1400eeb7674e6b0"
+    },
+    {
+      "path": "web/candidate-catalog.json",
+      "expected": "b6e46da7ef98abdd22c5cc7ad568125cb259e7eacf199895d9c657f770bee32b",
+      "actual": "b6e46da7ef98abdd22c5cc7ad568125cb259e7eacf199895d9c657f770bee32b"
+    },
+    {
+      "path": "web/motion-vault-icon.svg",
+      "expected": "7728179db81aa983233ea95420ec7b8c9b7ac6016ee2abd4afa9ed01235da232",
+      "actual": "7728179db81aa983233ea95420ec7b8c9b7ac6016ee2abd4afa9ed01235da232"
+    },
+    {
+      "path": "web/motion-vault-icon.ico",
+      "expected": "5ee7516464abb039cb95e40a80d060b27046e796b2c208f236c9cd2f2873eea1",
+      "actual": "5ee7516464abb039cb95e40a80d060b27046e796b2c208f236c9cd2f2873eea1"
+    }
+  ],
+  "planned": [
+    {
+      "path": "web\\index.html",
+      "hash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03"
+    },
+    {
+      "path": "..\\media-knowledge-hub\\web\\standalone\\index.html",
+      "hash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03"
+    },
+    {
+      "path": "..\\media-knowledge-hub\\web\\public\\assets\\motion-vault.html",
+      "hash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03"
+    },
+    {
+      "path": "..\\media-knowledge-hub\\web\\dist\\assets\\motion-vault.html",
+      "hash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03"
+    }
+  ]
+}

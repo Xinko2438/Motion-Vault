@@ -1,0 +1,151 @@
+{
+  "schema": "motion-vault.preview-playback-cleanup-summary.v1",
+  "at": "2026-10-06T19:02:22.116Z",
+  "applied": true,
+  "exitCode": 0,
+  "scope": ".runtime/preview-playback/",
+  "scriptSha256": "c8a6b112f3f54474d517772622f9c6d0ee0d3bfb806480573bcc0fb081fc66b4",
+  "planSha256": "c0f614c21e1214a69194c790e6bc82957cf72ccd5da07ccc908d85fc7a8b7473",
+  "provenance": "Summary of the actual maintain-current.mjs dry-run and apply stdout; the command checked each target identity before unlinking. This summary does not contain the full per-file removal list.",
+  "plannedFiles": 242,
+  "plannedBytes": 79870364,
+  "plannedDirectories": 84,
+  "removedFiles": 242,
+  "removedBytes": 79870364,
+  "removedDirectories": 84,
+  "groups": {
+    ".runtime/preview-playback/bf0-depth-20261006-one": {
+      "files": 5,
+      "bytes": 569707
+    },
+    ".runtime/preview-playback/cfr-depth-20261006-one": {
+      "files": 6,
+      "bytes": 541037
+    },
+    ".runtime/preview-playback/high444-compat-20261006-one": {
+      "files": 24,
+      "bytes": 7815795
+    },
+    ".runtime/preview-playback/high444-depth-20261006-one": {
+      "files": 5,
+      "bytes": 530348
+    },
+    ".runtime/preview-playback/live-gates-20261006-one": {
+      "files": 8,
+      "bytes": 19088
+    },
+    ".runtime/preview-playback/native-direct-compat-20261006-one": {
+      "files": 23,
+      "bytes": 4896260
+    },
+    ".runtime/preview-playback/native-direct-depth-20261006-one": {
+      "files": 8,
+      "bytes": 980364
+    },
+    ".runtime/preview-playback/native-final-gpu-20261006-one": {
+      "files": 9,
+      "bytes": 5081029
+    },
+    ".runtime/preview-playback/native-independent-20261006-two": {
+      "files": 12,
+      "bytes": 4483731
+    },
+    ".runtime/preview-playback/native-journeys-20261006-one": {
+      "files": 9,
+      "bytes": 3757758
+    },
+    ".runtime/preview-playback/native-refinements-20261006-one": {
+      "files": 9,
+      "bytes": 4200484
+    },
+    ".runtime/preview-playback/native-repairs-20261006-one": {
+      "files": 9,
+      "bytes": 3999982
+    },
+    ".runtime/preview-playback/native-scenes-a-20261006-one": {
+      "files": 15,
+      "bytes": 9104463
+    },
+    ".runtime/preview-playback/native-scenes-b-20261006-one": {
+      "files": 15,
+      "bytes": 6763229
+    },
+    ".runtime/preview-playback/native-scenes-c-20261006-one": {
+      "files": 15,
+      "bytes": 8499189
+    },
+    ".runtime/preview-playback/native-scenes-d-20261006-one": {
+      "files": 18,
+      "bytes": 5181046
+    },
+    ".runtime/preview-playback/native-telescope-20261006-density": {
+      "files": 3,
+      "bytes": 1511664
+    },
+    ".runtime/preview-playback/native-telescope-20261006-first": {
+      "files": 2,
+      "bytes": 1626218
+    },
+    ".runtime/preview-playback/native-telescope-20261006-warm": {
+      "files": 3,
+      "bytes": 1435925
+    },
+    ".runtime/preview-playback/native-vortex-density-20261006-one": {
+      "files": 3,
+      "bytes": 483779
+    },
+    ".runtime/preview-playback/native-vortex-performance-20261006-one": {
+      "files": 3,
+      "bytes": 1201508
+    },
+    ".runtime/preview-playback/rate50-depth-20261006-one": {
+      "files": 7,
+      "bytes": 574914
+    },
+    ".runtime/preview-playback/restore420-20261006-one": {
+      "files": 21,
+      "bytes": 4263742
+    },
+    ".runtime/preview-playback/telescope-native-cdp-100ms.webm": {
+      "files": 1,
+      "bytes": 99010
+    },
+    ".runtime/preview-playback/telescope-native-page-raf-h264.mp4": {
+      "files": 1,
+      "bytes": 920480
+    },
+    ".runtime/preview-playback/telescope-native-page-raf.webm": {
+      "files": 1,
+      "bytes": 739828
+    },
+    ".runtime/preview-playback/vui-depth-20261006-one": {
+      "files": 7,
+      "bytes": 589786
+    }
+  },
+  "captureBatches": 14,
+  "trials": 6,
+  "compatibilityBatches": 2,
+  "restorationBatches": 1,
+  "gateBatches": [
+    {
+      "runId": "live-gates-20261006-one",
+      "state": "completed",
+      "childProcessesClosed": true,
+      "itemCount": 5,
+      "startedAt": "2026-10-06T18:57:57.423Z",
+      "finishedAt": "2026-10-06T19:00:50.541Z",
+      "receipt": {
+        "path": "lineage/current/preview-playback/live-gates-20261006-one.json",
+        "sha256": "2e0efd2c7bcc0776c0109abd09a77f053870340a807694646c8106c772c3f630",
+        "bytes": 7245
+      }
+    }
+  ],
+  "invalidIdentities": [],
+  "pathsOutsideScope": [],
+  "directoriesOutsideScope": [],
+  "blocked": [],
+  "skipped": [],
+  "historicalSinglePageCleanupRerun": false
+}

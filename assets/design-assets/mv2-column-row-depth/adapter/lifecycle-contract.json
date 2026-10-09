@@ -1,0 +1,93 @@
+{
+  "id": "mv2-column-row-depth",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "static-authored-columns-native-scroll-live-preference",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "native-document-scroll-and-authored-variant-links-runtime-unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/scroll-layouts.mjs",
+  "reducedMotionModuleSha256": "bacbe5abcd555bbe85310cf8f76334e0d654a4eaaf5b48cb7b5ea70e3fb7bb5d",
+  "variants": [
+    {
+      "entry": "source/js/index4.js",
+      "output": "run/effect-index4.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index5.js",
+      "output": "run/effect-index5.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index6.js",
+      "output": "run/effect-index6.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index10.js",
+      "output": "run/effect-index10.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index8.js",
+      "output": "run/effect-index8.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index7.js",
+      "output": "run/effect-index7.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index9.js",
+      "output": "run/effect-index9.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index2.js",
+      "output": "run/effect-index2.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/index3.js",
+      "output": "run/effect-index3.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "All 10 variants keep their authored GSAP timelines in normal mode. Reduced mode does not create Lenis, a RAF loop, or ScrollTriggers.",
+    "Reduced CSS exposes every original image at full opacity, removes depth/filter/displacement, contains demo 7’s 140%-wide grid, and reflows the original items into two columns on narrow screens.",
+    "Live preference changes revert only this entry’s GSAP context, release its Lenis and RAF, and rebuild the author effect when motion is enabled again. Host pause defers rebuilding until resume.",
+    "Source and mocked-state checks are not browser visual, real keyboard, wheel, touch, or assistive-technology acceptance."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

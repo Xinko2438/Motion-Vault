@@ -1,0 +1,45 @@
+{
+  "dependencies": [
+    {
+      "file": "run/js/gsap.min.js",
+      "version": "3.15.0",
+      "sha256": "92bb9a96476f983d212a2bc4f54c889039c1696dd4461d40a736860938570fbb",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/ScrollTrigger.min.js",
+      "version": "3.15.0",
+      "sha256": "b0b14d67b55b0c43c756ac0b106cfcb09d0879945f6ead64451065b0672916a2",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/three.module.min.js",
+      "version": "0.186.1",
+      "sha256": "b2447f4f2d97d635f791e929e3f77c6a6af8a798d1561a04340a9348bc217a07",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    },
+    {
+      "file": "run/js/three.core.min.js",
+      "version": "0.186.1",
+      "sha256": "3b346151f65ffdfca3e4c002bd58966b78c423087fb48a873f83200de1bffc48",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    },
+    {
+      "file": "run/js/lenis.min.js",
+      "version": "1.3.23",
+      "sha256": "502144c36ab16005c74288aae9c37f3494d03a80084528e51e8e60dac49fb518",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    }
+  ],
+  "buildTool": {
+    "name": "esbuild",
+    "version": "0.25.10"
+  },
+  "upstreamBuildScriptsExecuted": false,
+  "dependencyLifecycleScriptsExecuted": false
+}

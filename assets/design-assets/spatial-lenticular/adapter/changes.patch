@@ -1,0 +1,155 @@
+--- a/src/App.jsx
++++ b/src/App.jsx
+@@ -1,51 +1,25 @@
+ import { Canvas } from "@react-three/fiber";
+ import { Experience } from "./components/Experience";
+ 
+-import { useState } from "react";
+-import { WebGPURenderer } from "three/webgpu";
++import { useState, useEffect } from "react";
++import { createVaultRenderer, rendererState } from "../../renderer.js";
+ 
+ function App() {
+   const [frameloop, setFrameloop] = useState("never");
++  useEffect(()=>{rendererState.setFrameloop=setFrameloop;return()=>{rendererState.setFrameloop=null;};},[]);
+   return (
+     <>
+       <Canvas
++        dpr={[1,1.5]}
+         shadows
+         camera={{ position: [3, 3, 3], fov: 30 }}
+         frameloop={frameloop}
+-        gl={(canvas) => {
+-          const renderer = new WebGPURenderer({
+-            canvas,
+-            powerPreference: "high-performance",
+-            antialias: true,
+-            alpha: false,
+-            stencil: false,
+-            shadowMap: true,
+-          });
+-          renderer.init().then(() => {
+-            setFrameloop("always");
+-          });
+-          return renderer;
+-        }}
++        gl={createVaultRenderer}
+       >
+         <color attach="background" args={["#333"]} />
+         <Experience />
+       </Canvas>
+-      <a
+-        href="https://wawasensei.dev/courses/react-three-fiber"
+-        style={{
+-          position: "fixed",
+-          top: "0px",
+-          left: "16px",
+-          zIndex: 1000,
+-          dropShadow: "0 0 12px rgba(0,0,0,0.8)",
+-        }}
+-      >
+-        <img
+-          width="92"
+-          src="images/wawasensei-white.png"
+-          alt="Wawa Sensei White Logo"
+-        />
+-      </a>
++
+     </>
+   );
+ }
+--- a/src/components/Experience.jsx
++++ b/src/components/Experience.jsx
+@@ -1,17 +1,19 @@
+-import {
+-  Environment,
+-  OrbitControls,
+-  useTexture,
+-  useVideoTexture,
+-} from "@react-three/drei";
++import { Environment } from '@react-three/drei/core/Environment.js';
++import { OrbitControls } from '@react-three/drei/core/OrbitControls.js';
++import { useTexture } from '@react-three/drei/core/Texture.js';
++import { useEffect, useState } from 'react';
++import { useEnvironment } from '@react-three/drei/core/useEnvironment.js';
++import { lifecycle, assertFirstFrame } from '../../../lifecycle.js';
++import { rendererState, setRenderMode } from '../../../renderer.js';
++import { useThree } from '@react-three/fiber';
+ import { useControls } from "leva";
+ import { LenticularMaterial } from "./LenticularMaterial";
+ 
+ export const Experience = () => {
+   const { textureSet, nbDivisions, height } = useControls({
+     textureSet: {
+-      value: "evil-angel",
+-      options: ["evil-angel", "summer-winter", "mathematics-twerk"],
++      value: "summer-winter",
++      options: ["evil-angel", "summer-winter"],
+     },
+     nbDivisions: {
+       min: 10,
+@@ -29,11 +31,6 @@
+     },
+   });
+ 
+-  const videoA = useVideoTexture("textures/mathematics-twerk/twerk-course.mp4");
+-  const videoB = useVideoTexture(
+-    "textures/mathematics-twerk/mathematics-numbers.mp4"
+-  );
+-
+   const textureEvilAngelA = useTexture("textures/evil-angel/evil.png");
+   const textureEvilAngelB = useTexture("textures/evil-angel/angel.png");
+ 
+@@ -43,19 +40,48 @@
+   const textureA = {
+     ["evil-angel"]: textureEvilAngelA,
+     ["summer-winter"]: textureSummerWinterA,
+-    ["mathematics-twerk"]: videoA,
+   }[textureSet];
+ 
+   const textureB = {
+     ["evil-angel"]: textureEvilAngelB,
+     ["summer-winter"]: textureSummerWinterB,
+-    ["mathematics-twerk"]: videoB,
+   }[textureSet];
+ 
++  const state = useThree();
++  const environment=useEnvironment({files:"./environment/venice_sunset_1k.hdr"});
++  const [reduced,setReduced]=useState(()=>matchMedia('(prefers-reduced-motion: reduce)').matches);
++  useEffect(()=>{
++    const media=matchMedia('(prefers-reduced-motion: reduce)');
++    const onChange=()=>setReduced(media.matches);media.addEventListener('change',onChange);
++    return()=>media.removeEventListener('change',onChange);
++  },[]);
++  useEffect(()=>{
++    let cancelled=false;
++    rendererState.scene=state;
++    (async()=>{
++      const renderer=await rendererState.initialized;
++      if(cancelled||lifecycle.disposed)return;
++      // Child Environment's layout effect has installed the decoded local HDR before this effect.
++      rendererState.compiling=renderer.compileAsync(state.scene,state.camera);
++      await rendererState.compiling;
++      if(cancelled||lifecycle.disposed)return;
++      renderer.render(state.scene,state.camera);assertFirstFrame(renderer);
++      lifecycle.succeed({textures:4,environmentLoaded:true,sceneCompiled:true,firstFrameSubmitted:true});
++      if(lifecycle.running){setRenderMode('demand');state.invalidate();}
++    })().catch(error=>lifecycle.fail(error));
++    return()=>{cancelled=true;};
++  },[state.gl,state.scene,state.camera,environment]);
++  useEffect(()=>()=>{
++    for(const texture of [textureEvilAngelA,textureEvilAngelB,textureSummerWinterA,textureSummerWinterB])texture.dispose();
++    for(const url of ['textures/evil-angel/evil.png','textures/evil-angel/angel.png','textures/summer-winter/summer.png','textures/summer-winter/winter.png'])useTexture.clear(url);
++    environment.dispose();
++    useEnvironment.clear({files:"./environment/venice_sunset_1k.hdr"});
++    rendererState.scene=null;
++  },[]);
+   return (
+     <>
+-      <OrbitControls />
+-      <Environment preset="sunset" />
++      <OrbitControls enableDamping={!reduced} minDistance={1.5} maxDistance={10} />
++      <Environment map={environment} />
+       <mesh>
+         <planeGeometry args={[1, 1, nbDivisions * 2, 1]} />
+         <LenticularMaterial

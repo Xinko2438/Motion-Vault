@@ -1,0 +1,5753 @@
+{
+  "schema": "motion-vault.preview-media-diagnostics.v1",
+  "generatedAt": "2026-10-06T15:58:50.815Z",
+  "root": "web",
+  "catalogSha256": "7d2f559017b859fc242c9833fee23203c2a9135e2ce4cc3b70bf5db3543e5460",
+  "mainHtmlSha256": "d03ec6eb6c7d48a38eb696b494e2e7a756bc95961082f286e617dd08b71797d8",
+  "method": {
+    "metadata": "ffprobe stream/format headers, actual bytes/hash and MP4 top-level boxes for each candidate",
+    "fullDecode": "Only explicitly selected --analyze ids; one decoder/filter thread, reduced grayscale, original timestamps",
+    "mutation": "No source or media mutation; optional explicit guarded evidence output only"
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+    "ffprobe": "ffprobe version 8.1-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+  },
+  "items": [
+    {
+      "id": "curated-telescope",
+      "title": "镜筒式层叠缩放叙事",
+      "video": "motion-vault-assets/curated-telescope/preview.mp4",
+      "videoSha256": "0492bec7218b136e6c058e6ef950fc8a107952dbb5b459b0f21aee23ef1ac23f",
+      "videoBytes": 259902,
+      "version": "5e790586dc35495c",
+      "manifestSha256": "468b0f230634e4d268d92fc762741342c01028a27dd907f6a594bed96e922ae4",
+      "modifiedAt": "2026-10-06T12:14:03.222Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "6.240000",
+        "bit_rate": "329723",
+        "nb_frames": "156"
+      },
+      "format": {
+        "duration": "6.240000",
+        "size": "259902",
+        "bit_rate": "333207"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2670
+          },
+          {
+            "type": "free",
+            "offset": 2702,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 2710,
+            "bytes": 257192
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "5e790586dc35495c",
+        "versionMatches": true,
+        "capturedJpegFrames": 36,
+        "distinctJpegHashes": 36,
+        "recordedVideoBytes": 259902,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 6.24,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      },
+      "decodedAnalysis": {
+        "elapsedMs": 207,
+        "decoderThreads": 1,
+        "filterThreads": 1,
+        "sampling": {
+          "width": 164,
+          "height": 100,
+          "pixelFormat": "gray",
+          "scale": "area",
+          "frames": "all decoded frames, original timestamps; no fps filter"
+        },
+        "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+        "visibleChangeRule": {
+          "meanAbsoluteLumaDeltaAtLeast": 0.25,
+          "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+        },
+        "decodedFrames": 156,
+        "encodedDurationSeconds": 6.24,
+        "decodedUniqueLumaFrames": 124,
+        "exactAdjacentDuplicates": 32,
+        "exactAdjacentDuplicateFraction": 0.2065,
+        "visibleChanges": 35,
+        "visibleChangesPerEncodedSecond": 5.609,
+        "firstVisibleChangeSeconds": 0.48,
+        "lastVisibleChangeSeconds": 5.72,
+        "leadingHoldSeconds": 0.48,
+        "trailingHoldSeconds": 0.52,
+        "decodedFrameIntervalSeconds": {
+          "median": 0.04,
+          "p90": 0.04,
+          "max": 0.04
+        },
+        "visibleChangeIntervalSeconds": {
+          "median": 0.12,
+          "p90": 0.32,
+          "max": 0.48
+        },
+        "heldIntervalsAtLeast120ms": [
+          {
+            "start": 0,
+            "end": 0.48,
+            "seconds": 0.48
+          },
+          {
+            "start": 0.6,
+            "end": 1,
+            "seconds": 0.4
+          },
+          {
+            "start": 1,
+            "end": 1.48,
+            "seconds": 0.48
+          },
+          {
+            "start": 1.76,
+            "end": 1.88,
+            "seconds": 0.12
+          },
+          {
+            "start": 1.88,
+            "end": 2,
+            "seconds": 0.12
+          },
+          {
+            "start": 2,
+            "end": 2.12,
+            "seconds": 0.12
+          },
+          {
+            "start": 2.2,
+            "end": 2.36,
+            "seconds": 0.16
+          },
+          {
+            "start": 2.36,
+            "end": 2.48,
+            "seconds": 0.12
+          },
+          {
+            "start": 2.48,
+            "end": 2.96,
+            "seconds": 0.48
+          },
+          {
+            "start": 2.96,
+            "end": 3.12,
+            "seconds": 0.16
+          },
+          {
+            "start": 3.2,
+            "end": 3.52,
+            "seconds": 0.32
+          },
+          {
+            "start": 3.68,
+            "end": 3.8,
+            "seconds": 0.12
+          },
+          {
+            "start": 3.8,
+            "end": 3.92,
+            "seconds": 0.12
+          },
+          {
+            "start": 3.92,
+            "end": 4.04,
+            "seconds": 0.12
+          },
+          {
+            "start": 4.12,
+            "end": 4.24,
+            "seconds": 0.12
+          },
+          {
+            "start": 4.24,
+            "end": 4.36,
+            "seconds": 0.12
+          },
+          {
+            "start": 4.44,
+            "end": 4.92,
+            "seconds": 0.48
+          },
+          {
+            "start": 4.92,
+            "end": 5.08,
+            "seconds": 0.16
+          },
+          {
+            "start": 5.08,
+            "end": 5.24,
+            "seconds": 0.16
+          },
+          {
+            "start": 5.24,
+            "end": 5.4,
+            "seconds": 0.16
+          },
+          {
+            "start": 5.4,
+            "end": 5.52,
+            "seconds": 0.12
+          },
+          {
+            "start": 5.52,
+            "end": 5.64,
+            "seconds": 0.12
+          },
+          {
+            "start": 5.72,
+            "end": 6.24,
+            "seconds": 0.52
+          }
+        ],
+        "thresholdSensitivity": [
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.05,
+            "changes": 36
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.1,
+            "changes": 35
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "changes": 35
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.5,
+            "changes": 35
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 1,
+            "changes": 35
+          }
+        ],
+        "perSecond": [
+          {
+            "start": 0,
+            "end": 1,
+            "encodedTransitions": 24,
+            "exactDuplicates": 5,
+            "visibleChanges": 3,
+            "maxMeanAbsoluteLumaDelta": 5.3093
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "encodedTransitions": 25,
+            "exactDuplicates": 9,
+            "visibleChanges": 7,
+            "maxMeanAbsoluteLumaDelta": 40.6359
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "encodedTransitions": 25,
+            "exactDuplicates": 1,
+            "visibleChanges": 6,
+            "maxMeanAbsoluteLumaDelta": 12.9845
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "encodedTransitions": 25,
+            "exactDuplicates": 0,
+            "visibleChanges": 7,
+            "maxMeanAbsoluteLumaDelta": 47.2603
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "encodedTransitions": 25,
+            "exactDuplicates": 10,
+            "visibleChanges": 6,
+            "maxMeanAbsoluteLumaDelta": 10.1683
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "encodedTransitions": 25,
+            "exactDuplicates": 2,
+            "visibleChanges": 6,
+            "maxMeanAbsoluteLumaDelta": 27.2859
+          },
+          {
+            "start": 6,
+            "end": 6.24,
+            "encodedTransitions": 6,
+            "exactDuplicates": 5,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0.0099
+          }
+        ],
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 74.5584,
+          "pixelsDeltaOver2Fraction": 0.7087,
+          "maxLumaDelta": 232
+        },
+        "transitions": [
+          {
+            "index": 1,
+            "ptsSeconds": 0.04,
+            "meanAbsoluteLumaDelta": 0.005122,
+            "pixelsDeltaOver2Fraction": 0.000732,
+            "maxLumaDelta": 12,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 2,
+            "ptsSeconds": 0.08,
+            "meanAbsoluteLumaDelta": 0.00372,
+            "pixelsDeltaOver2Fraction": 0.000549,
+            "maxLumaDelta": 6,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 3,
+            "ptsSeconds": 0.12,
+            "meanAbsoluteLumaDelta": 0.002988,
+            "pixelsDeltaOver2Fraction": 0.000244,
+            "maxLumaDelta": 6,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 4,
+            "ptsSeconds": 0.16,
+            "meanAbsoluteLumaDelta": 0.002988,
+            "pixelsDeltaOver2Fraction": 0.000244,
+            "maxLumaDelta": 7,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 5,
+            "ptsSeconds": 0.2,
+            "meanAbsoluteLumaDelta": 0.002134,
+            "pixelsDeltaOver2Fraction": 0.000244,
+            "maxLumaDelta": 7,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 6,
+            "ptsSeconds": 0.24,
+            "meanAbsoluteLumaDelta": 0.001768,
+            "pixelsDeltaOver2Fraction": 0.000244,
+            "maxLumaDelta": 6,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 7,
+            "ptsSeconds": 0.28,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 8,
+            "ptsSeconds": 0.32,
+            "meanAbsoluteLumaDelta": 0.000427,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 9,
+            "ptsSeconds": 0.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 10,
+            "ptsSeconds": 0.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 11,
+            "ptsSeconds": 0.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 12,
+            "ptsSeconds": 0.48,
+            "meanAbsoluteLumaDelta": 2.046341,
+            "pixelsDeltaOver2Fraction": 0.057866,
+            "maxLumaDelta": 161,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 13,
+            "ptsSeconds": 0.52,
+            "meanAbsoluteLumaDelta": 0.000976,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 7,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 14,
+            "ptsSeconds": 0.56,
+            "meanAbsoluteLumaDelta": 4.543049,
+            "pixelsDeltaOver2Fraction": 0.102195,
+            "maxLumaDelta": 218,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 15,
+            "ptsSeconds": 0.6,
+            "meanAbsoluteLumaDelta": 5.309329,
+            "pixelsDeltaOver2Fraction": 0.106402,
+            "maxLumaDelta": 222,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 16,
+            "ptsSeconds": 0.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 17,
+            "ptsSeconds": 0.68,
+            "meanAbsoluteLumaDelta": 0.000366,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 18,
+            "ptsSeconds": 0.72,
+            "meanAbsoluteLumaDelta": 0.000488,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 19,
+            "ptsSeconds": 0.76,
+            "meanAbsoluteLumaDelta": 0.000122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 20,
+            "ptsSeconds": 0.8,
+            "meanAbsoluteLumaDelta": 0.000244,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 21,
+            "ptsSeconds": 0.84,
+            "meanAbsoluteLumaDelta": 0.000122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 22,
+            "ptsSeconds": 0.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 23,
+            "ptsSeconds": 0.92,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 24,
+            "ptsSeconds": 0.96,
+            "meanAbsoluteLumaDelta": 0.000305,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 25,
+            "ptsSeconds": 1,
+            "meanAbsoluteLumaDelta": 40.635854,
+            "pixelsDeltaOver2Fraction": 0.292988,
+            "maxLumaDelta": 252,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 26,
+            "ptsSeconds": 1.04,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 27,
+            "ptsSeconds": 1.08,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 28,
+            "ptsSeconds": 1.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 29,
+            "ptsSeconds": 1.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 30,
+            "ptsSeconds": 1.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 31,
+            "ptsSeconds": 1.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 32,
+            "ptsSeconds": 1.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 33,
+            "ptsSeconds": 1.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 34,
+            "ptsSeconds": 1.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 35,
+            "ptsSeconds": 1.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 36,
+            "ptsSeconds": 1.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 37,
+            "ptsSeconds": 1.48,
+            "meanAbsoluteLumaDelta": 29.306585,
+            "pixelsDeltaOver2Fraction": 0.211341,
+            "maxLumaDelta": 254,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 38,
+            "ptsSeconds": 1.52,
+            "meanAbsoluteLumaDelta": 0.003659,
+            "pixelsDeltaOver2Fraction": 0.00061,
+            "maxLumaDelta": 6,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 39,
+            "ptsSeconds": 1.56,
+            "meanAbsoluteLumaDelta": 3.347561,
+            "pixelsDeltaOver2Fraction": 0.064329,
+            "maxLumaDelta": 213,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 40,
+            "ptsSeconds": 1.6,
+            "meanAbsoluteLumaDelta": 3.249024,
+            "pixelsDeltaOver2Fraction": 0.071829,
+            "maxLumaDelta": 218,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 41,
+            "ptsSeconds": 1.64,
+            "meanAbsoluteLumaDelta": 0.00689,
+            "pixelsDeltaOver2Fraction": 0.000366,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 42,
+            "ptsSeconds": 1.68,
+            "meanAbsoluteLumaDelta": 3.747317,
+            "pixelsDeltaOver2Fraction": 0.082683,
+            "maxLumaDelta": 218,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 43,
+            "ptsSeconds": 1.72,
+            "meanAbsoluteLumaDelta": 0.019695,
+            "pixelsDeltaOver2Fraction": 0.001646,
+            "maxLumaDelta": 5,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 44,
+            "ptsSeconds": 1.76,
+            "meanAbsoluteLumaDelta": 4.54061,
+            "pixelsDeltaOver2Fraction": 0.103232,
+            "maxLumaDelta": 218,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 45,
+            "ptsSeconds": 1.8,
+            "meanAbsoluteLumaDelta": 0.002012,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 46,
+            "ptsSeconds": 1.84,
+            "meanAbsoluteLumaDelta": 0.002866,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 47,
+            "ptsSeconds": 1.88,
+            "meanAbsoluteLumaDelta": 5.161341,
+            "pixelsDeltaOver2Fraction": 0.127561,
+            "maxLumaDelta": 219,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 48,
+            "ptsSeconds": 1.92,
+            "meanAbsoluteLumaDelta": 0.001463,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 49,
+            "ptsSeconds": 1.96,
+            "meanAbsoluteLumaDelta": 0.001646,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 50,
+            "ptsSeconds": 2,
+            "meanAbsoluteLumaDelta": 6.065732,
+            "pixelsDeltaOver2Fraction": 0.143293,
+            "maxLumaDelta": 214,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 51,
+            "ptsSeconds": 2.04,
+            "meanAbsoluteLumaDelta": 0.006037,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 5,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 52,
+            "ptsSeconds": 2.08,
+            "meanAbsoluteLumaDelta": 0.007378,
+            "pixelsDeltaOver2Fraction": 0.000183,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 53,
+            "ptsSeconds": 2.12,
+            "meanAbsoluteLumaDelta": 7.077012,
+            "pixelsDeltaOver2Fraction": 0.170122,
+            "maxLumaDelta": 220,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 54,
+            "ptsSeconds": 2.16,
+            "meanAbsoluteLumaDelta": 0.002439,
+            "pixelsDeltaOver2Fraction": 0.000061,
+            "maxLumaDelta": 6,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 55,
+            "ptsSeconds": 2.2,
+            "meanAbsoluteLumaDelta": 7.673476,
+            "pixelsDeltaOver2Fraction": 0.199939,
+            "maxLumaDelta": 225,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 56,
+            "ptsSeconds": 2.24,
+            "meanAbsoluteLumaDelta": 0.008476,
+            "pixelsDeltaOver2Fraction": 0.000427,
+            "maxLumaDelta": 5,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 57,
+            "ptsSeconds": 2.28,
+            "meanAbsoluteLumaDelta": 0.002988,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 58,
+            "ptsSeconds": 2.32,
+            "meanAbsoluteLumaDelta": 0.001524,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 59,
+            "ptsSeconds": 2.36,
+            "meanAbsoluteLumaDelta": 10.135122,
+            "pixelsDeltaOver2Fraction": 0.240793,
+            "maxLumaDelta": 226,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 60,
+            "ptsSeconds": 2.4,
+            "meanAbsoluteLumaDelta": 0.025366,
+            "pixelsDeltaOver2Fraction": 0.000854,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 61,
+            "ptsSeconds": 2.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 62,
+            "ptsSeconds": 2.48,
+            "meanAbsoluteLumaDelta": 10.4675,
+            "pixelsDeltaOver2Fraction": 0.273902,
+            "maxLumaDelta": 227,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 63,
+            "ptsSeconds": 2.52,
+            "meanAbsoluteLumaDelta": 0.00061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 64,
+            "ptsSeconds": 2.56,
+            "meanAbsoluteLumaDelta": 0.000549,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 65,
+            "ptsSeconds": 2.6,
+            "meanAbsoluteLumaDelta": 0.014939,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 66,
+            "ptsSeconds": 2.64,
+            "meanAbsoluteLumaDelta": 0.008354,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 67,
+            "ptsSeconds": 2.68,
+            "meanAbsoluteLumaDelta": 0.007378,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 68,
+            "ptsSeconds": 2.72,
+            "meanAbsoluteLumaDelta": 0.017317,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 69,
+            "ptsSeconds": 2.76,
+            "meanAbsoluteLumaDelta": 0.0025,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 70,
+            "ptsSeconds": 2.8,
+            "meanAbsoluteLumaDelta": 0.00122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 71,
+            "ptsSeconds": 2.84,
+            "meanAbsoluteLumaDelta": 0.00122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 72,
+            "ptsSeconds": 2.88,
+            "meanAbsoluteLumaDelta": 0.002439,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 73,
+            "ptsSeconds": 2.92,
+            "meanAbsoluteLumaDelta": 0.000244,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 74,
+            "ptsSeconds": 2.96,
+            "meanAbsoluteLumaDelta": 12.984451,
+            "pixelsDeltaOver2Fraction": 0.322317,
+            "maxLumaDelta": 225,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 75,
+            "ptsSeconds": 3,
+            "meanAbsoluteLumaDelta": 0.006159,
+            "pixelsDeltaOver2Fraction": 0.000366,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 76,
+            "ptsSeconds": 3.04,
+            "meanAbsoluteLumaDelta": 0.006463,
+            "pixelsDeltaOver2Fraction": 0.000305,
+            "maxLumaDelta": 5,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 77,
+            "ptsSeconds": 3.08,
+            "meanAbsoluteLumaDelta": 0.000488,
+            "pixelsDeltaOver2Fraction": 0.000061,
+            "maxLumaDelta": 7,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 78,
+            "ptsSeconds": 3.12,
+            "meanAbsoluteLumaDelta": 47.260305,
+            "pixelsDeltaOver2Fraction": 0.592439,
+            "maxLumaDelta": 227,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 79,
+            "ptsSeconds": 3.16,
+            "meanAbsoluteLumaDelta": 0.006646,
+            "pixelsDeltaOver2Fraction": 0.000915,
+            "maxLumaDelta": 8,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 80,
+            "ptsSeconds": 3.2,
+            "meanAbsoluteLumaDelta": 13.220793,
+            "pixelsDeltaOver2Fraction": 0.560061,
+            "maxLumaDelta": 215,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 81,
+            "ptsSeconds": 3.24,
+            "meanAbsoluteLumaDelta": 0.000854,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 82,
+            "ptsSeconds": 3.28,
+            "meanAbsoluteLumaDelta": 0.004451,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 83,
+            "ptsSeconds": 3.32,
+            "meanAbsoluteLumaDelta": 0.006037,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 84,
+            "ptsSeconds": 3.36,
+            "meanAbsoluteLumaDelta": 0.011402,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 85,
+            "ptsSeconds": 3.4,
+            "meanAbsoluteLumaDelta": 0.004451,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 86,
+            "ptsSeconds": 3.44,
+            "meanAbsoluteLumaDelta": 0.004634,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 87,
+            "ptsSeconds": 3.48,
+            "meanAbsoluteLumaDelta": 0.011098,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 88,
+            "ptsSeconds": 3.52,
+            "meanAbsoluteLumaDelta": 16.684939,
+            "pixelsDeltaOver2Fraction": 0.62561,
+            "maxLumaDelta": 228,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 89,
+            "ptsSeconds": 3.56,
+            "meanAbsoluteLumaDelta": 0.004085,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 90,
+            "ptsSeconds": 3.6,
+            "meanAbsoluteLumaDelta": 22.602988,
+            "pixelsDeltaOver2Fraction": 0.711402,
+            "maxLumaDelta": 228,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 91,
+            "ptsSeconds": 3.64,
+            "meanAbsoluteLumaDelta": 0.001402,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 3,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 92,
+            "ptsSeconds": 3.68,
+            "meanAbsoluteLumaDelta": 11.335976,
+            "pixelsDeltaOver2Fraction": 0.664024,
+            "maxLumaDelta": 203,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 93,
+            "ptsSeconds": 3.72,
+            "meanAbsoluteLumaDelta": 0.062988,
+            "pixelsDeltaOver2Fraction": 0.002378,
+            "maxLumaDelta": 6,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 94,
+            "ptsSeconds": 3.76,
+            "meanAbsoluteLumaDelta": 0.000854,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 95,
+            "ptsSeconds": 3.8,
+            "meanAbsoluteLumaDelta": 11.024329,
+            "pixelsDeltaOver2Fraction": 0.677805,
+            "maxLumaDelta": 203,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 96,
+            "ptsSeconds": 3.84,
+            "meanAbsoluteLumaDelta": 0.000183,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 97,
+            "ptsSeconds": 3.88,
+            "meanAbsoluteLumaDelta": 0.000122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 98,
+            "ptsSeconds": 3.92,
+            "meanAbsoluteLumaDelta": 10.534634,
+            "pixelsDeltaOver2Fraction": 0.687561,
+            "maxLumaDelta": 167,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 99,
+            "ptsSeconds": 3.96,
+            "meanAbsoluteLumaDelta": 0.000854,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 100,
+            "ptsSeconds": 4,
+            "meanAbsoluteLumaDelta": 0.00061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 101,
+            "ptsSeconds": 4.04,
+            "meanAbsoluteLumaDelta": 10.168293,
+            "pixelsDeltaOver2Fraction": 0.703049,
+            "maxLumaDelta": 203,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 102,
+            "ptsSeconds": 4.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 103,
+            "ptsSeconds": 4.12,
+            "meanAbsoluteLumaDelta": 8.712439,
+            "pixelsDeltaOver2Fraction": 0.68311,
+            "maxLumaDelta": 201,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 104,
+            "ptsSeconds": 4.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 105,
+            "ptsSeconds": 4.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 106,
+            "ptsSeconds": 4.24,
+            "meanAbsoluteLumaDelta": 8.122378,
+            "pixelsDeltaOver2Fraction": 0.682012,
+            "maxLumaDelta": 189,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 107,
+            "ptsSeconds": 4.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 108,
+            "ptsSeconds": 4.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 109,
+            "ptsSeconds": 4.36,
+            "meanAbsoluteLumaDelta": 7.390244,
+            "pixelsDeltaOver2Fraction": 0.646402,
+            "maxLumaDelta": 165,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 110,
+            "ptsSeconds": 4.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 111,
+            "ptsSeconds": 4.44,
+            "meanAbsoluteLumaDelta": 5.855915,
+            "pixelsDeltaOver2Fraction": 0.622439,
+            "maxLumaDelta": 103,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 112,
+            "ptsSeconds": 4.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 113,
+            "ptsSeconds": 4.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 114,
+            "ptsSeconds": 4.56,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 115,
+            "ptsSeconds": 4.6,
+            "meanAbsoluteLumaDelta": 0.03,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 116,
+            "ptsSeconds": 4.64,
+            "meanAbsoluteLumaDelta": 0.019634,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 117,
+            "ptsSeconds": 4.68,
+            "meanAbsoluteLumaDelta": 0.014268,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 118,
+            "ptsSeconds": 4.72,
+            "meanAbsoluteLumaDelta": 0.03628,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 119,
+            "ptsSeconds": 4.76,
+            "meanAbsoluteLumaDelta": 0.005671,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 120,
+            "ptsSeconds": 4.8,
+            "meanAbsoluteLumaDelta": 0.003902,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 121,
+            "ptsSeconds": 4.84,
+            "meanAbsoluteLumaDelta": 0.003232,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 122,
+            "ptsSeconds": 4.88,
+            "meanAbsoluteLumaDelta": 0.008476,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 123,
+            "ptsSeconds": 4.92,
+            "meanAbsoluteLumaDelta": 8.929085,
+            "pixelsDeltaOver2Fraction": 0.728415,
+            "maxLumaDelta": 147,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 124,
+            "ptsSeconds": 4.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 125,
+            "ptsSeconds": 5,
+            "meanAbsoluteLumaDelta": 0.002805,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 126,
+            "ptsSeconds": 5.04,
+            "meanAbsoluteLumaDelta": 0.003537,
+            "pixelsDeltaOver2Fraction": 0.000244,
+            "maxLumaDelta": 9,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 127,
+            "ptsSeconds": 5.08,
+            "meanAbsoluteLumaDelta": 27.285854,
+            "pixelsDeltaOver2Fraction": 0.901098,
+            "maxLumaDelta": 226,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 128,
+            "ptsSeconds": 5.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 129,
+            "ptsSeconds": 5.16,
+            "meanAbsoluteLumaDelta": 0.000427,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 130,
+            "ptsSeconds": 5.2,
+            "meanAbsoluteLumaDelta": 0.000305,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 131,
+            "ptsSeconds": 5.24,
+            "meanAbsoluteLumaDelta": 11.724451,
+            "pixelsDeltaOver2Fraction": 0.736524,
+            "maxLumaDelta": 195,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 132,
+            "ptsSeconds": 5.28,
+            "meanAbsoluteLumaDelta": 0.000732,
+            "pixelsDeltaOver2Fraction": 0.000061,
+            "maxLumaDelta": 3,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 133,
+            "ptsSeconds": 5.32,
+            "meanAbsoluteLumaDelta": 0.002439,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 134,
+            "ptsSeconds": 5.36,
+            "meanAbsoluteLumaDelta": 0.002012,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 135,
+            "ptsSeconds": 5.4,
+            "meanAbsoluteLumaDelta": 15.655366,
+            "pixelsDeltaOver2Fraction": 0.758171,
+            "maxLumaDelta": 209,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 136,
+            "ptsSeconds": 5.44,
+            "meanAbsoluteLumaDelta": 0.000122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 137,
+            "ptsSeconds": 5.48,
+            "meanAbsoluteLumaDelta": 0.003476,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 138,
+            "ptsSeconds": 5.52,
+            "meanAbsoluteLumaDelta": 22.239268,
+            "pixelsDeltaOver2Fraction": 0.761037,
+            "maxLumaDelta": 229,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 139,
+            "ptsSeconds": 5.56,
+            "meanAbsoluteLumaDelta": 0.00378,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 140,
+            "ptsSeconds": 5.6,
+            "meanAbsoluteLumaDelta": 0.001585,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 141,
+            "ptsSeconds": 5.64,
+            "meanAbsoluteLumaDelta": 14.855976,
+            "pixelsDeltaOver2Fraction": 0.669146,
+            "maxLumaDelta": 225,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 142,
+            "ptsSeconds": 5.68,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 143,
+            "ptsSeconds": 5.72,
+            "meanAbsoluteLumaDelta": 15.1775,
+            "pixelsDeltaOver2Fraction": 0.627866,
+            "maxLumaDelta": 211,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 144,
+            "ptsSeconds": 5.76,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 145,
+            "ptsSeconds": 5.8,
+            "meanAbsoluteLumaDelta": 0.000671,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 146,
+            "ptsSeconds": 5.84,
+            "meanAbsoluteLumaDelta": 0.000244,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 147,
+            "ptsSeconds": 5.88,
+            "meanAbsoluteLumaDelta": 0.008171,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 148,
+            "ptsSeconds": 5.92,
+            "meanAbsoluteLumaDelta": 0.005732,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 149,
+            "ptsSeconds": 5.96,
+            "meanAbsoluteLumaDelta": 0.004085,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 150,
+            "ptsSeconds": 6,
+            "meanAbsoluteLumaDelta": 0.009878,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 151,
+            "ptsSeconds": 6.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 152,
+            "ptsSeconds": 6.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 153,
+            "ptsSeconds": 6.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 154,
+            "ptsSeconds": 6.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 155,
+            "ptsSeconds": 6.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "curated-glass-torus",
+      "title": "玻璃圆环与折射字带",
+      "video": "motion-vault-assets/curated-glass-torus/preview.mp4",
+      "videoSha256": "0c79800c09dc4511db70b017f3b445b5317bbef742a76fa4ce30e3a6509947af",
+      "videoBytes": 122223,
+      "version": "34d07324a3894dd3",
+      "manifestSha256": "2098a045579839f20abdac2cb3ff637b8ee348a1f770d1726f11fca1434b7979",
+      "modifiedAt": "2026-10-06T12:13:49.117Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "9.400000",
+        "bit_rate": "100882",
+        "nb_frames": "235"
+      },
+      "format": {
+        "duration": "9.400000",
+        "size": "122223",
+        "bit_rate": "104019"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3638
+          },
+          {
+            "type": "free",
+            "offset": 3670,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3678,
+            "bytes": 118545
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "34d07324a3894dd3",
+        "versionMatches": true,
+        "capturedJpegFrames": 439,
+        "distinctJpegHashes": 439,
+        "recordedVideoBytes": 122223,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 9.4,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-metal-name",
+      "title": "字形截面的金属空间结构",
+      "video": "motion-vault-assets/curated-metal-name/preview.mp4",
+      "videoSha256": "4eab9011c4e71a017f3317cc887d583c53f18d4c0678241c7cce196555a15ff2",
+      "videoBytes": 230570,
+      "version": "bd731e31ddc9ebc1",
+      "manifestSha256": "3f5a4a41fdf59e9dc312916875f9c54148e8586a3b0bff8736943359253e2b7d",
+      "modifiedAt": "2026-10-06T12:13:50.857Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "11.680000",
+        "bit_rate": "154923",
+        "nb_frames": "292"
+      },
+      "format": {
+        "duration": "11.680000",
+        "size": "230570",
+        "bit_rate": "157924"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4334
+          },
+          {
+            "type": "free",
+            "offset": 4366,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4374,
+            "bytes": 226196
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "bd731e31ddc9ebc1",
+        "versionMatches": true,
+        "capturedJpegFrames": 634,
+        "distinctJpegHashes": 634,
+        "recordedVideoBytes": 230570,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 11.68,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-liquid-grid",
+      "title": "玻璃球面图像陈列",
+      "video": "motion-vault-assets/curated-liquid-grid/preview.mp4",
+      "videoSha256": "801b581b1dacfa4750b3671544d2aa0e726bc162a6bb7492a87241aa0a8ccc2c",
+      "videoBytes": 231914,
+      "version": "c815ebacdb5e56b7",
+      "manifestSha256": "670b2ba432a8d47599db7b5e6393e4195464fab5501fe60ea56b45f0535a2464",
+      "modifiedAt": "2026-10-06T12:13:50.713Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "12.360000",
+        "bit_rate": "147158",
+        "nb_frames": "309"
+      },
+      "format": {
+        "duration": "12.360000",
+        "size": "231914",
+        "bit_rate": "150106"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4506
+          },
+          {
+            "type": "free",
+            "offset": 4538,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4546,
+            "bytes": 227368
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "c815ebacdb5e56b7",
+        "versionMatches": true,
+        "capturedJpegFrames": 650,
+        "distinctJpegHashes": 650,
+        "recordedVideoBytes": 231914,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 12.36,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-depth",
+      "title": "同一物体的形态、材质与光照叙事",
+      "video": "motion-vault-assets/curated-depth/preview.mp4",
+      "videoSha256": "c7b01fdf1a21f7f7d57a24297be1c968087758d0056e932edc19c32b471e4c42",
+      "videoBytes": 117238,
+      "version": "1f33dcbef8594b4d",
+      "manifestSha256": "87c75d55a6dbdcc235b00a3a77d933aaefdb3802dcffe0d2b0a252d94a0f8ef7",
+      "modifiedAt": "2026-10-06T12:13:39.325Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "10.920000",
+        "bit_rate": "82857",
+        "nb_frames": "273"
+      },
+      "format": {
+        "duration": "10.920000",
+        "size": "117238",
+        "bit_rate": "85888"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4090
+          },
+          {
+            "type": "free",
+            "offset": 4122,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4130,
+            "bytes": 113108
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "1f33dcbef8594b4d",
+        "versionMatches": true,
+        "capturedJpegFrames": 650,
+        "distinctJpegHashes": 650,
+        "recordedVideoBytes": 117238,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 10.92,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-spatial-product",
+      "title": "曲面产品墙与聚焦选型",
+      "video": "motion-vault-assets/curated-spatial-product/preview.mp4",
+      "videoSha256": "b13aac737b4452bb6096e19be1d6d7746c7d735435c546e758edabf4d40a3582",
+      "videoBytes": 181238,
+      "version": "29f76553ecba4e43",
+      "manifestSha256": "d3889f2f02972bd84933fbda91b559f1bd0af32b86bc02fc7a02a9e629eb785e",
+      "modifiedAt": "2026-10-06T12:13:53.856Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "10.960000",
+        "bit_rate": "129255",
+        "nb_frames": "274"
+      },
+      "format": {
+        "duration": "10.960000",
+        "size": "181238",
+        "bit_rate": "132290"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4110
+          },
+          {
+            "type": "free",
+            "offset": 4142,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4150,
+            "bytes": 177088
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "29f76553ecba4e43",
+        "versionMatches": true,
+        "capturedJpegFrames": 650,
+        "distinctJpegHashes": 650,
+        "recordedVideoBytes": 181238,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 10.96,
+        "actions": [
+          {
+            "action": "real_canvas_click"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-fluid-xray",
+      "title": "实体与透视结构的流体显露",
+      "video": "motion-vault-assets/curated-fluid-xray/preview.mp4",
+      "videoSha256": "5a08f0f42cbb55d1e0c6b928682f780ccf14f1fcbdb4b3e23897cd312df25bec",
+      "videoBytes": 176769,
+      "version": "32120f3862e59169",
+      "manifestSha256": "b0e0941b23e5663944a74268c8a58efa90d2a2b672c4f56d0dabdf8ae7cb937f",
+      "modifiedAt": "2026-10-06T12:13:48.095Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "7.560000",
+        "bit_rate": "183740",
+        "nb_frames": "189"
+      },
+      "format": {
+        "duration": "7.560000",
+        "size": "176769",
+        "bit_rate": "187057"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3086
+          },
+          {
+            "type": "free",
+            "offset": 3118,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3126,
+            "bytes": 173643
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "32120f3862e59169",
+        "versionMatches": true,
+        "capturedJpegFrames": 254,
+        "distinctJpegHashes": 254,
+        "recordedVideoBytes": 176769,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 7.56,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-camera-route",
+      "title": "沿场景路线推进的镜头叙事",
+      "video": "motion-vault-assets/curated-camera-route/preview.mp4",
+      "videoSha256": "2865d9e6bb2a760530194eb2f6c49b2145e2fa2568459b87894e4dd7739b6f3a",
+      "videoBytes": 1032601,
+      "version": "c13b04d58ff390e8",
+      "manifestSha256": "5e66b007660be88f4dbeecd143e34252970580ac27d12675fb945f021ee79288",
+      "modifiedAt": "2026-10-06T12:13:38.112Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "10.560000",
+        "bit_rate": "779738",
+        "nb_frames": "264"
+      },
+      "format": {
+        "duration": "10.560000",
+        "size": "1032601",
+        "bit_rate": "782273"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3298
+          },
+          {
+            "type": "free",
+            "offset": 3330,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3338,
+            "bytes": 1029263
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "c13b04d58ff390e8",
+        "versionMatches": true,
+        "capturedJpegFrames": 504,
+        "distinctJpegHashes": 460,
+        "recordedVideoBytes": 1032601,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 10.56,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-cloth-object",
+      "title": "柔性实体落下与压缩回弹",
+      "video": "motion-vault-assets/curated-cloth-object/preview.mp4",
+      "videoSha256": "7e5c2aa3142bf326c6ba4f5adcb2f35689c304a9e47e0893a8ee63db2b05a9f0",
+      "videoBytes": 66392,
+      "version": "d6fa10001d30108c",
+      "manifestSha256": "928898ef435b30d7938f030e6a542ada778bad83150458296c00e55d5342e66e",
+      "modifiedAt": "2026-10-06T12:13:38.391Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "8.240000",
+        "bit_rate": "61240",
+        "nb_frames": "206"
+      },
+      "format": {
+        "duration": "8.240000",
+        "size": "66392",
+        "bit_rate": "64458"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3266
+          },
+          {
+            "type": "free",
+            "offset": 3298,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3306,
+            "bytes": 63086
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "d6fa10001d30108c",
+        "versionMatches": true,
+        "capturedJpegFrames": 354,
+        "distinctJpegHashes": 326,
+        "recordedVideoBytes": 66392,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 8.24,
+        "actions": [
+          {
+            "action": "real_canvas_click"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-emissive-dissolve",
+      "title": "带发光边缘的实体溶解",
+      "video": "motion-vault-assets/curated-emissive-dissolve/preview.mp4",
+      "videoSha256": "7c1784e42cca3065c8d854f61a4b9edbae7841f080292f29fae7299f4c0aba8c",
+      "videoBytes": 396436,
+      "version": "2bc09bcef2eb8770",
+      "manifestSha256": "2df9d33edb73d6bdddc07371e7dfd948dfbe269a4e3a059b16bc7209edad8a4b",
+      "modifiedAt": "2026-10-06T12:13:47.407Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "8.040000",
+        "bit_rate": "391201",
+        "nb_frames": "201"
+      },
+      "format": {
+        "duration": "8.040000",
+        "size": "396436",
+        "bit_rate": "394463"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3230
+          },
+          {
+            "type": "free",
+            "offset": 3262,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3270,
+            "bytes": 393166
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "2bc09bcef2eb8770",
+        "versionMatches": true,
+        "capturedJpegFrames": 291,
+        "distinctJpegHashes": 291,
+        "recordedVideoBytes": 396436,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 8.04,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-dual-wave",
+      "title": "双向文字波的滚动编排",
+      "video": "motion-vault-assets/curated-dual-wave/preview.mp4",
+      "videoSha256": "19de4d6b6d086d9533ba8876d6e78392473171c38f2dd723571601f6d681796b",
+      "videoBytes": 589371,
+      "version": "d2b499f36a6c4f0c",
+      "manifestSha256": "596f474cdcdfe0301adec0f8cc51ac6ac3e457215b4595a4beabf6a8b09308f5",
+      "modifiedAt": "2026-10-06T12:13:40.524Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "8.600000",
+        "bit_rate": "545124",
+        "nb_frames": "215"
+      },
+      "format": {
+        "duration": "8.600000",
+        "size": "589371",
+        "bit_rate": "548252"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3314
+          },
+          {
+            "type": "free",
+            "offset": 3346,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3354,
+            "bytes": 586017
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "d2b499f36a6c4f0c",
+        "versionMatches": true,
+        "capturedJpegFrames": 275,
+        "distinctJpegHashes": 271,
+        "recordedVideoBytes": 589371,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 8.6,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-image-in-type",
+      "title": "文字之间展开的图像叙事",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4",
+      "videoSha256": "55071d13c02b48e2906bab2c0fba4fe027e77b20e61ed267c3599aaa0244af58",
+      "videoBytes": 539272,
+      "version": "ce1e54030c2531a7",
+      "manifestSha256": "ffe5f93392e12fafc6af62e73eb253be22f10eac40a739051b3dcb77da14ba85",
+      "modifiedAt": "2026-10-06T12:13:50.142Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "7.240000",
+        "bit_rate": "592598",
+        "nb_frames": "181"
+      },
+      "format": {
+        "duration": "7.240000",
+        "size": "539272",
+        "bit_rate": "595880"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2922
+          },
+          {
+            "type": "free",
+            "offset": 2954,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 2962,
+            "bytes": 536310
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "ce1e54030c2531a7",
+        "versionMatches": true,
+        "capturedJpegFrames": 54,
+        "distinctJpegHashes": 54,
+        "recordedVideoBytes": 539272,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 7.24,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-cylinder-type",
+      "title": "柱面排字与三维阅读节奏",
+      "video": "motion-vault-assets/curated-cylinder-type/preview.mp4",
+      "videoSha256": "ae661eacff6aab9eb7cc97bff763bf3c7753c5353dd90d84e4e59b25db6fa562",
+      "videoBytes": 881315,
+      "version": "b5b3f948e71c4896",
+      "manifestSha256": "f28412978202ebc61cbd1b782ac80f8ca8466710226518d6832bb8356a1f7272",
+      "modifiedAt": "2026-10-06T12:13:39.086Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "10.520000",
+        "bit_rate": "667401",
+        "nb_frames": "263"
+      },
+      "format": {
+        "duration": "10.520000",
+        "size": "881315",
+        "bit_rate": "670201"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3634
+          },
+          {
+            "type": "free",
+            "offset": 3666,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3674,
+            "bytes": 877641
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "b5b3f948e71c4896",
+        "versionMatches": true,
+        "capturedJpegFrames": 516,
+        "distinctJpegHashes": 514,
+        "recordedVideoBytes": 881315,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 10.52,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-stylized-water",
+      "title": "风格化水面与场景光感",
+      "video": "motion-vault-assets/curated-stylized-water/preview.mp4",
+      "videoSha256": "fdc3afe5b3810273faacd130871d1ec09423884e2e67b11a78dadfca43010a1b",
+      "videoBytes": 698773,
+      "version": "95b6aed8a71b31d1",
+      "manifestSha256": "c15c6fd2f23ac137e0c4b3f69bf642223059b56847423a916f34014475c8332b",
+      "modifiedAt": "2026-10-06T12:14:01.690Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "11.040000",
+        "bit_rate": "503361",
+        "nb_frames": "276"
+      },
+      "format": {
+        "duration": "11.040000",
+        "size": "698773",
+        "bit_rate": "506357"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4086
+          },
+          {
+            "type": "free",
+            "offset": 4118,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4126,
+            "bytes": 694647
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "95b6aed8a71b31d1",
+        "versionMatches": true,
+        "capturedJpegFrames": 592,
+        "distinctJpegHashes": 592,
+        "recordedVideoBytes": 698773,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 11.04,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-shape-ascii",
+      "title": "沿真实轮廓选字的 ASCII 实体",
+      "video": "motion-vault-assets/curated-shape-ascii/preview.mp4",
+      "videoSha256": "cfbb7ea031b585008be5a3d98428ed2bd0e599d6bd04ee8e0b71fa9bf8ececd3",
+      "videoBytes": 148644,
+      "version": "051454d34b6f999c",
+      "manifestSha256": "7d590e2a78c53740856c1ea699b92d2b40942192dec499294910cfd9545d8309",
+      "modifiedAt": "2026-10-06T12:13:53.597Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "8.040000",
+        "bit_rate": "144626",
+        "nb_frames": "201"
+      },
+      "format": {
+        "duration": "8.040000",
+        "size": "148644",
+        "bit_rate": "147904"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3246
+          },
+          {
+            "type": "free",
+            "offset": 3278,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3286,
+            "bytes": 145358
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "051454d34b6f999c",
+        "versionMatches": true,
+        "capturedJpegFrames": 321,
+        "distinctJpegHashes": 321,
+        "recordedVideoBytes": 148644,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 8.04,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "title": "反应扩散的生长型材质",
+      "video": "motion-vault-assets/curated-reaction-diffusion/preview.mp4",
+      "videoSha256": "d36dd2197b1aae64979139022c4c5bd40e3a68dff8988c7bdff4201c38de57d4",
+      "videoBytes": 1243400,
+      "version": "2e1abf071b3aa30b",
+      "manifestSha256": "8af37a6e16a2d12292c70d6247f52c5a8e4105f08a1fa9b1b08977e9a056fa5a",
+      "modifiedAt": "2026-10-06T12:13:53.225Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "11.280000",
+        "bit_rate": "878900",
+        "nb_frames": "282"
+      },
+      "format": {
+        "duration": "11.280000",
+        "size": "1243400",
+        "bit_rate": "881843"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4102
+          },
+          {
+            "type": "free",
+            "offset": 4134,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4142,
+            "bytes": 1239258
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "2e1abf071b3aa30b",
+        "versionMatches": true,
+        "capturedJpegFrames": 622,
+        "distinctJpegHashes": 622,
+        "recordedVideoBytes": 1243400,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 11.28,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-vortex-glass",
+      "title": "玻璃球中的体积漩涡",
+      "video": "motion-vault-assets/curated-vortex-glass/preview.mp4",
+      "videoSha256": "2ad288284a0763f689492412a9eebd9407fc34503cfc6e0ba767b31731715935",
+      "videoBytes": 241182,
+      "version": "d5c74e6bd34a1883",
+      "manifestSha256": "93c901fa5da0da4711a076d198b99335e588000df8e38cb249ca31649bf0bd02",
+      "modifiedAt": "2026-10-06T12:14:05.936Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "7.040000",
+        "bit_rate": "270704",
+        "nb_frames": "176"
+      },
+      "format": {
+        "duration": "7.040000",
+        "size": "241182",
+        "bit_rate": "274070"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2914
+          },
+          {
+            "type": "free",
+            "offset": 2946,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 2954,
+            "bytes": 238228
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "d5c74e6bd34a1883",
+        "versionMatches": true,
+        "capturedJpegFrames": 78,
+        "distinctJpegHashes": 78,
+        "recordedVideoBytes": 241182,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 7.04,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-webgl-reveal",
+      "title": "滚动中连续显露的 WebGL 图像",
+      "video": "motion-vault-assets/curated-webgl-reveal/preview.mp4",
+      "videoSha256": "0b614b2073e853b294194551384cb153e94f2cf4f84b0fed63e767b5def0277c",
+      "videoBytes": 214696,
+      "version": "3cffea68504ddd1a",
+      "manifestSha256": "488f4cd9ce82d9079378932a79597e6378a476cd9628d73275b37850521075c0",
+      "modifiedAt": "2026-10-06T12:14:06.949Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "11.320000",
+        "bit_rate": "148821",
+        "nb_frames": "283"
+      },
+      "format": {
+        "duration": "11.320000",
+        "size": "214696",
+        "bit_rate": "151728"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4066
+          },
+          {
+            "type": "free",
+            "offset": 4098,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4106,
+            "bytes": 210590
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "3cffea68504ddd1a",
+        "versionMatches": true,
+        "capturedJpegFrames": 618,
+        "distinctJpegHashes": 616,
+        "recordedVideoBytes": 214696,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 11.32,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "title": "滚动显露与跨页连续的作品集",
+      "video": "motion-vault-assets/curated-persistent-gallery/preview.mp4",
+      "videoSha256": "1a632d57d4b07c5e4f44a8b54eb418fb557704a4df519c9b0ca70c87192e21c5",
+      "videoBytes": 85926,
+      "version": "54ff3fdc942fa76d",
+      "manifestSha256": "1f19130dd0a83ddd6bdfb2316a01e58217e79e28782c25304a5b079579efccde",
+      "modifiedAt": "2026-10-06T12:13:50.992Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "7.440000",
+        "bit_rate": "89040",
+        "nb_frames": "186"
+      },
+      "format": {
+        "duration": "7.440000",
+        "size": "85926",
+        "bit_rate": "92393"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3070
+          },
+          {
+            "type": "free",
+            "offset": 3102,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3110,
+            "bytes": 82816
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "54ff3fdc942fa76d",
+        "versionMatches": true,
+        "capturedJpegFrames": 106,
+        "distinctJpegHashes": 14,
+        "recordedVideoBytes": 85926,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 7.44,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": "a[href=\"./1.html\"]"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      },
+      "decodedAnalysis": {
+        "elapsedMs": 135,
+        "decoderThreads": 1,
+        "filterThreads": 1,
+        "sampling": {
+          "width": 164,
+          "height": 100,
+          "pixelFormat": "gray",
+          "scale": "area",
+          "frames": "all decoded frames, original timestamps; no fps filter"
+        },
+        "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+        "visibleChangeRule": {
+          "meanAbsoluteLumaDeltaAtLeast": 0.25,
+          "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+        },
+        "decodedFrames": 186,
+        "encodedDurationSeconds": 7.44,
+        "decodedUniqueLumaFrames": 39,
+        "exactAdjacentDuplicates": 147,
+        "exactAdjacentDuplicateFraction": 0.7946,
+        "visibleChanges": 3,
+        "visibleChangesPerEncodedSecond": 0.4032,
+        "firstVisibleChangeSeconds": 1.76,
+        "lastVisibleChangeSeconds": 2.68,
+        "leadingHoldSeconds": 1.76,
+        "trailingHoldSeconds": 4.76,
+        "decodedFrameIntervalSeconds": {
+          "median": 0.04,
+          "p90": 0.04,
+          "max": 0.04
+        },
+        "visibleChangeIntervalSeconds": {
+          "median": 0.04,
+          "p90": 0.04,
+          "max": 0.88
+        },
+        "heldIntervalsAtLeast120ms": [
+          {
+            "start": 0,
+            "end": 1.76,
+            "seconds": 1.76
+          },
+          {
+            "start": 1.8,
+            "end": 2.68,
+            "seconds": 0.88
+          },
+          {
+            "start": 2.68,
+            "end": 7.44,
+            "seconds": 4.76
+          }
+        ],
+        "thresholdSensitivity": [
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.05,
+            "changes": 10
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.1,
+            "changes": 7
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.25,
+            "changes": 3
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 0.5,
+            "changes": 1
+          },
+          {
+            "meanAbsoluteLumaDeltaAtLeast": 1,
+            "changes": 1
+          }
+        ],
+        "perSecond": [
+          {
+            "start": 0,
+            "end": 1,
+            "encodedTransitions": 24,
+            "exactDuplicates": 20,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0.0003
+          },
+          {
+            "start": 1,
+            "end": 2,
+            "encodedTransitions": 25,
+            "exactDuplicates": 1,
+            "visibleChanges": 2,
+            "maxMeanAbsoluteLumaDelta": 0.4898
+          },
+          {
+            "start": 2,
+            "end": 3,
+            "encodedTransitions": 25,
+            "exactDuplicates": 15,
+            "visibleChanges": 1,
+            "maxMeanAbsoluteLumaDelta": 97.9101
+          },
+          {
+            "start": 3,
+            "end": 4,
+            "encodedTransitions": 25,
+            "exactDuplicates": 25,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0
+          },
+          {
+            "start": 4,
+            "end": 5,
+            "encodedTransitions": 25,
+            "exactDuplicates": 25,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "encodedTransitions": 25,
+            "exactDuplicates": 25,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0
+          },
+          {
+            "start": 6,
+            "end": 7,
+            "encodedTransitions": 25,
+            "exactDuplicates": 25,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0
+          },
+          {
+            "start": 7,
+            "end": 7.44,
+            "encodedTransitions": 11,
+            "exactDuplicates": 11,
+            "visibleChanges": 0,
+            "maxMeanAbsoluteLumaDelta": 0
+          }
+        ],
+        "loopBoundary": {
+          "meanAbsoluteLumaDelta": 98.4265,
+          "pixelsDeltaOver2Fraction": 0.8815,
+          "maxLumaDelta": 222
+        },
+        "transitions": [
+          {
+            "index": 1,
+            "ptsSeconds": 0.04,
+            "meanAbsoluteLumaDelta": 0.000122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 2,
+            "ptsSeconds": 0.08,
+            "meanAbsoluteLumaDelta": 0.000122,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 3,
+            "ptsSeconds": 0.12,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 4,
+            "ptsSeconds": 0.16,
+            "meanAbsoluteLumaDelta": 0.000305,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 5,
+            "ptsSeconds": 0.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 6,
+            "ptsSeconds": 0.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 7,
+            "ptsSeconds": 0.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 8,
+            "ptsSeconds": 0.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 9,
+            "ptsSeconds": 0.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 10,
+            "ptsSeconds": 0.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 11,
+            "ptsSeconds": 0.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 12,
+            "ptsSeconds": 0.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 13,
+            "ptsSeconds": 0.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 14,
+            "ptsSeconds": 0.56,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 15,
+            "ptsSeconds": 0.6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 16,
+            "ptsSeconds": 0.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 17,
+            "ptsSeconds": 0.68,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 18,
+            "ptsSeconds": 0.72,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 19,
+            "ptsSeconds": 0.76,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 20,
+            "ptsSeconds": 0.8,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 21,
+            "ptsSeconds": 0.84,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 22,
+            "ptsSeconds": 0.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 23,
+            "ptsSeconds": 0.92,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 24,
+            "ptsSeconds": 0.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 25,
+            "ptsSeconds": 1,
+            "meanAbsoluteLumaDelta": 0.050244,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 3,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 26,
+            "ptsSeconds": 1.04,
+            "meanAbsoluteLumaDelta": 0.037744,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 3,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 27,
+            "ptsSeconds": 1.08,
+            "meanAbsoluteLumaDelta": 0.134024,
+            "pixelsDeltaOver2Fraction": 0.0025,
+            "maxLumaDelta": 104,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 28,
+            "ptsSeconds": 1.12,
+            "meanAbsoluteLumaDelta": 0.053476,
+            "pixelsDeltaOver2Fraction": 0.000122,
+            "maxLumaDelta": 3,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 29,
+            "ptsSeconds": 1.16,
+            "meanAbsoluteLumaDelta": 0.006098,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 30,
+            "ptsSeconds": 1.2,
+            "meanAbsoluteLumaDelta": 0.003415,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 31,
+            "ptsSeconds": 1.24,
+            "meanAbsoluteLumaDelta": 0.004085,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 32,
+            "ptsSeconds": 1.28,
+            "meanAbsoluteLumaDelta": 0.00622,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 2,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 33,
+            "ptsSeconds": 1.32,
+            "meanAbsoluteLumaDelta": 0.001524,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 34,
+            "ptsSeconds": 1.36,
+            "meanAbsoluteLumaDelta": 0.001402,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 35,
+            "ptsSeconds": 1.4,
+            "meanAbsoluteLumaDelta": 0.000976,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 36,
+            "ptsSeconds": 1.44,
+            "meanAbsoluteLumaDelta": 0.001585,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 37,
+            "ptsSeconds": 1.48,
+            "meanAbsoluteLumaDelta": 0.001037,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 38,
+            "ptsSeconds": 1.52,
+            "meanAbsoluteLumaDelta": 0.000976,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 39,
+            "ptsSeconds": 1.56,
+            "meanAbsoluteLumaDelta": 0.00061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 40,
+            "ptsSeconds": 1.6,
+            "meanAbsoluteLumaDelta": 0.001341,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 41,
+            "ptsSeconds": 1.64,
+            "meanAbsoluteLumaDelta": 0.24,
+            "pixelsDeltaOver2Fraction": 0.00311,
+            "maxLumaDelta": 169,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 42,
+            "ptsSeconds": 1.68,
+            "meanAbsoluteLumaDelta": 0.190793,
+            "pixelsDeltaOver2Fraction": 0.004817,
+            "maxLumaDelta": 157,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 43,
+            "ptsSeconds": 1.72,
+            "meanAbsoluteLumaDelta": 0.118415,
+            "pixelsDeltaOver2Fraction": 0.002988,
+            "maxLumaDelta": 173,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 44,
+            "ptsSeconds": 1.76,
+            "meanAbsoluteLumaDelta": 0.489756,
+            "pixelsDeltaOver2Fraction": 0.007378,
+            "maxLumaDelta": 159,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 45,
+            "ptsSeconds": 1.8,
+            "meanAbsoluteLumaDelta": 0.252012,
+            "pixelsDeltaOver2Fraction": 0.005305,
+            "maxLumaDelta": 149,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 46,
+            "ptsSeconds": 1.84,
+            "meanAbsoluteLumaDelta": 0.002134,
+            "pixelsDeltaOver2Fraction": 0.000366,
+            "maxLumaDelta": 4,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 47,
+            "ptsSeconds": 1.88,
+            "meanAbsoluteLumaDelta": 0.000915,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 48,
+            "ptsSeconds": 1.92,
+            "meanAbsoluteLumaDelta": 0.000671,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 49,
+            "ptsSeconds": 1.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 50,
+            "ptsSeconds": 2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 51,
+            "ptsSeconds": 2.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 52,
+            "ptsSeconds": 2.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 53,
+            "ptsSeconds": 2.12,
+            "meanAbsoluteLumaDelta": 0.004878,
+            "pixelsDeltaOver2Fraction": 0.00061,
+            "maxLumaDelta": 7,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 54,
+            "ptsSeconds": 2.16,
+            "meanAbsoluteLumaDelta": 0.085732,
+            "pixelsDeltaOver2Fraction": 0.002805,
+            "maxLumaDelta": 139,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 55,
+            "ptsSeconds": 2.2,
+            "meanAbsoluteLumaDelta": 0.003963,
+            "pixelsDeltaOver2Fraction": 0.000427,
+            "maxLumaDelta": 11,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 56,
+            "ptsSeconds": 2.24,
+            "meanAbsoluteLumaDelta": 0.012134,
+            "pixelsDeltaOver2Fraction": 0.001402,
+            "maxLumaDelta": 21,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 57,
+            "ptsSeconds": 2.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 58,
+            "ptsSeconds": 2.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 59,
+            "ptsSeconds": 2.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 60,
+            "ptsSeconds": 2.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 61,
+            "ptsSeconds": 2.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 62,
+            "ptsSeconds": 2.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 63,
+            "ptsSeconds": 2.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 64,
+            "ptsSeconds": 2.56,
+            "meanAbsoluteLumaDelta": 0.000244,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 65,
+            "ptsSeconds": 2.6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 66,
+            "ptsSeconds": 2.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 67,
+            "ptsSeconds": 2.68,
+            "meanAbsoluteLumaDelta": 97.910061,
+            "pixelsDeltaOver2Fraction": 0.881524,
+            "maxLumaDelta": 222,
+            "exactDuplicate": false,
+            "visibleChange": true
+          },
+          {
+            "index": 68,
+            "ptsSeconds": 2.72,
+            "meanAbsoluteLumaDelta": 0.000183,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 69,
+            "ptsSeconds": 2.76,
+            "meanAbsoluteLumaDelta": 0.000183,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 70,
+            "ptsSeconds": 2.8,
+            "meanAbsoluteLumaDelta": 0.000183,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 71,
+            "ptsSeconds": 2.84,
+            "meanAbsoluteLumaDelta": 0.000061,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 1,
+            "exactDuplicate": false,
+            "visibleChange": false
+          },
+          {
+            "index": 72,
+            "ptsSeconds": 2.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 73,
+            "ptsSeconds": 2.92,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 74,
+            "ptsSeconds": 2.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 75,
+            "ptsSeconds": 3,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 76,
+            "ptsSeconds": 3.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 77,
+            "ptsSeconds": 3.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 78,
+            "ptsSeconds": 3.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 79,
+            "ptsSeconds": 3.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 80,
+            "ptsSeconds": 3.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 81,
+            "ptsSeconds": 3.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 82,
+            "ptsSeconds": 3.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 83,
+            "ptsSeconds": 3.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 84,
+            "ptsSeconds": 3.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 85,
+            "ptsSeconds": 3.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 86,
+            "ptsSeconds": 3.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 87,
+            "ptsSeconds": 3.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 88,
+            "ptsSeconds": 3.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 89,
+            "ptsSeconds": 3.56,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 90,
+            "ptsSeconds": 3.6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 91,
+            "ptsSeconds": 3.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 92,
+            "ptsSeconds": 3.68,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 93,
+            "ptsSeconds": 3.72,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 94,
+            "ptsSeconds": 3.76,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 95,
+            "ptsSeconds": 3.8,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 96,
+            "ptsSeconds": 3.84,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 97,
+            "ptsSeconds": 3.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 98,
+            "ptsSeconds": 3.92,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 99,
+            "ptsSeconds": 3.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 100,
+            "ptsSeconds": 4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 101,
+            "ptsSeconds": 4.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 102,
+            "ptsSeconds": 4.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 103,
+            "ptsSeconds": 4.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 104,
+            "ptsSeconds": 4.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 105,
+            "ptsSeconds": 4.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 106,
+            "ptsSeconds": 4.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 107,
+            "ptsSeconds": 4.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 108,
+            "ptsSeconds": 4.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 109,
+            "ptsSeconds": 4.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 110,
+            "ptsSeconds": 4.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 111,
+            "ptsSeconds": 4.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 112,
+            "ptsSeconds": 4.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 113,
+            "ptsSeconds": 4.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 114,
+            "ptsSeconds": 4.56,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 115,
+            "ptsSeconds": 4.6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 116,
+            "ptsSeconds": 4.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 117,
+            "ptsSeconds": 4.68,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 118,
+            "ptsSeconds": 4.72,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 119,
+            "ptsSeconds": 4.76,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 120,
+            "ptsSeconds": 4.8,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 121,
+            "ptsSeconds": 4.84,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 122,
+            "ptsSeconds": 4.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 123,
+            "ptsSeconds": 4.92,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 124,
+            "ptsSeconds": 4.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 125,
+            "ptsSeconds": 5,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 126,
+            "ptsSeconds": 5.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 127,
+            "ptsSeconds": 5.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 128,
+            "ptsSeconds": 5.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 129,
+            "ptsSeconds": 5.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 130,
+            "ptsSeconds": 5.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 131,
+            "ptsSeconds": 5.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 132,
+            "ptsSeconds": 5.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 133,
+            "ptsSeconds": 5.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 134,
+            "ptsSeconds": 5.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 135,
+            "ptsSeconds": 5.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 136,
+            "ptsSeconds": 5.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 137,
+            "ptsSeconds": 5.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 138,
+            "ptsSeconds": 5.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 139,
+            "ptsSeconds": 5.56,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 140,
+            "ptsSeconds": 5.6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 141,
+            "ptsSeconds": 5.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 142,
+            "ptsSeconds": 5.68,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 143,
+            "ptsSeconds": 5.72,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 144,
+            "ptsSeconds": 5.76,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 145,
+            "ptsSeconds": 5.8,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 146,
+            "ptsSeconds": 5.84,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 147,
+            "ptsSeconds": 5.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 148,
+            "ptsSeconds": 5.92,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 149,
+            "ptsSeconds": 5.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 150,
+            "ptsSeconds": 6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 151,
+            "ptsSeconds": 6.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 152,
+            "ptsSeconds": 6.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 153,
+            "ptsSeconds": 6.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 154,
+            "ptsSeconds": 6.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 155,
+            "ptsSeconds": 6.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 156,
+            "ptsSeconds": 6.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 157,
+            "ptsSeconds": 6.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 158,
+            "ptsSeconds": 6.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 159,
+            "ptsSeconds": 6.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 160,
+            "ptsSeconds": 6.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 161,
+            "ptsSeconds": 6.44,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 162,
+            "ptsSeconds": 6.48,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 163,
+            "ptsSeconds": 6.52,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 164,
+            "ptsSeconds": 6.56,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 165,
+            "ptsSeconds": 6.6,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 166,
+            "ptsSeconds": 6.64,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 167,
+            "ptsSeconds": 6.68,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 168,
+            "ptsSeconds": 6.72,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 169,
+            "ptsSeconds": 6.76,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 170,
+            "ptsSeconds": 6.8,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 171,
+            "ptsSeconds": 6.84,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 172,
+            "ptsSeconds": 6.88,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 173,
+            "ptsSeconds": 6.92,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 174,
+            "ptsSeconds": 6.96,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 175,
+            "ptsSeconds": 7,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 176,
+            "ptsSeconds": 7.04,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 177,
+            "ptsSeconds": 7.08,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 178,
+            "ptsSeconds": 7.12,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 179,
+            "ptsSeconds": 7.16,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 180,
+            "ptsSeconds": 7.2,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 181,
+            "ptsSeconds": 7.24,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 182,
+            "ptsSeconds": 7.28,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 183,
+            "ptsSeconds": 7.32,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 184,
+            "ptsSeconds": 7.36,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          },
+          {
+            "index": 185,
+            "ptsSeconds": 7.4,
+            "meanAbsoluteLumaDelta": 0,
+            "pixelsDeltaOver2Fraction": 0,
+            "maxLumaDelta": 0,
+            "exactDuplicate": true,
+            "visibleChange": false
+          }
+        ]
+      }
+    },
+    {
+      "id": "curated-webgpu-route",
+      "title": "保持画布连续的 WebGPU 跨页转场",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4",
+      "videoSha256": "9fc0417d332a9cab66ccad840341450f36fdc6629fdc0da861191b0ab838a906",
+      "videoBytes": 70385,
+      "version": "3f468ddac02d8e12",
+      "manifestSha256": "4985b43109adf9f18fe283cef9ad340302f70ad6837d63e3a5e42b3459bd18c8",
+      "modifiedAt": "2026-10-06T12:14:08.050Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "10.400000",
+        "bit_rate": "51066",
+        "nb_frames": "260"
+      },
+      "format": {
+        "duration": "10.400000",
+        "size": "70385",
+        "bit_rate": "54142"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3950
+          },
+          {
+            "type": "free",
+            "offset": 3982,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3990,
+            "bytes": 66395
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "3f468ddac02d8e12",
+        "versionMatches": true,
+        "capturedJpegFrames": 457,
+        "distinctJpegHashes": 62,
+        "recordedVideoBytes": 70385,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 10.4,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": "[data-nav-key=\"index\"]"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-grid-full",
+      "title": "网格图像到完整案例的形态接续",
+      "video": "motion-vault-assets/curated-grid-full/preview.mp4",
+      "videoSha256": "ebba836ea485f29ea834c0bc20c39baab0a8735e32770b64c1241d7b927ef522",
+      "videoBytes": 101737,
+      "version": "dcb9dea4d9f73cd3",
+      "manifestSha256": "5ed4a54580daa4d303d0dc602d0b96e25e08ffacfd79e929b7cc40a67f6ea59f",
+      "modifiedAt": "2026-10-06T12:13:49.551Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "7.480000",
+        "bit_rate": "105500",
+        "nb_frames": "187"
+      },
+      "format": {
+        "duration": "7.480000",
+        "size": "101737",
+        "bit_rate": "108809"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3046
+          },
+          {
+            "type": "free",
+            "offset": 3078,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3086,
+            "bytes": 98651
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "dcb9dea4d9f73cd3",
+        "versionMatches": true,
+        "capturedJpegFrames": 71,
+        "distinctJpegHashes": 66,
+        "recordedVideoBytes": 101737,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 7.48,
+        "actions": [
+          {
+            "action": "real_mouse_hover",
+            "selector": ".product"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-editorial-layout",
+      "title": "随阅读推进重组的编辑版式",
+      "video": "motion-vault-assets/curated-editorial-layout/preview.mp4",
+      "videoSha256": "5033294a62c72653fcc9c925ffb4da6919870c7711680dd882fced35687911cf",
+      "videoBytes": 432643,
+      "version": "e6f8e18b6e38482c",
+      "manifestSha256": "792dc72d6a236d63f075af43cdd4e15d20cdaeeef49e8b17a9d5bebc378db0a5",
+      "modifiedAt": "2026-10-06T12:13:41.482Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "7.160000",
+        "bit_rate": "480291",
+        "nb_frames": "179"
+      },
+      "format": {
+        "duration": "7.160000",
+        "size": "432643",
+        "bit_rate": "483400"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2734
+          },
+          {
+            "type": "free",
+            "offset": 2766,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 2774,
+            "bytes": 429869
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "e6f8e18b6e38482c",
+        "versionMatches": true,
+        "capturedJpegFrames": 60,
+        "distinctJpegHashes": 60,
+        "recordedVideoBytes": 432643,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 7.16,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-thumbnail-flow",
+      "title": "缩略卡组沿弧线流向主画面",
+      "video": "motion-vault-assets/curated-thumbnail-flow/preview.mp4",
+      "videoSha256": "7d4d23baba6c4ec739b9344bea4a6b4e8d0e81184fa466099da1fb9bc65a7b4b",
+      "videoBytes": 104384,
+      "version": "6f5cec0e4b516921",
+      "manifestSha256": "4a5f7de039ecca81426c73d6df0e9f6884b33bb4342ca0f9d55016bee0a5b397",
+      "modifiedAt": "2026-10-06T12:14:04.146Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "3.160000",
+        "bit_rate": "259731",
+        "nb_frames": "79"
+      },
+      "format": {
+        "duration": "3.160000",
+        "size": "104384",
+        "bit_rate": "264263"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 1742
+          },
+          {
+            "type": "free",
+            "offset": 1774,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 1782,
+            "bytes": 102602
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "6f5cec0e4b516921",
+        "versionMatches": true,
+        "capturedJpegFrames": 143,
+        "distinctJpegHashes": 125,
+        "recordedVideoBytes": 104384,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 3.16,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": ".open-button"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-elastic-editorial",
+      "title": "带延迟弹性的图像网格编排",
+      "video": "motion-vault-assets/curated-elastic-editorial/preview.mp4",
+      "videoSha256": "f15411feaa06a04106b256987f7c16803d4cc10a0f94626611411a9b2dabc97c",
+      "videoBytes": 458248,
+      "version": "7d9552c2cef9774b",
+      "manifestSha256": "46c606dfa159a4067f92e75990a2ddf9d6609c407fc6d9aca823cc2f73003333",
+      "modifiedAt": "2026-10-06T12:13:45.999Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "10.120000",
+        "bit_rate": "359328",
+        "nb_frames": "253"
+      },
+      "format": {
+        "duration": "10.120000",
+        "size": "458248",
+        "bit_rate": "362251"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 3650
+          },
+          {
+            "type": "free",
+            "offset": 3682,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 3690,
+            "bytes": 454558
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "7d9552c2cef9774b",
+        "versionMatches": true,
+        "capturedJpegFrames": 466,
+        "distinctJpegHashes": 466,
+        "recordedVideoBytes": 458248,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 10.12,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-cluster",
+      "title": "可探索的三维簇状物体",
+      "video": "motion-vault-assets/curated-cluster/preview.mp4",
+      "videoSha256": "d0f8917cf4b6f5e35a4affccba3b56770aa3524d4a937336f404851cae11ab22",
+      "videoBytes": 1561480,
+      "version": "72a34f23d3effd4a",
+      "manifestSha256": "e946a1ecef583f2f089f77b0f248febdd20743a684aeacd236e6d1b0f09260b9",
+      "modifiedAt": "2026-10-06T12:13:38.835Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "11.480000",
+        "bit_rate": "1085160",
+        "nb_frames": "287"
+      },
+      "format": {
+        "duration": "11.480000",
+        "size": "1561480",
+        "bit_rate": "1088139"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 4226
+          },
+          {
+            "type": "free",
+            "offset": 4258,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 4266,
+            "bytes": 1557214
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "72a34f23d3effd4a",
+        "versionMatches": true,
+        "capturedJpegFrames": 611,
+        "distinctJpegHashes": 611,
+        "recordedVideoBytes": 1561480,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 11.48,
+        "actions": [],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-layer-cut",
+      "title": "分层图像的几何剪裁转场",
+      "video": "motion-vault-assets/curated-layer-cut/preview.mp4",
+      "videoSha256": "aaf79ff67512cbc72e66952f35233f479c8411034faf1f2f4c883fe14d7854ec",
+      "videoBytes": 326092,
+      "version": "1c7c7d9678d65125",
+      "manifestSha256": "14929ce85dbdbe9036d93fd2a76cb5b13dae7119a77f7a122bdad910900551a3",
+      "modifiedAt": "2026-10-06T12:13:50.620Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "6.240000",
+        "bit_rate": "414828",
+        "nb_frames": "156"
+      },
+      "format": {
+        "duration": "6.240000",
+        "size": "326092",
+        "bit_rate": "418066"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 2478
+          },
+          {
+            "type": "free",
+            "offset": 2510,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 2518,
+            "bytes": 323574
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "1c7c7d9678d65125",
+        "versionMatches": true,
+        "capturedJpegFrames": 248,
+        "distinctJpegHashes": 190,
+        "recordedVideoBytes": 326092,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 6.24,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": ".layers__item"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-rounded-menu",
+      "title": "圆角导航与背景揭幕的联动",
+      "video": "motion-vault-assets/curated-rounded-menu/preview.mp4",
+      "videoSha256": "430a8bbfc2fe042a1695a20810c01dacf5035480ade771b5cd6858911f18e495",
+      "videoBytes": 103367,
+      "version": "ecb280e1c8cd2b35",
+      "manifestSha256": "53a0d26f4a7e7698106b9d8367f8247d4d26b8b0605f57b468b995ee39849367",
+      "modifiedAt": "2026-10-06T12:13:53.504Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "3.400000",
+        "bit_rate": "238760",
+        "nb_frames": "85"
+      },
+      "format": {
+        "duration": "3.400000",
+        "size": "103367",
+        "bit_rate": "243216"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 1846
+          },
+          {
+            "type": "free",
+            "offset": 1878,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 1886,
+            "bytes": 101481
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "ecb280e1c8cd2b35",
+        "versionMatches": true,
+        "capturedJpegFrames": 123,
+        "distinctJpegHashes": 123,
+        "recordedVideoBytes": 103367,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 3.4,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": ".line-link"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-inline-menu",
+      "title": "正文词语迁移成图像导航",
+      "video": "motion-vault-assets/curated-inline-menu/preview.mp4",
+      "videoSha256": "e1bce1a174a949d4cb172680cff93e651740624d1af2ee2d5a6a893b4149c147",
+      "videoBytes": 107552,
+      "version": "fd4cfcead22ecc3d",
+      "manifestSha256": "48733b96f83ff960aa96f02483e4b0786c30ad68e85eaa4d9d620fd16d4bb540",
+      "modifiedAt": "2026-10-06T12:13:50.548Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "3.200000",
+        "bit_rate": "264375",
+        "nb_frames": "80"
+      },
+      "format": {
+        "duration": "3.200000",
+        "size": "107552",
+        "bit_rate": "268880"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 1754
+          },
+          {
+            "type": "free",
+            "offset": 1786,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 1794,
+            "bytes": 105758
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "fd4cfcead22ecc3d",
+        "versionMatches": true,
+        "capturedJpegFrames": 146,
+        "distinctJpegHashes": 141,
+        "recordedVideoBytes": 107552,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 3.2,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": ".menu-item"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-tooltip-gallery",
+      "title": "小预览到画廊再到全屏的连续过渡",
+      "video": "motion-vault-assets/curated-tooltip-gallery/preview.mp4",
+      "videoSha256": "7bf32691780fdad3b760c5fc008f9cb12c35846e2f088587a1685f1635c04c84",
+      "videoBytes": 102463,
+      "version": "b355cb24d1186dde",
+      "manifestSha256": "c198ba5651c3b4b4b3903455b1db08b01b5ff18ba87ae338744de03cc3876a58",
+      "modifiedAt": "2026-10-06T12:14:05.181Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "2.480000",
+        "bit_rate": "325383",
+        "nb_frames": "62"
+      },
+      "format": {
+        "duration": "2.480000",
+        "size": "102463",
+        "bit_rate": "330525"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 1546
+          },
+          {
+            "type": "free",
+            "offset": 1578,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 1586,
+            "bytes": 100877
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "b355cb24d1186dde",
+        "versionMatches": true,
+        "capturedJpegFrames": 111,
+        "distinctJpegHashes": 106,
+        "recordedVideoBytes": 102463,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 2.48,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": "a[data-tooltip]"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    },
+    {
+      "id": "curated-grid-flow-nav",
+      "title": "图像网格流动构成导航节奏",
+      "video": "motion-vault-assets/curated-grid-flow-nav/preview.mp4",
+      "videoSha256": "3f320647cbd364d7e9db928edf3cdbc37cbd509f76cd7636d88755f31b4ffd28",
+      "videoBytes": 166917,
+      "version": "322ddb112513aa6c",
+      "manifestSha256": "92e2ccb19c304f48e8bfb53366f166bb624a833f6fcc462917afa4599ec62d46",
+      "modifiedAt": "2026-10-06T12:13:49.468Z",
+      "matches": {
+        "catalogManifestVersion": true,
+        "captureImplementationVersion": true,
+        "previewVideoPath": true,
+        "manifestVideoHash": true,
+        "manifestVideoBytes": true
+      },
+      "stream": {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuvj420p",
+        "level": 30,
+        "color_range": "pc",
+        "r_frame_rate": "25/1",
+        "avg_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "duration": "4.640000",
+        "bit_rate": "284363",
+        "nb_frames": "116"
+      },
+      "format": {
+        "duration": "4.640000",
+        "size": "166917",
+        "bit_rate": "287787"
+      },
+      "mp4": {
+        "boxes": [
+          {
+            "type": "ftyp",
+            "offset": 0,
+            "bytes": 32
+          },
+          {
+            "type": "moov",
+            "offset": 32,
+            "bytes": 1938
+          },
+          {
+            "type": "free",
+            "offset": 1970,
+            "bytes": 8
+          },
+          {
+            "type": "mdat",
+            "offset": 1978,
+            "bytes": 164939
+          }
+        ],
+        "fastStart": true
+      },
+      "historicalCapture": {
+        "version": "322ddb112513aa6c",
+        "versionMatches": true,
+        "capturedJpegFrames": 256,
+        "distinctJpegHashes": 253,
+        "recordedVideoBytes": 166917,
+        "recordedVideoBytesMatches": true,
+        "reportedDurationSeconds": 4.64,
+        "actions": [
+          {
+            "action": "real_mouse_click",
+            "selector": ".nav__item--next,.nav__next,.nav button:last-child"
+          }
+        ],
+        "caveat": "Distinct JPEG hashes are capture evidence; they are not the encoded visual frame rate."
+      }
+    }
+  ],
+  "summary": {
+    "candidates": 30,
+    "metadataInspected": 30,
+    "versionsAndHashesMatch": true,
+    "fastStartCount": 30,
+    "decodedIds": [
+      "curated-telescope",
+      "curated-persistent-gallery"
+    ]
+  }
+}

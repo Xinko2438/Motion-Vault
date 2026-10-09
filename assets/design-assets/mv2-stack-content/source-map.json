@@ -1,0 +1,26 @@
+[
+  {
+    "path": "source/src/js/slideshow.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/src/js/index.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/src/js/utils.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "source/src/js/contentItem.js",
+    "role": "authoritative_pinned_source"
+  },
+  {
+    "path": "adapter/rebuild.mjs",
+    "role": "own source bundler, no upstream script execution"
+  },
+  {
+    "path": "run/vault-controls.js",
+    "role": "isolated frame lifecycle only; original input handlers unchanged"
+  }
+]

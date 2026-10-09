@@ -1,0 +1,10 @@
+{
+  "id": "mv2-grid-push",
+  "repo": "PushGridItems",
+  "title": "照片位置互让的网格推进",
+  "demo": "https://tympanus.net/Development/PushGridItems/",
+  "mode": "click",
+  "scene": "portfolio",
+  "task": "discovery",
+  "design": "选中图像与相邻单元共同重新分配空间，保留作者三种完整排布、遮罩、推进和回位关系。"
+}

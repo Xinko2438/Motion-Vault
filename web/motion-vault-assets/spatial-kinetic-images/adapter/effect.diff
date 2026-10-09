@@ -1,0 +1,335 @@
+--- source/src/app/page.jsx
++++ adapter/src/app/page.jsx
+@@ -12,8 +12,9 @@
+ const GAP = 3.2;
+ 
+ export default function Home() {
+-    const { texture, dimensions, isLoading } = useCollageTexture(images);
++    const { texture, dimensions, isLoading, error } = useCollageTexture(images);
+ 
++    if (error) throw error;
+     if (isLoading) return <Loader />;
+ 
+     return (
+--- source/src/app/paper/page.jsx
++++ adapter/src/app/paper/page.jsx
+@@ -11,12 +11,13 @@
+ const paperImages = images.slice(0, 5);
+ 
+ export default function Home() {
+-    const { texture, isLoading } = useCollageTexture(paperImages, {
++    const { texture, isLoading, error } = useCollageTexture(paperImages, {
+         gap: 0,
+         canvasWidth: 1024,
+         axis: 'y',
+     });
+ 
++    if (error) throw error;
+     if (isLoading) return <Loader />;
+ 
+     return (
+--- source/src/app/spiral/page.jsx
++++ adapter/src/app/spiral/page.jsx
+@@ -9,8 +9,9 @@
+ import { Loader } from '@/components/ui/modules';
+ 
+ export default function Home() {
+-    const { texture, isLoading } = useCollageTexture(images);
++    const { texture, isLoading, error } = useCollageTexture(images);
+ 
++    if (error) throw error;
+     if (isLoading) return <Loader />;
+ 
+     return (
+--- source/src/components/layouts/Layout.jsx
++++ adapter/src/components/layouts/Layout.jsx
+@@ -1,12 +1,12 @@
+ 'use client';
+ 
+ import { useRef } from 'react';
+-import dynamic from 'next/dynamic';
+-import { usePathname } from 'next/navigation';
++import Scene from '@/webgl/Scene';
++import { usePathname } from '@adapter/router.jsx';
+ import { Header, Footer } from '@/components/ui/modules';
+-import Link from 'next/link';
++import { Link } from '@adapter/router.jsx';
+ 
+-const Scene = dynamic(() => import('@/webgl/Scene'), { ssr: false });
++// Source Scene is statically bundled; no Next runtime, routing server or origin access.
+ 
+ export function Layout({ children }) {
+     const ref = useRef(null);
+@@ -42,9 +42,9 @@
+                             opacity: 0.6,
+                         }}
+                     >
+-                        <a href="https://tympanus.net/codrops/?p=96765">Article</a>
+-                        <a href="https://github.com/DGFX/codrops-kinetic-images">Code</a>
+-                        <a href="https://tympanus.net/codrops/demos/">All demos</a>
++                        <span data-source-href="https://tympanus.net/codrops/?p=96765">Article</span>
++                        <span data-source-href="https://github.com/DGFX/codrops-kinetic-images">Code</span>
++                        <span data-source-href="https://tympanus.net/codrops/demos/">All demos</span>
+                     </nav>
+                     <nav
+                         style={{
+@@ -55,11 +55,11 @@
+                             opacity: 0.6,
+                         }}
+                     >
+-                        <a href="https://tympanus.net/codrops/demos/?tag=3d">#3d</a>
+-                        <a href="https://tympanus.net/codrops/demos/?tag=three-js">#three.js</a>
+-                        <a href="https://tympanus.net/codrops/demos/?tag=react-three-fiber">
++                        <span data-source-href="https://tympanus.net/codrops/demos/?tag=3d">#3d</span>
++                        <span data-source-href="https://tympanus.net/codrops/demos/?tag=three-js">#three.js</span>
++                        <span data-source-href="https://tympanus.net/codrops/demos/?tag=react-three-fiber">
+                             #react-three-fiber
+-                        </a>
++                        </span>
+                     </nav>
+                 </div>
+             </Header>
+--- source/src/components/webgl/Banner/Banner.jsx
++++ adapter/src/components/webgl/Banner/Banner.jsx
+@@ -1,19 +1,22 @@
++import { kineticRuntime } from '@adapter/runtime.js';
+ 'use client';
+ 
+ import * as THREE from 'three';
+ import { useTexture } from '@react-three/drei';
+ import { useFrame } from '@react-three/fiber';
+-import { useRef } from 'react';
++import { useRef, useEffect } from 'react';
+ 
+ import '@/webgl/materials/MeshBannerMaterial';
+ 
+ function Banner({ radius = 1.6, ...props }) {
+     const ref = useRef(null);
+ 
+-    const texture = useTexture('/banner.jpg');
++    const texture = useTexture('./assets/banner.jpg');
+     texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
++    useEffect(() => () => { texture.dispose(); useTexture.clear('./assets/banner.jpg'); }, [texture]);
+ 
+     useFrame((state, delta) => {
++        if (!kineticRuntime.ambientAllowed()) return;
+         if (!ref.current) return;
+         const material = ref.current.material;
+         if (material.map) material.map.offset.x += delta / 30;
+--- source/src/components/webgl/Billboard/Billboard.jsx
++++ adapter/src/components/webgl/Billboard/Billboard.jsx
+@@ -1,3 +1,4 @@
++import { kineticRuntime } from '@adapter/runtime.js';
+ 'use client';
+ 
+ import * as THREE from 'three';
+@@ -31,6 +32,7 @@
+     setupCylinderTextureMapping(texture, dimensions, radius, 2);
+ 
+     useFrame((state, delta) => {
++        if (!kineticRuntime.ambientAllowed()) return;
+         if (texture) texture.offset.x += delta * 0.001;
+     });
+ 
+--- source/src/components/webgl/Paper/Paper.jsx
++++ adapter/src/components/webgl/Paper/Paper.jsx
+@@ -1,3 +1,5 @@
++import { useModelDisposal } from '@adapter/model-disposal.js';
++import { kineticRuntime } from '@adapter/runtime.js';
+ 'use client';
+ 
+ import * as THREE from 'three';
+@@ -11,9 +13,10 @@
+ }
+ 
+ function Paper({ texture, ...props }) {
+-    const { scene } = useGLTF('/paper.glb');
++    const { scene } = useGLTF('./assets/paper.glb', false, false);
+ 
+     const mesh = scene.children[0];
++    useModelDisposal(scene, './assets/paper.glb');
+ 
+     useEffect(() => {
+         if (!texture) return;
+@@ -22,6 +25,7 @@
+     }, [texture, mesh.material]);
+ 
+     useFrame((state, delta) => {
++        if (!kineticRuntime.ambientAllowed()) return;
+         if (!texture) return;
+         texture.offset.y += delta / 30;
+         texture.wrapS = THREE.RepeatWrapping;
+--- source/src/components/webgl/Spiral/Spiral.jsx
++++ adapter/src/components/webgl/Spiral/Spiral.jsx
+@@ -1,3 +1,5 @@
++import { useModelDisposal } from '@adapter/model-disposal.js';
++import { kineticRuntime } from '@adapter/runtime.js';
+ 'use client';
+ 
+ import * as THREE from 'three';
+@@ -7,6 +9,7 @@
+ import { MeshImageMaterial } from '@/webgl/materials/MeshImageMaterial';
+ 
+ function setupSpiralMaterial(texture, mesh) {
++    mesh.material?.dispose();
+     mesh.material = new MeshImageMaterial({
+         map: texture,
+         side: THREE.DoubleSide,
+@@ -15,8 +18,9 @@
+ }
+ 
+ function Spiral({ texture }) {
+-    const { scene } = useGLTF('/spiral.glb');
++    const { scene } = useGLTF('./assets/spiral.glb', false, false);
+     const mesh = scene.children[0];
++    useModelDisposal(scene, './assets/spiral.glb');
+ 
+     useEffect(() => {
+         if (!texture) return;
+@@ -25,6 +29,7 @@
+     }, [texture, mesh]);
+ 
+     useFrame((state, delta) => {
++        if (!kineticRuntime.ambientAllowed()) return;
+         const material = mesh.material;
+ 
+         if (!material || !material.map) return;
+--- source/src/data/images.js
++++ adapter/src/data/images.js
+@@ -1,17 +1,17 @@
+ const images = [
+-    { url: '/images/img1.webp' },
+-    { url: '/images/img2.webp' },
+-    { url: '/images/img3.webp' },
+-    { url: '/images/img4.webp' },
+-    { url: '/images/img5.webp' },
+-    { url: '/images/img6.webp' },
+-    { url: '/images/img7.webp' },
+-    { url: '/images/img8.webp' },
+-    { url: '/images/img9.webp' },
+-    { url: '/images/img10.webp' },
+-    { url: '/images/img11.webp' },
+-    { url: '/images/img12.webp' },
+-    { url: '/images/img13.webp' },
++    { url: './assets/images/img1.webp' },
++    { url: './assets/images/img2.webp' },
++    { url: './assets/images/img3.webp' },
++    { url: './assets/images/img4.webp' },
++    { url: './assets/images/img5.webp' },
++    { url: './assets/images/img6.webp' },
++    { url: './assets/images/img7.webp' },
++    { url: './assets/images/img8.webp' },
++    { url: './assets/images/img9.webp' },
++    { url: './assets/images/img10.webp' },
++    { url: './assets/images/img11.webp' },
++    { url: './assets/images/img12.webp' },
++    { url: './assets/images/img13.webp' },
+ ];
+ 
+ export default images;
+--- source/src/hooks/useCollageTexture.jsx
++++ adapter/src/hooks/useCollageTexture.jsx
+@@ -1,40 +1,28 @@
+-import { useState, useEffect, useCallback } from 'react';
++import { useState, useEffect } from 'react';
+ import { getCanvasTexture } from '@/webgl/helpers/getCanvasTexture';
+ 
+ export default function useCollageTexture(images, options = {}) {
+-    const [textureResults, setTextureResults] = useState(null);
++    const [result, setResult] = useState(null);
+     const [isLoading, setIsLoading] = useState(true);
+     const [error, setError] = useState(null);
+-
+     const { gap = 0, canvasHeight = 512, canvasWidth = 512, axis = 'x' } = options;
+-
+-    const createTexture = useCallback(async () => {
+-        try {
+-            setIsLoading(true);
+-            setError(null);
+-            const result = await getCanvasTexture({
+-                images,
+-                gap,
+-                canvasHeight,
+-                canvasWidth,
+-                axis,
++    useEffect(() => {
++        let cancelled = false;
++        let ownedTexture = null;
++        setIsLoading(true);
++        setError(null);
++        getCanvasTexture({ images, gap, canvasHeight, canvasWidth, axis })
++            .then(value => {
++                if (cancelled) { value.texture.dispose(); return; }
++                ownedTexture = value.texture;
++                setResult(value);
++                setIsLoading(false);
++            }).catch(reason => {
++                if (cancelled) return;
++                setError(reason instanceof Error ? reason : new Error('Failed to create texture'));
++                setIsLoading(false);
+             });
+-            setTextureResults(result);
+-        } catch (err) {
+-            setError(err instanceof Error ? err : new Error('Failed to create texture'));
+-        } finally {
+-            setIsLoading(false);
+-        }
++        return () => { cancelled = true; ownedTexture?.dispose(); };
+     }, [images, gap, canvasHeight, canvasWidth, axis]);
+-
+-    useEffect(() => {
+-        if (images.length > 0) createTexture();
+-    }, [images.length, createTexture]);
+-
+-    return {
+-        texture: textureResults?.texture || null,
+-        dimensions: textureResults?.dimensions || null,
+-        isLoading,
+-        error,
+-    };
++    return { texture: result?.texture || null, dimensions: result?.dimensions || null, isLoading, error };
+ }
+--- source/src/webgl/Scene.jsx
++++ adapter/src/webgl/Scene.jsx
+@@ -3,11 +3,14 @@
+ import { Canvas } from '@react-three/fiber';
+ import { Preload } from '@react-three/drei';
+ import { r3f } from '@/webgl/helpers/global';
+-import * as THREE from 'three';
++import { useSyncExternalStore } from 'react';
++import { kineticRuntime, FrameWitness } from '@adapter/runtime.js';
+ 
+ export default function Scene(props) {
++    const frameloop = useSyncExternalStore(kineticRuntime.subscribe, kineticRuntime.getFrameloop);
+     return (
+-        <Canvas {...props}>
++        <Canvas {...props} frameloop={frameloop}>
++            <FrameWitness />
+             <r3f.Out />
+             <Preload all />
+         </Canvas>
+--- source/src/webgl/View.jsx
++++ adapter/src/webgl/View.jsx
+@@ -3,6 +3,7 @@
+ import { forwardRef, useImperativeHandle, useRef } from 'react';
+ import { OrbitControls, View as ViewImpl } from '@react-three/drei';
+ import { Three } from '@/webgl/helpers/Three';
++import { SceneReadyWitness, kineticRuntime } from '@adapter/runtime.js';
+ 
+ const View = forwardRef(({ children, orbit, ...props }, ref) => {
+     const localRef = useRef(null);
+@@ -10,11 +11,12 @@
+ 
+     return (
+         <>
+-            <div ref={localRef} {...props} />
++            <div ref={localRef} {...props} style={{ ...props.style, touchAction: 'none', userSelect: 'none' }} />
+             <Three>
+                 <ViewImpl track={localRef}>
+                     {children}
+-                    {orbit && <OrbitControls />}
++                    {orbit && <OrbitControls ref={kineticRuntime.controlRef} />}
++                    <SceneReadyWitness />
+                 </ViewImpl>
+             </Three>
+         </>

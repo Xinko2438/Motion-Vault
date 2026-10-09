@@ -1,0 +1,20 @@
+{
+  "mode": "Offline asset decode with official Three loaders; no DOM/WebGL/effect runtime",
+  "meshes": [
+    {
+      "vertices": 20292,
+      "attributes": [
+        "position",
+        "normal",
+        "uv",
+        "uv1"
+      ]
+    }
+  ],
+  "exr": {
+    "width": 1024,
+    "height": 200,
+    "samples": 819200,
+    "allFinite": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "motion-vault.local-run-assets.v1",
+  "id": "spatial-procedural-snake",
+  "entry": "run/index.html",
+  "sandbox": "allow-scripts",
+  "allowSameOrigin": false,
+  "contentSecurityPolicy": "default-src 'none'; script-src 'self' 'sha256-cpNByESktmVioLz4n3H2Y89KaQ+72cbWb1+PEyFRpC0='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src blob: data:; font-src 'none'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'",
+  "viewport": {
+    "width": 1100,
+    "height": 670
+  },
+  "externalRuntimeRequests": [],
+  "runFiles": [
+    {
+      "path": "run/effect.css",
+      "bytes": 4053,
+      "sha256": "5383a4a385ab814e6c85f9a1b459e7a92aa27f84138c90f5ab05f3360f571647"
+    },
+    {
+      "path": "run/effect.js",
+      "bytes": 1261084,
+      "sha256": "60b718d38b4d44f0f00d97557f1d97ff7c02428293b97350402cf22c0e233abf"
+    },
+    {
+      "path": "run/effect.js.LEGAL.txt",
+      "bytes": 188,
+      "sha256": "373b12aaa205aa5bc749aef71f9d69280e4b405d39570ffcd66a385349d76587"
+    },
+    {
+      "path": "run/index.html",
+      "bytes": 1901,
+      "sha256": "8501363cca1d5693ee1b19c5eb39dda12119b81ec7ed170ebba119d04bcd421b"
+    },
+    {
+      "path": "run/vault-isolation.js",
+      "bytes": 4313,
+      "sha256": "b6b2cb92ced9360fe5a4a1d713bc3ad90fbe721001aeab5ea548ebe6b40c0baa"
+    }
+  ]
+}

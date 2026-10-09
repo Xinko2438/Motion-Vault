@@ -1,0 +1,110 @@
+[
+  {
+    "id": "curated-telescope",
+    "status": "existing"
+  },
+  {
+    "id": "curated-spatial-product",
+    "status": "existing"
+  },
+  {
+    "id": "curated-fluid-xray",
+    "status": "existing"
+  },
+  {
+    "id": "curated-camera-route",
+    "status": "existing"
+  },
+  {
+    "id": "curated-dual-wave",
+    "status": "existing"
+  },
+  {
+    "id": "curated-image-in-type",
+    "status": "existing"
+  },
+  {
+    "id": "curated-cylinder-type",
+    "status": "existing"
+  },
+  {
+    "id": "curated-stylized-water",
+    "status": "source_pinned",
+    "commit": "76a335f75dcccac0785ce9d84c914328bd3a1ea0",
+    "files": 35,
+    "bytes": 333489,
+    "licenses": [
+      "LICENSE.txt"
+    ]
+  },
+  {
+    "id": "curated-shape-ascii",
+    "status": "existing"
+  },
+  {
+    "id": "curated-reaction-diffusion",
+    "status": "existing"
+  },
+  {
+    "id": "curated-vortex-glass",
+    "status": "existing"
+  },
+  {
+    "id": "curated-webgl-reveal",
+    "status": "source_pinned",
+    "commit": "e866c0287be4e1e3eb7a2bcfadf93ff731440f35",
+    "files": 30,
+    "bytes": 1792428,
+    "licenses": [
+      "LICENSE"
+    ]
+  },
+  {
+    "id": "curated-persistent-gallery",
+    "status": "existing"
+  },
+  {
+    "id": "curated-webgpu-route",
+    "status": "existing"
+  },
+  {
+    "id": "curated-grid-full",
+    "status": "existing"
+  },
+  {
+    "id": "curated-editorial-layout",
+    "status": "existing"
+  },
+  {
+    "id": "curated-thumbnail-flow",
+    "status": "existing"
+  },
+  {
+    "id": "curated-elastic-editorial",
+    "status": "existing"
+  },
+  {
+    "id": "curated-cluster",
+    "status": "source_pinned",
+    "commit": "f39816bd6c82884c706a0bd82ca6ebade4ec367a",
+    "files": 12,
+    "bytes": 143992,
+    "licenses": []
+  },
+  {
+    "id": "curated-emissive-dissolve",
+    "status": "source_pinned",
+    "commit": "9a913c840beb6b9e979f43ed07f35ec44cb95f2e",
+    "files": 26,
+    "bytes": 17694415,
+    "licenses": []
+  },
+  {
+    "id": "curated-cloth-object",
+    "status": "source_pinned",
+    "commit": "db03bdc8ce88cb64446b9366c60f0803f2235506",
+    "files": 17,
+    "bytes": 23103132,
+    "licenses": []
+  }
+]

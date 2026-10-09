@@ -1,0 +1,3687 @@
+{
+  "at": "2026-10-06T15:57:12.264Z",
+  "startedAt": "2026-10-06T15:55:49.222Z",
+  "runId": "7afcce3b-dff1-4af4-aa5f-1ec7690bf9f5",
+  "label": "before",
+  "live": true,
+  "sampleMs": 2400,
+  "formalHash": "d03ec6eb6c7d48a38eb696b494e2e7a756bc95961082f286e617dd08b71797d8",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "verifierHash": "21ffbfd7c62ec468d6590d8c01b578248541d07a7227400e28d996595bf777e2",
+  "sourceUnchanged": true,
+  "environment": {
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/154.0.8037.93",
+      "revision": "@f89f3a4363808e117c592adedcf9947882ac3b79",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "jsVersion": "15.4.80.19"
+    },
+    "gpu": {
+      "devices": [
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "Intel",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 4318,
+          "deviceId": 11545,
+          "subSysId": 1615863045,
+          "revision": 161,
+          "vendorString": "",
+          "deviceString": "NVIDIA GeForce RTX 5060 Laptop GPU",
+          "driverVendor": "",
+          "driverVersion": "32.0.16.1692"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 32902,
+          "deviceId": 18059,
+          "subSysId": 1342315781,
+          "revision": 12,
+          "vendorString": "",
+          "deviceString": "Intel(R) UHD Graphics",
+          "driverVendor": "",
+          "driverVersion": "32.0.101.6647"
+        },
+        {
+          "vendorId": 5140,
+          "deviceId": 140,
+          "subSysId": 0,
+          "revision": 0,
+          "vendorString": "",
+          "deviceString": "Microsoft Basic Render Driver",
+          "driverVendor": "",
+          "driverVersion": "10.0.26100.9278"
+        }
+      ],
+      "features": {
+        "2d_canvas": "enabled",
+        "direct_rendering_display_compositor": "disabled_off_ok",
+        "gpu_compositing": "enabled",
+        "multiple_raster_threads": "enabled_on",
+        "opengl": "enabled_on",
+        "rasterization": "enabled",
+        "raw_draw": "disabled_off_ok",
+        "skia_graphite": "disabled_off",
+        "trees_in_viz": "disabled_off",
+        "video_decode": "enabled",
+        "video_encode": "enabled",
+        "webgl": "enabled",
+        "webgpu": "enabled",
+        "webnn": "disabled_off"
+      }
+    },
+    "gpuDisabledByHarness": false,
+    "page": {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault.html?view=pending",
+      "visibility": "visible",
+      "dpr": 1,
+      "videoFrameCallback": "function"
+    }
+  },
+  "assets": [
+    {
+      "id": "curated-telescope",
+      "version": "5e790586dc35495c",
+      "video": "motion-vault-assets/curated-telescope/preview.mp4",
+      "sha256": "0492bec7218b136e6c058e6ef950fc8a107952dbb5b459b0f21aee23ef1ac23f"
+    },
+    {
+      "id": "curated-glass-torus",
+      "version": "34d07324a3894dd3",
+      "video": "motion-vault-assets/curated-glass-torus/preview.mp4",
+      "sha256": "0c79800c09dc4511db70b017f3b445b5317bbef742a76fa4ce30e3a6509947af"
+    },
+    {
+      "id": "curated-metal-name",
+      "version": "bd731e31ddc9ebc1",
+      "video": "motion-vault-assets/curated-metal-name/preview.mp4",
+      "sha256": "4eab9011c4e71a017f3317cc887d583c53f18d4c0678241c7cce196555a15ff2"
+    },
+    {
+      "id": "curated-liquid-grid",
+      "version": "c815ebacdb5e56b7",
+      "video": "motion-vault-assets/curated-liquid-grid/preview.mp4",
+      "sha256": "801b581b1dacfa4750b3671544d2aa0e726bc162a6bb7492a87241aa0a8ccc2c"
+    },
+    {
+      "id": "curated-depth",
+      "version": "1f33dcbef8594b4d",
+      "video": "motion-vault-assets/curated-depth/preview.mp4",
+      "sha256": "c7b01fdf1a21f7f7d57a24297be1c968087758d0056e932edc19c32b471e4c42"
+    },
+    {
+      "id": "curated-spatial-product",
+      "version": "29f76553ecba4e43",
+      "video": "motion-vault-assets/curated-spatial-product/preview.mp4",
+      "sha256": "b13aac737b4452bb6096e19be1d6d7746c7d735435c546e758edabf4d40a3582"
+    },
+    {
+      "id": "curated-fluid-xray",
+      "version": "32120f3862e59169",
+      "video": "motion-vault-assets/curated-fluid-xray/preview.mp4",
+      "sha256": "5a08f0f42cbb55d1e0c6b928682f780ccf14f1fcbdb4b3e23897cd312df25bec"
+    },
+    {
+      "id": "curated-camera-route",
+      "version": "c13b04d58ff390e8",
+      "video": "motion-vault-assets/curated-camera-route/preview.mp4",
+      "sha256": "2865d9e6bb2a760530194eb2f6c49b2145e2fa2568459b87894e4dd7739b6f3a"
+    },
+    {
+      "id": "curated-cloth-object",
+      "version": "d6fa10001d30108c",
+      "video": "motion-vault-assets/curated-cloth-object/preview.mp4",
+      "sha256": "7e5c2aa3142bf326c6ba4f5adcb2f35689c304a9e47e0893a8ee63db2b05a9f0"
+    },
+    {
+      "id": "curated-emissive-dissolve",
+      "version": "2bc09bcef2eb8770",
+      "video": "motion-vault-assets/curated-emissive-dissolve/preview.mp4",
+      "sha256": "7c1784e42cca3065c8d854f61a4b9edbae7841f080292f29fae7299f4c0aba8c"
+    },
+    {
+      "id": "curated-dual-wave",
+      "version": "d2b499f36a6c4f0c",
+      "video": "motion-vault-assets/curated-dual-wave/preview.mp4",
+      "sha256": "19de4d6b6d086d9533ba8876d6e78392473171c38f2dd723571601f6d681796b"
+    },
+    {
+      "id": "curated-image-in-type",
+      "version": "ce1e54030c2531a7",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4",
+      "sha256": "55071d13c02b48e2906bab2c0fba4fe027e77b20e61ed267c3599aaa0244af58"
+    },
+    {
+      "id": "curated-cylinder-type",
+      "version": "b5b3f948e71c4896",
+      "video": "motion-vault-assets/curated-cylinder-type/preview.mp4",
+      "sha256": "ae661eacff6aab9eb7cc97bff763bf3c7753c5353dd90d84e4e59b25db6fa562"
+    },
+    {
+      "id": "curated-stylized-water",
+      "version": "95b6aed8a71b31d1",
+      "video": "motion-vault-assets/curated-stylized-water/preview.mp4",
+      "sha256": "fdc3afe5b3810273faacd130871d1ec09423884e2e67b11a78dadfca43010a1b"
+    },
+    {
+      "id": "curated-shape-ascii",
+      "version": "051454d34b6f999c",
+      "video": "motion-vault-assets/curated-shape-ascii/preview.mp4",
+      "sha256": "cfbb7ea031b585008be5a3d98428ed2bd0e599d6bd04ee8e0b71fa9bf8ececd3"
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "version": "2e1abf071b3aa30b",
+      "video": "motion-vault-assets/curated-reaction-diffusion/preview.mp4",
+      "sha256": "d36dd2197b1aae64979139022c4c5bd40e3a68dff8988c7bdff4201c38de57d4"
+    },
+    {
+      "id": "curated-vortex-glass",
+      "version": "d5c74e6bd34a1883",
+      "video": "motion-vault-assets/curated-vortex-glass/preview.mp4",
+      "sha256": "2ad288284a0763f689492412a9eebd9407fc34503cfc6e0ba767b31731715935"
+    },
+    {
+      "id": "curated-webgl-reveal",
+      "version": "3cffea68504ddd1a",
+      "video": "motion-vault-assets/curated-webgl-reveal/preview.mp4",
+      "sha256": "0b614b2073e853b294194551384cb153e94f2cf4f84b0fed63e767b5def0277c"
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "version": "54ff3fdc942fa76d",
+      "video": "motion-vault-assets/curated-persistent-gallery/preview.mp4",
+      "sha256": "1a632d57d4b07c5e4f44a8b54eb418fb557704a4df519c9b0ca70c87192e21c5"
+    },
+    {
+      "id": "curated-webgpu-route",
+      "version": "3f468ddac02d8e12",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4",
+      "sha256": "9fc0417d332a9cab66ccad840341450f36fdc6629fdc0da861191b0ab838a906"
+    },
+    {
+      "id": "curated-grid-full",
+      "version": "dcb9dea4d9f73cd3",
+      "video": "motion-vault-assets/curated-grid-full/preview.mp4",
+      "sha256": "ebba836ea485f29ea834c0bc20c39baab0a8735e32770b64c1241d7b927ef522"
+    },
+    {
+      "id": "curated-editorial-layout",
+      "version": "e6f8e18b6e38482c",
+      "video": "motion-vault-assets/curated-editorial-layout/preview.mp4",
+      "sha256": "5033294a62c72653fcc9c925ffb4da6919870c7711680dd882fced35687911cf"
+    },
+    {
+      "id": "curated-thumbnail-flow",
+      "version": "6f5cec0e4b516921",
+      "video": "motion-vault-assets/curated-thumbnail-flow/preview.mp4",
+      "sha256": "7d4d23baba6c4ec739b9344bea4a6b4e8d0e81184fa466099da1fb9bc65a7b4b"
+    },
+    {
+      "id": "curated-elastic-editorial",
+      "version": "7d9552c2cef9774b",
+      "video": "motion-vault-assets/curated-elastic-editorial/preview.mp4",
+      "sha256": "f15411feaa06a04106b256987f7c16803d4cc10a0f94626611411a9b2dabc97c"
+    },
+    {
+      "id": "curated-cluster",
+      "version": "72a34f23d3effd4a",
+      "video": "motion-vault-assets/curated-cluster/preview.mp4",
+      "sha256": "d0f8917cf4b6f5e35a4affccba3b56770aa3524d4a937336f404851cae11ab22"
+    },
+    {
+      "id": "curated-layer-cut",
+      "version": "1c7c7d9678d65125",
+      "video": "motion-vault-assets/curated-layer-cut/preview.mp4",
+      "sha256": "aaf79ff67512cbc72e66952f35233f479c8411034faf1f2f4c883fe14d7854ec"
+    },
+    {
+      "id": "curated-rounded-menu",
+      "version": "ecb280e1c8cd2b35",
+      "video": "motion-vault-assets/curated-rounded-menu/preview.mp4",
+      "sha256": "430a8bbfc2fe042a1695a20810c01dacf5035480ade771b5cd6858911f18e495"
+    },
+    {
+      "id": "curated-inline-menu",
+      "version": "fd4cfcead22ecc3d",
+      "video": "motion-vault-assets/curated-inline-menu/preview.mp4",
+      "sha256": "e1bce1a174a949d4cb172680cff93e651740624d1af2ee2d5a6a893b4149c147"
+    },
+    {
+      "id": "curated-tooltip-gallery",
+      "version": "b355cb24d1186dde",
+      "video": "motion-vault-assets/curated-tooltip-gallery/preview.mp4",
+      "sha256": "7bf32691780fdad3b760c5fc008f9cb12c35846e2f088587a1685f1635c04c84"
+    },
+    {
+      "id": "curated-grid-flow-nav",
+      "version": "322ddb112513aa6c",
+      "video": "motion-vault-assets/curated-grid-flow-nav/preview.mp4",
+      "sha256": "3f320647cbd364d7e9db928edf3cdbc37cbd509f76cd7636d88755f31b4ffd28"
+    }
+  ],
+  "passed": 92,
+  "total": 96,
+  "samples": [
+    {
+      "id": "curated-telescope",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-telescope/preview.mp4?v=5e790586dc35495c",
+      "firstFrameMs": 100.4,
+      "sampleMs": 2417.5,
+      "frames": 57,
+      "presentedFps": 24.85,
+      "callbackFps": 24.41,
+      "contentFps": 6.1,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 100.1,
+      "contentGapP95": 494.4,
+      "maxVisualHoldMs": 494.4,
+      "repeatFraction": 0.75,
+      "framesDecoded": 61,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 277.7,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 6.24,
+      "currentTime": 2.317572,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 3.92,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 53.9,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 54,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 100.7,
+          "time": 0.000833,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 100.9,
+          "time": 0.000924,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [
+        {
+          "at": 713.7999999523163,
+          "duration": 78
+        }
+      ],
+      "visualHolds": [
+        494.4,
+        399.9,
+        477.7,
+        122.2,
+        122.1,
+        116.7
+      ],
+      "frameGaps": [
+        100.1
+      ],
+      "version": "5e790586dc35495c",
+      "video": "motion-vault-assets/curated-telescope/preview.mp4"
+    },
+    {
+      "id": "curated-glass-torus",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-glass-torus/preview.mp4?v=34d07324a3894dd3",
+      "firstFrameMs": 865.2,
+      "sampleMs": 2406.3,
+      "frames": 39,
+      "presentedFps": 25.06,
+      "callbackFps": 25.06,
+      "contentFps": 19.12,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 83.2,
+      "maxVisualHoldMs": 355.6,
+      "repeatFraction": 0.2368,
+      "framesDecoded": 42,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 244.4,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 9.4,
+      "currentTime": 1.538124,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 7.86,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 50.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 831.5,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 871.7,
+          "time": 0.003626,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 871.8,
+          "time": 0.003692,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        355.6
+      ],
+      "frameGaps": [],
+      "version": "34d07324a3894dd3",
+      "video": "motion-vault-assets/curated-glass-torus/preview.mp4"
+    },
+    {
+      "id": "curated-metal-name",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-metal-name/preview.mp4?v=bd731e31ddc9ebc1",
+      "firstFrameMs": 766.07,
+      "sampleMs": 3102.3,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 17.7,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 122.3,
+      "maxVisualHoldMs": 483.4,
+      "repeatFraction": 0.2931,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 239,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 11.68,
+      "currentTime": 2.336194,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 9.34,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 740.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 740.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 747.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 770.4,
+          "time": 0.004296,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 770.4,
+          "time": 0.004344,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        483.4,
+        122.3,
+        199.9
+      ],
+      "frameGaps": [],
+      "version": "bd731e31ddc9ebc1",
+      "video": "motion-vault-assets/curated-metal-name/preview.mp4"
+    },
+    {
+      "id": "curated-liquid-grid",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-liquid-grid/preview.mp4?v=c815ebacdb5e56b7",
+      "firstFrameMs": 75.5,
+      "sampleMs": 2414.4,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 13.81,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 161.1,
+      "maxVisualHoldMs": 200.1,
+      "repeatFraction": 0.4483,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 283.1,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 12.36,
+      "currentTime": 2.33512,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 10.02,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 49.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 49.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 79.9,
+          "time": 0.000597,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 79.9,
+          "time": 0.000659,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        122.1,
+        116.6,
+        161.1,
+        161.1,
+        161,
+        122.2,
+        200.1,
+        155.5,
+        161.1
+      ],
+      "frameGaps": [],
+      "version": "c815ebacdb5e56b7",
+      "video": "motion-vault-assets/curated-liquid-grid/preview.mp4"
+    },
+    {
+      "id": "curated-depth",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-depth/preview.mp4?v=1f33dcbef8594b4d",
+      "firstFrameMs": 73.8,
+      "sampleMs": 2413.1,
+      "frames": 59,
+      "presentedFps": 25.1,
+      "callbackFps": 25.1,
+      "contentFps": 1.73,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 1355.4,
+      "maxVisualHoldMs": 1355.4,
+      "repeatFraction": 0.931,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.5,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 10.92,
+      "currentTime": 2.339856,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.58,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 53.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 53.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.5,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 73.8,
+          "time": 0.000572,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 74,
+          "time": 0.000661,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        511,
+        1355.4,
+        161.2,
+        161
+      ],
+      "frameGaps": [],
+      "version": "1f33dcbef8594b4d",
+      "video": "motion-vault-assets/curated-depth/preview.mp4"
+    },
+    {
+      "id": "curated-spatial-product",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-spatial-product/preview.mp4?v=29f76553ecba4e43",
+      "firstFrameMs": 105,
+      "sampleMs": 2450,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 0,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": null,
+      "maxVisualHoldMs": 2316.4,
+      "repeatFraction": 1,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.9,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 10.96,
+      "currentTime": 2.341453,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.62,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 89.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 89.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 96.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 113.3,
+          "time": 0.004666,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 113.3,
+          "time": 0.00471,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "29f76553ecba4e43",
+      "video": "motion-vault-assets/curated-spatial-product/preview.mp4"
+    },
+    {
+      "id": "curated-fluid-xray",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-fluid-xray/preview.mp4?v=32120f3862e59169",
+      "firstFrameMs": 68.7,
+      "sampleMs": 2406,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 17.7,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 83.4,
+      "maxVisualHoldMs": 361,
+      "repeatFraction": 0.2931,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 200,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 7.56,
+      "currentTime": 2.333467,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 5.23,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 48.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 58.5,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 85.3,
+          "time": 0.012832,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 85.4,
+          "time": 0.012876,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        361,
+        322.1
+      ],
+      "frameGaps": [],
+      "version": "32120f3862e59169",
+      "video": "motion-vault-assets/curated-fluid-xray/preview.mp4"
+    },
+    {
+      "id": "curated-camera-route",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-camera-route/preview.mp4?v=c13b04d58ff390e8",
+      "firstFrameMs": 78.5,
+      "sampleMs": 2414.5,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 15.11,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 400.1,
+      "maxVisualHoldMs": 555.5,
+      "repeatFraction": 0.3966,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 199.9,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 10.56,
+      "currentTime": 2.330556,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.23,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 52.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52.5,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 65.2,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 86.8,
+          "time": 0.002911,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 86.8,
+          "time": 0.002958,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        555.5,
+        400.1
+      ],
+      "frameGaps": [],
+      "version": "c13b04d58ff390e8",
+      "video": "motion-vault-assets/curated-camera-route/preview.mp4"
+    },
+    {
+      "id": "curated-cloth-object",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cloth-object/preview.mp4?v=d6fa10001d30108c",
+      "firstFrameMs": 78.9,
+      "sampleMs": 2410.2,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 20.29,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 438.8,
+      "repeatFraction": 0.1897,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.4,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 8.24,
+      "currentTime": 2.330092,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 5.91,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 58.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 58.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 66.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 80.7,
+          "time": 0.000583,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 80.7,
+          "time": 0.000677,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        438.8
+      ],
+      "frameGaps": [],
+      "version": "d6fa10001d30108c",
+      "video": "motion-vault-assets/curated-cloth-object/preview.mp4"
+    },
+    {
+      "id": "curated-emissive-dissolve",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-emissive-dissolve/preview.mp4?v=2bc09bcef2eb8770",
+      "firstFrameMs": 93.8,
+      "sampleMs": 2415.7,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 17.7,
+      "frameIntervalP95": 44.4,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 77.8,
+      "maxVisualHoldMs": 438.9,
+      "repeatFraction": 0.2931,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 239.3,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 8.04,
+      "currentTime": 2.321538,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 5.72,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.9,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 50.9,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 79.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 108.1,
+          "time": 0.013937,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 108.1,
+          "time": 0.013989,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        438.9,
+        200
+      ],
+      "frameGaps": [],
+      "version": "2bc09bcef2eb8770",
+      "video": "motion-vault-assets/curated-emissive-dissolve/preview.mp4"
+    },
+    {
+      "id": "curated-dual-wave",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-dual-wave/preview.mp4?v=d2b499f36a6c4f0c",
+      "firstFrameMs": 68.6,
+      "sampleMs": 2413.4,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 19.43,
+      "frameIntervalP95": 44.6,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 472.2,
+      "repeatFraction": 0.2241,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 277.7,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 8.6,
+      "currentTime": 2.342972,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 6.26,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 58.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 81,
+          "time": 0.010699,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 81.1,
+          "time": 0.010739,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        472.2,
+        122.1
+      ],
+      "frameGaps": [],
+      "version": "d2b499f36a6c4f0c",
+      "video": "motion-vault-assets/curated-dual-wave/preview.mp4"
+    },
+    {
+      "id": "curated-image-in-type",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=ce1e54030c2531a7",
+      "firstFrameMs": 74.87,
+      "sampleMs": 2410.6,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 9.5,
+      "frameIntervalP95": 44.4,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 161.1,
+      "maxVisualHoldMs": 472.23,
+      "repeatFraction": 0.6207,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.4,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 7.24,
+      "currentTime": 2.333703,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 4.91,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 49.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 49.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 58.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 78.5,
+          "time": 0.001556,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 78.5,
+          "time": 0.001599,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        472.2,
+        161.1,
+        116.6,
+        122.3,
+        116.7,
+        122.2,
+        122,
+        122.3,
+        116.7,
+        116.9,
+        121.9
+      ],
+      "frameGaps": [],
+      "version": "ce1e54030c2531a7",
+      "video": "motion-vault-assets/curated-image-in-type/preview.mp4"
+    },
+    {
+      "id": "curated-cylinder-type",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=b5b3f948e71c4896",
+      "firstFrameMs": 69.1,
+      "sampleMs": 2413,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 6.48,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 960.9,
+      "maxVisualHoldMs": 960.9,
+      "repeatFraction": 0.7414,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 200,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 10.52,
+      "currentTime": 2.34093,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.18,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 59.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 80.9,
+          "time": 0.008872,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 81,
+          "time": 0.008944,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        355.6,
+        116.7,
+        116.3,
+        122.2,
+        122.2,
+        960.9
+      ],
+      "frameGaps": [],
+      "version": "b5b3f948e71c4896",
+      "video": "motion-vault-assets/curated-cylinder-type/preview.mp4"
+    },
+    {
+      "id": "curated-stylized-water",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-stylized-water/preview.mp4?v=95b6aed8a71b31d1",
+      "firstFrameMs": 69.3,
+      "sampleMs": 2414.5,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 24.17,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 122.3,
+      "repeatFraction": 0.0345,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 283.2,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 11.04,
+      "currentTime": 2.342804,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.7,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 48.6,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 48.7,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 59.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 84.4,
+          "time": 0.012726,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 84.6,
+          "time": 0.012898,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        122.3
+      ],
+      "frameGaps": [],
+      "version": "95b6aed8a71b31d1",
+      "video": "motion-vault-assets/curated-stylized-water/preview.mp4"
+    },
+    {
+      "id": "curated-shape-ascii",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=051454d34b6f999c",
+      "firstFrameMs": 88,
+      "sampleMs": 2410.4,
+      "frames": 59,
+      "presentedFps": 25.1,
+      "callbackFps": 25.1,
+      "contentFps": 16.88,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 122.3,
+      "maxVisualHoldMs": 355.5,
+      "repeatFraction": 0.3276,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.5,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 8.04,
+      "currentTime": 2.322826,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 5.72,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.7,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 50.7,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 75.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 88.5,
+          "time": 0.000867,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 88.6,
+          "time": 0.00096,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        355.5,
+        122.3
+      ],
+      "frameGaps": [],
+      "version": "051454d34b6f999c",
+      "video": "motion-vault-assets/curated-shape-ascii/preview.mp4"
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=2e1abf071b3aa30b",
+      "firstFrameMs": 214.6,
+      "sampleMs": 2415.6,
+      "frames": 56,
+      "presentedFps": 25.13,
+      "callbackFps": 25.13,
+      "contentFps": 21.02,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.5,
+      "maxVisualHoldMs": 361,
+      "repeatFraction": 0.1636,
+      "framesDecoded": 59,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 283,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 11.28,
+      "currentTime": 2.201072,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 9.08,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 49.8,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 49.8,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 196.2,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 217.2,
+          "time": 0.002685,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 217.3,
+          "time": 0.00277,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        361
+      ],
+      "frameGaps": [],
+      "version": "2e1abf071b3aa30b",
+      "video": "motion-vault-assets/curated-reaction-diffusion/preview.mp4"
+    },
+    {
+      "id": "curated-vortex-glass",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-vortex-glass/preview.mp4?v=d5c74e6bd34a1883",
+      "firstFrameMs": 72.6,
+      "sampleMs": 2417.1,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 13.81,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 116.6,
+      "maxVisualHoldMs": 122.2,
+      "repeatFraction": 0.4483,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 277.5,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 7.04,
+      "currentTime": 2.342795,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 4.7,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 52,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 74.9,
+          "time": 0.00059,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 74.9,
+          "time": 0.000647,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        116.6,
+        122.2,
+        116.6
+      ],
+      "frameGaps": [],
+      "version": "d5c74e6bd34a1883",
+      "video": "motion-vault-assets/curated-vortex-glass/preview.mp4"
+    },
+    {
+      "id": "curated-webgl-reveal",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgl-reveal/preview.mp4?v=3cffea68504ddd1a",
+      "firstFrameMs": 69.1,
+      "sampleMs": 2416,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 25.04,
+      "frameIntervalP95": 44.6,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 44.6,
+      "repeatFraction": 0,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.4,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 11.32,
+      "currentTime": 2.34611,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.97,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 48.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 58.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 74.4,
+          "time": 0.004437,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 74.4,
+          "time": 0.004476,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "3cffea68504ddd1a",
+      "video": "motion-vault-assets/curated-webgl-reveal/preview.mp4"
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/preview.mp4?v=54ff3fdc942fa76d",
+      "firstFrameMs": 194.7,
+      "sampleMs": 2410.6,
+      "frames": 56,
+      "presentedFps": 25.06,
+      "callbackFps": 25.06,
+      "contentFps": 2.73,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 1072.1,
+      "maxVisualHoldMs": 1072.1,
+      "repeatFraction": 0.8909,
+      "framesDecoded": 59,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.7,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 7.44,
+      "currentTime": 2.211228,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 5.23,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 52.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 188.1,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 208.7,
+          "time": 0.009217,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 208.7,
+          "time": 0.009263,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        1072.1,
+        561.1
+      ],
+      "frameGaps": [],
+      "version": "54ff3fdc942fa76d",
+      "video": "motion-vault-assets/curated-persistent-gallery/preview.mp4"
+    },
+    {
+      "id": "curated-webgpu-route",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=3f468ddac02d8e12",
+      "firstFrameMs": 69.3,
+      "sampleMs": 2414.8,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 3.89,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 77.8,
+      "maxVisualHoldMs": 1844.3,
+      "repeatFraction": 0.8448,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.6,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 10.4,
+      "currentTime": 2.34284,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.06,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 49.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 49.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 60.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 81.6,
+          "time": 0.009735,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 81.7,
+          "time": 0.009776,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "3f468ddac02d8e12",
+      "video": "motion-vault-assets/curated-webgpu-route/preview.mp4"
+    },
+    {
+      "id": "curated-grid-full",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-full/preview.mp4?v=dcb9dea4d9f73cd3",
+      "firstFrameMs": 77.5,
+      "sampleMs": 2417.2,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 12.52,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 355.5,
+      "maxVisualHoldMs": 483.3,
+      "repeatFraction": 0.5,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 238.8,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 7.48,
+      "currentTime": 2.339006,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 5.14,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 51.6,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 51.6,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 62.6,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 84.1,
+          "time": 0.006016,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 84.2,
+          "time": 0.006086,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        233.5,
+        355.5,
+        483.3
+      ],
+      "frameGaps": [],
+      "version": "dcb9dea4d9f73cd3",
+      "video": "motion-vault-assets/curated-grid-full/preview.mp4"
+    },
+    {
+      "id": "curated-editorial-layout",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-editorial-layout/preview.mp4?v=e6f8e18b6e38482c",
+      "firstFrameMs": 71.5,
+      "sampleMs": 2415.9,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 17.27,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 122.3,
+      "maxVisualHoldMs": 316.7,
+      "repeatFraction": 0.3103,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 277.8,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 7.16,
+      "currentTime": 2.343367,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 4.82,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.9,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 51,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 83.6,
+          "time": 0.011037,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 83.6,
+          "time": 0.011078,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        316.7,
+        116.5,
+        122.3,
+        116.6,
+        122.1
+      ],
+      "frameGaps": [],
+      "version": "e6f8e18b6e38482c",
+      "video": "motion-vault-assets/curated-editorial-layout/preview.mp4"
+    },
+    {
+      "id": "curated-thumbnail-flow",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-thumbnail-flow/preview.mp4?v=6f5cec0e4b516921",
+      "firstFrameMs": 72.9,
+      "sampleMs": 2404.6,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 16.4,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 833.4,
+      "repeatFraction": 0.3448,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 322.4,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 3.16,
+      "currentTime": 2.330972,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 0.83,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 52,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 62.5,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 83,
+          "time": 0.009403,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 83.1,
+          "time": 0.009438,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        833.4
+      ],
+      "frameGaps": [],
+      "version": "6f5cec0e4b516921",
+      "video": "motion-vault-assets/curated-thumbnail-flow/preview.mp4"
+    },
+    {
+      "id": "curated-elastic-editorial",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-elastic-editorial/preview.mp4?v=7d9552c2cef9774b",
+      "firstFrameMs": 77.7,
+      "sampleMs": 2415.3,
+      "frames": 59,
+      "presentedFps": 25.1,
+      "callbackFps": 25.1,
+      "contentFps": 15.58,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 349.9,
+      "maxVisualHoldMs": 361,
+      "repeatFraction": 0.3793,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 277.5,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 10.12,
+      "currentTime": 2.337612,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 7.78,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 51.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 51.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.9,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 84.5,
+          "time": 0.006779,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 84.6,
+          "time": 0.006901,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        349.9,
+        361,
+        155.7
+      ],
+      "frameGaps": [],
+      "version": "7d9552c2cef9774b",
+      "video": "motion-vault-assets/curated-elastic-editorial/preview.mp4"
+    },
+    {
+      "id": "curated-cluster",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cluster/preview.mp4?v=72a34f23d3effd4a",
+      "firstFrameMs": 68.2,
+      "sampleMs": 2758.1,
+      "frames": 68,
+      "presentedFps": 25.02,
+      "callbackFps": 25.02,
+      "contentFps": 24.28,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 83.2,
+      "repeatFraction": 0.0299,
+      "framesDecoded": 71,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 283.1,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 11.48,
+      "currentTime": 2.682777,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 8.8,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 47.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 47.1,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 55.7,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 78.3,
+          "time": 0.002905,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 78.3,
+          "time": 0.002945,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "72a34f23d3effd4a",
+      "video": "motion-vault-assets/curated-cluster/preview.mp4"
+    },
+    {
+      "id": "curated-layer-cut",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-layer-cut/preview.mp4?v=1c7c7d9678d65125",
+      "firstFrameMs": 238.2,
+      "sampleMs": 2409.7,
+      "frames": 55,
+      "presentedFps": 25.12,
+      "callbackFps": 25.12,
+      "contentFps": 15.82,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 44.5,
+      "maxVisualHoldMs": 827.6,
+      "repeatFraction": 0.3704,
+      "framesDecoded": 58,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 277.6,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 6.24,
+      "currentTime": 2.176157,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 4.06,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 50.6,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 50.6,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 222.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 234.2,
+          "time": 0.000588,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 234.2,
+          "time": 0.000627,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        827.6
+      ],
+      "frameGaps": [],
+      "version": "1c7c7d9678d65125",
+      "video": "motion-vault-assets/curated-layer-cut/preview.mp4"
+    },
+    {
+      "id": "curated-rounded-menu",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-rounded-menu/preview.mp4?v=ecb280e1c8cd2b35",
+      "firstFrameMs": 71.6,
+      "sampleMs": 2407.9,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 16.41,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 44.5,
+      "maxVisualHoldMs": 833.2,
+      "repeatFraction": 0.3448,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 244.3,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 3.4,
+      "currentTime": 2.335401,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 1.06,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 51.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 51.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 78,
+          "time": 0.005566,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 78.1,
+          "time": 0.005608,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        833.2
+      ],
+      "frameGaps": [],
+      "version": "ecb280e1c8cd2b35",
+      "video": "motion-vault-assets/curated-rounded-menu/preview.mp4"
+    },
+    {
+      "id": "curated-inline-menu",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-inline-menu/preview.mp4?v=fd4cfcead22ecc3d",
+      "firstFrameMs": 71.8,
+      "sampleMs": 2409,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 16.4,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 44.5,
+      "maxVisualHoldMs": 833.1,
+      "repeatFraction": 0.3448,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 244.2,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 3.2,
+      "currentTime": 2.3354,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 0.86,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 51.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 51.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 61.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 80,
+          "time": 0.006476,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 80.1,
+          "time": 0.006515,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        833.1
+      ],
+      "frameGaps": [],
+      "version": "fd4cfcead22ecc3d",
+      "video": "motion-vault-assets/curated-inline-menu/preview.mp4"
+    },
+    {
+      "id": "curated-tooltip-gallery",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-tooltip-gallery/preview.mp4?v=b355cb24d1186dde",
+      "firstFrameMs": 96.9,
+      "sampleMs": 2417.6,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 12.09,
+      "frameIntervalP95": 44.6,
+      "frameIntervalMax": 44.6,
+      "contentGapP95": 44.6,
+      "maxVisualHoldMs": 716.6,
+      "repeatFraction": 0.5172,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 283.2,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 2.48,
+      "currentTime": 2.318491,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 0.16,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 48.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 48.3,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 87.3,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 104.1,
+          "time": 0.005054,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 104.2,
+          "time": 0.005124,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [
+        716.6
+      ],
+      "frameGaps": [],
+      "version": "b355cb24d1186dde",
+      "video": "motion-vault-assets/curated-tooltip-gallery/preview.mp4"
+    },
+    {
+      "id": "curated-grid-flow-nav",
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-flow-nav/preview.mp4?v=322ddb112513aa6c",
+      "firstFrameMs": 71.8,
+      "sampleMs": 2407.7,
+      "frames": 59,
+      "presentedFps": 25.04,
+      "callbackFps": 25.04,
+      "contentFps": 24.61,
+      "frameIntervalP95": 44.5,
+      "frameIntervalMax": 44.5,
+      "contentGapP95": 44.5,
+      "maxVisualHoldMs": 83.4,
+      "repeatFraction": 0.0172,
+      "framesDecoded": 62,
+      "framesDropped": 0,
+      "dropRatio": 0,
+      "decodeMsP95": 282.7,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 4.64,
+      "currentTime": 2.333691,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 657,
+      "height": 400,
+      "bufferedAhead": 2.31,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 51.9,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 52,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 62.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 81.4,
+          "time": 0.007463,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 81.4,
+          "time": 0.007501,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": [],
+      "version": "322ddb112513aa6c",
+      "video": "motion-vault-assets/curated-grid-flow-nav/preview.mp4"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Actual page matches measured file",
+      "pass": true,
+      "detail": {
+        "observedMain": "d03ec6eb6c7d48a38eb696b494e2e7a756bc95961082f286e617dd08b71797d8",
+        "formalHash": "d03ec6eb6c7d48a38eb696b494e2e7a756bc95961082f286e617dd08b71797d8"
+      }
+    },
+    {
+      "name": "Video renders curated-telescope",
+      "pass": true,
+      "detail": {
+        "id": "curated-telescope"
+      }
+    },
+    {
+      "name": "No playback stall curated-telescope",
+      "pass": true,
+      "detail": {
+        "id": "curated-telescope"
+      }
+    },
+    {
+      "name": "Continuous preview has at least 45 real visual updates/s curated-telescope",
+      "pass": false,
+      "detail": {
+        "contentFps": 6.1,
+        "contentGapP95": 494.4
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-telescope",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-glass-torus",
+      "pass": false,
+      "detail": {
+        "id": "curated-glass-torus"
+      }
+    },
+    {
+      "name": "No playback stall curated-glass-torus",
+      "pass": true,
+      "detail": {
+        "id": "curated-glass-torus"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-glass-torus",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-metal-name",
+      "pass": true,
+      "detail": {
+        "id": "curated-metal-name"
+      }
+    },
+    {
+      "name": "No playback stall curated-metal-name",
+      "pass": true,
+      "detail": {
+        "id": "curated-metal-name"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-metal-name",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-liquid-grid",
+      "pass": true,
+      "detail": {
+        "id": "curated-liquid-grid"
+      }
+    },
+    {
+      "name": "No playback stall curated-liquid-grid",
+      "pass": true,
+      "detail": {
+        "id": "curated-liquid-grid"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-liquid-grid",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-depth",
+      "pass": true,
+      "detail": {
+        "id": "curated-depth"
+      }
+    },
+    {
+      "name": "No playback stall curated-depth",
+      "pass": true,
+      "detail": {
+        "id": "curated-depth"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-depth",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-spatial-product",
+      "pass": true,
+      "detail": {
+        "id": "curated-spatial-product"
+      }
+    },
+    {
+      "name": "No playback stall curated-spatial-product",
+      "pass": true,
+      "detail": {
+        "id": "curated-spatial-product"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-spatial-product",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-fluid-xray",
+      "pass": true,
+      "detail": {
+        "id": "curated-fluid-xray"
+      }
+    },
+    {
+      "name": "No playback stall curated-fluid-xray",
+      "pass": true,
+      "detail": {
+        "id": "curated-fluid-xray"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-fluid-xray",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-camera-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-camera-route"
+      }
+    },
+    {
+      "name": "No playback stall curated-camera-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-camera-route"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-camera-route",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-cloth-object",
+      "pass": true,
+      "detail": {
+        "id": "curated-cloth-object"
+      }
+    },
+    {
+      "name": "No playback stall curated-cloth-object",
+      "pass": true,
+      "detail": {
+        "id": "curated-cloth-object"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-cloth-object",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-emissive-dissolve",
+      "pass": true,
+      "detail": {
+        "id": "curated-emissive-dissolve"
+      }
+    },
+    {
+      "name": "No playback stall curated-emissive-dissolve",
+      "pass": true,
+      "detail": {
+        "id": "curated-emissive-dissolve"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-emissive-dissolve",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-dual-wave",
+      "pass": true,
+      "detail": {
+        "id": "curated-dual-wave"
+      }
+    },
+    {
+      "name": "No playback stall curated-dual-wave",
+      "pass": true,
+      "detail": {
+        "id": "curated-dual-wave"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-dual-wave",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "No playback stall curated-image-in-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-image-in-type"
+      }
+    },
+    {
+      "name": "Continuous preview has at least 45 real visual updates/s curated-image-in-type",
+      "pass": false,
+      "detail": {
+        "contentFps": 9.5,
+        "contentGapP95": 161.1
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-image-in-type",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-cylinder-type"
+      }
+    },
+    {
+      "name": "No playback stall curated-cylinder-type",
+      "pass": true,
+      "detail": {
+        "id": "curated-cylinder-type"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-cylinder-type",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-stylized-water",
+      "pass": true,
+      "detail": {
+        "id": "curated-stylized-water"
+      }
+    },
+    {
+      "name": "No playback stall curated-stylized-water",
+      "pass": true,
+      "detail": {
+        "id": "curated-stylized-water"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-stylized-water",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "id": "curated-shape-ascii"
+      }
+    },
+    {
+      "name": "No playback stall curated-shape-ascii",
+      "pass": true,
+      "detail": {
+        "id": "curated-shape-ascii"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-shape-ascii",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-reaction-diffusion",
+      "pass": true,
+      "detail": {
+        "id": "curated-reaction-diffusion"
+      }
+    },
+    {
+      "name": "No playback stall curated-reaction-diffusion",
+      "pass": true,
+      "detail": {
+        "id": "curated-reaction-diffusion"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-reaction-diffusion",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-vortex-glass",
+      "pass": true,
+      "detail": {
+        "id": "curated-vortex-glass"
+      }
+    },
+    {
+      "name": "No playback stall curated-vortex-glass",
+      "pass": true,
+      "detail": {
+        "id": "curated-vortex-glass"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-vortex-glass",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-webgl-reveal",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgl-reveal"
+      }
+    },
+    {
+      "name": "No playback stall curated-webgl-reveal",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgl-reveal"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-webgl-reveal",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-persistent-gallery",
+      "pass": true,
+      "detail": {
+        "id": "curated-persistent-gallery"
+      }
+    },
+    {
+      "name": "No playback stall curated-persistent-gallery",
+      "pass": true,
+      "detail": {
+        "id": "curated-persistent-gallery"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-persistent-gallery",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "No playback stall curated-webgpu-route",
+      "pass": true,
+      "detail": {
+        "id": "curated-webgpu-route"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-webgpu-route",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-grid-full",
+      "pass": true,
+      "detail": {
+        "id": "curated-grid-full"
+      }
+    },
+    {
+      "name": "No playback stall curated-grid-full",
+      "pass": true,
+      "detail": {
+        "id": "curated-grid-full"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-grid-full",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-editorial-layout",
+      "pass": true,
+      "detail": {
+        "id": "curated-editorial-layout"
+      }
+    },
+    {
+      "name": "No playback stall curated-editorial-layout",
+      "pass": true,
+      "detail": {
+        "id": "curated-editorial-layout"
+      }
+    },
+    {
+      "name": "Continuous preview has at least 45 real visual updates/s curated-editorial-layout",
+      "pass": false,
+      "detail": {
+        "contentFps": 17.27,
+        "contentGapP95": 122.3
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-editorial-layout",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-thumbnail-flow",
+      "pass": true,
+      "detail": {
+        "id": "curated-thumbnail-flow"
+      }
+    },
+    {
+      "name": "No playback stall curated-thumbnail-flow",
+      "pass": true,
+      "detail": {
+        "id": "curated-thumbnail-flow"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-thumbnail-flow",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-elastic-editorial",
+      "pass": true,
+      "detail": {
+        "id": "curated-elastic-editorial"
+      }
+    },
+    {
+      "name": "No playback stall curated-elastic-editorial",
+      "pass": true,
+      "detail": {
+        "id": "curated-elastic-editorial"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-elastic-editorial",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-cluster",
+      "pass": true,
+      "detail": {
+        "id": "curated-cluster"
+      }
+    },
+    {
+      "name": "No playback stall curated-cluster",
+      "pass": true,
+      "detail": {
+        "id": "curated-cluster"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-cluster",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-layer-cut",
+      "pass": true,
+      "detail": {
+        "id": "curated-layer-cut"
+      }
+    },
+    {
+      "name": "No playback stall curated-layer-cut",
+      "pass": true,
+      "detail": {
+        "id": "curated-layer-cut"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-layer-cut",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-rounded-menu",
+      "pass": true,
+      "detail": {
+        "id": "curated-rounded-menu"
+      }
+    },
+    {
+      "name": "No playback stall curated-rounded-menu",
+      "pass": true,
+      "detail": {
+        "id": "curated-rounded-menu"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-rounded-menu",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-inline-menu",
+      "pass": true,
+      "detail": {
+        "id": "curated-inline-menu"
+      }
+    },
+    {
+      "name": "No playback stall curated-inline-menu",
+      "pass": true,
+      "detail": {
+        "id": "curated-inline-menu"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-inline-menu",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-tooltip-gallery",
+      "pass": true,
+      "detail": {
+        "id": "curated-tooltip-gallery"
+      }
+    },
+    {
+      "name": "No playback stall curated-tooltip-gallery",
+      "pass": true,
+      "detail": {
+        "id": "curated-tooltip-gallery"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-tooltip-gallery",
+      "pass": true
+    },
+    {
+      "name": "Video renders curated-grid-flow-nav",
+      "pass": true,
+      "detail": {
+        "id": "curated-grid-flow-nav"
+      }
+    },
+    {
+      "name": "No playback stall curated-grid-flow-nav",
+      "pass": true,
+      "detail": {
+        "id": "curated-grid-flow-nav"
+      }
+    },
+    {
+      "name": "Leaving releases preview curated-grid-flow-nav",
+      "pass": true
+    },
+    {
+      "name": "No page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Measured source remained unchanged",
+      "pass": true
+    }
+  ],
+  "network": [
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-telescope/preview.mp4?v=5e790586dc35495c",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"3f73e-1a11125c6ef\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-259901/259902",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "259902",
+        "Date": "Tue, 06 Oct 2026 15:55:52 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:30 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-glass-torus/preview.mp4?v=34d07324a3894dd3",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"1dd6f-1a1112598f2\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-122222/122223",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "122223",
+        "Date": "Tue, 06 Oct 2026 15:55:55 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:19 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-metal-name/preview.mp4?v=bd731e31ddc9ebc1",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"384aa-1a11125a644\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-230569/230570",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "230570",
+        "Date": "Tue, 06 Oct 2026 15:55:58 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:22 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-liquid-grid/preview.mp4?v=c815ebacdb5e56b7",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"389ea-1a11125a591\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-231913/231914",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "231914",
+        "Date": "Tue, 06 Oct 2026 15:56:00 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:22 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-depth/preview.mp4?v=1f33dcbef8594b4d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"1c9f6-1a111257e04\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-117237/117238",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "117238",
+        "Date": "Tue, 06 Oct 2026 15:56:03 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-spatial-product/preview.mp4?v=29f76553ecba4e43",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"2c3f6-1a11125afb4\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-181237/181238",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "181238",
+        "Date": "Tue, 06 Oct 2026 15:56:06 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:24 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-fluid-xray/preview.mp4?v=32120f3862e59169",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"2b281-1a11125976b\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-176768/176769",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "176769",
+        "Date": "Tue, 06 Oct 2026 15:56:08 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:18 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-camera-route/preview.mp4?v=c13b04d58ff390e8",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"fc199-1a111257660\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-1032600/1032601",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "1032601",
+        "Date": "Tue, 06 Oct 2026 15:56:11 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:10 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cloth-object/preview.mp4?v=d6fa10001d30108c",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"10358-1a11125774c\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-66391/66392",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "66392",
+        "Date": "Tue, 06 Oct 2026 15:56:13 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:10 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-emissive-dissolve/preview.mp4?v=2bc09bcef2eb8770",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"60c94-1a1112595af\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-396435/396436",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "396436",
+        "Date": "Tue, 06 Oct 2026 15:56:16 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:18 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-dual-wave/preview.mp4?v=d2b499f36a6c4f0c",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"8fe3b-1a111257e6e\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-589370/589371",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "589371",
+        "Date": "Tue, 06 Oct 2026 15:56:19 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:12 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/preview.mp4?v=ce1e54030c2531a7",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"83a88-1a11125a301\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-539271/539272",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "539272",
+        "Date": "Tue, 06 Oct 2026 15:56:21 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:21 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/preview.mp4?v=b5b3f948e71c4896",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"d72a3-1a11125793b\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-881314/881315",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "881315",
+        "Date": "Tue, 06 Oct 2026 15:56:24 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:10 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-stylized-water/preview.mp4?v=95b6aed8a71b31d1",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"aa995-1a11125c54b\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-698772/698773",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "698773",
+        "Date": "Tue, 06 Oct 2026 15:56:27 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:30 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/preview.mp4?v=051454d34b6f999c",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"244a4-1a11125ae09\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-148643/148644",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "148644",
+        "Date": "Tue, 06 Oct 2026 15:56:29 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:24 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=2e1abf071b3aa30b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"12f908-1a11125ac50\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-1243399/1243400",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "1243400",
+        "Date": "Tue, 06 Oct 2026 15:56:32 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:24 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-vortex-glass/preview.mp4?v=d5c74e6bd34a1883",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"3ae1e-1a11125cf12\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-241181/241182",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "241182",
+        "Date": "Tue, 06 Oct 2026 15:56:34 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:32 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgl-reveal/preview.mp4?v=3cffea68504ddd1a",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"346a8-1a11125d7eb\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-214695/214696",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "214696",
+        "Date": "Tue, 06 Oct 2026 15:56:37 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:35 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/preview.mp4?v=54ff3fdc942fa76d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"14fa6-1a11125a6c2\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-85925/85926",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "85926",
+        "Date": "Tue, 06 Oct 2026 15:56:40 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:22 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/preview.mp4?v=3f468ddac02d8e12",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"112f1-1a11125d9b1\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-70384/70385",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "70385",
+        "Date": "Tue, 06 Oct 2026 15:56:42 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:35 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-full/preview.mp4?v=dcb9dea4d9f73cd3",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"18d69-1a11125999f\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-101736/101737",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "101737",
+        "Date": "Tue, 06 Oct 2026 15:56:45 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:19 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-editorial-layout/preview.mp4?v=e6f8e18b6e38482c",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"69a03-1a11125816a\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-432642/432643",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "432643",
+        "Date": "Tue, 06 Oct 2026 15:56:47 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:13 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-thumbnail-flow/preview.mp4?v=6f5cec0e4b516921",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"197c0-1a11125c818\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-104383/104384",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "104384",
+        "Date": "Tue, 06 Oct 2026 15:56:50 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:31 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-elastic-editorial/preview.mp4?v=7d9552c2cef9774b",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"6fe08-1a111258d7f\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-458247/458248",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "458248",
+        "Date": "Tue, 06 Oct 2026 15:56:53 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:16 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cluster/preview.mp4?v=72a34f23d3effd4a",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"17d388-1a11125786f\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-1561479/1561480",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "1561480",
+        "Date": "Tue, 06 Oct 2026 15:56:55 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:10 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-layer-cut/preview.mp4?v=1c7c7d9678d65125",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"4f9cc-1a11125a519\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-326091/326092",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "326092",
+        "Date": "Tue, 06 Oct 2026 15:56:58 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:22 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-rounded-menu/preview.mp4?v=ecb280e1c8cd2b35",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"193c7-1a11125ada2\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-103366/103367",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "103367",
+        "Date": "Tue, 06 Oct 2026 15:57:01 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:24 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-inline-menu/preview.mp4?v=fd4cfcead22ecc3d",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"1a420-1a11125a4cf\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-107551/107552",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "107552",
+        "Date": "Tue, 06 Oct 2026 15:57:03 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:22 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-tooltip-gallery/preview.mp4?v=b355cb24d1186dde",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"1903f-1a11125ce90\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-102462/102463",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "102463",
+        "Date": "Tue, 06 Oct 2026 15:57:06 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:32 GMT",
+        "Content-Type": "video/mp4"
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-flow-nav/preview.mp4?v=322ddb112513aa6c",
+      "status": 206,
+      "mimeType": "video/mp4",
+      "fromDiskCache": false,
+      "headers": {
+        "Cache-Control": "public, max-age=0",
+        "ETag": "W/\"28c05-1a111259946\"",
+        "Connection": "keep-alive",
+        "Content-Range": "bytes 0-166916/166917",
+        "Accept-Ranges": "bytes",
+        "Keep-Alive": "timeout=5",
+        "Content-Length": "166917",
+        "Date": "Tue, 06 Oct 2026 15:57:09 GMT",
+        "Last-Modified": "Tue, 06 Oct 2026 12:17:19 GMT",
+        "Content-Type": "video/mp4"
+      }
+    }
+  ],
+  "errors": []
+}

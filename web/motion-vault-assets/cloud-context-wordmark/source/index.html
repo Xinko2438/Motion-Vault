@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ATELIER — a context-aware wordmark</title>
+<style>
+:root{--paper:#f4f3ed;--ink:#272925;--muted:#818279;--rule:#d1d1c7;--accent:#b95734;--pad:clamp(18px,4.4vw,58px);--logo-max:min(15vw,24vh);--logo-min:clamp(27px,4.5vw,50px);--roll-distance:45;--scroll-duration:1700}
+*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden}body{font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink)}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,.scroller:focus-visible{outline:2px solid var(--accent);outline-offset:-4px}button:focus-visible{outline-offset:5px}button{touch-action:manipulation}::selection{background:#cbcec0}.viewport{position:relative;width:100%;height:100%;overflow:hidden;isolation:isolate}.scroller{width:100%;height:100%;overflow:auto;scrollbar-width:none;overscroll-behavior:contain;outline:0}.scroller::-webkit-scrollbar{display:none}.panel{position:relative;min-height:100%;height:100%;padding:0 var(--pad);overflow:hidden}.panel--hero{background:var(--paper)}.panel--practice{background:var(--ink);color:var(--paper)}.panel--closing{background:#ebeae1}.fixed-header{position:absolute;top:0;left:0;right:0;z-index:10;pointer-events:none;padding:3.4vh var(--pad);display:flex;align-items:flex-start;justify-content:space-between;color:var(--context-ink,var(--ink))}.wordmark{font-size:calc(var(--logo-max)*(1 - var(--collapse,0)) + var(--logo-min)*var(--collapse,0));font-weight:900;letter-spacing:-.085em;line-height:.83;white-space:nowrap;margin:0;display:flex;align-items:flex-start;transform-origin:left top}.letter-shell{display:inline-block;position:relative;perspective:420px;transform-origin:center 50%;height:.94em}.letter{display:block;transform:translate3d(0,var(--shift,0px),0) rotateX(var(--roll,0deg)) rotateZ(var(--lean,0deg));color:var(--letter-ink,var(--ink));transform-origin:50% 80%;backface-visibility:hidden;will-change:transform}.wordmark .dot{color:var(--accent)}.header-right{display:flex;flex-direction:column;align-items:flex-end;gap:13px;font-size:10px;line-height:1.4;letter-spacing:.06em;text-transform:uppercase;padding-top:3px}.header-right .current{font-family:Georgia,serif;font-size:13px;font-style:italic;text-transform:none;letter-spacing:0}.logo-caption{position:absolute;left:var(--pad);top:calc(4vh + var(--logo-max));font-size:9px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);opacity:var(--caption-opacity,1)}.hero-content{position:absolute;left:var(--pad);right:var(--pad);top:35%;bottom:15%;display:grid;grid-template-columns:48% 52%;align-items:center}.eyebrow{font-size:9px;letter-spacing:.11em;text-transform:uppercase;display:flex;align-items:center;gap:9px;margin:0 0 17px}.eyebrow::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent)}h1,h2{font-weight:normal;font-family:Georgia,'Times New Roman',serif;letter-spacing:-.064em;margin:0;line-height:.99}h1{font-size:clamp(30px,6.4vw,78px)}h1 em,h2 em{font-weight:normal}.description{font-size:11px;line-height:1.7;max-width:250px;color:var(--muted);margin:19px 0 0}.art-frame{position:relative;display:grid;place-items:center;width:100%;height:100%;min-height:0}.orbit-sculpture{width:min(32vw,43vh);aspect-ratio:1;position:relative;transform:rotate(-23deg)}.orbit-sculpture .band{position:absolute;inset:calc(var(--i)*2.9%);border:clamp(2px,.55vw,6px) solid var(--ink);border-radius:48%;transform:rotate(calc(var(--i)*7deg)) scaleX(.76)}.orbit-sculpture .band:nth-child(2n){border-color:#5c6056}.art-caption{font-size:8px;letter-spacing:.06em;color:var(--muted);position:absolute;bottom:-5%;left:10%;right:0;display:flex;justify-content:space-between}.art-cross{position:absolute;width:8px;height:8px;left:8%;top:4%;font-size:14px;font-weight:normal;color:var(--muted)}.art-cross:last-child{top:auto;left:auto;bottom:5%;right:2%}.hero-bottom{position:absolute;bottom:9%;left:var(--pad);right:var(--pad);display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--rule);padding-top:17px}.explore{border:0;background:none;display:flex;align-items:center;gap:35px;font-size:11px;padding:0}.arrow{font-size:20px;display:inline-block;transition:transform .25s}.explore:hover .arrow{transform:translateY(4px)}.small-note{font-size:9px;letter-spacing:.025em;color:var(--muted)}.practice-content{position:absolute;inset:24% var(--pad) 15%;display:grid;grid-template-columns:55% 45%;align-items:center}.practice-content h2{font-size:clamp(38px,7.2vw,91px)}.practice-content .eyebrow{color:#babcaf}.practice-content .description{color:#afb3a6;max-width:250px}.practice-art{position:relative;width:100%;height:100%;display:grid;place-items:center;overflow:hidden}.paper-stack{width:min(28vw,38vh);height:min(32vw,45vh);position:relative;transform:rotate(-9deg)}.sheet{position:absolute;inset:0;background:#e5e5d9;border:1px solid #bfc1b1;transform:translate(calc(var(--i)*2.1%),calc(var(--i)*-1.6%)) rotate(calc(var(--i)*3deg));transform-origin:center bottom;box-shadow:-5px 2px 10px #10140d15}.sheet:last-child{background:var(--paper);display:flex;align-items:center;justify-content:center;overflow:hidden}.sheet-line{position:absolute;width:135%;height:135%;border:1px solid #777d6f;border-radius:50%;left:calc(var(--n)*9% - 90%);top:-15%;transform:rotate(20deg)}.paper-signature{position:absolute;left:10%;bottom:8%;font:italic clamp(10px,1.3vw,18px) Georgia,serif}.practice-bottom{position:absolute;bottom:10%;left:var(--pad);right:var(--pad);border-top:1px solid #50554a;padding-top:18px;display:flex;justify-content:space-between;font-size:9px;letter-spacing:.05em;color:#afb3a6}.closing-content{position:absolute;inset:27% var(--pad) 17%;display:grid;grid-template-columns:58% 42%;align-items:center}.closing-content h2{font-size:clamp(32px,6.6vw,83px)}.closing-figure{width:min(28vw,38vh);aspect-ratio:1;position:relative;display:grid;place-items:center}.ring{position:absolute;inset:calc(var(--i)*4%);border:clamp(2px,.45vw,5px) solid var(--ink);border-radius:50%;transform:translateX(calc(var(--i)*2%)) rotateX(22deg)}.ring:nth-child(3n){border-color:var(--accent)}.closing-bottom{position:absolute;bottom:11%;left:var(--pad);right:var(--pad);border-top:1px solid #c4c5b9;padding-top:17px;display:flex;justify-content:space-between;align-items:center}.back{font-size:10px;border:0;padding:0;background:none;display:flex;align-items:center;gap:30px}.back:hover .arrow{transform:translateY(-4px)}.scroll-nav{position:absolute;z-index:15;right:var(--pad);bottom:3.4vh;display:flex;align-items:center;gap:9px;color:var(--footer-ink,var(--ink))}.scroll-nav button{background:none;border:0;min-height:24px;min-width:25px;padding:3px;font-size:9px;opacity:.4;position:relative}.scroll-nav button[aria-current="true"]{opacity:1}.scroll-nav button::after{content:"";position:absolute;bottom:0;left:20%;right:20%;height:1px;background:currentColor;transform:scaleX(0);transition:transform .2s}.scroll-nav button[aria-current="true"]::after{transform:scaleX(1)}.scroll-label{position:absolute;left:var(--pad);bottom:4.4vh;z-index:15;display:flex;align-items:center;gap:10px;font-size:8px;letter-spacing:.04em;color:var(--footer-ink,var(--ink))}.scroll-progress{height:1px;width:52px;background:currentColor;opacity:.4;position:relative;transform-origin:left;transform:scaleX(var(--progress,.03))}.sr-only{position:absolute;clip:rect(0,0,0,0);clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap}
+@media(max-width:600px),(max-height:400px){:root{--pad:20px;--logo-max:min(16vw,25vh);--logo-min:24px}.fixed-header{padding-top:4vh}.header-right{font-size:6px;gap:4px;padding-top:0}.header-right .current{font-size:8px}.logo-caption{font-size:5px;top:calc(5vh + var(--logo-max))}.hero-content{top:34%;bottom:19%;grid-template-columns:53% 47%}.eyebrow{font-size:5px;gap:4px;margin-bottom:7px}.eyebrow::before{width:3px;height:3px}h1{font-size:clamp(20px,6.1vw,37px)}.description{font-size:6px;line-height:1.5;max-width:160px;margin-top:7px}.orbit-sculpture{width:min(30vw,43vh)}.orbit-sculpture .band{border-width:2px}.art-caption{font-size:4px;bottom:-3%;left:1%}.art-caption span:last-child{display:none}.art-cross{font-size:9px}.hero-bottom{bottom:10%;padding-top:7px}.explore{font-size:6px;gap:15px}.arrow{font-size:12px}.small-note{font-size:5px}.practice-content{inset:25% var(--pad) 22%;grid-template-columns:57% 43%}.practice-content h2{font-size:clamp(26px,7vw,44px)}.paper-stack{width:min(25vw,39vh);height:min(32vw,46vh)}.paper-signature{font-size:6px}.practice-bottom{bottom:12%;font-size:5px;padding-top:8px}.closing-content{inset:25% var(--pad) 23%;grid-template-columns:58% 42%}.closing-content h2{font-size:clamp(25px,6.7vw,40px)}.closing-figure{width:min(28vw,38vh)}.ring{border-width:2px}.closing-bottom{bottom:12%;padding-top:8px}.back{font-size:6px;gap:14px}.scroll-nav{bottom:2vh;gap:3px}.scroll-nav button{font-size:6px;min-width:17px;min-height:15px}.scroll-label{font-size:5px;bottom:4.3vh;gap:5px}.scroll-progress{width:28px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}.letter{will-change:auto}}
+</style>
+</head>
+<body>
+<div class="viewport">
+<header class="fixed-header" aria-label="Atelier studio">
+<div class="wordmark" role="img" aria-label="Atelier."><span class="letter-shell"><span class="letter">A</span></span><span class="letter-shell"><span class="letter">T</span></span><span class="letter-shell"><span class="letter">E</span></span><span class="letter-shell"><span class="letter">L</span></span><span class="letter-shell"><span class="letter">I</span></span><span class="letter-shell"><span class="letter">E</span></span><span class="letter-shell"><span class="letter">R</span></span><span class="letter-shell"><span class="letter dot">.</span></span></div>
+<div class="header-right"><span>Independent design practice</span><span class="current">A study in attention</span></div>
+</header>
+<div class="logo-caption" aria-hidden="true">Objects / identities / experiences</div>
+<main class="scroller" id="scroller" tabindex="0" aria-label="Scroll through three studio chapters">
+<section class="panel panel--hero" data-section="0" aria-label="Introduction">
+<div class="hero-content"><div><p class="eyebrow">A practice in looking closer</p><h1>The quiet art<br>of <em>attention.</em></h1><p class="description">We shape identities with a sense of place.<br>Considered in detail. Open to possibility.</p></div><div class="art-frame" aria-label="Original orbital line sculpture"><span class="art-cross" aria-hidden="true">+</span><div class="orbit-sculpture" aria-hidden="true"><i class="band" style="--i:0"></i><i class="band" style="--i:1"></i><i class="band" style="--i:2"></i><i class="band" style="--i:3"></i><i class="band" style="--i:4"></i><i class="band" style="--i:5"></i><i class="band" style="--i:6"></i><i class="band" style="--i:7"></i><i class="band" style="--i:8"></i><i class="band" style="--i:9"></i><i class="band" style="--i:10"></i></div><div class="art-caption"><span>STUDY 01 / CONTINUOUS FORM</span><span>2026</span></div><span class="art-cross" aria-hidden="true">+</span></div></div>
+<div class="hero-bottom"><button class="explore" data-section-go="1">Explore our approach <span class="arrow" aria-hidden="true">↓</span></button><span class="small-note">Good things happen in the details.</span></div>
+</section>
+<section class="panel panel--practice" data-section="1" aria-label="Our practice">
+<div class="practice-content"><div><p class="eyebrow">01 / The practice</p><h2>Less, but<br><em>considered.</em></h2><p class="description">An identity is more than a mark. It is a way of being, moving, and making room for the things that matter.</p></div><div class="practice-art" aria-label="Original stack of paper studies"><div class="paper-stack" aria-hidden="true"><i class="sheet" style="--i:0"></i><i class="sheet" style="--i:1"></i><i class="sheet" style="--i:2"></i><i class="sheet" style="--i:3"></i><i class="sheet" style="--i:4"></i><i class="sheet" style="--i:5"><span class="sheet-line" style="--n:0"></span><span class="sheet-line" style="--n:1"></span><span class="sheet-line" style="--n:2"></span><span class="sheet-line" style="--n:3"></span><span class="sheet-line" style="--n:4"></span><span class="sheet-line" style="--n:5"></span><span class="sheet-line" style="--n:6"></span><span class="paper-signature">A considered practice.</span></i></div></div></div>
+<div class="practice-bottom"><span>STRATEGY & IDENTITY</span><span>Clarity takes a little care.</span></div>
+</section>
+<section class="panel panel--closing" data-section="2" aria-label="Possibility">
+<div class="closing-content"><div><p class="eyebrow">02 / Always becoming</p><h2>Leave room<br>for what<br>comes <em>next.</em></h2></div><div class="closing-figure" aria-label="Original open concentric ring sculpture"><i class="ring" style="--i:0"></i><i class="ring" style="--i:1"></i><i class="ring" style="--i:2"></i><i class="ring" style="--i:3"></i><i class="ring" style="--i:4"></i><i class="ring" style="--i:5"></i><i class="ring" style="--i:6"></i><i class="ring" style="--i:7"></i></div></div>
+<div class="closing-bottom"><span class="small-note">A good idea is just the beginning.</span><button class="back" data-section-go="0">Return to the beginning <span class="arrow" aria-hidden="true">↑</span></button></div>
+</section>
+</main>
+<div class="scroll-label" aria-hidden="true"><span class="scroll-progress"></span><span class="scroll-text">SCROLL TO DISCOVER</span></div>
+<nav class="scroll-nav" aria-label="Chapter navigation"><button data-section-go="0" aria-label="Introduction" aria-current="true">01</button><button data-section-go="1" aria-label="Our practice" aria-current="false">02</button><button data-section-go="2" aria-label="Possibility" aria-current="false">03</button></nav>
+<div class="sr-only" role="status" aria-live="polite"></div>
+</div>
+<script>
+/* Original section-aware wordmark. Each letter responds to the section boundary, not a loop. */
+(() => {
+  'use strict';
+  const viewport = document.querySelector('.viewport');
+  const scroller = document.querySelector('#scroller');
+  const wordmark = document.querySelector('.wordmark');
+  const letters = [...document.querySelectorAll('.letter')];
+  const panels = [...document.querySelectorAll('.panel')];
+  const nav = [...document.querySelectorAll('.scroll-nav button')];
+  const status = document.querySelector('[role="status"]');
+  const currentLabel = document.querySelector('.current');
+  const captions = ['A study in attention','A considered practice','Always becoming'];
+  const media = matchMedia('(prefers-reduced-motion: reduce)');
+  const params = new URLSearchParams(location.search);
+  const reduced = () => media.matches && params.get('motionIntent') !== 'hover';
+  const listeners = new AbortController(), signal = listeners.signal;
+  let frame = 0, glideFrame = 0, demoTimer = 0, current = -1;
+  let disposed = false, pointerOwns = false, demoEnabled = params.get('demo')==='1';
+  let demoDirection = 1;
+  const clamp = (value,min=0,max=1)=>Math.max(min,Math.min(max,value));
+  const smooth = x => x*x*(3-2*x);
+  const rootStyle = () => getComputedStyle(document.documentElement);
+
+  function update() {
+    frame=0;
+    if(disposed || document.hidden) return;
+    const height = scroller.clientHeight, width = scroller.clientWidth;
+    const scroll = scroller.scrollTop;
+    const progress = clamp(scroll/(scroller.scrollHeight-height));
+    const collapse = smooth(clamp(scroll/(height*.62)));
+    const small = width<=600 || height<=400;
+    viewport.style.setProperty('--collapse',String(collapse));
+    const fontSize = parseFloat(getComputedStyle(wordmark).fontSize);
+    viewport.style.setProperty('--caption-opacity',String(1-clamp(collapse*2.3)));
+    viewport.style.setProperty('--progress',String(Math.max(.03,progress)));
+    const headerY = height*(small?.04:.034)+fontSize*.45;
+    const color = scroll+headerY>=height && scroll+headerY<height*2 ? '#f4f3ed':'#272925';
+    viewport.style.setProperty('--context-ink',color);
+    const footerSample = scroll+height*.96;
+    viewport.style.setProperty('--footer-ink',footerSample>=height && footerSample<height*2?'#f4f3ed':'#272925');
+    const rollDistance = parseFloat(rootStyle().getPropertyValue('--roll-distance')) || 45;
+    letters.forEach((letter,index)=>{
+      // Delay each glyph's handover: the horizontal seam ripples across the wordmark.
+      const delay = (index-(letters.length-1)/2)*fontSize*.20;
+      const sample = scroll+headerY-delay;
+      const section = Math.floor(clamp(sample/height,0,2.999));
+      const ink = index===letters.length-1 ? (section===1?'#dea78b':'#b95734') : (section===1?'#f4f3ed':'#272925');
+      const nearBoundary = Math.min(Math.abs(sample-height),Math.abs(sample-height*2));
+      const roll = Math.max(0,1-nearBoundary/(fontSize*1.4));
+      const eased = Math.sin(roll*Math.PI/2);
+      letter.style.setProperty('--letter-ink',ink);
+      letter.style.setProperty('--roll',reduced()?'0deg':(-78*eased)+'deg');
+      letter.style.setProperty('--shift',reduced()?'0px':(-rollDistance*eased*(small?.4:1))+'px');
+      letter.style.setProperty('--lean',reduced()?'0deg':((index-3.5)*eased*1.8)+'deg');
+      letter.style.opacity = reduced() ? '1' : String(1-eased*.65);
+    });
+    const section = clamp(Math.floor((scroll+height*.48)/height),0,2);
+    if (section!==current) {
+      current=section;
+      nav.forEach((button,index)=>button.setAttribute('aria-current',String(index===section)));
+      currentLabel.textContent=captions[section];
+      status.textContent=`Chapter ${section+1}: ${panels[section].getAttribute('aria-label')}.`;
+    }
+  }
+  function scheduleUpdate(){if(!frame&&!disposed&&!document.hidden)frame=requestAnimationFrame(update);}
+  function stopGlide(){cancelAnimationFrame(glideFrame);glideFrame=0;}
+  function clearDemo(){clearTimeout(demoTimer);demoTimer=0;}
+  function scheduleDemo(){
+    clearDemo();
+    if(!demoEnabled||pointerOwns||disposed||document.hidden||reduced())return;
+    demoTimer=setTimeout(()=>{
+      if(current===2)demoDirection=-1;
+      if(current===0)demoDirection=1;
+      goTo(current+demoDirection,false);
+    },2300);
+  }
+  function goTo(index,fromInput=true){
+    if(disposed)return;
+    index=clamp(index,0,2); stopGlide(); clearDemo();
+    const target=panels[index].offsetTop;
+    if(fromInput){pointerOwns=true;}
+    if(reduced() || document.hidden){scroller.scrollTop=target;update();scheduleDemo();return;}
+    const from=scroller.scrollTop;
+    const duration=parseFloat(rootStyle().getPropertyValue('--scroll-duration'))||1700;
+    const start=performance.now();
+    function tick(now){
+      if(disposed||document.hidden){glideFrame=0;return;}
+      const t=clamp((now-start)/duration);
+      const eased=t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+      scroller.scrollTop=from+(target-from)*eased;
+      if(t<1)glideFrame=requestAnimationFrame(tick);
+      else{glideFrame=0;scheduleDemo();}
+    }
+    glideFrame=requestAnimationFrame(tick);
+  }
+  function takeControl(){pointerOwns=true;stopGlide();clearDemo();}
+  scroller.addEventListener('scroll',scheduleUpdate,{passive:true,signal});
+  viewport.addEventListener('click',event=>{
+    const target=event.target.closest('[data-section-go]');
+    if(target)goTo(Number(target.dataset.sectionGo));
+  },{signal});
+  viewport.addEventListener('wheel',takeControl,{passive:true,signal});
+  viewport.addEventListener('touchstart',takeControl,{passive:true,signal});
+  viewport.addEventListener('pointerdown',takeControl,{passive:true,signal});
+  viewport.addEventListener('pointermove',event=>{
+    if(event.isTrusted&&demoEnabled){takeControl();}
+  },{passive:true,signal});
+  viewport.addEventListener('pointerleave',()=>{pointerOwns=false;scheduleDemo();},{signal});
+  window.addEventListener('keydown',event=>{
+    if(event.altKey||event.ctrlKey||event.metaKey)return;
+    const isButton=event.target.closest('button');
+    if(event.key===' '&&isButton)return;
+    if(['ArrowDown','ArrowUp','PageDown','PageUp','Home','End',' '].includes(event.key)){
+      event.preventDefault();takeControl();
+      if(event.key==='Home')goTo(0);
+      else if(event.key==='End')goTo(2);
+      else if(event.key==='ArrowUp'||event.key==='PageUp')goTo(current-1);
+      else goTo(current+1);
+    }
+  },{signal});
+  window.addEventListener('resize',scheduleUpdate,{signal});
+  media.addEventListener('change',()=>{stopGlide();scheduleUpdate();scheduleDemo();},{signal});
+  document.addEventListener('visibilitychange',()=>{
+    if(document.hidden){stopGlide();clearDemo();cancelAnimationFrame(frame);frame=0;}
+    else{scheduleUpdate();scheduleDemo();}
+  },{signal});
+  function dispose(){
+    if(disposed)return;disposed=true;
+    stopGlide();clearDemo();cancelAnimationFrame(frame);frame=0;listeners.abort();
+  }
+  window.addEventListener('pagehide',dispose,{signal,once:true});
+  window.MotionExample={
+    goTo:index=>goTo(index),
+    demo:()=>{demoEnabled=true;pointerOwns=false;scheduleDemo();},
+    stop:()=>{demoEnabled=false;clearDemo();stopGlide();},
+    reset:()=>{stopGlide();clearDemo();scroller.scrollTop=0;pointerOwns=false;update();},
+    dispose,
+    get state(){return{section:current,scrollTop:scroller.scrollTop,disposed,reducedMotion:reduced(),demoEnabled,gliding:!!glideFrame};}
+  };
+  update();scheduleDemo();
+})();
+</script>
+</body>
+</html>

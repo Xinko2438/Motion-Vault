@@ -1,0 +1,82 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "spatial-depth-gallery",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/houmahani/codrops-depth-gallery",
+  "commit": "28190e0920df887f069524c3863db397af34c1c8",
+  "upstreamEntry": "source/src/main.js",
+  "localEntry": "run/index.html",
+  "readableEffect": "adapter/author/src/main.js",
+  "preservedByteExactly": [
+    ".gitignore",
+    ".prettierignore",
+    ".prettierrc.json",
+    "LICENSE",
+    "README.md",
+    "eslint.config.mjs",
+    "index.html",
+    "package-lock.json",
+    "package.json",
+    "resources/README.md",
+    "resources/screenshot.jpg",
+    "src/Experience/Background/index.js",
+    "src/Experience/Background/shaders/fragment.glsl",
+    "src/Experience/Background/shaders/vertex.glsl",
+    "src/Experience/Debug.js",
+    "src/Experience/Gallery.js",
+    "src/Experience/Label.js",
+    "src/Experience/Scroll.js",
+    "src/Experience/Trail.js",
+    "src/Experience/TrailController.js",
+    "src/Experience/TrailHeadParticles.js",
+    "src/Experience/index.js",
+    "src/assets/flower-01.webp",
+    "src/assets/flower-02.webp",
+    "src/assets/flower-03.webp",
+    "src/assets/flower-04.webp",
+    "src/assets/flower-05.webp",
+    "src/css/base.css",
+    "src/css/canvas.css",
+    "src/data/galleryData.js",
+    "src/main.js",
+    "vite.config.js"
+  ],
+  "adaptations": [
+    "All gallery/layout/palette/label/trail modules and five source images retained.",
+    "DPR capped at 1.5; time-varying background/trail phase frozen under reduced motion while direct scrolling remains.",
+    "Added local bootstrap readiness/errors, stop/resume/dispose, renderer cleanup and guarded late initialization.",
+    "Publisher links converted to inert attribution text; source layout CSS remains.",
+    "2026-10-07 lifecycle: SourceDemo.stop during texture initialization no longer restarts the render RAF. Engine.init accepts autoStart:false; adapter alone decides when to start.",
+    "2026-10-07 lifecycle: All five image textures must load; an actual first draw and WebGL error check precede Promise resolution.",
+    "2026-10-07 lifecycle: Partial and late textures, debug pane, renderer and authored scene resources are disposed."
+  ],
+  "visualEvidence": {
+    "localAdaptationVisualVerified": false,
+    "localRecordingCreated": false,
+    "kind": "author_supplied_still",
+    "path": "source/resources/screenshot.jpg"
+  },
+  "assetCaveats": [
+    "README attributes the five bundled images to Lummi.ai.",
+    "Lummi\u2019s current license permits copying, editing and website/template use; prohibits image resale and bundling a competing stock-image service. https://www.lummi.ai/license verified 2026-10-07.",
+    "Individual Lummi item IDs and creators are absent upstream; preserve this uncertainty, do not claim photo authorship or a per-image release.",
+    "Editorial color-chip inspiration is credited to @thisislandscape, as in upstream."
+  ],
+  "bridge": {
+    "source": "adapter/source-isolation-bridge.original.js",
+    "originalSha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "adapted": "run/vault-isolation.js",
+    "adaptedSha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+    "change": "Added local dispose event to release pending broker tasks/object URLs."
+  },
+  "validation": "qa-static.json; compatibility-review.json; original source hash verified; runtime, visual equivalence and user acceptance NOT VERIFIED",
+  "adaptedOriginalFiles": [
+    "src/Experience/Engine.js"
+  ],
+  "lifecycleRepair": {
+    "scope": "cloud WORK package only; no project/local integration or publication",
+    "contract": "SourceDemo.ready Promise; isReady Boolean; dispose idempotent Promise; inspect returns actual source-owned state",
+    "recipe": "adapter/REBUILD.md",
+    "sharedHelper": "adapter/lifecycle.js"
+  }
+}

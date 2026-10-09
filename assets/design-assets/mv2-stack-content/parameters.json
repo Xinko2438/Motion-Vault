@@ -1,0 +1,21 @@
+{
+  "runtimeEntry": "run/index.html",
+  "readableEntry": "run/effect.js",
+  "variants": [
+    "index.html"
+  ],
+  "nativeInput": "click",
+  "configuration": "Edit the original source geometry/timeline values; no invented universal parameter API.",
+  "lifecycle": [
+    "SourceDemo.stop()",
+    "SourceDemo.resume()",
+    "SourceDemo.dispose()",
+    "SourceDemo.inspect()"
+  ],
+  "reducedMotion": "author handling retained plus CSS/lifecycle fallback; browser acceptance not run",
+  "viewport": {
+    "width": 1100,
+    "height": 670
+  },
+  "runtimeVerified": false
+}

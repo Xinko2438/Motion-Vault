@@ -1,0 +1,44 @@
+{
+  "schema": "motion-vault.compatibility-review.v1",
+  "id": "spatial-kinetic-images",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "scope": "Cloud WORK source adaptation only; no local integration/publication/browser execution",
+  "baselineDefiniteGaps": [
+    "FrameWitness used whole-store subscription then setFrameloop in useEffect([state]); pinned R3F always publishes a new state, causing a circular reset/re-render path."
+  ],
+  "sourceFixes": [
+    "Stable get selector and actual-mode-only setFrameloop eliminate the circular update. Canvas stays mounted across source mode routes.",
+    "Ready Promise waits for committed source View resources (collage and suspended Banner/GLB) and actual renderer frame-count advancement with draw calls; genuine errors reject.",
+    "Explicit native controls, after-frame hooks, scenes, textures, renderer/context and terminal disposal Promise; accurate inspect status."
+  ],
+  "loaderAudit": [
+    "Collage new Image src and Banner TextureLoader use local brokered Blob images; original CanvasTexture collage helper retained.",
+    "Original GLBs are uncompressed; useGLTF receives false Draco/meshopt flags. Bundled optional loader classes are not active decoder dependencies.",
+    "React19/R3F9/Drei10/Three175 classic bundle; no font or external network runtime dependency."
+  ],
+  "renderer": "Three175 WebGL2 renderer with original custom material shader classes and Three View/OrbitControls composition.",
+  "nativeInputAndReducedMotion": "Native OrbitControls, source Tower/Paper/Spiral hash routing retained; reduced motion stops authored ambient time transforms while real orbit input remains available.",
+  "sourceEvidence": [
+    "adapter/runtime.js:20-25",
+    "adapter/runtime.js:133-183",
+    "adapter/entry.jsx",
+    "adapter/src/webgl/Scene.jsx",
+    "adapter/src/webgl/View.jsx"
+  ],
+  "runtimePending": [
+    "Final trusted native-pointer / nonce lifecycle bridge must be injected and manifest-listed by Motion Vault packaging.",
+    "Opaque allow-scripts-only origin: actual CSP, broker, texture/font/model decode and first frame require browser verification.",
+    "GPU shader/material/FBO correctness, original1100x670 composition, native drag/scroll/touch and cross-boundary release remain untested.",
+    "Normal/reduced startup and live preference changes; stop-before-ready/resume/dispose/reopen and resource/memory behavior remain untested.",
+    "Local application/publication remains gated on compatibility; source build/parse/mock checks do not establish runtime acceptance."
+  ],
+  "initializationContract": "ready Promise; isReady Boolean; actual required resource and initial render predicates, rejecting failures. Fulfillment is not visual acceptance.",
+  "disposalContract": "Terminal/idempotent dispose; may return Promise. Host frame destruction remains the final isolation boundary.",
+  "staticEvidence": {
+    "report": "qa-static.json",
+    "rebuild": "qa-rebuild.json",
+    "bundleSha256": "8eb41d9b2c57015c43c443e65346257ba973f309a7d1d984cb31435afe17e9c0",
+    "runtimeExecuted": false
+  },
+  "mediaRights": "Existing independent media/font/license caveats retained; compatibility checks do not clear third-party asset rights."
+}

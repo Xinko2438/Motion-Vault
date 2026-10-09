@@ -1,0 +1,11 @@
+{
+  "schema": "motion-vault.parameters.v1",
+  "viewport": {
+    "width": 1100,
+    "height": 670
+  },
+  "runtime": "native HTML/CSS/JavaScript",
+  "externalDependencies": [],
+  "configuration": "Editable CSS custom properties and documented window.MotionExample API; see source/index.html and DESIGN.md",
+  "reducedMotion": "prefers-reduced-motion honored; no operating-system setting changes"
+}

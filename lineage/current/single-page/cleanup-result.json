@@ -1,0 +1,111 @@
+{
+  "at": "2026-10-06T15:11:05.075Z",
+  "apply": true,
+  "formalHash": "d03ec6eb6c7d48a38eb696b494e2e7a756bc95961082f286e617dd08b71797d8",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "targets": [
+    {
+      "path": "src/hybrid/candidate-app.js",
+      "sha256": "bd07f315e9eb2e5a84d89bb4db5f689f0c8e9b4e368c98739940660ab2b540bc",
+      "bytes": 14332,
+      "reason": "Retired separate candidate controller"
+    },
+    {
+      "path": "candidates/curated-originals/src/app.js",
+      "sha256": "0a92bb633909654c0c193bd5d1f0de431d33529c1f253081dd519d6beacf2f58",
+      "bytes": 11300,
+      "reason": "Superseded full candidate application"
+    },
+    {
+      "path": "candidates/curated-originals/src/shell.html",
+      "sha256": "df77ec3e6bc4a62ea28b2a0c8ec6e5a063919bf08426ebad4dd6c2be2dcae456",
+      "bytes": 3698,
+      "reason": "Superseded second gallery shell"
+    },
+    {
+      "path": "candidates/curated-originals/src/style.css",
+      "sha256": "1e4c356cb587b01e86160704d9190cacc44277e45f121b24ec5e2ba96b464c50",
+      "bytes": 7985,
+      "reason": "Superseded duplicate gallery styles"
+    },
+    {
+      "path": "candidates/curated-originals/build.mjs",
+      "sha256": "22fb85e29f2997ccec058a2a4502b88a118a3b75901039107afb988d3c46f2bf",
+      "bytes": 5297,
+      "reason": "Superseded separate gallery builder"
+    },
+    {
+      "path": "candidates/curated-originals/make_catalog.py",
+      "sha256": "98150e520fde5dd5f6be9ae0fa7524b478e26dcf0fb5c5c43d8284acc88a1879",
+      "bytes": 20767,
+      "reason": "Superseded batch generator; current source catalog retained"
+    },
+    {
+      "path": "src/hybrid/finish-candidate-interface.mjs",
+      "sha256": "6891656670bc026625ff789ed979340b2d5954e07f614b533c6a250b2b271d4a",
+      "bytes": 3060,
+      "reason": "One-time patcher for the removed candidate app"
+    },
+    {
+      "path": "src/hybrid/consolidate.mjs",
+      "sha256": "92f308f0c6828a84b919908914ca24c658ffeaea8c628a66244ace2e6a48c19a",
+      "bytes": 8884,
+      "reason": "Completed historical migration that reads deleted page snapshots"
+    }
+  ],
+  "removed": [
+    {
+      "path": "src/hybrid/candidate-app.js",
+      "sha256": "bd07f315e9eb2e5a84d89bb4db5f689f0c8e9b4e368c98739940660ab2b540bc",
+      "bytes": 14332,
+      "reason": "Retired separate candidate controller"
+    },
+    {
+      "path": "candidates/curated-originals/src/app.js",
+      "sha256": "0a92bb633909654c0c193bd5d1f0de431d33529c1f253081dd519d6beacf2f58",
+      "bytes": 11300,
+      "reason": "Superseded full candidate application"
+    },
+    {
+      "path": "candidates/curated-originals/src/shell.html",
+      "sha256": "df77ec3e6bc4a62ea28b2a0c8ec6e5a063919bf08426ebad4dd6c2be2dcae456",
+      "bytes": 3698,
+      "reason": "Superseded second gallery shell"
+    },
+    {
+      "path": "candidates/curated-originals/src/style.css",
+      "sha256": "1e4c356cb587b01e86160704d9190cacc44277e45f121b24ec5e2ba96b464c50",
+      "bytes": 7985,
+      "reason": "Superseded duplicate gallery styles"
+    },
+    {
+      "path": "candidates/curated-originals/build.mjs",
+      "sha256": "22fb85e29f2997ccec058a2a4502b88a118a3b75901039107afb988d3c46f2bf",
+      "bytes": 5297,
+      "reason": "Superseded separate gallery builder"
+    },
+    {
+      "path": "candidates/curated-originals/make_catalog.py",
+      "sha256": "98150e520fde5dd5f6be9ae0fa7524b478e26dcf0fb5c5c43d8284acc88a1879",
+      "bytes": 20767,
+      "reason": "Superseded batch generator; current source catalog retained"
+    },
+    {
+      "path": "src/hybrid/finish-candidate-interface.mjs",
+      "sha256": "6891656670bc026625ff789ed979340b2d5954e07f614b533c6a250b2b271d4a",
+      "bytes": 3060,
+      "reason": "One-time patcher for the removed candidate app"
+    },
+    {
+      "path": "src/hybrid/consolidate.mjs",
+      "sha256": "92f308f0c6828a84b919908914ca24c658ffeaea8c628a66244ace2e6a48c19a",
+      "bytes": 8884,
+      "reason": "Completed historical migration that reads deleted page snapshots"
+    }
+  ],
+  "skipped": [],
+  "temporaryFiles": 27,
+  "assetFilesDeleted": 0,
+  "userBrowserDataChanged": false,
+  "temporaryFilesRemoved": 27
+}

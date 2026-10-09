@@ -1,0 +1,123 @@
+{
+  "status": "project_exact_path_hash_allowlist",
+  "fontBytesEmbedded": false,
+  "reason": "Exact authored DOM/WebGL glyph parity requires these font assets. No file renamed/hidden to bypass release exclusion.",
+  "files": [
+    {
+      "sourcePath": "source/public/fonts/PlayfairDisplay-Italic.woff",
+      "proposedRuntimePath": "run/fonts/PlayfairDisplay-Italic.woff",
+      "bytes": 50932,
+      "sha256": "44ef21f3734a8fd344563c2738af3fc0f0820bf4dd8b5cd1a51ed78b8687a6e3",
+      "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/PlayfairDisplay-Italic.woff",
+      "nameTable": {
+        "0": [
+          "Copyright 2017 The Playfair Display Project Authors (https://github.com/clauseggers/Playfair-Display), with Reserved Font Name \"Playfair Display\"."
+        ],
+        "1": [
+          "Playfair Display"
+        ],
+        "2": [
+          "Italic"
+        ],
+        "3": [
+          "1.203;FTH;PlayfairDisplay-Italic"
+        ],
+        "5": [
+          "Version 1.203"
+        ],
+        "14": [
+          "http://scripts.sil.org/OFL"
+        ]
+      },
+      "license": "SIL Open Font License 1.1",
+      "notice": "font-license-review/playfairdisplay-OFL.txt"
+    },
+    {
+      "sourcePath": "source/public/fonts/Poppins-Medium.woff",
+      "proposedRuntimePath": "run/fonts/Poppins-Medium.woff",
+      "bytes": 65760,
+      "sha256": "9ec8c55ca9a20762804eddbda1f3bb327d2d19245d89a7ee6f2076421c60c6c1",
+      "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/Poppins-Medium.woff",
+      "nameTable": {
+        "0": [
+          "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
+        ],
+        "1": [
+          "Poppins Medium"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "ITFO; Poppins Medium; 4.004b8"
+        ],
+        "5": [
+          "4.004"
+        ],
+        "14": [
+          "https://scripts.sil.org/OFL"
+        ]
+      },
+      "license": "SIL Open Font License 1.1",
+      "notice": "font-license-review/poppins-OFL.txt"
+    },
+    {
+      "sourcePath": "source/public/fonts/Poppins-Regular.woff",
+      "proposedRuntimePath": "run/fonts/Poppins-Regular.woff",
+      "bytes": 66572,
+      "sha256": "c68e1edb2e2414da9f1a46a81131ceeb09e082363d20c8605d5edb929a1bf648",
+      "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/Poppins-Regular.woff",
+      "nameTable": {
+        "0": [
+          "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
+        ],
+        "1": [
+          "Poppins"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "ITFO; Poppins Regular; 4.004b8"
+        ],
+        "5": [
+          "4.004"
+        ],
+        "14": [
+          "https://scripts.sil.org/OFL"
+        ]
+      },
+      "license": "SIL Open Font License 1.1",
+      "notice": "font-license-review/poppins-OFL.txt"
+    },
+    {
+      "sourcePath": "source/public/fonts/Poppins-SemiBold.woff",
+      "proposedRuntimePath": "run/fonts/Poppins-SemiBold.woff",
+      "bytes": 66232,
+      "sha256": "952d2591178ef0c2dea37fb2c14f01e18433c8d59db10f6365c9e1ca9e8efe2a",
+      "upstreamUrl": "https://raw.githubusercontent.com/14islands/codrops-scroll-rig-tutorial/f903c1ed917bf1c2f8a351aea54f1045db6fc129/public/fonts/Poppins-SemiBold.woff",
+      "nameTable": {
+        "0": [
+          "Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)"
+        ],
+        "1": [
+          "Poppins SemiBold"
+        ],
+        "2": [
+          "Regular"
+        ],
+        "3": [
+          "ITFO; Poppins SemiBold; 4.004b8"
+        ],
+        "5": [
+          "4.004"
+        ],
+        "14": [
+          "https://scripts.sil.org/OFL"
+        ]
+      },
+      "license": "SIL Open Font License 1.1",
+      "notice": "font-license-review/poppins-OFL.txt"
+    }
+  ]
+}

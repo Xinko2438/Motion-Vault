@@ -1,0 +1,118 @@
+{
+  "schema": "motion-vault.source-contract-static.v1",
+  "id": "spatial-dithering-cubes",
+  "checkedAt": "2026-10-07T11:27:15.477812+00:00",
+  "passed": 26,
+  "total": 26,
+  "checks": [
+    {
+      "check": "pinned source .gitignore",
+      "passed": true
+    },
+    {
+      "check": "pinned source README.md",
+      "passed": true
+    },
+    {
+      "check": "pinned source index.html",
+      "passed": true
+    },
+    {
+      "check": "pinned source package-lock.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source package.json",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/Grid/Grid.js",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/Grid/shaders/fragmentShader.glsl",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/Grid/shaders/vertexShader.glsl",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/css/base.css",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/css/style.css",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/image/dithering_object.jpg",
+      "passed": true
+    },
+    {
+      "check": "pinned source src/index.js",
+      "passed": true
+    },
+    {
+      "check": "pinned source vite.config.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/diagnostics.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/effect.js",
+      "passed": true
+    },
+    {
+      "check": "syntax only run/vault-isolation.js",
+      "passed": true
+    },
+    {
+      "check": "relative local HTML resources",
+      "passed": true
+    },
+    {
+      "check": "classic bundle before opaque sandbox execution",
+      "passed": true
+    },
+    {
+      "check": "original full grids retained",
+      "passed": true
+    },
+    {
+      "check": "ready waits texture and first frame",
+      "passed": true
+    },
+    {
+      "check": "resource-owning early contract",
+      "passed": true
+    },
+    {
+      "check": "original progress preserved",
+      "passed": true
+    },
+    {
+      "check": "native pane repaint under reduced motion",
+      "passed": true
+    },
+    {
+      "check": "terminal disposal and late texture release",
+      "passed": true
+    },
+    {
+      "check": "shader code bundled fragmentShader.glsl",
+      "passed": true
+    },
+    {
+      "check": "shader code bundled vertexShader.glsl",
+      "passed": true
+    }
+  ],
+  "bundleSha256": "d9523f51b58ce3b8c3f0215dfbd16c7150010fe812155e62687dd1f997607f58",
+  "browserExecuted": false,
+  "runtime": "not_run",
+  "visualAcceptance": "pending",
+  "scope": "Source/parse/asset checks only; runtime contract predicates have not executed in a browser."
+}

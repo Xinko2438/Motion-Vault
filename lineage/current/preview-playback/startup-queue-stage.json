@@ -1,0 +1,2033 @@
+{
+  "schema": "motion-vault.preview-queue.v1",
+  "runId": "f190b9d9-562d-4455-b772-bedd2d7fb6f5",
+  "label": "startup-queue-stage",
+  "startedAt": "2026-10-07T05:48:53.522Z",
+  "at": "2026-10-07T05:49:04.054Z",
+  "live": false,
+  "formalHash": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "catalogueHash": "c3a8b1a315435c414dd005bca598abee8b7a213ba485844a170e6fd0fa74ad12",
+  "verifierSha256": "6fe3ae3f26aee32ce59bc32462b10cc1413bb4bbdd684e775c905e7ffef55644",
+  "probeSha256": "d290386b0081f685eb11143aa05da446959fb00aa72f38ea2a6906c7abeedf56",
+  "sourceUnchanged": true,
+  "browserCompleted": true,
+  "browserClosed": true,
+  "passed": 17,
+  "total": 17,
+  "allPassed": true,
+  "limits": {
+    "entries": 9,
+    "bytes": 25165824,
+    "singleBytes": 4194304,
+    "concurrent": 2
+  },
+  "contract": {
+    "targetId": "curated-reaction-diffusion",
+    "blockedId": "curated-stylized-water",
+    "expectedConcurrency": 2,
+    "fault": "first fixed Water product Fetch held at response headers until scenario cleanup",
+    "faultReleaseTimer": false,
+    "fixedVisibleReadingMs": 1500,
+    "firstFrameLimitMs": 800,
+    "readyWait": false,
+    "cacheDisabled": false,
+    "hiddenPlayersAllowed": 0,
+    "liveFPSClaimed": false,
+    "retentionAudit": "created Blob URLs; reservation accounting is verified separately in the VM regression"
+  },
+  "assets": [
+    {
+      "id": "curated-reaction-diffusion",
+      "video": "motion-vault-assets/curated-reaction-diffusion/preview.mp4",
+      "revision": "434046066abe0b58",
+      "sha256": "434046066abe0b582fcc895a9bc226e03a5c4040c4a95c8594ba2e3f266f6d81"
+    },
+    {
+      "id": "curated-stylized-water",
+      "video": "motion-vault-assets/curated-stylized-water/preview.mp4",
+      "revision": "f3a0901ff4c43818",
+      "sha256": "f3a0901ff4c438187308c95809f862bc29003649329675b5c3d7fae161a35494"
+    }
+  ],
+  "sample": {
+    "targetId": "curated-reaction-diffusion",
+    "blockedId": "curated-stylized-water",
+    "point": {
+      "x": 233.04875,
+      "y": 457.9815625,
+      "visible": true,
+      "hit": true,
+      "at": 417.3000000715256
+    },
+    "fixedReadingMs": 1500,
+    "actualReadingMs": 1767.5,
+    "before": {
+      "now": 2184.8000000715256,
+      "timeOrigin": 1791352138365.4,
+      "videoCount": 0,
+      "layerCount": 0,
+      "active": null,
+      "maxVideos": 0,
+      "maxLayers": 0,
+      "maxURLs": 9,
+      "maxBytes": 5922126,
+      "largestBlob": 1560262,
+      "urls": [
+        {
+          "url": "blob:http://127.0.0.1:32377/00958e8c-7043-4c25-8584-fb4e2567678c",
+          "bytes": 206784,
+          "type": "video/mp4",
+          "createdAt": 186.5,
+          "revokedAt": 390.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8ce5f0db-b016-4a56-9805-b4b65da3df9a",
+          "bytes": 1283835,
+          "type": "video/mp4",
+          "createdAt": 196.39999997615814,
+          "revokedAt": 391
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/a7a79c61-cc6b-4ec4-8beb-efdd20988c0d",
+          "bytes": 1020178,
+          "type": "video/mp4",
+          "createdAt": 206.30000007152557,
+          "revokedAt": 440.60000002384186
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/492d5ed5-f244-49c5-a839-733b9b5fa7fa",
+          "bytes": 277300,
+          "type": "video/mp4",
+          "createdAt": 208.70000004768372,
+          "revokedAt": 500.89999997615814
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/e5badaf2-ebec-4260-a0ff-88a2283d8798",
+          "bytes": 576783,
+          "type": "video/mp4",
+          "createdAt": 217.80000007152557,
+          "revokedAt": 517.1000000238419
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/88affc25-6667-48b4-bb58-17486a6a2eb9",
+          "bytes": 319217,
+          "type": "video/mp4",
+          "createdAt": 225.20000004768372,
+          "revokedAt": 523.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/dd88f8ed-3176-4e50-a3ea-1f94ee281aef",
+          "bytes": 521389,
+          "type": "video/mp4",
+          "createdAt": 231.80000007152557,
+          "revokedAt": 532.3000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/5693f640-1c61-4853-ab40-91edabc6453e",
+          "bytes": 1560262,
+          "type": "video/mp4",
+          "createdAt": 243,
+          "revokedAt": 540.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8d7ad6de-c0e6-4fd7-a788-38c2b2d77652",
+          "bytes": 109687,
+          "type": "video/mp4",
+          "createdAt": 245.60000002384186,
+          "revokedAt": 556.5
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/d6355994-126c-4e9b-9e83-c133a0d8fb50",
+          "bytes": 728220,
+          "type": "video/mp4",
+          "createdAt": 440.2000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/01c7a1b7-c02f-4208-96da-59931efea45d",
+          "bytes": 594714,
+          "type": "video/mp4",
+          "createdAt": 499.7000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "bytes": 1251138,
+          "type": "video/mp4",
+          "createdAt": 516.7000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/37c99d3c-fafd-48cd-82bb-ea9353ddad41",
+          "bytes": 477560,
+          "type": "video/mp4",
+          "createdAt": 523.5,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/2dc38fbe-8c43-4661-b71c-e82e50bb3a1b",
+          "bytes": 432021,
+          "type": "video/mp4",
+          "createdAt": 532.1000000238419,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/0b4f8c37-9400-4b30-bcf9-e8c25c441925",
+          "bytes": 768524,
+          "type": "video/mp4",
+          "createdAt": 540.6000000238419,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/acaa8363-f5fc-4204-81d0-a67cd819635c",
+          "bytes": 574727,
+          "type": "video/mp4",
+          "createdAt": 549.3999999761581,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/3ef92751-f15d-4844-9be9-7fb09f2774ab",
+          "bytes": 295939,
+          "type": "video/mp4",
+          "createdAt": 564.3000000715256,
+          "revokedAt": null
+        }
+      ],
+      "videoStates": [],
+      "preparationAudit": {
+        "basis": "same-document-fetch-body-or-cancel",
+        "maxBackground": 2,
+        "currentBackground": 1,
+        "tasks": [
+          {
+            "sequence": 1,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-telescope/preview.mp4?v=34f838736cd35e5f",
+            "role": "product",
+            "startedAt": 107.5,
+            "headersAt": 174,
+            "consumeStartedAt": 174.10000002384186,
+            "bodyConsumedAt": 194,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 194,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 16
+          },
+          {
+            "sequence": 2,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-glass-torus/preview.mp4?v=9f93b731e0858622",
+            "role": "product",
+            "startedAt": 108.20000004768372,
+            "headersAt": 176,
+            "consumeStartedAt": 176,
+            "bodyConsumedAt": 184.39999997615814,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 184.5,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 5
+          },
+          {
+            "sequence": 3,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-metal-name/preview.mp4?v=215c40a38002c0c7",
+            "role": "product",
+            "startedAt": 188.30000007152557,
+            "headersAt": 197.89999997615814,
+            "consumeStartedAt": 197.89999997615814,
+            "bodyConsumedAt": 204.60000002384186,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 204.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 15
+          },
+          {
+            "sequence": 4,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-liquid-grid/preview.mp4?v=ec68e11bc70e65a2",
+            "role": "product",
+            "startedAt": 196.80000007152557,
+            "headersAt": 206.5,
+            "consumeStartedAt": 206.5,
+            "bodyConsumedAt": 207.80000007152557,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 207.80000007152557,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 5,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-depth/preview.mp4?v=518b8a916b497281",
+            "role": "product",
+            "startedAt": 206.80000007152557,
+            "headersAt": 214.60000002384186,
+            "consumeStartedAt": 214.60000002384186,
+            "bodyConsumedAt": 216.5,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 216.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 6,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-spatial-product/preview.mp4?v=2056fe2cb3f22df5",
+            "role": "product",
+            "startedAt": 210.5,
+            "headersAt": 219.39999997615814,
+            "consumeStartedAt": 219.39999997615814,
+            "bodyConsumedAt": 230.20000004768372,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 230.20000004768372,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 7
+          },
+          {
+            "sequence": 7,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-fluid-xray/preview.mp4?v=4daa9a4c87ec84e7",
+            "role": "product",
+            "startedAt": 218.10000002384186,
+            "headersAt": 222.89999997615814,
+            "consumeStartedAt": 222.89999997615814,
+            "bodyConsumedAt": 223.89999997615814,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 223.89999997615814,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 8,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-camera-route/preview.mp4?v=8255e2947a03ebb3",
+            "role": "product",
+            "startedAt": 225.5,
+            "headersAt": 233.70000004768372,
+            "consumeStartedAt": 233.70000004768372,
+            "bodyConsumedAt": 242.30000007152557,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 242.30000007152557,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          },
+          {
+            "sequence": 9,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cloth-object/preview.mp4?v=b05a5f1135f43d79",
+            "role": "product",
+            "startedAt": 232.20000004768372,
+            "headersAt": 243.20000004768372,
+            "consumeStartedAt": 243.20000004768372,
+            "bodyConsumedAt": 244,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 244,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 10,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-emissive-dissolve/preview.mp4?v=11f2c67cd3b33b5a",
+            "role": "product",
+            "startedAt": 390.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": 391.8000000715256,
+            "cancelAt": null,
+            "endedAt": 391.8000000715256,
+            "endReason": "aborted"
+          },
+          {
+            "sequence": 11,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-dual-wave/preview.mp4?v=0d0ff4ca2508b998",
+            "role": "product",
+            "startedAt": 391,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": 391.8000000715256,
+            "cancelAt": null,
+            "endedAt": 391.8000000715256,
+            "endReason": "aborted"
+          },
+          {
+            "sequence": 12,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "role": "product",
+            "startedAt": 396.60000002384186,
+            "headersAt": 424.60000002384186,
+            "consumeStartedAt": 424.60000002384186,
+            "bodyConsumedAt": 438.2000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 438.2000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 12
+          },
+          {
+            "sequence": 13,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "role": "product",
+            "startedAt": 396.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": null,
+            "endReason": null
+          },
+          {
+            "sequence": 14,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "role": "product",
+            "startedAt": 440.7000000476837,
+            "headersAt": 496.5,
+            "consumeStartedAt": 496.5,
+            "bodyConsumedAt": 498.60000002384186,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 498.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 6
+          },
+          {
+            "sequence": 15,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+            "role": "product",
+            "startedAt": 501,
+            "headersAt": 508,
+            "consumeStartedAt": 508,
+            "bodyConsumedAt": 515.3000000715256,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 515.3000000715256,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          },
+          {
+            "sequence": 16,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-vortex-glass/preview.mp4?v=b3c2a36dc8e2dc93",
+            "role": "product",
+            "startedAt": 517.2000000476837,
+            "headersAt": 521.3000000715256,
+            "consumeStartedAt": 521.3000000715256,
+            "bodyConsumedAt": 522.6000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 522.6000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 5
+          },
+          {
+            "sequence": 17,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgl-reveal/preview.mp4?v=c78f4da90a64164f",
+            "role": "product",
+            "startedAt": 523.8999999761581,
+            "headersAt": 530,
+            "consumeStartedAt": 530.1000000238419,
+            "bodyConsumedAt": 531.2000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 531.2000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 18,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-persistent-gallery/preview.mp4?v=50ca5dc49f832bbb",
+            "role": "product",
+            "startedAt": 532.3999999761581,
+            "headersAt": 538,
+            "consumeStartedAt": 538.1000000238419,
+            "bodyConsumedAt": 540.1000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 540.1000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 9
+          },
+          {
+            "sequence": 19,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "role": "product",
+            "startedAt": 540.8999999761581,
+            "headersAt": 547.3999999761581,
+            "consumeStartedAt": 547.3999999761581,
+            "bodyConsumedAt": 548.7000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 548.7000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 20,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-grid-full/preview.mp4?v=2b442ea6fcd3e211",
+            "role": "product",
+            "startedAt": 556.6000000238419,
+            "headersAt": 562.8999999761581,
+            "consumeStartedAt": 562.8999999761581,
+            "bodyConsumedAt": 563.6000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 563.6000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          }
+        ]
+      },
+      "attempts": [],
+      "errors": []
+    },
+    "frame": {
+      "id": "curated-reaction-diffusion",
+      "name": "queue-hover",
+      "armedAt": 2200,
+      "hoverAt": 2207.2000000476837,
+      "trusted": true,
+      "createdAt": 2259.600000023842,
+      "firstAt": 2294.399999976158,
+      "source": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+      "frames": 12,
+      "rvfcNow": 2292.4,
+      "firstMediaTime": 0.0058,
+      "lastMediaTime": 0.19455,
+      "firstFrameMs": 87.19999992847443
+    },
+    "during": {
+      "now": 3133.3000000715256,
+      "timeOrigin": 1791352138365.4,
+      "videoCount": 1,
+      "layerCount": 1,
+      "active": {
+        "id": "curated-reaction-diffusion",
+        "kind": "local-recording"
+      },
+      "maxVideos": 1,
+      "maxLayers": 1,
+      "maxURLs": 9,
+      "maxBytes": 5922126,
+      "largestBlob": 1560262,
+      "urls": [
+        {
+          "url": "blob:http://127.0.0.1:32377/00958e8c-7043-4c25-8584-fb4e2567678c",
+          "bytes": 206784,
+          "type": "video/mp4",
+          "createdAt": 186.5,
+          "revokedAt": 390.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8ce5f0db-b016-4a56-9805-b4b65da3df9a",
+          "bytes": 1283835,
+          "type": "video/mp4",
+          "createdAt": 196.39999997615814,
+          "revokedAt": 391
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/a7a79c61-cc6b-4ec4-8beb-efdd20988c0d",
+          "bytes": 1020178,
+          "type": "video/mp4",
+          "createdAt": 206.30000007152557,
+          "revokedAt": 440.60000002384186
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/492d5ed5-f244-49c5-a839-733b9b5fa7fa",
+          "bytes": 277300,
+          "type": "video/mp4",
+          "createdAt": 208.70000004768372,
+          "revokedAt": 500.89999997615814
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/e5badaf2-ebec-4260-a0ff-88a2283d8798",
+          "bytes": 576783,
+          "type": "video/mp4",
+          "createdAt": 217.80000007152557,
+          "revokedAt": 517.1000000238419
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/88affc25-6667-48b4-bb58-17486a6a2eb9",
+          "bytes": 319217,
+          "type": "video/mp4",
+          "createdAt": 225.20000004768372,
+          "revokedAt": 523.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/dd88f8ed-3176-4e50-a3ea-1f94ee281aef",
+          "bytes": 521389,
+          "type": "video/mp4",
+          "createdAt": 231.80000007152557,
+          "revokedAt": 532.3000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/5693f640-1c61-4853-ab40-91edabc6453e",
+          "bytes": 1560262,
+          "type": "video/mp4",
+          "createdAt": 243,
+          "revokedAt": 540.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8d7ad6de-c0e6-4fd7-a788-38c2b2d77652",
+          "bytes": 109687,
+          "type": "video/mp4",
+          "createdAt": 245.60000002384186,
+          "revokedAt": 556.5
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/d6355994-126c-4e9b-9e83-c133a0d8fb50",
+          "bytes": 728220,
+          "type": "video/mp4",
+          "createdAt": 440.2000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/01c7a1b7-c02f-4208-96da-59931efea45d",
+          "bytes": 594714,
+          "type": "video/mp4",
+          "createdAt": 499.7000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "bytes": 1251138,
+          "type": "video/mp4",
+          "createdAt": 516.7000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/37c99d3c-fafd-48cd-82bb-ea9353ddad41",
+          "bytes": 477560,
+          "type": "video/mp4",
+          "createdAt": 523.5,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/2dc38fbe-8c43-4661-b71c-e82e50bb3a1b",
+          "bytes": 432021,
+          "type": "video/mp4",
+          "createdAt": 532.1000000238419,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/0b4f8c37-9400-4b30-bcf9-e8c25c441925",
+          "bytes": 768524,
+          "type": "video/mp4",
+          "createdAt": 540.6000000238419,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/acaa8363-f5fc-4204-81d0-a67cd819635c",
+          "bytes": 574727,
+          "type": "video/mp4",
+          "createdAt": 549.3999999761581,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/3ef92751-f15d-4844-9be9-7fb09f2774ab",
+          "bytes": 295939,
+          "type": "video/mp4",
+          "createdAt": 564.3000000715256,
+          "revokedAt": null
+        }
+      ],
+      "videoStates": [
+        {
+          "connected": true,
+          "paused": false,
+          "src": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "currentSrc": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "networkState": 1,
+          "card": "curated-reaction-diffusion"
+        }
+      ],
+      "preparationAudit": {
+        "basis": "same-document-fetch-body-or-cancel",
+        "maxBackground": 2,
+        "currentBackground": 1,
+        "tasks": [
+          {
+            "sequence": 1,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-telescope/preview.mp4?v=34f838736cd35e5f",
+            "role": "product",
+            "startedAt": 107.5,
+            "headersAt": 174,
+            "consumeStartedAt": 174.10000002384186,
+            "bodyConsumedAt": 194,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 194,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 16
+          },
+          {
+            "sequence": 2,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-glass-torus/preview.mp4?v=9f93b731e0858622",
+            "role": "product",
+            "startedAt": 108.20000004768372,
+            "headersAt": 176,
+            "consumeStartedAt": 176,
+            "bodyConsumedAt": 184.39999997615814,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 184.5,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 5
+          },
+          {
+            "sequence": 3,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-metal-name/preview.mp4?v=215c40a38002c0c7",
+            "role": "product",
+            "startedAt": 188.30000007152557,
+            "headersAt": 197.89999997615814,
+            "consumeStartedAt": 197.89999997615814,
+            "bodyConsumedAt": 204.60000002384186,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 204.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 15
+          },
+          {
+            "sequence": 4,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-liquid-grid/preview.mp4?v=ec68e11bc70e65a2",
+            "role": "product",
+            "startedAt": 196.80000007152557,
+            "headersAt": 206.5,
+            "consumeStartedAt": 206.5,
+            "bodyConsumedAt": 207.80000007152557,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 207.80000007152557,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 5,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-depth/preview.mp4?v=518b8a916b497281",
+            "role": "product",
+            "startedAt": 206.80000007152557,
+            "headersAt": 214.60000002384186,
+            "consumeStartedAt": 214.60000002384186,
+            "bodyConsumedAt": 216.5,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 216.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 6,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-spatial-product/preview.mp4?v=2056fe2cb3f22df5",
+            "role": "product",
+            "startedAt": 210.5,
+            "headersAt": 219.39999997615814,
+            "consumeStartedAt": 219.39999997615814,
+            "bodyConsumedAt": 230.20000004768372,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 230.20000004768372,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 7
+          },
+          {
+            "sequence": 7,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-fluid-xray/preview.mp4?v=4daa9a4c87ec84e7",
+            "role": "product",
+            "startedAt": 218.10000002384186,
+            "headersAt": 222.89999997615814,
+            "consumeStartedAt": 222.89999997615814,
+            "bodyConsumedAt": 223.89999997615814,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 223.89999997615814,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 8,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-camera-route/preview.mp4?v=8255e2947a03ebb3",
+            "role": "product",
+            "startedAt": 225.5,
+            "headersAt": 233.70000004768372,
+            "consumeStartedAt": 233.70000004768372,
+            "bodyConsumedAt": 242.30000007152557,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 242.30000007152557,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          },
+          {
+            "sequence": 9,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cloth-object/preview.mp4?v=b05a5f1135f43d79",
+            "role": "product",
+            "startedAt": 232.20000004768372,
+            "headersAt": 243.20000004768372,
+            "consumeStartedAt": 243.20000004768372,
+            "bodyConsumedAt": 244,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 244,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 10,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-emissive-dissolve/preview.mp4?v=11f2c67cd3b33b5a",
+            "role": "product",
+            "startedAt": 390.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": 391.8000000715256,
+            "cancelAt": null,
+            "endedAt": 391.8000000715256,
+            "endReason": "aborted"
+          },
+          {
+            "sequence": 11,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-dual-wave/preview.mp4?v=0d0ff4ca2508b998",
+            "role": "product",
+            "startedAt": 391,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": 391.8000000715256,
+            "cancelAt": null,
+            "endedAt": 391.8000000715256,
+            "endReason": "aborted"
+          },
+          {
+            "sequence": 12,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "role": "product",
+            "startedAt": 396.60000002384186,
+            "headersAt": 424.60000002384186,
+            "consumeStartedAt": 424.60000002384186,
+            "bodyConsumedAt": 438.2000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 438.2000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 12
+          },
+          {
+            "sequence": 13,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "role": "product",
+            "startedAt": 396.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": null,
+            "endReason": null
+          },
+          {
+            "sequence": 14,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "role": "product",
+            "startedAt": 440.7000000476837,
+            "headersAt": 496.5,
+            "consumeStartedAt": 496.5,
+            "bodyConsumedAt": 498.60000002384186,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 498.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 6
+          },
+          {
+            "sequence": 15,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+            "role": "product",
+            "startedAt": 501,
+            "headersAt": 508,
+            "consumeStartedAt": 508,
+            "bodyConsumedAt": 515.3000000715256,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 515.3000000715256,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          },
+          {
+            "sequence": 16,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-vortex-glass/preview.mp4?v=b3c2a36dc8e2dc93",
+            "role": "product",
+            "startedAt": 517.2000000476837,
+            "headersAt": 521.3000000715256,
+            "consumeStartedAt": 521.3000000715256,
+            "bodyConsumedAt": 522.6000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 522.6000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 5
+          },
+          {
+            "sequence": 17,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgl-reveal/preview.mp4?v=c78f4da90a64164f",
+            "role": "product",
+            "startedAt": 523.8999999761581,
+            "headersAt": 530,
+            "consumeStartedAt": 530.1000000238419,
+            "bodyConsumedAt": 531.2000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 531.2000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 18,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-persistent-gallery/preview.mp4?v=50ca5dc49f832bbb",
+            "role": "product",
+            "startedAt": 532.3999999761581,
+            "headersAt": 538,
+            "consumeStartedAt": 538.1000000238419,
+            "bodyConsumedAt": 540.1000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 540.1000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 9
+          },
+          {
+            "sequence": 19,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "role": "product",
+            "startedAt": 540.8999999761581,
+            "headersAt": 547.3999999761581,
+            "consumeStartedAt": 547.3999999761581,
+            "bodyConsumedAt": 548.7000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 548.7000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 20,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-grid-full/preview.mp4?v=2b442ea6fcd3e211",
+            "role": "product",
+            "startedAt": 556.6000000238419,
+            "headersAt": 562.8999999761581,
+            "consumeStartedAt": 562.8999999761581,
+            "bodyConsumedAt": 563.6000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 563.6000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          }
+        ]
+      },
+      "attempts": [
+        {
+          "id": "curated-reaction-diffusion",
+          "name": "queue-hover",
+          "armedAt": 2200,
+          "hoverAt": 2207.2000000476837,
+          "trusted": true,
+          "createdAt": 2259.600000023842,
+          "firstAt": 2294.399999976158,
+          "source": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "frames": 12,
+          "rvfcNow": 2292.4,
+          "firstMediaTime": 0.0058,
+          "lastMediaTime": 0.19455,
+          "firstFrameMs": 87.19999992847443
+        }
+      ],
+      "errors": []
+    },
+    "identity": {
+      "exists": true,
+      "url": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+      "protocol": "blob:",
+      "playback": {
+        "sha256": "434046066abe0b582fcc895a9bc226e03a5c4040c4a95c8594ba2e3f266f6d81",
+        "bytes": 1251138
+      },
+      "canonical": {
+        "sha256": "434046066abe0b582fcc895a9bc226e03a5c4040c4a95c8594ba2e3f266f6d81",
+        "bytes": 1251138
+      },
+      "sameVideo": true
+    },
+    "after": {
+      "now": 4162.800000071526,
+      "timeOrigin": 1791352138365.4,
+      "videoCount": 0,
+      "layerCount": 0,
+      "active": null,
+      "maxVideos": 1,
+      "maxLayers": 1,
+      "maxURLs": 9,
+      "maxBytes": 5922126,
+      "largestBlob": 1560262,
+      "urls": [
+        {
+          "url": "blob:http://127.0.0.1:32377/00958e8c-7043-4c25-8584-fb4e2567678c",
+          "bytes": 206784,
+          "type": "video/mp4",
+          "createdAt": 186.5,
+          "revokedAt": 390.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8ce5f0db-b016-4a56-9805-b4b65da3df9a",
+          "bytes": 1283835,
+          "type": "video/mp4",
+          "createdAt": 196.39999997615814,
+          "revokedAt": 391
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/a7a79c61-cc6b-4ec4-8beb-efdd20988c0d",
+          "bytes": 1020178,
+          "type": "video/mp4",
+          "createdAt": 206.30000007152557,
+          "revokedAt": 440.60000002384186
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/492d5ed5-f244-49c5-a839-733b9b5fa7fa",
+          "bytes": 277300,
+          "type": "video/mp4",
+          "createdAt": 208.70000004768372,
+          "revokedAt": 500.89999997615814
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/e5badaf2-ebec-4260-a0ff-88a2283d8798",
+          "bytes": 576783,
+          "type": "video/mp4",
+          "createdAt": 217.80000007152557,
+          "revokedAt": 517.1000000238419
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/88affc25-6667-48b4-bb58-17486a6a2eb9",
+          "bytes": 319217,
+          "type": "video/mp4",
+          "createdAt": 225.20000004768372,
+          "revokedAt": 523.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/dd88f8ed-3176-4e50-a3ea-1f94ee281aef",
+          "bytes": 521389,
+          "type": "video/mp4",
+          "createdAt": 231.80000007152557,
+          "revokedAt": 532.3000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/5693f640-1c61-4853-ab40-91edabc6453e",
+          "bytes": 1560262,
+          "type": "video/mp4",
+          "createdAt": 243,
+          "revokedAt": 540.8000000715256
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8d7ad6de-c0e6-4fd7-a788-38c2b2d77652",
+          "bytes": 109687,
+          "type": "video/mp4",
+          "createdAt": 245.60000002384186,
+          "revokedAt": 556.5
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/d6355994-126c-4e9b-9e83-c133a0d8fb50",
+          "bytes": 728220,
+          "type": "video/mp4",
+          "createdAt": 440.2000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/01c7a1b7-c02f-4208-96da-59931efea45d",
+          "bytes": 594714,
+          "type": "video/mp4",
+          "createdAt": 499.7000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "bytes": 1251138,
+          "type": "video/mp4",
+          "createdAt": 516.7000000476837,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/37c99d3c-fafd-48cd-82bb-ea9353ddad41",
+          "bytes": 477560,
+          "type": "video/mp4",
+          "createdAt": 523.5,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/2dc38fbe-8c43-4661-b71c-e82e50bb3a1b",
+          "bytes": 432021,
+          "type": "video/mp4",
+          "createdAt": 532.1000000238419,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/0b4f8c37-9400-4b30-bcf9-e8c25c441925",
+          "bytes": 768524,
+          "type": "video/mp4",
+          "createdAt": 540.6000000238419,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/acaa8363-f5fc-4204-81d0-a67cd819635c",
+          "bytes": 574727,
+          "type": "video/mp4",
+          "createdAt": 549.3999999761581,
+          "revokedAt": null
+        },
+        {
+          "url": "blob:http://127.0.0.1:32377/3ef92751-f15d-4844-9be9-7fb09f2774ab",
+          "bytes": 295939,
+          "type": "video/mp4",
+          "createdAt": 564.3000000715256,
+          "revokedAt": null
+        }
+      ],
+      "videoStates": [
+        {
+          "connected": false,
+          "paused": true,
+          "src": null,
+          "currentSrc": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "networkState": 0,
+          "card": null
+        }
+      ],
+      "preparationAudit": {
+        "basis": "same-document-fetch-body-or-cancel",
+        "maxBackground": 2,
+        "currentBackground": 1,
+        "tasks": [
+          {
+            "sequence": 1,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-telescope/preview.mp4?v=34f838736cd35e5f",
+            "role": "product",
+            "startedAt": 107.5,
+            "headersAt": 174,
+            "consumeStartedAt": 174.10000002384186,
+            "bodyConsumedAt": 194,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 194,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 16
+          },
+          {
+            "sequence": 2,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-glass-torus/preview.mp4?v=9f93b731e0858622",
+            "role": "product",
+            "startedAt": 108.20000004768372,
+            "headersAt": 176,
+            "consumeStartedAt": 176,
+            "bodyConsumedAt": 184.39999997615814,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 184.5,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 5
+          },
+          {
+            "sequence": 3,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-metal-name/preview.mp4?v=215c40a38002c0c7",
+            "role": "product",
+            "startedAt": 188.30000007152557,
+            "headersAt": 197.89999997615814,
+            "consumeStartedAt": 197.89999997615814,
+            "bodyConsumedAt": 204.60000002384186,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 204.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 15
+          },
+          {
+            "sequence": 4,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-liquid-grid/preview.mp4?v=ec68e11bc70e65a2",
+            "role": "product",
+            "startedAt": 196.80000007152557,
+            "headersAt": 206.5,
+            "consumeStartedAt": 206.5,
+            "bodyConsumedAt": 207.80000007152557,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 207.80000007152557,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 5,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-depth/preview.mp4?v=518b8a916b497281",
+            "role": "product",
+            "startedAt": 206.80000007152557,
+            "headersAt": 214.60000002384186,
+            "consumeStartedAt": 214.60000002384186,
+            "bodyConsumedAt": 216.5,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 216.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 6,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-spatial-product/preview.mp4?v=2056fe2cb3f22df5",
+            "role": "product",
+            "startedAt": 210.5,
+            "headersAt": 219.39999997615814,
+            "consumeStartedAt": 219.39999997615814,
+            "bodyConsumedAt": 230.20000004768372,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 230.20000004768372,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 7
+          },
+          {
+            "sequence": 7,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-fluid-xray/preview.mp4?v=4daa9a4c87ec84e7",
+            "role": "product",
+            "startedAt": 218.10000002384186,
+            "headersAt": 222.89999997615814,
+            "consumeStartedAt": 222.89999997615814,
+            "bodyConsumedAt": 223.89999997615814,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 223.89999997615814,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 8,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-camera-route/preview.mp4?v=8255e2947a03ebb3",
+            "role": "product",
+            "startedAt": 225.5,
+            "headersAt": 233.70000004768372,
+            "consumeStartedAt": 233.70000004768372,
+            "bodyConsumedAt": 242.30000007152557,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 242.30000007152557,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          },
+          {
+            "sequence": 9,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cloth-object/preview.mp4?v=b05a5f1135f43d79",
+            "role": "product",
+            "startedAt": 232.20000004768372,
+            "headersAt": 243.20000004768372,
+            "consumeStartedAt": 243.20000004768372,
+            "bodyConsumedAt": 244,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 244,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 10,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-emissive-dissolve/preview.mp4?v=11f2c67cd3b33b5a",
+            "role": "product",
+            "startedAt": 390.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": 391.8000000715256,
+            "cancelAt": null,
+            "endedAt": 391.8000000715256,
+            "endReason": "aborted"
+          },
+          {
+            "sequence": 11,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-dual-wave/preview.mp4?v=0d0ff4ca2508b998",
+            "role": "product",
+            "startedAt": 391,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": 391.8000000715256,
+            "cancelAt": null,
+            "endedAt": 391.8000000715256,
+            "endReason": "aborted"
+          },
+          {
+            "sequence": 12,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+            "role": "product",
+            "startedAt": 396.60000002384186,
+            "headersAt": 424.60000002384186,
+            "consumeStartedAt": 424.60000002384186,
+            "bodyConsumedAt": 438.2000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 438.2000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 12
+          },
+          {
+            "sequence": 13,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "role": "product",
+            "startedAt": 396.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": null,
+            "endReason": null
+          },
+          {
+            "sequence": 14,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+            "role": "product",
+            "startedAt": 440.7000000476837,
+            "headersAt": 496.5,
+            "consumeStartedAt": 496.5,
+            "bodyConsumedAt": 498.60000002384186,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 498.60000002384186,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 6
+          },
+          {
+            "sequence": 15,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+            "role": "product",
+            "startedAt": 501,
+            "headersAt": 508,
+            "consumeStartedAt": 508,
+            "bodyConsumedAt": 515.3000000715256,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 515.3000000715256,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          },
+          {
+            "sequence": 16,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-vortex-glass/preview.mp4?v=b3c2a36dc8e2dc93",
+            "role": "product",
+            "startedAt": 517.2000000476837,
+            "headersAt": 521.3000000715256,
+            "consumeStartedAt": 521.3000000715256,
+            "bodyConsumedAt": 522.6000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 522.6000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 5
+          },
+          {
+            "sequence": 17,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgl-reveal/preview.mp4?v=c78f4da90a64164f",
+            "role": "product",
+            "startedAt": 523.8999999761581,
+            "headersAt": 530,
+            "consumeStartedAt": 530.1000000238419,
+            "bodyConsumedAt": 531.2000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 531.2000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 18,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-persistent-gallery/preview.mp4?v=50ca5dc49f832bbb",
+            "role": "product",
+            "startedAt": 532.3999999761581,
+            "headersAt": 538,
+            "consumeStartedAt": 538.1000000238419,
+            "bodyConsumedAt": 540.1000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 540.1000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 9
+          },
+          {
+            "sequence": 19,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+            "role": "product",
+            "startedAt": 540.8999999761581,
+            "headersAt": 547.3999999761581,
+            "consumeStartedAt": 547.3999999761581,
+            "bodyConsumedAt": 548.7000000476837,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 548.7000000476837,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 3
+          },
+          {
+            "sequence": 20,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-grid-full/preview.mp4?v=2b442ea6fcd3e211",
+            "role": "product",
+            "startedAt": 556.6000000238419,
+            "headersAt": 562.8999999761581,
+            "consumeStartedAt": 562.8999999761581,
+            "bodyConsumedAt": 563.6000000238419,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 563.6000000238419,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 2
+          },
+          {
+            "sequence": 21,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+            "role": "test-byte-read",
+            "startedAt": 3142.899999976158,
+            "headersAt": 3159.600000023842,
+            "consumeStartedAt": 3159.7000000476837,
+            "bodyConsumedAt": 3179,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 3179,
+            "endReason": "body-consumed",
+            "consumeMethod": "arrayBuffer"
+          }
+        ]
+      },
+      "attempts": [
+        {
+          "id": "curated-reaction-diffusion",
+          "name": "queue-hover",
+          "armedAt": 2200,
+          "hoverAt": 2207.2000000476837,
+          "trusted": true,
+          "createdAt": 2259.600000023842,
+          "firstAt": 2294.399999976158,
+          "source": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "frames": 12,
+          "rvfcNow": 2292.4,
+          "firstMediaTime": 0.0058,
+          "lastMediaTime": 0.19455,
+          "firstFrameMs": 87.19999992847443
+        }
+      ],
+      "errors": []
+    }
+  },
+  "faults": [
+    {
+      "requestId": "interception-job-38.0",
+      "networkId": "24884.68",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+      "resourceType": "XHR",
+      "responseStatusCode": 200,
+      "role": "product",
+      "networkType": "Fetch",
+      "pausedMonoMs": 5325.4382,
+      "decision": "held",
+      "releasedMonoMs": 9709.6928,
+      "releaseReason": "scenario-cleanup",
+      "continueAckMonoMs": 9713.3052
+    }
+  ],
+  "network": [
+    {
+      "requestId": "24884.51",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-telescope/preview.mp4?v=34f838736cd35e5f",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.614869,
+      "wallTime": 1791352138.473404,
+      "receivedMonoMs": 5007.8794,
+      "finishedTimestamp": 596762.69914,
+      "bytes": 1284045
+    },
+    {
+      "requestId": "24884.52",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-glass-torus/preview.mp4?v=9f93b731e0858622",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.615143,
+      "wallTime": 1791352138.473665,
+      "receivedMonoMs": 5007.9884,
+      "finishedTimestamp": 596762.690342,
+      "bytes": 206993
+    },
+    {
+      "requestId": "24884.55",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-metal-name/preview.mp4?v=215c40a38002c0c7",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.695275,
+      "wallTime": 1791352138.553808,
+      "receivedMonoMs": 5087.7169,
+      "finishedTimestamp": 596762.709752,
+      "bytes": 1020388
+    },
+    {
+      "requestId": "24884.56",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-liquid-grid/preview.mp4?v=ec68e11bc70e65a2",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.703779,
+      "wallTime": 1791352138.56231,
+      "receivedMonoMs": 5096.4998,
+      "finishedTimestamp": 596762.712782,
+      "bytes": 277509
+    },
+    {
+      "requestId": "24884.57",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-depth/preview.mp4?v=518b8a916b497281",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.713805,
+      "wallTime": 1791352138.572324,
+      "receivedMonoMs": 5106.1846,
+      "finishedTimestamp": 596762.721864,
+      "bytes": 576992
+    },
+    {
+      "requestId": "24884.58",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-spatial-product/preview.mp4?v=2056fe2cb3f22df5",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.717543,
+      "wallTime": 1791352138.576077,
+      "receivedMonoMs": 5109.9659,
+      "finishedTimestamp": 596762.735752,
+      "bytes": 521598
+    },
+    {
+      "requestId": "24884.59",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-fluid-xray/preview.mp4?v=4daa9a4c87ec84e7",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.72508,
+      "wallTime": 1791352138.583615,
+      "receivedMonoMs": 5117.5178,
+      "finishedTimestamp": 596762.729969,
+      "bytes": 319426
+    },
+    {
+      "requestId": "24884.60",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-camera-route/preview.mp4?v=8255e2947a03ebb3",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.732582,
+      "wallTime": 1791352138.591115,
+      "receivedMonoMs": 5125.2815,
+      "finishedTimestamp": 596762.74734,
+      "bytes": 1560472
+    },
+    {
+      "requestId": "24884.61",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cloth-object/preview.mp4?v=b05a5f1135f43d79",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.739152,
+      "wallTime": 1791352138.597681,
+      "receivedMonoMs": 5131.4472,
+      "finishedTimestamp": 596762.747199,
+      "bytes": 109896
+    },
+    {
+      "requestId": "24884.62",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-emissive-dissolve/preview.mp4?v=11f2c67cd3b33b5a",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.897819,
+      "wallTime": 1791352138.756346,
+      "receivedMonoMs": 5290.7041,
+      "failedTimestamp": 596762.898765,
+      "failed": "net::ERR_ABORTED",
+      "canceled": true
+    },
+    {
+      "requestId": "24884.63",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-dual-wave/preview.mp4?v=0d0ff4ca2508b998",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.897973,
+      "wallTime": 1791352138.756485,
+      "receivedMonoMs": 5290.7805,
+      "failedTimestamp": 596762.898784,
+      "failed": "net::ERR_ABORTED",
+      "canceled": true
+    },
+    {
+      "requestId": "24884.67",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-cylinder-type/preview.mp4?v=7665394220740bb8",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.903649,
+      "wallTime": 1791352138.762185,
+      "receivedMonoMs": 5313.5109,
+      "finishedTimestamp": 596762.943504,
+      "bytes": 728429
+    },
+    {
+      "requestId": "24884.68",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.903839,
+      "wallTime": 1791352138.762353,
+      "receivedMonoMs": 5313.5407,
+      "finishedTimestamp": 596762.972811,
+      "bytes": 653759
+    },
+    {
+      "requestId": "24884.78",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-shape-ascii/preview.mp4?v=1e1e6abad487962d",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596762.947739,
+      "wallTime": 1791352138.806279,
+      "receivedMonoMs": 5350.3491,
+      "finishedTimestamp": 596763.004247,
+      "bytes": 594923
+    },
+    {
+      "requestId": "24884.79",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596763.007988,
+      "wallTime": 1791352138.866525,
+      "receivedMonoMs": 5400.7543,
+      "finishedTimestamp": 596763.020327,
+      "bytes": 1251348
+    },
+    {
+      "requestId": "24884.80",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-vortex-glass/preview.mp4?v=b3c2a36dc8e2dc93",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596763.024164,
+      "wallTime": 1791352138.8827,
+      "receivedMonoMs": 5416.5811,
+      "finishedTimestamp": 596763.028701,
+      "bytes": 477769
+    },
+    {
+      "requestId": "24884.81",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgl-reveal/preview.mp4?v=c78f4da90a64164f",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596763.030864,
+      "wallTime": 1791352138.889396,
+      "receivedMonoMs": 5423.2284,
+      "finishedTimestamp": 596763.037206,
+      "bytes": 432230
+    },
+    {
+      "requestId": "24884.82",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-persistent-gallery/preview.mp4?v=50ca5dc49f832bbb",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596763.039361,
+      "wallTime": 1791352138.897891,
+      "receivedMonoMs": 5431.8186,
+      "finishedTimestamp": 596763.046128,
+      "bytes": 768733
+    },
+    {
+      "requestId": "24884.83",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-webgpu-route/preview.mp4?v=a201467854e72e3d",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596763.047807,
+      "wallTime": 1791352138.906332,
+      "receivedMonoMs": 5440.94,
+      "finishedTimestamp": 596763.054656,
+      "bytes": 574936
+    },
+    {
+      "requestId": "24884.84",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-grid-full/preview.mp4?v=2b442ea6fcd3e211",
+      "type": "Fetch",
+      "role": "product",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596763.063577,
+      "wallTime": 1791352138.922105,
+      "receivedMonoMs": 5455.9703,
+      "finishedTimestamp": 596763.069688,
+      "bytes": 296148
+    },
+    {
+      "requestId": "24884.87",
+      "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+      "type": "Fetch",
+      "role": "test-byte-read",
+      "loaderId": "CE18C50535F8FCA209AB8961EE226727",
+      "timestamp": 596765.649863,
+      "wallTime": 1791352141.508386,
+      "receivedMonoMs": 8042.3153,
+      "finishedTimestamp": 596765.682349,
+      "bytes": 1251348
+    }
+  ],
+  "errors": [],
+  "checks": [
+    {
+      "name": "Fixed Reaction card is visible and hit tested",
+      "pass": true,
+      "detail": {
+        "x": 233.04875,
+        "y": 457.9815625,
+        "visible": true,
+        "hit": true,
+        "at": 417.3000000715256
+      }
+    },
+    {
+      "name": "Water product response remains held during visible reading",
+      "pass": true,
+      "detail": {
+        "held": {
+          "requestId": "interception-job-38.0",
+          "networkId": "24884.68",
+          "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+          "resourceType": "XHR",
+          "responseStatusCode": 200,
+          "role": "product",
+          "networkType": "Fetch",
+          "pausedMonoMs": 5325.4382,
+          "decision": "held",
+          "releasedMonoMs": 9709.6928,
+          "releaseReason": "scenario-cleanup",
+          "continueAckMonoMs": 9713.3052
+        },
+        "water": [
+          {
+            "sequence": 13,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "role": "product",
+            "startedAt": 396.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": null,
+            "endReason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "Visible reading starts no media player",
+      "pass": true
+    },
+    {
+      "name": "Reaction preparation starts while Water still occupies a slot",
+      "pass": true,
+      "detail": {
+        "tasks": [
+          {
+            "sequence": 15,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-reaction-diffusion/preview.mp4?v=434046066abe0b58",
+            "role": "product",
+            "startedAt": 501,
+            "headersAt": 508,
+            "consumeStartedAt": 508,
+            "bodyConsumedAt": 515.3000000715256,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": 515.3000000715256,
+            "endReason": "body-consumed",
+            "consumeMethod": "reader.read",
+            "readCalls": 18
+          }
+        ],
+        "waterTask": {
+          "sequence": 13,
+          "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+          "role": "product",
+          "startedAt": 396.89999997615814,
+          "headersAt": null,
+          "consumeStartedAt": null,
+          "bodyConsumedAt": null,
+          "abortAt": null,
+          "cancelAt": null,
+          "endedAt": null,
+          "endReason": null
+        },
+        "held": {
+          "requestId": "interception-job-38.0",
+          "networkId": "24884.68",
+          "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+          "resourceType": "XHR",
+          "responseStatusCode": 200,
+          "role": "product",
+          "networkType": "Fetch",
+          "pausedMonoMs": 5325.4382,
+          "decision": "held",
+          "releasedMonoMs": 9709.6928,
+          "releaseReason": "scenario-cleanup",
+          "continueAckMonoMs": 9713.3052
+        }
+      }
+    },
+    {
+      "name": "Real hover produces a frame below 800ms",
+      "pass": true,
+      "detail": {
+        "id": "curated-reaction-diffusion",
+        "name": "queue-hover",
+        "armedAt": 2200,
+        "hoverAt": 2207.2000000476837,
+        "trusted": true,
+        "createdAt": 2259.600000023842,
+        "firstAt": 2294.399999976158,
+        "source": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+        "frames": 12,
+        "rvfcNow": 2292.4,
+        "firstMediaTime": 0.0058,
+        "lastMediaTime": 0.19455,
+        "firstFrameMs": 87.19999992847443
+      }
+    },
+    {
+      "name": "Hover adds no target product HTTP request",
+      "pass": true,
+      "detail": {
+        "beforeCount": 1,
+        "afterCount": 1
+      }
+    },
+    {
+      "name": "Water remains incomplete and uncanceled through actual hover",
+      "pass": true,
+      "detail": {
+        "held": {
+          "requestId": "interception-job-38.0",
+          "networkId": "24884.68",
+          "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+          "resourceType": "XHR",
+          "responseStatusCode": 200,
+          "role": "product",
+          "networkType": "Fetch",
+          "pausedMonoMs": 5325.4382,
+          "decision": "held",
+          "releasedMonoMs": 9709.6928,
+          "releaseReason": "scenario-cleanup",
+          "continueAckMonoMs": 9713.3052
+        },
+        "water": [
+          {
+            "sequence": 13,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "role": "product",
+            "startedAt": 396.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": null,
+            "endReason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "Actual Blob bytes match canonical HTTP and disk",
+      "pass": true,
+      "detail": {
+        "exists": true,
+        "url": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+        "protocol": "blob:",
+        "playback": {
+          "sha256": "434046066abe0b582fcc895a9bc226e03a5c4040c4a95c8594ba2e3f266f6d81",
+          "bytes": 1251138
+        },
+        "canonical": {
+          "sha256": "434046066abe0b582fcc895a9bc226e03a5c4040c4a95c8594ba2e3f266f6d81",
+          "bytes": 1251138
+        },
+        "sameVideo": true
+      }
+    },
+    {
+      "name": "Leaving releases the active video and layer",
+      "pass": true,
+      "detail": [
+        {
+          "connected": false,
+          "paused": true,
+          "src": null,
+          "currentSrc": "blob:http://127.0.0.1:32377/8c0e56f2-73cd-4ca6-bff5-09468519d10c",
+          "networkState": 0,
+          "card": null
+        }
+      ]
+    },
+    {
+      "name": "No hidden or simultaneous video player",
+      "pass": true,
+      "detail": {
+        "maxVideos": 1,
+        "maxLayers": 1
+      }
+    },
+    {
+      "name": "Prepared Blob retention stays within 9 entries and 24MiB",
+      "pass": true,
+      "detail": {
+        "maxURLs": 9,
+        "maxBytes": 5922126,
+        "largestBlob": 1560262,
+        "limits": {
+          "entries": 9,
+          "bytes": 25165824,
+          "singleBytes": 4194304,
+          "concurrent": 2
+        }
+      }
+    },
+    {
+      "name": "Observed preparation concurrency matches the explicit contract",
+      "pass": true,
+      "detail": {
+        "expectedConcurrency": 2,
+        "maxBackground": 2,
+        "basis": "same-document-fetch-body-or-cancel"
+      }
+    },
+    {
+      "name": "Exactly one fixed Water response was continuously held",
+      "pass": true,
+      "detail": {
+        "faults": [
+          {
+            "requestId": "interception-job-38.0",
+            "networkId": "24884.68",
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "resourceType": "XHR",
+            "responseStatusCode": 200,
+            "role": "product",
+            "networkType": "Fetch",
+            "pausedMonoMs": 5325.4382,
+            "decision": "held",
+            "releasedMonoMs": 9709.6928,
+            "releaseReason": "scenario-cleanup",
+            "continueAckMonoMs": 9713.3052
+          }
+        ],
+        "water": [
+          {
+            "sequence": 13,
+            "url": "http://127.0.0.1:32377/motion-vault-assets/curated-stylized-water/preview.mp4?v=f3a0901ff4c43818",
+            "role": "product",
+            "startedAt": 396.89999997615814,
+            "headersAt": null,
+            "consumeStartedAt": null,
+            "bodyConsumedAt": null,
+            "abortAt": null,
+            "cancelAt": null,
+            "endedAt": null,
+            "endReason": null
+          }
+        ]
+      }
+    },
+    {
+      "name": "Actual page matches the measured main file",
+      "pass": true,
+      "detail": {
+        "actualMain": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+        "formalHash": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526"
+      }
+    },
+    {
+      "name": "No page errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Measured sources remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Completed inside total browser budget",
+      "pass": true
+    }
+  ]
+}

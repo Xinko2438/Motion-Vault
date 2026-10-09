@@ -1,0 +1,24 @@
+{
+  "name": "leva",
+  "version": "0.10.0",
+  "license": "MIT",
+  "gitHead": "8890bb80ba70021cadc2c7779b08f0e0fa0bdfe2",
+  "repository": {
+    "url": "git+https://github.com/pmndrs/leva.git",
+    "type": "git",
+    "directory": "packages/leva"
+  },
+  "dist": {
+    "shasum": "9b426e0b44bcee2617dbc378530389ca902af737",
+    "tarball": "https://registry.npmjs.org/leva/-/leva-0.10.0.tgz",
+    "fileCount": 283,
+    "integrity": "sha512-RiNJWmeqQdKIeHuVXgshmxIHu144a2AMYtLxKf8Nm1j93pisDPexuQDHKNdQlbo37wdyDQibLjY9JKGIiD7gaw==",
+    "signatures": [
+      {
+        "sig": "MEUCIQDOApTcr27IrRDZQXocildaWb5sXboBQPp3nkc71bY6KQIgRNlkGP5bSX/2qgqae4umvb5xDSQuZENurevuxtCGNMo=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 874458
+  }
+}

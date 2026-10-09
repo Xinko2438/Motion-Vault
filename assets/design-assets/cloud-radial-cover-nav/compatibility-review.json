@@ -1,0 +1,10 @@
+{
+  "id": "cloud-radial-cover-nav",
+  "status": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "readiness": "actual synchronous initialization marker, document.fonts.ready, then next layout frame",
+  "dispose": "explicit AbortController/RAF/timer/WebAnimation cleanup; parent bounded acknowledgement",
+  "reducedMotion": "existing authored media-query branch, runtime unverified",
+  "preview": "no same-version recording; preview admission blocked",
+  "sandbox": "opaque allow-scripts; default-deny CSP with exact initializer hash; no external media or API",
+  "runtimeTest": "not_run"
+}

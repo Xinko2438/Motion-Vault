@@ -1,0 +1,6 @@
+[
+  {
+    "entry": "source/src/js/index.js",
+    "output": "run/effect.js"
+  }
+]

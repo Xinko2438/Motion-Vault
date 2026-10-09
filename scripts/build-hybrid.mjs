@@ -1,3 +1,4 @@
+import {appendSourceExpansion} from '../src/hybrid/source-expansion.mjs';
 import {readFile,writeFile,mkdir,copyFile,access,readdir} from 'node:fs/promises';
 import path from 'node:path';import {fileURLToPath} from 'node:url';import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
 export const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -37,7 +38,8 @@ export async function buildCandidateCatalog(taxonomy){
   }
   items.push({id:it.id,title:it.title,desc:it.design_value,design_value:it.design_value,avoid:it.limit,tech:it.tech,uses:it.uses,preview_mode:'auto',source_kind:it.local_implementation_kind==='independent_code'?'independent_code':'adapted_author_source',source_name:it.author,source_url:it.source_url,status:asset?'local_source_ready_for_review':'pending_local_implementation',asset});
  }
- const data={schema:'motion-vault.candidate-catalog.v2',count:items.length,localReady:items.filter(i=>i.asset).length,taxonomy,taskSelectionRequired:true,items};
+ await appendSourceExpansion(items,{project,root,sha});
+ const data={schema:'motion-vault.candidate-catalog.v2',count:items.length,localReady:items.filter(i=>i.asset?.state==='local_source_verified').length,localRunnable:items.filter(i=>i.asset?.run).length,taxonomy,taskSelectionRequired:true,items};
  const json=JSON.stringify(data,null,2);
  await put(root,'candidate-catalog.json',json);
  await put(root,'candidates.html',candidateRedirect);
@@ -60,13 +62,13 @@ export async function assembleGallery(formal,candidates){
  const iconSVG=await readFile(path.join(project,'src/hybrid/motion-vault-icon.svg')),iconICO=await readFile(path.join(project,'src/hybrid/motion-vault-icon.ico'));
  shell=shell.replaceAll('__ICON_REVISION__',sha(Buffer.concat([iconSVG,iconICO])).slice(0,16));
  const gallery=await read('src/hybrid/gallery.js'),styles=await read('src/hybrid/gallery.css');
- const capture=await read('src/hybrid/capture.js'),captureHTML=await read('src/hybrid/capture.html'),broker=await read('src/hybrid/source-broker.js');
+ const capture=await read('src/hybrid/capture.js'),captureHTML=await read('src/hybrid/capture.html'),broker=await read('src/hybrid/source-broker.js'),sourceSession=await read('src/hybrid/source-session.js');
  if(!captureHTML.includes('id="fileInput"'))throw new Error('Capture HTML missing');
  for(const [marker,value] of [
   ['/*__STYLES__*/',styles],
   ['<!--__CAPTURE_HTML__-->',captureHTML],
   ['/*__CATALOG__*/','const CATALOG='+jsString(formal)+';\nconst CANDIDATES='+jsString(candidates)+';'],
-  ['/*__GALLERY__*/',broker+'\n'+gallery],
+  ['/*__GALLERY__*/',broker+'\n'+sourceSession+'\n'+gallery],
   ['/*__CAPTURE_JS__*/',capture]
  ]){
   if(shell.split(marker).length!==2)throw new Error('Missing or duplicated shell boundary '+marker);

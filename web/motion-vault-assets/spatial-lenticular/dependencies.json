@@ -1,0 +1,17 @@
+{
+  "direct": {
+    "@react-three/fiber": "8.18.0",
+    "@react-three/drei": "9.122.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.175.0",
+    "three-stdlib": "2.36.0",
+    "leva": "0.10.0"
+  },
+  "lockFile": "adapter/package-lock.json",
+  "lockSha256": "02ae522a5bf3002328941fa885dde0f4178ca0719f4b96bdadc677fd284566a2",
+  "dependencyLifecycleScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "runtimeExecution": "not performed; static bundle/asset validation only",
+  "missingStandaloneLicenseFiles": []
+}

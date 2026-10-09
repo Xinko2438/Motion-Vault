@@ -1,0 +1,73 @@
+{
+  "schema": "motion-vault.compatibility-matrix.v1",
+  "integrationAllowed": true,
+  "runtimeApprovedIds": [
+    "mv2-repeating-image",
+    "mv2-rotating-image-scroll",
+    "mv2-art-directed-slideshow",
+    "mv2-satto-type-motion",
+    "mv2-hover-grid-reveal",
+    "mv2-reflection-editorial",
+    "mv2-grid-push",
+    "mv2-column-row-depth",
+    "mv2-sticky-grid-story",
+    "mv2-paranoia-filter",
+    "mv2-stack-content",
+    "spatial-unwoven",
+    "spatial-xylophone",
+    "spatial-lenticular",
+    "spatial-depth-gallery",
+    "spatial-paper-crumple",
+    "spatial-webgl-lens",
+    "spatial-procedural-snake",
+    "spatial-dithering-cubes",
+    "spatial-kinetic-images",
+    "cloud-kinetic-handoff",
+    "cloud-context-wordmark",
+    "cloud-context-search",
+    "cloud-radial-cover-nav"
+  ],
+  "runtimeApprovedCount": 24,
+  "reason": "Actual same-version capture, card playback and isolated source execution verified; user curation and visual acceptance remain separate",
+  "cataloguePlan": {
+    "formalSourceCount": 60,
+    "originalCandidateSourceCount": 30,
+    "candidateSourceCount": 54,
+    "expansionSourceCount": 24
+  },
+  "automatedRuntime": {
+    "passed": 24,
+    "total": 24,
+    "status": "verified_same_version_capture_and_sandbox",
+    "newRunPerformed": true,
+    "stageGallerySha256": "05cd38a4e83fdb7a3166d5c13535b36c88e854fe04d24d9dc6501535b0eb6751",
+    "evidence": [
+      "lineage/current/sandbox.json",
+      "lineage/current/candidate-validation.json"
+    ],
+    "visualAcceptance": false
+  },
+  "previousHumanAcceptance": {
+    "previewUserConfirmed": true,
+    "fusionUserAuthorized": true,
+    "additionalBrowserVerificationRequired": false,
+    "isolatedPreview": "http://127.0.0.1:52892/motion-vault.html?view=pending",
+    "authorizationEvidence": {
+      "source": "Parent task supplied the user statement; current baseline screened snapshot confirms the merge request and state-preservation constraints.",
+      "userStatement": "我已经可以打开…这个页面了，没有问题，现在可以考虑融合了，但是我本身的4380的那个页面的正式资产现在是71个，而你给出的这个pending页面是60个，需要去按照我现有的版本更新，确认更新融合之后即可，不需要再去实际打开验证了",
+      "messageId": null
+    },
+    "currentBaselineSnapshot": {
+      "name": "Motion-Vault-Latest-71-State-Screened.zip",
+      "capturedAt": "2026-10-07T17:07:42.361311+00:00",
+      "sha256": "9adc51b1355d405773275bdf23604226a57ddc22b445ce0a193a45a8c457f19e"
+    },
+    "boundHashes": {
+      "gallerySha256": "6a44985e702c0a1730d302a146aedeb5f89678a221b71cd5b20a76a00d51b81c",
+      "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+      "formalCatalogueSha256": "6889894d360e475587ea0d65b6a396bf302fffeddda4ce68bbe8888c0e932c44",
+      "candidateCatalogueSha256": "adf64fdb640d56fd02b1fe2ee922a657403c6516d64690b85e0c8d020571eeb8",
+      "registrySha256": "ce18c301715438eaf9cc049c7bde0f1e03ffc0b701bd5e11105877556de22413"
+    }
+  }
+}

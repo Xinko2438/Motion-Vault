@@ -1,0 +1,112 @@
+{
+  "viewport": {
+    "width": 1100,
+    "height": 670,
+    "hostScaling": "Scale the entire bounded iframe; never resize the host layout."
+  },
+  "parameters": [
+    {
+      "name": "textureSet",
+      "default": "summer-winter",
+      "unit": "enum",
+      "binding": "Experience.useControls.textureSet",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "nbDivisions",
+      "default": 90,
+      "unit": "folds",
+      "binding": "Experience.useControls.nbDivisions (10..90 step 10)",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "height",
+      "default": 0.05,
+      "unit": "world units",
+      "binding": "Experience.useControls.height (0.001..0.2)",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "planeSize",
+      "default": [
+        1,
+        1
+      ],
+      "unit": "world units",
+      "binding": "planeGeometry args",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "widthSegments",
+      "default": "nbDivisions * 2",
+      "unit": "segments",
+      "binding": "planeGeometry args",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "cameraPosition",
+      "default": [
+        3,
+        3,
+        3
+      ],
+      "unit": "world units",
+      "binding": "App.Canvas.camera",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "cameraFov",
+      "default": 30,
+      "unit": "degrees",
+      "binding": "App.Canvas.camera.fov",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "background",
+      "default": "#333",
+      "unit": "color",
+      "binding": "App.color",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "rendererBackend",
+      "default": "WebGL",
+      "unit": "backend",
+      "binding": "WebGPURenderer.forceWebGL",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    },
+    {
+      "name": "maxDpr",
+      "default": 1.5,
+      "unit": "ratio",
+      "binding": "Canvas.dpr",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": true
+    }
+  ],
+  "runtimeControls": {
+    "SourceDemo.stop()": "Pause render loop and active gesture where applicable.",
+    "SourceDemo.resume()": "Resume only local rendering; never fabricate input.",
+    "SourceDemo.dispose()": "Dispose this mounted effect and local resource transport.",
+    "SourceDemo.paint()": "Read readiness; lenticular also invalidates its demand frame. No synthetic motion."
+  },
+  "interaction": "Native OrbitControls drag, touch and wheel; Leva controls retain division count, fold height and the two still-image pairs. Camera starts at the author’s [3,3,3], fov 30. No autoplay or fabricated orbit is added.",
+  "technicalDependencies": {
+    "@react-three/fiber": "8.18.0",
+    "@react-three/drei": "9.122.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "0.175.0",
+    "three-stdlib": "2.36.0",
+    "leva": "0.10.0"
+  }
+}

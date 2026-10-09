@@ -1,0 +1,159 @@
+{
+  "repository": "https://github.com/wass08/r3f-lenticular-material",
+  "commit": "9d7fcc2343a8719784c995a8c742311e2327b8a1",
+  "codeLicense": "MIT",
+  "runtimeVerification": "not_performed_browser_routes_blocked",
+  "id": "spatial-lenticular",
+  "source_kind": "adapted_author_source",
+  "author": "Wassim Samad / Wawa Sensei",
+  "article": "https://wawasensei.dev/tuto/how-to-build-a-lenticular-material-effect",
+  "demo": "https://lenticular.wawasensei.dev",
+  "license": {
+    "name": "MIT",
+    "file": "source/LICENSE",
+    "url": "https://github.com/wass08/r3f-lenticular-material/blob/9d7fcc2343a8719784c995a8c742311e2327b8a1/LICENSE",
+    "sha256": "01b209fcf168f6aad6b159857cfe8482bdad02fb55d6ea84678ba9dd9ae3339c"
+  },
+  "sourceFiles": [
+    {
+      "path": ".gitignore",
+      "bytes": 253,
+      "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8",
+      "gitBlobSha": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/.gitignore"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1069,
+      "sha256": "01b209fcf168f6aad6b159857cfe8482bdad02fb55d6ea84678ba9dd9ae3339c",
+      "gitBlobSha": "c5737225b385a237be809835a447b69b8eddb4fa",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 317,
+      "sha256": "f4a9b1785cac83b66b9ccfd240b9e329452174c38856b8658f470262c3d5858d",
+      "gitBlobSha": "900e782124d80421f225d81706f0ac407bad51e0",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/README.md"
+    },
+    {
+      "path": "index.html",
+      "bytes": 361,
+      "sha256": "73a1cabe0c63fb2a6b4ec6151be8b7dc691bfbee9cf28ad8d9f24b9531882ac7",
+      "gitBlobSha": "79c470191164e9d0a66bd61f715be685ce43b057",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/index.html"
+    },
+    {
+      "path": "package.json",
+      "bytes": 622,
+      "sha256": "287b88f3a95a1ff2fcd27ecf33fccc94804d663d234ec06d2810284ff7febfa2",
+      "gitBlobSha": "233f3ce4138aea831902d2effddbcec11d1e83d9",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/package.json"
+    },
+    {
+      "path": "public/textures/evil-angel/angel.png",
+      "bytes": 244641,
+      "sha256": "704cacb7c7a13fdb4ca168c5b2f58c4c59fd5ccc91073a478f80670d05e5eae5",
+      "gitBlobSha": "9aaacac3857cfcb475aff13dd91163e25b9e66d9",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/public/textures/evil-angel/angel.png"
+    },
+    {
+      "path": "public/textures/evil-angel/evil.png",
+      "bytes": 185600,
+      "sha256": "190e3f839008f10e59fea82306b6d7ed39d7110d3f5bcdc29830a98ecb488950",
+      "gitBlobSha": "fcf3c5473df9622f6eeb53de88beb7acb118e79c",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/public/textures/evil-angel/evil.png"
+    },
+    {
+      "path": "public/textures/summer-winter/summer.png",
+      "bytes": 444149,
+      "sha256": "9cd97cf85168f636430112bd353ac65a291141d09caccc2b82d22fbc5fa532f7",
+      "gitBlobSha": "594d4b84f7d391541df78836182a5e9924fbb274",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/public/textures/summer-winter/summer.png"
+    },
+    {
+      "path": "public/textures/summer-winter/winter.png",
+      "bytes": 473683,
+      "sha256": "2c89b6337ec860d0700c126419f131b22d1df871f1ca696669bac01719f0aac9",
+      "gitBlobSha": "aa3a3d7e20024992fb5c0dac53adf8915a8d0c5d",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/public/textures/summer-winter/winter.png"
+    },
+    {
+      "path": "public/vite.svg",
+      "bytes": 1497,
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+      "gitBlobSha": "e7b8dfb1b2a60bd50538bec9f876511b9cac21e3",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/public/vite.svg"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 1312,
+      "sha256": "a2283a78fca68f9ad9e8acd443f6a6bfd92c09f623c2e0d1c968bbe5b5629891",
+      "gitBlobSha": "f85a9153e603ac7320da94263a0ab87c865b16bf",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/src/App.jsx"
+    },
+    {
+      "path": "src/assets/react.svg",
+      "bytes": 4126,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "gitBlobSha": "6c87de9bb3358469122cc991d5cf578927246184",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/src/assets/react.svg"
+    },
+    {
+      "path": "src/components/Experience.jsx",
+      "bytes": 1833,
+      "sha256": "ddd5641217bdc20f6a511f8446dcd693e268e744c03329b16780f0cda65b42f2",
+      "gitBlobSha": "b96b20e8387013d6455b960d0670c53c95c5a520",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/src/components/Experience.jsx"
+    },
+    {
+      "path": "src/components/LenticularMaterial.jsx",
+      "bytes": 1206,
+      "sha256": "209712d37949c4c5bf7b4987e298a3866a9eb6224c5180716c136691dd5c6634",
+      "gitBlobSha": "863f998383a2dcbc4dba6dae312b8a8bbe325b59",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/src/components/LenticularMaterial.jsx"
+    },
+    {
+      "path": "src/index.css",
+      "bytes": 66,
+      "sha256": "2fed33a894cafffdf4657451b2f052c17e7e1e07ba1e3bfcbee3ba73a35c7c41",
+      "gitBlobSha": "3e2ae6ba0a35503743df275ce537c0e628b827bb",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/src/index.css"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 235,
+      "sha256": "a51e0f7e277f34e81badc2a31bdd4d5b40df497960266ac40d5cd27e81a36fac",
+      "gitBlobSha": "f18b0f0d146d48d9da1fa315cc8d02055e685843",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/src/main.jsx"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 163,
+      "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a",
+      "gitBlobSha": "5a33944a9b41b59a9cf06ee4bb5586c77510f06b",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/vite.config.js"
+    },
+    {
+      "path": "yarn.lock",
+      "bytes": 83177,
+      "sha256": "048b57a63eb20113f585cb37fb445efa7a3395a0430feb72e1a11c03c886a3db",
+      "gitBlobSha": "9d6b281b3c644908b5d17618095849eadd6adc12",
+      "downloadUrl": "https://raw.githubusercontent.com/wass08/r3f-lenticular-material/9d7fcc2343a8719784c995a8c742311e2327b8a1/yarn.lock"
+    }
+  ],
+  "omittedUpstreamFiles": [
+    "public/images/wawasensei-white.png",
+    "public/textures/mathematics-twerk/mathematics-numbers.mp4",
+    "public/textures/mathematics-twerk/twerk-course.mp4"
+  ],
+  "fetchedAt": "2026-10-07",
+  "upstreamBuildScriptsExecuted": false,
+  "status": "adapted_static_checks_passed_runtime_pending",
+  "assetRights": [
+    "Official tutorial identifies images as made with 3D AI Studio; the unchanged author-produced repository stills accompany MIT source distribution.",
+    "No separate per-image provenance/model-release warranty is supplied; recheck suitability and clearance before unrelated production redistribution.",
+    "Venice Sunset is by Greg Zaal / Poly Haven, CC0. https://polyhaven.com/a/venice_sunset and https://polyhaven.com/license verified 2026-10-07.",
+    "Video assets and promotional logo were not copied."
+  ]
+}

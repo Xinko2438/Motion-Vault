@@ -1,0 +1,66 @@
+{
+  "schema": "motion-vault.own-controller-contract.v2",
+  "upstreamCodeExecuted": false,
+  "browserExecuted": false,
+  "realR3FExecuted": false,
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "check": "initial ready stays pending without renderer/resources and paint returns false",
+      "passed": true
+    },
+    {
+      "check": "stable R3F getter attachment is idempotent and does not reset matching frameloop",
+      "passed": true
+    },
+    {
+      "check": "resource commit alone and empty render are not ready",
+      "passed": true
+    },
+    {
+      "check": "ready resolves only after resource commit and a genuine renderer-counter advance with draws",
+      "passed": true
+    },
+    {
+      "check": "stop/resume only change actual frameloop when needed",
+      "passed": true
+    },
+    {
+      "check": "native reduced-motion changes keep demand rendering but block ambient updates",
+      "passed": true
+    },
+    {
+      "check": "stopped paint advances actual R3F state at unchanged elapsed time",
+      "passed": true
+    },
+    {
+      "check": "author initialization error rejects ready and stops renderer",
+      "passed": true
+    },
+    {
+      "check": "actual shader error callback rejects ready",
+      "passed": true
+    },
+    {
+      "check": "route switch starts a new readiness obligation",
+      "passed": true
+    },
+    {
+      "check": "control callback-ref cleanup releases each native instance",
+      "passed": true
+    },
+    {
+      "check": "dispose rejects pending ready, releases renderer/context/events/scenes and is terminal",
+      "passed": true
+    },
+    {
+      "check": "cleanup errors do not prevent later release and are reported accurately",
+      "passed": true
+    },
+    {
+      "check": "source hook selects stable get and has no whole-store effect loop or readiness timer",
+      "passed": true
+    }
+  ]
+}

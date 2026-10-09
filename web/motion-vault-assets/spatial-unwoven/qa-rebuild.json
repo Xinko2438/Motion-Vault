@@ -1,0 +1,22 @@
+{
+  "schema": "motion-vault.rebuild-review.v2",
+  "runtimeFiles": 12,
+  "byteIdenticalAcrossCWD": true,
+  "sha256": {
+    "run/effect.css": "119c0323381414816d2adafa9bf30cf9a30a3edd4d53f092655e75f8387febeb",
+    "run/effect.js": "8b7ecf54a3e8981c8718e964671e957f14d0ab80dfc42952fa6ec3dadfa13438",
+    "run/img/motion_blur_portrait_01.jpg": "f84477bebe47fe31721914c04ef5979614df7554af3671f8ee9975039a36680d",
+    "run/img/motion_blur_portrait_02.jpg": "4d2a9253ee60f5e86eb2c04a1e19045e8229ac558062f6b773bf9dd82e43f7ea",
+    "run/img/motion_blur_portrait_03.jpg": "59700fa08be5cdead1061b86f2660124dc0f2aef4168291e3d48961b2c41dc12",
+    "run/img/motion_blur_portrait_04.jpg": "c0547459451a2335514e877207f509ed2bd4a5e8fd7eeae130e60309eb039c24",
+    "run/img/motion_blur_portrait_05.jpg": "c0114f1eae4e6ee703761983f821f8f0853d9c1d996b8fd1c24a64f21b1bd489",
+    "run/img/motion_blur_portrait_06.jpg": "5565997c89281217bd3bc09becccb05dfd065fd3faa3722eb5f377a1b4e4b3d3",
+    "run/index.html": "672f72d6088c04a149f4aafab7f5227c636f4baca70ce0d17a0096e6a6421846",
+    "run/vault-isolation.js": "53133d2c7865b4bd624a8f37fc1f288060f543526aa6e729b73b2288c09f5be6",
+    "run/vendor/gsap.min.js": "28033e449a31ebcc396e5be8b13b63152bf03094288fb5867034321927bce087",
+    "run/vendor/three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2"
+  },
+  "browserExecuted": false,
+  "runtime": "not_run",
+  "scope": "Own adapter build only; no upstream build script or runtime executed."
+}

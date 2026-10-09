@@ -1,0 +1,337 @@
+[
+  {
+    "path": "source/eslint.config.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/next.config.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/layout.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/page.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/page.module.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/paper/page.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/paper/page.module.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/spiral/page.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/app/spiral/page.module.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/layouts/Layout.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/Footer/Footer.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/Footer/Footer.module.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/Header/Header.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/Header/Header.module.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/Loader/Loader.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/Loader/Loader.module.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/ui/modules/index.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/webgl/Banner/Banner.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/webgl/Billboard/Billboard.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/webgl/Paper/Paper.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/webgl/Spiral/Spiral.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/components/webgl/index.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/data/images.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/data/metadata.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/hooks/index.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/hooks/useCollageTexture.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/styles/_reset.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/styles/global.scss",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/Scene.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/View.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/helpers/Three.jsx",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/helpers/getCanvasTexture.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/helpers/global.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/materials/MeshBannerMaterial.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "source/src/webgl/materials/MeshImageMaterial.js",
+    "role": "pinned_authoritative_snapshot",
+    "files": 60
+  },
+  {
+    "path": "adapter/src/app/layout.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/app/page.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/app/page.module.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/app/paper/page.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/app/paper/page.module.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/app/spiral/page.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/app/spiral/page.module.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/layouts/Layout.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/Footer/Footer.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/Footer/Footer.module.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/Header/Header.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/Header/Header.module.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/Loader/Loader.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/Loader/Loader.module.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/ui/modules/index.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/webgl/Banner/Banner.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/webgl/Billboard/Billboard.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/webgl/Paper/Paper.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/webgl/Spiral/Spiral.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/components/webgl/index.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/data/images.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/data/metadata.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/hooks/index.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/hooks/useCollageTexture.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/styles/_reset.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/styles/global.scss",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/Scene.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/View.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/helpers/Three.jsx",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/helpers/getCanvasTexture.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/helpers/global.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/materials/MeshBannerMaterial.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/src/webgl/materials/MeshImageMaterial.js",
+    "role": "source_derived_readable_components"
+  },
+  {
+    "path": "adapter/prepare.py",
+    "role": "deterministic_source_transform"
+  },
+  {
+    "path": "adapter/effect.diff",
+    "role": "complete_authored_source_diff"
+  },
+  {
+    "path": "adapter/entry.jsx",
+    "role": "local_React_root_and_error_boundary"
+  },
+  {
+    "path": "adapter/runtime.js",
+    "role": "real_R3F_lifecycle_and_reduced_motion"
+  },
+  {
+    "path": "adapter/router.jsx",
+    "role": "local_hash_navigation"
+  },
+  {
+    "path": "adapter/build.mjs",
+    "role": "own_esbuild_and_sass_config"
+  },
+  {
+    "path": "run/vault-isolation.js",
+    "role": "opaque_manifest_limited_asset_transport"
+  }
+]

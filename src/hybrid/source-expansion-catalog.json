@@ -1,0 +1,550 @@
+[
+  {
+    "id": "mv2-repeating-image",
+    "title": "连续影帧沿路径接入图像详情",
+    "desc": "图像自身被拆成有停顿与重叠的连续影帧；平面、丝绸折面与墨迹形态保留作者完整路径、裁切和阶段时序。",
+    "design_value": "图像自身被拆成有停顿与重叠的连续影帧；平面、丝绸折面与墨迹形态保留作者完整路径、裁切和阶段时序。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "页面主体或章节",
+        "goal": "图像自身被拆成有停顿与重叠的连续影帧；平面、丝绸折面与墨迹形态保留作者完整路径、裁切和阶段时序。"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/RepeatingImageTransition",
+    "reference_url": "https://tympanus.net/Development/RepeatingImageTransition/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-rotating-image-scroll",
+    "title": "摄影阵列的三维旋转与滚动光场",
+    "desc": "连续摄影在不同轴线、表面与空间排布中旋转；保留作者构图及多个原生变体，不把十五种变体拆成十五条素材。",
+    "design_value": "连续摄影在不同轴线、表面与空间排布中旋转；保留作者构图及多个原生变体，不把十五种变体拆成十五条素材。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "overview",
+        "placement": "页面主体或章节",
+        "goal": "连续摄影在不同轴线、表面与空间排布中旋转；保留作者构图及多个原生变体，不把十五种变体拆成十五条素材。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/RotatingOnScrollAnimations",
+    "reference_url": "https://tympanus.net/Development/RotatingOnScrollAnimations/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-art-directed-slideshow",
+    "title": "图像与遮罩共同编排的全屏换幕",
+    "desc": "同一批艺术摄影通过作者完整分层裁切、位移和进退节奏切换；保留原生观察器输入与变体导航。",
+    "design_value": "同一批艺术摄影通过作者完整分层裁切、位移和进退节奏切换；保留原生观察器输入与变体导航。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "sequence",
+        "placement": "页面主体或章节",
+        "goal": "同一批艺术摄影通过作者完整分层裁切、位移和进退节奏切换；保留原生观察器输入与变体导航。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/SlideshowAnimations",
+    "reference_url": "http://tympanus.net/Development/SlideshowAnimations/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-satto-type-motion",
+    "title": "散列字块汇聚成编排骨架",
+    "desc": "小型信息字块、超大单字与留白形成编辑秩序；滚动驱动的不只是文字显隐，而是排版关系的持续重组。",
+    "design_value": "小型信息字块、超大单字与留白形成编辑秩序；滚动驱动的不只是文字显隐，而是排版关系的持续重组。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "typesetting",
+        "placement": "页面主体或章节",
+        "goal": "小型信息字块、超大单字与留白形成编辑秩序；滚动驱动的不只是文字显隐，而是排版关系的持续重组。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/ScrollTextMotion",
+    "reference_url": "https://tympanus.net/Development/ScrollMotion/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-hover-grid-reveal",
+    "title": "网格遮罩随悬停让出背景画面",
+    "desc": "保留 Metalab 灵感原作的整幅图像网格、区域裁切与原生鼠标响应，背景媒体是素材层而非伪造交互的录屏。",
+    "design_value": "保留 Metalab 灵感原作的整幅图像网格、区域裁切与原生鼠标响应，背景媒体是素材层而非伪造交互的录屏。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "discovery",
+        "placement": "页面主体或章节",
+        "goal": "保留 Metalab 灵感原作的整幅图像网格、区域裁切与原生鼠标响应，背景媒体是素材层而非伪造交互的录屏。"
+      }
+    ],
+    "preview_mode": "pointer",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/HoverGrid",
+    "reference_url": "http://tympanus.net/Development/HoverGrid/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-reflection-editorial",
+    "title": "镜面空间中的同步编辑画廊",
+    "desc": "真实图像编排与反射层同步滚动，以透视、反射边界和柔和遮蔽构成完整空间，而非单张卡片阴影。",
+    "design_value": "真实图像编排与反射层同步滚动，以透视、反射边界和柔和遮蔽构成完整空间，而非单张卡片阴影。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "atmosphere",
+        "placement": "页面主体或章节",
+        "goal": "真实图像编排与反射层同步滚动，以透视、反射边界和柔和遮蔽构成完整空间，而非单张卡片阴影。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/ReflectionScroll",
+    "reference_url": "https://tympanus.net/Development/ReflectionScroll/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-grid-push",
+    "title": "照片位置互让的网格推进",
+    "desc": "选中图像与相邻单元共同重新分配空间，保留作者三种完整排布、遮罩、推进和回位关系。",
+    "design_value": "选中图像与相邻单元共同重新分配空间，保留作者三种完整排布、遮罩、推进和回位关系。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "discovery",
+        "placement": "页面主体或章节",
+        "goal": "选中图像与相邻单元共同重新分配空间，保留作者三种完整排布、遮罩、推进和回位关系。"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/PushGridItems",
+    "reference_url": "https://tympanus.net/Development/PushGridItems/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-column-row-depth",
+    "title": "列与行在纵深中交错展开",
+    "desc": "大幅摄影列阵按阅读推进形成交错速度和纵深，多个作者变体作为一个可研究的源码家族保留。",
+    "design_value": "大幅摄影列阵按阅读推进形成交错速度和纵深，多个作者变体作为一个可研究的源码家族保留。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "页面主体或章节",
+        "goal": "大幅摄影列阵按阅读推进形成交错速度和纵深，多个作者变体作为一个可研究的源码家族保留。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/OnScrollColumnsRows",
+    "reference_url": "https://tympanus.net/Development/OnScrollColumnsRows/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-sticky-grid-story",
+    "title": "固定画布里逐步展开的摄影章节",
+    "desc": "标题、说明与各列摄影在固定场景中分阶段交接，保留作者列组延迟、中央叙事与图像视差时序。",
+    "design_value": "标题、说明与各列摄影在固定场景中分阶段交接，保留作者列组延迟、中央叙事与图像视差时序。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "页面主体或章节",
+        "goal": "标题、说明与各列摄影在固定场景中分阶段交接，保留作者列组延迟、中央叙事与图像视差时序。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/theoplawinski/codrops-sticky-grid-scroll",
+    "reference_url": "https://tympanus.net/Tutorials/StickyGridScroll/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-paranoia-filter",
+    "title": "建筑式版面中的滤镜显影换幕",
+    "desc": "电蓝色版面、拱形主图、两侧预览与背景变色共同完成戏剧性换幕；保留原作的粒化滤镜与三套同步幻灯。",
+    "design_value": "电蓝色版面、拱形主图、两侧预览与背景变色共同完成戏剧性换幕；保留原作的粒化滤镜与三套同步幻灯。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "页面主体或章节",
+        "goal": "电蓝色版面、拱形主图、两侧预览与背景变色共同完成戏剧性换幕；保留原作的粒化滤镜与三套同步幻灯。"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/ParanoiaSlideshow",
+    "reference_url": "https://tympanus.net/Development/ParanoiaSlideshow/",
+    "batch": "new20"
+  },
+  {
+    "id": "mv2-stack-content",
+    "title": "摄影叠页展开为编辑内容空间",
+    "desc": "黑底大字与橙色标题围合摄影列阵，叠页展开后仍保持作品、文字与相邻图像的空间关系。",
+    "design_value": "黑底大字与橙色标题围合摄影列阵，叠页展开后仍保持作品、文字与相邻图像的空间关系。",
+    "avoid": "需在目标设备验证原生输入、减少动态效果与性能；图片、字体及依赖的生产复用权利见随包说明。",
+    "tech": "作者原始 HTML / CSS / JavaScript · 本地依赖与隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "页面主体或章节",
+        "goal": "黑底大字与橙色标题围合摄影列阵，叠页展开后仍保持作品、文字与相邻图像的空间关系。"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "adapted_author_source",
+    "source_name": "Codrops 作者源码",
+    "source_url": "https://github.com/codrops/ContentLayoutTransition",
+    "reference_url": "http://tympanus.net/Development/ContentLayoutTransition/",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-unwoven",
+    "title": "人像散成丝线的无限织机",
+    "desc": "模糊人像在连续滚动中抽离成丝线，保留原作26层条带、曲线轨迹与暖色摄影关系。",
+    "design_value": "模糊人像在连续滚动中抽离成丝线，保留原作26层条带、曲线轨迹与暖色摄影关系。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "模糊人像在连续滚动中抽离成丝线，保留原作26层条带、曲线轨迹与暖色摄影关系。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "Clément Grellier",
+    "source_url": "https://github.com/clementgrellier/unwoven",
+    "reference_url": "https://tympanus.net/Development/Unwoven/",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-xylophone",
+    "title": "透明材质包裹的螺旋木琴",
+    "desc": "流体光照、透明后期与螺旋模型共同构成跟手的物件空间；原模型保留，音频因权利未核实而关闭。",
+    "design_value": "流体光照、透明后期与螺旋模型共同构成跟手的物件空间；原模型保留，音频因权利未核实而关闭。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "流体光照、透明后期与螺旋模型共同构成跟手的物件空间；原模型保留，音频因权利未核实而关闭。"
+      }
+    ],
+    "preview_mode": "pointer",
+    "source_kind": "adapted_author_source",
+    "source_name": "Sujen Phea",
+    "source_url": "https://github.com/Sujenphea/xylophone",
+    "reference_url": "https://tympanus.net/Tutorials/Xylophone/",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-lenticular",
+    "title": "视角切换的光栅透镜画面",
+    "desc": "透镜条纹依据真实观察角度在两幅图像之间切换，保留TSL材质及透视结构。",
+    "design_value": "透镜条纹依据真实观察角度在两幅图像之间切换，保留TSL材质及透视结构。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "detail",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "透镜条纹依据真实观察角度在两幅图像之间切换，保留TSL材质及透视结构。"
+      }
+    ],
+    "preview_mode": "drag",
+    "source_kind": "adapted_author_source",
+    "source_name": "Wassim Samad / Wawa Sensei",
+    "source_url": "https://github.com/wass08/r3f-lenticular-material",
+    "reference_url": "https://lenticular.wawasensei.dev",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-depth-gallery",
+    "title": "花卉图像纵深与鼠标余迹",
+    "desc": "以淡色花卉摄影、深度层级和持续鼠标轨迹组成完整画廊，保留原生GLSL位移与景深组织。",
+    "design_value": "以淡色花卉摄影、深度层级和持续鼠标轨迹组成完整画廊，保留原生GLSL位移与景深组织。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "discovery",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "以淡色花卉摄影、深度层级和持续鼠标轨迹组成完整画廊，保留原生GLSL位移与景深组织。"
+      }
+    ],
+    "preview_mode": "pointer",
+    "source_kind": "adapted_author_source",
+    "source_name": "Houmahani Kane",
+    "source_url": "https://github.com/houmahani/codrops-depth-gallery",
+    "reference_url": "https://tympanus.net/Tutorials/DepthGallery/",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-paper-crumple",
+    "title": "纸张揉皱与物理投掷",
+    "desc": "手写纸张通过作者Houdini顶点动画变成皱纸，物理世界承接落点、旋转和碰撞。",
+    "design_value": "手写纸张通过作者Houdini顶点动画变成皱纸，物理世界承接落点、旋转和碰撞。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "workspace",
+        "task": "precision",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "手写纸张通过作者Houdini顶点动画变成皱纸，物理世界承接落点、旋转和碰撞。"
+      }
+    ],
+    "preview_mode": "drag",
+    "source_kind": "adapted_author_source",
+    "source_name": "nagasawa (ITEM Inc.)",
+    "source_url": "https://github.com/item-develop/paper-crumple-demo",
+    "reference_url": "https://paper-crumple-demo.pages.dev/",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-webgl-lens",
+    "title": "滚动版面中的折射透镜",
+    "desc": "透镜对真实排版与图像产生FBO折射，滚动与屏幕空间同步，保留镜面模型和光照细节。",
+    "design_value": "透镜对真实排版与图像产生FBO折射，滚动与屏幕空间同步，保留镜面模型和光照细节。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "product",
+        "task": "detail",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "透镜对真实排版与图像产生FBO折射，滚动与屏幕空间同步，保留镜面模型和光照细节。"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "adapted_author_source",
+    "source_name": "David Lindkvist / 14islands",
+    "source_url": "https://github.com/14islands/codrops-scroll-rig-tutorial",
+    "reference_url": "https://github.com/14islands/codrops-scroll-rig-tutorial",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-procedural-snake",
+    "title": "程序化鳞片组成的流线蛇体",
+    "desc": "曲线骨架、逐片鳞片与四组材质着色器形成有光泽的连续蛇体，鼠标影响原生空间响应。",
+    "design_value": "曲线骨架、逐片鳞片与四组材质着色器形成有光泽的连续蛇体，鼠标影响原生空间响应。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "hero",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "曲线骨架、逐片鳞片与四组材质着色器形成有光泽的连续蛇体，鼠标影响原生空间响应。"
+      }
+    ],
+    "preview_mode": "pointer",
+    "source_kind": "adapted_author_source",
+    "source_name": "Sujen",
+    "source_url": "https://github.com/Sujenphea/procedural-snake",
+    "reference_url": "https://tympanus.net/Tutorials/WebGLSnakeAnimation/",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-dithering-cubes",
+    "title": "双层着色器形成的抖色方块",
+    "desc": "两组400×400几何与原始GLSL组成可调的图案和色阶，保留原作者密度、采样与阈值关系。",
+    "design_value": "两组400×400几何与原始GLSL组成可调的图案和色阶，保留原作者密度、采样与阈值关系。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "atmosphere",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "两组400×400几何与原始GLSL组成可调的图案和色阶，保留原作者密度、采样与阈值关系。"
+      }
+    ],
+    "preview_mode": "pointer",
+    "source_kind": "adapted_author_source",
+    "source_name": "作者源码",
+    "source_url": "https://github.com/damarberlari/visualizing-dithering-codrops",
+    "reference_url": "https://github.com/damarberlari/visualizing-dithering-codrops",
+    "batch": "new20"
+  },
+  {
+    "id": "spatial-kinetic-images",
+    "title": "摄影纸面构成的动力学雕塑",
+    "desc": "Tower、Paper、Spiral三种原作编排保留独立相机、纸面几何和CanvasTexture纹理，作为一个素材家族。",
+    "design_value": "Tower、Paper、Spiral三种原作编排保留独立相机、纸面几何和CanvasTexture纹理，作为一个素材家族。",
+    "avoid": "WebGL/GPU、触摸、原生输入与减少动态效果需浏览器验收；媒体权利和适配边界见实现说明。",
+    "tech": "作者原始 WebGL / Three.js / React Three Fiber · 本地隔离适配",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "overview",
+        "placement": "页面主视觉或作品探索区",
+        "goal": "Tower、Paper、Spiral三种原作编排保留独立相机、纸面几何和CanvasTexture纹理，作为一个素材家族。"
+      }
+    ],
+    "preview_mode": "drag",
+    "source_kind": "adapted_author_source",
+    "source_name": "Dominik Fojcik",
+    "source_url": "https://github.com/DGFX/codrops-kinetic-images",
+    "reference_url": "https://tympanus.net/Tutorials/KineticImages/",
+    "batch": "new20"
+  },
+  {
+    "id": "cloud-kinetic-handoff",
+    "title": "字形穿越的双页叙事接续",
+    "desc": "标题字形离开排版锚点，形成过渡构图，再落回下一页；让章节身份和页面切换来自同一组字形。",
+    "design_value": "标题字形离开排版锚点，形成过渡构图，再落回下一页；让章节身份和页面切换来自同一组字形。",
+    "avoid": "大幅字形运动不适合高频工作流；减少动态效果时直接切换，不能阻塞内容与返回。",
+    "tech": "Native HTML / CSS / JavaScript · no dependencies",
+    "uses": [
+      {
+        "scene": "portfolio",
+        "task": "handoff",
+        "placement": "作品集封面进入案例",
+        "goal": "用标题身份连接前后两个完整构图"
+      },
+      {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "专题章节交接",
+        "goal": "把文字作为叙事转场的一部分"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "independent_code",
+    "source_name": "Motion Vault 独立实现（概念研究引用）",
+    "source_url": "https://github.com/codrops/KineticTypePageTransition",
+    "batch": "previous4"
+  },
+  {
+    "id": "cloud-context-wordmark",
+    "title": "随章节语境收放的固定字标",
+    "desc": "固定字标随内容章节调整层次与显隐，让品牌身份保持连续，同时为阅读内容让出空间。",
+    "design_value": "固定字标随内容章节调整层次与显隐，让品牌身份保持连续，同时为阅读内容让出空间。",
+    "avoid": "标识变化不能移动实际导航热区或隐藏键盘焦点；滚动状态应可逆，不能抢占原生滚动。",
+    "tech": "Native HTML / CSS / JavaScript · no dependencies",
+    "uses": [
+      {
+        "scene": "brand",
+        "task": "identity",
+        "placement": "品牌叙事页固定页眉",
+        "goal": "让身份标识回应页面语境而不过度遮挡内容"
+      },
+      {
+        "scene": "editorial",
+        "task": "chapter",
+        "placement": "长页面章节连接",
+        "goal": "通过持续存在的视觉锚点建立阅读定位"
+      }
+    ],
+    "preview_mode": "scroll",
+    "source_kind": "independent_code",
+    "source_name": "Motion Vault 独立实现（概念研究引用）",
+    "source_url": "https://github.com/codrops/ContextAwareLogoAnimationScroll",
+    "batch": "previous4"
+  },
+  {
+    "id": "cloud-context-search",
+    "title": "工具条展开为可输入的检索上下文",
+    "desc": "紧凑工具条在原位置扩展为搜索输入与结果面板，真实匹配本地示例笔记，并提供无结果、选择和返回反馈。",
+    "design_value": "紧凑工具条在原位置扩展为搜索输入与结果面板，真实匹配本地示例笔记，并提供无结果、选择和返回反馈。",
+    "avoid": "生产接入需要自己的检索与数据权限；示例内容不是用户资料，示例保存仅为页面内状态。",
+    "tech": "Native HTML / CSS / JavaScript · no dependencies",
+    "uses": [
+      {
+        "scene": "workspace",
+        "task": "context",
+        "placement": "资料工作台的局部检索入口",
+        "goal": "在不离开当前阅读位置的情况下展开输入与结果"
+      },
+      {
+        "scene": "journey",
+        "task": "recovery",
+        "placement": "零结果与返回原任务",
+        "goal": "让检索失败和恢复都有清楚路径"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "independent_code",
+    "source_name": "Motion Vault 独立实现（概念研究引用）",
+    "source_url": "https://github.com/ibelick/motion-primitives/blob/main/components/core/toolbar-dynamic.tsx",
+    "batch": "previous4"
+  },
+  {
+    "id": "cloud-radial-cover-nav",
+    "title": "可中断反向的构图散开导航",
+    "desc": "封面图形向外散开，为导航腾出空间；再次操作可反向收回，链接悬停与真实点击继续响应用户输入。",
+    "design_value": "封面图形向外散开，为导航腾出空间；再次操作可反向收回，链接悬停与真实点击继续响应用户输入。",
+    "avoid": "保留明确开关和关闭路径；不应把大幅散开用作高频菜单的强制等待；需验收减少动态效果与焦点返回。",
+    "tech": "Native HTML / CSS / JavaScript · no dependencies",
+    "uses": [
+      {
+        "scene": "workspace",
+        "task": "navigation",
+        "placement": "作品与章节的全局入口",
+        "goal": "让封面构图和导航之间的层次变化可理解且可撤回"
+      },
+      {
+        "scene": "brand",
+        "task": "entrance",
+        "placement": "品牌主视觉到内容入口",
+        "goal": "沿同一视觉构图进入真实内容选择"
+      }
+    ],
+    "preview_mode": "click",
+    "source_kind": "independent_code",
+    "source_name": "Motion Vault 独立实现（概念研究引用）",
+    "source_url": "https://github.com/codrops/EaseReverseClipMenu",
+    "batch": "previous4"
+  }
+]

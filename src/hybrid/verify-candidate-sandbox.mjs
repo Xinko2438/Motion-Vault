@@ -76,6 +76,9 @@ const run=s=>withBrowser(async b=>{
    while(!complete){
     try{
      await binding.bind(readyDeadline);
+     // Expansion entries publish a resource/first-render-gated Promise;
+     // await fulfillment instead of treating the Promise object's truthiness as readiness.
+     await binding.evaluate('(window.SourceDemo?.ready&&typeof SourceDemo.ready.then==="function")?SourceDemo.ready.then(()=>true):true');
      let ready=false,last;
      while(Date.now()<readyDeadline){
       last=await binding.evaluate('({ready:!!(window.SourceDemo?.ready||window.assetReady),errors:[...(window.sourceErrors||[]),...(window.assetErrors||[])],images:[...document.images].filter(i=>!i.complete||!i.naturalWidth).map(i=>i.getAttribute("src")),gpu:!!navigator.gpu,canvases:[...document.querySelectorAll("canvas")].map(c=>[c.width,c.height])})');

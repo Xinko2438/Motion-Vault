@@ -1,0 +1,43 @@
+{
+  "schema": "motion-vault.static-qa.v1",
+  "id": "spatial-xylophone",
+  "checkedAt": "2026-10-07",
+  "sourceGitBlobHashesAllMatch": true,
+  "sourceFileCount": 47,
+  "sourceCommit": "8e4f9a8c7729f52edc006ca02c6c377921c4f1b7",
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "externalBuildImports": [],
+  "htmlResourcesAllLocalAndPresent": true,
+  "runtimeManifestCount": 5,
+  "dependencyLockPresent": true,
+  "dependencyInstallScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "missingStandaloneLicenseFiles": [],
+  "bundleSha256": "ac038007923ddfba400f1fc5c1183c192351b841dbe46968cb3c6efc2efabe7f",
+  "runtimeVerification": "NOT RUN for this lifecycle repair; build and static inspection only",
+  "visualEquivalence": "NOT VERIFIED",
+  "recording": "NOT CREATED",
+  "userApproval": "NOT INFERRED",
+  "staticPassed": true,
+  "assetDecode": {
+    "mode": "Static GLB header and JSON validation; no renderer",
+    "magicValid": true,
+    "version": 2,
+    "lengthMatches": true,
+    "meshes": 1,
+    "extensionsRequired": [],
+    "externalUris": []
+  },
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING"
+}

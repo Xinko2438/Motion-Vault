@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none';script-src 'self' 'unsafe-inline' blob:;style-src 'self' 'unsafe-inline';img-src 'self' data: blob:;media-src 'self' blob:;connect-src 'self' blob: data:;font-src 'none';worker-src blob:;base-uri 'self';form-action 'none'">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>On-Scroll Column & Row Animations | Demo 1 | Codrops</title>
+		<meta name="description" content="Scroll-driven animations for columns and rows powered by GSAP" />
+		<meta name="keywords" content="scroll animation, grid, column, javascript, css, gsap, 3d, distort" />
+		<meta name="author" content="Codrops" />
+		
+		
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		
+	<script src="./vault-isolation.js"></script><script src="./vault-controls.js"></script><style>.cdawrap,.frame__sponsor{display:none!important}:focus-visible{outline:2px solid currentColor;outline-offset:4px}</style><style data-vault-reduced-loader>@media(prefers-reduced-motion:reduce){.loading::after{animation:none!important;transform:none!important}}</style><style data-vault-scroll-layout-reduced>
+@media (prefers-reduced-motion: reduce) {
+:root { scroll-behavior: auto !important; }
+body { overflow-y: auto; }
+.columns { width: 100% !important; min-width: 0; grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr)); padding: 2rem 1rem; perspective: none !important; }
+.column, .column__item, .column__item-imgwrap, .column__item-img { transform: none !important; opacity: 1 !important; visibility: visible !important; filter: none !important; perspective: none !important; will-change: auto !important; }
+.column__item-img { top: 0; left: 0; width: 100%; height: 100%; }
+a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+
+}
+
+:root.vault-static-scroll-layout { scroll-behavior: auto !important; }
+.vault-static-scroll-layout body { overflow-y: auto; }
+.vault-static-scroll-layout .columns { width: 100% !important; min-width: 0; grid-template-columns: repeat(var(--grid-columns), minmax(0, 1fr)); padding: 2rem 1rem; perspective: none !important; }
+.vault-static-scroll-layout .column, .vault-static-scroll-layout .column__item, .vault-static-scroll-layout .column__item-imgwrap, .vault-static-scroll-layout .column__item-img { transform: none !important; opacity: 1 !important; visibility: visible !important; filter: none !important; perspective: none !important; will-change: auto !important; }
+.vault-static-scroll-layout .column__item-img { top: 0; left: 0; width: 100%; height: 100%; }
+.vault-static-scroll-layout a:focus-visible { outline: 3px solid currentColor; outline-offset: 4px; }
+
+@media (prefers-reduced-motion: reduce) and (max-width: 53em) {
+.columns { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.column { display: contents; }
+.column__item { min-width: 0; }
+
+}
+@media (max-width: 53em) {
+.vault-static-scroll-layout .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.vault-static-scroll-layout .column { display: contents; }
+.vault-static-scroll-layout .column__item { min-width: 0; }
+
+}
+</style>
+<script src="./vault-native-input.js"></script><script src="./vault-session.js"></script></head>
+	<body class="demo-7 loading">
+		<main>
+			<div class="frame">
+				<h1 class="frame__title">On-Scroll Column & Row Animations</h1> 
+				<a class="frame__back" href="https://tympanus.net/codrops/?p=73182">Article</a>
+				<a class="frame__prev" href="https://tympanus.net/Development/Scroll3DGrid/">Previous demo</a>
+				<nav class="frame__demos">
+					<span class="frame__demos-item">Variations: </span>
+					<a class="frame__demos-item" href="index.html">1</a>
+					<a class="frame__demos-item" href="index2.html">2</a>
+					<a class="frame__demos-item" href="index3.html">3</a>
+					<a class="frame__demos-item" href="index4.html">4</a>
+					<a class="frame__demos-item" href="index5.html">5</a>
+					<a class="frame__demos-item" href="index6.html">6</a>
+					<span class="frame__demos-item">7</span>
+					<a class="frame__demos-item" href="index8.html">8</a>
+					<a class="frame__demos-item" href="index9.html">9</a>
+					<a class="frame__demos-item" href="index10.html">10</a>
+				</nav>
+			</div>
+			<div class="columns">
+		        <div class="column">
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/1.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/2.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/3.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/4.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/5.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/6.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/7.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/8.jpg)"></div>
+		                </div>
+		            </figure>
+		        </div><!-- /column -->
+		        <div class="column">
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/20.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/19.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/18.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/17.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/16.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/15.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/14.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/13.jpg)"></div>
+		                </div>
+		            </figure>
+		        </div><!-- /column -->
+		        <div class="column">
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/9.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/10.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/11.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/12.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/13.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/14.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/1.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/2.jpg)"></div>
+		                </div>
+		            </figure>
+		        </div><!-- /column -->
+		        <div class="column">
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/3.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/4.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/5.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/6.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/7.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/8.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/9.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/10.jpg)"></div>
+		                </div>
+		            </figure>
+		        </div><!-- /column -->
+				<div class="column">
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/20.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/14.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/2.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/7.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/17.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/12.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/19.jpg)"></div>
+		                </div>
+		            </figure>
+		            <figure class="column__item">
+		                <div class="column__item-imgwrap">
+		                    <div class="column__item-img" style="background-image:url(img/1.jpg)"></div>
+		                </div>
+		            </figure>
+		        </div><!-- /column -->
+			</div><!-- columns -->
+			<p class="credits">Made by <a href="https://twitter.com/codrops">@codrops</a></p>
+		</main>
+		
+		<script src="js/gsap.min.js"></script>
+		<script src="js/ScrollTrigger.min.js"></script>
+		<script src="js/lenis.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="./effect-index7.js"></script>
+	</body>
+</html>

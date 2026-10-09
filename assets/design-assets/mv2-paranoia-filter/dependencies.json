@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    {
+      "file": "adapter/package-lock.json",
+      "sha256": "595ef69d3485aefcf7e900b8a402e1a6b7e53cfaced38c5f4fb34082acfe82af",
+      "kind": "pinned runtime dependency lock; lifecycle scripts disabled"
+    }
+  ],
+  "buildTool": {
+    "name": "esbuild",
+    "version": "0.25.10"
+  },
+  "upstreamBuildScriptsExecuted": false,
+  "dependencyLifecycleScriptsExecuted": false,
+  "resolvedRuntimePackages": [
+    {
+      "name": "ev-emitter",
+      "version": "1.1.1",
+      "license": "MIT",
+      "integrity": "sha512-ipiDYhdQSCZ4hSbX4rMW+XzNKMD1prg/sTvoVmSLkuQ1MVlwjJQQA+sW8tMYR3BLUr9KjodFV4pvzunvRhd33Q==",
+      "resolved": "https://registry.npmjs.org/ev-emitter/-/ev-emitter-1.1.1.tgz"
+    },
+    {
+      "name": "gsap",
+      "version": "3.8.0",
+      "license": "Standard 'no charge' license: https://greensock.com/standard-license. Club GreenSock members get more: https://greensock.com/licensing/. Why GreenSock doesn't employ an MIT license: https://greensock.com/why-license/",
+      "integrity": "sha512-cvpzKkWFePDZCycwXwJnDSpTR3j+a4QLQF/t0c+pXqzRESgAYx5hieaoshzZFjbwsARqr0+5c3GKE7wI273w/g==",
+      "resolved": "https://registry.npmjs.org/gsap/-/gsap-3.8.0.tgz"
+    },
+    {
+      "name": "imagesloaded",
+      "version": "4.1.4",
+      "license": "MIT",
+      "integrity": "sha512-ltiBVcYpc/TYTF5nolkMNsnREHW+ICvfQ3Yla2Sgr71YFwQ86bDwV9hgpFhFtrGPuwEx5+LqOHIrdXBdoWwwsA==",
+      "resolved": "https://registry.npmjs.org/imagesloaded/-/imagesloaded-4.1.4.tgz"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "id": "curated-thumbnail-flow",
+  "version": "6f5cec0e4b516921",
+  "passed": true,
+  "previousVideoSha256": "7d4d23baba6c4ec739b9344bea4a6b4e8d0e81184fa466099da1fb9bc65a7b4b",
+  "sourceBefore": {
+    "scope": "all files declared under run/; excludes generated preview/poster",
+    "fileCount": 34,
+    "run": "run/index.html",
+    "runSha256": "08c4e2958f448ac088e24b412d1960829a03976e19a90bc7ddb0898f864df351",
+    "entry": "run/effect.js",
+    "entrySha256": "44f0e33ceb7c176fce79a76962375dfce20aaffc416fffef251f035d096718eb",
+    "declaredFilesSha256": "2bfd640504901bcc9df8f90e0fb975a50fd43d770f000ee8c05ca8ee9d61a686"
+  },
+  "quality": {
+    "nativeFrames": 182,
+    "encodedFrames": 172,
+    "visibleChanges": 122,
+    "fullContentFPS": 27.883,
+    "firstWindow": {
+      "startSeconds": 0,
+      "endSeconds": 2.4,
+      "visibleChanges": 62,
+      "contentFPS": 25.833333333333336,
+      "longestHoldSeconds": 1.186783
+    },
+    "fullWindow": {
+      "startSeconds": 0,
+      "endSeconds": 4.3754,
+      "visibleChanges": 122,
+      "contentFPS": 27.883164967774377,
+      "longestHoldSeconds": 2.0867000000000004
+    },
+    "maxEncodedFrameGapSeconds": 1.0395,
+    "loopBoundary": {
+      "meanAbsoluteLumaDelta": 0.4785,
+      "pixelsDeltaOver2Fraction": 0.0713,
+      "maxLumaDelta": 14
+    },
+    "continuousRequired": false,
+    "noSyntheticFrameIncrease": true
+  },
+  "native": {
+    "videoSha256": "04923f7b7e569643d288c020a7d8bec4f748fbb59473d5f16243c11d1a590e15",
+    "bytes": 278457,
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "av1",
+          "profile": "Main",
+          "codec_tag_string": "av01",
+          "width": 656,
+          "height": 400,
+          "pix_fmt": "yuv420p",
+          "level": 1,
+          "color_range": "pc",
+          "r_frame_rate": "60000/1",
+          "avg_frame_rate": "10920000/303829",
+          "time_base": "1/60000",
+          "duration": "5.061617",
+          "bit_rate": "436122"
+        }
+      ],
+      "format": {
+        "duration": "5.061617",
+        "size": "278457",
+        "bit_rate": "440107"
+      }
+    },
+    "analysis": {
+      "elapsedMs": 501,
+      "decoderThreads": 1,
+      "filterThreads": 1,
+      "sampling": {
+        "width": 164,
+        "height": 100,
+        "pixelFormat": "gray",
+        "scale": "area",
+        "frames": "all decoded frames, original timestamps; no fps filter"
+      },
+      "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+      "visibleChangeRule": {
+        "meanAbsoluteLumaDeltaAtLeast": 0.25,
+        "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+      },
+      "decodedFrames": 182,
+      "encodedDurationSeconds": 5.0616,
+      "decodedUniqueLumaFrames": 182,
+      "exactAdjacentDuplicates": 0,
+      "exactAdjacentDuplicateFraction": 0,
+      "visibleChanges": 127,
+      "visibleChangesPerEncodedSecond": 25.0908,
+      "firstVisibleChangeSeconds": 0.5098,
+      "lastVisibleChangeSeconds": 4.800867,
+      "leadingHoldSeconds": 0.5098,
+      "trailingHoldSeconds": 0.2607,
+      "decodedFrameIntervalSeconds": {
+        "median": 0.0189,
+        "p90": 0.0205,
+        "max": 1.0395
+      },
+      "visibleChangeIntervalSeconds": {
+        "median": 0.0189,
+        "p90": 0.0205,
+        "max": 1.9878
+      },
+      "heldIntervalsAtLeast120ms": [
+        {
+          "start": 0,
+          "end": 0.5098,
+          "seconds": 0.5098
+        },
+        {
+          "start": 1.8092,
+          "end": 3.797,
+          "seconds": 1.9878
+        },
+        {
+          "start": 4.8009,
+          "end": 5.0616,
+          "seconds": 0.2607
+        }
+      ],
+      "thresholdSensitivity": [
+        {
+          "meanAbsoluteLumaDeltaAtLeast": 0.05,
+          "changes": 128
+        },
+        {
+          "meanAbsoluteLumaDeltaAtLeast": 0.1,
+          "changes": 124
+        },
+        {
+          "meanAbsoluteLumaDeltaAtLeast": 0.25,
+          "changes": 118
+        },
+        {
+          "meanAbsoluteLumaDeltaAtLeast": 0.5,
+          "changes": 110
+        },
+        {
+          "meanAbsoluteLumaDeltaAtLeast": 1,
+          "changes": 95
+        }
+      ],
+      "perSecond": [
+        {
+          "start": 0,
+          "end": 1,
+          "encodedTransitions": 31,
+          "exactDuplicates": 0,
+          "visibleChanges": 22,
+          "maxMeanAbsoluteLumaDelta": 4.062
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "encodedTransitions": 58,
+          "exactDuplicates": 0,
+          "visibleChanges": 44,
+          "maxMeanAbsoluteLumaDelta": 12.1239
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "encodedTransitions": 1,
+          "exactDuplicates": 0,
+          "visibleChanges": 0,
+          "maxMeanAbsoluteLumaDelta": 0.0015
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "encodedTransitions": 29,
+          "exactDuplicates": 0,
+          "visibleChanges": 12,
+          "maxMeanAbsoluteLumaDelta": 4.8974
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "encodedTransitions": 60,
+          "exactDuplicates": 0,
+          "visibleChanges": 49,
+          "maxMeanAbsoluteLumaDelta": 11.8043
+        },
+        {
+          "start": 5,
+          "end": 5.0616,
+          "encodedTransitions": 2,
+          "exactDuplicates": 0,
+          "visibleChanges": 0,
+          "maxMeanAbsoluteLumaDelta": 0.0159
+        }
+      ],
+      "loopBoundary": {
+        "meanAbsoluteLumaDelta": 0.3786,
+        "pixelsDeltaOver2Fraction": 0.0497,
+        "maxLumaDelta": 9
+      }
+    }
+  },
+  "trim": {
+    "startSeconds": 0.49313333333333337,
+    "endSeconds": 4.880867
+  },
+  "analysis": {
+    "elapsedMs": 261,
+    "decoderThreads": 1,
+    "filterThreads": 1,
+    "sampling": {
+      "width": 164,
+      "height": 100,
+      "pixelFormat": "gray",
+      "scale": "area",
+      "frames": "all decoded frames, original timestamps; no fps filter"
+    },
+    "interpretation": "Visual update statistics describe decoded luma changes, not browser refresh rate. Compression noise, small effects and intentional holds require the per-second distribution and source choreography to interpret.",
+    "visibleChangeRule": {
+      "meanAbsoluteLumaDeltaAtLeast": 0.25,
+      "orPixelsWithAbsoluteLumaDeltaOver2FractionAtLeast": 0.005
+    },
+    "decodedFrames": 172,
+    "encodedDurationSeconds": 4.3754,
+    "decodedUniqueLumaFrames": 172,
+    "exactAdjacentDuplicates": 0,
+    "exactAdjacentDuplicateFraction": 0,
+    "visibleChanges": 122,
+    "visibleChangesPerEncodedSecond": 27.883,
+    "firstVisibleChangeSeconds": 0.1963,
+    "lastVisibleChangeSeconds": 4.303783,
+    "leadingHoldSeconds": 0.1963,
+    "trailingHoldSeconds": 0.0716,
+    "decodedFrameIntervalSeconds": {
+      "median": 0.0189,
+      "p90": 0.0204,
+      "max": 1.0395
+    },
+    "visibleChangeIntervalSeconds": {
+      "median": 0.0189,
+      "p90": 0.0205,
+      "max": 2.0867
+    },
+    "heldIntervalsAtLeast120ms": [
+      {
+        "start": 0,
+        "end": 0.1963,
+        "seconds": 0.1963
+      },
+      {
+        "start": 1.2132,
+        "end": 3.2999,
+        "seconds": 2.0867
+      }
+    ],
+    "thresholdSensitivity": [
+      {
+        "meanAbsoluteLumaDeltaAtLeast": 0.05,
+        "changes": 133
+      },
+      {
+        "meanAbsoluteLumaDeltaAtLeast": 0.1,
+        "changes": 123
+      },
+      {
+        "meanAbsoluteLumaDeltaAtLeast": 0.25,
+        "changes": 115
+      },
+      {
+        "meanAbsoluteLumaDeltaAtLeast": 0.5,
+        "changes": 109
+      },
+      {
+        "meanAbsoluteLumaDeltaAtLeast": 1,
+        "changes": 95
+      }
+    ],
+    "perSecond": [
+      {
+        "start": 0,
+        "end": 1,
+        "encodedTransitions": 60,
+        "exactDuplicates": 0,
+        "visibleChanges": 49,
+        "maxMeanAbsoluteLumaDelta": 12.086
+      },
+      {
+        "start": 1,
+        "end": 2,
+        "encodedTransitions": 28,
+        "exactDuplicates": 0,
+        "visibleChanges": 13,
+        "maxMeanAbsoluteLumaDelta": 5.0243
+      },
+      {
+        "start": 2,
+        "end": 3,
+        "encodedTransitions": 1,
+        "exactDuplicates": 0,
+        "visibleChanges": 0,
+        "maxMeanAbsoluteLumaDelta": 0.0004
+      },
+      {
+        "start": 3,
+        "end": 4,
+        "encodedTransitions": 59,
+        "exactDuplicates": 0,
+        "visibleChanges": 42,
+        "maxMeanAbsoluteLumaDelta": 11.6817
+      },
+      {
+        "start": 4,
+        "end": 4.3754,
+        "encodedTransitions": 23,
+        "exactDuplicates": 0,
+        "visibleChanges": 18,
+        "maxMeanAbsoluteLumaDelta": 3.7726
+      }
+    ],
+    "loopBoundary": {
+      "meanAbsoluteLumaDelta": 0.4785,
+      "pixelsDeltaOver2Fraction": 0.0713,
+      "maxLumaDelta": 14
+    }
+  },
+  "actions": [
+    {
+      "action": "real_pointer_click",
+      "selector": ".open-button",
+      "x": 40.0546875,
+      "y": 542.0999755859375,
+      "proof": {
+        "selector": ".open-button",
+        "events": [
+          {
+            "trusted": true,
+            "match": true
+          }
+        ]
+      }
+    },
+    {
+      "action": "real_pointer_click",
+      "selector": ".close-button",
+      "x": 1058.0546875,
+      "y": 25.5,
+      "proof": {
+        "selector": ".close-button",
+        "events": [
+          {
+            "trusted": true,
+            "match": true
+          }
+        ]
+      }
+    }
+  ],
+  "inputs": {
+    "pointermove": 3,
+    "pointerdown": 2,
+    "pointerup": 2,
+    "click": 2
+  },
+  "sourceAfter": {
+    "scope": "all files declared under run/; excludes generated preview/poster",
+    "fileCount": 34,
+    "run": "run/index.html",
+    "runSha256": "08c4e2958f448ac088e24b412d1960829a03976e19a90bc7ddb0898f864df351",
+    "entry": "run/effect.js",
+    "entrySha256": "44f0e33ceb7c176fce79a76962375dfce20aaffc416fffef251f035d096718eb",
+    "declaredFilesSha256": "2bfd640504901bcc9df8f90e0fb975a50fd43d770f000ee8c05ca8ee9d61a686"
+  },
+  "stagedModified": true,
+  "frames": 172,
+  "distinct": 123,
+  "videoBytes": 279901,
+  "videoSha256": "a8bfd52d9d34efabfefbb29307f493ca76b9edd634ec5e2c8d43b73835f99337",
+  "posterSha256": "846781d7c40177001622b69da301302b887f71d0c757f6c9d76e534a323e46f3",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "profile": "High",
+        "codec_tag_string": "avc1",
+        "width": 656,
+        "height": 400,
+        "pix_fmt": "yuv420p",
+        "level": 30,
+        "color_range": "tv",
+        "r_frame_rate": "60000/1",
+        "avg_frame_rate": "5160000/131263",
+        "time_base": "1/60000",
+        "duration": "4.375433",
+        "bit_rate": "503853",
+        "nb_frames": "172"
+      }
+    ],
+    "format": {
+      "duration": "4.375433",
+      "size": "279901",
+      "bit_rate": "511768"
+    }
+  },
+  "issues": [],
+  "csp": [],
+  "external": [],
+  "wallDurationMs": 6355
+}

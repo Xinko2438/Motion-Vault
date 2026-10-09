@@ -1,0 +1,218 @@
+[
+  {
+    "path": "source/src/js/main.ts",
+    "role": "authoritative_pinned_entry"
+  },
+  {
+    "path": "source/src/js/components/xylophone/Xylophone.ts",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/js/components/xylophone/helix.ts",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/js/components/xylophone/picking.ts",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/js/components/FluidSim.ts",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/js/passes/FrostBackdropPass.ts",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/js/passes/GlassBufferPass.ts",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/shaders/xylophone/xylophoneFrag.glsl",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/shaders/xylophone/xylophoneVert.glsl",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "adapter/author/css/base.css",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/eslint.config.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/index.html",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/common/FBO.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/common/FBOHelper.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/components/FluidSim.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/components/XylophoneBg.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/components/xylophone/Xylophone.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/components/xylophone/XylophoneAudio.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/components/xylophone/helix.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/components/xylophone/picking.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/configs/XylophoneConfig.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/main.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/passes/FrostBackdropPass.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/passes/GlassBufferPass.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/ui/SoundToggle.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/utils/RAFCollection.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/utils/input.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/utils/normalizeWheel.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/js/utils/properties.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidAdvectionFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidBaseVert.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidClearFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidCurlFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidDivergenceFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidGradientSubtractFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidPressureFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidSplatFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/fluid/fluidVorticityFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/postprocessing/blitFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/postprocessing/blitVert.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/xylophone/glassNormalFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/xylophone/xylophoneFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/xylophone/xylophoneVert.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/xylophoneBg/xylophoneBgFrag.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/shaders/xylophoneBg/xylophoneBgVert.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/vite-env.d.ts",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/vite.config.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/changes.patch",
+    "role": "exact_code_delta"
+  },
+  {
+    "path": "adapter/build-local.mjs",
+    "role": "own_esbuild_config"
+  },
+  {
+    "path": "run/vault-isolation.js",
+    "role": "opaque_local_asset_transport"
+  },
+  {
+    "path": "adapter/entry.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/lifecycle.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/resources.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/source-isolation-bridge.original.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  }
+]

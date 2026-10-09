@@ -1,0 +1,10 @@
+{
+  "id": "mv2-reflection-editorial",
+  "repo": "ReflectionScroll",
+  "title": "镜面空间中的同步编辑画廊",
+  "demo": "https://tympanus.net/Development/ReflectionScroll/",
+  "mode": "scroll",
+  "scene": "brand",
+  "task": "atmosphere",
+  "design": "真实图像编排与反射层同步滚动，以透视、反射边界和柔和遮蔽构成完整空间，而非单张卡片阴影。"
+}

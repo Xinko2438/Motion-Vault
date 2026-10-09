@@ -1,0 +1,100 @@
+{
+  "viewport": {
+    "width": 1100,
+    "height": 670,
+    "hostScaling": "Scale the entire bounded iframe; never resize the host layout."
+  },
+  "parameters": [
+    {
+      "name": "planeGap",
+      "default": 5,
+      "unit": "world units",
+      "binding": "Gallery.planeGap",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "desktopPlaneScale",
+      "default": 1,
+      "unit": "ratio",
+      "binding": "Gallery.desktopPlaneScale",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "mobilePlaneScale",
+      "default": 0.65,
+      "unit": "ratio",
+      "binding": "Gallery.mobilePlaneScale",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "parallaxX",
+      "default": 0.16,
+      "unit": "world units",
+      "binding": "Gallery.parallaxAmountX",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "parallaxY",
+      "default": 0.08,
+      "unit": "world units",
+      "binding": "Gallery.parallaxAmountY",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "scrollSmoothing",
+      "default": 0.08,
+      "unit": "lerp coefficient",
+      "binding": "Scroll.scrollSmoothing",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "scrollWorldFactor",
+      "default": 0.01,
+      "unit": "world units/px",
+      "binding": "Scroll.scrollToWorldFactor",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "touchSpeed",
+      "default": 1.8,
+      "unit": "factor",
+      "binding": "Scroll.touchScrollSpeed",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "blobRadius",
+      "default": 0.65,
+      "unit": "normalized",
+      "binding": "Background.baseBlobRadius",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "noiseStrength",
+      "default": 0.04,
+      "unit": "normalized",
+      "binding": "Background.noiseStrength",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    }
+  ],
+  "runtimeControls": {
+    "SourceDemo.stop()": "Pause render loop and active gesture where applicable.",
+    "SourceDemo.resume()": "Resume only local rendering; never fabricate input.",
+    "SourceDemo.dispose()": "Dispose this mounted effect and local resource transport.",
+    "SourceDemo.paint()": "Read readiness; lenticular also invalidates its demand frame. No synthetic motion."
+  },
+  "interaction": "Native wheel and touch depth scrolling, bounded camera travel, pointer parallax, velocity-reactive trail, and D-key debug panel retained. No synthetic wheel sequence is introduced.",
+  "technicalDependencies": {
+    "three": "0.183.0",
+    "tweakpane": "4.0.5"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "mv2-stack-content",
+  "version": "1.0.0",
+  "dependencies": {
+    "gsap": "3.10.4",
+    "imagesloaded": "5.0.0"
+  }
+}

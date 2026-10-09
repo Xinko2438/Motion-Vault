@@ -1,0 +1,116 @@
+{
+  "viewport": {
+    "width": 1100,
+    "height": 670,
+    "hostScaling": "Scale the iframe as a whole, preserving its 1100x670 internal viewport."
+  },
+  "parameters": [
+    {
+      "name": "threads",
+      "default": 26,
+      "unit": "count",
+      "meaning": "Independent ribbons per card; primary weave density",
+      "binding": "CONFIG.threads",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "segments",
+      "default": 20,
+      "unit": "count",
+      "meaning": "Horizontal subdivisions within each ribbon",
+      "binding": "CONFIG.segments",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "cardMaxHeight",
+      "default": 452,
+      "unit": "CSS px",
+      "meaning": "Maximum portrait height before 62% viewport-height cap",
+      "binding": "CONFIG.cardMaxHeight",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "cardAspect",
+      "default": 0.75,
+      "unit": "ratio",
+      "meaning": "Portrait width divided by height",
+      "binding": "CONFIG.cardAspect",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "cardGapRatio",
+      "default": 0.11,
+      "unit": "ratio",
+      "meaning": "Card gap relative to card width, minimum 24px",
+      "binding": "CONFIG.cardGapRatio",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "cardRadius",
+      "default": 20,
+      "unit": "CSS px",
+      "meaning": "Rounded SDF silhouette",
+      "binding": "CONFIG.cardRadius",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "scrollSpeed",
+      "default": 95,
+      "unit": "CSS px/s",
+      "meaning": "Original normal-motion drift speed",
+      "binding": "CONFIG.scrollSpeed",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "flingMax",
+      "default": 4200,
+      "unit": "CSS px/s",
+      "meaning": "Original drag-release velocity clamp",
+      "binding": "CONFIG.flingMax",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "tearZoneRatio",
+      "default": 0.26,
+      "unit": "ratio",
+      "meaning": "Edge unravel zone relative to viewport width",
+      "binding": "CONFIG.tearZoneRatio",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "tearZoneMax",
+      "default": 380,
+      "unit": "CSS px",
+      "meaning": "Maximum edge unravel zone",
+      "binding": "CONFIG.tearZoneMax",
+      "editIn": "adapter/build-local.py or source-derived effect.js; preserve source/index.html snapshot",
+      "runtimeMutationExposed": false
+    }
+  ],
+  "runtimeControls": {
+    "SourceDemo.stop()": "Pause this effect ticker and its tweens; release current capture.",
+    "SourceDemo.resume()": "Resume only allowed native motion; never overrides reduced motion.",
+    "SourceDemo.paint()": "Render the current state without advancing time or fabricating input; returns readiness.",
+    "SourceDemo.dispose()": "Idempotently release current effect and local transport resources; new playback requires new frame.",
+    "SourceDemo.inspect()": "Return effect-only state and asset counts; no parent data."
+  },
+  "readiness": "ready true only after six original images loaded and current render submitted. It does not prove visual/browser acceptance.",
+  "interaction": {
+    "type": "native pointer horizontal drag with inertia",
+    "syntheticInput": false,
+    "reducedMotion": "no autoplay/entrance/time drift; direct drag without fling"
+  },
+  "technicalDependencies": {
+    "three": "0.128.0",
+    "gsap": "3.12.5"
+  }
+}

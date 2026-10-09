@@ -1,0 +1,63 @@
+{
+  "schema": "motion-vault.local-runtime.v1",
+  "id": "spatial-depth-gallery",
+  "entry": "run/index.html",
+  "network": "local manifest-listed files plus authored embedded data/blob URLs only",
+  "sandbox": "allow-scripts; no allow-same-origin",
+  "files": [
+    {
+      "path": "run/assets/flower-01-CDLT5V4R.webp",
+      "bytes": 52310,
+      "sha256": "5ba1220bdf9efd791545249abccaa75ca68a9ba19f5e3bf72144ba9901754a2e",
+      "mime": "image/webp"
+    },
+    {
+      "path": "run/assets/flower-02-VOEEGLU6.webp",
+      "bytes": 38980,
+      "sha256": "bf0282e5311cd6fa2a689d4a234bb8333befe92defa23405b10b6b9fd1fd6899",
+      "mime": "image/webp"
+    },
+    {
+      "path": "run/assets/flower-03-KTWBWJXL.webp",
+      "bytes": 41584,
+      "sha256": "76f7d53a2242b3a26822b872b222a56d813b9d301e844e98d23650b82392e2ca",
+      "mime": "image/webp"
+    },
+    {
+      "path": "run/assets/flower-04-HNBLQCYR.webp",
+      "bytes": 40938,
+      "sha256": "327bdc8d043687691947267439a3ce1f1c88482e45c2c144b633f6f5d0e6e7f2",
+      "mime": "image/webp"
+    },
+    {
+      "path": "run/assets/flower-05-QEHM2PYT.webp",
+      "bytes": 28546,
+      "sha256": "4370126b8aeb14ebad7472d31edc8636d6d9b575066024b824cc9bc00d59e341",
+      "mime": "image/webp"
+    },
+    {
+      "path": "run/effect.css",
+      "bytes": 6496,
+      "sha256": "72b2f271a9cb07890255e636fb59ecbafdf5e0d55d6d585768cfa5f9b6a91e0e",
+      "mime": "text/css"
+    },
+    {
+      "path": "run/effect.js",
+      "bytes": 714311,
+      "sha256": "2f9f55438a58a561c52c61172c30c7b850e0392f92ab01c70bafdb0ba8bca0dd",
+      "mime": "text/javascript"
+    },
+    {
+      "path": "run/index.html",
+      "bytes": 1677,
+      "sha256": "e5cc15c2b887f8ee33fbf9095097bbb5606ec00f53afa0d4c7454644defe4f33",
+      "mime": "text/html"
+    },
+    {
+      "path": "run/vault-isolation.js",
+      "bytes": 4359,
+      "sha256": "cf2c7276c3959f1557327d76e4d52469f4451cf3121d952655f340fe4f3691da",
+      "mime": "text/javascript"
+    }
+  ]
+}

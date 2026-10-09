@@ -1,23 +1,57 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';import {readFile,readdir,stat} from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
 import {runInNewContext} from 'node:vm';
+import {REVIEWED_OFL_FONTS,isReviewedFontDirectoryAsset,assertPublishableAssetBytes} from '../scripts/release-asset-policy.mjs';
+import {verifyExpansionIntegration} from '../scripts/expansion-integration-gate.mjs';
+import {verifyAutomaticPublication,verifyCurrentDeltaPublication} from './publication-evidence.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),read=f=>readFile(path.join(root,f),'utf8'),sha=b=>createHash('sha256').update(b).digest('hex');
 const formal=JSON.parse(await read('web/catalog.json')),candidate=JSON.parse(await read('web/candidate-catalog.json')),html=await read('web/index.html'),redirectHTML=await read('candidates/curated-originals/index.html'),receipt=JSON.parse(await read('lineage/current/install-receipt.json'));
 const query=(...args)=>JSON.parse(execFileSync(process.execPath,['scripts/query-vault.mjs',...args,'--json'],{cwd:root,encoding:'utf8',windowsHide:true,stdio:'pipe',maxBuffer:4*1024*1024,timeout:60000}));
 test('Formal IDs and explicit deletions are preserved',()=>{assert.equal(formal.count,60);assert.equal(new Set(formal.items.map(i=>String(i.id))).size,60);for(const id of ['online-command','online-tree','online-range','online-zoom','online-carousel','online-marquee','online-slider','online-trail','online-fold','online-echo','online-path','online-warp','online-moire',1,3,5,6,8,9,13,14,15,17,20,21,23,26,27,29,32])assert.ok(!formal.items.some(i=>i.id===id));});
 test('All formal sources, runnable entries and previews remain intact',()=>{assert.ok(formal.items.every(i=>i.asset?.entry&&i.asset.run&&i.asset.design&&i.asset.implementation&&i.asset.poster));assert.equal(formal.items.filter(i=>i.asset.video).length,14);assert.ok(query('verify').result.every(i=>i.ready&&i.checkedFiles>=10));});
-test('Thirty fully local review candidates do not become approved formal assets',()=>{assert.equal(candidate.count,30);assert.equal(candidate.localReady,30);assert.ok(candidate.items.every(i=>i.asset?.video&&i.asset?.poster&&i.status==='local_source_ready_for_review'));assert.equal(candidate.items.filter(i=>i.source_kind==='adapted_author_source').length,26);assert.equal(candidate.items.filter(i=>i.source_kind==='independent_code').length,4);assert.ok(candidate.items.every(i=>!formal.items.some(f=>f.id===i.id)));assert.ok(query('verify','--scope','candidates').result.every(i=>i.ready));});
+test('Original recorded candidates and additive pending sources stay distinct from approval',()=>{
+ assert.equal(candidate.count,54);assert.equal(candidate.localReady,54);assert.equal(candidate.localRunnable,54);
+ const original=candidate.items.filter(i=>String(i.id).startsWith('curated-')),added=candidate.items.filter(i=>!String(i.id).startsWith('curated-'));
+ assert.equal(original.length,30);assert.equal(added.length,24);
+ assert.ok(original.every(i=>i.asset?.video&&i.asset?.poster&&i.status==='local_source_ready_for_review'));
+ assert.ok(added.every(i=>i.asset?.run&&i.asset.video&&i.asset.poster&&i.asset.state==='local_source_verified'&&i.status==='local_source_ready_for_review'));
+ assert.equal(candidate.items.filter(i=>i.source_kind==='adapted_author_source').length,46);assert.equal(candidate.items.filter(i=>i.source_kind==='independent_code').length,8);
+ assert.ok(candidate.items.every(i=>!formal.items.some(f=>f.id===i.id)));assert.ok(query('verify','--scope','candidates').result.every(i=>i.ready));
+});
 test('Classification is purpose, concrete task, placement and design goal',()=>{assert.equal(formal.taxonomy.length,6);assert.equal(formal.taxonomy.reduce((n,s)=>n+Object.keys(s.tasks).length,0),24);assert.deepEqual(formal.taxonomy,candidate.taxonomy);for(const i of [...formal.items,...candidate.items])for(const u of i.uses){assert.ok(formal.taxonomy.find(s=>s.id===u.scene)?.tasks[u.task]);assert.ok(u.placement&&u.goal);}});
 test('Agent receives actual readable source instead of oversized dependency bundles',()=>{const a=query('inspect','online-lens','--section','all').result;assert.equal(a.integrity.verified,true);assert.match(a.entryCode,/createRuntime/);assert.ok(a.sourceMap.some(s=>s.path==='src/hybrid/modern-engine.js'));for(const id of ['curated-spatial-product','curated-glass-torus','curated-rounded-menu']){const r=query('inspect',id,'--scope','candidates','--section','all').result;assert.ok(r.integrity.verified&&r.design.includes('实际用途'));assert.equal(r.entryCodeKind,'bounded_source_samples');assert.ok(r.entryCode.length>30&&r.entryCode.length<30000&&r.sourceSamples.length);assert.ok(r.sourceRoot.endsWith('/source'));}});
 test('Rejected or unknown references are never silently restored',()=>{assert.throws(()=>query('get','online-tree'));assert.throws(()=>query('inspect','unknown','--scope','candidates'));});
 test('Private curator notes stay outside production outputs',async()=>{const p=JSON.parse(await read('curation/formal-merge/private/review-decision.json'));for(const note of Object.values(p.privateNotes))for(const text of [html,redirectHTML,JSON.stringify(formal),JSON.stringify(candidate)])assert.ok(!text.includes(note));for(const c of [formal,candidate])for(const i of c.items)for(const k of ['note','notes','hidden','events','user_preference'])assert.ok(!(k in i));assert.ok(html.includes('motion-vault-curated-originals-30-v1'));assert.ok(html.includes('id="reviewNote"'));assert.ok(!redirectHTML.includes('reviewNote'));assert.equal(query('search').privateCurationIncluded,false);});
 test('Source demos keep their isolation in the unified page; hover loads only local previews',()=>{assert.match(html,/frame\.sandbox\s*=\s*['"]allow-scripts['"]/);assert.ok(html.includes('createSourceBroker(frame,it,channel)'));assert.ok(!html.includes('allow-same-origin'));assert.ok(!html.includes('frame.src=it.demo_url'));assert.ok(!html.includes('object-index'));assert.ok(html.includes('id="taskTabs"'));assert.ok(!html.includes('id="taskFilter"'));});
-test('Published pages correspond to the currently validated staged artifacts',async()=>{assert.equal(sha(html),receipt.formalSha256);assert.equal(sha(redirectHTML),receipt.candidateSha256);for(const f of ['candidate-validation.json','sandbox.json']){const e=JSON.parse(await read('lineage/current/'+f));assert.equal(e.formalHash,sha(html));assert.equal(e.candidateSha256||e.candidateHash,sha(redirectHTML));assert.equal(e.redirectSha256,sha(redirectHTML));assert.equal(e.passed,e.total);}const e=JSON.parse(await read('lineage/current/no-preference.json'));assert.equal(e.formalHash,sha(html));assert.equal(e.candidateHash,sha(redirectHTML));assert.equal(e.passed,e.total);});
-test('Public inventory contains no font files, private folders or obsolete builds',async()=>{const inv=JSON.parse(await read('lineage/current/asset-inventory.json'));assert.equal(inv.files.length,receipt.assetFiles);for(const f of inv.files){assert.doesNotMatch(f.file,/(^|\/)(private|node_modules|dist|fonts?)\/|\.(woff2?|ttf|otf|eot)$/i);assert.equal((await stat(path.join(root,'web/motion-vault-assets',f.file))).size,f.bytes);}});
+test('Published pages correspond to the currently validated staged artifacts',async()=>{
+ const compatibility=JSON.parse(await read('src/hybrid/source-expansion-compatibility.json'));
+ const registry=JSON.parse(await read('src/hybrid/source-expansion-catalog.json'));
+ const mode=verifyExpansionIntegration({compatibility,registry,formal,candidates:candidate,galleryHTML:html,redirectHTML}).mode;
+ if(mode==='explicit-human-acceptance'){
+  // Validate the authorized installation, never claim an animation/visual pass.
+  const evidence=await verifyCurrentDeltaPublication(root);
+  assert.deepEqual(evidence,{verified:true,mode:'exact-delta-application',animationAcceptance:false,visualAcceptance:false});
+ }else{
+  const reports=await Promise.all(['candidate-validation.json','sandbox.json','no-preference.json'].map(async f=>JSON.parse(await read('lineage/current/'+f))));
+  assert.equal(verifyAutomaticPublication({receipt,hashes:{gallery:sha(html),redirect:sha(redirectHTML)},reports}).verified,true);
+ }
+});
+test('Public inventory permits only exact reviewed OFL fonts and excludes private/obsolete builds',async()=>{
+ const inv=JSON.parse(await read('lineage/current/asset-inventory.json'));assert.equal(inv.files.length,receipt.assetFiles);
+ for(const f of inv.files){
+  assert.doesNotMatch(f.file,/(^|\/)(private|node_modules|dist)\//i);
+  const file=path.join(root,'web/motion-vault-assets',f.file);assert.equal((await stat(file)).size,f.bytes);
+  if(/(^|\/)fonts?\/|\.(woff2?|ttf|otf|eot)$/i.test(f.file)){
+   const bytes=await readFile(file),actual=sha(bytes);assert.equal(isReviewedFontDirectoryAsset(f.file,actual),true,f.file);assert.equal(f.sha256,actual);assertPublishableAssetBytes(f.file,bytes);
+   const row=REVIEWED_OFL_FONTS.find(row=>row.paths.includes(f.file));if(row){assert.ok(inv.files.some(record=>record.file===row.noticePath),'Font license must also be published');
+   assertPublishableAssetBytes(row.noticePath,await readFile(path.join(root,'web/motion-vault-assets',row.noticePath)));}
+  }
+ }
+});
 test('Capture, import retry, hide/restore and permanent entry identities remain',()=>{for(const s of ['id="fileInput"','id="saveDialog"','getDisplayMedia','MediaRecorder','saveRequestId','prepareCapture','saveCapture','id="viewTabs"','id="modalArchiveBtn"','archive-btn'])assert.ok(html.includes(s),s);assert.ok(html.includes("release:'formal'"));assert.ok(html.includes('const CANDIDATES='));assert.ok(!html.includes("release:'hover-intent"));});
 test('Same-code previews retain clear original-versus-independent provenance',()=>{for(const i of candidate.items){assert.equal(i.asset.source_verified,false);assert.equal(i.asset.preview_kind,i.source_kind==='independent_code'?'local_render':'adapted_source_render');}assert.equal(receipt.privateReviewPublished,false);assert.equal(receipt.userBrowserDataChanged,false);assert.equal(receipt.hubBusinessDataChanged,false);});
 
 
-test('Recaptured candidate media changes its browser cache identity independently of source code',async()=>{for(const i of candidate.items){for(const [fileKey,revisionKey] of [['video','videoRevision'],['poster','posterRevision']]){const actual=sha(await readFile(path.join(root,'web',i.asset[fileKey]))).slice(0,16);assert.equal(i.asset[revisionKey],actual,i.id+' '+fileKey+' revision must identify the current media bytes');}}});
+test('Recaptured candidate media changes its browser cache identity independently of source code',async()=>{for(const i of candidate.items){for(const [fileKey,revisionKey] of [['video','videoRevision'],['poster','posterRevision']]){if(!i.asset[fileKey]){assert.equal(i.asset.state,'local_source_pending_browser_verification');continue;}const actual=sha(await readFile(path.join(root,'web',i.asset[fileKey]))).slice(0,16);assert.equal(i.asset[revisionKey],actual,i.id+' '+fileKey+' revision must identify the current media bytes');}}});
 
 test('A single page serves library, pending review and hidden states',()=>{for(const view of ['library','pending','hidden'])assert.ok(html.includes('data-view="'+view+'"'));assert.ok(!html.includes('href="motion-vault-candidates.html"'));assert.ok(Buffer.byteLength(redirectHTML)<2048);assert.ok(redirectHTML.includes('location.replace'));assert.ok(redirectHTML.includes('view=pending'));assert.ok(!/CandidateVault|const CATALOG|id="grid"/.test(redirectHTML));});
 

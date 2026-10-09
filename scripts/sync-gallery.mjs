@@ -1,18 +1,21 @@
+import {verifyExpansionIntegration} from './expansion-integration-gate.mjs';
 import {assertUnifiedGallery} from './build-hybrid.mjs';
 import {readFile,writeFile,mkdir,readdir,stat} from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
 const here=path.dirname(fileURLToPath(import.meta.url)),project=here.endsWith(path.join('src','hybrid'))?path.resolve(here,'../..'):path.resolve(here,'..'),hub=path.resolve(project,'../media-knowledge-hub');
 const checkOnly=process.argv.includes('--check'),hash=b=>createHash('sha256').update(b).digest('hex');
 const prefixes=['web/standalone','web/public/assets','web/dist/assets'];
-const forbidden=/\.(woff2?|ttf|otf|eot|map)$/i;
-async function walk(dir,relative=''){const result=[];for(const e of await readdir(dir,{withFileTypes:true})){if(e.isSymbolicLink())throw new Error('Symlink not permitted');if(['.git','node_modules','dist','private','fonts','font'].includes(e.name)||forbidden.test(e.name))continue;const name=relative?relative+'/'+e.name:e.name,p=path.join(dir,e.name);if(e.isDirectory())result.push(...await walk(p,name));else if(e.isFile())result.push(name);}return result.sort();}
+import {walkPublishableAssets as walk,assertPublishableAssetBytes} from './release-asset-policy.mjs';
+const compatibility=JSON.parse(await readFile(path.join(project,'src/hybrid/source-expansion-compatibility.json'),'utf8'));
+if(!checkOnly&&compatibility.integrationAllowed!==true)throw new Error('Source expansion compatibility gate is closed; no Hub files changed');
 const publicFields=new Set(['id','key','title','desc','design_value','avoid','tech','uses','preview_mode','source_kind','source_name','source_url','tags','asset','status']);
 const catalog=JSON.parse(await readFile(path.join(project,'web/catalog.json'),'utf8')),candidates=JSON.parse(await readFile(path.join(project,'web/candidate-catalog.json'),'utf8'));
 for(const c of [catalog,candidates]){if(!['motion-vault.formal-catalog.v2','motion-vault.candidate-catalog.v2'].includes(c.schema)||c.items.some(i=>Object.keys(i).some(k=>!publicFields.has(k))))throw new Error('Unexpected fields in public discovery output');}
 // Bounded parallel reads avoid serial per-file latency in large local source packages.
 async function batches(values,fn){for(let i=0;i<values.length;i+=8)await Promise.all(values.slice(i,i+8).map(fn));}
-const assets=await walk(path.join(project,'web/motion-vault-assets'));const source=new Map();await batches(assets,async f=>source.set('motion-vault-assets/'+f,await readFile(path.join(project,'web/motion-vault-assets',f))));
+const assets=await walk(path.join(project,'web/motion-vault-assets'));const source=new Map();await batches(assets,async f=>{const bytes=await readFile(path.join(project,'web/motion-vault-assets',f));assertPublishableAssetBytes(f,bytes);source.set('motion-vault-assets/'+f,bytes);});
 for(const [rel,src]of [['motion-vault.html','web/index.html'],['motion-vault-catalog.json','web/catalog.json'],['motion-vault-candidates.html','candidates/curated-originals/index.html'],['motion-vault-candidate-catalog.json','web/candidate-catalog.json'],['motion-vault-media/preview.mp4','web/motion-vault-media/preview.mp4'],['motion-vault-icon.svg','web/motion-vault-icon.svg'],['motion-vault-icon.ico','web/motion-vault-icon.ico']])source.set(rel,await readFile(path.join(project,src)));
 assertUnifiedGallery(source.get('motion-vault.html').toString('utf8'),catalog,candidates,source.get('motion-vault-candidates.html').toString('utf8'));
+if(!checkOnly){const registry=JSON.parse(await readFile(path.join(project,'src/hybrid/source-expansion-catalog.json'),'utf8'));verifyExpansionIntegration({compatibility,registry,formal:catalog,candidates,galleryHTML:source.get('motion-vault.html'),redirectHTML:source.get('motion-vault-candidates.html')});}
 const sourceHashes=new Map([...source].map(([name,bytes])=>[name,hash(bytes)]));
 for(const prefix of prefixes){
  if(checkOnly){await batches([...source.keys()],async relative=>{const name=prefix==='web/standalone'&&relative==='motion-vault.html'?'index.html':relative;const actual=await readFile(path.join(hub,prefix,name));if(hash(actual)!==sourceHashes.get(relative))throw new Error('Published copy differs '+prefix+'/'+name);});continue;}

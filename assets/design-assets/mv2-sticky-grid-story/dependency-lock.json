@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/theoplawinski/codrops-sticky-grid-scroll",
+  "commit": "6015d6c7e66d371618c82b5fb0126d278f88e42d",
+  "files": [
+    {
+      "file": "adapter/package-lock.json",
+      "sha256": "baa4c0febf1de8036af48c5f634e831831d1217174169ffc2b3476deb5870850",
+      "kind": "pinned runtime dependency lock; lifecycle scripts disabled"
+    }
+  ],
+  "sourceFileHashes": {
+    "README.md": "c20f3238768033c993488ce81fdb77e35b99b5567b982d929dc182a586873017",
+    ".gitignore": "797529bf6c9a663acfca91948952ed5b90e09e61b2db9eb65a995c17ffc40514",
+    "package.json": "38ca16fcd2dbe134bf2a564cdfd0d0f72dea554ae51caef2e18085163fd2518e",
+    "LICENSE": "7176382fd060bd9e39c7f91df5862e95e9a45f62c894df7d0aea9b6bb3576291",
+    "package-lock.json": "b9a3b92fbb443a77ff07be3de540cc50b1cefe10c339640097cb16f65d383fab",
+    "vite.config.ts": "1124c5112342326461e9c97ea2aba56d04a2849a893110803d8738e3eaa2a328",
+    "screenshot.jpg": "c671f2a38386234236d67422f2481ba8c4b925b794c395c339a17585b7bfb329",
+    "public/6.webp": "dab4ff43fe49155716d380cad45ff14cf0c7cbb9b012a9928fc1d9f8e482bf89",
+    "public/13.webp": "588465f4789e174438d4ecdda7d385df282e891839af480dae82cb2a908b6dcc",
+    "public/3.webp": "b54577369dc88ae6d546aca6b829510b75dec562c0052f35aa2304a0c7321fc4",
+    "public/1.webp": "9925ba3e206ab67f39ec8cd753f734126f15503b23069241155baaa98364205b",
+    "public/7.webp": "cead4778e0a110c80d907f3445e0ded7d7e32d9fb3cd9b5dac4c39046ed12e0c",
+    "public/9.webp": "af37e8b98da535a9132fdcb2659768034c9f8f6f26df135f6b7994624ca66374",
+    "public/11.webp": "b7890d200e6d18bde549098b0603412e887a54eb0549754f2f117364e16a6990",
+    "public/4.webp": "f3ea262d9ccfa66e75b58d8793db2a3822b9cea5be9a67183c81ec5c9e0b77f3",
+    "public/8.webp": "b4a7f83747849f6025f0c9b740db9a05e29aa265e14a445ac969727bf59bab85",
+    "public/5.webp": "c72e6f2d2e1ac010c7af0376f318643f4e77b14d25159dcbf8b00ad9eb64eb08",
+    "public/14.webp": "37356e42f5a287262da98d91d9535a54bed846d7ca010605cc8f8bc2049df307",
+    "public/10.webp": "d540e3c4c912bff409417412e90ab2f087e815d9d4257fdf62f65994f2f1a4f2",
+    "public/2.webp": "173daa12a827da110f5fb8acd50b563adff2ac9623a124a0303a48497b449548",
+    "public/12.webp": "cfcdd310e6be9566265fb9de9186fa0095e9ef25914448e0d1d5e4dca1e4ce14",
+    "src/index.html": "7db809f288616a984f1f31e5e809fe5b4d95219c21e98e720a6f9ee16a4a03ae",
+    "src/styles/base.css": "c5b288d3f71972b7f0973d7e9293fc8c5cc8a4249f3a67988b226dd580584adf",
+    "src/styles/index.css": "0a9334310d6d6f2314357ed61fe95bc2665a048cda4bd5d2e0d8d7651097a42b",
+    "src/scripts/index.js": "906d632264e17ca4acddda24015f553f33f7f6675f551f84ebcd9ce32dfc5f96",
+    "src/scripts/utils.js": "eda836456af1d9123bc214f122045d28b54725d8c1b92ddbafa0c4fd97668a21"
+  }
+}

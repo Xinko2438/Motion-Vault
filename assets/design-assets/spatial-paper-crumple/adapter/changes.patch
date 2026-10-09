@@ -1,0 +1,233 @@
+--- a/src/main-vat.js
++++ b/src/main-vat.js
+@@ -1,3 +1,7 @@
++import { lifecycle, rejectShaderErrors, assertFirstFrame } from '../../lifecycle.js';
++const vaultMotion = matchMedia('(prefers-reduced-motion: reduce)');
++const vaultError = error => lifecycle.fail(error);
++const vaultListen = (...args) => lifecycle.listen(...args);
+ import * as THREE from "three";
+ import * as CANNON from "cannon-es";
+ import { GUI } from "three/examples/jsm/libs/lil-gui.module.min.js";
+@@ -41,7 +45,10 @@
+ }
+ 
+ const renderer = new THREE.WebGLRenderer({ antialias: true });
+-renderer.setPixelRatio(window.devicePixelRatio);
++rejectShaderErrors(renderer);
++lifecycle.addCleanup(()=>{renderer.dispose();renderer.forceContextLoss();});
++renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
++renderer.domElement.style.touchAction="none";
+ renderer.setSize(window.innerWidth, window.innerHeight);
+ renderer.outputColorSpace = THREE.SRGBColorSpace;
+ renderer.shadowMap.enabled = true;
+@@ -90,6 +97,7 @@
+ 
+ // ポストプロセス — SSAO で折り目・凹みを暗くする
+ const composer = new EffectComposer(renderer);
++lifecycle.addCleanup(()=>{for(const pass of composer.passes)pass.dispose?.();composer.dispose();});
+ composer.addPass(new RenderPass(scene, camera));
+ 
+ const ssaoPass = new SSAOPass(
+@@ -137,6 +145,7 @@
+   ssaoPass.enabled = false;
+ }
+ const gui = new GUI();
++lifecycle.addCleanup(()=>gui.destroy());
+ if (!showGui) gui.hide();
+ 
+ const lightFolder = gui.addFolder("Lighting");
+@@ -580,8 +589,8 @@
+   // パスはこのファイル (src/) の1つ上の階層基準 — vite の開発サーバーでも、
+   // docs/ をそのまま静的配信した場合でも同じ場所に解決される。
+   // (new URL(リテラル, import.meta.url) は vite に書き換えられるため文字列で組む)
+-  const moduleDir = import.meta.url.replace(/[^/]*$/, "");
+-  animData = await loadVATData(moduleDir + "../vat/");
++  animData = await loadVATData(new URL("./vat/",document.baseURI).href);
++  if(lifecycle.disposed) return;
+ 
+   // 開いた紙の実寸 — 画面比率に合わせたスケール計算に使う
+   flatSize.width = animData.flat.width;
+@@ -613,17 +622,30 @@
+       paper.frameIdx = Math.max(0, Math.min(debugFrame, animData.frameCount - 1));
+       updatePaperFrame(paper, animData, paper.frameIdx);
+     }
++  } else if (vaultMotion.matches) {
++    // Reduced motion starts at rest without the author's falling entrance.
++    for(let i=0;i<paperSettings.count;i++) spawnPaper(initialPaperPosition(i),false);
+   } else {
+     // ロード演出 — 紙屑を時間差で上からパラパラと降らせる
++    let firstSpawn;const firstPaper=new Promise((resolve,reject)=>{
++      firstSpawn=resolve;
++      lifecycle.signal.addEventListener('abort',()=>reject(new DOMException('Disposed','AbortError')),{once:true});
++    });
+     for (let i = 0; i < paperSettings.count; i++) {
+       const delay = i * 45 + randomRange(0, 90);
+-      setTimeout(() => {
++      vaultSchedule(() => {
+         spawnPaper(initialPaperPosition(i), true, randomRange(4.2, 8.2));
++        firstSpawn();
+       }, delay);
+     }
++    await firstPaper;
++    if(lifecycle.disposed)return;
+   }
+ 
+   info.textContent = "";
++  composer.render();assertFirstFrame(renderer);
++  lifecycle.succeed({fonts:2,designImages:PAPER_DESIGNS.length,vatDecoded:true,firstFrameSubmitted:true});
++  if(lifecycle.running)startAnimation();
+ }
+ 
+ function initialPaperPosition(i) {
+@@ -784,8 +806,8 @@
+   return paper.state === "closed" || paper.state === "rolling";
+ }
+ 
+-renderer.domElement.addEventListener("pointerdown", (e) => {
+-  if (!animData || pointerState) return;
++vaultListen(renderer.domElement, "pointerdown", (e) => {
++  if (!animData || pointerState || !lifecycle.running || e.button > 0 || e.isPrimary === false) return;
+   const p = pickPaper(e);
+   pointerState = {
+     paper: p,
+@@ -804,7 +826,7 @@
+   if (p && p.state === "rolling") beginGrab(p, e);
+ });
+ 
+-renderer.domElement.addEventListener("pointermove", (e) => {
++vaultListen(renderer.domElement, "pointermove", (e) => {
+   if (!pointerState) {
+     updateHoverCursor(e);
+     return;
+@@ -824,17 +846,17 @@
+   if (pointerState.grabbing) updateGrabTarget(pointerState.paper, e);
+ });
+ 
+-renderer.domElement.addEventListener("pointerup", (e) => {
++vaultListen(renderer.domElement, "pointerup", (e) => {
+   if (!pointerState || e.pointerId !== pointerState.pointerId) return;
+   if (pointerState.grabbing) {
+-    releaseGrab(pointerState.paper, true);
++    releaseGrab(pointerState.paper, !vaultMotion.matches);
+   } else {
+     handleClick(e);
+   }
+   pointerState = null;
+ });
+ 
+-renderer.domElement.addEventListener("pointercancel", (e) => {
++vaultListen(renderer.domElement, "pointercancel", (e) => {
+   if (!pointerState || e.pointerId !== pointerState.pointerId) return;
+   if (pointerState.grabbing) releaseGrab(pointerState.paper, false);
+   pointerState = null;
+@@ -1000,17 +1022,21 @@
+ }
+ 
+ function tick() {
++  if(lifecycle.disposed || !lifecycle.running) return;
+   const now = performance.now() / 1000;
+-  const dt = now - prevTime;
++  const dt = Math.min(now - prevTime, 0.05);
+   prevTime = now;
+ 
+   if (!animData) return;
+ 
+-  physicsWorld.step(PHYSICS_STEP, Math.min(dt, 0.05), 3);
+-  applyPhysicsBounds(dt);
++  if(!vaultMotion.matches) { physicsWorld.step(PHYSICS_STEP, Math.min(dt, 0.05), 3); applyPhysicsBounds(dt); }
+ 
+   for (const p of papers) {
+-    updatePaperMotion(p, dt);
++    if(vaultMotion.matches) {
++      if(p.state==='opening'||p.state==='discarding') updatePaperMotion(p, 100);
++      if(p.state==='rolling') finishRollingPaper(p, animData.frameCount-1);
++      if(p.state==='grabbed') {p.body.position.copy(p.grab.target);syncMeshToBody(p);}
++    } else updatePaperMotion(p, dt);
+   }
+ 
+   if (debugPhysics) {
+@@ -1134,7 +1160,7 @@
+ // ==================================================
+ // リサイズ対応
+ // ==================================================
+-window.addEventListener("resize", () => {
++vaultListen(window, "resize", () => {
+   camera.aspect = window.innerWidth / window.innerHeight;
+   camera.updateProjectionMatrix();
+   renderer.setSize(window.innerWidth, window.innerHeight);
+@@ -1142,10 +1168,26 @@
+   updateOpenPose();
+ });
+ 
++const vaultSchedule = (callback, delay) => lifecycle.schedule(callback,delay);
++function cancelGesture() { if(pointerState?.grabbing)releaseGrab(pointerState.paper,false);const id=pointerState?.pointerId;pointerState=null;if(id!==undefined&&renderer.domElement.hasPointerCapture(id))renderer.domElement.releasePointerCapture(id); }
++lifecycle.setHandlers({
++  stop(){renderer.setAnimationLoop(null);cancelGesture();},
++  resume(){if(animData)startAnimation();},
++  dispose(){
++    const geometries=new Set(),materials=new Set(),textures=new Set();
++    scene.traverse(o=>{if(o.geometry)geometries.add(o.geometry);for(const m of (Array.isArray(o.material)?o.material:[o.material]))if(m){materials.add(m);for(const key in m)if(m[key]?.isTexture)textures.add(m[key]);}});
++    for(const t of textures)t.dispose();for(const m of materials)m.dispose();for(const g of geometries)g.dispose();
++    dirLight.shadow.dispose();scene.clear();
++    for(const body of [...physicsWorld.bodies])physicsWorld.removeBody(body);papers.length=0;animData=null;
++  },
++  inspect(){return {renderer:'Three160 WebGL with SSAO',input:['native captured pointer click','native captured drag and release'],resources:'two local fonts, seven SVGs, local FBX and EXR decoded on CPU',reducedMotionBehavior:'no falling entrance or physics; direct drag retained; open/discard transitions snap',scenePapers:papers.length};}
++});
++vaultListen(renderer.domElement,'lostpointercapture',cancelGesture);
++vaultListen(window,'blur',cancelGesture);
+ // レンダーループを先に開始（データロード中も背景を描画）
+-startAnimation();
++if(lifecycle.running)startAnimation();
+ 
+ init().catch((err) => {
+-  console.error(err);
++  vaultError(err);
+   info.textContent = "ERROR: " + err.message;
+ });
+--- a/src/paper-vat.js
++++ b/src/paper-vat.js
+@@ -406,5 +406,7 @@
+   console.log("[VAT] decoded nrm frame0 vertex0:", normals[0], normals[1], normals[2]);
+   console.log("[VAT] animData ready:", { vertexCount, frameCount, indicesLen: indices.length, uvsLen: uvs.length });
+ 
++  posTex.dispose();
++  fbxGroup.traverse(o=>{o.geometry?.dispose();for(const m of (Array.isArray(o.material)?o.material:[o.material]))m?.dispose();});
+   return { vertexCount, frameCount, indices, uvs, positions, normals, crumple, flat };
+ }
+--- a/src/paper.js
++++ b/src/paper.js
+@@ -1,3 +1,4 @@
++import { lifecycle, loadImage } from '../../lifecycle.js';
+ import * as THREE from "three";
+ 
+ // ==================================================
+@@ -60,6 +61,14 @@
+ 
+ // デザインごとの共有ステート (canvas / texture / material / video)
+ const designStates = [];
++const designImages = new Map();
++export async function preparePaperImages() {
++  await Promise.all(PAPER_DESIGNS.map(async design=>{
++    const image=await loadImage(new URL(design.image,document.baseURI).href);
++    if(!lifecycle.disposed)designImages.set(design.image,image);
++  }));
++}
++lifecycle.addCleanup(()=>{designImages.clear();designStates.length=0;});
+ 
+ function drawStaticLayer(ctx, design) {
+   // 方眼紙の下地
+@@ -215,11 +224,10 @@
+     side: THREE.DoubleSide,
+   });
+ 
+-  const image = new Image();
++  const image = designImages.get(design.image);
++  if(!image)throw new Error('Paper design was not loaded: '+design.image);
+   const state = { design, canvas, ctx, texture, material, image };
+-  image.onload = () => drawDesignImage(state);
+-  // このファイル (src/) の1つ上の階層にある data/ を参照する
+-  image.src = import.meta.url.replace(/[^/]*$/, "") + "../" + design.image;
++  drawDesignImage(state);
+ 
+   designStates[idx] = state;
+   return material;

@@ -1,0 +1,10 @@
+{
+  "id": "mv2-paranoia-filter",
+  "repo": "ParanoiaSlideshow",
+  "title": "建筑式版面中的滤镜显影换幕",
+  "demo": "https://tympanus.net/Development/ParanoiaSlideshow/",
+  "mode": "click",
+  "scene": "brand",
+  "task": "hero",
+  "design": "电蓝色版面、拱形主图、两侧预览与背景变色共同完成戏剧性换幕；保留原作的粒化滤镜与三套同步幻灯。"
+}

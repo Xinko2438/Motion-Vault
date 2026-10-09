@@ -1,0 +1,59 @@
+{
+  "schema": "motion-vault.source-provenance.v1",
+  "id": "spatial-unwoven",
+  "kind": "adapted_author_source",
+  "repository": "https://github.com/clementgrellier/unwoven",
+  "commit": "32c4bfcd623058d92095ffbafe44a1fad6a6d4c1",
+  "upstreamEntry": "source/index.html",
+  "localEntry": "run/index.html",
+  "readableEffect": "run/effect.js",
+  "preservedByteExactly": [
+    "CONFIG defaults including 26 ribbons/20 segments",
+    "VERTEX_SHADER",
+    "FRAGMENT_SHADER",
+    "buildRibbonGeometry",
+    "rebuildStrip",
+    "resize"
+  ],
+  "adaptations": [
+    "Inline source script split to readable effect.js and styles to effect.css.",
+    "Original external CDN requests replaced by exact same Three r128 / GSAP 3.12.5 local vendor versions.",
+    "Original six image files retained byte-for-byte and brokered only from manifest-listed local run paths.",
+    "Named ticker with stop/resume/dispose/paint hooks; native pointer capture and velocity/easing retained.",
+    "Real primary-pointer identity tracked; cancel/lost capture handled; genuine held-pointer move may continue a cold-mounted interaction.",
+    "Reduced motion starts at full weave strength without entrance/autoplay/flutter; direct drag stays available and release does not fling.",
+    "Copied existing opaque-sandbox bridge has local disposal event cleanup; no parent storage or API access.",
+    "No host gallery/UI/catalog/storage changes.",
+    "Compatibility revision: resource/first-render-gated ready Promise, accurate inspect/isReady, partial-initialization cleanup and terminal lifecycle. Original author source remains unchanged; browser/runtime compatibility is pending."
+  ],
+  "visualEvidence": {
+    "kind": "author_supplied_still",
+    "url": "https://github.com/user-attachments/assets/ccf826ac-9ed0-41f0-9da7-2267e3aefdae",
+    "localAdaptationVisualVerified": false,
+    "localRecordingCreated": false
+  },
+  "assetCaveats": [
+    {
+      "files": [
+        "img/motion_blur_portrait_01.jpg",
+        "img/motion_blur_portrait_02.jpg",
+        "img/motion_blur_portrait_03.jpg",
+        "img/motion_blur_portrait_04.jpg",
+        "img/motion_blur_portrait_05.jpg",
+        "img/motion_blur_portrait_06.jpg"
+      ],
+      "status": "individual_photo_rights_unverified",
+      "reason": "The repo does not state image creator, generator, model release or separate image license. Source MIT must not silently become a photo-rights assertion.",
+      "productionRequirement": "Obtain photo permission or use separately licensed replacements preserving portrait crop, warmth and blur art direction."
+    }
+  ],
+  "bridge": {
+    "source": "adapter/source-isolation-bridge.original.js",
+    "originalSha256": "4c007b6b2ddc9d9811091ad6d757bab345180d83058b0bc425f32f974fab54ec",
+    "adapted": "run/vault-isolation.js",
+    "adaptedSha256": "53133d2c7865b4bd624a8f37fc1f288060f543526aa6e729b73b2288c09f5be6"
+  },
+  "validation": "qa-static.json; runtime and acceptance pending",
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING",
+  "compatibilityReview": "compatibility-review.json"
+}

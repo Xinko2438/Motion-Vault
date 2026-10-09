@@ -1,0 +1,207 @@
+{
+  "at": "2026-10-06T13:16:36.799Z",
+  "apply": false,
+  "formalCount": 60,
+  "candidateCount": 30,
+  "localCandidateCount": 30,
+  "authorSource": 26,
+  "independent": 4,
+  "primary": {
+    "brand": {
+      "label": "品牌首页与发布",
+      "count": 10,
+      "items": [
+        {
+          "id": "curated-telescope",
+          "title": "镜筒式层叠缩放叙事",
+          "task": "entrance"
+        },
+        {
+          "id": "curated-glass-torus",
+          "title": "玻璃圆环与折射字带",
+          "task": "identity"
+        },
+        {
+          "id": "curated-metal-name",
+          "title": "字形截面的金属空间结构",
+          "task": "identity"
+        },
+        {
+          "id": "curated-camera-route",
+          "title": "沿场景路线推进的镜头叙事",
+          "task": "hero"
+        },
+        {
+          "id": "curated-emissive-dissolve",
+          "title": "带发光边缘的实体溶解",
+          "task": "entrance"
+        },
+        {
+          "id": "curated-stylized-water",
+          "title": "风格化水面与场景光感",
+          "task": "atmosphere"
+        },
+        {
+          "id": "curated-shape-ascii",
+          "title": "沿真实轮廓选字的 ASCII 实体",
+          "task": "identity"
+        },
+        {
+          "id": "curated-reaction-diffusion",
+          "title": "反应扩散的生长型材质",
+          "task": "atmosphere"
+        },
+        {
+          "id": "curated-vortex-glass",
+          "title": "玻璃球中的体积漩涡",
+          "task": "hero"
+        },
+        {
+          "id": "curated-cluster",
+          "title": "可探索的三维簇状物体",
+          "task": "hero"
+        }
+      ]
+    },
+    "product": {
+      "label": "产品展示与讲解",
+      "count": 5,
+      "items": [
+        {
+          "id": "curated-depth",
+          "title": "同一物体的形态、材质与光照叙事",
+          "task": "feature"
+        },
+        {
+          "id": "curated-spatial-product",
+          "title": "曲面产品墙与聚焦选型",
+          "task": "showroom"
+        },
+        {
+          "id": "curated-fluid-xray",
+          "title": "实体与透视结构的流体显露",
+          "task": "detail"
+        },
+        {
+          "id": "curated-cloth-object",
+          "title": "柔性实体落下与压缩回弹",
+          "task": "detail"
+        },
+        {
+          "id": "curated-grid-full",
+          "title": "网格图像到完整案例的形态接续",
+          "task": "detail"
+        }
+      ]
+    },
+    "portfolio": {
+      "label": "作品集与案例",
+      "count": 8,
+      "items": [
+        {
+          "id": "curated-liquid-grid",
+          "title": "玻璃球面图像陈列",
+          "task": "overview"
+        },
+        {
+          "id": "curated-webgl-reveal",
+          "title": "滚动中连续显露的 WebGL 图像",
+          "task": "discovery"
+        },
+        {
+          "id": "curated-persistent-gallery",
+          "title": "滚动显露与跨页连续的作品集",
+          "task": "handoff"
+        },
+        {
+          "id": "curated-webgpu-route",
+          "title": "保持画布连续的 WebGPU 跨页转场",
+          "task": "handoff"
+        },
+        {
+          "id": "curated-thumbnail-flow",
+          "title": "缩略卡组沿弧线流向主画面",
+          "task": "sequence"
+        },
+        {
+          "id": "curated-elastic-editorial",
+          "title": "带延迟弹性的图像网格编排",
+          "task": "overview"
+        },
+        {
+          "id": "curated-layer-cut",
+          "title": "分层图像的几何剪裁转场",
+          "task": "sequence"
+        },
+        {
+          "id": "curated-tooltip-gallery",
+          "title": "小预览到画廊再到全屏的连续过渡",
+          "task": "handoff"
+        }
+      ]
+    },
+    "editorial": {
+      "label": "阅读与内容叙事",
+      "count": 5,
+      "items": [
+        {
+          "id": "curated-dual-wave",
+          "title": "双向文字波的滚动编排",
+          "task": "typesetting"
+        },
+        {
+          "id": "curated-image-in-type",
+          "title": "文字之间展开的图像叙事",
+          "task": "typesetting"
+        },
+        {
+          "id": "curated-cylinder-type",
+          "title": "柱面排字与三维阅读节奏",
+          "task": "typesetting"
+        },
+        {
+          "id": "curated-editorial-layout",
+          "title": "随阅读推进重组的编辑版式",
+          "task": "chapter"
+        },
+        {
+          "id": "curated-inline-menu",
+          "title": "正文词语迁移成图像导航",
+          "task": "typesetting"
+        }
+      ]
+    },
+    "workspace": {
+      "label": "应用与创作工作台",
+      "count": 2,
+      "items": [
+        {
+          "id": "curated-rounded-menu",
+          "title": "圆角导航与背景揭幕的联动",
+          "task": "navigation"
+        },
+        {
+          "id": "curated-grid-flow-nav",
+          "title": "图像网格流动构成导航节奏",
+          "task": "navigation"
+        }
+      ]
+    },
+    "journey": {
+      "label": "关键流程与反馈",
+      "count": 0,
+      "items": []
+    }
+  },
+  "plannedTargets": 103,
+  "plannedFiles": 44234,
+  "plannedBytes": 4755025906,
+  "removedTargets": 0,
+  "removedFiles": 0,
+  "removedBytes": 0,
+  "skipped": [],
+  "recoveryPackages": 1,
+  "formalSha256": "cc996b592b16d8a53c7492e6f3b975df1e6cf41225501e82ad1d62745d1a5989",
+  "candidateSha256": "bb5fc69497f219185572e8ac1ee17c0fdeac8c4f67a92de1f9f290ed333f1819",
+  "removed": []
+}

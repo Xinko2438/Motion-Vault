@@ -1,0 +1,232 @@
+{
+  "id": "spatial-procedural-snake",
+  "source_kind": "adapted_author_source",
+  "repository": "https://github.com/Sujenphea/procedural-snake",
+  "commit": "fce15746389d8a358be228d92d3c82fb989be915",
+  "author": "Sujen",
+  "licenseCopyrightHolder": "Codrops",
+  "article": "https://tympanus.net/codrops/?p=108307",
+  "demo": "https://tympanus.net/Tutorials/WebGLSnakeAnimation/",
+  "license": {
+    "name": "MIT",
+    "file": "source/LICENSE",
+    "url": "https://github.com/Sujenphea/procedural-snake/blob/fce15746389d8a358be228d92d3c82fb989be915/LICENSE",
+    "sha256": "21b9f7ab4e47821cca20bb0b1b6e9aa779acc5b3564afde475ce0bca5cb05f4d"
+  },
+  "archive": {
+    "url": "https://codeload.github.com/Sujenphea/procedural-snake/tar.gz/fce15746389d8a358be228d92d3c82fb989be915",
+    "includedInRelease": false,
+    "purpose": "Retrieval provenance; exact source blobs included separately."
+  },
+  "sourceFiles": [
+    {
+      "path": "source/.eslintrc.js",
+      "bytes": 791,
+      "sha256": "d45ed2fffe52a6db655c0f0cb269b60da7123446e9eb3f2d1f711e5b236b4170",
+      "gitBlob": "6e3413240d08f177b64dc24f37e4c17acb514229",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/.eslintrc.js"
+    },
+    {
+      "path": "source/.gitignore",
+      "bytes": 318,
+      "sha256": "43865b787890ae7db4a7481d5c00461ab643ee9c956b5976dbfb3e874b5c75c5",
+      "gitBlob": "f94f655e2b0363c94be7eed406e4af8c46075f35",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/.gitignore"
+    },
+    {
+      "path": "source/.prettierrc",
+      "bytes": 156,
+      "sha256": "f00a83fe5df34706a9754a09dd200bee8979498a3712ccbac03c4422b7675760",
+      "gitBlob": "532b9140b2b6594398602c90ae9b6ee8c936f177",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/.prettierrc"
+    },
+    {
+      "path": "source/.vscode/extensions.json",
+      "bytes": 87,
+      "sha256": "cc8f4bcdc3c31be539aa67fbdacaaac4c9fcccb55b02048acf02f56e623ef682",
+      "gitBlob": "22a15055d638988eb33bb61536d27f623df92e4a",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/.vscode/extensions.json"
+    },
+    {
+      "path": "source/.vscode/launch.json",
+      "bytes": 207,
+      "sha256": "461accad2f8d7604a8470fb4705b84768bcf24791b0974d49cba0d96c3fea857",
+      "gitBlob": "d6422097621fd7c1b1ccc6daa670c46aed7ef5b7",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/.vscode/launch.json"
+    },
+    {
+      "path": "source/.vscode/settings.json",
+      "bytes": 440,
+      "sha256": "5df6a86e5fcd9c450c20b903d25f09bcc37d6623fb790cb56a5ec3d1377266de",
+      "gitBlob": "a3f1fe81ecefe81427f72b4e90a906467af8afe2",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/.vscode/settings.json"
+    },
+    {
+      "path": "source/LICENSE",
+      "bytes": 1094,
+      "sha256": "21b9f7ab4e47821cca20bb0b1b6e9aa779acc5b3564afde475ce0bca5cb05f4d",
+      "gitBlob": "a106bb6950403e20f09e542342280b77411b9300",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/LICENSE"
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 1655,
+      "sha256": "cb45a4ed057f97a1ca339636055a6705b06cc2952a99b98205d3de6190d56bd2",
+      "gitBlob": "815c8ca860810e98069f1eede3a697a78c1c2090",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/README.md"
+    },
+    {
+      "path": "source/eslint.config.js",
+      "bytes": 488,
+      "sha256": "35a6d2b45b57bd0f8cbb79512bfa491093e49ee32eea3eaa71bd58cf2dea4830",
+      "gitBlob": "f356b9a99033a86a0378184fcad753191964e6cb",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/eslint.config.js"
+    },
+    {
+      "path": "source/package-lock.json",
+      "bytes": 95417,
+      "sha256": "ae925478b5f710566025156430acc10763eae773e2ef398e8ca57781582b5221",
+      "gitBlob": "6a0205c47aa6c574565ed2a65f38b559ef96c2bb",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/package-lock.json"
+    },
+    {
+      "path": "source/package.json",
+      "bytes": 640,
+      "sha256": "b9774b1b8cea8fdc6d65f508bf95d102553ea1cd85936990df7f6d8cf903cda1",
+      "gitBlob": "aa55b9b343f58aedec79a0d3a7f255888c594946",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/package.json"
+    },
+    {
+      "path": "source/src/css/style.css",
+      "bytes": 3831,
+      "sha256": "14ed7dfe95f49d041d6d70ff798b460f37defd45644e7bb739de29cebfce6e3d",
+      "gitBlob": "2af4e1a3b6565e1fc9edfe5149ecc764850070f6",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/css/style.css"
+    },
+    {
+      "path": "source/src/index.html",
+      "bytes": 2099,
+      "sha256": "f6ea1e3989a61b87d579161bca51e384422a313e6c468f70ddd99c44653d3901",
+      "gitBlob": "f2acb0f82995927b3eb75ac58d653b4574374202",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/index.html"
+    },
+    {
+      "path": "source/src/js/components/Snake.ts",
+      "bytes": 22616,
+      "sha256": "625b7f8e1e0712d595336b8985980329aaa1d3f81ad5899d3fbdee839a774061",
+      "gitBlob": "f9edc30aaf93242b8cf966073dae82b1eb73604e",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/components/Snake.ts"
+    },
+    {
+      "path": "source/src/js/curves/CurveGenerator.ts",
+      "bytes": 7564,
+      "sha256": "5c8f75c0bf05be3e1ed1287c0befa1b89929f73cea944536a4577d136627c61a",
+      "gitBlob": "27b9bb0f3fb7cb0cf0fc903a0a224b9374a018cc",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/curves/CurveGenerator.ts"
+    },
+    {
+      "path": "source/src/js/curves/EndlessCurve.ts",
+      "bytes": 11182,
+      "sha256": "2bdb2811a99deafc2f9e3020f439a340bb403f56521b492fe47080e990e0abc0",
+      "gitBlob": "a7e213a792de5ef46ebdc27e5fe291d741a667b7",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/curves/EndlessCurve.ts"
+    },
+    {
+      "path": "source/src/js/main.ts",
+      "bytes": 4505,
+      "sha256": "05be8b906ecd3e20bedc82a4b595e165a0cc1f44ff12d02474d88be7b4ab8d84",
+      "gitBlob": "b29033f0bfc61f97216c41faf0274f4802f508ab",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/main.ts"
+    },
+    {
+      "path": "source/src/js/utils/Emitter.ts",
+      "bytes": 677,
+      "sha256": "9daca66c1238fc89e431bef46ae6aac977d9e078cfe657d8827ea07531709508",
+      "gitBlob": "86eb7ff8621b7037719fe5af3361836cae028af5",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/utils/Emitter.ts"
+    },
+    {
+      "path": "source/src/js/utils/RAFCollection.ts",
+      "bytes": 1665,
+      "sha256": "37f85bcba13831e276399cefd3eb04d2a36705e709d1727b49628f25c2fd14b7",
+      "gitBlob": "63e64b292b9a847b5978ce0d0631f17c9e6ec57c",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/utils/RAFCollection.ts"
+    },
+    {
+      "path": "source/src/js/utils/input.ts",
+      "bytes": 4006,
+      "sha256": "0b05368be365760ac0c447e5d6101b17cad2f76abf3ef8be5a4dc6e412d8b52f",
+      "gitBlob": "ee6bad707156375ce00cca99b688d3ef1996ff32",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/utils/input.ts"
+    },
+    {
+      "path": "source/src/js/utils/normaliseWheel.ts",
+      "bytes": 1134,
+      "sha256": "5f0acc37566bd70901395fb9daff316f71f5a2e165e19b5027e8c9c702533748",
+      "gitBlob": "1d9f00dde6ddad127d117ae3a7c44b3c4ba0abf9",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/utils/normaliseWheel.ts"
+    },
+    {
+      "path": "source/src/js/utils/properties.ts",
+      "bytes": 2666,
+      "sha256": "28043dc0f9bc1fb758da1fdb82488834cb1a248d5b7c4d3ec67d79d7f8e63502",
+      "gitBlob": "56c9d2eb91e74f9c20bc0885ec357dd3000cab49",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/js/utils/properties.ts"
+    },
+    {
+      "path": "source/src/shaders/ball/ballFrag.glsl",
+      "bytes": 1067,
+      "sha256": "65467e1a27b25404348ec04bd2dfdd6154d92e1295fcb5a752e0c6e7fdbff511",
+      "gitBlob": "ddf5e494bcebde8f840df1978bd2dbfa9214b2c5",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/shaders/ball/ballFrag.glsl"
+    },
+    {
+      "path": "source/src/shaders/ball/ballVert.glsl",
+      "bytes": 265,
+      "sha256": "bd5a4afe31844d9db226fd33966f47ecb0eaa15de55ad90159c90f7d2509117a",
+      "gitBlob": "d72aa94ea1777c82aabef98054e0bd754381e431",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/shaders/ball/ballVert.glsl"
+    },
+    {
+      "path": "source/src/shaders/snake/snakeFrag.glsl",
+      "bytes": 9745,
+      "sha256": "e8f333ee61c430e11e4828b040ad66f1476cb5249057767796ad83673e081531",
+      "gitBlob": "ab2e2ca4e953f457bc9dad3a1e7f1ae870109d35",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/shaders/snake/snakeFrag.glsl"
+    },
+    {
+      "path": "source/src/shaders/snake/snakeVert.glsl",
+      "bytes": 6024,
+      "sha256": "64419d163cc17812a1ce1f99ef35d920496102615e6bd45008f1465cf11d5744",
+      "gitBlob": "e4055b53d769862177c099c800f0dee2572313a5",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/shaders/snake/snakeVert.glsl"
+    },
+    {
+      "path": "source/src/vite-env.d.ts",
+      "bytes": 284,
+      "sha256": "46d3c011824ef3af5a5f6b766f72a082a12ec5d29187f85552596070ca01e2c1",
+      "gitBlob": "4e9aa46404f835bd1f30858837bb2c1f1fc8a363",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/src/vite-env.d.ts"
+    },
+    {
+      "path": "source/tsconfig.json",
+      "bytes": 527,
+      "sha256": "eacc61733333e59fe271157d746cf12c89e57177fa74855799c058841f9c06c1",
+      "gitBlob": "75abdef26594460f62f904bf54b54377573c9209",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/tsconfig.json"
+    },
+    {
+      "path": "source/vite.config.js",
+      "bytes": 761,
+      "sha256": "9e3f21274e79df21e17388196046cad6d8eb2f83ab3b01cc14c54092bdb936dc",
+      "gitBlob": "9ff7896b3a11cdb614951492c0075cc6c4a4e031",
+      "downloadUrl": "https://raw.githubusercontent.com/Sujenphea/procedural-snake/fce15746389d8a358be228d92d3c82fb989be915/vite.config.js"
+    }
+  ],
+  "fetchedAt": "2026-10-07T09:37:23Z",
+  "commitResolution": "GitHub connector commits collection and complete recursive Git tree",
+  "upstreamBuildScriptsExecuted": false,
+  "upstreamLifecycleScriptsExecuted": false,
+  "status": "runtime_unverified",
+  "runtimeStatus": "runtime_unverified"
+}

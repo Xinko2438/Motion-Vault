@@ -1,0 +1,304 @@
+{
+  "at": "2026-10-06T18:12:48.194Z",
+  "mode": "native-codec-control",
+  "samples": [
+    {
+      "file": ".runtime/preview-playback/native-refinements-20261006-one/curated-depth/native.mp4",
+      "sha256": "518b8a916b497281554c998e63875910a4f4120052e71f43876365e1758f3c45",
+      "id": "native-av1",
+      "url": "http://127.0.0.1:45691/.runtime/preview-playback/native-refinements-20261006-one/curated-depth/native.mp4",
+      "firstFrameMs": 33.8,
+      "sampleMs": 3632,
+      "frames": 214,
+      "presentedFps": 59.8,
+      "callbackFps": 59.24,
+      "contentFps": 59.24,
+      "windowContentFps": 59.2,
+      "frameTailMs": 2.7,
+      "contentTailMs": 2.7,
+      "frameIntervalP95": 22,
+      "frameIntervalMax": 59.7,
+      "frameDelayExcessMax": 11.13,
+      "frameDelayExcessP95": 5.67,
+      "contentGapP95": 22,
+      "maxVisualHoldMs": 59.7,
+      "repeatFraction": 0,
+      "framesDecoded": 224,
+      "framesDropped": 4,
+      "dropRatio": 0.0179,
+      "decodeMsP95": 15,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 6.505817,
+      "currentTime": 3.59586,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 2.91,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 4.7,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 4.7,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 10.8,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 35.8,
+          "time": 0.000118,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 35.8,
+          "time": 0.000118,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "waiting",
+          "ms": 36,
+          "time": 0.000118,
+          "ready": 2,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 36.6,
+          "time": 0.000255,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 33.8,
+          "mediaTime": 0.004933,
+          "dropped": 1,
+          "wallGapMs": 0,
+          "mediaGapMs": 0
+        },
+        {
+          "ms": 1057.1,
+          "mediaTime": 1.020833,
+          "dropped": 2,
+          "wallGapMs": 7.3,
+          "mediaGapMs": 33.27
+        },
+        {
+          "ms": 1176.4,
+          "mediaTime": 1.1368,
+          "dropped": 3,
+          "wallGapMs": 20.4,
+          "mediaGapMs": 33.03
+        },
+        {
+          "ms": 1257.5,
+          "mediaTime": 1.21935,
+          "dropped": 4,
+          "wallGapMs": 20.4,
+          "mediaGapMs": 33.02
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": []
+    },
+    {
+      "file": ".runtime/hybrid-assets/staged/motion-vault-assets/curated-depth/preview.mp4",
+      "sha256": "d2e4e8019ed3f9d93f7b4e49d37ee73f9f5d9508908e3a8e099c05b5a0d19854",
+      "id": "preview-h264",
+      "url": "http://127.0.0.1:45691/.runtime/hybrid-assets/staged/motion-vault-assets/curated-depth/preview.mp4",
+      "firstFrameMs": 85.1,
+      "sampleMs": 2497.4,
+      "frames": 129,
+      "presentedFps": 53.38,
+      "callbackFps": 53.38,
+      "contentFps": 53.38,
+      "windowContentFps": 53.06,
+      "frameTailMs": 14.4,
+      "contentTailMs": 14.4,
+      "frameIntervalP95": 21.1,
+      "frameIntervalMax": 35.8,
+      "frameDelayExcessMax": 19.35,
+      "frameDelayExcessP95": 4.52,
+      "contentGapP95": 21.1,
+      "maxVisualHoldMs": 35.8,
+      "repeatFraction": 0,
+      "framesDecoded": 151,
+      "framesDropped": 18,
+      "dropRatio": 0.1192,
+      "decodeMsP95": 83.1,
+      "videoInstances": 1,
+      "loops": 0,
+      "duration": 6.500883,
+      "currentTime": 2.414915,
+      "readyState": 4,
+      "networkState": 1,
+      "paused": false,
+      "width": 656,
+      "height": 400,
+      "bufferedAhead": 4.09,
+      "events": [
+        {
+          "type": "waiting",
+          "ms": 2.2,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadstart",
+          "ms": 2.4,
+          "time": 0,
+          "ready": 0,
+          "error": null
+        },
+        {
+          "type": "loadedmetadata",
+          "ms": 65.4,
+          "time": 0,
+          "ready": 1,
+          "error": null
+        },
+        {
+          "type": "loadeddata",
+          "ms": 83.1,
+          "time": 0.00047,
+          "ready": 4,
+          "error": null
+        },
+        {
+          "type": "playing",
+          "ms": 83.2,
+          "time": 0.000524,
+          "ready": 4,
+          "error": null
+        }
+      ],
+      "dropChanges": [
+        {
+          "ms": 649.5,
+          "mediaTime": 0.5829,
+          "dropped": 2,
+          "wallGapMs": 19.6,
+          "mediaGapMs": 49.97
+        },
+        {
+          "ms": 901.7,
+          "mediaTime": 0.832733,
+          "dropped": 4,
+          "wallGapMs": 19.3,
+          "mediaGapMs": 49.97
+        },
+        {
+          "ms": 1134.4,
+          "mediaTime": 1.0657,
+          "dropped": 6,
+          "wallGapMs": 19.6,
+          "mediaGapMs": 49.8
+        },
+        {
+          "ms": 1323.5,
+          "mediaTime": 1.263917,
+          "dropped": 8,
+          "wallGapMs": 20.5,
+          "mediaGapMs": 49.5
+        },
+        {
+          "ms": 1536.2,
+          "mediaTime": 1.4772,
+          "dropped": 9,
+          "wallGapMs": 19.9,
+          "mediaGapMs": 32.78
+        },
+        {
+          "ms": 1569.9,
+          "mediaTime": 1.510183,
+          "dropped": 10,
+          "wallGapMs": 33.7,
+          "mediaGapMs": 32.98
+        },
+        {
+          "ms": 1701.1,
+          "mediaTime": 1.641817,
+          "dropped": 11,
+          "wallGapMs": 20.8,
+          "mediaGapMs": 32.92
+        },
+        {
+          "ms": 1749.9,
+          "mediaTime": 1.691217,
+          "dropped": 12,
+          "wallGapMs": 13.3,
+          "mediaGapMs": 32.97
+        },
+        {
+          "ms": 1834,
+          "mediaTime": 1.773617,
+          "dropped": 13,
+          "wallGapMs": 21.1,
+          "mediaGapMs": 32.95
+        },
+        {
+          "ms": 1868.5,
+          "mediaTime": 1.806567,
+          "dropped": 14,
+          "wallGapMs": 34.5,
+          "mediaGapMs": 32.95
+        },
+        {
+          "ms": 1982.5,
+          "mediaTime": 1.9217,
+          "dropped": 15,
+          "wallGapMs": 20.8,
+          "mediaGapMs": 32.88
+        },
+        {
+          "ms": 2096.8,
+          "mediaTime": 2.0377,
+          "dropped": 16,
+          "wallGapMs": 20.2,
+          "mediaGapMs": 32.77
+        },
+        {
+          "ms": 2211.7,
+          "mediaTime": 2.1521,
+          "dropped": 17,
+          "wallGapMs": 21.2,
+          "mediaGapMs": 32.62
+        },
+        {
+          "ms": 2310.2,
+          "mediaTime": 2.250167,
+          "dropped": 18,
+          "wallGapMs": 20.6,
+          "mediaGapMs": 32.7
+        }
+      ],
+      "pixelError": null,
+      "longTasks": [],
+      "visualHolds": [],
+      "frameGaps": []
+    }
+  ]
+}

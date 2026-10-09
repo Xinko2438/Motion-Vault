@@ -1,0 +1,31 @@
+{
+  "dependencies": [
+    {
+      "file": "run/js/imagesloaded.pkgd.min.js",
+      "version": "5.0.0",
+      "sha256": "86dacb15f649eafe6e74e1bede434b20d20a87682fa0aab01211d87d34cc2027",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "upstream notice retained; see vendor source/readme"
+    },
+    {
+      "file": "run/js/Observer.min.js",
+      "version": "3.12.2",
+      "sha256": "2a2efeacbba8585cb5681de4b70d4a59530bfbce74a8295d689c59b86fe85d27",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    },
+    {
+      "file": "run/js/gsap.min.js",
+      "version": "3.12.2",
+      "sha256": "efc85c7eb141819717cda0033484a84b1c890d13b02e355a2fec79d424b20e7a",
+      "versionEvidence": "upstream file banner or embedded version",
+      "licenseNotice": "embedded original notice retained; GSAP is separately licensed, not MIT"
+    }
+  ],
+  "buildTool": {
+    "name": "esbuild",
+    "version": "0.25.10"
+  },
+  "upstreamBuildScriptsExecuted": false,
+  "dependencyLifecycleScriptsExecuted": false
+}

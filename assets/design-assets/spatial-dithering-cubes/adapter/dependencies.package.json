@@ -1,0 +1,10 @@
+{
+  "name": "motion-vault-spatial-dithering-cubes",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tweakpane/plugin-essentials": "0.2.1",
+    "three": "0.175.0",
+    "tweakpane": "4.0.5"
+  }
+}

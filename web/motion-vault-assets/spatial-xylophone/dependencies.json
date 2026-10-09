@@ -1,0 +1,12 @@
+{
+  "direct": {
+    "three": "0.182.0",
+    "postprocessing": "6.39.3"
+  },
+  "lockFile": "adapter/package-lock.json",
+  "lockSha256": "93363544fdc22f07da75cd2ab44623b3382139031ecc0fdfef84af2e6253b4cb",
+  "dependencyLifecycleScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "runtimeExecution": "not performed; static bundle/asset validation only",
+  "missingStandaloneLicenseFiles": []
+}

@@ -1,0 +1,107 @@
+{
+  "viewport": {
+    "width": 1100,
+    "height": 670,
+    "hostScaling": "Scale the entire bounded iframe; never resize the host layout."
+  },
+  "parameters": [
+    {
+      "name": "papers",
+      "default": 40,
+      "unit": "count",
+      "binding": "paperSettings.count (?papers=1..50)",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "background",
+      "default": "#ff3838",
+      "unit": "color",
+      "binding": "colorSettings.background",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "floor",
+      "default": "#dcdad0",
+      "unit": "color",
+      "binding": "colorSettings.floor",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "camera",
+      "default": [
+        0,
+        2.2,
+        3.6
+      ],
+      "unit": "world units",
+      "binding": "cameraSettings",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "cameraFov",
+      "default": 40,
+      "unit": "degrees",
+      "binding": "PerspectiveCamera",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "animationSpeed",
+      "default": 1.5,
+      "unit": "factor",
+      "binding": "animSettings.speed",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "openFrame",
+      "default": 4,
+      "unit": "VAT frame",
+      "binding": "animSettings.openFrame",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "vatFrames",
+      "default": 50,
+      "unit": "frames",
+      "binding": "paper-vat.js FRAME_COUNT",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "fps",
+      "default": 24,
+      "unit": "source timing",
+      "binding": "FPS",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    },
+    {
+      "name": "paperTexture",
+      "default": [
+        1024,
+        1400
+      ],
+      "unit": "pixels",
+      "binding": "paper.js TEX_W/TEX_H",
+      "editIn": "adapter/author; preserve immutable source snapshot",
+      "runtimeMutationExposed": false
+    }
+  ],
+  "runtimeControls": {
+    "SourceDemo.stop()": "Pause render loop and active gesture where applicable.",
+    "SourceDemo.resume()": "Resume only local rendering; never fabricate input.",
+    "SourceDemo.dispose()": "Dispose this mounted effect and local resource transport.",
+    "SourceDemo.paint()": "Read readiness; lenticular also invalidates its demand frame. No synthetic motion."
+  },
+  "interaction": "Author’s real primary-pointer capture, click-to-unfold state machine, drag/grab spring and release velocity retained. Added lost capture/blur cleanup. Reduced motion starts at rest, changes open/closed states directly and suppresses the falling entrance and fling physics.",
+  "technicalDependencies": {
+    "three": "0.160.1",
+    "cannon-es": "0.20.0"
+  }
+}

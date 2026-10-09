@@ -1,0 +1,15 @@
+{
+  "implementation_kind": "independent_code",
+  "author": "Motion Vault original cloud study",
+  "source": "https://github.com/codrops/EaseReverseClipMenu",
+  "repository": null,
+  "commit": null,
+  "version": "35b44bc0c86c3d1e",
+  "differences": [
+    "Independently authored native implementation; no upstream source copied.",
+    "No GSAP, React or third-party runtime dependency.",
+    "Original CSS/SVG artwork and system fonts replace reference visuals."
+  ],
+  "rights": "Original implementation created for this project; conceptual reference does not imply author endorsement. No third-party asset rights claimed.",
+  "upstream_visual_verified": false
+}

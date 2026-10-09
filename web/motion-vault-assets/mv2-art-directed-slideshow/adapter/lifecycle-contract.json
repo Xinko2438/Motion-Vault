@@ -1,0 +1,134 @@
+{
+  "id": "mv2-art-directed-slideshow",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "instant-current-slide-with-author-css-and-hidden-transition-decorations",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "author-native-previous-next-buttons-preserved-runtime-unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/slideshow.mjs",
+  "reducedMotionModuleSha256": "899254305ad456dd7548dec6c5807d8f69663ae48aeec8a81f745914e64be8c1",
+  "variants": [
+    {
+      "entry": "source/js/demo4/index.js",
+      "output": "run/effect-index4.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo5/index.js",
+      "output": "run/effect-index5.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo6/index.js",
+      "output": "run/effect-index6.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo15/index.js",
+      "output": "run/effect-index15.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo14/index.js",
+      "output": "run/effect-index14.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo10/index.js",
+      "output": "run/effect-index10.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo11/index.js",
+      "output": "run/effect-index11.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo13/index.js",
+      "output": "run/effect-index13.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo8/index.js",
+      "output": "run/effect-index8.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo12/index.js",
+      "output": "run/effect-index12.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo7/index.js",
+      "output": "run/effect-index7.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo9/index.js",
+      "output": "run/effect-index9.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo1/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo2/index.js",
+      "output": "run/effect-index2.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo3/index.js",
+      "output": "run/effect-index3.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo16/index.js",
+      "output": "run/effect-index16.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "All 16 pinned variants preserve next/previous wraparound and reconcile the selected slide without translation, scale, rotation, brightness or transition-cover animation.",
+    "Live preference changes kill the owned transition, commit its already-selected slide, and clear only animation-owned styles. CSS image sizing and backgrounds remain authored.",
+    "Node state/callback tests are not a browser or visual acceptance pass."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "motion-vault.static-qa.v1",
+  "id": "spatial-paper-crumple",
+  "checkedAt": "2026-10-07",
+  "sourceGitBlobHashesAllMatch": true,
+  "sourceFileCount": 16,
+  "sourceCommit": "f84648b001dd13becda7a629ab5398cecfe3a252",
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "externalBuildImports": [],
+  "htmlResourcesAllLocalAndPresent": true,
+  "runtimeManifestCount": 14,
+  "dependencyLockPresent": true,
+  "dependencyInstallScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "missingStandaloneLicenseFiles": [],
+  "bundleSha256": "a94b6f815da147e32f4feaf15ac9fb3a7a71a12e6d25edf9ecd0e2b9709ab080",
+  "runtimeVerification": "NOT RUN for this lifecycle repair; build and static inspection only",
+  "visualEquivalence": "NOT VERIFIED",
+  "recording": "NOT CREATED",
+  "userApproval": "NOT INFERRED",
+  "staticPassed": true,
+  "assetDecode": {
+    "mode": "Offline asset decode with official Three loaders; no DOM/WebGL/effect runtime",
+    "meshes": [
+      {
+        "vertices": 20292,
+        "attributes": [
+          "position",
+          "normal",
+          "uv",
+          "uv1"
+        ]
+      }
+    ],
+    "exr": {
+      "width": 1024,
+      "height": 200,
+      "samples": 819200,
+      "allFinite": true
+    }
+  },
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING"
+}

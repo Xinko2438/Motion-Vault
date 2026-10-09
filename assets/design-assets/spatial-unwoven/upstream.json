@@ -1,0 +1,75 @@
+{
+  "id": "spatial-unwoven",
+  "source_kind": "adapted_author_source",
+  "repository": "https://github.com/clementgrellier/unwoven",
+  "commit": "32c4bfcd623058d92095ffbafe44a1fad6a6d4c1",
+  "author": "Clément Grellier",
+  "article": "https://tympanus.net/codrops/2026/09/05/building-an-infinite-loom-unravelling-images-into-threads-with-three-js/",
+  "demo": "https://tympanus.net/Development/Unwoven/",
+  "license": {
+    "name": "MIT",
+    "file": "source/LICENSE.md",
+    "url": "https://github.com/clementgrellier/unwoven/blob/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/LICENSE.md",
+    "sha256": "0dc582269b0291cff034902c2498e132698fbce33a2a11c784b827fb54aab4f2"
+  },
+  "sourceFiles": [
+    {
+      "path": "LICENSE.md",
+      "bytes": 1112,
+      "sha256": "0dc582269b0291cff034902c2498e132698fbce33a2a11c784b827fb54aab4f2",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/LICENSE.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4448,
+      "sha256": "45361ebf706a7a7b1422d0bc1a748653c95a4c27ba031ff5a04ffe12d736231e",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/README.md"
+    },
+    {
+      "path": "img/motion_blur_portrait_01.jpg",
+      "bytes": 26871,
+      "sha256": "f84477bebe47fe31721914c04ef5979614df7554af3671f8ee9975039a36680d",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/img/motion_blur_portrait_01.jpg"
+    },
+    {
+      "path": "img/motion_blur_portrait_02.jpg",
+      "bytes": 28279,
+      "sha256": "4d2a9253ee60f5e86eb2c04a1e19045e8229ac558062f6b773bf9dd82e43f7ea",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/img/motion_blur_portrait_02.jpg"
+    },
+    {
+      "path": "img/motion_blur_portrait_03.jpg",
+      "bytes": 31885,
+      "sha256": "59700fa08be5cdead1061b86f2660124dc0f2aef4168291e3d48961b2c41dc12",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/img/motion_blur_portrait_03.jpg"
+    },
+    {
+      "path": "img/motion_blur_portrait_04.jpg",
+      "bytes": 28414,
+      "sha256": "c0547459451a2335514e877207f509ed2bd4a5e8fd7eeae130e60309eb039c24",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/img/motion_blur_portrait_04.jpg"
+    },
+    {
+      "path": "img/motion_blur_portrait_05.jpg",
+      "bytes": 28699,
+      "sha256": "c0114f1eae4e6ee703761983f821f8f0853d9c1d996b8fd1c24a64f21b1bd489",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/img/motion_blur_portrait_05.jpg"
+    },
+    {
+      "path": "img/motion_blur_portrait_06.jpg",
+      "bytes": 29396,
+      "sha256": "5565997c89281217bd3bc09becccb05dfd065fd3faa3722eb5f377a1b4e4b3d3",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/img/motion_blur_portrait_06.jpg"
+    },
+    {
+      "path": "index.html",
+      "bytes": 21174,
+      "sha256": "4e057dda0f54d77c3952b1da79b38b24db0b5908471af1f5c5f6ca4e52580d9b",
+      "downloadUrl": "https://raw.githubusercontent.com/clementgrellier/unwoven/32c4bfcd623058d92095ffbafe44a1fad6a6d4c1/index.html"
+    }
+  ],
+  "fetchedAt": "2026-10-07T09:31:00.462793+00:00",
+  "upstreamCodeExecuted": false,
+  "status": "adapted_static_checks_passed_runtime_pending",
+  "imageRights": "Original repo photos retained for source-faithful local review; separate photo provenance/redistribution permission not supplied by upstream."
+}

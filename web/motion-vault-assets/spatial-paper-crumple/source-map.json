@@ -1,0 +1,54 @@
+[
+  {
+    "path": "source/src/main-vat.js",
+    "role": "authoritative_pinned_entry"
+  },
+  {
+    "path": "source/src/paper-vat.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/paper.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "adapter/author/index.html",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/main-vat.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/paper-vat.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/paper.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/changes.patch",
+    "role": "exact_code_delta"
+  },
+  {
+    "path": "adapter/build-local.mjs",
+    "role": "own_esbuild_config"
+  },
+  {
+    "path": "run/vault-isolation.js",
+    "role": "opaque_local_asset_transport"
+  },
+  {
+    "path": "adapter/entry.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/lifecycle.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/source-isolation-bridge.original.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  }
+]

@@ -40,7 +40,7 @@
 - 正式/候选目录：`web/catalog.json`与`web/candidate-catalog.json`。按场景search，再用`node scripts/query-vault.mjs inspect <id> --section all --json`读设计和源码；候选加`--scope candidates`。
 - 标签图标以 `src/hybrid/motion-vault-icon.svg` 为唯一设计源，`node scripts/build-icon.mjs` 生成16/32/48/64尺寸ICO，保留透明圆角。构建自动给图标资源加内容哈希，用户入口不加开发版号。`node scripts/verify-interaction-switch.mjs --live` 验证实际开关、原生鼠标输入、详情来回切换、UI偏好隔离及两种图标解码。
 - 唯一发布核对器：`scripts/sync-gallery.mjs`。受验收门禁的整批发布：`scripts/release.mjs publish`。页面、目录、图标与依赖必须一起核对实际4380资源；不需要重启服务。
-- 保留一个内部恢复包`versions/.recovery.zip`。清理先审计`node scripts/maintain-current.mjs audit`；只有用户明确授权才运行`prune`。不清理其他项目、私人浏览器或必要来源。
+- 2026-10-09 用户授权统一版本后，旧副本以本地 Git 引用 `archive/local-before-unification-20261009` 保存，不再维护 versions 或 _work 内的恢复副本。该引用包含私人历史，不得推送。远端旧历史由 `archive/github-before-unification-20261009` 保留。只能清理逐文件从 Git 恢复并校验一致的旧文件；不清理私人浏览器、私人审查或必要来源。
 - 隔离浏览器验收结束自动清理本次配置，截图/日志保留在lineage/current。不保留大量临时浏览器目录冒充项目版本。
 
 ## 验收

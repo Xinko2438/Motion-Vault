@@ -1,0 +1,142 @@
+[
+  {
+    "path": "source/src/main.js",
+    "role": "authoritative_pinned_entry"
+  },
+  {
+    "path": "source/src/Experience/Gallery.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/Scroll.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/Label.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/Background/index.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/Background/shaders/fragment.glsl",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/TrailController.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/Trail.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/Experience/TrailHeadParticles.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/data/galleryData.js",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "adapter/author/eslint.config.mjs",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/index.html",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Background/index.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Background/shaders/fragment.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Background/shaders/vertex.glsl",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Debug.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Engine.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Gallery.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Label.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Scroll.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/Trail.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/TrailController.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/TrailHeadParticles.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/Experience/index.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/css/base.css",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/css/canvas.css",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/data/galleryData.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/main.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/vite.config.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/changes.patch",
+    "role": "exact_code_delta"
+  },
+  {
+    "path": "adapter/build-local.mjs",
+    "role": "own_esbuild_config"
+  },
+  {
+    "path": "run/vault-isolation.js",
+    "role": "opaque_local_asset_transport"
+  },
+  {
+    "path": "adapter/entry.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/lifecycle.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/source-isolation-bridge.original.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  }
+]

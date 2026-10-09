@@ -1,0 +1,295 @@
+"""Own deterministic source transform. Does not run upstream scripts/configuration."""
+from pathlib import Path
+import base64
+import difflib
+import hashlib
+import re
+import shutil
+
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / 'source/src'
+ADAPTED = ROOT / 'adapter/src'
+shutil.copytree(SRC, ADAPTED, dirs_exist_ok=True)
+main = (SRC / 'js/main.ts').read_text()
+
+def change(old, new):
+    global main
+    assert main.count(old) == 1, ('Expected unique source section', old[:120])
+    main = main.replace(old, new)
+
+change('  isContextLost = false', '''  isContextLost = false
+  // Motion Vault lifecycle boundary. The author scene, shaders and steering are unchanged.
+  private disposed = false
+  private running = true
+  private raf = 0
+  private renderedFrames = 0
+  private motionPreference = matchMedia("(prefers-reduced-motion: reduce)")
+  private reducedMotion = this.motionPreference.matches
+  private listeners = new AbortController()
+  private boundContextLost = (event: Event) => {
+    event.preventDefault()
+    this.isContextLost = true
+    this.cancelFrame()
+  }
+  private boundContextRestored = () => {
+    if (this.disposed) return
+    this.disposeScene()
+    this.snake = new Snake()
+    this.buildScene()
+    this.isContextLost = false
+    this.frame(0)
+    this.schedule()
+  }
+  private boundMotionChange = () => {
+    this.reducedMotion = this.motionPreference.matches
+    this.cancelFrame()
+    this.dateTime = performance.now()
+    this.paint()
+    this.schedule()
+  }
+  private boundVisibility = () => {
+    this.cancelFrame()
+    this.dateTime = performance.now()
+    if (!document.hidden) { this.paint(); this.schedule() }
+  }
+  private boundDirectInput = () => {
+    // Native input listeners are registered first. One requested frame, no ambient loop.
+    if (this.reducedMotion && this.running && !this.disposed && !document.hidden) this.frame(1 / 60)
+  }''')
+change('''    // Handle WebGL context loss (common on mobile when backgrounding app)
+    this.gl.domElement.addEventListener("webglcontextlost", (event) => {
+      event.preventDefault()
+      console.warn("WebGL context lost")
+      this.isContextLost = true
+    })
+
+    this.gl.domElement.addEventListener("webglcontextrestored", () => {
+      console.log("WebGL context restored")
+      this.isContextLost = false
+      // Rebuild scene after context restoration
+      this.buildScene()
+    })''', '''    this.gl.domElement.addEventListener("webglcontextlost", this.boundContextLost, { signal: this.listeners.signal })
+    this.gl.domElement.addEventListener("webglcontextrestored", this.boundContextRestored, { signal: this.listeners.signal })''')
+change('''    window.addEventListener("resize", this.boundResize)
+    this.update()''', '''    window.addEventListener("resize", this.boundResize, { signal: this.listeners.signal })
+    document.addEventListener("mousemove", this.boundDirectInput, { passive: true, signal: this.listeners.signal })
+    document.addEventListener("touchmove", this.boundDirectInput, { passive: true, signal: this.listeners.signal })
+    document.addEventListener("visibilitychange", this.boundVisibility, { signal: this.listeners.signal })
+    this.motionPreference.addEventListener("change", this.boundMotionChange, { signal: this.listeners.signal })
+    this.frame(0)
+    this.schedule()''')
+change('''      this.camera.updateProjectionMatrix()
+    }
+  }
+
+  buildScene()''', '''      this.camera.updateProjectionMatrix()
+      this.paint()
+    }
+  }
+
+  buildScene()''')
+change('''  update() {
+    window.requestAnimationFrame(this.boundUpdate)
+
+    // Skip rendering if WebGL context is lost
+    if (this.isContextLost) {
+      return
+    }
+
+    // get time
+    const currDateTime = performance.now()
+    let delta = (currDateTime - this.dateTime) / 1e3
+    this.dateTime = currDateTime
+    delta = Math.min(delta, 1 / 20)
+
+    // update''', '''  private cancelFrame() {
+    if (this.raf) cancelAnimationFrame(this.raf)
+    this.raf = 0
+  }
+
+  private schedule() {
+    if (!this.raf && this.running && !this.disposed && !this.isContextLost && !this.reducedMotion && !document.hidden) {
+      this.dateTime = performance.now()
+      this.raf = requestAnimationFrame(this.boundUpdate)
+    }
+  }
+
+  update() {
+    this.raf = 0
+    if (!this.running || this.disposed || this.isContextLost || this.reducedMotion || document.hidden) return
+    const currDateTime = performance.now()
+    const delta = Math.min((currDateTime - this.dateTime) / 1e3, 1 / 20)
+    this.dateTime = currDateTime
+    this.frame(delta)
+    if (this.running && !this.disposed) this.raf = requestAnimationFrame(this.boundUpdate)
+  }
+
+  private frame(delta: number) {
+    if (this.disposed || this.isContextLost) return
+    // update''')
+change('''  // Clean up resources on page unload
+  destroy() {
+    // Remove resize listener
+    window.removeEventListener("resize", this.boundResize)
+
+    // Cleanup input event listeners
+    Input.destroy()
+
+    // Dispose Three.js resources
+    this.gl.dispose()
+  }''', '''  inspect() { return {disposed:this.disposed,running:this.running,reducedMotion:this.reducedMotion,rendererInitialized:!!this.gl,
+    firstFrameSubmitted:this.renderedFrames>0,renderedFrames:this.renderedFrames,contextLost:this.isContextLost,
+    rafScheduled:!!this.raf,inputEnabled:!this.disposed,viewport:{...this.size},runtimeVerified:false} }
+
+  stop() { this.running = false; this.cancelFrame() }
+
+  resume() {
+    if (this.disposed) return false
+    this.running = true
+    this.paint()
+    this.schedule()
+    return true
+  }
+
+  // Render the current state; this is deliberately not a video seek/simulation API.
+  paint() {
+    if (this.disposed || this.isContextLost) return false
+    this.gl.render(this.scene, this.camera)
+    this.renderedFrames++
+    if (this.gl.info.programs?.some((program: any) => program.diagnostics?.runnable === false)) throw new Error("Snake shader compilation failed")
+    return true
+  }
+
+  private disposeScene() {
+    const geometries = new Set<any>(), materials = new Set<any>(), textures = new Set<any>()
+    this.scene?.traverse((node: any) => {
+      if (node.geometry) geometries.add(node.geometry)
+      const values = Array.isArray(node.material) ? node.material : [node.material]
+      for (const material of values) if (material) {
+        materials.add(material)
+        for (const value of Object.values(material) as any[]) if (value?.isTexture) textures.add(value)
+        for (const uniform of Object.values(material.uniforms || {}) as any[]) if (uniform?.value?.isTexture) textures.add(uniform.value)
+      }
+      if (node.isInstancedMesh) node.dispose()
+    })
+    for (const geometry of geometries) geometry.dispose()
+    for (const material of materials) material.dispose()
+    for (const texture of textures) texture.dispose()
+    this.scene?.clear()
+  }
+
+  destroy() {
+    if (this.disposed) return
+    this.stop()
+    this.disposed = true
+    this.listeners.abort()
+    Input.destroy()
+    RAFCollection.clear()
+    Properties.gui?.destroy()
+    this.disposeScene()
+    this.gl?.renderLists.dispose()
+    this.gl?.dispose()
+    this.gl?.forceContextLoss()
+    this.gl?.domElement.remove()
+    window.dispatchEvent(new Event("vault-source-dispose"))
+  }''')
+change('''// Store app instance for cleanup
+let app: App | null = null
+
+window.addEventListener("load", () => {
+    app = new App()
+})
+
+// Clean up on page unload
+window.addEventListener("beforeunload", () => {
+  if (app) {
+    app.destroy()
+  }
+})''', '''// Small host-facing contract. No parent storage, UI or cross-frame object access.
+let app: App | null = null
+let constructingApp: App | null = null
+const lifecycle = new AbortController()
+const errors: string[] = []
+let disposed = false
+let requestedRunning = true
+let settled = false
+let resolveReady: (value:any)=>void, rejectReady: (reason:any)=>void
+const ready = new Promise((resolve,reject)=>{resolveReady=resolve;rejectReady=reject})
+ready.catch(()=>{})
+const fail = (error:any) => { errors.push(String(error)); if(!settled){settled=true;rejectReady(error instanceof Error?error:new Error(String(error)))} }
+const demo = {
+  ready,
+  get isReady(){return !!app&&!disposed&&errors.length===0&&["ready","paused"].includes(demo.status)},
+  status: "loading",
+  runtimeAcceptance: "runtime_unverified",
+  errors,
+  capabilities: { stop: true, resume: true, dispose: true, paint: "render-current-state-only", seek: false },
+  stop() { requestedRunning = false; app?.stop(); if(app)demo.status="paused" },
+  resume() { if(disposed)return false;requestedRunning = true;const resumed=app?.resume()??false;if(resumed)demo.status="ready";return resumed },
+  paint() { return app?.paint() ?? false },
+  inspect() { return {...(app?.inspect()||{rendererInitialized:false,firstFrameSubmitted:false,disposed,reducedMotion:matchMedia("(prefers-reduced-motion: reduce)").matches}), status:demo.status, errors:errors.slice(), runtimeVerified:false} },
+  dispose() {
+    if (disposed) return
+    disposed = true
+    lifecycle.abort()
+    if (app) app.destroy()
+    else window.dispatchEvent(new Event("vault-source-dispose"))
+    app = null
+    if(!settled){settled=true;rejectReady(new DOMException("Disposed before ready","AbortError"))}
+    demo.status = "disposed"
+  },
+}
+Object.assign(window, { SourceDemo: demo, sourceErrors: errors })
+window.addEventListener("error", event => { fail(event.message) }, { signal: lifecycle.signal })
+window.addEventListener("unhandledrejection", event => { fail(event.reason) }, { signal: lifecycle.signal })
+function boot() {
+  if (disposed || app) return
+  try {
+    app = new App(); constructingApp=null;
+    if (!requestedRunning) app.stop();
+    if(!app.paint())throw new Error("Snake initial frame unavailable");
+    demo.status = requestedRunning ? "ready" : "paused";
+    if(!settled){settled=true;resolveReady({firstFrameSubmitted:true,assets:"procedural",visualVerified:false})}
+  }
+  catch (error) {
+    try { (app || constructingApp)?.destroy(); } catch(cleanupError) { errors.push(String(cleanupError)); }
+    app=null;constructingApp=null;
+    fail(error); demo.status = "initialization-failed"
+    const notice = document.createElement("p")
+    notice.className = "runtime-notice"
+    notice.textContent = "This source demo requires WebGL 2. The local runtime has not been verified."
+    document.body.append(notice)
+    console.error(error)
+  }
+}
+if (document.readyState === "complete") boot()
+else window.addEventListener("load", boot, { once: true, signal: lifecycle.signal })
+window.addEventListener("pagehide", () => demo.dispose(), { once: true, signal: lifecycle.signal })''')
+main = main.replace('  constructor() {', '  constructor() {\n    constructingApp = this')
+main = main.replace('    // post update', '    this.renderedFrames++\n    if (this.gl.info.programs?.some((program: any) => program.diagnostics?.runnable === false)) throw new Error("Snake shader compilation failed")\n\n    // post update')
+(ADAPTED / 'js/main.ts').write_text(main)
+(ROOT / 'adapter/effect.diff').write_text(''.join(difflib.unified_diff((SRC / 'js/main.ts').read_text().splitlines(True), main.splitlines(True), fromfile='source/src/js/main.ts', tofile='adapter/src/js/main.ts')))
+html = (SRC / 'index.html').read_text()
+html = re.sub(r'^.*<link rel="(?:icon|shortcut icon)"[^\n]*\n', '', html, flags=re.M)
+html = re.sub(r'^.*<script src="(?:https?:)?//tympanus.net[^\n]*\n', '', html, flags=re.M)
+html = re.sub(r'<a([^>]*?)\s+href="[^\"]*"([^>]*)>', r'<span\1\2>', html).replace('</a>', '</span>')
+html = html.replace('  <script>\n    document.documentElement.className', '  <link rel="stylesheet" href="./effect.css" />\n  <script src="./vault-isolation.js"></script>\n  <script>\n    document.documentElement.className')
+html = html.replace('<script type="module" src="./js/main.ts"></script>', '<script src="./effect.js"></script>')
+inline_scripts = re.findall(r'<script>([\s\S]*?)</script>', html)
+assert len(inline_scripts) == 1, 'Expected only the original inline class initialization'
+inline_hash = base64.b64encode(hashlib.sha256(inline_scripts[0].encode()).digest()).decode()
+csp = f"default-src 'none'; script-src 'self' 'sha256-{inline_hash}'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src blob: data:; font-src 'none'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'"
+html = html.replace('<meta charset="UTF-8" />', '<meta charset="UTF-8" />\n  <meta http-equiv="Content-Security-Policy" content="' + csp + '" />')
+(ROOT / 'run/index.html').write_text(html)
+css = (SRC / 'css/style.css').read_text() + '\n/* Local iframe presentation boundary; source styles remain above. */\nhtml, body { width: 100%; height: 100%; overflow: hidden; }\n.runtime-notice { position: fixed; inset: 45% 12% auto; color: #fff; text-align: center; }\n'
+(ROOT / 'run/effect.css').write_text(css)
+# The esbuild script ignores the original CSS import because the exact styles are local above.
+bridge = (ROOT / 'adapter/source-isolation-bridge.original.js').read_text()
+bridge = bridge.replace("if(parent===window||!channel)return;", "if(parent===window||!channel)return;const transportLifetime=new AbortController();")
+bridge = bridge.replace("else task.resolve(e.data);});", "else task.resolve(e.data);},{signal:transportLifetime.signal});")
+bridge = bridge.replace("},{capture:true});", "},{capture:true,signal:transportLifetime.signal});")
+bridge = bridge.replace(" addEventListener('pagehide',()=>{", " const disposeTransport=()=>{").replace("objectURLs.clear();});", "objectURLs.clear();};addEventListener('pagehide',disposeTransport,{once:true});addEventListener('vault-source-dispose',disposeTransport,{once:true});")
+bridge = bridge.replace('const disposeTransport=()=>{observer.disconnect();', 'const disposeTransport=()=>{transportLifetime.abort();observer.disconnect();')
+(ROOT / 'run/vault-isolation.js').write_text(bridge)
+shutil.copy2(ROOT / 'source/LICENSE', ROOT / 'LICENSE')
+print('Adapted source created; author shaders, geometry, input, curves, and properties unchanged.')

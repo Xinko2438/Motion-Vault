@@ -1,0 +1,10 @@
+{
+  "id": "mv2-art-directed-slideshow",
+  "repo": "SlideshowAnimations",
+  "title": "图像与遮罩共同编排的全屏换幕",
+  "demo": "http://tympanus.net/Development/SlideshowAnimations/",
+  "mode": "scroll",
+  "scene": "portfolio",
+  "task": "sequence",
+  "design": "同一批艺术摄影通过作者完整分层裁切、位移和进退节奏切换；保留原生观察器输入与变体导航。"
+}

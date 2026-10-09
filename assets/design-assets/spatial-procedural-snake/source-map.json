@@ -1,0 +1,58 @@
+[
+  {
+    "path": "source/src/js/main.ts",
+    "role": "author_entry_camera_and_renderer"
+  },
+  {
+    "path": "source/src/js/components/Snake.ts",
+    "role": "author_instanced_scale_geometry_target_ball_materials_and_uniforms"
+  },
+  {
+    "path": "source/src/js/curves/CurveGenerator.ts",
+    "role": "author_steering_seek_orbit_noise_coil_and_turn_limiter"
+  },
+  {
+    "path": "source/src/js/curves/EndlessCurve.ts",
+    "role": "author_sliding_bezier_path_parallel_transport_frames"
+  },
+  {
+    "path": "source/src/shaders/ball/ballFrag.glsl",
+    "role": "all_four_author_GLSL_shaders_unchanged"
+  },
+  {
+    "path": "source/src/shaders/ball/ballVert.glsl",
+    "role": "all_four_author_GLSL_shaders_unchanged"
+  },
+  {
+    "path": "source/src/shaders/snake/snakeFrag.glsl",
+    "role": "all_four_author_GLSL_shaders_unchanged"
+  },
+  {
+    "path": "source/src/shaders/snake/snakeVert.glsl",
+    "role": "all_four_author_GLSL_shaders_unchanged"
+  },
+  {
+    "path": "source/src/js/utils/input.ts",
+    "role": "unchanged_native_mouse_and_touch_input"
+  },
+  {
+    "path": "adapter/src/js/main.ts",
+    "role": "readable_lifecycle_and_reduced_motion_adaptation"
+  },
+  {
+    "path": "adapter/build-local.py",
+    "role": "deterministic_own_source_transform"
+  },
+  {
+    "path": "adapter/build.mjs",
+    "role": "own_esbuild_config_never_imports_upstream_build_configuration"
+  },
+  {
+    "path": "run/effect.js",
+    "role": "readable_classic_script_local_bundle"
+  },
+  {
+    "path": "adapter/check-static.py",
+    "role": "scoped compatibility verification or lifecycle source"
+  }
+]

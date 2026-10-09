@@ -1,0 +1,37 @@
+{
+  "id": "mv2-reflection-editorial",
+  "compatibility": "needs_runtime",
+  "readiness": "author-init-promise-plus-required-resources",
+  "reducedMotionStrategy": "static-editorial-grid-and-decorative-reflection-native-scroll-live-preference",
+  "reducedMotionSupport": "source_path_present_runtime_unverified",
+  "reducedMotionLiveChangeSupport": "source_path_present_runtime_unverified",
+  "keyboardSupport": "native-document-scroll-and-authored-variant-links-runtime-unverified",
+  "reducedMotionModule": "adapter/lifecycle-tools/reduced-motion/scroll-layouts.mjs",
+  "reducedMotionModuleSha256": "bacbe5abcd555bbe85310cf8f76334e0d654a4eaaf5b48cb7b5ea70e3fb7bb5d",
+  "variants": [
+    {
+      "entry": "source/js/demo1/index.js",
+      "output": "run/effect.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    },
+    {
+      "entry": "source/js/demo2/index.js",
+      "output": "run/effect-index2.js",
+      "authorInitialization": "explicit-promise-bound",
+      "firstRender": "not-applicable",
+      "runtimeVerification": "not_run"
+    }
+  ],
+  "sourceRepairNotes": [
+    "Both variants retain their authored reflection tracking, GSAP depth/filter/scale timelines and Lenis in normal mode.",
+    "Reduced mode shows all original primary images, headings and captions in a native-scroll responsive grid. Navigation enters document flow and the reflected duplicate becomes a static decorative strip, aria-hidden and inert only in reduced mode.",
+    "The static strip is decorative and intentionally crops duplicate reflection content; every primary image and caption remains in the main grid. Background attachment becomes local to remove the fixed-background parallax effect.",
+    "Live preference changes revert only this entry’s GSAP context and reflection transform, release its Lenis and RAF, and safely rebuild normal mode. Browser readability and real-input acceptance remain unverified."
+  ],
+  "limitations": [
+    "No browser runtime or visual acceptance was performed by this repair.",
+    "Reduced-motion source path exists; interactive layout, visual, keyboard, and interrupted-state acceptance remain runtime-pending."
+  ]
+}

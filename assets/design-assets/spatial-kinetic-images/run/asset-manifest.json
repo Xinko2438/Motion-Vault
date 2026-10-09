@@ -1,0 +1,22 @@
+{
+  "id": "spatial-kinetic-images",
+  "allowedAssetPaths": [
+    "assets/banner.jpg",
+    "assets/images/img1.webp",
+    "assets/images/img10.webp",
+    "assets/images/img11.webp",
+    "assets/images/img12.webp",
+    "assets/images/img13.webp",
+    "assets/images/img2.webp",
+    "assets/images/img3.webp",
+    "assets/images/img4.webp",
+    "assets/images/img5.webp",
+    "assets/images/img6.webp",
+    "assets/images/img7.webp",
+    "assets/images/img8.webp",
+    "assets/images/img9.webp",
+    "assets/paper.glb",
+    "assets/spiral.glb"
+  ],
+  "parentContract": "The host must also whitelist every served file against its package manifest; this child whitelist only permits original local images and embedded GLB models."
+}

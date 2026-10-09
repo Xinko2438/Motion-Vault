@@ -1,0 +1,81 @@
+{
+  "schema": "motion-vault.asset.v1",
+  "id": "cloud-context-wordmark",
+  "kind": "independent_code",
+  "source": "source",
+  "version": "301ca4778b7731a2",
+  "status": "local_source_verified",
+  "run": "run/index.html",
+  "entry": "run/effect.js",
+  "design": "DESIGN.md",
+  "implementation": "IMPLEMENTATION.md",
+  "parameters": "parameters.json",
+  "provenance": "provenance.json",
+  "preview": {
+    "captured": true,
+    "kind": "local_render",
+    "implementationVersion": "301ca4778b7731a2",
+    "poster": "poster.jpg",
+    "video": "preview.mp4",
+    "posterSha256": "36d78a81d310fe54f0a145bd40d6e0aa3d89df98e6a2c096eb4bd4b2f5dffcfe",
+    "videoSha256": "f83e261ae90abc197a32154bef48f6ff9f7ff584dba4d351379ba108a0e1de11",
+    "videoBytes": 184836,
+    "capture": {
+      "runId": "preview-batch-c-protocol-20261008",
+      "receipt": "_work/preview-repair-20261008/preview-batch-c-protocol-20261008/receipt.json",
+      "at": "2026-10-08T12:06:36.700Z",
+      "method": "Native browser recording of unchanged local source and trusted CDP inputs; H.264 VFR without frame synthesis",
+      "viewport": {
+        "width": 1100,
+        "height": 670
+      },
+      "frames": 29,
+      "visualChanges": 14,
+      "durationSeconds": 3.9926
+    }
+  },
+  "validation": {
+    "sourceInventory": "sha256_checked",
+    "browser": "real_initialization_and_capture_passed",
+    "visual": "not_accepted",
+    "pointer": "trusted_native_input_recorded",
+    "production": "not_approved"
+  },
+  "hashes": {
+    "DESIGN.md": "e3686ff28f34e8a55511727395b08a19322b263eb465a185dcbe7b4e326bd2e4",
+    "IMPLEMENTATION.md": "edc51ab23926f60d3a9d84c152c02dded55087eeec7134f536c3cbbd8cc8845d",
+    "adapter/native-lifecycle.js": "675c780ff82b9a656d9f6f16f3b10ccf5dd6a14b10e10a5807dabdd16254ddea",
+    "adapter/rebuild-native.py": "420468e2b95ba037a51a4b79b1f41780df7f20e606afce74e42b2eb9aa75c5a9",
+    "compatibility-review.json": "8856c938fa1be4ec6246e80fbfe1e6ab257fd0caae780fb934c59243d476b227",
+    "dependencies.json": "e5c38613a6fbeb8cb3358cd68833ea19e4b97e57e7da2631bac3fff20d352ac2",
+    "dependency-lock.json": "c5c625901409ceb4e4b8e070a07ed3b3ef7bdc88f6cb9206111612ae630407ea",
+    "parameters.json": "1ea73cccbc9cda3aefd445608f73d0c7c011c4e0e839fd9d3aa6d4df62e1909f",
+    "provenance.json": "23b5ad4f2633a622be208064716aac8793418e61a7f28b92be969517d40746fc",
+    "run/effect.js": "a5a56a699d3de27758cb51ff4ffd49187d8b8d24834f18a3f64c2464e7559e62",
+    "run/index.html": "1fd3657855ff43bfe3801869d6f49dd6345053ab96fe0b24c55cf9a33acc2c26",
+    "run/vault-native-input.js": "6b85dec9e74920f1bdc64df01c9757f131e53ff8eeaf8d6e9d4ed7640e2dd593",
+    "run/vault-native-lifecycle.js": "675c780ff82b9a656d9f6f16f3b10ccf5dd6a14b10e10a5807dabdd16254ddea",
+    "run/vault-session.js": "f8147d3f0426890b7e9c9831d562e5123e28614c8a8e6ac849055db828ef81e6",
+    "source/effect.js": "a5a56a699d3de27758cb51ff4ffd49187d8b8d24834f18a3f64c2464e7559e62",
+    "source/index.html": "ac9da703a98f44adabc94b291d0ef54c72bed4a5e6a3a6602dae3d37d3f68d08",
+    "source-map.json": "cbaee5c62bbd509d177af614e1586d167deb10fe5c893fa2fc123ed73627ccb8"
+  },
+  "verification": {
+    "localRuntime": true,
+    "noExternalRequests": true,
+    "errors": [],
+    "sourceBefore": {
+      "files": 5,
+      "sha256": "d3cb666455335c2905b56f89c5be531c2f5580c334113624fb044a5861f8a823",
+      "run": "1fd3657855ff43bfe3801869d6f49dd6345053ab96fe0b24c55cf9a33acc2c26",
+      "entry": "a5a56a699d3de27758cb51ff4ffd49187d8b8d24834f18a3f64c2464e7559e62"
+    },
+    "sourceAfter": {
+      "files": 5,
+      "sha256": "d3cb666455335c2905b56f89c5be531c2f5580c334113624fb044a5861f8a823",
+      "run": "1fd3657855ff43bfe3801869d6f49dd6345053ab96fe0b24c55cf9a33acc2c26",
+      "entry": "a5a56a699d3de27758cb51ff4ffd49187d8b8d24834f18a3f64c2464e7559e62"
+    },
+    "receipt": "_work/preview-repair-20261008/preview-batch-c-protocol-20261008/receipt.json"
+  }
+}

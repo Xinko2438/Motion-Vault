@@ -1,0 +1,34 @@
+{
+  "schema": "motion-vault.static-qa.v1",
+  "id": "spatial-lenticular",
+  "checkedAt": "2026-10-07",
+  "sourceGitBlobHashesAllMatch": true,
+  "sourceFileCount": 18,
+  "sourceCommit": "9d7fcc2343a8719784c995a8c742311e2327b8a1",
+  "javascriptParse": [
+    {
+      "file": "run/effect.js",
+      "passed": true,
+      "stderr": ""
+    },
+    {
+      "file": "run/vault-isolation.js",
+      "passed": true,
+      "stderr": ""
+    }
+  ],
+  "externalBuildImports": [],
+  "htmlResourcesAllLocalAndPresent": true,
+  "runtimeManifestCount": 9,
+  "dependencyLockPresent": true,
+  "dependencyInstallScriptsExecuted": false,
+  "upstreamBuildScriptsExecuted": false,
+  "missingStandaloneLicenseFiles": [],
+  "bundleSha256": "1ba0c2a292ec02234f5752feb4876921cad9cab24033c9f8a602a50f28b2e331",
+  "runtimeVerification": "NOT RUN for this lifecycle repair; build and static inspection only",
+  "visualEquivalence": "NOT VERIFIED",
+  "recording": "NOT CREATED",
+  "userApproval": "NOT INFERRED",
+  "staticPassed": true,
+  "compatibilityStatus": "SOURCE_REPAIRED_RUNTIME_PENDING"
+}

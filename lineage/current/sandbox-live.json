@@ -1,0 +1,1129 @@
+{
+  "at": "2026-10-07T06:03:59.741Z",
+  "formalHash": "330e8be852d93f6a1eaeb1f284fdb45b7d683308bfed626e172bd2212ec12526",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "reports": [
+    {
+      "id": "curated-telescope",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:28.174Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-telescope/run/index.html?vaultSession=7212627b-68c5-47d4-a598-7faf0bb6faec",
+          "sessionId": "AD1526649A7AD5D4BF7B46ACE5C9EA67",
+          "targetId": "B42380211CD72042A926F7EA4B021EA4",
+          "frameId": "B42380211CD72042A926F7EA4B021EA4",
+          "loaderId": "0B96BD9514DE93051F561E4A76FA37F3",
+          "contextId": 1,
+          "uniqueContextId": "-2973667774268243286.-3179680210416128905",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:28.220Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-telescope/run/index.html?vaultSession=7212627b-68c5-47d4-a598-7faf0bb6faec",
+          "timeOrigin": 1791352946938.6,
+          "contextId": 1,
+          "sessionId": "AD1526649A7AD5D4BF7B46ACE5C9EA67"
+        }
+      ]
+    },
+    {
+      "id": "curated-glass-torus",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:33.692Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-glass-torus/run/index.html?vaultSession=dd588052-d65d-49fe-b5c4-9ffd572c19d2",
+          "sessionId": "CF300E8ABDC9E44153A2240E5197CA3C",
+          "targetId": "C87B2786C4B76DF681599419EF8F32BC",
+          "frameId": "C87B2786C4B76DF681599419EF8F32BC",
+          "loaderId": "1600478E3876BF786928E92BE539FA0F",
+          "contextId": 2,
+          "uniqueContextId": "9052501043991101745.-9041927788351972761",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:33.694Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-glass-torus/run/index.html?vaultSession=dd588052-d65d-49fe-b5c4-9ffd572c19d2",
+          "timeOrigin": 1791352951311.5,
+          "contextId": 2,
+          "sessionId": "CF300E8ABDC9E44153A2240E5197CA3C"
+        }
+      ]
+    },
+    {
+      "id": "curated-metal-name",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:36.447Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-metal-name/run/index.html?vaultSession=ce3b3c55-477c-4d0b-b964-8b3eafc68565",
+          "sessionId": "0E010268E8C8F8F8AD66F1AC526EE723",
+          "targetId": "16B2122D4813D6B085DC86FC01BDDC16",
+          "frameId": "16B2122D4813D6B085DC86FC01BDDC16",
+          "loaderId": "2E59E84F55629DF4EFFE243FECC33E36",
+          "contextId": 3,
+          "uniqueContextId": "-5646366723001715101.1445583371737295745",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:36.451Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-metal-name/run/index.html?vaultSession=ce3b3c55-477c-4d0b-b964-8b3eafc68565",
+          "timeOrigin": 1791352955163.3,
+          "contextId": 3,
+          "sessionId": "0E010268E8C8F8F8AD66F1AC526EE723"
+        }
+      ]
+    },
+    {
+      "id": "curated-liquid-grid",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:39.591Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-liquid-grid/run/index.html?vaultSession=318aa41b-ac5d-4fdc-b823-09607b26777f",
+          "sessionId": "B18C493281465E76DE089B6934B57D56",
+          "targetId": "16A1A136787D4A355DFC0714F009C548",
+          "frameId": "16A1A136787D4A355DFC0714F009C548",
+          "loaderId": "AB43170D76542A45C8E90EE8345B62F3",
+          "contextId": 4,
+          "uniqueContextId": "1189471105665115398.3420026911828262100",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:39.593Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-liquid-grid/run/index.html?vaultSession=318aa41b-ac5d-4fdc-b823-09607b26777f",
+          "timeOrigin": 1791352958361.6,
+          "contextId": 4,
+          "sessionId": "B18C493281465E76DE089B6934B57D56"
+        }
+      ]
+    },
+    {
+      "id": "curated-depth",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:42.595Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-depth/run/index.html?vaultSession=3197170e-d2e2-4d5c-87c4-58c7124462de",
+          "sessionId": "7BB048A1966980177F5B7601E78280E2",
+          "targetId": "56A5F7014004D5B59B554163B8037EF9",
+          "frameId": "56A5F7014004D5B59B554163B8037EF9",
+          "loaderId": "049370CF66679901EED33BFF700BB88F",
+          "contextId": 5,
+          "uniqueContextId": "-8732059690977113272.6720300572709287854",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:42.599Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-depth/run/index.html?vaultSession=3197170e-d2e2-4d5c-87c4-58c7124462de",
+          "timeOrigin": 1791352961035.1,
+          "contextId": 5,
+          "sessionId": "7BB048A1966980177F5B7601E78280E2"
+        }
+      ]
+    },
+    {
+      "id": "curated-spatial-product",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ],
+        [
+          88,
+          99
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:45.609Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-spatial-product/run/index.html?vaultSession=d0b41779-19b5-4de6-a0ee-1a84df6f8ed5",
+          "sessionId": "8CEEE3F8FAF8C60EDF5505DDECBCFF2F",
+          "targetId": "AC1538E7F0A33229B75927C756E3C787",
+          "frameId": "AC1538E7F0A33229B75927C756E3C787",
+          "loaderId": "FA30DA49779021E40FAC86B2BBEADBD7",
+          "contextId": 6,
+          "uniqueContextId": "-2415050961427690638.5389909822827545282",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:45.643Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-spatial-product/run/index.html?vaultSession=d0b41779-19b5-4de6-a0ee-1a84df6f8ed5",
+          "timeOrigin": 1791352963989,
+          "contextId": 6,
+          "sessionId": "8CEEE3F8FAF8C60EDF5505DDECBCFF2F"
+        }
+      ]
+    },
+    {
+      "id": "curated-fluid-xray",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:50.219Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-fluid-xray/run/index.html?vaultSession=aca6d2d0-1161-4e5f-8ffe-b90e00709e43",
+          "sessionId": "7F66EFF8B8F1BF1A7EA5A094BEADACF0",
+          "targetId": "AB65088CBC8F425D8561C5A952008297",
+          "frameId": "AB65088CBC8F425D8561C5A952008297",
+          "loaderId": "35DEE0D4B8DFB16C5BA7D73FC4A61A8A",
+          "contextId": 7,
+          "uniqueContextId": "4651193814891283440.-1701041075501450960",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:50.224Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-fluid-xray/run/index.html?vaultSession=aca6d2d0-1161-4e5f-8ffe-b90e00709e43",
+          "timeOrigin": 1791352967442.6,
+          "contextId": 7,
+          "sessionId": "7F66EFF8B8F1BF1A7EA5A094BEADACF0"
+        }
+      ]
+    },
+    {
+      "id": "curated-camera-route",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:52.882Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-camera-route/run/index.html?vaultSession=1aa1de6f-bbbd-4741-af62-1361d7447303",
+          "sessionId": "6DB7DD6B134E385676F324F4B8AC9477",
+          "targetId": "E75B7105874FFF93E39068F0089A4A8E",
+          "frameId": "E75B7105874FFF93E39068F0089A4A8E",
+          "loaderId": "E7BF0AF4E4AAE08DB94044107B1886D8",
+          "contextId": 8,
+          "uniqueContextId": "-3084008428734969853.7242085502842868064",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:52.883Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-camera-route/run/index.html?vaultSession=1aa1de6f-bbbd-4741-af62-1361d7447303",
+          "timeOrigin": 1791352971664.1,
+          "contextId": 8,
+          "sessionId": "6DB7DD6B134E385676F324F4B8AC9477"
+        }
+      ]
+    },
+    {
+      "id": "curated-cloth-object",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:55.818Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cloth-object/run/index.html?vaultSession=f2c8aeb9-81ee-4ca2-a982-0f03bde54d86",
+          "sessionId": "52B5A911F818A52B94B71E7DB63F7134",
+          "targetId": "98AF81525351D69DC1939426A174ECA1",
+          "frameId": "98AF81525351D69DC1939426A174ECA1",
+          "loaderId": "10A97692951427C35F0FB687BC62D696",
+          "contextId": 9,
+          "uniqueContextId": "-2252677802948209321.3924515721590188496",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:55.819Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cloth-object/run/index.html?vaultSession=f2c8aeb9-81ee-4ca2-a982-0f03bde54d86",
+          "timeOrigin": 1791352974297.1,
+          "contextId": 9,
+          "sessionId": "52B5A911F818A52B94B71E7DB63F7134"
+        }
+      ]
+    },
+    {
+      "id": "curated-emissive-dissolve",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:02:58.511Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-emissive-dissolve/run/index.html?vaultSession=ee9bf34d-ab59-4774-a1bd-32756e4d13ef",
+          "sessionId": "9DCD538B531E88B72CE4171AF6537C66",
+          "targetId": "A2DDBC50F9F0284829069AF483FEB977",
+          "frameId": "A2DDBC50F9F0284829069AF483FEB977",
+          "loaderId": "2A85A180C6F788B688127C19A861B7F4",
+          "contextId": 10,
+          "uniqueContextId": "-5818581217725010208.-7635391054735078610",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:02:58.515Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-emissive-dissolve/run/index.html?vaultSession=ee9bf34d-ab59-4774-a1bd-32756e4d13ef",
+          "timeOrigin": 1791352977274.1,
+          "contextId": 10,
+          "sessionId": "9DCD538B531E88B72CE4171AF6537C66"
+        }
+      ]
+    },
+    {
+      "id": "curated-dual-wave",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:01.367Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-dual-wave/run/index.html?vaultSession=526b4cca-de05-43b3-8a99-d575111813f1",
+          "sessionId": "D57392C75E592B750587CA655D228F08",
+          "targetId": "7A447B4A86CF9223501765F081A88BFB",
+          "frameId": "7A447B4A86CF9223501765F081A88BFB",
+          "loaderId": "3F0418CEB9D2C8623F42A2DBEBFEE427",
+          "contextId": 11,
+          "uniqueContextId": "7010562324000938545.6996879663059503871",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:01.368Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-dual-wave/run/index.html?vaultSession=526b4cca-de05-43b3-8a99-d575111813f1",
+          "timeOrigin": 1791352980148.2,
+          "contextId": 11,
+          "sessionId": "D57392C75E592B750587CA655D228F08"
+        }
+      ]
+    },
+    {
+      "id": "curated-image-in-type",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:04.245Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/run/index.html?vaultSession=1da8c802-4aef-4a68-97f3-7e1eb0fb5505",
+          "sessionId": "F647BEB33DCFFBAF4382E6A0F577165F",
+          "targetId": "B0562ACB9E7F5441D4D32328E5FCF192",
+          "frameId": "B0562ACB9E7F5441D4D32328E5FCF192",
+          "loaderId": "1439BAF0A77EEC6CF0D1BA1A09F4729E",
+          "contextId": 12,
+          "uniqueContextId": "5387737204369761688.9201764901587624651",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:04.247Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-image-in-type/run/index.html?vaultSession=1da8c802-4aef-4a68-97f3-7e1eb0fb5505",
+          "timeOrigin": 1791352983016.1,
+          "contextId": 12,
+          "sessionId": "F647BEB33DCFFBAF4382E6A0F577165F"
+        }
+      ]
+    },
+    {
+      "id": "curated-cylinder-type",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:06.858Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/run/index.html?vaultSession=23f46565-85a9-4bb6-92a1-6e83809a0423",
+          "sessionId": "9F9E80BD4D9831675E9A4FE8439640B4",
+          "targetId": "F3E0EB150198FC012FCC073A90A6C287",
+          "frameId": "F3E0EB150198FC012FCC073A90A6C287",
+          "loaderId": "2BD42582BF2DC20CC9A1F0CCDBC3D448",
+          "contextId": 13,
+          "uniqueContextId": "-305318476205365355.-2415034648333420738",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:06.860Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cylinder-type/run/index.html?vaultSession=23f46565-85a9-4bb6-92a1-6e83809a0423",
+          "timeOrigin": 1791352985643.2,
+          "contextId": 13,
+          "sessionId": "9F9E80BD4D9831675E9A4FE8439640B4"
+        }
+      ]
+    },
+    {
+      "id": "curated-stylized-water",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:09.805Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-stylized-water/run/index.html?vaultSession=cb753dd4-ff23-4d57-9e6b-d43bfb05fee1",
+          "sessionId": "E52FD14092F97E52C542E9AAE09198EF",
+          "targetId": "96EED70D11CFCC4BC8E23EB8AAF3757C",
+          "frameId": "96EED70D11CFCC4BC8E23EB8AAF3757C",
+          "loaderId": "E4A6E8B69C9AE79D0FC1ACF162F86984",
+          "contextId": 14,
+          "uniqueContextId": "4646146193416911083.-8253262841895010539",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:09.806Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-stylized-water/run/index.html?vaultSession=cb753dd4-ff23-4d57-9e6b-d43bfb05fee1",
+          "timeOrigin": 1791352988272,
+          "contextId": 14,
+          "sessionId": "E52FD14092F97E52C542E9AAE09198EF"
+        }
+      ]
+    },
+    {
+      "id": "curated-shape-ascii",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          562,
+          562
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:12.421Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/run/index.html?vaultSession=0abbbc67-2ff9-4517-8736-53b2bc0c6f5e",
+          "sessionId": "C10A54BBD4C9DAF46C9E7F6C33DAE9EC",
+          "targetId": "F883241197FE88730ED845A738ED2392",
+          "frameId": "F883241197FE88730ED845A738ED2392",
+          "loaderId": "F9201E27758C4BE5536A29EA1E6515D8",
+          "contextId": 15,
+          "uniqueContextId": "-3649019457765692610.-1249505232161788250",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:12.423Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-shape-ascii/run/index.html?vaultSession=0abbbc67-2ff9-4517-8736-53b2bc0c6f5e",
+          "timeOrigin": 1791352991208.1,
+          "contextId": 15,
+          "sessionId": "C10A54BBD4C9DAF46C9E7F6C33DAE9EC"
+        }
+      ]
+    },
+    {
+      "id": "curated-reaction-diffusion",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:15.022Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-reaction-diffusion/run/index.html?vaultSession=70c6cd00-7bd5-4c84-90a8-31cd81c3fb0c",
+          "sessionId": "2FD84AF602E33235229820B9796492F5",
+          "targetId": "A8FBA6F6F25F02028737B6902B91D5FD",
+          "frameId": "A8FBA6F6F25F02028737B6902B91D5FD",
+          "loaderId": "5950F44E4A5D5E017ACD48BAEFAAB107",
+          "contextId": 16,
+          "uniqueContextId": "4537608924561555672.4396662681744116050",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:15.022Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-reaction-diffusion/run/index.html?vaultSession=70c6cd00-7bd5-4c84-90a8-31cd81c3fb0c",
+          "timeOrigin": 1791352993798.2,
+          "contextId": 16,
+          "sessionId": "2FD84AF602E33235229820B9796492F5"
+        }
+      ]
+    },
+    {
+      "id": "curated-vortex-glass",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:18.241Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-vortex-glass/run/index.html?vaultSession=784a38ee-98c9-41c5-81a2-b7ab970b2ab1",
+          "sessionId": "042CFFC5B86B62EECF2125541169489A",
+          "targetId": "9B8758A481ABAB4B30A27CE767E138AE",
+          "frameId": "9B8758A481ABAB4B30A27CE767E138AE",
+          "loaderId": "C453FDDA0DB29B2BE8A7852F6C8A1698",
+          "contextId": 17,
+          "uniqueContextId": "-3283570698886337922.2419389845033657393",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:18.242Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-vortex-glass/run/index.html?vaultSession=784a38ee-98c9-41c5-81a2-b7ab970b2ab1",
+          "timeOrigin": 1791352996758.9,
+          "contextId": 17,
+          "sessionId": "042CFFC5B86B62EECF2125541169489A"
+        }
+      ]
+    },
+    {
+      "id": "curated-webgl-reveal",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:21.616Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgl-reveal/run/index.html?vaultSession=63f1dee6-3cbe-498d-b418-f45935105599",
+          "sessionId": "EA140152D834D59D02A534DB6F3B8AAB",
+          "targetId": "147DD3C1A9FDF4017FFA0265DDACAB11",
+          "frameId": "147DD3C1A9FDF4017FFA0265DDACAB11",
+          "loaderId": "410B7039571A632E0FE3EBF0F4AD1DC6",
+          "contextId": 18,
+          "uniqueContextId": "4667091138052671809.-9210936014054088683",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:21.618Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgl-reveal/run/index.html?vaultSession=63f1dee6-3cbe-498d-b418-f45935105599",
+          "timeOrigin": 1791353000057.6,
+          "contextId": 18,
+          "sessionId": "EA140152D834D59D02A534DB6F3B8AAB"
+        }
+      ]
+    },
+    {
+      "id": "curated-persistent-gallery",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:24.259Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html?vaultSession=b65be67d-295c-4476-acba-6e2abb445a7d",
+          "sessionId": "98E082CAF56BE35B09D3EF8CEC41DF07",
+          "targetId": "32CE7A2A56AC23D496A1A5C1283CB7FE",
+          "frameId": "32CE7A2A56AC23D496A1A5C1283CB7FE",
+          "loaderId": "B789CB759886C1AF2E24B03CEEAEB443",
+          "contextId": 19,
+          "uniqueContextId": "998955788194126770.-6081253937020037154",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:24.260Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-persistent-gallery/run/index.html?vaultSession=b65be67d-295c-4476-acba-6e2abb445a7d",
+          "timeOrigin": 1791353003034.3,
+          "contextId": 19,
+          "sessionId": "98E082CAF56BE35B09D3EF8CEC41DF07"
+        }
+      ]
+    },
+    {
+      "id": "curated-webgpu-route",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:26.984Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html?vaultSession=17c14b10-be6c-46db-8189-1433eee02934",
+          "sessionId": "4234F554EA2F2472EF35FF71C764FCAD",
+          "targetId": "C281011C53A7615674E1C907226BEB0A",
+          "frameId": "C281011C53A7615674E1C907226BEB0A",
+          "loaderId": "076E674B30EC200359D1A7FAE0DF23A0",
+          "contextId": 20,
+          "uniqueContextId": "4361245496901795926.2469470285002515596",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:26.985Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-webgpu-route/run/index.html?vaultSession=17c14b10-be6c-46db-8189-1433eee02934",
+          "timeOrigin": 1791353005756.9,
+          "contextId": 20,
+          "sessionId": "4234F554EA2F2472EF35FF71C764FCAD"
+        }
+      ]
+    },
+    {
+      "id": "curated-grid-full",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:29.703Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-full/run/index.html?vaultSession=c2a66311-42fd-488c-a46c-3af48bf530e1",
+          "sessionId": "223403BEAD4DD666CD51580440818343",
+          "targetId": "FE27BA882C908A8B2F4235255BB9505A",
+          "frameId": "FE27BA882C908A8B2F4235255BB9505A",
+          "loaderId": "64A7A815801A131CCAC8AF8DC95329E2",
+          "contextId": 21,
+          "uniqueContextId": "-4418751402521625755.2263208233164153480",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:29.703Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-full/run/index.html?vaultSession=c2a66311-42fd-488c-a46c-3af48bf530e1",
+          "timeOrigin": 1791353008477.6,
+          "contextId": 21,
+          "sessionId": "223403BEAD4DD666CD51580440818343"
+        }
+      ]
+    },
+    {
+      "id": "curated-editorial-layout",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:32.351Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-editorial-layout/run/index.html?vaultSession=b4f293d0-1669-4649-b5a4-491c78d6a86c",
+          "sessionId": "6EBCBBADCD92296F27F44C9B02035593",
+          "targetId": "71B514AA7A788BCD9BD15AA380354BE3",
+          "frameId": "71B514AA7A788BCD9BD15AA380354BE3",
+          "loaderId": "308096C7FF7185F45BCEA389639CE7EA",
+          "contextId": 22,
+          "uniqueContextId": "-4943800335978569330.-3582860544425545483",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:32.388Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-editorial-layout/run/index.html?vaultSession=b4f293d0-1669-4649-b5a4-491c78d6a86c",
+          "timeOrigin": 1791353011094.7,
+          "contextId": 22,
+          "sessionId": "6EBCBBADCD92296F27F44C9B02035593"
+        }
+      ]
+    },
+    {
+      "id": "curated-thumbnail-flow",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:36.159Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-thumbnail-flow/run/index.html?vaultSession=9c0f57ad-3361-4a7d-a9b3-44d26a0d062c",
+          "sessionId": "1C10B23E86B346C9BDF882F7D4141A97",
+          "targetId": "6D47FB57B80EB61FF118B047A3032A29",
+          "frameId": "6D47FB57B80EB61FF118B047A3032A29",
+          "loaderId": "41CA8530672E23BF73116AA599AECC83",
+          "contextId": 23,
+          "uniqueContextId": "3348447098716343775.-2515099164541652706",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:36.160Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-thumbnail-flow/run/index.html?vaultSession=9c0f57ad-3361-4a7d-a9b3-44d26a0d062c",
+          "timeOrigin": 1791353014934.8,
+          "contextId": 23,
+          "sessionId": "1C10B23E86B346C9BDF882F7D4141A97"
+        }
+      ]
+    },
+    {
+      "id": "curated-elastic-editorial",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:39.331Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-elastic-editorial/run/index.html?vaultSession=f833fc9c-96fa-4b86-aa3c-66e2013e6350",
+          "sessionId": "F176DA0823467106C4043D4D98F4FD32",
+          "targetId": "B6837F0A26D3E58CBF90A8CC0CBFC79B",
+          "frameId": "B6837F0A26D3E58CBF90A8CC0CBFC79B",
+          "loaderId": "6A5891810C25F0FBAAB75A9A5AE2FC7E",
+          "contextId": 24,
+          "uniqueContextId": "-1944185053800941787.-5795467205999394719",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:39.332Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-elastic-editorial/run/index.html?vaultSession=f833fc9c-96fa-4b86-aa3c-66e2013e6350",
+          "timeOrigin": 1791353017668.4,
+          "contextId": 24,
+          "sessionId": "F176DA0823467106C4043D4D98F4FD32"
+        }
+      ]
+    },
+    {
+      "id": "curated-cluster",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [
+        [
+          1100,
+          670
+        ]
+      ],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:42.272Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cluster/run/index.html?vaultSession=e188d302-4713-4292-9daa-e77ed9f0fbc4",
+          "sessionId": "AA8154045D573BC6B1F5A45980931023",
+          "targetId": "C0A4F5A0FDE7E25970AAD53A72CDB3C2",
+          "frameId": "C0A4F5A0FDE7E25970AAD53A72CDB3C2",
+          "loaderId": "E0A1E26FB32D3DF7C37129244F012BC0",
+          "contextId": 25,
+          "uniqueContextId": "2556833534837925671.-9067797740104680584",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:42.274Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-cluster/run/index.html?vaultSession=e188d302-4713-4292-9daa-e77ed9f0fbc4",
+          "timeOrigin": 1791353020730.4,
+          "contextId": 25,
+          "sessionId": "AA8154045D573BC6B1F5A45980931023"
+        }
+      ]
+    },
+    {
+      "id": "curated-layer-cut",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:45.036Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-layer-cut/run/index.html?vaultSession=44e70060-2264-47a8-a6cd-6732e25ef0cc",
+          "sessionId": "8AF98B311040956EE473695835BBAB70",
+          "targetId": "297228D7205FA4BC22557D2419766DF6",
+          "frameId": "297228D7205FA4BC22557D2419766DF6",
+          "loaderId": "DAC760AC636E1CCD92152ABC255EB3DD",
+          "contextId": 26,
+          "uniqueContextId": "5969962279510517398.-6963131031837980147",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:45.037Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-layer-cut/run/index.html?vaultSession=44e70060-2264-47a8-a6cd-6732e25ef0cc",
+          "timeOrigin": 1791353023687.8,
+          "contextId": 26,
+          "sessionId": "8AF98B311040956EE473695835BBAB70"
+        }
+      ]
+    },
+    {
+      "id": "curated-rounded-menu",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:47.680Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-rounded-menu/run/index.html?vaultSession=634dd0b6-818f-4d79-b033-3b73139a30c9",
+          "sessionId": "57C62DC31804F05769EF4DE309C91177",
+          "targetId": "D160F59989EE6EBAFD1FCD5175477221",
+          "frameId": "D160F59989EE6EBAFD1FCD5175477221",
+          "loaderId": "34AB8DB4546C151F901A1BE9D898B141",
+          "contextId": 27,
+          "uniqueContextId": "-4585985737715792518.-6883189821077636697",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:47.683Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-rounded-menu/run/index.html?vaultSession=634dd0b6-818f-4d79-b033-3b73139a30c9",
+          "timeOrigin": 1791353026451.8,
+          "contextId": 27,
+          "sessionId": "57C62DC31804F05769EF4DE309C91177"
+        }
+      ]
+    },
+    {
+      "id": "curated-inline-menu",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:50.740Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-inline-menu/run/index.html?vaultSession=2c6e43a4-c4fd-4f30-b945-783d1a980c8d",
+          "sessionId": "F8CB96C78D36E1708A2E48189328B4A1",
+          "targetId": "909E1226ABF859FC6A56D952A7C8B3C4",
+          "frameId": "909E1226ABF859FC6A56D952A7C8B3C4",
+          "loaderId": "3E6F700D37BD01E56C4A2158188280AC",
+          "contextId": 28,
+          "uniqueContextId": "-1266174955186165129.5279557933289385151",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:50.745Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-inline-menu/run/index.html?vaultSession=2c6e43a4-c4fd-4f30-b945-783d1a980c8d",
+          "timeOrigin": 1791353029090.7,
+          "contextId": 28,
+          "sessionId": "F8CB96C78D36E1708A2E48189328B4A1"
+        }
+      ]
+    },
+    {
+      "id": "curated-tooltip-gallery",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:53.490Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-tooltip-gallery/run/index.html?vaultSession=a850b382-64b0-4d8a-ae22-bb057c304588",
+          "sessionId": "F1CD88945F746B723CF67502420CC466",
+          "targetId": "DF0242927B60C37AC5086E991D8E9266",
+          "frameId": "DF0242927B60C37AC5086E991D8E9266",
+          "loaderId": "1837FF7DE9D64A87E8B7E3ED83210847",
+          "contextId": 29,
+          "uniqueContextId": "3166006775871508840.6505237663360383417",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:53.493Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-tooltip-gallery/run/index.html?vaultSession=a850b382-64b0-4d8a-ae22-bb057c304588",
+          "timeOrigin": 1791353032154.3,
+          "contextId": 29,
+          "sessionId": "F1CD88945F746B723CF67502420CC466"
+        }
+      ]
+    },
+    {
+      "id": "curated-grid-flow-nav",
+      "passed": true,
+      "live": true,
+      "parentBlocked": true,
+      "storageBlocked": true,
+      "errors": [],
+      "canvas": [],
+      "images": true,
+      "gpu": true,
+      "bindingHistory": [
+        {
+          "event": "bound",
+          "at": "2026-10-07T06:03:56.100Z",
+          "url": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-flow-nav/run/index.html?vaultSession=eaa46319-be96-4808-8268-18f9c911e74f",
+          "sessionId": "15E0FF38E4CB750E550A8C07FFDD3F82",
+          "targetId": "9DB7C896322F689425412D33E5138158",
+          "frameId": "9DB7C896322F689425412D33E5138158",
+          "loaderId": "020BE69380070CF68144A0B33927EE4F",
+          "contextId": 30,
+          "uniqueContextId": "-6465280177664236216.2335408166576952342",
+          "timeOrigin": null
+        },
+        {
+          "event": "identity",
+          "at": "2026-10-07T06:03:56.101Z",
+          "href": "http://127.0.0.1:4380/app/assets/motion-vault-assets/curated-grid-flow-nav/run/index.html?vaultSession=eaa46319-be96-4808-8268-18f9c911e74f",
+          "timeOrigin": 1791353034884.6,
+          "contextId": 30,
+          "sessionId": "15E0FF38E4CB750E550A8C07FFDD3F82"
+        }
+      ]
+    }
+  ],
+  "passed": 30,
+  "total": 30
+}

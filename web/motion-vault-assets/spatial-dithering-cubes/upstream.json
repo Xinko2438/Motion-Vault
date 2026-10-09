@@ -1,0 +1,97 @@
+{
+  "id": "spatial-dithering-cubes",
+  "repo": "damarberlari/visualizing-dithering-codrops",
+  "commit": "ff5e1936f6174e71455be494ba00a5c282ddf6c5",
+  "files": [
+    {
+      "path": ".gitignore",
+      "gitBlobSha": "016b59ea143dc944b0fc635052b7bdbcfce23d14",
+      "bytes": 264,
+      "sha256": "d2a2dcd9450a0fbd898e5151b48cad83022d3af806f97562b1b8cdda543db202"
+    },
+    {
+      "path": "README.md",
+      "gitBlobSha": "766ca88468919b36958caf5d5f7f7e4600d360e1",
+      "bytes": 961,
+      "sha256": "f7adf10eaea4fb02beb7b8e0a08328a3a354d617a20b10921c7939f8f8c74edc"
+    },
+    {
+      "path": "index.html",
+      "gitBlobSha": "0a7fc1a86448cf5f61616a02fe61d9e363ed993f",
+      "bytes": 1344,
+      "sha256": "ed920e914f254857e6ec45a26ef3664fedbf546cd07984a4310b633532fcc5f8"
+    },
+    {
+      "path": "package-lock.json",
+      "gitBlobSha": "c038c29742808beaa8a816487fc4ad9fa85b5e88",
+      "bytes": 30222,
+      "sha256": "ae08ca37deb1086931b51d4e2fda5d105f5f7e8c907b4760824a244287a74007"
+    },
+    {
+      "path": "package.json",
+      "gitBlobSha": "cf788073dc0e428978a9fd0e5108e74b35e3219e",
+      "bytes": 486,
+      "sha256": "8b1955286c869455b8706368eef51aa2b681f176717a1a9dcd95fdaa520d55ad"
+    },
+    {
+      "path": "src/Grid/Grid.js",
+      "gitBlobSha": "10d0d6b8cbd7cc4be5ac00e8056e0e774f988107",
+      "bytes": 8406,
+      "sha256": "4601fab7e026ddad51319b6e1be13d0f76b92d9ea1800bec1e2f2adb85e0e68d"
+    },
+    {
+      "path": "src/Grid/shaders/fragmentShader.glsl",
+      "gitBlobSha": "c9451cc631bc94e4f95233d2ab5b2c9eb52a9403",
+      "bytes": 206,
+      "sha256": "cc99579b845908f7e509815aa89ca941e1b41ff8b946da12467826a1d4e094ee"
+    },
+    {
+      "path": "src/Grid/shaders/vertexShader.glsl",
+      "gitBlobSha": "05bf1e07912e5c4f0fefc88fdddb92855fefa7e3",
+      "bytes": 5037,
+      "sha256": "95a32660188221791d50191cf566f66edb4b20d662edf253ae604f49c79b136a"
+    },
+    {
+      "path": "src/css/base.css",
+      "gitBlobSha": "5f0a66022914b910ae08af04056d9958ee29f0b8",
+      "bytes": 3633,
+      "sha256": "ab04ab7407f84db06de36ecd0d9930cff56a3b5b4dfe31818b5b6f04281ae74f"
+    },
+    {
+      "path": "src/css/style.css",
+      "gitBlobSha": "59a0c26c2e21dc0ca0c2fd9cbae1113d5efdd07c",
+      "bytes": 171,
+      "sha256": "1417988b4e593a27a0c8b81ef5d653fbb3ff71308c50f8118b547451f54022b8"
+    },
+    {
+      "path": "src/image/dithering_object.jpg",
+      "gitBlobSha": "870db6654741af40c070d5a1cee1f9a01522e28a",
+      "bytes": 79685,
+      "sha256": "ab15f181faed004827b2cd7aa923c3e646d03208b1972c2e20911070f7b8123d"
+    },
+    {
+      "path": "src/index.js",
+      "gitBlobSha": "b8b7a9ce334e9294874a010104206c3f522a62e4",
+      "bytes": 6501,
+      "sha256": "6785d4e689adb0fb95fa1a86c55adb39d25adeb21a2e44f7fef0d33e6cbba05b"
+    },
+    {
+      "path": "vite.config.js",
+      "gitBlobSha": "1936bf2ac0558a386fed5be3617051d83c639a41",
+      "bytes": 237,
+      "sha256": "f5856642dc0464a0a758e3171cf511c4d9ac85fb97c6d252494e28274229978a"
+    }
+  ],
+  "repository": "https://github.com/damarberlari/visualizing-dithering-codrops",
+  "source_kind": "adapted_author_source",
+  "licenseEvidence": {
+    "publisher": "https://tympanus.net/codrops/licensing/",
+    "articleCodeLink": "https://tympanus.net/codrops/2026/04/01/animating-160000-cubes-in-three-js-to-visualize-dithering/",
+    "publisherGrant": "MIT for downloadable demos unless specifically otherwise noted",
+    "repoLicenseFile": null,
+    "packageJsonLicenseField": "ISC",
+    "note": "Both evidence sources retained; no original LICENSE file invented."
+  },
+  "status": "static_valid_runtime_unverified",
+  "upstreamScriptsExecuted": false
+}

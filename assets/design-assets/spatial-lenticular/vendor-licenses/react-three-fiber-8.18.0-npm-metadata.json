@@ -1,0 +1,23 @@
+{
+  "name": "@react-three/fiber",
+  "version": "8.18.0",
+  "license": "MIT",
+  "gitHead": "f81bfe8cb29373d2687433c6130e0ce1daf7222c",
+  "repository": {
+    "url": "git+https://github.com/pmndrs/react-three-fiber.git",
+    "type": "git"
+  },
+  "dist": {
+    "shasum": "73bfa12c82dabf889b572f9dfeefb10485532dd1",
+    "tarball": "https://registry.npmjs.org/@react-three/fiber/-/fiber-8.18.0.tgz",
+    "fileCount": 32,
+    "integrity": "sha512-FYZZqD0UUHUswKz3LQl2Z7H24AhD14XGTsIRw3SJaXUxyfVMi+1yiZGmqTcPt/CkPpdU7rrxqcyQ1zJE5DjvIQ==",
+    "signatures": [
+      {
+        "sig": "MEYCIQDlJGHYvsEmylrMVs6gsQTD3IqkhhS6tKRRd4mB2aQM3AIhAICq5ac36huBDEMW/i07ho8HSzWZ1Q/8jZdCcaMKgvPy",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 423267
+  }
+}

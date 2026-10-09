@@ -1,0 +1,74 @@
+[
+  {
+    "path": "source/src/main.jsx",
+    "role": "authoritative_pinned_entry"
+  },
+  {
+    "path": "source/src/components/LenticularMaterial.jsx",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/components/Experience.jsx",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "source/src/App.jsx",
+    "role": "authoritative_module"
+  },
+  {
+    "path": "adapter/author/index.html",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/App.jsx",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/components/Experience.jsx",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/components/LenticularMaterial.jsx",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/index.css",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/src/main.jsx",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/author/vite.config.js",
+    "role": "readable_source_adaptation"
+  },
+  {
+    "path": "adapter/changes.patch",
+    "role": "exact_code_delta"
+  },
+  {
+    "path": "adapter/build-local.mjs",
+    "role": "own_esbuild_config"
+  },
+  {
+    "path": "run/vault-isolation.js",
+    "role": "opaque_local_asset_transport"
+  },
+  {
+    "path": "adapter/entry.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/lifecycle.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/renderer.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  },
+  {
+    "path": "adapter/source-isolation-bridge.original.js",
+    "role": "adapter_owned_lifecycle_or_resource_loader"
+  }
+]
