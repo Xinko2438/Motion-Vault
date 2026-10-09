@@ -38,7 +38,9 @@ test('Every additive asset has valid local source/doc/runtime hashes and no fake
   assert.equal(a.id,spec.id);assert.equal(a.kind,spec.source_kind);
   if(a.preview.captured){
    assert.equal(a.status,'local_source_verified');
-   const receipt=await read(a.preview.capture.receipt);
+   const saved=(await read('lineage/current/version-unification.json')).archivedCaptureReceipts[a.preview.capture.receipt];
+   if(saved)assert.equal(createHash('sha256').update(saved.utf8).digest('hex'),saved.sha256);
+   const receipt=saved?JSON.parse(saved.utf8):await read(a.preview.capture.receipt);
    const item=receipt.items.find(x=>x.id===spec.id);
    assert.equal(item?.passed,true,spec.id+' has no successful real capture');
    assert.equal(item.media.sourceVersion,a.version);
