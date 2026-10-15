@@ -1,4 +1,5 @@
 # Preserve exact reviewed bytes; leave protected legacy files unchanged.
+.gitattributes -text
 index.html -text
 catalog.json -text
 motion-vault-assets/local-12/** -text

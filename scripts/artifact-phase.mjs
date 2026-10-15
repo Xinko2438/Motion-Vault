@@ -55,7 +55,7 @@ export async function readReviewedPlan(project){
  plan.finalInventory['index.html']=sha(repaired);plan.writes['index.html'].after=sha(repaired);
  // Byte-bound imports must survive a Windows checkout with core.autocrlf=true.
  // Scope attributes to the reviewed files; legacy unselected text is unchanged.
- const attributes=Buffer.from(['# Preserve exact reviewed bytes; leave protected legacy files unchanged.','index.html -text','catalog.json -text',...plan.allowedIds.map(id=>'motion-vault-assets/'+id+'/** -text'),'motion-vault-assets/shared/runtime.eb7967a461d0.mjs -text','motion-vault-assets/shared/runtime.88444c38f1d6.css -text','motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/** -text',''].join('\n'));
+ const attributes=Buffer.from(['# Preserve exact reviewed bytes; leave protected legacy files unchanged.','.gitattributes -text','index.html -text','catalog.json -text',...plan.allowedIds.map(id=>'motion-vault-assets/'+id+'/** -text'),'motion-vault-assets/shared/runtime.eb7967a461d0.mjs -text','motion-vault-assets/shared/runtime.88444c38f1d6.css -text','motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/** -text',''].join('\n'));
  plan.finalInventory['.gitattributes']=sha(attributes);plan.writes['.gitattributes']={before:null,after:sha(attributes)};
  Object.defineProperty(plan,'attributeBytes',{value:attributes,enumerable:false});
  need(repaired.replaceAll('\r\n','\n').includes((await readFile(path.join(project,'src/hybrid/gallery.js'),'utf8')).replaceAll('\r\n','\n')),'gallery source diverged from reviewed integration repair');
