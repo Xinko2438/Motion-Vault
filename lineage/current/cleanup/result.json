@@ -1,0 +1,86 @@
+{
+  "schema": "motion.cleanup.result.v1",
+  "finishedAt": "2026-10-15T17:03:28.6138964Z",
+  "planSha256": "1b896001c916d7bf173ee6071d876a7bfef69674a02dcbbb4dfed9e8293ae64f",
+  "privateRecoveryRef": "archive/pre-cleanup-20261016",
+  "recoveryCommit": "790f6b85ee5a65a91e00f954e12620a40cbe502b",
+  "plannedFiles": 107165,
+  "plannedBytes": 5917173931,
+  "removedThisResume": 92366,
+  "alreadyAbsentAfterInterruptedDeletion": 14799,
+  "removedFiles": 107165,
+  "removedBytes": 5917173931,
+  "removedDirectories": 15481,
+  "failures": [],
+  "complete": true,
+  "sourceAndPrivateCurationChanged": false,
+  "verification": {
+    "at": "2026-10-15T17:16:59.541Z",
+    "webFiles": 5286,
+    "webWholeTreeMatched": true,
+    "pageSha256": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+    "static": {
+      "passed": 70,
+      "failed": 0,
+      "skipped": 1
+    },
+    "build": {
+      "staged": "D:\\windows_ext\\Desktop\\AI_Native\\projects\\design-reference-library\\.runtime\\hybrid-assets\\staged",
+      "selectedAssets": 33,
+      "checkedFiles": 5286,
+      "planSha256": "1b1ed35957815ced13649cdb1db30b5db31da50ae6e84ad9bcff425169b75680",
+      "productionChanged": false
+    },
+    "interaction": {
+      "passed": 31,
+      "total": 31
+    },
+    "sync": {
+      "copyChecks": 15858,
+      "httpChecks": 13,
+      "verified": true
+    },
+    "privateBrowser": {
+      "counts": {
+        "formal": 58,
+        "pending": 0,
+        "hidden": 56
+      },
+      "allMotionVaultKeysByteIdentical": true,
+      "agentStorageWrites": false
+    },
+    "gitCheckout": {
+      "passed": 8,
+      "total": 8
+    }
+  },
+  "notes": [
+    "The first parallel browser run hit a CDP navigation timeout; a sequential run after I/O completed passed31/31.",
+    "Current source, upstream assets and required Hub deployment copies retained.",
+    "Private local Git recovery ref must never be pushed."
+  ],
+  "recovery": {
+    "manifest": "MANIFEST.json",
+    "bodyPath": "blobs/<sha256>",
+    "ref": "archive/pre-cleanup-20261016",
+    "commit": "790f6b85ee5a65a91e00f954e12620a40cbe502b",
+    "verifiedDistinctBodies": 25096,
+    "workingBackupDirectories": 0,
+    "compressedPackBytes": 1669382317
+  },
+  "groups": {
+    "project-runtime": {
+      "files": 77593,
+      "bytes": 2629663907
+    },
+    "historical-evidence": {
+      "files": 524,
+      "bytes": 80278666
+    },
+    "external-previous-preparation": {
+      "files": 29048,
+      "bytes": 3207231358
+    }
+  },
+  "estimatedNetBytesRemoved": 4247791614
+}

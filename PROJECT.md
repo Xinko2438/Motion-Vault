@@ -4,7 +4,7 @@
 {
     "schemaVersion":  "ai-native.project-control.v2",
     "entityId":  "project.design-reference-library",
-    "stateRevision":  "sha256:c7f33591ac3b2cd9ba9cf0a2c7443978e818ddd29587e603bd687deadb0e3b52",
+    "stateRevision":  "sha256:194c76ab93641e38ef8f1018879e7f8bb6290bc8226cd6cdc2f5d2d47b2ea029",
     "projectName":  "design-reference-library",
     "projectGoal":  "集中管理网页设计与动效参考、业务场景分类、可视预览、用户偏好和 Agent 复用入口，并与 AI Native Workspace 的设计参考能力受控集成",
     "lifecycleStatus":  "active",
@@ -35,18 +35,18 @@
                                                                     ]
                                                },
                                                {
-                                                   "id":  "artifact.design-reference-library.68d060417f0ed35d",
-                                                   "title":  "Motion Vault 正式融合33项动效",
-                                                   "revision":  "sha256:2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+                                                   "id":  "artifact.design-reference-library.540775bac9a3dad4",
+                                                   "title":  "本次发布、验收与回退记录",
+                                                   "revision":  "sha256:3c96292708d16d8b2289b386480fcb823dee440ebde195a29033ad2277cd3c5a",
                                                    "evidenceRefs":  [
                                                                         "artifacts/ARTIFACT-MANIFEST.json",
                                                                         "artifacts/ARTIFACT-RECOVERY-MANIFEST.json"
                                                                     ]
                                                },
                                                {
-                                                   "id":  "artifact.design-reference-library.540775bac9a3dad4",
-                                                   "title":  "本次发布、验收与回退记录",
-                                                   "revision":  "sha256:3c96292708d16d8b2289b386480fcb823dee440ebde195a29033ad2277cd3c5a",
+                                                   "id":  "artifact.design-reference-library.68d060417f0ed35d",
+                                                   "title":  "Motion Vault 正式融合33项动效",
+                                                   "revision":  "sha256:2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
                                                    "evidenceRefs":  [
                                                                         "artifacts/ARTIFACT-MANIFEST.json",
                                                                         "artifacts/ARTIFACT-RECOVERY-MANIFEST.json"
@@ -92,11 +92,13 @@
 
                          ],
     "nextAction":  "Verify the new milestone artifacts and quality gates before requesting user acceptance.",
-    "updatedAt":  "2026-10-15T23:15:20.8350606+08:00"
+    "updatedAt":  "2026-10-16T01:20:18.5127775+08:00"
 }
 <!-- AI-NATIVE-PROJECT-CONTROL:END -->
 
 ## 当前状态
+
+2026-10-16：已按用户要求清理历史副本、测试页、旧构建缓存和过程文件，保留唯一正式画廊及必要来源/重建输入。当前用户Chrome为正式58／预选0／已下架56，私人状态逐字未变；正式发布字节不变，清理后重建、静态70通过/0失败/1跳过、交互31/31及4380同步通过。精简清理证据与本机Git恢复映射见lineage/current/cleanup/；私人恢复引用不得推送。
 
 2026-10-15：已将准备完成的33项动效（13项本地DOM、20项在线来源独立实现）精确融合到原4380单页，更新源码、设计资料、33张封面和5段短片；修复固定旧样式的加载器。原导航、六类用途、三列风格、详情及策展操作保留。原个人Chrome全部Motion Vault存储逐字未变，刷新后仍为正式62／预选0／已下架52。正式静态70通过、0失败、1既有跳过；33项正式页专项130/130、开关31/31、同步15858次文件比对及13项HTTP通过。60/54仅为来源目录数。当前发布、回退及可复用构建/验收入口见lineage/current/RESULT.md；技术验收不替代用户审美接受。
 
