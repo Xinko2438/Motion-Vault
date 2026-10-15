@@ -2,75 +2,97 @@
 
 <!-- AI-NATIVE-PROJECT-CONTROL:BEGIN -->
 {
-  "schemaVersion": "ai-native.project-control.v2",
-  "entityId": "project.design-reference-library",
-  "stateRevision": "sha256:30be836ede5fc9ae733de671ade8651539b376b7852c861f8e8bf40a2bc3fe6d",
-  "projectName": "design-reference-library",
-  "projectGoal": "集中管理网页设计与动效参考、业务场景分类、可视预览、用户偏好和 Agent 复用入口，并与 AI Native Workspace 的设计参考能力受控集成",
-  "lifecycleStatus": "active",
-  "completionState": "open",
-  "currentMilestone": {
-    "id": "wechat-extraction",
-    "title": "设计参考库正式抽离",
-    "goal": "建立独立项目并完成页面、历史材料、集成入口和恢复映射迁移",
-    "revision": "v1",
-    "required": true,
-    "technicalState": "technically_complete",
-    "acceptanceState": "awaiting_user",
-    "artifacts": [
-      {
-        "id": "artifact.design-reference-library.current-page",
-        "title": "设计参考库当前页面",
-        "revision": "sha256:d010a93830418a9658b1f2bc1dc2b412b56513cdacad3429d342fa53f1af392a",
-        "evidenceRefs": [
-          "lineage/migration-from-wechat-group-summary.json"
-        ]
-      },
-      {
-        "id": "artifact.design-reference-library.migration",
-        "title": "设计参考库迁移与恢复映射",
-        "revision": "sha256:52aa805cde05bdf077c1376d5017f12713eb9edaa31114baf128092dec58f314",
-        "evidenceRefs": [
-          "lineage/migration-from-wechat-group-summary.json"
-        ]
-      }
-    ],
-    "qualityGates": [
-      {
-        "id": "project-bootstrap",
-        "title": "正式项目创建与登记",
-        "status": "passed",
-        "evidenceRefs": [
-          "lineage/PROJECT-INIT-2026-09-14-v1.json"
-        ]
-      },
-      {
-        "id": "migration-integrity",
-        "title": "源目标哈希与清理验证",
-        "status": "passed",
-        "evidenceRefs": [
-          "lineage/migration-from-wechat-group-summary.json"
-        ]
-      },
-      {
-        "id": "page-static-capabilities",
-        "title": "40项、六场景、Light、主题、详情、录制与4380标记",
-        "status": "passed",
-        "evidenceRefs": [
-          "lineage/migration-from-wechat-group-summary.json"
-        ]
-      },
-      {
-        "id": "real-use",
-        "title": "真实录制、回看、选定与生产复用",
-        "status": "not_checked",
-        "evidenceRefs": []
-      }
-    ]
-  },
-  "criticalBlockers": [],
-  "nextAction": "请用户打开 web/index.html 验收页面；随后完成一次真实录制、选择和生产复用。",
-  "updatedAt": "2026-09-14T18:23:40.8720176+08:00"
+    "schemaVersion":  "ai-native.project-control.v2",
+    "entityId":  "project.design-reference-library",
+    "stateRevision":  "sha256:c7f33591ac3b2cd9ba9cf0a2c7443978e818ddd29587e603bd687deadb0e3b52",
+    "projectName":  "design-reference-library",
+    "projectGoal":  "集中管理网页设计与动效参考、业务场景分类、可视预览、用户偏好和 Agent 复用入口，并与 AI Native Workspace 的设计参考能力受控集成",
+    "lifecycleStatus":  "active",
+    "completionState":  "open",
+    "currentMilestone":  {
+                             "id":  "wechat-extraction",
+                             "title":  "设计参考库正式抽离",
+                             "goal":  "建立独立项目并完成页面、历史材料、集成入口和恢复映射迁移",
+                             "revision":  "v1",
+                             "required":  true,
+                             "technicalState":  "in_progress",
+                             "acceptanceState":  "not_ready",
+                             "artifacts":  [
+                                               {
+                                                   "id":  "artifact.design-reference-library.current-page",
+                                                   "title":  "设计参考库当前页面",
+                                                   "revision":  "sha256:d010a93830418a9658b1f2bc1dc2b412b56513cdacad3429d342fa53f1af392a",
+                                                   "evidenceRefs":  [
+                                                                        "lineage/migration-from-wechat-group-summary.json"
+                                                                    ]
+                                               },
+                                               {
+                                                   "id":  "artifact.design-reference-library.migration",
+                                                   "title":  "设计参考库迁移与恢复映射",
+                                                   "revision":  "sha256:52aa805cde05bdf077c1376d5017f12713eb9edaa31114baf128092dec58f314",
+                                                   "evidenceRefs":  [
+                                                                        "lineage/migration-from-wechat-group-summary.json"
+                                                                    ]
+                                               },
+                                               {
+                                                   "id":  "artifact.design-reference-library.68d060417f0ed35d",
+                                                   "title":  "Motion Vault 正式融合33项动效",
+                                                   "revision":  "sha256:2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+                                                   "evidenceRefs":  [
+                                                                        "artifacts/ARTIFACT-MANIFEST.json",
+                                                                        "artifacts/ARTIFACT-RECOVERY-MANIFEST.json"
+                                                                    ]
+                                               },
+                                               {
+                                                   "id":  "artifact.design-reference-library.540775bac9a3dad4",
+                                                   "title":  "本次发布、验收与回退记录",
+                                                   "revision":  "sha256:3c96292708d16d8b2289b386480fcb823dee440ebde195a29033ad2277cd3c5a",
+                                                   "evidenceRefs":  [
+                                                                        "artifacts/ARTIFACT-MANIFEST.json",
+                                                                        "artifacts/ARTIFACT-RECOVERY-MANIFEST.json"
+                                                                    ]
+                                               }
+                                           ],
+                             "qualityGates":  [
+                                                  {
+                                                      "id":  "project-bootstrap",
+                                                      "title":  "正式项目创建与登记",
+                                                      "status":  "passed",
+                                                      "evidenceRefs":  [
+                                                                           "lineage/PROJECT-INIT-2026-09-14-v1.json"
+                                                                       ]
+                                                  },
+                                                  {
+                                                      "id":  "migration-integrity",
+                                                      "title":  "源目标哈希与清理验证",
+                                                      "status":  "passed",
+                                                      "evidenceRefs":  [
+                                                                           "lineage/migration-from-wechat-group-summary.json"
+                                                                       ]
+                                                  },
+                                                  {
+                                                      "id":  "page-static-capabilities",
+                                                      "title":  "40项、六场景、Light、主题、详情、录制与4380标记",
+                                                      "status":  "passed",
+                                                      "evidenceRefs":  [
+                                                                           "lineage/migration-from-wechat-group-summary.json"
+                                                                       ]
+                                                  },
+                                                  {
+                                                      "id":  "real-use",
+                                                      "title":  "真实录制、回看、选定与生产复用",
+                                                      "status":  "not_checked",
+                                                      "evidenceRefs":  [
+
+                                                                       ]
+                                                  }
+                                              ]
+                         },
+    "criticalBlockers":  [
+
+                         ],
+    "nextAction":  "Verify the new milestone artifacts and quality gates before requesting user acceptance.",
+    "updatedAt":  "2026-10-15T23:15:20.8350606+08:00"
 }
 <!-- AI-NATIVE-PROJECT-CONTROL:END -->
 

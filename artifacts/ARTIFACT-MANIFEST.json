@@ -1,0 +1,22 @@
+{
+    "schemaVersion":  "ai-native.artifact-owner-manifest.v1",
+    "artifacts":  [
+                      {
+                          "id":  "artifact.design-reference-library.68d060417f0ed35d",
+                          "title":  "Motion Vault 正式融合33项动效",
+                          "type":  "primary_code",
+                          "path":  "web/index.html",
+                          "registeredAt":  "2026-10-15T23:15:20.7448173+08:00",
+                          "summary":  "33项动效已融合进原画廊，保留62项正式与52项下架状态；正式测试和4380同步通过。"
+                      },
+                      {
+                          "id":  "artifact.design-reference-library.540775bac9a3dad4",
+                          "title":  "本次发布、验收与回退记录",
+                          "type":  "supporting_document",
+                          "path":  "lineage/current/RESULT.md",
+                          "registeredAt":  "2026-10-15T23:15:20.7448173+08:00",
+                          "summary":  "记录正式发布、真实浏览器验收、当前证据与Git回退基线。",
+                          "parentArtifactId":  "artifact.design-reference-library.68d060417f0ed35d"
+                      }
+                  ]
+}
