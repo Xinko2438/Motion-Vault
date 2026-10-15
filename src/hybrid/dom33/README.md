@@ -8,6 +8,8 @@ Candidate checks: set `MOTION_VAULT_PHASE=candidate` and `MOTION_VAULT_TEST_WEB`
 
 The original prepared gallery used a fixed legacy stylesheet. The integration applies one exact loader-expression repair so `asset.style` selects the reviewed stylesheet; the prepared plan/payload remain unchanged. Scoped Git attributes preserve imported bytes on Windows without renormalizing protected legacy files. Both additions are explicit in `artifact-phase.mjs`.
 
+Run `node scripts/verify-git-byte-integrity.mjs` before handoff and after a branch checkout. It exercises Git's real checkout filters with `core.autocrlf=true` without changing configuration. The attributes file protects its own bytes as well as the imported code and media.
+
 Provenance: baseline Git 2906bf12d04c7cd0523b8bf79d4bc8417045082c; prepared plan SHA-256 1b1ed35957815ced13649cdb1db30b5db31da50ae6e84ad9bcff425169b75680. Original 34-effect generation provenance is retained inside asset manifests; the excluded new blinds is not imported. Private selection and rejection events remain only in the user's browser.
 
 Reuse: future build/release decisions consume the same hash-bound plan. Missing, extra, changed or unplanned files block the build/release; the negative phase tests exercise these boundaries. The payload plus the protected baseline/current Git files can reconstruct the entire projection without the previous external preparation folder.
