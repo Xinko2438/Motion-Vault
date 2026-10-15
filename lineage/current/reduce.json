@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-07T04:38:21.851Z",
+  "at": "2026-10-15T14:50:55.385Z",
   "motion": "reduce",
   "live": false,
-  "formalHash": "1e3cb49eb223593deb9c236c99ca548d72a578e553fd96b8d5b850773d90e199",
+  "formalHash": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
   "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
   "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
-  "passed": 193,
-  "total": 193,
+  "passed": 241,
+  "total": 241,
   "checks": [
     {
       "name": "Stable official implementation is served",
@@ -16,7 +16,7 @@
       "name": "Stationary hover really animates 2",
       "pass": true,
       "detail": {
-        "pixels": 4736,
+        "pixels": 27415,
         "mode": "auto"
       }
     },
@@ -40,7 +40,7 @@
       "name": "Stationary hover really animates 7",
       "pass": true,
       "detail": {
-        "pixels": 3476,
+        "pixels": 5131,
         "mode": "auto"
       }
     },
@@ -52,7 +52,7 @@
       "name": "Stationary hover really animates 10",
       "pass": true,
       "detail": {
-        "pixels": 15378,
+        "pixels": 14140,
         "mode": "scroll"
       }
     },
@@ -64,7 +64,7 @@
       "name": "Stationary hover really animates 11",
       "pass": true,
       "detail": {
-        "pixels": 3326,
+        "pixels": 3187,
         "mode": "auto"
       }
     },
@@ -76,7 +76,7 @@
       "name": "Stationary hover really animates 12",
       "pass": true,
       "detail": {
-        "pixels": 13243,
+        "pixels": 15501,
         "mode": "scroll"
       }
     },
@@ -88,7 +88,7 @@
       "name": "Stationary hover really animates 16",
       "pass": true,
       "detail": {
-        "pixels": 11400,
+        "pixels": 11846,
         "mode": "auto"
       }
     },
@@ -100,7 +100,7 @@
       "name": "Stationary hover really animates 18",
       "pass": true,
       "detail": {
-        "pixels": 10015,
+        "pixels": 10058,
         "mode": "scroll"
       }
     },
@@ -112,7 +112,7 @@
       "name": "Stationary hover really animates 19",
       "pass": true,
       "detail": {
-        "pixels": 82,
+        "pixels": 497,
         "mode": "auto"
       }
     },
@@ -124,7 +124,7 @@
       "name": "Stationary hover really animates 22",
       "pass": true,
       "detail": {
-        "pixels": 5274,
+        "pixels": 12089,
         "mode": "pointer"
       }
     },
@@ -136,7 +136,7 @@
       "name": "Stationary hover really animates 24",
       "pass": true,
       "detail": {
-        "pixels": 7922,
+        "pixels": 7875,
         "mode": "auto"
       }
     },
@@ -148,7 +148,7 @@
       "name": "Stationary hover really animates 25",
       "pass": true,
       "detail": {
-        "pixels": 954,
+        "pixels": 5669,
         "mode": "pointer"
       }
     },
@@ -160,7 +160,7 @@
       "name": "Stationary hover really animates 28",
       "pass": true,
       "detail": {
-        "pixels": 46335,
+        "pixels": 46336,
         "mode": "click"
       }
     },
@@ -172,7 +172,7 @@
       "name": "Stationary hover really animates 30",
       "pass": true,
       "detail": {
-        "pixels": 733,
+        "pixels": 403,
         "mode": "auto"
       }
     },
@@ -184,7 +184,7 @@
       "name": "Stationary hover really animates 31",
       "pass": true,
       "detail": {
-        "pixels": 14512,
+        "pixels": 15512,
         "mode": "pointer"
       }
     },
@@ -208,7 +208,7 @@
       "name": "Stationary hover really animates 34",
       "pass": true,
       "detail": {
-        "pixels": 5043,
+        "pixels": 2263,
         "mode": "pointer"
       }
     },
@@ -220,7 +220,7 @@
       "name": "Stationary hover really animates 35",
       "pass": true,
       "detail": {
-        "pixels": 372,
+        "pixels": 4685,
         "mode": "auto"
       }
     },
@@ -244,7 +244,7 @@
       "name": "Stationary hover really animates 37",
       "pass": true,
       "detail": {
-        "pixels": 96425,
+        "pixels": 89976,
         "mode": "auto"
       }
     },
@@ -256,7 +256,7 @@
       "name": "Stationary hover really animates 38",
       "pass": true,
       "detail": {
-        "pixels": 4700,
+        "pixels": 5025,
         "mode": "auto"
       }
     },
@@ -268,7 +268,7 @@
       "name": "Stationary hover really animates 39",
       "pass": true,
       "detail": {
-        "pixels": 1770,
+        "pixels": 3444,
         "mode": "auto"
       }
     },
@@ -280,7 +280,7 @@
       "name": "Stationary hover really animates 40",
       "pass": true,
       "detail": {
-        "pixels": 8289,
+        "pixels": 8504,
         "mode": "pointer"
       }
     },
@@ -292,7 +292,7 @@
       "name": "Stationary hover really animates online-grid",
       "pass": true,
       "detail": {
-        "pixels": 76941,
+        "pixels": 65832,
         "mode": "drag"
       }
     },
@@ -304,7 +304,7 @@
       "name": "Stationary hover really animates online-dock",
       "pass": true,
       "detail": {
-        "pixels": 4745,
+        "pixels": 3913,
         "mode": "pointer"
       }
     },
@@ -324,7 +324,7 @@
       "name": "Stationary hover really animates online-draw",
       "pass": true,
       "detail": {
-        "pixels": 2139,
+        "pixels": 630,
         "mode": "auto"
       }
     },
@@ -336,7 +336,7 @@
       "name": "Stationary hover really animates online-morph",
       "pass": true,
       "detail": {
-        "pixels": 4356,
+        "pixels": 4605,
         "mode": "auto"
       }
     },
@@ -348,7 +348,7 @@
       "name": "Stationary hover really animates online-pixel",
       "pass": true,
       "detail": {
-        "pixels": 790,
+        "pixels": 638,
         "mode": "auto"
       }
     },
@@ -360,7 +360,7 @@
       "name": "Stationary hover really animates online-sheet",
       "pass": true,
       "detail": {
-        "pixels": 19002,
+        "pixels": 18634,
         "mode": "drag"
       }
     },
@@ -372,7 +372,7 @@
       "name": "Stationary hover really animates online-toast",
       "pass": true,
       "detail": {
-        "pixels": 3536,
+        "pixels": 1890,
         "mode": "click"
       }
     },
@@ -384,7 +384,7 @@
       "name": "Stationary hover really animates online-nav",
       "pass": true,
       "detail": {
-        "pixels": 7545,
+        "pixels": 1532,
         "mode": "pointer"
       }
     },
@@ -396,7 +396,7 @@
       "name": "Stationary hover really animates online-ring",
       "pass": true,
       "detail": {
-        "pixels": 24654,
+        "pixels": 46000,
         "mode": "drag"
       }
     },
@@ -408,7 +408,7 @@
       "name": "Stationary hover really animates online-lens",
       "pass": true,
       "detail": {
-        "pixels": 4622,
+        "pixels": 4391,
         "mode": "pointer"
       }
     },
@@ -420,7 +420,7 @@
       "name": "Stationary hover really animates online-ripple",
       "pass": true,
       "detail": {
-        "pixels": 32756,
+        "pixels": 78142,
         "mode": "auto"
       }
     },
@@ -432,7 +432,7 @@
       "name": "Stationary hover really animates online-wave",
       "pass": true,
       "detail": {
-        "pixels": 8413,
+        "pixels": 4908,
         "mode": "pointer"
       }
     },
@@ -444,7 +444,7 @@
       "name": "Stationary hover really animates online-orbit",
       "pass": true,
       "detail": {
-        "pixels": 10460,
+        "pixels": 9818,
         "mode": "auto"
       }
     },
@@ -456,7 +456,7 @@
       "name": "Stationary hover really animates online-blur",
       "pass": true,
       "detail": {
-        "pixels": 1916,
+        "pixels": 2996,
         "mode": "auto"
       }
     },
@@ -468,7 +468,7 @@
       "name": "Stationary hover really animates online-particles",
       "pass": true,
       "detail": {
-        "pixels": 3816,
+        "pixels": 3411,
         "mode": "auto"
       }
     },
@@ -480,7 +480,7 @@
       "name": "Stationary hover really animates online-chart",
       "pass": true,
       "detail": {
-        "pixels": 2607,
+        "pixels": 2042,
         "mode": "click"
       }
     },
@@ -492,7 +492,7 @@
       "name": "Stationary hover really animates online-dial",
       "pass": true,
       "detail": {
-        "pixels": 735,
+        "pixels": 747,
         "mode": "drag"
       }
     },
@@ -504,7 +504,7 @@
       "name": "Stationary hover really animates online-book",
       "pass": true,
       "detail": {
-        "pixels": 21183,
+        "pixels": 25521,
         "mode": "drag"
       }
     },
@@ -516,7 +516,7 @@
       "name": "Stationary hover really animates online-string",
       "pass": true,
       "detail": {
-        "pixels": 2205,
+        "pixels": 3301,
         "mode": "drag"
       }
     },
@@ -540,7 +540,7 @@
       "name": "Stationary hover really animates online-spot",
       "pass": true,
       "detail": {
-        "pixels": 14607,
+        "pixels": 15441,
         "mode": "pointer"
       }
     },
@@ -552,7 +552,7 @@
       "name": "Stationary hover really animates online-proximity",
       "pass": true,
       "detail": {
-        "pixels": 2955,
+        "pixels": 3161,
         "mode": "pointer"
       }
     },
@@ -564,7 +564,7 @@
       "name": "Stationary hover really animates online-velocity",
       "pass": true,
       "detail": {
-        "pixels": 3811,
+        "pixels": 1936,
         "mode": "pointer"
       }
     },
@@ -576,7 +576,7 @@
       "name": "Stationary hover really animates online-repel",
       "pass": true,
       "detail": {
-        "pixels": 1654,
+        "pixels": 1827,
         "mode": "pointer"
       }
     },
@@ -588,7 +588,7 @@
       "name": "Stationary hover really animates online-linkimage",
       "pass": true,
       "detail": {
-        "pixels": 19909,
+        "pixels": 22080,
         "mode": "pointer"
       }
     },
@@ -600,7 +600,7 @@
       "name": "Stationary hover really animates online-peel",
       "pass": true,
       "detail": {
-        "pixels": 19411,
+        "pixels": 1209,
         "mode": "drag"
       }
     },
@@ -612,7 +612,7 @@
       "name": "Stationary hover really animates online-bezier",
       "pass": true,
       "detail": {
-        "pixels": 3320,
+        "pixels": 3288,
         "mode": "drag"
       }
     },
@@ -624,7 +624,7 @@
       "name": "Stationary hover really animates online-swipe",
       "pass": true,
       "detail": {
-        "pixels": 1569,
+        "pixels": 1908,
         "mode": "drag"
       }
     },
@@ -636,7 +636,7 @@
       "name": "Stationary hover really animates online-blinds",
       "pass": true,
       "detail": {
-        "pixels": 1434,
+        "pixels": 1236,
         "mode": "auto"
       }
     },
@@ -648,7 +648,7 @@
       "name": "Stationary hover really animates online-lines",
       "pass": true,
       "detail": {
-        "pixels": 3102,
+        "pixels": 2854,
         "mode": "auto"
       }
     },
@@ -660,7 +660,7 @@
       "name": "Stationary hover really animates online-typewriter",
       "pass": true,
       "detail": {
-        "pixels": 960,
+        "pixels": 959,
         "mode": "auto"
       }
     },
@@ -672,7 +672,7 @@
       "name": "Stationary hover really animates online-network",
       "pass": true,
       "detail": {
-        "pixels": 1969,
+        "pixels": 1928,
         "mode": "auto"
       }
     },
@@ -684,7 +684,7 @@
       "name": "Stationary hover really animates online-contours",
       "pass": true,
       "detail": {
-        "pixels": 31408,
+        "pixels": 32190,
         "mode": "auto"
       }
     },
@@ -696,7 +696,7 @@
       "name": "Stationary hover really animates online-donut",
       "pass": true,
       "detail": {
-        "pixels": 7827,
+        "pixels": 2953,
         "mode": "auto"
       }
     },
@@ -708,7 +708,7 @@
       "name": "Stationary hover really animates online-hold",
       "pass": true,
       "detail": {
-        "pixels": 3503,
+        "pixels": 3894,
         "mode": "click"
       }
     },
@@ -720,7 +720,7 @@
       "name": "Stationary hover really animates online-color",
       "pass": true,
       "detail": {
-        "pixels": 4735,
+        "pixels": 4704,
         "mode": "drag"
       }
     },
@@ -1007,6 +1007,198 @@
     },
     {
       "name": "Candidate caption hover curated-grid-flow-nav",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-repeating-image",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-repeating-image",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-rotating-image-scroll",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-rotating-image-scroll",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-art-directed-slideshow",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-art-directed-slideshow",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-satto-type-motion",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-satto-type-motion",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-hover-grid-reveal",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-hover-grid-reveal",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-reflection-editorial",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-reflection-editorial",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-grid-push",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-grid-push",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-column-row-depth",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-column-row-depth",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-sticky-grid-story",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-sticky-grid-story",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-paranoia-filter",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-paranoia-filter",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover mv2-stack-content",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover mv2-stack-content",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-unwoven",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-unwoven",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-xylophone",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-xylophone",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-lenticular",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-lenticular",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-depth-gallery",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-depth-gallery",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-paper-crumple",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-paper-crumple",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-webgl-lens",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-webgl-lens",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-procedural-snake",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-procedural-snake",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-dithering-cubes",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-dithering-cubes",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover spatial-kinetic-images",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover spatial-kinetic-images",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover cloud-kinetic-handoff",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover cloud-kinetic-handoff",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover cloud-context-wordmark",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover cloud-context-wordmark",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover cloud-context-search",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover cloud-context-search",
+      "pass": true
+    },
+    {
+      "name": "Candidate stage hover cloud-radial-cover-nav",
+      "pass": true
+    },
+    {
+      "name": "Candidate caption hover cloud-radial-cover-nav",
       "pass": true
     },
     {

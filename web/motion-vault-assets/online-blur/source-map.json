@@ -1,9 +1,16 @@
 [
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 198,
-    "endLine": 198,
+    "startLine": 199,
+    "endLine": 199,
     "code": " case'blur':label='由模糊到清晰 / 让视线顺着读';figure=`<div class=\"x-blur-copy\"><span class=\"x-blur-word\">把日常，</span><br><span class=\"x-blur-word\">慢慢</span><span class=\"x-blur-word\">变成</span><span class=\"x-blur-word\">作品。</span><p class=\"x-blur-sub\">不必喧哗，也能被看见。</p></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 25,
+    "endLine": 25,
+    "code": " case 'blur':return extra('SLOW JOURNAL / LETTER FROM THE EDITOR',`<div class=\"ad-blur-folio\">ESSAY / 014</div><div class=\"x-blur-copy\"><span class=\"x-blur-word\">Look</span><br><span class=\"x-blur-word\"><i>closer.</i></span><p class=\"x-blur-sub\">Attention is a form of care.</p></div><span class=\"ad-blur-edition\">THE SLOW JOURNAL — WORDS WORTH WAITING FOR</span>`);",
     "role": "authoritative_editable_source"
   }
 ]

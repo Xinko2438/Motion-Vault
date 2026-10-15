@@ -13,19 +13,19 @@ effect.dispose();
 
 ## 维护入口
 
-实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。shared/runtime.mjs 是构建产物，不应直接修改。当前源码目录是唯一修改入口。
+实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。共享的内容寻址 runtime 文件是构建产物，不应直接修改。当前源码目录是唯一修改入口。
 
 ## 核心源码摘录与原始定位
 
-以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.mjs；布局样式在 shared/runtime.css。
+以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.eb7967a461d0.mjs；布局样式在 shared/runtime.88444c38f1d6.css。
 
-### src/hybrid/modern-engine.js:200-200
+### src/hybrid/modern-engine.js:201-201
 
 ```js
  case'chart':label='固定刻度 / 连续比较';figure=`<svg class="x-svg x-chart" viewBox="0 0 400 260" aria-label="两组虚构数据的柱图比较">${[0,25,50,75,100].map((v,i)=>`<path d="M42 ${213-i*43}H379" stroke="#cad4c9" stroke-width=".6"/><text x="29" y="${217-i*43}" text-anchor="end">${v}</text>`).join('')}${Array.from({length:6},(_,i)=>`<rect class="x-bar" x="${57+i*54}" y="100" width="26" height="113" rx="2" fill="${i===3?'#c59e76':'#799a86'}"/><text class="x-bar-value" x="${70+i*54}" y="88" text-anchor="middle">50</text><text x="${70+i*54}" y="236" text-anchor="middle">${['一','二','三','四','五','六'][i]}</text>`).join('')}<path class="x-chart-line" fill="none" stroke="#324e42" stroke-width="1.8"/></svg><div class="x-presets"><button data-preset="0">演示 A</button><button data-preset="0.5">演示 B</button></div>`;break;
 ```
 
-### src/hybrid/modern-engine.js:241-250
+### src/hybrid/modern-engine.js:242-251
 
 ```js
  if(key==='chart')root.querySelectorAll('[data-preset]').forEach(b=>L.on(b,'click',()=>{stop();point=null;const from=t,to=Number(b.dataset.preset),started=performance.now();root.querySelectorAll('[data-preset]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));function change(now){const p=reduce.matches?1:clamp((now-started)/600,0,1);t=mix(from,to,smooth(p));draw();if(p<1)raf=L.frame(change);}raf=L.frame(change);}));
@@ -38,6 +38,12 @@ effect.dispose();
  }
  if(['ring','book','dial','string'].includes(key)){
   const surface=key==='dial'?root.querySelector('.x-dial'):key==='string'?root.querySelector('.x-string'):fig;
+```
+
+### src/hybrid/modern-scenes.js:27-27
+
+```js
+ case 'chart':return extra('FIELDWORK / WEEKLY OBSERVATIONS',`<div class="ad-chart-summary"><strong>Weekly<br>rhythm.</strong><span>6 WEEKS / SAMPLE DATA</span></div><svg class="x-svg x-chart" viewBox="0 0 400 260" aria-label="两组演示数据的连续柱图比较">${[0,25,50,75,100].map((v,i)=>`<path d="M42 ${213-i*43}H379" stroke="#d5d7db" stroke-width=".6"/><text x="29" y="${217-i*43}" text-anchor="end">${v}</text>`).join('')}${Array.from({length:6},(_,i)=>`<rect class="x-bar" x="${57+i*54}" y="100" width="26" height="113" rx="2" fill="${i===3?'#e26e48':'#1f4161'}"/><text class="x-bar-value" x="${70+i*54}" y="88" text-anchor="middle">50</text><text x="${70+i*54}" y="236" text-anchor="middle">W0${i+1}</text>`).join('')}<path class="x-chart-line" fill="none" stroke="#e26e48" stroke-width="1.6"/></svg><div class="x-presets"><button data-preset="0">本期</button><button data-preset="0.5">上期</button></div>`);
 ```
 
 ## 依赖和资源

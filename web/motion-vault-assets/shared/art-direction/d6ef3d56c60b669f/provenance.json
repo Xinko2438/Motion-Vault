@@ -1,0 +1,112 @@
+{
+  "schema": "motion-vault.generated-art.v1",
+  "createdAt": "2026-10-09",
+  "method": "Nine task-generated illustrative assets created or edited using OpenAI imagegen on 2026-10-09; not documentary photographs or copies of reference-author assets.",
+  "rights": "New task-generated image assets. No third-party photographs, logos or font files are included. Reference mechanism sources do not grant rights to their imagery.",
+  "processing": "Original PNGs inspected; WebP derivatives resized without upscaling: six portraits 1100x1375, two landscapes 1440x900, transparent cutout 880x1100. WebP quality 88; alpha preserved for cutout.",
+  "images": [
+    {
+      "file": "red-fold.webp",
+      "subject": "朱红折叠金属雕塑，炭灰工作室与硬侧光",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "9c6f130b758ee19f2886b922f164178a537215cddbe64c596f7e8569283ecc84",
+      "sha256": "2b08f387c22aa65452c68e2217793d9118fc38e94b1f8f7b4bcd1f1893fc791b",
+      "bytes": 93052,
+      "width": 1100,
+      "height": 1375
+    },
+    {
+      "file": "blue-glass.webp",
+      "subject": "钴蓝磨砂玻璃与透明棱镜静物",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "b2d3d9c259f4d995fdf3c0cde17fc27d566f00e6aa68f5bb081e2f1787675926",
+      "sha256": "d983b591b2124c899d909ce25b461aca33868ac8911f99ea230154aca0e28b46",
+      "bytes": 193188,
+      "width": 1100,
+      "height": 1375
+    },
+    {
+      "file": "gold-reeds.webp",
+      "subject": "金色侧逆光中的干燥芦苇微距",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "05bf4715ada36da218346e6ff42aca0087761cbf56c8c86827308404ad0f27a3",
+      "sha256": "c12ec6bd8f8e09a53b2d21b61195b61af699195549d6b7f2dc8c5744dc95a3b0",
+      "bytes": 256524,
+      "width": 1100,
+      "height": 1375
+    },
+    {
+      "file": "pink-petal.webp",
+      "subject": "墨绿色背景的浅粉花瓣微距",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "678d26c3da6c5618f4933738bf3d3761a1036413ab6f483899ea92ea1abeaf36",
+      "sha256": "eea21b6d3917f44b9897e5c1335ddfe62bc36c7be4fa8eb07dded24842fabd5b",
+      "bytes": 170622,
+      "width": 1100,
+      "height": 1375
+    },
+    {
+      "file": "basalt-coast.webp",
+      "subject": "玄武岩海岸与长曝光感海浪",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "7eb62dfccb95bb8c67356582271a40497a2e5bf22b4f12ea74aad83153603a2f",
+      "sha256": "71b00823a59f573b9facc0b7dbda721bcf7640bee7af563a184170d498b21a2d",
+      "bytes": 269356,
+      "width": 1100,
+      "height": 1375
+    },
+    {
+      "file": "warm-arcade.webp",
+      "subject": "原创暖白拱廊、斜向日光与阴影",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "125ed5f091e2ad879e0058a87388adb4df68a8db4635be9c017dc8e35d1e84e9",
+      "sha256": "72acd810e62ecca8a50e262b6204f7c9576218e147b1ed05f9f0163dce1a6870",
+      "bytes": 153330,
+      "width": 1100,
+      "height": 1375
+    },
+    {
+      "file": "red-wide.webp",
+      "subject": "完整朱红雕塑偏右，深炭灰棚拍空间，左侧留白",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "e52ee372d35830769c9a2b992371773776f7a399725579bb54aa3982551f899a",
+      "sha256": "b14c459976f99f95913d49893cf43bb6fa7cfa99db0d4dcec4fcc6a4e3fabeb7",
+      "bytes": 95450,
+      "width": 1439,
+      "height": 900
+    },
+    {
+      "file": "stone-wide.webp",
+      "subject": "玄武岩与银白薄壳雕塑偏右，相同深灰空间和光位",
+      "source": "OpenAI imagegen, generated in this task on 2026-10-09",
+      "sourceSha256": "df2f81886d1dee758ee5ca07582d00f76886116bfa4ca8df4dbf44024a91749d",
+      "sha256": "77248a34fb2058864505a29b4a320d717c90feb54ac4eba6aeecf98cfb1d148b",
+      "bytes": 102868,
+      "width": 1439,
+      "height": 900
+    },
+    {
+      "file": "red-cutout.webp",
+      "subject": "与red-fold相同朱红雕塑的透明背景中景图层",
+      "source": "OpenAI imagegen, background-removal edit of task-generated red-fold on 2026-10-09",
+      "sourceSha256": "88072e776da38c334a499b9e23b9b2874ec376af81c6c4074245ca18f8f2b927",
+      "sha256": "8344b1f4703514d7b1485fe85b4612ef5ca67727f30eb4d1dbb4ea719e9885a4",
+      "bytes": 82564,
+      "alpha": true,
+      "width": 880,
+      "height": 1100
+    }
+  ],
+  "film": {
+    "file": "material-study.mp4",
+    "source": "red-fold.webp",
+    "method": "Original generated still rendered as a slow 8-second pan/zoom by scripts/build-art-film.mjs. Not documentary film and not a substitute for live interactive mechanisms.",
+    "durationSeconds": 8,
+    "width": 640,
+    "height": 360,
+    "fps": 24,
+    "audio": false,
+    "sha256": "9bae56d4dcf69b7056b06dc802fb4a4176d4506a8f737c13c501a6963e4f93db",
+    "bytes": 119411
+  }
+}

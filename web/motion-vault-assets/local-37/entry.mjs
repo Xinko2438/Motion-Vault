@@ -1,5 +1,6 @@
 // 双向分割错落拉幕
 // Runnable entry backed by the shared local engine; see IMPLEMENTATION.md for the exact core locations.
-import {createRuntime} from '../shared/runtime.31fd3f9a83f9.mjs';
+import {createRuntime,runtimeDuration} from '../shared/runtime.eb7967a461d0.mjs';
 export const reference={"id":37,"title":"双向分割错落拉幕","desc":"左半屏向上滑走、右半屏向下滑走，两边内容以相反方向错开拼接。","design_value":"时尚、建筑与先锋艺术类网站的经典转场，极具版面张力。","avoid":"不能在移动端竖屏使用，左右错位在手机上会导致排版混乱。","tech":"leftCol { -100% } rightCol { 100% };","demo":"\u003cdiv style=\"display:flex; width:150px; height:70px; border-radius:6px; overflow:hidden;\">\u003cdiv style=\"flex:1; background:#1e293b; color:#94a3b8; display:grid; place-items:center; font-size:9px;\">向上 ↑\u003c/div>\u003cdiv style=\"flex:1; background:#2563eb; color:#fff; display:grid; place-items:center; font-size:9px;\">向下 ↓\u003c/div>\u003c/div>","scene":"creative","uses":[{"scene":"portfolio","task":"handoff","placement":"作品之间的转场","goal":"通过相反方向退出建立场景边界"}],"preview_mode":"auto","source_kind":"independent_code","source_name":"既有本地代码演示","source_url":null};
 export function mount(host,options={}){return createRuntime(host,reference,options);}
+export const duration=()=>runtimeDuration(reference);

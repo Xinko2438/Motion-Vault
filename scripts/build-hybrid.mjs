@@ -84,6 +84,7 @@ export async function assembleGallery(formal,candidates){
 }
 
 async function build(){
+ if(await exists(path.join(project,'src/hybrid/dom33/promotion-plan.json'))){const {buildReviewedMotion}=await import('./build-reviewed-motion.mjs');console.log(JSON.stringify(await buildReviewedMotion(project,root)));return;}
  const catalogue=JSON.parse(await read('src/hybrid/formal-catalog.json'));
  const originalItems=JSON.parse(await read('src/hybrid/formal-items.json'));
  if(originalItems.length!==catalogue.items.length)throw new Error('Catalogue/source mismatch');

@@ -13,16 +13,16 @@ effect.dispose();
 
 ## 维护入口
 
-实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。shared/runtime.mjs 是构建产物，不应直接修改。当前源码目录是唯一修改入口。
+实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。共享的内容寻址 runtime 文件是构建产物，不应直接修改。当前源码目录是唯一修改入口。
 
 ## 核心源码摘录与原始定位
 
-以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.mjs；布局样式在 shared/runtime.css。
+以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.eb7967a461d0.mjs；布局样式在 shared/runtime.88444c38f1d6.css。
 
 ### src/hybrid/formal-items.json
 
 ```js
-<div style="display:flex; align-items:flex-end; gap:4px; height:26px;"><div style="width:4px; height:8px; background:#2563eb; border-radius:2px; animation:wav 0.8s infinite alternate;"></div><div style="width:4px; height:20px; background:#3b82f6; border-radius:2px; animation:wav 0.8s infinite alternate 0.2s;"></div><div style="width:4px; height:12px; background:#2563eb; border-radius:2px; animation:wav 0.8s infinite alternate 0.4s;"></div></div><style>@keyframes wav{from{height:6px}to{height:22px}}</style>
+<div class="legacy-canvas legacy-19"><div class="legacy-topline"><span><b>OTHER / FREQUENCIES</b></span><span>SOUND ARCHIVE</span></div><div class="radio-disc"><i></i><span>OF<br>004</span></div><div class="radio-copy"><span class="legacy-eyebrow">THE LISTENING ROOM</span><h3>Between<br><em>the lines.</em></h3><p>Ambient studies / No. 04</p><div class="radio-playing"><b>Ⅱ</b><div class="radio-wave"><div style="width:4px;height:13px;--i:0;"></div><div style="width:4px;height:21px;--i:1;"></div><div style="width:4px;height:9px;--i:2;"></div><div style="width:4px;height:18px;--i:3;"></div><div style="width:4px;height:15px;--i:4;"></div><div style="width:4px;height:22px;--i:5;"></div><div style="width:4px;height:11px;--i:6;"></div><div style="width:4px;height:17px;--i:7;"></div><div style="width:4px;height:8px;--i:8;"></div><div style="width:4px;height:20px;--i:9;"></div><div style="width:4px;height:15px;--i:10;"></div><div style="width:4px;height:11px;--i:11;"></div></div><span>VISUAL<br>DEMO</span></div></div><div class="radio-timeline"><span>01:42</span><div><i></i></div><span>04:28</span></div><div class="radio-foot">波形可视化演示 · 不播放音频<span>STEREO / 48 kHz</span></div></div>
 ```
 
 ## 依赖和资源

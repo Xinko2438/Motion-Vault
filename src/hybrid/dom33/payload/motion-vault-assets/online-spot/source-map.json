@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 275,
+    "endLine": 275,
+    "code": " case'spot':h=`<div class=\"e-spot-panel\"><div class=\"e-spot-base\">${art(1)}<strong>OTHER<br>SIDE.</strong></div><div class=\"e-spot-top\">${art(2)}<strong>OTHER<br>SIDE.</strong></div></div><span class=\"e-kicker\">A different layer, at the same point.</span>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-new-scenes.js",
+    "startLine": 27,
+    "endLine": 27,
+    "code": " case 'spot':return `<div class=\"e-spot-panel\"><div class=\"e-spot-base\">${photo(6)}</div><div class=\"e-spot-top\">${photo(6)}</div><div class=\"vn-spot-shade\"></div><strong>FORM<br>AFTER<br>DARK.</strong></div><span class=\"e-kicker\">MATERIAL STUDY / NO. 01</span><span class=\"vn-spot-side\">LIGHT REVEALS THE SURFACE</span>${caption('光经过的地方，颜色浮现。','MOVE TO REVEAL','vn-spot-foot')}`;",
+    "role": "authoritative_editable_source"
+  }
+]

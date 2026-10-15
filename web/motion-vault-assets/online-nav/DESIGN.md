@@ -12,7 +12,9 @@
 
 切换导航项时，内容在同一个容器内过渡，容器随内容调整宽高，不重复弹出窗口。
 
-产品官网、功能较多的桌面导航。
+作品工作室首页与共享导航容器叠层，导航仍按栏目内容改变尺寸，不替代真实焦点操作。
+
+独立原创代码/SVG；所用栅格影像为2026-10-09通过OpenAI imagegen新制的说明图像，非实摄照片。详细来源与哈希见assets/independent-art/provenance.json。
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

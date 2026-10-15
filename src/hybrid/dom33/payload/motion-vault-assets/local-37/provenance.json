@@ -1,0 +1,12 @@
+{
+  "schema": "motion-vault.provenance.v1",
+  "source": null,
+  "author": "既有本地代码演示",
+  "implementation_kind": "local_independent_study",
+  "upstream_visual_verified": false,
+  "upstream_recording": null,
+  "local_basis_sha256": "689a63c566ea041e2b563c40dbdece8848a0319c5cb04fb90cb0ee763ecd0af4",
+  "version": "6774fccc9bdcab17",
+  "rights": "独立代码、原创SVG与本次OpenAI imagegen生成的原创说明图像（非实摄照片）；素材清单见内容寻址的shared/art-direction来源文件。不抽用作者原例照片，不授予外部原作素材许可，未分发字体。",
+  "artwork": "../shared/art-direction/d6ef3d56c60b669f/provenance.json"
+}

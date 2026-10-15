@@ -12,7 +12,9 @@
 
 指针移动一个局部遮罩，让两种画面在同一位置衔接。
 
-两层画面共享构图，局部遮罩揭示第二种表现；鼠标本身不是独立内容。
+同一红色雕塑横幅的黑白底层与彩色上层精确同构；全幅局部圆形显色，以图像自身材料为主角。
+
+独立原创代码/SVG；所用栅格影像为2026-10-09通过OpenAI imagegen新制的说明图像，非实摄照片。详细来源与哈希见assets/independent-art/provenance.json。
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

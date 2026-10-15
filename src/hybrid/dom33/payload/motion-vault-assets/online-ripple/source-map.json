@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 194,
+    "endLine": 194,
+    "code": " case'ripple':label='两幅画面 / 水波交接';figure=`<svg class=\"x-svg x-ripple\" viewBox=\"0 0 400 300\" aria-label=\"水波折射演示\"><defs><filter id=\"${uid}-water\" x=\"-10%\" y=\"-10%\" width=\"120%\" height=\"120%\"><feTurbulence class=\"x-noise\" type=\"fractalNoise\" baseFrequency=\".016 .025\" numOctaves=\"2\" seed=\"6\" result=\"noise\"/><feDisplacementMap class=\"x-displace\" in=\"SourceGraphic\" in2=\"noise\" scale=\"0\" xChannelSelector=\"R\" yChannelSelector=\"G\"/></filter></defs><g filter=\"url(#${uid}-water)\"><g>${landscapeSized(2)}</g><g class=\"x-ripple-next\" opacity=\"0\">${landscapeSized(3)}</g></g></svg><span class=\"x-image-caption\">一池微澜。</span>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 22,
+    "endLine": 22,
+    "code": " case 'ripple':return extra('TIDAL / TWO STATES OF WATER',`<svg class=\"x-svg x-ripple\" viewBox=\"0 0 400 300\" aria-label=\"潮汐图像的水波折射转场\"><defs><filter id=\"${uid}-water\" x=\"-10%\" y=\"-10%\" width=\"120%\" height=\"120%\"><feTurbulence class=\"x-noise\" type=\"fractalNoise\" baseFrequency=\".016 .025\" numOctaves=\"2\" seed=\"6\" result=\"noise\"/><feDisplacementMap class=\"x-displace\" in=\"SourceGraphic\" in2=\"noise\" scale=\"0\" xChannelSelector=\"R\" yChannelSelector=\"G\"/></filter></defs><g filter=\"url(#${uid}-water)\"><g>${sceneArt(4)}</g><g class=\"x-ripple-next\" opacity=\"0\">${sceneArt(4,{variant:'cool'})}</g></g></svg><span class=\"x-image-caption\">Water remembers.</span><span class=\"ad-ripple-num\">59° 21′ N<br>Long exposure study</span>`);",
+    "role": "authoritative_editable_source"
+  }
+]

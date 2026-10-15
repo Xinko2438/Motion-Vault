@@ -12,7 +12,9 @@
 
 从中心按钮沿扇形依次展开少量操作，选中后收拢并给出反馈。
 
-中心按钮是锚点，快捷操作分布在可达圆弧上，展开后仍保留原工作上下文。
+拱廊图像批注台，左侧项目名称保持稳定，工具盘围绕图像锚点展开。
+
+独立原创代码/SVG；所用栅格影像为2026-10-09通过OpenAI imagegen新制的说明图像，非实摄照片。详细来源与哈希见assets/independent-art/provenance.json。
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 197,
+    "endLine": 197,
+    "code": " case'wave':label='由一个点 / 向周围扩散';figure=`<svg class=\"x-svg x-wave\" viewBox=\"0 0 400 260\" aria-label=\"波纹点阵\">${Array.from({length:135},(_,i)=>`<circle class=\"x-wave-dot\" cx=\"${39+i%15*23}\" cy=\"${35+Math.floor(i/15)*23}\" r=\"3\" fill=\"#3e6b59\"/>`).join('')}</svg>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 23,
+    "endLine": 23,
+    "code": " case 'wave':return extra('RESONANCE / INTERACTIVE FIELD',`<div class=\"ad-wave-title\">A signal<br>becomes a wave.</div><svg class=\"x-svg x-wave\" viewBox=\"0 0 400 260\" aria-label=\"距离驱动的波纹点阵\">${Array.from({length:135},(_,i)=>`<circle class=\"x-wave-dot\" cx=\"${39+i%15*23}\" cy=\"${35+Math.floor(i/15)*23}\" r=\"3\" fill=\"${i%15>9?'#bdd4ff':'#4d80f2'}\"/>`).join('')}</svg><div class=\"ad-wave-meta\">09:41:00 / LIVE POINTER FIELD</div>`);",
+    "role": "authoritative_editable_source"
+  }
+]

@@ -5,7 +5,8 @@
   "implementation_kind": "local_independent_study",
   "upstream_visual_verified": false,
   "upstream_recording": null,
-  "local_basis_sha256": "8eb96bf7e9f958ae13081c77d8965342a74362f4d57331d8332c1b8a96647788",
-  "version": "2d9a15d737473c4e",
-  "rights": "本地既有代码与必要演示资源；不授予外部原作素材许可；未分发字体。"
+  "local_basis_sha256": "689a63c566ea041e2b563c40dbdece8848a0319c5cb04fb90cb0ee763ecd0af4",
+  "version": "f8d20b07d0c3263b",
+  "rights": "独立代码、原创SVG与本次OpenAI imagegen生成的原创说明图像（非实摄照片）；素材清单见内容寻址的shared/art-direction来源文件。不抽用作者原例照片，不授予外部原作素材许可，未分发字体。",
+  "artwork": "../shared/art-direction/d6ef3d56c60b669f/provenance.json"
 }

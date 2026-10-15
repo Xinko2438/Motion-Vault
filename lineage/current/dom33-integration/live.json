@@ -1,0 +1,533 @@
+{
+  "at": "2026-10-15T14:57:02.797Z",
+  "live": true,
+  "formalHash": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "passed": 130,
+  "total": 130,
+  "checks": [
+    {
+      "name": "Latest isolated selection reproduces 62 formal / 0 pending / 52 hidden",
+      "pass": true,
+      "detail": "62/0/52"
+    },
+    {
+      "name": "Exactly the selected 33 effects remain visible; no hidden item is restored",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-2",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-2",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-2",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-7",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-7",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-7",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-12",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-12",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-12",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-19",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-19",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-19",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-22",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-22",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source local-22",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-22",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-25",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-25",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source local-25",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-25",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-30",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-30",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-30",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-31",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-31",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source local-31",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-31",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-34",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-34",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source local-34",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-34",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-35",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-35",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-35",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-37",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-37",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-37",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-38",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-38",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-38",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads local-39",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video local-39",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source local-39",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-dock",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-dock",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-dock",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-dock",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-radial",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-radial",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-radial",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-morph",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-morph",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-morph",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-pixel",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-pixel",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-pixel",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-toast",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-toast",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-toast",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-nav",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-nav",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-nav",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-nav",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-ring",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-ring",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-ring",
+      "pass": true
+    },
+    {
+      "name": "Cross-boundary release clears drag online-ring",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-ring",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-ripple",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-ripple",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-ripple",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-wave",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-wave",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-wave",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-wave",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-blur",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-blur",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-blur",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-particles",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-particles",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-particles",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-chart",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-chart",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-chart",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-book",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-book",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-book",
+      "pass": true
+    },
+    {
+      "name": "Cross-boundary release clears drag online-book",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-book",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-string",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-string",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-string",
+      "pass": true
+    },
+    {
+      "name": "Cross-boundary release clears drag online-string",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-string",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-spot",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-spot",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-spot",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-spot",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-proximity",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-proximity",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-proximity",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-proximity",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-velocity",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-velocity",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-velocity",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-velocity",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-repel",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-repel",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-repel",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-repel",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-linkimage",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-linkimage",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-linkimage",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-linkimage",
+      "pass": true
+    },
+    {
+      "name": "Preview resource loads online-swipe",
+      "pass": true
+    },
+    {
+      "name": "Real code loads rather than a video online-swipe",
+      "pass": true
+    },
+    {
+      "name": "Native input controls the mounted source online-swipe",
+      "pass": true
+    },
+    {
+      "name": "Cross-boundary release clears drag online-swipe",
+      "pass": true
+    },
+    {
+      "name": "Offscreen releases the source online-swipe",
+      "pass": true
+    },
+    {
+      "name": "Category filters real production uses brand",
+      "pass": true
+    },
+    {
+      "name": "Category filters real production uses product",
+      "pass": true
+    },
+    {
+      "name": "Category filters real production uses portfolio",
+      "pass": true
+    },
+    {
+      "name": "Category filters real production uses editorial",
+      "pass": true
+    },
+    {
+      "name": "Category filters real production uses workspace",
+      "pass": true
+    },
+    {
+      "name": "Category filters real production uses journey",
+      "pass": true
+    },
+    {
+      "name": "Selection and hide records are byte-identical after all checks",
+      "pass": true
+    },
+    {
+      "name": "No missing local resource",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "No runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ]
+}

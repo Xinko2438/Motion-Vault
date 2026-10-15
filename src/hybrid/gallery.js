@@ -194,7 +194,7 @@ function stop(){
 async function getModule(it){const url=localURL(it.asset.entry,it.asset.version);if(!moduleCache.has(url))moduleCache.set(url,import(url).catch(e=>{moduleCache.delete(url);throw e}));return moduleCache.get(url);}
 async function runLocal(stage,it,event,options={}){
  const ticket=++epoch,layer=document.createElement('div');layer.className='preview-layer';const shadow=layer.attachShadow({mode:'open'}),link=document.createElement('link'),host=document.createElement('div');
- link.rel='stylesheet';link.href=localURL('motion-vault-assets/shared/runtime.css',CATALOG.runtimeRevision||it.asset.version);host.style.cssText='position:absolute;inset:0;width:100%;height:100%';
+ link.rel='stylesheet';link.href=localURL(it.asset.style||'motion-vault-assets/shared/runtime.css',it.asset.style?it.asset.version:CATALOG.runtimeRevision||it.asset.version);host.style.cssText='position:absolute;inset:0;width:100%;height:100%';
  const vars=document.createElement('style');vars.textContent=':host{--paper:#fafaf7;--text:#20211e;--text-sub:#55594f;--text-muted:#70756a;--line:#e1e3db;--card-border:#cdd1c7;--card-bg:#fffefa;--input-bg:#e8ebe3;--accent:#375844;--viewport-bg:#e5e9df}';
  let timer=0;const loaded=new Promise((resolve,reject)=>{link.onload=resolve;link.onerror=()=>reject(new Error('Local runtime stylesheet unavailable'));timer=setTimeout(()=>reject(new Error('Local runtime stylesheet timeout')),6000)});
  const record={stage,it,layer,held:false,down:null,dispose:()=>{clearTimeout(timer);link.onload=link.onerror=null;layer.remove()}};active=record;shadow.append(vars,link,host);stage.append(layer);stage.dataset.playing='loading';

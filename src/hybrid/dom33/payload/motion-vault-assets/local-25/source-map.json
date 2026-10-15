@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/formal-items.json",
+    "startLine": null,
+    "endLine": null,
+    "code": "<div class=\"legacy-canvas legacy-25\"><div class=\"legacy-topline\"><span>MATTER / LIGHT</span><span>A TYPOGRAPHIC EXHIBITION</span></div><div class=\"shimmer-copy\"><span class=\"legacy-eyebrow\">THE SURFACE IS THE STORY.</span><div class=\"shimmer-text\">SILVER<br><em>LINING.</em></div></div><div class=\"shimmer-rules\"><i></i><i></i><i></i><i></i><i></i></div><div class=\"shimmer-footer\"><span>Studies in reflection.<br>Type, treated as material.</span><b>2026<br>01—06</b><span>MOVE THE LIGHT ↗</span></div></div>",
+    "kind": "inline CSS/HTML source"
+  }
+]

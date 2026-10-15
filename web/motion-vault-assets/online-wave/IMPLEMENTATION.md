@@ -13,16 +13,22 @@ effect.dispose();
 
 ## 维护入口
 
-实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。shared/runtime.mjs 是构建产物，不应直接修改。当前源码目录是唯一修改入口。
+实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。共享的内容寻址 runtime 文件是构建产物，不应直接修改。当前源码目录是唯一修改入口。
 
 ## 核心源码摘录与原始定位
 
-以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.mjs；布局样式在 shared/runtime.css。
+以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.eb7967a461d0.mjs；布局样式在 shared/runtime.88444c38f1d6.css。
 
-### src/hybrid/modern-engine.js:196-196
+### src/hybrid/modern-engine.js:197-197
 
 ```js
  case'wave':label='由一个点 / 向周围扩散';figure=`<svg class="x-svg x-wave" viewBox="0 0 400 260" aria-label="波纹点阵">${Array.from({length:135},(_,i)=>`<circle class="x-wave-dot" cx="${39+i%15*23}" cy="${35+Math.floor(i/15)*23}" r="3" fill="#3e6b59"/>`).join('')}</svg>`;break;
+```
+
+### src/hybrid/modern-scenes.js:23-23
+
+```js
+ case 'wave':return extra('RESONANCE / INTERACTIVE FIELD',`<div class="ad-wave-title">A signal<br>becomes a wave.</div><svg class="x-svg x-wave" viewBox="0 0 400 260" aria-label="距离驱动的波纹点阵">${Array.from({length:135},(_,i)=>`<circle class="x-wave-dot" cx="${39+i%15*23}" cy="${35+Math.floor(i/15)*23}" r="3" fill="${i%15>9?'#bdd4ff':'#4d80f2'}"/>`).join('')}</svg><div class="ad-wave-meta">09:41:00 / LIVE POINTER FIELD</div>`);
 ```
 
 ## 依赖和资源

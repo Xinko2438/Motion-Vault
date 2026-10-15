@@ -13,19 +13,19 @@ effect.dispose();
 
 ## 维护入口
 
-实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。shared/runtime.mjs 是构建产物，不应直接修改。当前源码目录是唯一修改入口。
+实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。共享的内容寻址 runtime 文件是构建产物，不应直接修改。当前源码目录是唯一修改入口。
 
 ## 核心源码摘录与原始定位
 
-以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.mjs；布局样式在 shared/runtime.css。
+以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.eb7967a461d0.mjs；布局样式在 shared/runtime.88444c38f1d6.css。
 
-### src/hybrid/modern-engine.js:203-203
+### src/hybrid/modern-engine.js:204-204
 
 ```js
  case'string':label='稍作牵引 / 然后松开';figure=`<svg class="x-svg x-string" viewBox="0 0 400 260" aria-label="可拖动的弹性线条" tabindex="0"><text x="200" y="56" text-anchor="middle">一点张力。</text>${[0,1,2].map(i=>`<path class="x-string-line" d="M36 ${125+i*17}Q200 ${125+i*17} 364 ${125+i*17}" fill="none" stroke="${['#345e4c','#86a28d','#becbbc'][i]}" stroke-width="${i===0?2:1}"/>`).join('')}<circle cx="36" cy="125" r="3" fill="#345e4c"/><circle cx="364" cy="125" r="3" fill="#345e4c"/><text x="200" y="222" text-anchor="middle">拖动线条，观察恢复。</text></svg>`;break;
 ```
 
-### src/hybrid/modern-engine.js:252-261
+### src/hybrid/modern-engine.js:253-262
 
 ```js
   function move(e){if(!drag||drag.id!==e.pointerId)return;const r=surface.getBoundingClientRect();if(key==='dial'){let a=Math.atan2(e.clientY-r.top-r.height/2,e.clientX-r.left-r.width/2)*180/Math.PI+90;if(a>180)a-=360;let value=clamp((a+135)/270*100,0,100);point={value};t=Math.acos(1-2*value/100)/(2*Math.PI);}else if(key==='string'){point={force:clamp((e.clientY-r.top)/r.height*260-125,-85,85)*2};}else{point=null;const delta=(e.clientX-drag.x)/r.width;t=key==='ring'?((drag.start+delta)%1+1)%1:clamp(drag.start-delta,0,.5);}draw();}
@@ -38,6 +38,12 @@ effect.dispose();
  draw();
 }
 
+```
+
+### src/hybrid/modern-scenes.js:30-30
+
+```js
+ case 'string':return extra('TENSION / THREE STRINGS, ONE GESTURE',`<svg class="x-svg x-string" viewBox="0 0 400 260" aria-label="可拖动的三根弹性弦" tabindex="0"><text x="32" y="57">Tension.</text><text x="363" y="56" text-anchor="end" class="ad-string-mark">III</text>${[0,1,2].map(i=>`<path class="x-string-line" d="M36 ${125+i*17}Q200 ${125+i*17} 364 ${125+i*17}" fill="none" stroke="${['#e3aa79','#bd7455','#754934'][i]}" stroke-width="${i===0?2:1}"/>`).join('')}<circle cx="36" cy="125" r="3" fill="#e3aa79"/><circle cx="364" cy="125" r="3" fill="#e3aa79"/><text x="32" y="223">PULL / RELEASE / RESONATE</text><text x="363" y="223" text-anchor="end">E — A — D</text></svg>`);
 ```
 
 ## 依赖和资源

@@ -1,9 +1,16 @@
 [
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 199,
-    "endLine": 199,
+    "startLine": 200,
+    "endLine": 200,
     "code": " case'particles':label='分散的点 / 聚成一个想法';figure=`<svg class=\"x-svg x-particles\" viewBox=\"0 0 400 260\" aria-label=\"IDEA字样由粒子聚合形成\">${particlePositions.map((p,i)=>`<circle class=\"x-particle\" cx=\"${p[0]}\" cy=\"${p[1]}\" r=\"${i%5===0?2.5:2}\" fill=\"${i%7===0?'#b6976b':'#487664'}\"/>`).join('')}<text x=\"200\" y=\"222\" text-anchor=\"middle\">从零散，到成形。</text></svg>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 26,
+    "endLine": 26,
+    "code": " case 'particles':return extra('POINT OF ORIGIN / GENERATIVE TYPE',`<svg class=\"x-svg x-particles\" viewBox=\"0 0 400 260\" aria-label=\"IDEA字样由粒子聚合形成\"><path d=\"M25 46H375M25 205H375\" stroke=\"#414c61\" stroke-width=\".5\"/>${particlePositions.map((p,i)=>`<circle class=\"x-particle\" cx=\"${p[0]}\" cy=\"${p[1]}\" r=\"${i%5===0?2.5:2}\" fill=\"${i%7===0?'#e9bf77':'#efeee5'}\"/>`).join('')}<text x=\"25\" y=\"234\">FROM PARTICLE TO POSSIBILITY</text><text x=\"374\" y=\"234\" text-anchor=\"end\">144 PT</text></svg><span class=\"ad-particle-plus\">+</span>`);",
     "role": "authoritative_editable_source"
   }
 ]

@@ -12,7 +12,9 @@
 
 鼠标悬停问号图标，解释小气泡伴随极其轻微的 4px 向上浮动淡入。
 
-在复杂表单中解释专业术语，按需索取，不占原本页面版面。
+大幅真实生成材料影像与窄侧栏参数阅读器，局部解释准确锚定术语；数值为虚拟影像参数。
+
+
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@ opacity: 0->1; transform: translateY(4px)->translateY(0);
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

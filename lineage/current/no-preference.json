@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-09T02:11:02.276Z",
+  "at": "2026-10-15T14:38:46.818Z",
   "motion": "no-preference",
   "live": false,
-  "formalHash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03",
+  "formalHash": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
   "candidateHash": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
   "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
   "passed": 241,
@@ -16,7 +16,7 @@
       "name": "Stationary hover really animates 2",
       "pass": true,
       "detail": {
-        "pixels": 4736,
+        "pixels": 26649,
         "mode": "auto"
       }
     },
@@ -28,7 +28,7 @@
       "name": "Stationary hover really animates 4",
       "pass": true,
       "detail": {
-        "pixels": 57202,
+        "pixels": 56984,
         "mode": "auto"
       }
     },
@@ -40,7 +40,7 @@
       "name": "Stationary hover really animates 7",
       "pass": true,
       "detail": {
-        "pixels": 3476,
+        "pixels": 5130,
         "mode": "auto"
       }
     },
@@ -52,7 +52,7 @@
       "name": "Stationary hover really animates 10",
       "pass": true,
       "detail": {
-        "pixels": 14160,
+        "pixels": 14214,
         "mode": "scroll"
       }
     },
@@ -64,7 +64,7 @@
       "name": "Stationary hover really animates 11",
       "pass": true,
       "detail": {
-        "pixels": 3182,
+        "pixels": 3364,
         "mode": "auto"
       }
     },
@@ -76,7 +76,7 @@
       "name": "Stationary hover really animates 12",
       "pass": true,
       "detail": {
-        "pixels": 14141,
+        "pixels": 15363,
         "mode": "scroll"
       }
     },
@@ -88,7 +88,7 @@
       "name": "Stationary hover really animates 16",
       "pass": true,
       "detail": {
-        "pixels": 11400,
+        "pixels": 13585,
         "mode": "auto"
       }
     },
@@ -112,7 +112,7 @@
       "name": "Stationary hover really animates 19",
       "pass": true,
       "detail": {
-        "pixels": 138,
+        "pixels": 497,
         "mode": "auto"
       }
     },
@@ -124,7 +124,7 @@
       "name": "Stationary hover really animates 22",
       "pass": true,
       "detail": {
-        "pixels": 5269,
+        "pixels": 9017,
         "mode": "pointer"
       }
     },
@@ -136,7 +136,7 @@
       "name": "Stationary hover really animates 24",
       "pass": true,
       "detail": {
-        "pixels": 7938,
+        "pixels": 7863,
         "mode": "auto"
       }
     },
@@ -148,7 +148,7 @@
       "name": "Stationary hover really animates 25",
       "pass": true,
       "detail": {
-        "pixels": 954,
+        "pixels": 5645,
         "mode": "pointer"
       }
     },
@@ -160,7 +160,7 @@
       "name": "Stationary hover really animates 28",
       "pass": true,
       "detail": {
-        "pixels": 47516,
+        "pixels": 47347,
         "mode": "click"
       }
     },
@@ -172,7 +172,7 @@
       "name": "Stationary hover really animates 30",
       "pass": true,
       "detail": {
-        "pixels": 762,
+        "pixels": 417,
         "mode": "auto"
       }
     },
@@ -184,7 +184,7 @@
       "name": "Stationary hover really animates 31",
       "pass": true,
       "detail": {
-        "pixels": 14976,
+        "pixels": 15750,
         "mode": "pointer"
       }
     },
@@ -208,7 +208,7 @@
       "name": "Stationary hover really animates 34",
       "pass": true,
       "detail": {
-        "pixels": 4928,
+        "pixels": 2225,
         "mode": "pointer"
       }
     },
@@ -220,7 +220,7 @@
       "name": "Stationary hover really animates 35",
       "pass": true,
       "detail": {
-        "pixels": 372,
+        "pixels": 1406,
         "mode": "auto"
       }
     },
@@ -244,7 +244,7 @@
       "name": "Stationary hover really animates 37",
       "pass": true,
       "detail": {
-        "pixels": 96425,
+        "pixels": 89977,
         "mode": "auto"
       }
     },
@@ -256,7 +256,7 @@
       "name": "Stationary hover really animates 38",
       "pass": true,
       "detail": {
-        "pixels": 4700,
+        "pixels": 5025,
         "mode": "auto"
       }
     },
@@ -268,7 +268,7 @@
       "name": "Stationary hover really animates 39",
       "pass": true,
       "detail": {
-        "pixels": 1800,
+        "pixels": 3276,
         "mode": "auto"
       }
     },
@@ -292,7 +292,7 @@
       "name": "Stationary hover really animates online-grid",
       "pass": true,
       "detail": {
-        "pixels": 65193,
+        "pixels": 67237,
         "mode": "drag"
       }
     },
@@ -304,7 +304,7 @@
       "name": "Stationary hover really animates online-dock",
       "pass": true,
       "detail": {
-        "pixels": 3409,
+        "pixels": 3913,
         "mode": "pointer"
       }
     },
@@ -336,7 +336,7 @@
       "name": "Stationary hover really animates online-morph",
       "pass": true,
       "detail": {
-        "pixels": 4356,
+        "pixels": 4605,
         "mode": "auto"
       }
     },
@@ -348,7 +348,7 @@
       "name": "Stationary hover really animates online-pixel",
       "pass": true,
       "detail": {
-        "pixels": 762,
+        "pixels": 613,
         "mode": "auto"
       }
     },
@@ -360,7 +360,7 @@
       "name": "Stationary hover really animates online-sheet",
       "pass": true,
       "detail": {
-        "pixels": 18936,
+        "pixels": 19800,
         "mode": "drag"
       }
     },
@@ -372,7 +372,7 @@
       "name": "Stationary hover really animates online-toast",
       "pass": true,
       "detail": {
-        "pixels": 3533,
+        "pixels": 2055,
         "mode": "click"
       }
     },
@@ -384,7 +384,7 @@
       "name": "Stationary hover really animates online-nav",
       "pass": true,
       "detail": {
-        "pixels": 7535,
+        "pixels": 1520,
         "mode": "pointer"
       }
     },
@@ -396,7 +396,7 @@
       "name": "Stationary hover really animates online-ring",
       "pass": true,
       "detail": {
-        "pixels": 25775,
+        "pixels": 45717,
         "mode": "drag"
       }
     },
@@ -408,7 +408,7 @@
       "name": "Stationary hover really animates online-lens",
       "pass": true,
       "detail": {
-        "pixels": 4348,
+        "pixels": 4352,
         "mode": "pointer"
       }
     },
@@ -420,7 +420,7 @@
       "name": "Stationary hover really animates online-ripple",
       "pass": true,
       "detail": {
-        "pixels": 32756,
+        "pixels": 75307,
         "mode": "auto"
       }
     },
@@ -432,7 +432,7 @@
       "name": "Stationary hover really animates online-wave",
       "pass": true,
       "detail": {
-        "pixels": 8467,
+        "pixels": 4830,
         "mode": "pointer"
       }
     },
@@ -456,7 +456,7 @@
       "name": "Stationary hover really animates online-blur",
       "pass": true,
       "detail": {
-        "pixels": 1916,
+        "pixels": 3397,
         "mode": "auto"
       }
     },
@@ -468,7 +468,7 @@
       "name": "Stationary hover really animates online-particles",
       "pass": true,
       "detail": {
-        "pixels": 4180,
+        "pixels": 3844,
         "mode": "auto"
       }
     },
@@ -480,7 +480,7 @@
       "name": "Stationary hover really animates online-chart",
       "pass": true,
       "detail": {
-        "pixels": 2637,
+        "pixels": 2054,
         "mode": "click"
       }
     },
@@ -492,7 +492,7 @@
       "name": "Stationary hover really animates online-dial",
       "pass": true,
       "detail": {
-        "pixels": 744,
+        "pixels": 799,
         "mode": "drag"
       }
     },
@@ -504,7 +504,7 @@
       "name": "Stationary hover really animates online-book",
       "pass": true,
       "detail": {
-        "pixels": 21605,
+        "pixels": 26064,
         "mode": "drag"
       }
     },
@@ -516,7 +516,7 @@
       "name": "Stationary hover really animates online-string",
       "pass": true,
       "detail": {
-        "pixels": 3001,
+        "pixels": 3285,
         "mode": "drag"
       }
     },
@@ -540,7 +540,7 @@
       "name": "Stationary hover really animates online-spot",
       "pass": true,
       "detail": {
-        "pixels": 14883,
+        "pixels": 15118,
         "mode": "pointer"
       }
     },
@@ -552,7 +552,7 @@
       "name": "Stationary hover really animates online-proximity",
       "pass": true,
       "detail": {
-        "pixels": 2956,
+        "pixels": 3197,
         "mode": "pointer"
       }
     },
@@ -564,7 +564,7 @@
       "name": "Stationary hover really animates online-velocity",
       "pass": true,
       "detail": {
-        "pixels": 3805,
+        "pixels": 1932,
         "mode": "pointer"
       }
     },
@@ -576,7 +576,7 @@
       "name": "Stationary hover really animates online-repel",
       "pass": true,
       "detail": {
-        "pixels": 1295,
+        "pixels": 1822,
         "mode": "pointer"
       }
     },
@@ -588,7 +588,7 @@
       "name": "Stationary hover really animates online-linkimage",
       "pass": true,
       "detail": {
-        "pixels": 19517,
+        "pixels": 22083,
         "mode": "pointer"
       }
     },
@@ -600,7 +600,7 @@
       "name": "Stationary hover really animates online-peel",
       "pass": true,
       "detail": {
-        "pixels": 1334,
+        "pixels": 1289,
         "mode": "drag"
       }
     },
@@ -612,7 +612,7 @@
       "name": "Stationary hover really animates online-bezier",
       "pass": true,
       "detail": {
-        "pixels": 3297,
+        "pixels": 3305,
         "mode": "drag"
       }
     },
@@ -624,7 +624,7 @@
       "name": "Stationary hover really animates online-swipe",
       "pass": true,
       "detail": {
-        "pixels": 1611,
+        "pixels": 2009,
         "mode": "drag"
       }
     },
@@ -636,7 +636,7 @@
       "name": "Stationary hover really animates online-blinds",
       "pass": true,
       "detail": {
-        "pixels": 1236,
+        "pixels": 1152,
         "mode": "auto"
       }
     },
@@ -684,7 +684,7 @@
       "name": "Stationary hover really animates online-contours",
       "pass": true,
       "detail": {
-        "pixels": 32435,
+        "pixels": 31408,
         "mode": "auto"
       }
     },
@@ -708,7 +708,7 @@
       "name": "Stationary hover really animates online-hold",
       "pass": true,
       "detail": {
-        "pixels": 3895,
+        "pixels": 3806,
         "mode": "click"
       }
     },
@@ -720,7 +720,7 @@
       "name": "Stationary hover really animates online-color",
       "pass": true,
       "detail": {
-        "pixels": 4696,
+        "pixels": 4722,
         "mode": "drag"
       }
     },

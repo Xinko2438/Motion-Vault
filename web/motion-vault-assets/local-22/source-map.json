@@ -3,7 +3,7 @@
     "path": "src/hybrid/formal-items.json",
     "startLine": null,
     "endLine": null,
-    "code": "<div class=\"tilt-box\">实体晶片质感</div>",
+    "code": "<div class=\"legacy-canvas legacy-22\"><div class=\"legacy-topline\"><span><b>EDITION / MATERIAL STUDIES</b></span><span>MOVE TO FEEL THE SURFACE</span></div><div class=\"tilt-box\"><div class=\"paper-fiber\"></div><div class=\"edition-mark\">e.</div><span class=\"edition-type\">TACTILE<br>EDITION</span><div class=\"edition-number\">No. 048 <span>UNCOATED / 350 GSM</span></div><div class=\"edition-foil\"></div></div><div class=\"edition-footer\"><span>Paper, with presence.</span><span>01 / NATURAL WHITE</span></div></div>",
     "kind": "inline CSS/HTML source"
   }
 ]

@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 203,
+    "endLine": 203,
+    "code": " case'book':label='翻过一页 / 另一段风景';figure=`<div class=\"x-book\"><div class=\"x-book-page x-book-left\">${art(5)}<span>沿途 / 01</span></div><div class=\"x-book-page x-book-right\">${art(2)}<span>远处 / 04</span></div><div class=\"x-book-turn\"><div class=\"x-book-face x-book-front\">${art(0)}<span>山的轮廓 / 02</span></div><div class=\"x-book-face x-book-back\">${art(3)}<span>暮色 / 03</span></div></div></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 29,
+    "endLine": 29,
+    "code": " case 'book':return extra('HERBARIUM / A BOOK OF SMALL THINGS',`<div class=\"x-book\"><div class=\"x-book-page x-book-left ad-book-title\"><small>FIELD STUDIES / VOL. II</small><h2>The<br>quiet<br><i>garden.</i></h2><p>Notes on colour,<br>light and impermanence.</p><span>01 — FOREWORD</span></div><div class=\"x-book-page x-book-right\">${sceneArt(2,{portrait:true})}<span>04 / WINTER LIGHT</span></div><div class=\"x-book-turn\"><div class=\"x-book-face x-book-front\">${sceneArt(3,{portrait:true})}<span>02 / IN BLOOM</span></div><div class=\"x-book-face x-book-back\">${sceneArt(2,{portrait:true})}<span>03 / AFTER THE FLOWER</span></div></div></div><div class=\"ad-book-side\">HERBARIUM<br><small>Turn the page →</small></div>`);",
+    "role": "authoritative_editable_source"
+  }
+]

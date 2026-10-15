@@ -3,9 +3,15 @@ import {runInNewContext} from 'node:vm';
 import {REVIEWED_OFL_FONTS,isReviewedFontDirectoryAsset,assertPublishableAssetBytes} from '../scripts/release-asset-policy.mjs';
 import {verifyExpansionIntegration} from '../scripts/expansion-integration-gate.mjs';
 import {verifyAutomaticPublication,verifyCurrentDeltaPublication} from './publication-evidence.mjs';
-const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),read=f=>readFile(path.join(root,f),'utf8'),sha=b=>createHash('sha256').update(b).digest('hex');
+import {verifyReviewedCandidate,inventory} from '../scripts/artifact-phase.mjs';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),candidatePhase=process.env.MOTION_VAULT_PHASE==='candidate';
+if(process.env.MOTION_VAULT_PHASE&&!['candidate','published'].includes(process.env.MOTION_VAULT_PHASE))throw Error('Unknown artifact phase');
+if(process.env.MOTION_VAULT_TEST_ROOT&&!candidatePhase)throw Error('An alternate test root is only valid in explicit candidate phase');
+if(process.env.MOTION_VAULT_TEST_WEB&&!candidatePhase)throw Error('Alternate web root requires explicit candidate phase');
+const root=candidatePhase?path.resolve(process.env.MOTION_VAULT_TEST_ROOT||project):project,webRoot=process.env.MOTION_VAULT_TEST_WEB?path.resolve(process.env.MOTION_VAULT_TEST_WEB):path.join(root,'web'),filePath=f=>f.startsWith('web/')?path.join(webRoot,f.slice(4)):path.join(root,f),read=f=>readFile(filePath(f),'utf8'),sha=b=>createHash('sha256').update(b).digest('hex');
+const candidateIntegrity=candidatePhase?await verifyReviewedCandidate(project,webRoot,{staged:!!process.env.MOTION_VAULT_TEST_WEB}):null;
 const formal=JSON.parse(await read('web/catalog.json')),candidate=JSON.parse(await read('web/candidate-catalog.json')),html=await read('web/index.html'),redirectHTML=await read('candidates/curated-originals/index.html'),receipt=JSON.parse(await read('lineage/current/install-receipt.json'));
-const query=(...args)=>JSON.parse(execFileSync(process.execPath,['scripts/query-vault.mjs',...args,'--json'],{cwd:root,encoding:'utf8',windowsHide:true,stdio:'pipe',maxBuffer:4*1024*1024,timeout:60000}));
+const query=(...args)=>JSON.parse(execFileSync(process.execPath,['scripts/query-vault.mjs',...args,...(process.env.MOTION_VAULT_TEST_WEB?['--root',path.relative(root,webRoot)]:[]),'--json'],{cwd:root,encoding:'utf8',windowsHide:true,stdio:'pipe',maxBuffer:4*1024*1024,timeout:60000}));
 test('Formal IDs and explicit deletions are preserved',()=>{assert.equal(formal.count,60);assert.equal(new Set(formal.items.map(i=>String(i.id))).size,60);for(const id of ['online-command','online-tree','online-range','online-zoom','online-carousel','online-marquee','online-slider','online-trail','online-fold','online-echo','online-path','online-warp','online-moire',1,3,5,6,8,9,13,14,15,17,20,21,23,26,27,29,32])assert.ok(!formal.items.some(i=>i.id===id));});
 test('All formal sources, runnable entries and previews remain intact',()=>{assert.ok(formal.items.every(i=>i.asset?.entry&&i.asset.run&&i.asset.design&&i.asset.implementation&&i.asset.poster));assert.equal(formal.items.filter(i=>i.asset.video).length,14);assert.ok(query('verify').result.every(i=>i.ready&&i.checkedFiles>=10));});
 test('Original recorded candidates and additive pending sources stay distinct from approval',()=>{
@@ -23,6 +29,7 @@ test('Rejected or unknown references are never silently restored',()=>{assert.th
 test('Private curator notes stay outside production outputs',async()=>{const p=JSON.parse(await read('curation/formal-merge/private/review-decision.json'));for(const note of Object.values(p.privateNotes))for(const text of [html,redirectHTML,JSON.stringify(formal),JSON.stringify(candidate)])assert.ok(!text.includes(note));for(const c of [formal,candidate])for(const i of c.items)for(const k of ['note','notes','hidden','events','user_preference'])assert.ok(!(k in i));assert.ok(html.includes('motion-vault-curated-originals-30-v1'));assert.ok(html.includes('id="reviewNote"'));assert.ok(!redirectHTML.includes('reviewNote'));assert.equal(query('search').privateCurationIncluded,false);});
 test('Source demos keep their isolation in the unified page; hover loads only local previews',()=>{assert.match(html,/frame\.sandbox\s*=\s*['"]allow-scripts['"]/);assert.ok(html.includes('createSourceBroker(frame,it,channel)'));assert.ok(!html.includes('allow-same-origin'));assert.ok(!html.includes('frame.src=it.demo_url'));assert.ok(!html.includes('object-index'));assert.ok(html.includes('id="taskTabs"'));assert.ok(!html.includes('id="taskFilter"'));});
 test('Published pages correspond to the currently validated staged artifacts',async()=>{
+ if(candidatePhase){assert.equal(candidateIntegrity.verified,true);assert.equal(candidateIntegrity.publicationVerified,false);assert.equal(candidateIntegrity.phase,'candidate');return;}
  const compatibility=JSON.parse(await read('src/hybrid/source-expansion-compatibility.json'));
  const registry=JSON.parse(await read('src/hybrid/source-expansion-catalog.json'));
  const mode=verifyExpansionIntegration({compatibility,registry,formal,candidates:candidate,galleryHTML:html,redirectHTML}).mode;
@@ -36,10 +43,12 @@ test('Published pages correspond to the currently validated staged artifacts',as
  }
 });
 test('Public inventory permits only exact reviewed OFL fonts and excludes private/obsolete builds',async()=>{
- const inv=JSON.parse(await read('lineage/current/asset-inventory.json'));assert.equal(inv.files.length,receipt.assetFiles);
+ const inv=candidatePhase?{files:candidateIntegrity.files}:JSON.parse(await read('lineage/current/asset-inventory.json'));
+ if(candidatePhase)assert.equal(inv.files.length,Object.keys(JSON.parse(await readFile(path.join(project,'src/hybrid/dom33/promotion-plan.json'),'utf8')).finalInventory).filter(f=>f.startsWith('motion-vault-assets/')).length);
+ else {assert.equal(inv.files.length,receipt.assetFiles);const actual=await inventory(path.join(root,'web/motion-vault-assets'));assert.deepEqual(inv.files.map(f=>f.file).sort(),actual.files.map(f=>f.file).sort());}
  for(const f of inv.files){
   assert.doesNotMatch(f.file,/(^|\/)(private|node_modules|dist)\//i);
-  const file=path.join(root,'web/motion-vault-assets',f.file);assert.equal((await stat(file)).size,f.bytes);
+  const file=path.join(webRoot,'motion-vault-assets',f.file);assert.equal((await stat(file)).size,f.bytes);assert.equal(sha(await readFile(file)),f.sha256,f.file);
   if(/(^|\/)fonts?\/|\.(woff2?|ttf|otf|eot)$/i.test(f.file)){
    const bytes=await readFile(file),actual=sha(bytes);assert.equal(isReviewedFontDirectoryAsset(f.file,actual),true,f.file);assert.equal(f.sha256,actual);assertPublishableAssetBytes(f.file,bytes);
    const row=REVIEWED_OFL_FONTS.find(row=>row.paths.includes(f.file));if(row){assert.ok(inv.files.some(record=>record.file===row.noticePath),'Font license must also be published');

@@ -1,0 +1,23 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 204,
+    "endLine": 204,
+    "code": " case'string':label='稍作牵引 / 然后松开';figure=`<svg class=\"x-svg x-string\" viewBox=\"0 0 400 260\" aria-label=\"可拖动的弹性线条\" tabindex=\"0\"><text x=\"200\" y=\"56\" text-anchor=\"middle\">一点张力。</text>${[0,1,2].map(i=>`<path class=\"x-string-line\" d=\"M36 ${125+i*17}Q200 ${125+i*17} 364 ${125+i*17}\" fill=\"none\" stroke=\"${['#345e4c','#86a28d','#becbbc'][i]}\" stroke-width=\"${i===0?2:1}\"/>`).join('')}<circle cx=\"36\" cy=\"125\" r=\"3\" fill=\"#345e4c\"/><circle cx=\"364\" cy=\"125\" r=\"3\" fill=\"#345e4c\"/><text x=\"200\" y=\"222\" text-anchor=\"middle\">拖动线条，观察恢复。</text></svg>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 253,
+    "endLine": 262,
+    "code": "  function move(e){if(!drag||drag.id!==e.pointerId)return;const r=surface.getBoundingClientRect();if(key==='dial'){let a=Math.atan2(e.clientY-r.top-r.height/2,e.clientX-r.left-r.width/2)*180/Math.PI+90;if(a>180)a-=360;let value=clamp((a+135)/270*100,0,100);point={value};t=Math.acos(1-2*value/100)/(2*Math.PI);}else if(key==='string'){point={force:clamp((e.clientY-r.top)/r.height*260-125,-85,85)*2};}else{point=null;const delta=(e.clientX-drag.x)/r.width;t=key==='ring'?((drag.start+delta)%1+1)%1:clamp(drag.start-delta,0,.5);}draw();}\n  L.on(surface,'pointerdown',e=>{if(e.button!==0||e.target.closest('button'))return;stop();surface.focus({preventScroll:true});surface.setPointerCapture(e.pointerId);drag={id:e.pointerId,x:e.clientX,start:t};move(e);});L.on(surface,'pointermove',move);\n  function end(e){if(!drag||drag.id!==e.pointerId)return;drag=null;if(key==='dial'){point.value=Math.round(point.value);draw();}if(key==='string'){const force=point?.force||0,start=performance.now();function recover(now){if(L.disposed)return;let s=(now-start)/1000;point={force:reduce.matches?0:force*Math.exp(-s*5)*Math.cos(s*16)};draw();if(!reduce.matches&&s<1.5)raf=L.frame(recover);}raf=L.frame(recover);}}\n  L.on(surface,'pointerup',end);L.on(surface,'pointercancel',end);L.on(surface,'lostpointercapture',end);\n  L.on(surface,'keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key))return;e.preventDefault();stop();point=null;t=e.key==='Home'?0:e.key==='End'?.5:clamp(t+(['ArrowLeft','ArrowDown'].includes(e.key)?-.02:.02),0,1);draw();});\n }\n L.on(document,'visibilitychange',()=>{if(document.hidden)stop();});L.on(reduce,'change',()=>{if(reduce.matches){stop();point=null;t=.5;draw();}});\n draw();\n}\n",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 30,
+    "endLine": 30,
+    "code": " case 'string':return extra('TENSION / THREE STRINGS, ONE GESTURE',`<svg class=\"x-svg x-string\" viewBox=\"0 0 400 260\" aria-label=\"可拖动的三根弹性弦\" tabindex=\"0\"><text x=\"32\" y=\"57\">Tension.</text><text x=\"363\" y=\"56\" text-anchor=\"end\" class=\"ad-string-mark\">III</text>${[0,1,2].map(i=>`<path class=\"x-string-line\" d=\"M36 ${125+i*17}Q200 ${125+i*17} 364 ${125+i*17}\" fill=\"none\" stroke=\"${['#e3aa79','#bd7455','#754934'][i]}\" stroke-width=\"${i===0?2:1}\"/>`).join('')}<circle cx=\"36\" cy=\"125\" r=\"3\" fill=\"#e3aa79\"/><circle cx=\"364\" cy=\"125\" r=\"3\" fill=\"#e3aa79\"/><text x=\"32\" y=\"223\">PULL / RELEASE / RESONATE</text><text x=\"363\" y=\"223\" text-anchor=\"end\">E — A — D</text></svg>`);",
+    "role": "authoritative_editable_source"
+  }
+]

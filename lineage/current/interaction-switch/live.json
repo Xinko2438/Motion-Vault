@@ -1,9 +1,9 @@
 {
-  "runId": "0c84c253-26d3-4913-83b0-da73c9fdcc2e",
-  "startedAt": "2026-10-09T06:25:01.458Z",
-  "at": "2026-10-09T06:25:16.543Z",
+  "runId": "5bbd6a0d-e53b-4c97-9808-a157edb9de48",
+  "startedAt": "2026-10-15T14:57:21.089Z",
+  "at": "2026-10-15T14:57:42.867Z",
   "live": true,
-  "formalHash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03",
+  "formalHash": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
   "passed": 31,
   "total": 31,
   "checks": [
@@ -67,7 +67,7 @@
           "transform": "none"
         },
         "after": {
-          "opacity": "0.9962",
+          "opacity": "0.9956",
           "visibility": "visible",
           "transform": "none"
         }
