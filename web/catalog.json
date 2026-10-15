@@ -90,21 +90,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-2",
-        "version": "1869e8639501b44e",
-        "manifest": "motion-vault-assets/local-2/asset.json",
-        "entry": "motion-vault-assets/local-2/entry.mjs",
-        "run": "motion-vault-assets/local-2/index.html",
-        "design": "motion-vault-assets/local-2/DESIGN.md",
-        "implementation": "motion-vault-assets/local-2/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-2/parameters.json",
-        "poster": "motion-vault-assets/local-2/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-2","version":"8a4f8f30d063f483","manifest":"motion-vault-assets/local-2/asset.json","entry":"motion-vault-assets/local-2/entry.mjs","run":"motion-vault-assets/local-2/index.html","design":"motion-vault-assets/local-2/DESIGN.md","implementation":"motion-vault-assets/local-2/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-2/parameters.json","poster":"motion-vault-assets/local-2/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 4,
@@ -160,21 +146,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-7",
-        "version": "e55e5aea03230160",
-        "manifest": "motion-vault-assets/local-7/asset.json",
-        "entry": "motion-vault-assets/local-7/entry.mjs",
-        "run": "motion-vault-assets/local-7/index.html",
-        "design": "motion-vault-assets/local-7/DESIGN.md",
-        "implementation": "motion-vault-assets/local-7/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-7/parameters.json",
-        "poster": "motion-vault-assets/local-7/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-7","version":"4e7cec21582b4878","manifest":"motion-vault-assets/local-7/asset.json","entry":"motion-vault-assets/local-7/entry.mjs","run":"motion-vault-assets/local-7/index.html","design":"motion-vault-assets/local-7/DESIGN.md","implementation":"motion-vault-assets/local-7/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-7/parameters.json","poster":"motion-vault-assets/local-7/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 10,
@@ -265,21 +237,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-12",
-        "version": "5c0e7012316b2ae7",
-        "manifest": "motion-vault-assets/local-12/asset.json",
-        "entry": "motion-vault-assets/local-12/entry.mjs",
-        "run": "motion-vault-assets/local-12/index.html",
-        "design": "motion-vault-assets/local-12/DESIGN.md",
-        "implementation": "motion-vault-assets/local-12/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-12/parameters.json",
-        "poster": "motion-vault-assets/local-12/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-12","version":"d524950dcb08cdbe","manifest":"motion-vault-assets/local-12/asset.json","entry":"motion-vault-assets/local-12/entry.mjs","run":"motion-vault-assets/local-12/index.html","design":"motion-vault-assets/local-12/DESIGN.md","implementation":"motion-vault-assets/local-12/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-12/parameters.json","poster":"motion-vault-assets/local-12/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 16,
@@ -370,21 +328,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-19",
-        "version": "1a8ee7363461c994",
-        "manifest": "motion-vault-assets/local-19/asset.json",
-        "entry": "motion-vault-assets/local-19/entry.mjs",
-        "run": "motion-vault-assets/local-19/index.html",
-        "design": "motion-vault-assets/local-19/DESIGN.md",
-        "implementation": "motion-vault-assets/local-19/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-19/parameters.json",
-        "poster": "motion-vault-assets/local-19/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-19","version":"43eb4e81681dac04","manifest":"motion-vault-assets/local-19/asset.json","entry":"motion-vault-assets/local-19/entry.mjs","run":"motion-vault-assets/local-19/index.html","design":"motion-vault-assets/local-19/DESIGN.md","implementation":"motion-vault-assets/local-19/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-19/parameters.json","poster":"motion-vault-assets/local-19/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 22,
@@ -405,21 +349,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-22",
-        "version": "5da0da8fa720b23e",
-        "manifest": "motion-vault-assets/local-22/asset.json",
-        "entry": "motion-vault-assets/local-22/entry.mjs",
-        "run": "motion-vault-assets/local-22/index.html",
-        "design": "motion-vault-assets/local-22/DESIGN.md",
-        "implementation": "motion-vault-assets/local-22/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-22/parameters.json",
-        "poster": "motion-vault-assets/local-22/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-22","version":"4047f797125b8801","manifest":"motion-vault-assets/local-22/asset.json","entry":"motion-vault-assets/local-22/entry.mjs","run":"motion-vault-assets/local-22/index.html","design":"motion-vault-assets/local-22/DESIGN.md","implementation":"motion-vault-assets/local-22/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-22/parameters.json","poster":"motion-vault-assets/local-22/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 24,
@@ -475,21 +405,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-25",
-        "version": "bd126eb837806e43",
-        "manifest": "motion-vault-assets/local-25/asset.json",
-        "entry": "motion-vault-assets/local-25/entry.mjs",
-        "run": "motion-vault-assets/local-25/index.html",
-        "design": "motion-vault-assets/local-25/DESIGN.md",
-        "implementation": "motion-vault-assets/local-25/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-25/parameters.json",
-        "poster": "motion-vault-assets/local-25/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-25","version":"a44a6c6172fe81e2","manifest":"motion-vault-assets/local-25/asset.json","entry":"motion-vault-assets/local-25/entry.mjs","run":"motion-vault-assets/local-25/index.html","design":"motion-vault-assets/local-25/DESIGN.md","implementation":"motion-vault-assets/local-25/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-25/parameters.json","poster":"motion-vault-assets/local-25/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 28,
@@ -545,21 +461,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-30",
-        "version": "9d635cd3c960dcba",
-        "manifest": "motion-vault-assets/local-30/asset.json",
-        "entry": "motion-vault-assets/local-30/entry.mjs",
-        "run": "motion-vault-assets/local-30/index.html",
-        "design": "motion-vault-assets/local-30/DESIGN.md",
-        "implementation": "motion-vault-assets/local-30/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-30/parameters.json",
-        "poster": "motion-vault-assets/local-30/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-30","version":"5ee03b313af4ed12","manifest":"motion-vault-assets/local-30/asset.json","entry":"motion-vault-assets/local-30/entry.mjs","run":"motion-vault-assets/local-30/index.html","design":"motion-vault-assets/local-30/DESIGN.md","implementation":"motion-vault-assets/local-30/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-30/parameters.json","poster":"motion-vault-assets/local-30/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 31,
@@ -580,21 +482,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-31",
-        "version": "dbaa80732daa7246",
-        "manifest": "motion-vault-assets/local-31/asset.json",
-        "entry": "motion-vault-assets/local-31/entry.mjs",
-        "run": "motion-vault-assets/local-31/index.html",
-        "design": "motion-vault-assets/local-31/DESIGN.md",
-        "implementation": "motion-vault-assets/local-31/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-31/parameters.json",
-        "poster": "motion-vault-assets/local-31/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-31","version":"6de046b9165e47da","manifest":"motion-vault-assets/local-31/asset.json","entry":"motion-vault-assets/local-31/entry.mjs","run":"motion-vault-assets/local-31/index.html","design":"motion-vault-assets/local-31/DESIGN.md","implementation":"motion-vault-assets/local-31/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-31/parameters.json","poster":"motion-vault-assets/local-31/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 33,
@@ -650,21 +538,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-34",
-        "version": "ac1a4ff94e6e8f4c",
-        "manifest": "motion-vault-assets/local-34/asset.json",
-        "entry": "motion-vault-assets/local-34/entry.mjs",
-        "run": "motion-vault-assets/local-34/index.html",
-        "design": "motion-vault-assets/local-34/DESIGN.md",
-        "implementation": "motion-vault-assets/local-34/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-34/parameters.json",
-        "poster": "motion-vault-assets/local-34/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-34","version":"c70c65f25742c0e3","manifest":"motion-vault-assets/local-34/asset.json","entry":"motion-vault-assets/local-34/entry.mjs","run":"motion-vault-assets/local-34/index.html","design":"motion-vault-assets/local-34/DESIGN.md","implementation":"motion-vault-assets/local-34/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-34/parameters.json","poster":"motion-vault-assets/local-34/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 35,
@@ -685,21 +559,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-35",
-        "version": "c230183a78614487",
-        "manifest": "motion-vault-assets/local-35/asset.json",
-        "entry": "motion-vault-assets/local-35/entry.mjs",
-        "run": "motion-vault-assets/local-35/index.html",
-        "design": "motion-vault-assets/local-35/DESIGN.md",
-        "implementation": "motion-vault-assets/local-35/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-35/parameters.json",
-        "poster": "motion-vault-assets/local-35/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-35","version":"b93cc57cd0eaa1e8","manifest":"motion-vault-assets/local-35/asset.json","entry":"motion-vault-assets/local-35/entry.mjs","run":"motion-vault-assets/local-35/index.html","design":"motion-vault-assets/local-35/DESIGN.md","implementation":"motion-vault-assets/local-35/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-35/parameters.json","poster":"motion-vault-assets/local-35/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 36,
@@ -755,21 +615,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-37",
-        "version": "d897a871e122e530",
-        "manifest": "motion-vault-assets/local-37/asset.json",
-        "entry": "motion-vault-assets/local-37/entry.mjs",
-        "run": "motion-vault-assets/local-37/index.html",
-        "design": "motion-vault-assets/local-37/DESIGN.md",
-        "implementation": "motion-vault-assets/local-37/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-37/parameters.json",
-        "poster": "motion-vault-assets/local-37/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-37","version":"6774fccc9bdcab17","manifest":"motion-vault-assets/local-37/asset.json","entry":"motion-vault-assets/local-37/entry.mjs","run":"motion-vault-assets/local-37/index.html","design":"motion-vault-assets/local-37/DESIGN.md","implementation":"motion-vault-assets/local-37/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-37/parameters.json","poster":"motion-vault-assets/local-37/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 38,
@@ -790,21 +636,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-38",
-        "version": "255e83f6ee1ca8a1",
-        "manifest": "motion-vault-assets/local-38/asset.json",
-        "entry": "motion-vault-assets/local-38/entry.mjs",
-        "run": "motion-vault-assets/local-38/index.html",
-        "design": "motion-vault-assets/local-38/DESIGN.md",
-        "implementation": "motion-vault-assets/local-38/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-38/parameters.json",
-        "poster": "motion-vault-assets/local-38/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-38","version":"8db442f4759c7255","manifest":"motion-vault-assets/local-38/asset.json","entry":"motion-vault-assets/local-38/entry.mjs","run":"motion-vault-assets/local-38/index.html","design":"motion-vault-assets/local-38/DESIGN.md","implementation":"motion-vault-assets/local-38/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-38/parameters.json","poster":"motion-vault-assets/local-38/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 39,
@@ -825,21 +657,7 @@
       "source_kind": "independent_code",
       "source_name": "既有本地代码演示",
       "source_url": null,
-      "asset": {
-        "id": "local-39",
-        "version": "7be0012fee62e53f",
-        "manifest": "motion-vault-assets/local-39/asset.json",
-        "entry": "motion-vault-assets/local-39/entry.mjs",
-        "run": "motion-vault-assets/local-39/index.html",
-        "design": "motion-vault-assets/local-39/DESIGN.md",
-        "implementation": "motion-vault-assets/local-39/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/local-39/parameters.json",
-        "poster": "motion-vault-assets/local-39/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"local-39","version":"85bb9ddf23870b2b","manifest":"motion-vault-assets/local-39/asset.json","entry":"motion-vault-assets/local-39/entry.mjs","run":"motion-vault-assets/local-39/index.html","design":"motion-vault-assets/local-39/DESIGN.md","implementation":"motion-vault-assets/local-39/IMPLEMENTATION.md","parameters":"motion-vault-assets/local-39/parameters.json","poster":"motion-vault-assets/local-39/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": 40,
@@ -941,21 +759,7 @@
         "距离感应",
         "阻尼"
       ],
-      "asset": {
-        "id": "online-dock",
-        "version": "9856deea913c2c0a",
-        "manifest": "motion-vault-assets/online-dock/asset.json",
-        "entry": "motion-vault-assets/online-dock/entry.mjs",
-        "run": "motion-vault-assets/online-dock/index.html",
-        "design": "motion-vault-assets/online-dock/DESIGN.md",
-        "implementation": "motion-vault-assets/online-dock/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-dock/parameters.json",
-        "poster": "motion-vault-assets/online-dock/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-dock","version":"2b0cc3290d1b8123","manifest":"motion-vault-assets/online-dock/asset.json","entry":"motion-vault-assets/online-dock/entry.mjs","run":"motion-vault-assets/online-dock/index.html","design":"motion-vault-assets/online-dock/DESIGN.md","implementation":"motion-vault-assets/online-dock/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-dock/parameters.json","poster":"motion-vault-assets/online-dock/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-radial",
@@ -982,21 +786,7 @@
         "扇形布局",
         "键盘"
       ],
-      "asset": {
-        "id": "online-radial",
-        "version": "3356ca8c3c1ad534",
-        "manifest": "motion-vault-assets/online-radial/asset.json",
-        "entry": "motion-vault-assets/online-radial/entry.mjs",
-        "run": "motion-vault-assets/online-radial/index.html",
-        "design": "motion-vault-assets/online-radial/DESIGN.md",
-        "implementation": "motion-vault-assets/online-radial/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-radial/parameters.json",
-        "poster": "motion-vault-assets/online-radial/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-radial","version":"4d8fdf3dc45c2f57","manifest":"motion-vault-assets/online-radial/asset.json","entry":"motion-vault-assets/online-radial/entry.mjs","run":"motion-vault-assets/online-radial/index.html","design":"motion-vault-assets/online-radial/DESIGN.md","implementation":"motion-vault-assets/online-radial/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-radial/parameters.json","poster":"motion-vault-assets/online-radial/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-draw",
@@ -1063,21 +853,7 @@
         "路径插值",
         "连续形态"
       ],
-      "asset": {
-        "id": "online-morph",
-        "version": "d0949409414a5f8d",
-        "manifest": "motion-vault-assets/online-morph/asset.json",
-        "entry": "motion-vault-assets/online-morph/entry.mjs",
-        "run": "motion-vault-assets/online-morph/index.html",
-        "design": "motion-vault-assets/online-morph/DESIGN.md",
-        "implementation": "motion-vault-assets/online-morph/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-morph/parameters.json",
-        "poster": "motion-vault-assets/online-morph/poster.jpg",
-        "video": "motion-vault-assets/online-morph/preview.mp4",
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-morph","version":"e0cb12af9b334483","manifest":"motion-vault-assets/online-morph/asset.json","entry":"motion-vault-assets/online-morph/entry.mjs","run":"motion-vault-assets/online-morph/index.html","design":"motion-vault-assets/online-morph/DESIGN.md","implementation":"motion-vault-assets/online-morph/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-morph/parameters.json","poster":"motion-vault-assets/online-morph/poster.jpg","video":"motion-vault-assets/online-morph/preview.mp4","preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-pixel",
@@ -1104,21 +880,7 @@
         "覆盖",
         "揭示"
       ],
-      "asset": {
-        "id": "online-pixel",
-        "version": "c6dc9328d2609eff",
-        "manifest": "motion-vault-assets/online-pixel/asset.json",
-        "entry": "motion-vault-assets/online-pixel/entry.mjs",
-        "run": "motion-vault-assets/online-pixel/index.html",
-        "design": "motion-vault-assets/online-pixel/DESIGN.md",
-        "implementation": "motion-vault-assets/online-pixel/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-pixel/parameters.json",
-        "poster": "motion-vault-assets/online-pixel/poster.jpg",
-        "video": "motion-vault-assets/online-pixel/preview.mp4",
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-pixel","version":"5475d8524e7d6934","manifest":"motion-vault-assets/online-pixel/asset.json","entry":"motion-vault-assets/online-pixel/entry.mjs","run":"motion-vault-assets/online-pixel/index.html","design":"motion-vault-assets/online-pixel/DESIGN.md","implementation":"motion-vault-assets/online-pixel/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-pixel/parameters.json","poster":"motion-vault-assets/online-pixel/poster.jpg","video":"motion-vault-assets/online-pixel/preview.mp4","preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-sheet",
@@ -1186,21 +948,7 @@
         "展开",
         "撤销"
       ],
-      "asset": {
-        "id": "online-toast",
-        "version": "40be2c83bf9edd68",
-        "manifest": "motion-vault-assets/online-toast/asset.json",
-        "entry": "motion-vault-assets/online-toast/entry.mjs",
-        "run": "motion-vault-assets/online-toast/index.html",
-        "design": "motion-vault-assets/online-toast/DESIGN.md",
-        "implementation": "motion-vault-assets/online-toast/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-toast/parameters.json",
-        "poster": "motion-vault-assets/online-toast/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-toast","version":"ecfedeb2d2741019","manifest":"motion-vault-assets/online-toast/asset.json","entry":"motion-vault-assets/online-toast/entry.mjs","run":"motion-vault-assets/online-toast/index.html","design":"motion-vault-assets/online-toast/DESIGN.md","implementation":"motion-vault-assets/online-toast/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-toast/parameters.json","poster":"motion-vault-assets/online-toast/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-nav",
@@ -1226,21 +974,7 @@
         "面板换页",
         "尺寸过渡"
       ],
-      "asset": {
-        "id": "online-nav",
-        "version": "0e2f05fe82d30236",
-        "manifest": "motion-vault-assets/online-nav/asset.json",
-        "entry": "motion-vault-assets/online-nav/entry.mjs",
-        "run": "motion-vault-assets/online-nav/index.html",
-        "design": "motion-vault-assets/online-nav/DESIGN.md",
-        "implementation": "motion-vault-assets/online-nav/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-nav/parameters.json",
-        "poster": "motion-vault-assets/online-nav/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-nav","version":"af8d40b79e2d5ca1","manifest":"motion-vault-assets/online-nav/asset.json","entry":"motion-vault-assets/online-nav/entry.mjs","run":"motion-vault-assets/online-nav/index.html","design":"motion-vault-assets/online-nav/DESIGN.md","implementation":"motion-vault-assets/online-nav/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-nav/parameters.json","poster":"motion-vault-assets/online-nav/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-ring",
@@ -1267,21 +1001,7 @@
         "景深",
         "旋转"
       ],
-      "asset": {
-        "id": "online-ring",
-        "version": "71167da9e1e51c46",
-        "manifest": "motion-vault-assets/online-ring/asset.json",
-        "entry": "motion-vault-assets/online-ring/entry.mjs",
-        "run": "motion-vault-assets/online-ring/index.html",
-        "design": "motion-vault-assets/online-ring/DESIGN.md",
-        "implementation": "motion-vault-assets/online-ring/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-ring/parameters.json",
-        "poster": "motion-vault-assets/online-ring/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-ring","version":"a26d7433c40bd9d2","manifest":"motion-vault-assets/online-ring/asset.json","entry":"motion-vault-assets/online-ring/entry.mjs","run":"motion-vault-assets/online-ring/index.html","design":"motion-vault-assets/online-ring/DESIGN.md","implementation":"motion-vault-assets/online-ring/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-ring/parameters.json","poster":"motion-vault-assets/online-ring/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-lens",
@@ -1349,21 +1069,7 @@
         "扭曲",
         "交融"
       ],
-      "asset": {
-        "id": "online-ripple",
-        "version": "8a8f6fa5e4e01f94",
-        "manifest": "motion-vault-assets/online-ripple/asset.json",
-        "entry": "motion-vault-assets/online-ripple/entry.mjs",
-        "run": "motion-vault-assets/online-ripple/index.html",
-        "design": "motion-vault-assets/online-ripple/DESIGN.md",
-        "implementation": "motion-vault-assets/online-ripple/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-ripple/parameters.json",
-        "poster": "motion-vault-assets/online-ripple/poster.jpg",
-        "video": "motion-vault-assets/online-ripple/preview.mp4",
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-ripple","version":"e110de5162dd2ac0","manifest":"motion-vault-assets/online-ripple/asset.json","entry":"motion-vault-assets/online-ripple/entry.mjs","run":"motion-vault-assets/online-ripple/index.html","design":"motion-vault-assets/online-ripple/DESIGN.md","implementation":"motion-vault-assets/online-ripple/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-ripple/parameters.json","poster":"motion-vault-assets/online-ripple/poster.jpg","video":"motion-vault-assets/online-ripple/preview.mp4","preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-wave",
@@ -1390,21 +1096,7 @@
         "波阵",
         "延迟"
       ],
-      "asset": {
-        "id": "online-wave",
-        "version": "0ec664f0821e8a5a",
-        "manifest": "motion-vault-assets/online-wave/asset.json",
-        "entry": "motion-vault-assets/online-wave/entry.mjs",
-        "run": "motion-vault-assets/online-wave/index.html",
-        "design": "motion-vault-assets/online-wave/DESIGN.md",
-        "implementation": "motion-vault-assets/online-wave/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-wave/parameters.json",
-        "poster": "motion-vault-assets/online-wave/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-wave","version":"501d7a857efd0f01","manifest":"motion-vault-assets/online-wave/asset.json","entry":"motion-vault-assets/online-wave/entry.mjs","run":"motion-vault-assets/online-wave/index.html","design":"motion-vault-assets/online-wave/DESIGN.md","implementation":"motion-vault-assets/online-wave/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-wave/parameters.json","poster":"motion-vault-assets/online-wave/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-orbit",
@@ -1471,21 +1163,7 @@
         "模糊",
         "递进"
       ],
-      "asset": {
-        "id": "online-blur",
-        "version": "2035380bc6133d69",
-        "manifest": "motion-vault-assets/online-blur/asset.json",
-        "entry": "motion-vault-assets/online-blur/entry.mjs",
-        "run": "motion-vault-assets/online-blur/index.html",
-        "design": "motion-vault-assets/online-blur/DESIGN.md",
-        "implementation": "motion-vault-assets/online-blur/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-blur/parameters.json",
-        "poster": "motion-vault-assets/online-blur/poster.jpg",
-        "video": "motion-vault-assets/online-blur/preview.mp4",
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-blur","version":"63ce77de047264ab","manifest":"motion-vault-assets/online-blur/asset.json","entry":"motion-vault-assets/online-blur/entry.mjs","run":"motion-vault-assets/online-blur/index.html","design":"motion-vault-assets/online-blur/DESIGN.md","implementation":"motion-vault-assets/online-blur/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-blur/parameters.json","poster":"motion-vault-assets/online-blur/poster.jpg","video":"motion-vault-assets/online-blur/preview.mp4","preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-particles",
@@ -1512,21 +1190,7 @@
         "聚合",
         "消散"
       ],
-      "asset": {
-        "id": "online-particles",
-        "version": "2d9a15d737473c4e",
-        "manifest": "motion-vault-assets/online-particles/asset.json",
-        "entry": "motion-vault-assets/online-particles/entry.mjs",
-        "run": "motion-vault-assets/online-particles/index.html",
-        "design": "motion-vault-assets/online-particles/DESIGN.md",
-        "implementation": "motion-vault-assets/online-particles/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-particles/parameters.json",
-        "poster": "motion-vault-assets/online-particles/poster.jpg",
-        "video": "motion-vault-assets/online-particles/preview.mp4",
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-particles","version":"f8d20b07d0c3263b","manifest":"motion-vault-assets/online-particles/asset.json","entry":"motion-vault-assets/online-particles/entry.mjs","run":"motion-vault-assets/online-particles/index.html","design":"motion-vault-assets/online-particles/DESIGN.md","implementation":"motion-vault-assets/online-particles/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-particles/parameters.json","poster":"motion-vault-assets/online-particles/poster.jpg","video":"motion-vault-assets/online-particles/preview.mp4","preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-chart",
@@ -1553,21 +1217,7 @@
         "插值",
         "比较"
       ],
-      "asset": {
-        "id": "online-chart",
-        "version": "8501f87bf91e5faf",
-        "manifest": "motion-vault-assets/online-chart/asset.json",
-        "entry": "motion-vault-assets/online-chart/entry.mjs",
-        "run": "motion-vault-assets/online-chart/index.html",
-        "design": "motion-vault-assets/online-chart/DESIGN.md",
-        "implementation": "motion-vault-assets/online-chart/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-chart/parameters.json",
-        "poster": "motion-vault-assets/online-chart/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-chart","version":"10118cb5130a2bba","manifest":"motion-vault-assets/online-chart/asset.json","entry":"motion-vault-assets/online-chart/entry.mjs","run":"motion-vault-assets/online-chart/index.html","design":"motion-vault-assets/online-chart/DESIGN.md","implementation":"motion-vault-assets/online-chart/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-chart/parameters.json","poster":"motion-vault-assets/online-chart/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-dial",
@@ -1635,21 +1285,7 @@
         "双面",
         "书脊"
       ],
-      "asset": {
-        "id": "online-book",
-        "version": "3fba0c1c477005eb",
-        "manifest": "motion-vault-assets/online-book/asset.json",
-        "entry": "motion-vault-assets/online-book/entry.mjs",
-        "run": "motion-vault-assets/online-book/index.html",
-        "design": "motion-vault-assets/online-book/DESIGN.md",
-        "implementation": "motion-vault-assets/online-book/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-book/parameters.json",
-        "poster": "motion-vault-assets/online-book/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-book","version":"8a4b8a9e4b473ff9","manifest":"motion-vault-assets/online-book/asset.json","entry":"motion-vault-assets/online-book/entry.mjs","run":"motion-vault-assets/online-book/index.html","design":"motion-vault-assets/online-book/DESIGN.md","implementation":"motion-vault-assets/online-book/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-book/parameters.json","poster":"motion-vault-assets/online-book/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-string",
@@ -1676,21 +1312,7 @@
         "弹性",
         "衰减"
       ],
-      "asset": {
-        "id": "online-string",
-        "version": "721c9ddbde74c993",
-        "manifest": "motion-vault-assets/online-string/asset.json",
-        "entry": "motion-vault-assets/online-string/entry.mjs",
-        "run": "motion-vault-assets/online-string/index.html",
-        "design": "motion-vault-assets/online-string/DESIGN.md",
-        "implementation": "motion-vault-assets/online-string/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-string/parameters.json",
-        "poster": "motion-vault-assets/online-string/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-string","version":"9f78c3bb6b20b173","manifest":"motion-vault-assets/online-string/asset.json","entry":"motion-vault-assets/online-string/entry.mjs","run":"motion-vault-assets/online-string/index.html","design":"motion-vault-assets/online-string/DESIGN.md","implementation":"motion-vault-assets/online-string/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-string/parameters.json","poster":"motion-vault-assets/online-string/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-stack",
@@ -1756,21 +1378,7 @@
       "tags": [
         "聚光遮罩双层显露"
       ],
-      "asset": {
-        "id": "online-spot",
-        "version": "4e968a601d8ea127",
-        "manifest": "motion-vault-assets/online-spot/asset.json",
-        "entry": "motion-vault-assets/online-spot/entry.mjs",
-        "run": "motion-vault-assets/online-spot/index.html",
-        "design": "motion-vault-assets/online-spot/DESIGN.md",
-        "implementation": "motion-vault-assets/online-spot/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-spot/parameters.json",
-        "poster": "motion-vault-assets/online-spot/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-spot","version":"82867408ec1ee22f","manifest":"motion-vault-assets/online-spot/asset.json","entry":"motion-vault-assets/online-spot/entry.mjs","run":"motion-vault-assets/online-spot/index.html","design":"motion-vault-assets/online-spot/DESIGN.md","implementation":"motion-vault-assets/online-spot/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-spot/parameters.json","poster":"motion-vault-assets/online-spot/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-proximity",
@@ -1795,21 +1403,7 @@
       "tags": [
         "文字笔画邻近响应"
       ],
-      "asset": {
-        "id": "online-proximity",
-        "version": "53807ef30ba923fe",
-        "manifest": "motion-vault-assets/online-proximity/asset.json",
-        "entry": "motion-vault-assets/online-proximity/entry.mjs",
-        "run": "motion-vault-assets/online-proximity/index.html",
-        "design": "motion-vault-assets/online-proximity/DESIGN.md",
-        "implementation": "motion-vault-assets/online-proximity/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-proximity/parameters.json",
-        "poster": "motion-vault-assets/online-proximity/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-proximity","version":"51c75ed23088b52c","manifest":"motion-vault-assets/online-proximity/asset.json","entry":"motion-vault-assets/online-proximity/entry.mjs","run":"motion-vault-assets/online-proximity/index.html","design":"motion-vault-assets/online-proximity/DESIGN.md","implementation":"motion-vault-assets/online-proximity/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-proximity/parameters.json","poster":"motion-vault-assets/online-proximity/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-velocity",
@@ -1834,21 +1428,7 @@
       "tags": [
         "速度感应弹性光标"
       ],
-      "asset": {
-        "id": "online-velocity",
-        "version": "8560a3d75e1006c8",
-        "manifest": "motion-vault-assets/online-velocity/asset.json",
-        "entry": "motion-vault-assets/online-velocity/entry.mjs",
-        "run": "motion-vault-assets/online-velocity/index.html",
-        "design": "motion-vault-assets/online-velocity/DESIGN.md",
-        "implementation": "motion-vault-assets/online-velocity/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-velocity/parameters.json",
-        "poster": "motion-vault-assets/online-velocity/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-velocity","version":"53da89d4c353e5e5","manifest":"motion-vault-assets/online-velocity/asset.json","entry":"motion-vault-assets/online-velocity/entry.mjs","run":"motion-vault-assets/online-velocity/index.html","design":"motion-vault-assets/online-velocity/DESIGN.md","implementation":"motion-vault-assets/online-velocity/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-velocity/parameters.json","poster":"motion-vault-assets/online-velocity/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-repel",
@@ -1873,21 +1453,7 @@
       "tags": [
         "粒点排斥与归位"
       ],
-      "asset": {
-        "id": "online-repel",
-        "version": "e2378cc521426695",
-        "manifest": "motion-vault-assets/online-repel/asset.json",
-        "entry": "motion-vault-assets/online-repel/entry.mjs",
-        "run": "motion-vault-assets/online-repel/index.html",
-        "design": "motion-vault-assets/online-repel/DESIGN.md",
-        "implementation": "motion-vault-assets/online-repel/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-repel/parameters.json",
-        "poster": "motion-vault-assets/online-repel/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-repel","version":"2126d401237ba9db","manifest":"motion-vault-assets/online-repel/asset.json","entry":"motion-vault-assets/online-repel/entry.mjs","run":"motion-vault-assets/online-repel/index.html","design":"motion-vault-assets/online-repel/DESIGN.md","implementation":"motion-vault-assets/online-repel/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-repel/parameters.json","poster":"motion-vault-assets/online-repel/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-linkimage",
@@ -1912,21 +1478,7 @@
       "tags": [
         "链接旁实时图像浮现"
       ],
-      "asset": {
-        "id": "online-linkimage",
-        "version": "402ac8a6ae70f64e",
-        "manifest": "motion-vault-assets/online-linkimage/asset.json",
-        "entry": "motion-vault-assets/online-linkimage/entry.mjs",
-        "run": "motion-vault-assets/online-linkimage/index.html",
-        "design": "motion-vault-assets/online-linkimage/DESIGN.md",
-        "implementation": "motion-vault-assets/online-linkimage/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-linkimage/parameters.json",
-        "poster": "motion-vault-assets/online-linkimage/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-linkimage","version":"9316a2986ae49a3e","manifest":"motion-vault-assets/online-linkimage/asset.json","entry":"motion-vault-assets/online-linkimage/entry.mjs","run":"motion-vault-assets/online-linkimage/index.html","design":"motion-vault-assets/online-linkimage/DESIGN.md","implementation":"motion-vault-assets/online-linkimage/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-linkimage/parameters.json","poster":"motion-vault-assets/online-linkimage/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-peel",
@@ -2029,21 +1581,7 @@
       "tags": [
         "侧滑显露上下文操作"
       ],
-      "asset": {
-        "id": "online-swipe",
-        "version": "71bfdf11071a2053",
-        "manifest": "motion-vault-assets/online-swipe/asset.json",
-        "entry": "motion-vault-assets/online-swipe/entry.mjs",
-        "run": "motion-vault-assets/online-swipe/index.html",
-        "design": "motion-vault-assets/online-swipe/DESIGN.md",
-        "implementation": "motion-vault-assets/online-swipe/IMPLEMENTATION.md",
-        "parameters": "motion-vault-assets/online-swipe/parameters.json",
-        "poster": "motion-vault-assets/online-swipe/poster.jpg",
-        "video": null,
-        "preview_kind": "local_render",
-        "state": "local_implementation",
-        "source_verified": false
-      }
+      "asset": {"id":"online-swipe","version":"ef796a0e612efbaa","manifest":"motion-vault-assets/online-swipe/asset.json","entry":"motion-vault-assets/online-swipe/entry.mjs","run":"motion-vault-assets/online-swipe/index.html","design":"motion-vault-assets/online-swipe/DESIGN.md","implementation":"motion-vault-assets/online-swipe/IMPLEMENTATION.md","parameters":"motion-vault-assets/online-swipe/parameters.json","poster":"motion-vault-assets/online-swipe/poster.jpg","video":null,"preview_kind":"local_render","state":"local_implementation","source_verified":false,"style":"motion-vault-assets/shared/runtime.88444c38f1d6.css"}
     },
     {
       "id": "online-blinds",

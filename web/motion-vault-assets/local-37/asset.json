@@ -3,7 +3,7 @@
   "id": "37",
   "directory": "local-37",
   "title": "双向分割错落拉幕",
-  "version": "d897a871e122e530",
+  "version": "6774fccc9bdcab17",
   "status": "local_implementation",
   "entry": "entry.mjs",
   "run": "index.html",
@@ -11,33 +11,128 @@
   "implementation": "IMPLEMENTATION.md",
   "parameters": "parameters.json",
   "provenance": "provenance.json",
-  "core": "../shared/runtime.mjs",
-  "style": "../shared/runtime.css",
+  "core": "../shared/runtime.eb7967a461d0.mjs",
+  "style": "../shared/runtime.88444c38f1d6.css",
   "hashes": {
-    "entry.mjs": "4322b90c9f7fda5a1fcd7b695b7b2178597ab2f635f817aa676c46378f1b5e35",
-    "demo.mjs": "f9ad3cb9c164c8a539067670b0d5b6a4f76d4d34b5ba7c3a17c2316559871e02",
-    "index.html": "59f0b810f5f9ad3a1852dd4a0a25f48c733cb14c225de30f16ef6b1064385030",
-    "DESIGN.md": "96a1182978a2ee4741bced5dd870e6065c60a3aaee634e1094dca7b9ddfd52c5",
-    "IMPLEMENTATION.md": "70afb944eb1f852a131b3547af12f7ddca21f8985204f71ca7c72284959d88a2",
+    "entry.mjs": "49772652b597d9d377dd0f251f638d7d6770edf0f4bb949920760f301afc50cf",
+    "demo.mjs": "eff274cd785ac6b347fe3233aefc0bf0a6a807b64a3361ab222c2eb5b7b5f88b",
+    "index.html": "c4b209063a1f476722564dff3438f0f31e937c9dbfe24f523603c0fb96b9bb28",
+    "DESIGN.md": "590fcd8388f10a28ceb5c8f43fa0573bf8480354aa38797b5c7cb52c34d249a2",
+    "IMPLEMENTATION.md": "b8c4f5e10613c96d7950be71dfaea32f56bff67575846ddc1dda9f218ce8a4df",
     "parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
-    "provenance.json": "928480d9b97a823cdfb7fbfc428dc50bbc905a62a5680dd219db1c7476a39393",
-    "source-map.json": "342498486c1c69f29cd0dd5a19c099cc03c1b111030c6fef9f91df0b6b6487a4"
+    "provenance.json": "177718ad2e5538bd195c28a3650b9f79be0b7656ef7762e7718515659b0387f5",
+    "source-map.json": "79e0af38e4b2831619be81a7ffe6f2dc54a17ccb7c37c1d77413842b5756d048"
   },
   "shared_hashes": {
-    "../shared/runtime.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
-    "../shared/runtime.31fd3f9a83f9.mjs": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d",
-    "../shared/runtime.css": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+    "../shared/art-direction/d6ef3d56c60b669f/README.md": "fd894654bba06b9adc1c6163399bdae8d0165ebf8adfab768e43b064721dda82",
+    "../shared/art-direction/d6ef3d56c60b669f/basalt-coast.webp": "71b00823a59f573b9facc0b7dbda721bcf7640bee7af563a184170d498b21a2d",
+    "../shared/art-direction/d6ef3d56c60b669f/blue-glass.webp": "d983b591b2124c899d909ce25b461aca33868ac8911f99ea230154aca0e28b46",
+    "../shared/art-direction/d6ef3d56c60b669f/gold-reeds.webp": "c12ec6bd8f8e09a53b2d21b61195b61af699195549d6b7f2dc8c5744dc95a3b0",
+    "../shared/art-direction/d6ef3d56c60b669f/material-study.mp4": "9bae56d4dcf69b7056b06dc802fb4a4176d4506a8f737c13c501a6963e4f93db",
+    "../shared/art-direction/d6ef3d56c60b669f/pink-petal.webp": "eea21b6d3917f44b9897e5c1335ddfe62bc36c7be4fa8eb07dded24842fabd5b",
+    "../shared/art-direction/d6ef3d56c60b669f/provenance.json": "07305815575b6276935dfacfb02be914e5c684aa2223f9a06b0a2c6d93c7de57",
+    "../shared/art-direction/d6ef3d56c60b669f/red-cutout.webp": "8344b1f4703514d7b1485fe85b4612ef5ca67727f30eb4d1dbb4ea719e9885a4",
+    "../shared/art-direction/d6ef3d56c60b669f/red-fold.webp": "2b08f387c22aa65452c68e2217793d9118fc38e94b1f8f7b4bcd1f1893fc791b",
+    "../shared/art-direction/d6ef3d56c60b669f/red-wide.webp": "b14c459976f99f95913d49893cf43bb6fa7cfa99db0d4dcec4fcc6a4e3fabeb7",
+    "../shared/art-direction/d6ef3d56c60b669f/stone-wide.webp": "77248a34fb2058864505a29b4a320d717c90feb54ac4eba6aeecf98cfb1d148b",
+    "../shared/art-direction/d6ef3d56c60b669f/warm-arcade.webp": "72acd810e62ecca8a50e262b6204f7c9576218e147b1ed05f9f0163dce1a6870",
+    "../shared/runtime.eb7967a461d0.mjs": "eb7967a461d00d9c29a03242c7404db5e3aeb4e1a0b01db5be2b6117cb4790c9",
+    "../shared/runtime.88444c38f1d6.css": "88444c38f1d66e75425935e215837acf866801d72723cd6f420caebf0397c6d3"
   },
   "preview": {
     "kind": "local_render",
     "poster": "poster.jpg",
     "video": null,
-    "implementationVersion": "d897a871e122e530",
+    "implementationVersion": "6774fccc9bdcab17",
     "captured": true,
-    "posterSha256": "c854d884f037ced7b5b6f81ae9d15220ff239b38a0c9ef0b845a1b4d53db7a8f",
-    "width": 656,
-    "height": 400,
-    "capturedAt": "2026-10-06T08:16:56.878Z"
+    "posterSha256": "2da9c3122316804d75228c4606e1766a451fa439df1c9447c62992e82e3714a8",
+    "width": 1188,
+    "height": 761,
+    "capturedAt": "2026-10-14T13:51:26.315Z",
+    "captureMethod": "Actual supported cloud browser screenshot at the original snapshot=1&phase=0.55 source query. Resource readiness checked before screenshot. Still poster, not native continuous recording or video.",
+    "sampling": {
+      "schema": "motion.phase-sampled-poster-provenance.v1",
+      "method": "supported_browser_original_phase_poster",
+      "nativeContinuousRecording": false,
+      "inputKind": "single-poster",
+      "samplingReceiptSha256": "7d3ada676b9852563ede67038e0ed9a973f509243d28e7ef0dbdb0b3e87ea885",
+      "rawSamplesLogSha256": "383a263450850a0647a26c611022dc41e8a063cf5ae9eea72db0b9d17d6b1433",
+      "sourceUrl": "https://work-status-oct03.xinko2.chatgpt.site/motion-qa-20261014/assets/local-37/index.html",
+      "siteSourceCommit": "57255063d99fc96836c7b0761d16600ab73e8f59",
+      "implementationVersion": "6774fccc9bdcab17",
+      "sourceMethodVerbatim": "Actual supported cloud browser screenshot at the original snapshot=1&phase=0.55 source query. Resource readiness checked before screenshot. Still poster, not native continuous recording or video.",
+      "posterSample": {
+        "index": 0,
+        "phase": 0.55,
+        "requestAt": "2026-10-14T13:51:22.701Z",
+        "receivedAt": "2026-10-14T13:51:26.315Z",
+        "file": "0000.jpg",
+        "bytes": 94851,
+        "readiness": {
+          "networkIdle": true,
+          "fonts": "loaded",
+          "htmlImages": [
+            {
+              "complete": true,
+              "naturalWidth": 1439,
+              "src": "https://work-status-oct03.xinko2.chatgpt.site/motion-qa-20261014/assets/shared/art-direction/d6ef3d56c60b669f/stone-wide.webp"
+            },
+            {
+              "complete": true,
+              "naturalWidth": 1439,
+              "src": "https://work-status-oct03.xinko2.chatgpt.site/motion-qa-20261014/assets/shared/art-direction/d6ef3d56c60b669f/red-wide.webp"
+            },
+            {
+              "complete": true,
+              "naturalWidth": 1439,
+              "src": "https://work-status-oct03.xinko2.chatgpt.site/motion-qa-20261014/assets/shared/art-direction/d6ef3d56c60b669f/red-wide.webp"
+            }
+          ],
+          "svgImageHrefs": []
+        },
+        "sha256": "2da9c3122316804d75228c4606e1766a451fa439df1c9447c62992e82e3714a8"
+      },
+      "captureStartObservedAt": "2026-10-14T13:51:22.701Z",
+      "captureEndObservedAt": "2026-10-14T13:51:26.315Z",
+      "visualReview": {
+        "schema": "motion.phase-sampling-visual-review.v1",
+        "status": "passed",
+        "reviewSha256": "242f14ab303a1bb8295b6def56a8a303b40b07c876fb64f5e9ca4ba6b767a170",
+        "samplingReceiptSha256": "7d3ada676b9852563ede67038e0ed9a973f509243d28e7ef0dbdb0b3e87ea885",
+        "contactSheetSha256": "2da9c3122316804d75228c4606e1766a451fa439df1c9447c62992e82e3714a8",
+        "reviewedFrameIndices": [
+          0
+        ],
+        "reviewedAt": "2026-10-14T13:54:08Z",
+        "methodVerbatim": "Actual visual review of this original poster within labelled contact-first14.jpg; bound image is the unchanged full-resolution original."
+      },
+      "sourceHashes": {
+        "motion-vault-assets/local-37/entry.mjs": "49772652b597d9d377dd0f251f638d7d6770edf0f4bb949920760f301afc50cf",
+        "motion-vault-assets/local-37/demo.mjs": "eff274cd785ac6b347fe3233aefc0bf0a6a807b64a3361ab222c2eb5b7b5f88b",
+        "motion-vault-assets/local-37/index.html": "c4b209063a1f476722564dff3438f0f31e937c9dbfe24f523603c0fb96b9bb28",
+        "motion-vault-assets/local-37/DESIGN.md": "590fcd8388f10a28ceb5c8f43fa0573bf8480354aa38797b5c7cb52c34d249a2",
+        "motion-vault-assets/local-37/IMPLEMENTATION.md": "b8c4f5e10613c96d7950be71dfaea32f56bff67575846ddc1dda9f218ce8a4df",
+        "motion-vault-assets/local-37/parameters.json": "6fdf5acd02882c28104af1323c1a2f376b83220b41473be34e79592f16d5f8b8",
+        "motion-vault-assets/local-37/provenance.json": "177718ad2e5538bd195c28a3650b9f79be0b7656ef7762e7718515659b0387f5",
+        "motion-vault-assets/local-37/source-map.json": "79e0af38e4b2831619be81a7ffe6f2dc54a17ccb7c37c1d77413842b5756d048",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/README.md": "fd894654bba06b9adc1c6163399bdae8d0165ebf8adfab768e43b064721dda82",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/basalt-coast.webp": "71b00823a59f573b9facc0b7dbda721bcf7640bee7af563a184170d498b21a2d",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/blue-glass.webp": "d983b591b2124c899d909ce25b461aca33868ac8911f99ea230154aca0e28b46",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/gold-reeds.webp": "c12ec6bd8f8e09a53b2d21b61195b61af699195549d6b7f2dc8c5744dc95a3b0",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/material-study.mp4": "9bae56d4dcf69b7056b06dc802fb4a4176d4506a8f737c13c501a6963e4f93db",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/pink-petal.webp": "eea21b6d3917f44b9897e5c1335ddfe62bc36c7be4fa8eb07dded24842fabd5b",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/provenance.json": "07305815575b6276935dfacfb02be914e5c684aa2223f9a06b0a2c6d93c7de57",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/red-cutout.webp": "8344b1f4703514d7b1485fe85b4612ef5ca67727f30eb4d1dbb4ea719e9885a4",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/red-fold.webp": "2b08f387c22aa65452c68e2217793d9118fc38e94b1f8f7b4bcd1f1893fc791b",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/red-wide.webp": "b14c459976f99f95913d49893cf43bb6fa7cfa99db0d4dcec4fcc6a4e3fabeb7",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/stone-wide.webp": "77248a34fb2058864505a29b4a320d717c90feb54ac4eba6aeecf98cfb1d148b",
+        "motion-vault-assets/shared/art-direction/d6ef3d56c60b669f/warm-arcade.webp": "72acd810e62ecca8a50e262b6204f7c9576218e147b1ed05f9f0163dce1a6870",
+        "motion-vault-assets/shared/runtime.eb7967a461d0.mjs": "eb7967a461d00d9c29a03242c7404db5e3aeb4e1a0b01db5be2b6117cb4790c9",
+        "motion-vault-assets/shared/runtime.88444c38f1d6.css": "88444c38f1d66e75425935e215837acf866801d72723cd6f420caebf0397c6d3"
+      },
+      "resourceReadiness": "Original per-sample network/font/image readiness retained unchanged",
+      "timingLimitations": "Only original request/receive wall clocks are used; no timestamp is reconstructed."
+    }
   },
   "upstream_visual_verified": false,
   "productionComponent": false,

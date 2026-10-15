@@ -1,16 +1,23 @@
 [
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 45,
-    "endLine": 45,
+    "startLine": 46,
+    "endLine": 46,
     "code": " case'nav':html=`<div class=\"nav-demo\"><nav class=\"nav-head\" aria-label=\"示例产品导航\">${['产品','资源','关于'].map((t,i)=>`<button data-menu=\"${i}\" aria-expanded=\"${i===0}\">${t} ⌄</button>`).join('')}</nav><div class=\"nav-panel\"><div class=\"nav-content\">${[['资料整理','为内容找到位置'],['编辑工作台','把想法变为作品'],['媒体浏览','观看与筛选'],['协作空间','让信息保持同步']].map(r=>`<button><strong>${r[0]}</strong><small>${r[1]}</small></button>`).join('')}</div></div></div><span class=\"nav-label\">工作与创作的日常。</span><p class=\"nav-status\" data-role=\"result\">切换栏目，观察容器尺寸</p>`;break;",
     "role": "authoritative_editable_source"
   },
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 168,
-    "endLine": 177,
+    "startLine": 169,
+    "endLine": 178,
     "code": " if(key==='nav'){\n  const panel=q('.nav-panel'),content=q('.nav-content'),buttons=all('[data-menu]'),nav=q('.nav-demo');let active=0,timer=0;\n  const groups=[[['资料整理','为内容找到位置'],['编辑工作台','把想法变为作品'],['媒体浏览','观看与筛选'],['协作空间','让信息保持同步']],[['使用指南','从一个小任务开始'],['交互笔记','记录每次发现'],['更新日志','最近的变化'],['案例研究','观察实际使用'],['组件说明','理解边界'],['社区交流','交换经验']],[['关于工作室','把日常做得更好'],['联系我们','分享问题和想法']]];\n  function set(i){L.clear(timer);const prev=active;active=i;buttons.forEach((b,j)=>b.setAttribute('aria-expanded',String(i===j)));panel.hidden=i<0;root.dataset.menu=String(i);if(i<0)return;const max=nav.clientWidth;panel.style.width=(i===2?Math.min(max,300):max)+'px';panel.style.height=[178,230,111][i]+'px';content.innerHTML=groups[i].map(r=>`<button><strong>${r[0]}</strong><small>${r[1]}</small></button>`).join('');if(prev!==i)L.anim(content,[{opacity:0,transform:`translateX(${i>prev?15:-15}px)`},{opacity:1,transform:'translateX(0)'}],{duration:240,easing:'ease-out'});}\n  root.__receivePoint=e=>{const i=buttons.findIndex(b=>{const r=b.getBoundingClientRect();return e.clientX>=r.left&&e.clientX<=r.right&&e.clientY>=r.top&&e.clientY<=r.bottom});if(i>=0)set(i);};L.cleaners.push(()=>delete root.__receivePoint);buttons.forEach((b,i)=>{on(b,'pointerenter',e=>{if(e.pointerType==='mouse')set(i);});on(b,'click',()=>set(i));on(b,'keydown',e=>{if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();let j=(i+(e.key==='ArrowRight'?1:-1)+3)%3;buttons[j].focus();set(j);}else if(e.key==='ArrowDown'){e.preventDefault();set(i);content.querySelector('button')?.focus();}});});on(nav,'pointerleave',()=>{L.clear(timer);timer=L.later(()=>{if(!nav.contains(document.activeElement))set(-1);},250);});on(panel,'pointerenter',()=>L.clear(timer));on(nav,'focusout',e=>{if(!nav.contains(e.relatedTarget)){L.clear(timer);timer=L.later(()=>set(-1),250);}});on(content,'click',e=>{let b=e.target.closest('button');if(b){q('[data-role=result]').textContent='已选择“'+b.querySelector('strong').textContent+'”，仅演示';set(-1);buttons[0].focus();}});on(nav,'keydown',e=>{if(e.key==='Escape'&&active>=0){e.preventDefault();e.stopPropagation();let old=active;set(-1);buttons[old].focus();}});set(0);\n }\n return L.cleanup;\n}\n// New studies share one deterministic timeline between hover and detail.\n// Each source is documented in catalog.json; no third-party runtime is bundled.",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 19,
+    "endLine": 19,
+    "code": " case 'nav':return `${eyebrow('FORMA®','INDEPENDENT DESIGN OFFICE')}<div class=\"ad-nav-hero\"><h2>Ideas<br>made <i>visible.</i></h2><div class=\"ad-nav-object\">${sceneArt(0)}</div></div><div class=\"nav-demo\"><nav class=\"nav-head\" aria-label=\"示例产品导航\">${['产品','资源','关于'].map((t,i)=>`<button data-menu=\"${i}\" aria-expanded=\"${i===0}\">${t} ⌄</button>`).join('')}</nav><div class=\"nav-panel\"><div class=\"nav-content\">${[['资料整理','为内容找到位置'],['编辑工作台','把想法变为作品'],['媒体浏览','观看与筛选'],['协作空间','让信息保持同步']].map(r=>`<button><strong>${r[0]}</strong><small>${r[1]}</small></button>`).join('')}</div></div></div><p class=\"nav-status\" data-role=\"result\">切换栏目，观察容器尺寸</p>`;",
     "role": "authoritative_editable_source"
   }
 ]

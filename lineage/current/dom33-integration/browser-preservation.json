@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-15T15:07:33.793Z",
+  "source": "Supported Chrome tool; reload of existing user tab14414007",
+  "formalHash": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+  "counts": {
+    "formal": 62,
+    "pending": 0,
+    "hidden": 52
+  },
+  "allMotionVaultKeysByteIdentical": true,
+  "keys": [
+    "motion-vault-curated-originals-30-v1",
+    "motion_vault_bookmarks",
+    "motion_vault_preview_mode",
+    "motion_vault_curation_v1",
+    "motion-vault-online-20261005-15",
+    "motion_vault_theme"
+  ],
+  "viewport": {
+    "width": 1707,
+    "height": 931,
+    "dpr": 1.5
+  },
+  "userStorageWritten": false
+}

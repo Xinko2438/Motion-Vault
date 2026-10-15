@@ -1,16 +1,23 @@
 [
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 33,
-    "endLine": 33,
+    "startLine": 34,
+    "endLine": 34,
     "code": " case'dock':html=`<div class=\"center\"><span class=\"eyebrow\">保持触手可及</span><h3 data-role=\"docktitle\">资料</h3><p data-role=\"dockdesc\">让收集的内容，随时回到手边。</p><nav class=\"dock\" aria-label=\"演示导航\">${dockNames.map((t,i)=>`<button class=\"dock-item\" aria-label=\"${t}\" aria-pressed=\"${i===0}\">${icon(dockIcons[i])}<span class=\"dock-name\">${t}</span></button>`).join('')}</nav></div>`;break;",
     "role": "authoritative_editable_source"
   },
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 95,
-    "endLine": 104,
+    "startLine": 96,
+    "endLine": 105,
     "code": " if(key==='dock'){\n  const dock=q('.dock'),buttons=all('.dock-item'),descs=['让收集的内容，随时回到手边。','为尚未成形的想法，留一点空间。','把值得重看的瞬间，收在这里。','将零散的发现，写成自己的理解。','只把真正需要的工具，放到近处。'];let values=buttons.map(()=>1),speed=buttons.map(()=>0),targets=buttons.map(()=>1),raf=0,last=0;\n  function draw(){buttons.forEach((b,i)=>b.style.transform=`translateY(${-(values[i]-1)*17}px) scale(${values[i]})`);}\n  function tick(t){const dt=Math.min(.032,(t-last)/1000||.016);last=t;let more=false;for(let i=0;i<5;i++){speed[i]+=(190*(targets[i]-values[i])-23*speed[i])*dt;values[i]+=speed[i]*dt;if(Math.abs(targets[i]-values[i])+Math.abs(speed[i])>.002)more=true;else{values[i]=targets[i];speed[i]=0;}}draw();if(more&&!document.hidden)raf=L.frame(tick);else{raf=0;last=0;}}\n  function point(x){targets=buttons.map(b=>x===null||reduce.matches?1:1+.42*Math.exp(-Math.pow((dock.getBoundingClientRect().left+(b.offsetLeft+b.offsetWidth/2)/logicalScale(root)-x)/(58/logicalScale(root)),2)));if(reduce.matches){L.cancel(raf);raf=0;values=buttons.map(()=>1);speed=buttons.map(()=>0);draw();}else if(!raf)raf=L.frame(tick);}\n  root.__receivePoint=e=>point(e.clientX);L.cleaners.push(()=>delete root.__receivePoint);on(dock,'pointermove',e=>{if(e.pointerType==='mouse')point(e.clientX);});on(dock,'pointerleave',()=>point(null));on(dock,'focusout',e=>{if(!dock.contains(e.relatedTarget))point(null);});\n  buttons.forEach((b,i)=>{on(b,'click',()=>{buttons.forEach((v,j)=>v.setAttribute('aria-pressed',String(i===j)));q('[data-role=docktitle]').textContent=dockNames[i];q('[data-role=dockdesc]').textContent=descs[i];root.dataset.index=String(i);});on(b,'focus',()=>point(dock.getBoundingClientRect().left+(b.offsetLeft+b.offsetWidth/2)/logicalScale(root)));on(b,'keydown',e=>{if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();buttons[(i+(e.key==='ArrowRight'?1:-1)+5)%5].focus();}});});on(reduce,'change',()=>point(null));on(document,'visibilitychange',()=>{if(document.hidden){L.cancel(raf);raf=0;values=buttons.map(()=>1);speed=buttons.map(()=>0);draw();}});\n }\n if(key==='zoom'){\n  const win=q('.zoom-window'),image=q('.zoom-art');let scale=1,x=0,y=0,drag=null;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 12,
+    "endLine": 12,
+    "code": " case 'dock':return `${eyebrow('STUDIO DESKTOP','MON 09:41')}<div class=\"ad-desktop-window\"><div class=\"ad-window-bar\"><i></i><i></i><i></i><span>Untitled — publication</span></div><div class=\"ad-window-page\"><div><small>AN INDEPENDENT JOURNAL</small><h2>Blue<br><i>hours.</i></h2><span>Vol. 03 / Materials & light</span></div>${sceneArt(1)}</div></div><div class=\"center\"><h3 data-role=\"docktitle\" class=\"ad-sr\">资料</h3><p data-role=\"dockdesc\" class=\"ad-sr\">让收集的内容，随时回到手边。</p><nav class=\"dock\" aria-label=\"演示导航\">${['资料','灵感','片段','笔记','工具'].map((t,i)=>`<button class=\"dock-item\" aria-label=\"${t}\" aria-pressed=\"${i===0}\">${icon(['folder','spark','play','note','sliders'][i])}<span class=\"dock-name\">${t}</span></button>`).join('')}</nav></div>`;",
     "role": "authoritative_editable_source"
   }
 ]

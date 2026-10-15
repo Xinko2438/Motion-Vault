@@ -1,0 +1,9 @@
+[
+  {
+    "path": "src/hybrid/formal-items.json",
+    "startLine": null,
+    "endLine": null,
+    "code": "<div class=\"legacy-canvas legacy-34\"><div class=\"legacy-topline\"><span><b>FORM / A NEW PERSPECTIVE</b></span><span>OBJECTS IN DIALOGUE</span></div><div class=\"magnetic-image\"><img data-legacy-art=\"blue-glass\" alt=\"原创生成的蓝色玻璃器物与棱镜\"></div><div class=\"magnetic-copy\"><span class=\"legacy-eyebrow\">A STUDY OF ATTRACTION</span><h3>Drawn<br>to the<br><em>unexpected.</em></h3></div><button type=\"button\" class=\"magnetic-cta\" aria-label=\"探索磁吸交互演示\"><span>Explore</span><svg class=\"magnetic-arrow\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M6 18L18 6M6 6H18V18\"/></svg></button><div class=\"magnetic-bottom\"><span>GLASS / LIGHT / CURIOSITY</span><span>EXHIBITION 2026</span></div></div>",
+    "kind": "inline CSS/HTML source"
+  }
+]

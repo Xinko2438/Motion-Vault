@@ -12,7 +12,9 @@
 
 标题保持固定，相关图像在指针旁出现并跟随。
 
-文字目录是信息主体，图像随当前条目变化；图像出现于邻近空白区，不盖住正在阅读的名称。
+白底作品目录，海岸、玻璃、花瓣三组图像在目录右侧有限区域显露；文字不被图像遮盖。
+
+独立原创代码/SVG；所用栅格影像为2026-10-09通过OpenAI imagegen新制的说明图像，非实摄照片。详细来源与哈希见assets/independent-art/provenance.json。
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

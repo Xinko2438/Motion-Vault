@@ -13,19 +13,19 @@ effect.dispose();
 
 ## 维护入口
 
-实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。shared/runtime.mjs 是构建产物，不应直接修改。当前源码目录是唯一修改入口。
+实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。共享的内容寻址 runtime 文件是构建产物，不应直接修改。当前源码目录是唯一修改入口。
 
 ## 核心源码摘录与原始定位
 
-以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.mjs；布局样式在 shared/runtime.css。
+以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.eb7967a461d0.mjs；布局样式在 shared/runtime.88444c38f1d6.css。
 
-### src/hybrid/modern-engine.js:39-39
+### src/hybrid/modern-engine.js:40-40
 
 ```js
  case'morph':html=`<div class="center"><span class="eyebrow">一个轮廓，三种形态</span><div class="morph-stage"><svg viewBox="0 0 200 200" aria-label="可变轮廓"><path d="${pathFrom(morphPoints(0))}"/></svg></div><div class="controls shape-buttons">${['花瓣','圆形','菱形'].map((t,i)=>`<button data-shape="${i}" aria-pressed="${i===0}">${t}</button>`).join('')}</div></div>`;break;
 ```
 
-### src/hybrid/modern-engine.js:136-145
+### src/hybrid/modern-engine.js:137-146
 
 ```js
  if(key==='morph'){
@@ -36,8 +36,14 @@ effect.dispose();
  if(key==='pixel'){
   const cells=all('.pixel-screen i'),button=q('[data-action=switch]');let current=0,busy=false,run=0;
   async function transition(){if(busy)return;busy=true;button.disabled=true;const token=++run;const random=q('select').value==='random';const delays=cells.map((_,i)=>random?((i*37+19)%97)*3:(i%12+Math.floor(i/12))*24);const phase=cover=>Promise.all(cells.map((c,i)=>L.anim(c,[{transform:`scaleY(${cover?0:1})`},{transform:`scaleY(${cover?1:0})`}],{duration:310,delay:delays[i],easing:'cubic-bezier(.3,0,.2,1)',fill:'forwards'}).finished.catch(()=>{})));
-   await phase(true);if(L.disposed||run!==token)return;current=(current+1)%3;q('.pixel-art').innerHTML=art(current*2);q('.pixel-title').textContent=['静观 / 01','构成 / 02','停留 / 03'][current];root.dataset.index=String(current);await phase(false);if(L.disposed||run!==token)return;cells.forEach(c=>{c.getAnimations().forEach(a=>a.cancel());c.style.transform='scaleY(0)';});busy=false;button.disabled=false;
+   await phase(true);if(L.disposed||run!==token)return;current=(current+1)%3;q('.pixel-art').innerHTML=sceneArt([6,7,6][current]);q('.pixel-title').textContent=['Red volume.','Stone & silver.','Red volume.'][current];root.dataset.index=String(current);await phase(false);if(L.disposed||run!==token)return;cells.forEach(c=>{c.getAnimations().forEach(a=>a.cancel());c.style.transform='scaleY(0)';});busy=false;button.disabled=false;
   }on(button,'click',transition);root.dataset.index='0';
+```
+
+### src/hybrid/modern-scenes.js:15-15
+
+```js
+ case 'morph':return `${eyebrow('FORM FESTIVAL','IDENTITY IN MOTION')}<div class="ad-morph-title">New<br><i>shapes.</i></div><div class="center"><div class="morph-stage"><svg viewBox="0 0 200 200" aria-label="生成标识的连续轮廓"><path d="${pathFrom(morphPoints(0))}"/></svg></div><div class="controls shape-buttons">${['花瓣','圆形','菱形'].map((t,i)=>`<button data-shape="${i}" aria-pressed="${i===0}">${t}</button>`).join('')}</div></div>${foot('A living visual identity','001 / 003')}`;
 ```
 
 ## 依赖和资源

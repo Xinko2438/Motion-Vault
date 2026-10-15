@@ -1,9 +1,9 @@
 {
-  "runId": "7ffa6e14-7bb6-4496-821e-6fc3de2cc6fc",
-  "startedAt": "2026-10-09T02:11:36.263Z",
-  "at": "2026-10-09T02:11:50.366Z",
+  "runId": "a52292c7-a4c1-4cc3-85ce-00b9ad4f5784",
+  "startedAt": "2026-10-15T14:48:17.366Z",
+  "at": "2026-10-15T14:48:36.221Z",
   "live": false,
-  "formalHash": "90a9b668235040ac0acae48cd8b6f4cc47657f5954375186593930de037fac03",
+  "formalHash": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
   "passed": 31,
   "total": 31,
   "checks": [
@@ -67,7 +67,7 @@
           "transform": "none"
         },
         "after": {
-          "opacity": "0.9956",
+          "opacity": "0.9955",
           "visibility": "visible",
           "transform": "none"
         }
@@ -237,7 +237,7 @@
       "pass": true,
       "detail": [
         {
-          "href": "http://127.0.0.1:17236/motion-vault-icon.ico?v=202602b98370ac8e",
+          "href": "http://127.0.0.1:60326/motion-vault-icon.ico?v=202602b98370ac8e",
           "corners": [
             0,
             0,
@@ -247,7 +247,7 @@
           "center": 255
         },
         {
-          "href": "http://127.0.0.1:17236/motion-vault-icon.svg?v=202602b98370ac8e",
+          "href": "http://127.0.0.1:60326/motion-vault-icon.svg?v=202602b98370ac8e",
           "corners": [
             0,
             0,

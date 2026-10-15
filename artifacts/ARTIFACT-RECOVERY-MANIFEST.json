@@ -1,0 +1,89 @@
+{
+    "schemaVersion":  "ai-native.artifact-recovery-manifest.v1",
+    "entityId":  "project.design-reference-library",
+    "artifacts":  [
+                      {
+                          "artifactId":  "artifact.design-reference-library.68d060417f0ed35d",
+                          "entityId":  "project.design-reference-library",
+                          "title":  "Motion Vault 正式融合33项动效",
+                          "semanticRole":  "primary_code",
+                          "lifecycleStatus":  "proposed",
+                          "logicalRelativePath":  "web/index.html",
+                          "currentLocation":  {
+                                                  "kind":  "project_relative",
+                                                  "locator":  "web/index.html",
+                                                  "portable":  true
+                                              },
+                          "sha256":  "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+                          "byteLength":  263723,
+                          "technicalState":  "not_checked",
+                          "semanticState":  "pending_user_review",
+                          "acceptanceState":  "not_ready",
+                          "qualityGateRefs":  [
+
+                                              ],
+                          "lineageRefs":  [
+
+                                          ],
+                          "bodyBackupStatus":  "missing",
+                          "backup":  {
+                                         "class":  "none",
+                                         "locator":  "",
+                                         "verifiedSha256":  ""
+                                     },
+                          "restore":  {
+                                          "destinationRelativePath":  "web/index.html",
+                                          "instructions":  [
+                                                               "Restore the declared project-relative file."
+                                                           ],
+                                          "verification":  [
+                                                               "Verify SHA-256 after restore."
+                                                           ]
+                                      },
+                          "bodyAvailability":  "present",
+                          "summary":  "33项动效已融合进原画廊，保留62项正式与52项下架状态；正式测试和4380同步通过。"
+                      },
+                      {
+                          "artifactId":  "artifact.design-reference-library.540775bac9a3dad4",
+                          "entityId":  "project.design-reference-library",
+                          "title":  "本次发布、验收与回退记录",
+                          "semanticRole":  "supporting_document",
+                          "lifecycleStatus":  "proposed",
+                          "logicalRelativePath":  "lineage/current/RESULT.md",
+                          "currentLocation":  {
+                                                  "kind":  "project_relative",
+                                                  "locator":  "lineage/current/RESULT.md",
+                                                  "portable":  true
+                                              },
+                          "sha256":  "3c96292708d16d8b2289b386480fcb823dee440ebde195a29033ad2277cd3c5a",
+                          "byteLength":  2324,
+                          "technicalState":  "not_checked",
+                          "semanticState":  "pending_user_review",
+                          "acceptanceState":  "not_ready",
+                          "qualityGateRefs":  [
+
+                                              ],
+                          "lineageRefs":  [
+
+                                          ],
+                          "bodyBackupStatus":  "missing",
+                          "backup":  {
+                                         "class":  "none",
+                                         "locator":  "",
+                                         "verifiedSha256":  ""
+                                     },
+                          "restore":  {
+                                          "destinationRelativePath":  "lineage/current/RESULT.md",
+                                          "instructions":  [
+                                                               "Restore the declared project-relative file."
+                                                           ],
+                                          "verification":  [
+                                                               "Verify SHA-256 after restore."
+                                                           ]
+                                      },
+                          "bodyAvailability":  "present",
+                          "parentArtifactId":  "artifact.design-reference-library.68d060417f0ed35d",
+                          "summary":  "记录正式发布、真实浏览器验收、当前证据与Git回退基线。"
+                      }
+                  ]
+}

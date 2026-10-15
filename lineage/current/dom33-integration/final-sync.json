@@ -1,0 +1,97 @@
+{
+  "verified": true,
+  "checkOnly": true,
+  "applicationCount": 1,
+  "canonicalEntry": "motion-vault.html",
+  "legacyCandidateRedirect": true,
+  "redirectSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "formalCount": 60,
+  "candidateCount": 54,
+  "localCandidateCount": 54,
+  "assetFiles": 5279,
+  "copyChecks": 15858,
+  "httpChecks": 13,
+  "formalSha256": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f",
+  "candidateSha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09",
+  "publicCatalogueSha256": "7aeabfc1137bd362745061d20b0fc65b42246364c997d2faa5a6c21184955a1c",
+  "http": [
+    {
+      "path": "motion-vault-icon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "sha256": "7728179db81aa983233ea95420ec7b8c9b7ac6016ee2abd4afa9ed01235da232"
+    },
+    {
+      "path": "motion-vault-icon.ico",
+      "status": 200,
+      "type": "image/vnd.microsoft.icon",
+      "sha256": "5ee7516464abb039cb95e40a80d060b27046e796b2c208f236c9cd2f2873eea1"
+    },
+    {
+      "path": "motion-vault.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "2491c0a526b7014aee97e936bc56969cc0345b8509b06cdd69e2facae2ffbc7f"
+    },
+    {
+      "path": "motion-vault-catalog.json",
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "sha256": "7aeabfc1137bd362745061d20b0fc65b42246364c997d2faa5a6c21184955a1c"
+    },
+    {
+      "path": "motion-vault-candidates.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "fffe890942babcff05c1ff4d7f8340c70b81f830c8a02c41928ac5c5ccae1a09"
+    },
+    {
+      "path": "motion-vault-candidate-catalog.json",
+      "status": 200,
+      "type": "application/json; charset=utf-8",
+      "sha256": "b6e46da7ef98abdd22c5cc7ad568125cb259e7eacf199895d9c657f770bee32b"
+    },
+    {
+      "path": "motion-vault-assets/shared/runtime.mjs",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "sha256": "31fd3f9a83f98cc6e335e98692be49e07067019aa7e0e03d20d39b693d87b12d"
+    },
+    {
+      "path": "motion-vault-assets/shared/runtime.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "sha256": "b036290db854327585c36e395682f66ac835ef620f50a8b490614c7754a5b96c"
+    },
+    {
+      "path": "motion-vault-assets/online-lens/DESIGN.md",
+      "status": 200,
+      "type": "text/markdown; charset=utf-8",
+      "sha256": "7162983ba76fd4e3f6472a696cf8df301c930f8eb87ca14023306f7e9a55eee8"
+    },
+    {
+      "path": "motion-vault-assets/online-lens/poster.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "sha256": "084bb2a118088f0170c58a420db9ac40b0fb0d1f5b2fd874c6e7acd13d75e9ee"
+    },
+    {
+      "path": "motion-vault-assets/online-contours/preview.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "sha256": "f5b5bc7b7d8e40eb0065b80be65dfadc86404a67e5a537b08701b80cbec62617"
+    },
+    {
+      "path": "motion-vault-assets/curated-rounded-menu/run/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "82502961ba01c3cc3a8479b07a56c6daeb00feb40e268aaa1ad8e7f76a66bb4d"
+    },
+    {
+      "path": "motion-vault-assets/curated-rounded-menu/run/effect.js",
+      "status": 200,
+      "type": "text/javascript; charset=utf-8",
+      "sha256": "d506d6fc4d2e5ae0f1a603875c6a4e1c457364d721c24bfa02553d90af200c75"
+    }
+  ]
+}

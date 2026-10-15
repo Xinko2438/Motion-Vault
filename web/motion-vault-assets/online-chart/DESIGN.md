@@ -12,7 +12,9 @@
 
 在两组演示数据间切换，柱体、数值与折线连续变化，类别位置保持稳定。
 
-分析面板、比较报告、数据筛选后的状态更新。
+六周观察数据面板，图表与总结左右分区；柱高、标签、插值比例始终一致，数据明确为样本。
+
+独立原创代码/SVG；所用栅格影像为2026-10-09通过OpenAI imagegen新制的说明图像，非实摄照片。详细来源与哈希见assets/independent-art/provenance.json。
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

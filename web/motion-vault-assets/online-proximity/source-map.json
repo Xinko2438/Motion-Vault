@@ -1,9 +1,16 @@
 [
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 275,
-    "endLine": 275,
+    "startLine": 276,
+    "endLine": 276,
     "code": " case'proximity':h=eSvg(`${eText('DISTANCE / WEIGHT',55,66,'e-eyebrow')}${[...'NEAR'].map((c,i)=>`<text class=\"e-letter\" x=\"${80+i*99}\" y=\"219\">${c}</text>`).join('')}${eText('靠近一点，笔画就会回应。',55,285,'e-small')}`);break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-new-scenes.js",
+    "startLine": 28,
+    "endLine": 28,
+    "code": " case 'proximity':return eSvg(`<path d=\"M43 112H497M43 224H497\" stroke=\"#212523\" stroke-opacity=\".22\" stroke-width=\".7\"/><path d=\"M63 104V231M471 104V231\" stroke=\"#212523\" stroke-opacity=\".18\" stroke-width=\".7\"/>${eText('NEAR / TYPE FOUNDRY',39,38,'vn-near-head')}${eText('VARIABLE SPECIMEN',366,38,'vn-near-meta')}${[...'NEAR'].map((c,i)=>`<text class=\"e-letter\" x=\"${80+i*99}\" y=\"219\">${c}</text>`).join('')}<circle cx=\"46\" cy=\"276\" r=\"5\" fill=\"#a43e31\"/>${eText('笔画随距离改变，字距保持不动。',61,280,'vn-near-note')}${eText('Aa',439,290,'vn-near-aa')}${eText('CAP HEIGHT',43,103,'vn-near-measure')}${eText('BASELINE',43,239,'vn-near-measure')}`);",
     "role": "authoritative_editable_source"
   }
 ]

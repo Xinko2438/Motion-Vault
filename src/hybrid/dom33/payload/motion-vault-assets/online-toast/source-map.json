@@ -1,0 +1,23 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 43,
+    "endLine": 43,
+    "code": " case'toast':html=`<div class=\"toast-action\"><div><span class=\"eyebrow\">演示工作区</span><h3>有序地，接收反馈。</h3></div><button data-action=\"add\">创建记录</button></div><div class=\"toast-footer\"><p data-role=\"toastcount\">3 条演示记录</p><button data-action=\"expand\" aria-pressed=\"false\">展开通知</button></div><div class=\"toast-zone\" data-expanded=\"false\" aria-label=\"通知列表\">${['记录 03 已创建','记录 02 已创建','记录 01 已创建'].map((t,i)=>toastMarkup(i,t)).join('')}</div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 153,
+    "endLine": 162,
+    "code": " if(key==='toast'){\n  const zone=q('.toast-zone'),expand=q('[data-action=expand]');let seq=3,records=[{id:3},{id:2},{id:1}],undoCount=0;\n  function render(){zone.innerHTML=records.map((r,i)=>toastMarkup(i,'记录 '+String(r.id).padStart(2,'0')+' 已创建').replace(`data-token=\"${i}\"`,`data-token=\"${r.id}\"`)).join('');q('[data-role=toastcount]').textContent=records.length+' 条演示记录'+(undoCount?' · 已撤销 '+undoCount+' 条':'');root.dataset.count=String(records.length);}\n  on(q('[data-action=add]'),'click',()=>{records.unshift({id:++seq});records=records.slice(0,3);render();const first=zone.firstElementChild;L.anim(first,[{opacity:0,translate:'0 20px'},{opacity:1,translate:'0 0'}],{duration:260,easing:'ease-out'});});on(expand,'click',()=>{let open=zone.dataset.expanded!=='true';zone.dataset.expanded=String(open);expand.setAttribute('aria-pressed',String(open));expand.textContent=open?'收起通知':'展开通知';});on(zone,'click',e=>{const b=e.target.closest('[data-action=undo]');if(!b)return;const id=Number(b.closest('[data-token]').dataset.token);records=records.filter(r=>r.id!==id);undoCount++;render();q('[data-action=add]').focus({preventScroll:true});});render();\n }\n if(key==='slider'){\n  const area=q('.elastic-area'),track=q('.elastic-track'),fill=q('.elastic-fill');let value=64,drag=null;\n  function draw(){fill.style.width=value+'%';q('output').textContent=String(Math.round(value));area.setAttribute('aria-valuenow',String(Math.round(value)));root.dataset.value=value.toFixed(1);}\n  function update(px){let r=area.getBoundingClientRect(),raw=(px-r.left)/r.width,valuePx=clamp(raw,0,1);value=valuePx*100;const over=(raw-valuePx)*r.width;let pull=reduce.matches?0:Math.sign(over)*28*(1-Math.exp(-Math.abs(over)/90));track.style.transform=`translateX(${pull*.5}px) scaleX(${1+Math.abs(pull)/r.width}) scaleY(${1-Math.abs(pull)/250})`;draw();}\n  on(area,'pointerdown',e=>{if(e.button!==0)return;drag=e.pointerId;area.focus({preventScroll:true});area.setPointerCapture(e.pointerId);track.style.transition='none';update(e.clientX);});on(area,'pointermove',e=>{if(drag===e.pointerId)update(e.clientX);});function end(e){if(drag===e.pointerId){drag=null;track.style.transition='';track.style.transform='none';}}on(area,'pointerup',end);on(area,'pointercancel',end);on(area,'lostpointercapture',end);on(area,'keydown',e=>{const delta={ArrowRight:1,ArrowUp:1,ArrowLeft:-1,ArrowDown:-1,PageUp:10,PageDown:-10};if(e.key in delta){e.preventDefault();value=clamp(value+delta[e.key],0,100);draw();}else if(e.key==='Home'||e.key==='End'){e.preventDefault();value=e.key==='Home'?0:100;draw();}});draw();",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 18,
+    "endLine": 18,
+    "code": " case 'toast':return `${eyebrow('EDITION / PROJECT DESK','LOCAL WORKSPACE')}<div class=\"toast-action\"><div><span class=\"eyebrow\">ISSUE 04 — IN PROGRESS</span><h3>Ready for a new chapter.</h3></div><button data-action=\"add\">创建记录 ＋</button></div><div class=\"ad-toast-project\"><div class=\"ad-mini-cover\">E<br><small>EDITION 04</small></div><div><small>CURRENT PROJECT</small><strong>Material matters</strong><span>封面与内页 / 本地演示</span></div></div><div class=\"toast-footer\"><p data-role=\"toastcount\">3 条演示记录</p><button data-action=\"expand\" aria-pressed=\"false\">展开通知</button></div><div class=\"toast-zone\" data-expanded=\"false\" aria-label=\"通知列表\">${['封面样张已就绪','内页版式已保存','色彩方案已更新'].map((t,i)=>`<div class=\"toast\" style=\"--i:${i}\" data-token=\"${i}\"><div><strong>${t}</strong><small>EDITION 04 · 本地演示记录</small></div><button data-action=\"undo\" aria-label=\"撤销${t}\">撤销</button></div>`).join('')}</div>`;",
+    "role": "authoritative_editable_source"
+  }
+]

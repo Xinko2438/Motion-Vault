@@ -14,6 +14,8 @@
 
 为声音提供直观的视觉在场感，确认音频正在正常输出。
 
+
+
 ## 运动与交互关系
 
 transform: scaleY(calc(var(--freq))); transform-origin: bottom;
@@ -40,4 +42,4 @@ transform: scaleY(calc(var(--freq))); transform-origin: bottom;
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

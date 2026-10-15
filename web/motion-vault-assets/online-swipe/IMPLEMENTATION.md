@@ -13,19 +13,19 @@ effect.dispose();
 
 ## 维护入口
 
-实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。shared/runtime.mjs 是构建产物，不应直接修改。当前源码目录是唯一修改入口。
+实际维护 src/hybrid/modern-engine.js、src/hybrid/legacy-engine.js、src/hybrid/effect-styles.css 与 runtime-adapter.js；修改后运行 node scripts/build-hybrid.mjs build，再生成同版本预览并验收。共享的内容寻址 runtime 文件是构建产物，不应直接修改。当前源码目录是唯一修改入口。
 
 ## 核心源码摘录与原始定位
 
-以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.mjs；布局样式在 shared/runtime.css。
+以下是准确摘录，供定位，不冒称这些片段单独即可运行。完整执行路径为 entry.mjs → shared/runtime.eb7967a461d0.mjs；布局样式在 shared/runtime.88444c38f1d6.css。
 
-### src/hybrid/modern-engine.js:283-283
+### src/hybrid/modern-engine.js:284-284
 
 ```js
  case'swipe':h=`<span class="e-kicker">CONTEXT / 操作先退到内容背后</span><div class="e-swipe-shell"><div class="e-swipe-actions"><button data-swipe-action="标记">标记</button><button data-swipe-action="稍后">稍后</button></div><div class="e-swipe-item" tabindex="0" role="group" aria-label="可侧滑消息，左右键展开或收起"><div class="e-avatar">M</div><div><strong>一次小小的发现</strong><p>记录值得保留的交互。</p></div><small>09:41</small></div></div><div class="e-swipe-footer"><button data-swipe-toggle>展开操作</button><span class="e-swipe-result">向左拖动卡片</span></div>`;break;
 ```
 
-### src/hybrid/modern-engine.js:348-357
+### src/hybrid/modern-engine.js:349-358
 
 ```js
  if(key==='swipe'){
@@ -38,6 +38,12 @@ effect.dispose();
   function tick(now){if(!held)return;const p=clamp((now-started)/1000,0,1);draw(p);if(p<1)raf=L.frame(tick);else{done=true;held=false;b.dataset.done='true';q('.e-hold-label').textContent='已确认';q('.e-hold-status').textContent='已完成演示，没有执行实际操作。';}}
   function start(){if(held)return;L.cancel(raf);held=true;done=false;started=performance.now();b.dataset.done='false';q('.e-hold-label').textContent='保持按住';q('.e-hold-status').textContent='松开即可取消';raf=L.frame(tick);}
   function end(){if(!held)return;held=false;L.cancel(raf);if(!done){draw(0);q('.e-hold-label').textContent='按住确认';q('.e-hold-status').textContent='已取消，没有执行实际操作。';}}
+```
+
+### src/hybrid/modern-new-scenes.js:34-34
+
+```js
+ case 'swipe':return `<div class="vn-swipe-heading"><span>LISTEN LATER / 我的节目</span><h3>留给路上的声音。</h3><small>3 EPISODES</small></div><div class="e-swipe-shell"><div class="e-swipe-actions"><button data-swipe-action="已标记">☆<span>标记</span></button><button data-swipe-action="已加入稍后">◷<span>稍后</span></button></div><div class="e-swipe-item" tabindex="0" role="group" aria-label="可侧滑节目：城市的另一种声音。左右键展开或收起操作"><div class="e-avatar vn-swipe-cover"><span>FIELD<br>RADIO</span><i></i></div><div><strong>城市的另一种声音</strong><p>田野电台 · EP. 018</p></div><small>32:18<br>10 OCT</small></div></div><div class="vn-swipe-next"><span>019</span><strong>从一张唱片开始</strong><small>28:46</small></div><div class="e-swipe-footer"><button data-swipe-toggle>展开操作</button><span class="e-swipe-result" role="status">向左拖动节目卡片</span></div>`;
 ```
 
 ## 依赖和资源

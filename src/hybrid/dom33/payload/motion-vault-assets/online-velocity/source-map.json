@@ -1,0 +1,16 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 277,
+    "endLine": 277,
+    "code": " case'velocity':h=eSvg(`<path d=\"M65 170H475M270 60V280\" stroke=\"#c9c3d5\" stroke-dasharray=\"2 7\" fill=\"none\"/><g class=\"e-velocity-dot\"><ellipse rx=\"29\" ry=\"29\" fill=\"#a096bd\" fill-opacity=\".24\" stroke=\"#6f628d\" stroke-width=\"1.4\"/><circle r=\"3\" fill=\"#6f628d\"/></g>${eText('SLOW / FAST',42,48,'e-eyebrow')}${eText('方向与速度，由你决定。',42,309,'e-small')}`);break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-new-scenes.js",
+    "startLine": 29,
+    "endLine": 29,
+    "code": " case 'velocity':return `<div class=\"vn-velocity-photo\">${photo(4)}</div><div class=\"vn-velocity-copy\"><span>FIELD NOTES / 2026</span><h3>Coast.<br>Form.<br>Motion.</h3><p>地貌、尺度与移动的痕迹。</p></div><span class=\"vn-velocity-index\">SELECTED STUDIES<br>01 — 03</span>${eSvg(`<g class=\"e-velocity-dot\" transform=\"translate(270 170)\"><ellipse rx=\"21\" ry=\"21\" fill=\"#f36a35\"/><circle r=\"2.5\" fill=\"#241a14\"/></g>`)}${caption('指针速度 / 弹性响应','EXPLORE ↗','vn-velocity-foot')}`;",
+    "role": "authoritative_editable_source"
+  }
+]

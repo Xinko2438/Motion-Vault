@@ -1,0 +1,23 @@
+[
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 284,
+    "endLine": 284,
+    "code": " case'swipe':h=`<span class=\"e-kicker\">CONTEXT / 操作先退到内容背后</span><div class=\"e-swipe-shell\"><div class=\"e-swipe-actions\"><button data-swipe-action=\"标记\">标记</button><button data-swipe-action=\"稍后\">稍后</button></div><div class=\"e-swipe-item\" tabindex=\"0\" role=\"group\" aria-label=\"可侧滑消息，左右键展开或收起\"><div class=\"e-avatar\">M</div><div><strong>一次小小的发现</strong><p>记录值得保留的交互。</p></div><small>09:41</small></div></div><div class=\"e-swipe-footer\"><button data-swipe-toggle>展开操作</button><span class=\"e-swipe-result\">向左拖动卡片</span></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-engine.js",
+    "startLine": 349,
+    "endLine": 358,
+    "code": " if(key==='swipe'){\n  const item=q('.e-swipe-item');let x=0,drag=null;function draw(){item.style.transform=`translateX(${x}px)`;root.dataset.offset=x.toFixed(1);q('[data-swipe-toggle]').textContent=x<-60?'收起操作':'展开操作';}function snap(v){const from=x;x=v;draw();L.anim(item,[{transform:`translateX(${from}px)`},{transform:`translateX(${x}px)`}],{duration:260,easing:'cubic-bezier(.2,.9,.2,1)'});}\n  on(item,'pointerdown',e=>{if(e.button!==0)return;item.getAnimations().forEach(a=>a.cancel());drag={id:e.pointerId,p:localPoint(e,scene).x,x};item.focus({preventScroll:true});item.setPointerCapture(e.pointerId);});on(item,'pointermove',e=>{if(drag?.id!==e.pointerId)return;x=clamp(drag.x+localPoint(e,scene).x-drag.p,-154,0);draw();});const end=e=>{if(drag?.id!==e.pointerId)return;drag=null;snap(x<-62?-154:0);};for(const e of ['pointerup','pointercancel','lostpointercapture'])on(item,e,end);on(item,'keydown',e=>{if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();snap(e.key==='ArrowLeft'?-154:0);}});on(q('[data-swipe-toggle]'),'click',()=>snap(x<-60?0:-154));all('[data-swipe-action]').forEach(b=>on(b,'click',()=>{q('.e-swipe-result').textContent=b.dataset.swipeAction+'，仅演示';snap(0);}));draw();return;\n }\n if(key==='hold'){\n  const b=q('.e-hold-button');let started=0,raf=0,held=false,done=false;\n  function draw(v){q('.e-hold-fill').style.transform=`scaleX(${v})`;q('.e-hold-progress').setAttribute('aria-valuenow',Math.round(v*100));root.dataset.progress=v.toFixed(3);}\n  function tick(now){if(!held)return;const p=clamp((now-started)/1000,0,1);draw(p);if(p<1)raf=L.frame(tick);else{done=true;held=false;b.dataset.done='true';q('.e-hold-label').textContent='已确认';q('.e-hold-status').textContent='已完成演示，没有执行实际操作。';}}\n  function start(){if(held)return;L.cancel(raf);held=true;done=false;started=performance.now();b.dataset.done='false';q('.e-hold-label').textContent='保持按住';q('.e-hold-status').textContent='松开即可取消';raf=L.frame(tick);}\n  function end(){if(!held)return;held=false;L.cancel(raf);if(!done){draw(0);q('.e-hold-label').textContent='按住确认';q('.e-hold-status').textContent='已取消，没有执行实际操作。';}}",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-new-scenes.js",
+    "startLine": 34,
+    "endLine": 34,
+    "code": " case 'swipe':return `<div class=\"vn-swipe-heading\"><span>LISTEN LATER / 我的节目</span><h3>留给路上的声音。</h3><small>3 EPISODES</small></div><div class=\"e-swipe-shell\"><div class=\"e-swipe-actions\"><button data-swipe-action=\"已标记\">☆<span>标记</span></button><button data-swipe-action=\"已加入稍后\">◷<span>稍后</span></button></div><div class=\"e-swipe-item\" tabindex=\"0\" role=\"group\" aria-label=\"可侧滑节目：城市的另一种声音。左右键展开或收起操作\"><div class=\"e-avatar vn-swipe-cover\"><span>FIELD<br>RADIO</span><i></i></div><div><strong>城市的另一种声音</strong><p>田野电台 · EP. 018</p></div><small>32:18<br>10 OCT</small></div></div><div class=\"vn-swipe-next\"><span>019</span><strong>从一张唱片开始</strong><small>28:46</small></div><div class=\"e-swipe-footer\"><button data-swipe-toggle>展开操作</button><span class=\"e-swipe-result\" role=\"status\">向左拖动节目卡片</span></div>`;",
+    "role": "authoritative_editable_source"
+  }
+]

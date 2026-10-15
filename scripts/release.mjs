@@ -1,4 +1,5 @@
 import {verifyExpansionIntegration} from './expansion-integration-gate.mjs';
+import {verifyReviewedCandidate,readReviewedPlan,verifyPublicationTarget} from './artifact-phase.mjs';
 import {readFile,writeFile,mkdir,readdir,rename,rm,open} from 'node:fs/promises';import path from 'node:path';import {execFileSync} from 'node:child_process';import {randomUUID} from 'node:crypto';
 import {project,root,sha,put,exists,guard,assertUnifiedGallery} from './build-hybrid.mjs';
 const evidence=path.join(project,'lineage/current'),hub=path.resolve(project,'../media-knowledge-hub');
@@ -50,6 +51,8 @@ async function withPublishLock(){
 
 async function batches(values,fn){for(let n=0;n<values.length;n+=8)await Promise.all(values.slice(n,n+8).map(fn));}
 async function publish(owner){
+ const reviewed=await exists(path.join(project,'src/hybrid/dom33/promotion-plan.json'))?await readReviewedPlan(project):null;
+ if(reviewed)await verifyReviewedCandidate(project,root,{staged:true});
  const priorReceiptPath=path.join(evidence,'install-receipt.json');
  if(await exists(priorReceiptPath)){const prior=JSON.parse(await readFile(priorReceiptPath,'utf8'));if(prior.runId===owner.runId)throw new Error('This publication runId already completed; no files changed. Use status or sync --check.');}
  const cat=JSON.parse(await readFile(path.join(root,'catalog.json'),'utf8')),candidate=JSON.parse(await readFile(path.join(root,'candidate-catalog.json'),'utf8'));
@@ -68,7 +71,10 @@ async function publish(owner){
  await batches(assetPaths,async f=>{const bytes=await readFile(path.join(root,'motion-vault-assets',f));assertPublishableAssetBytes(f,bytes);payload.set('motion-vault-assets/'+f,bytes);});
  const endpoints=[['motion-vault.html','web/index.html','index.html'],['motion-vault-candidates.html','candidates/curated-originals/index.html','candidates.html'],['motion-vault-catalog.json','web/catalog.json','catalog.json'],['motion-vault-candidate-catalog.json','web/candidate-catalog.json','candidate-catalog.json'],['motion-vault-icon.svg','web/motion-vault-icon.svg','motion-vault-icon.svg'],['motion-vault-icon.ico','web/motion-vault-icon.ico','motion-vault-icon.ico']];
  for(const [url,,src]of endpoints)payload.set(url,await readFile(path.join(root,src)));
- const changes=[],targets=new Set();const plan=async(owner,rel,b)=>{const p=path.resolve(owner,rel);if(!p.startsWith(owner+path.sep))throw new Error('Out of publish scope');const normalized=process.platform==='win32'?path.normalize(p).toLowerCase():path.normalize(p);if(targets.has(normalized))throw new Error('Duplicate publication target '+p);targets.add(normalized);const old=await exists(p)?await readFile(p):null;if(old&&sha(old)===sha(b))return;changes.push({p,old,b});};
+ const changes=[],targets=new Set();const plan=async(owner,rel,b)=>{const p=path.resolve(owner,rel);if(!p.startsWith(owner+path.sep))throw new Error('Out of publish scope');const normalized=process.platform==='win32'?path.normalize(p).toLowerCase():path.normalize(p);if(targets.has(normalized))throw new Error('Duplicate publication target '+p);targets.add(normalized);const old=await exists(p)?await readFile(p):null;
+ if(reviewed){const asset=rel.indexOf('motion-vault-assets/'),name=asset>=0?rel.slice(asset):rel.endsWith('motion-vault-candidate-catalog.json')?'candidate-catalog.json':rel.endsWith('motion-vault-catalog.json')?'catalog.json':rel.endsWith('motion-vault-candidates.html')?'candidates.html':rel.endsWith('motion-vault.html')||rel==='web/index.html'||rel==='web/standalone/index.html'?'index.html':rel.slice(rel.lastIndexOf('/')+1);
+ const before=name==='candidates.html'?sha(await readFile(path.join(project,'candidates/curated-originals/index.html'))):reviewed.baselineInventory[name];verifyPublicationTarget({beforeHash:before??null,afterHash:sha(b),actualHash:old?sha(old):null});}
+ if(old&&sha(old)===sha(b))return;changes.push({p,old,b});};
  await batches([...payload],async([url,b])=>plan(project,url.startsWith('motion-vault-assets/')?'web/'+url:endpoints.find(e=>e[0]===url)[1],b));
  for(const prefix of ['web/standalone','web/public/assets','web/dist/assets']){await guard(prefix+'/motion-vault-assets','automation',hub);await batches([...payload],async([url,b])=>plan(hub,prefix+'/'+(prefix==='web/standalone'&&url==='motion-vault.html'?'index.html':url),b));}
  const applied=[];const atomic=async(p,b,expected)=>{await mkdir(path.dirname(p),{recursive:true});const temporary=p+'.next-'+owner.pid+'-'+randomUUID();try{await writeFile(temporary,b,{flag:'wx'});if(await fileHash(p)!==expected)throw new Error('File changed before atomic replacement '+p);await rename(temporary,p);}finally{await rm(temporary,{force:true});}};

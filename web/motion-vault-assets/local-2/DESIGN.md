@@ -12,7 +12,9 @@
 
 内容加载期间，占位块带有柔和半透明流光匀速掠过。
 
-填补接口等待空白，安抚数据丢失焦虑，明确表示系统在运转。
+建筑影像档案卡，骨架层与相同尺寸的完整内容层共享网格，演示加载/完成状态交接；不依赖伪造网络请求。
+
+
 
 ## 运动与交互关系
 
@@ -40,4 +42,4 @@ background: linear-gradient(90deg, rgba(125,125,125,0.1) 25%, rgba(125,125,125,0
 
 ## Agent 阅读顺序
 
-先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口，shared/runtime.mjs 为共用运行引擎。生产任务采用前仍需明确选定，不直接复制审查意见。
+先读本文件，再读 IMPLEMENTATION.md 与 parameters.json；运行 index.html 对照实际效果。entry.mjs 是公开执行入口；asset.json 的 core/style 指向内容寻址的共享运行引擎和样式。生产任务采用前仍需明确选定，不直接复制审查意见。

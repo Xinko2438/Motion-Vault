@@ -1,9 +1,16 @@
 [
   {
     "path": "src/hybrid/modern-engine.js",
-    "startLine": 190,
-    "endLine": 190,
+    "startLine": 191,
+    "endLine": 191,
     "code": " case'ring':label='六个片段 / 一段环行';figure=`<div class=\"x-ring-space\"><div class=\"x-ring\">${Array.from({length:6},(_,i)=>`<div class=\"x-ring-card\" style=\"transform:rotateY(${i*60}deg) translateZ(155px)\">${art(i)}<span>形态 / 0${i+1}</span></div>`).join('')}</div></div>`;break;",
+    "role": "authoritative_editable_source"
+  },
+  {
+    "path": "src/hybrid/modern-scenes.js",
+    "startLine": 20,
+    "endLine": 20,
+    "code": " case 'ring':return extra('VOLUME / AN EXHIBITION IN SIX PARTS',`<div class=\"ad-ring-word\" aria-hidden=\"true\">VOLUME</div><div class=\"x-ring-space\"><div class=\"x-ring\">${Array.from({length:6},(_,i)=>`<div class=\"x-ring-card\" style=\"transform:rotateY(${i*60}deg) translateZ(162px)\">${sceneArt(i,{portrait:true})}<span>${titles[i]} <b>0${i+1}</b></span></div>`).join('')}</div></div><div class=\"ad-ring-caption\">Six objects. One point of view.</div>`);",
     "role": "authoritative_editable_source"
   }
 ]
